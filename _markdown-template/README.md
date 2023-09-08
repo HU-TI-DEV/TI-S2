@@ -2,29 +2,31 @@
 
 # Markdown: Syntax [](title-id)
 
-## v0.1.0 [](version-id)
-
 ### Table of contents [](toc-id)
 
--   [Overview](#Overview)
-    -   [Philosophy](#Philosophy)
--   [Block Elements](#Block-Elements)
-    -   [Paragraphs and Line Breaks](#Paragraphs-and-Line-Breaks)
-    -   [Headers](#Headers)
-    -   [Blockquotes](#Blockquotes)
-    -   [Lists](#Lists)
-    -   [Code Blocks](#Code-Blocks)
--   [Span Elements](#Span-Elements)
-    -   [Links](#Links)
-    -   [Emphasis](#Emphasis)
-    -   [Code](#code)
-    -   [Images](#Images)
--   [Tables](#Tables)
+- [Markdown: Syntax ](#markdown-syntax-)
+    - [Table of contents ](#table-of-contents-)
+  - [Overview](#overview)
+    - [Philosophy](#philosophy)
+  - [Block Elements](#block-elements)
+    - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+    - [Headers](#headers)
+    - [Blockquotes](#blockquotes)
+    - [Lists](#lists)
+    - [Code Blocks](#code-blocks)
+  - [Span Elements](#span-elements)
+    - [Links](#links)
+    - [Emphasis](#emphasis)
+    - [Code](#code)
+  - [Links](#links-1)
+  - [Images](#images)
+  - [Code and syntax highlighting](#code-and-syntax-highlighting)
+  - [Tables](#tables)
+  - [References](#references)
 
 ---
 
-**Note:** This document is itself written using Markdown; you
-can [see the source for it by adding '.text' to the URL](/projects/markdown/syntax.text).
+**v0.1.0 [](version-id)** This document is a template for our TI S2 documentation and example code. Harm Snippe[](author-id).
 
 ---
 
@@ -426,4 +428,5 @@ Markdown | Less | Pretty
 
 ## References
 
-    - Markdown example taken from (https://github.com/PavelLaptev/markdown-theme-shell/tree/master)
+- Markdown example taken from (<https://github.com/PavelLaptev/markdown-theme-shell/tree/master>)
+- Markdown cheat-sheet (<https://www.markdownguide.org/cheat-sheet/>)

@@ -6,7 +6,7 @@
 
 - [Communicatieprotocol: 1-Wire ](#communicatieprotocol-1-wire-)
     - [Inhoud ](#inhoud-)
-  - [Overview](#overview)
+  - [Een introductie](#een-introductie)
     - [Philosophy](#philosophy)
   - [Block Elements](#block-elements)
     - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
@@ -26,11 +26,11 @@
 
 ---
 
-**v0.1.0** begin document voor 1-Wire uitleg en voorbeeld code.
+**v0.1.0 [](version-id)** Start document voor 1-Wire uitleg en voorbeeld code. Harm Snippe[](author-id).
 
 ---
 
-## Overview
+## Een introductie
 
 ### Philosophy
 
