@@ -29,19 +29,19 @@
 1-Wire is een communicatieprotocol wat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensor toepassingen zoals het meten van temperatuur. Dit bus systeem is ontwikkeld door Dallas Semiconductor Corporation daarom spreken we ook wel van Dallas 1-Wire. Bij definitie gebruikt 1-Wire slechts een enkele lijn voor voeding en dataoverdracht.
 
 ### Bus systeem
-Een bus is in de computertecniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
+Een bus is in de computertechniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
 
 ### Serieel protocol
-Een serieel protocol voor gegevensoverdracht stuurt alle bits informatie één voor één door. Omdat er minder signalen gelijktijdig worden verzonden is een goedkopere kabel mogelijk. Voor de komst van USB(universal serial bus) waren de meeste computers uitgerust met een seriele interface voor het aansluiten van bijvoorbeeld randaparatuur zoals muis en toetsenbord.
+Een serieel protocol voor gegevensoverdracht stuurt alle bits informatie één voor één door. Omdat er minder signalen gelijktijdig worden verzonden is een goedkopere kabel mogelijk. Voor de komst van USB(universal serial bus) waren de meeste computers uitgerust met een seriele interface voor het aansluiten van bijvoorbeeld randapparatuur zoals muis en toetsenbord.
 
 ### Parallel protocol
-Bij parallele communicatie worden er zoveel mogelijk bits gelijktijdig verzonden over een verzameling van kabels. Gegevensoverdracht is wel hoger maar tevens complexer omdat data dat over verschillende kabels gaat synchroon moet blijven. Seriele communcatie is daardoor zeer populair gebleven ook omdat daar geen grote connectoren voor nodig zijn die ook nog eens makkelijk kunnen beschadigen.
+Bij parallelle communicatie worden er zoveel mogelijk bits gelijktijdig verzonden over een verzameling van kabels. Gegevensoverdracht is wel hoger, maar bovendien complexer omdat data dat over verschillende kabels gaat synchroon moet blijven. Seriële communicatie is daardoor zeer populair gebleven ook omdat daar geen grote connectoren voor nodig zijn die ook nog eens makkelijk kunnen beschadigen.
 
     PCI-E
     PCI Express is een vorm van parallele communicatie. Daar heeft echter elke data lijn een eigen clock-signaal. Er kan dus over meerdere kabels informatie verzonden worden zonder dat er synchronisatie issues ontstaan.
 
 ### 1-Wire
-1-Wire is een twee draads bus systeem. Er is een draad nodig voor de data communicatie en mogelijk de voeding en een andre draad wordt gebruikt als aarde. Elk component in een 1-Wire bus systeem heeft een uniek 64 bit addresseerbaar adres om sensor data op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
+1-Wire is een twee draads bus systeem. Er is een draad nodig voor de data communicatie en mogelijk de voeding en een andere draad wordt gebruikt als aarde. Elk component in een 1-Wire bus systeem heeft een uniek 64 bit adresseerbaar adres om sensor data op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
 
 Er zijn twee mogelijke manieren om sensoren aan te sluiten. In 'Parasite' mode is de data (DQ) lijn tevens de voedingsspanning van 5V+.
 
@@ -50,7 +50,7 @@ Er zijn twee mogelijke manieren om sensoren aan te sluiten. In 'Parasite' mode i
 Bij grote netwerken wordt een derde draad gebruikt voor het leveren van de voedingsspanning. Dit is de 'regular' of non parasatic mode.
 
 ### Daisy chain topologie
-Wanneer je sensoren steeds aan elkaar doorverbind dan heb je een Daisy chain toplogie. De sensoren staan als het ware in serie met elkaar.
+Wanneer je sensoren steeds aan elkaar doorverbind dan heb je een Daisy chain topologie. De sensoren staan als het ware in serie met elkaar.
 
 ### Ster topologie
 Zoals de naam al aangeeft zijn de sensoren bij een ster topologie met 1 centraal punt gekoppeld. De sensoren in het netwerk staan parallel verbonden met de centrale 1-Wire controller.
