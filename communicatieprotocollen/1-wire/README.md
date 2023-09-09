@@ -1,28 +1,22 @@
 ![logo](img/1-Wire-Protocol.png) [](logo-id)
 
-# Communicatieprotocol: 1-Wire [](title-id)
+# Communicatieprotocol: 1-Wire[](title-id)
 
-### Inhoud [](toc-id)
+### Inhoud[](toc-id)
 
-- [Communicatieprotocol: 1-Wire ](#communicatieprotocol-1-wire-)
-    - [Inhoud ](#inhoud-)
+- [Communicatieprotocol: 1-Wire](#communicatieprotocol-1-wire)
+    - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
-    - [Philosophy](#philosophy)
-  - [Block Elements](#block-elements)
-    - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-    - [Headers](#headers)
-    - [Blockquotes](#blockquotes)
-    - [Lists](#lists)
-    - [Code Blocks](#code-blocks)
-  - [Span Elements](#span-elements)
-    - [Links](#links)
-    - [Emphasis](#emphasis)
-    - [Code](#code)
-  - [Links](#links-1)
-  - [Images](#images)
-  - [Code and syntax highlighting](#code-and-syntax-highlighting)
-  - [Tables](#tables)
-  - [References](#references)
+    - [Bus systeem](#bus-systeem)
+    - [Serieel protocol](#serieel-protocol)
+    - [Parallel protocol](#parallel-protocol)
+    - [1-Wire](#1-wire)
+    - [Daisy chain topologie](#daisy-chain-topologie)
+    - [Ster topologie](#ster-topologie)
+    - [DS18B20 temperatuursensor](#ds18b20-temperatuursensor)
+  - [De schakeling](#de-schakeling)
+  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
+  - [Referenties](#referenties)
 
 ---
 
@@ -32,400 +26,82 @@
 
 ## Een introductie
 
-### Philosophy
+1-Wire is een communicatieprotocol wat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensor toepassingen zoals het meten van temperatuur. Dit bus systeem is ontwikkeld door Dallas Semiconductor Corporation daarom spreken we ook wel van Dallas 1-Wire. Bij definitie gebruikt 1-Wire slechts een enkele lijn voor voeding en dataoverdracht.
 
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+### Bus systeem
+Een bus is in de computertecniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+### Serieel protocol
+Een serieel protocol voor gegevensoverdracht stuurt alle bits informatie één voor één door. Omdat er minder signalen gelijktijdig worden verzonden is een goedkopere kabel mogelijk. Voor de komst van USB(universal serial bus) waren de meeste computers uitgerust met een seriele interface voor het aansluiten van bijvoorbeeld randaparatuur zoals muis en toetsenbord.
 
-## Block Elements
+### Parallel protocol
+Bij parallele communicatie worden er zoveel mogelijk bits gelijktijdig verzonden over een verzameling van kabels. Gegevensoverdracht is wel hoger maar tevens complexer omdat data dat over verschillende kabels gaat synchroon moet blijven. Seriele communcatie is daardoor zeer populair gebleven ook omdat daar geen grote connectoren voor nodig zijn die ook nog eens makkelijk kunnen beschadigen.
 
-### Paragraphs and Line Breaks
+    PCI-E
+    PCI Express is een vorm van parallele communicatie. Daar heeft echter elke data lijn een eigen clock-signaal. Er kan dus over meerdere kabels informatie verzonden worden zonder dat er synchronisatie issues ontstaan.
 
-A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line -- a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be indented with spaces or tabs.
+### 1-Wire
+1-Wire is een twee draads bus systeem. Er is een draad nodig voor de data communicatie en mogelijk de voeding en een andre draad wordt gebruikt als aarde. Elk component in een 1-Wire bus systeem heeft een uniek 64 bit addresseerbaar adres om sensor data op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
 
-The implication of the "one or more consecutive lines of text" rule is
-that Markdown supports "hard-wrapped" text paragraphs. This differs
-significantly from most other text-to-HTML formatters (including Movable
-Type's "Convert Line Breaks" option) which translate every line break
-character in a paragraph into a `<br />` tag.
+Er zijn twee mogelijke manieren om sensoren aan te sluiten. In 'Parasite' mode is de data (DQ) lijn tevens de voedingsspanning van 5V+.
 
-When you _do_ want to insert a `<br />` break tag using Markdown, you
-end a line with two or more spaces, then type return.
+    Bij sommige sensoren is het in dit geval noodzakelijk pin 3 en 1 te verbinden met een 100nF condensator.
 
-### Headers
+Bij grote netwerken wordt een derde draad gebruikt voor het leveren van de voedingsspanning. Dit is de 'regular' of non parasatic mode.
 
-Markdown supports two styles of headers, [Setext][1] and [atx][2].
+### Daisy chain topologie
+Wanneer je sensoren steeds aan elkaar doorverbind dan heb je een Daisy chain toplogie. De sensoren staan als het ware in serie met elkaar.
 
-Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.)
+### Ster topologie
+Zoals de naam al aangeeft zijn de sensoren bij een ster topologie met 1 centraal punt gekoppeld. De sensoren in het netwerk staan parallel verbonden met de centrale 1-Wire controller.
+ 
+### DS18B20 temperatuursensor
+Om temperatuur te meten kan je gebruik maken van DS18B20 temperatuursensor. Dit is een digitale sensor met een 1-Wire interface. De sensor komt in verschillende vormen in dit voorbeeld maken we gebruik van een waterdichte variant.
 
-### Blockquotes
+ De DS18B20 met drie poten lijkt erg op een [transistor](../elektronische-componenten/transistor/README.md) maar is dit niet. Let goed op wat je gebruikt.
 
-Markdown uses email-style `>` characters for blockquoting. If you're
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a `>` before every line:
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
->
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+## De schakeling
+De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel of wit. Rood is de voeding 5V, zwart naar ground en geel of wit is de data pin. Gebruik een pull-up weerstand voor de data pin. De signaal pin komt zo niet in een 'zwevende' staat. 
 
-Markdown allows you to be lazy and only put the `>` before the first
-line of a hard-wrapped paragraph:
+![img url](../1-wire/files/Arduino_DS18B20_probe_bb.png?raw=true "Schakeling voor de DS18B20")
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+- De 5V op de Arduino -> rood van de temperatuursensor
+- De pin 12 op de Arduino -> geel of wit temperatuursensor (signaal)
+- De GND op de Arduino -> zwart van de temperatuursensor
 
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of `>`:
+## Arduino voorbeeld code
 
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
+```arduino
+//1-Wire Arduino sketch for BS18B20 waterproof temperature sensor
 
-Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:
+#include <OneWire.h>
+#include <DallasTemperature.h>
 
-> ## This is a header.
->
-> 1.  This is the first list item.
-> 2.  This is the second list item.
->
-> Here's some example code:
->
->     return shell_exec("echo $input | $markdown_script");
+float temp = 0.0;
+int oneWireBus = 12;
+OneWire oneWire(oneWireBus);
+DallasTemperature sensors(&oneWire);
 
-Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.
+void setup() {
+  Serial.begin(9600);
+  Serial.println("1-Wire Arduino sketch for BS18B20 waterproof temperature sensor");
+  sensors.begin();
+}
 
-### Lists
+void loop() {
+  sensors.requestTemperatures();
+  temp = sensors.getTempCByIndex(0);
 
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
+  Serial.print("Temperature reading: ");
+  Serial.println(temp);
 
-Unordered lists use asterisks, pluses, and hyphens -- interchangably
--- as list markers:
-
--   Red
--   Green
--   Blue
-
-is equivalent to:
-
--   Red
--   Green
--   Blue
-
-and:
-
--   Red
--   Green
--   Blue
-
-Ordered lists use numbers followed by periods:
-
-1.  Bird
-2.  McHale
-3.  Parish
-
-It's important to note that the actual numbers you use to mark the
-list have no effect on the HTML output Markdown produces. The HTML
-Markdown produces from the above list is:
-
-If you instead wrote the list in Markdown like this:
-
-1.  Bird
-1.  McHale
-1.  Parish
-
-or even:
-
-3. Bird
-1. McHale
-1. Parish
-
-you'd get the exact same HTML output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don't have to.
-
-To make lists look nice, you can wrap items with hanging indents:
-
--   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
--   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
-
-But if you want to be lazy, you don't have to:
-
--   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
--   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
-
-List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
-or one tab:
-
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be
-lazy:
-
--   This is a list item with two paragraphs.
-
-        This is the second paragraph in the list item. You're
-
-    only required to indent the first line. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit.
-
--   Another item in the same list.
-
-To put a blockquote within a list item, the blockquote's `>`
-delimiters need to be indented:
-
--   A list item with a blockquote:
-
-    > This is a blockquote
-    > inside a list item.
-
-To put a code block within a list item, the code block needs
-to be indented _twice_ -- 8 spaces or two tabs:
-
--   A list item with a code block:
-
-        <code goes here>
-
-### Code Blocks
-
-Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both `<pre>` and `<code>` tags.
-
-To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab.
-
-This is a normal paragraph:
-
-    This is a code block.
-
-Here is an example of AppleScript:
-
-    tell application "Foo"
-        beep
-    end tell
-
-A code block continues until it reaches a line that is not indented
-(or the end of the article).
-
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
-
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
-
-Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it's also easy to use Markdown to write about Markdown's own syntax.
-
+  delay(5000);
+}
 ```
-tell application "Foo"
-    beep
-end tell
-```
+[Arduino bestand](../1-wire/files/Arduino_DS18B20_probe/Arduino_DS18B20_probe.ino) 
 
-## Span Elements
+## Referenties
 
-### Links
-
-Markdown supports two style of links: _inline_ and _reference_.
-
-In both styles, the link text is delimited by [square brackets].
-
-To create an inline link, use a set of regular parentheses immediately
-after the link text's closing square bracket. Inside the parentheses,
-put the URL where you want the link to point, along with an _optional_
-title for the link, surrounded in quotes. For example:
-
-This is [an example](http://example.com/) inline link.
-
-[This link](http://example.net/) has no title attribute.
-
-### Emphasis
-
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
-emphasis. Text wrapped with one `*` or `_` will be wrapped with an
-HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
-`<strong>` tag. E.g., this input:
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-### Code
-
-To indicate a span of code, wrap it with backtick quotes (`` ` ``).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:
-
-Use the `printf()` function.
-
-## Links
-
-    - [I'm an inline-style wiki-page link](Markdown Test Page)
-    - [I'm an inline-style link](https://www.google.com)
-    - [I'm a reference-style link][Arbitrary case-insensitive reference text]
-    - [You can use numbers for reference-style link definitions][1]
-
-    Or leave it empty and use the [link text itself]
-
-    URLs and URLs in angle brackets will automatically get turned into links.
-    http://www.example.com or <http://www.example.com> and sometimes
-    example.com (but not on Github, for example).
-
-    Some text to show that the reference links can follow later.
-
-    [arbitrary case-insensitive reference text]: https://www.mozilla.org
-    [1]: http://slashdot.org
-    [link text itself]: http://www.reddit.com
-
--   [I'm an inline-style wiki-page link](Markdown Test Page)
--   [I'm an inline-style external link](https://www.google.com)
-
--   [I'm a reference-style link][arbitrary case-insensitive reference text]
--   [You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later. Reference links only support full URL's, not internal wiki pagenames.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-
-    ![wiki inline img attachment](Markdown Behavior/markdown-solid.png "Markdown Logo Title")
-
-    ![img url](https://github.com/dcurtis/markdown-mark/blob/master/png/66x40.png?raw=true "Markdown Logo Title")
-
-![wiki inline img attachment](Markdown Behavior/markdown-solid.png "Markdown Logo Title")
-
-![img url](https://github.com/dcurtis/markdown-mark/blob/master/png/66x40.png?raw=true "Markdown Logo Title")
-
-Reference-style:
-
-    ![alt text markdown-logo][logo]
-
-    [logo]: https://github.com/dcurtis/markdown-mark/blob/master/png/66x40.png?raw=true "Markdown Logo Title"
-
-![alt text markdown-logo][logo]
-
-[logo]: https://github.com/dcurtis/markdown-mark/blob/master/png/66x40.png?raw=true "Markdown Logo Title"
-
-## Code and syntax highlighting
-
-    Inline `code` has `back-ticks around` it.
-
-Inline `code` has `back-ticks around` it.
-
-Blocks of code are either fenced by lines with three back-ticks ```, or are indented with four spaces. The fenced code blocks are easier and only they support syntax highlighting.
-
-```javascript
-//code highlighting
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```
-//No language indicated, so no syntax highlighting.
-var s = "Lorem Ipsum";
-```
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM.
-
-Colons can be used to align columns.
-
-```
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-```
-
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-```
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-```
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
-## References
-
-    - Markdown example taken from (https://github.com/PavelLaptev/markdown-theme-shell/tree/master)
+- 1-Wire (<https://en.wikipedia.org/wiki/1-Wire>)
