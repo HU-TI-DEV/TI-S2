@@ -62,9 +62,10 @@ Om temperatuur te meten kan je gebruik maken van DS18B20 temperatuursensor. Dit 
 
 
 ## De schakeling
-De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel of wit. Rood is de voeding 5V, zwart naar ground en geel of wit is de data pin. Gebruik een pull-up weerstand (1000 Ohm) voor de data pin. De signaal-pin komt zo niet in een 'zwevende' staat. 
 
-![img url](../1-wire/files/Arduino_DS18B20_probe_bb.png?raw=true "Schakeling voor de DS18B20")
+De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel of wit. Rood is de voeding 5V, zwart naar ground (GND) en geel of wit is de data pin. Gebruik een pull-up weerstand (1000 Ohm) voor de data pin. De signaal-pin komt zo niet in een 'zwevende' staat. 
+
+![img url](../1-wire/img/Arduino_DS18B20_probe_bb.png?raw=true "Schakeling voor de DS18B20")
 
 
 - De 5V op de Arduino -> rood van de temperatuursensor
