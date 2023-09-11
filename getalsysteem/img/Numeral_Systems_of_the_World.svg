@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 -15 230 140">
+	<g style="font-family:sans-serif; font-size:14pt" dominant-baseline="hanging">
+		<text>
+			<tspan>⠴</tspan>
+			<tspan>⠂</tspan>
+			<tspan>⠆</tspan>
+			<tspan>⠒</tspan>
+			<tspan>⠲</tspan>
+			<tspan>⠢</tspan>
+			<tspan>⠖</tspan>
+			<tspan>⠶</tspan>
+			<tspan>⠦</tspan>
+			<tspan>⠔</tspan>
+		</text>
+
+		<text y="20">
+			<tspan>0</tspan>
+			<tspan>1</tspan>
+			<tspan>2</tspan>
+			<tspan>3</tspan>
+			<tspan>4</tspan>
+			<tspan>5</tspan>
+			<tspan>6</tspan>
+			<tspan>7</tspan>
+			<tspan>8</tspan>
+			<tspan>9</tspan>
+		</text>
+
+		<text y="40">
+			<tspan>०</tspan>
+			<tspan>१</tspan>
+			<tspan>२</tspan>
+			<tspan>३</tspan>
+			<tspan>४</tspan>
+			<tspan>५</tspan>
+			<tspan>६</tspan>
+			<tspan>७</tspan>
+			<tspan>८</tspan>
+			<tspan>९</tspan>
+		</text>
+
+		<text y="60">
+			<!--Some LTR problems, fixed in the first <tspan>-->
+			<tspan unicode-bidi="bidi-override" direction="ltr">٠</tspan>
+			<tspan>١</tspan>
+			<tspan>٢</tspan>
+			<tspan>٣</tspan>
+			<tspan>٤</tspan>
+			<tspan>٥</tspan>
+			<tspan>٦</tspan>
+			<tspan>٧</tspan>
+			<tspan>٨</tspan>
+			<tspan>٩</tspan>
+		</text>
+
+
+		<text y="80">
+			<tspan>〇</tspan>
+			<tspan>一</tspan>
+			<tspan>二</tspan>
+			<tspan>三</tspan>
+			<tspan>四</tspan>
+			<tspan>五</tspan>
+			<tspan>六</tspan>
+			<tspan>七</tspan>
+			<tspan>八</tspan>
+			<tspan>九</tspan>
+		</text>
+
+		<text y="100">
+			<tspan>零</tspan>
+			<tspan>壹</tspan>
+			<tspan>贰</tspan>
+			<tspan>参</tspan>
+			<tspan>肆</tspan>
+			<tspan>伍</tspan>
+			<tspan>陆</tspan>
+			<tspan>柒</tspan>
+			<tspan>捌</tspan>
+			<tspan>玖</tspan>
+		</text>
+
+		<text y="120">
+			<tspan fill="red">—</tspan>
+			<tspan>I</tspan>
+			<tspan>II</tspan>
+			<tspan>III</tspan>
+			<tspan>IV</tspan>
+			<tspan>V</tspan>
+			<tspan>VI</tspan>
+			<tspan>VII</tspan>
+			<tspan>VIII</tspan>
+			<tspan>IX</tspan>
+		</text>
+
+	</g>
+</svg>
