@@ -1,4 +1,4 @@
-![logo](img/.png) [](logo-id)
+![logo](/hardware-interfacing/communicatieprotocollen/SPI/img/SPI_timing_diagram_CS.svg) [](logo-id)
 
 # Communicatieprotocollen [](title-id)
 
@@ -26,3 +26,4 @@ Een bus met even veel draadjes als de hoeveelheid databits die gestuurd moeten w
 Er zijn veel verschillende bussen en communicatieprotocollen. Iedere combinatie bus + communicatieprotocol maakt een andere overweging en eindigd qua voor en nadelen tussen de bovenstaand genoemde exterme vormen. Hier behandelen we [1-Wire](/hardware-interfacing/communicatieprotocollen/1-wire/README.md), SPI en I2C, waarbij de twee laatste de populairste bus en communicatieprotocol combinaties zijn voor de communicatie tussen chips.
 
 ## Referenties
+- Serial Peripheral Interface (<https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>)
