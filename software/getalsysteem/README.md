@@ -1,4 +1,4 @@
-![logo](img/Numeral_Systems_of_the_World.svg) [](logo-id)
+![logo](../getalsysteem/img/Numeral_Systems_of_the_World.svg) [](logo-id)
 
 # Numeral system[](title-id)
 

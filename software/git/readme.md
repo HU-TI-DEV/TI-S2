@@ -1,4 +1,4 @@
-![logo](img/Git-logo.svg) [](logo-id)
+![logo](../git/img/Git-logo.svg) [](logo-id)
 
 # Git[](title-id)
 
@@ -85,7 +85,7 @@ There is also `git push` to push to your remote repo, but this is further explai
 
 A branch is a copy of the main codebase, where one can introduce changes without changing the main codebase. These are used so developers can work on new features, fixes, etc. in parallel without changing the main codebase until whatever is worked on in the branch is complete. Properly using branches prevents merge conflicts.
 
-![branch](/software/git/img/Revision_controlled_project_visualization-2010-24-02.svg)
+![branch](../git/img/Revision_controlled_project_visualization-2010-24-02.svg)
 
 ### Branching strategies
 

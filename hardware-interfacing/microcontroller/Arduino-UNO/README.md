@@ -1,4 +1,4 @@
-![logo](img/ArdurinoUno.jpg) [](logo-id)
+![logo](../Arduino-UNO/img/ArdurinoUno.jpg) [](logo-id)
 
 # Microcontroller: Arduino UNO[](title-id)
 
@@ -36,7 +36,7 @@ De Arduino IDE heeft deze stappen een stuk eenvoudiger gemaakt zodat we ons kunn
 Er zijn verschillende Arduino smaken. De Arduino Uno is één van de meest gangbare versies. Deze heeft een USB interface, 14 digitale I/O pinnen (6 pinnen kunnen worden gebruikt voor PWM aansturing), 6 analoge pinnen en een Atmega328 microcontroller.
 
 
-![Arduino Uno Rev3](img/A000066-pinout.png)
+![Arduino Uno Rev3](../Arduino-UNO/img/A000066-pinout.png)
 Figuur 1. PCB en pin layout Arduino Uno
 
 ## Digitale en Analoge pinnen

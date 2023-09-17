@@ -2,4 +2,4 @@
 Semester 2 van Technische Informatica
 
 
-Update 5-9-2023
+Update 17-9-2023
