@@ -27,7 +27,7 @@ Hoeveel verschillende waardes een digitaal signaal kan hebben is afhankelijk van
 
 ![3 bits ADC](../ADC/img/3bitsADC.png)
 
-In bovenstaand figuur zien we resolutie en de vertaling van een ADC met drie bits afgebeeld. Voor de afbeelding geldt: V~in~ is het analoge signaal. V~RefLo~ is de laagst mogelijke analoge signaal. EFSR is de spreiding die het signaal kan hebben: E~FSR~ = V~RefHi~ - V~RefLo~, waarbij V~RefHi~ de hoogst mogelijke analoge waarde is.
+In bovenstaand figuur zien we resolutie en de vertaling van een ADC met drie bits afgebeeld. Voor de afbeelding geldt: V<sub>in</sub> is het analoge signaal. V<sub>RefLo</sub> is de laagst mogelijke analoge signaal. E<sub>FSR</sub> is de spreiding die het signaal kan hebben: E<sub>FSR</sub> = V<sub>RefHi</sub> - V<sub>RefLo</sub>, waarbij V<sub>RefHi</sub> de hoogst mogelijke analoge waarde is.
 
 ## Referenties
 
