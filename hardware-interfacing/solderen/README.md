@@ -1,4 +1,4 @@
-![logo](img/iron_hotspot.png) [](logo-id)
+![logo](../solderen/img/iron_hotspot.png) [](logo-id)
 
 # Solderen[](title-id)
 
@@ -97,19 +97,22 @@ details te zien tijdens het solderen of om je connectie te controleren
 
 Neem de volgende tips in acht bij het solderen.
 
-![Figuur 1](img/dosanddonts.png)
+![Figuur 1](../solderen/img/dosanddonts.png)
+Figuur 1. Do and do not.
 
 #### Soldeerverbinding 
 
 Wat is een goede soldeerverbinding.
 
-![Figuur 2](img/correct_joint.png)
+![Figuur 2](../solderen/img/correct_joint.png)
+Figuur 2. Soldeerverbinding.
 
 #### Sweetspot 
 
 Sweetspot van een soldeerbout.
 
-![Figuur 3](img/iron_hotspot.png)
+![Figuur 3](../solderen/img/iron_hotspot.png)
+Figuur 3. Sweetspot van de soldeerbout.
 
 ## Instructies
 
@@ -122,14 +125,14 @@ Sweetspot van een soldeerbout.
 4.  Maak de tip van de soldeerbout schoon.
 
 5.  Warm de pad op de PCB en de pin van het component op met de
-    sweetspot van de soldeerbout [Figuur 1](#soldeer-tips), voor 1 seconden.
+    sweetspot van de soldeerbout [Figuur 3](#soldeer-tips), voor 1 seconden.
 
 6.  Voeg, terwijl je de soldeerbout er op blijft houden, langzaam een
     klein beetje tin toe. De tin moet op de pad vast smelten.
 
 7.  Haal de tin-draad weg en hou de bout nog 1 seconde op de joint.
 
-8.  Haal de soldeerbout weg en check de joint met [Figuur 2](#soldeerverbinding).
+8.  Haal de soldeerbout weg en check de joint met [Figuur 2](#soldeer-tips).
 
 9.  Is alles gesoldeerd, zet dan de soldeerbout uit. Als je met lood
     hebt gesoldeerd was dan ook je handen.

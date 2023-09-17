@@ -1,4 +1,4 @@
-![logo](img/1-Wire-Protocol.png) [](logo-id)
+![logo](../1-wire/img/1-Wire-Protocol.png) [](logo-id)
 
 # Communicatieprotocol: 1-Wire[](title-id)
 
@@ -58,7 +58,7 @@ Zoals de naam al aangeeft zijn de sensoren bij een ster topologie met 1 centraal
 ### DS18B20 temperatuursensor
 Om temperatuur te meten kan je gebruik maken van DS18B20 temperatuursensor. Dit is een digitale sensor met een 1-Wire interface. De sensor komt in verschillende vormen. In dit voorbeeld maken we gebruik van een waterdichte variant.
 
- De DS18B20 met drie poten lijkt erg op een [transistor](../elektronische-componenten/transistor/README.md) maar is dit niet. Let goed op wat je gebruikt.
+ De DS18B20 met drie poten lijkt erg op een [transistor](../../elektronische-componenten/transistor/README.md) maar is dit niet. Let goed op wat je gebruikt.
 
 
 ## De schakeling
