@@ -34,11 +34,13 @@ In bovenstaand figuur zien we resolutie en de vertaling van een ADC met drie bit
 
 ## GYML8511 UV sensor
 
-De module GYML8511 heeft een ingebouwde ultraviolet (UV) licht sensor. Het bereik van de sensor valt tussen de 280 en 390nm (golflengte voor het UVA en UVB spectrum). UV straling is schadelijk voor het menselijk lichaam. Beste resultaten met de UV sensor krijg je buiten met daglicht. De analoge output correspondeert lineair met de UV intensiteit (nW/cm<sup>2</sup>). 
+De module GYML8511 heeft een ingebouwde ultraviolet (UV) licht sensor. Het bereik van de sensor valt tussen de 280 en 390nm (golflengte voor het UVA en UVB spectrum). UV straling is schadelijk voor het menselijk lichaam. Beste resultaten met de UV sensor krijg je buiten met daglicht. De analoge output correspondeert lineair met de UV intensiteit (nW/cm<sup>2</sup>).
+
+    UVB licht kan een positief effect hebben op de groei van planten. Daarnaast wordt UV licht ook gebruikt in laboratoria en ziekenhuizen om te ontsmetten. 
 
 ## De schakeling
 
-Omzetting van analoog naar digitaal is afhankelijk van VCC. Maar omdat je voeding kan verschillen kan dit lager of hoger zijn dan 5.0V. Heb je geen stabiele voeding kan VCC 0.25V naar boven of beneden afwijken. We gebruiken daarom de onboard 3.3V als referentie.
+Omzetting van analoog naar digitaal is afhankelijk van VCC. Maar omdat je voeding kan verschillen kan dit lager of hoger zijn dan 5.0V. Heb je geen stabiele voeding kan VCC 0.25V naar boven of beneden afwijken. We gebruiken daarom de onboard 3.3V als referentiespanning.
 
 De EN (Enable) pin en 3V3 sluiten we op de 3.3V pin van de Arduino aan. Deze pin is ook verbonden aan A1. GND naar GND en OUT naar A0 van de Arduino.
 
@@ -111,3 +113,4 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 ## Referenties
 
 - Analoog en digitaal (<https://en.wikipedia.org/wiki/Analogue_electronics#Analogue_vs_digital_electronics>)
+- De invloed van UVB licht op planten (<https://www.nature.com/articles/s41438-021-00629-5>)
