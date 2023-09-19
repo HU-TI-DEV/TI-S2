@@ -16,7 +16,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor digitaal naar analoog door Marius Versteegen[](author-id) en Jorn Bunk[](author-id).
+**v0.1.0 [](version-id)** Start document voor digitaal naar analoog door HU IICT[](author-id).
 
 ---
 

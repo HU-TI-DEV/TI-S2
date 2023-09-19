@@ -24,7 +24,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** intitial source from GitGud slides by Nick Goris[](author-id) in Markdown template by Harm Snippe[](author-id).
+**v0.1.0 [](version-id)** Git start document door HU IICT[](author-id).
 
 ---
 

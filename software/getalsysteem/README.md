@@ -14,7 +14,7 @@
 
 ---
 
-**v0.1.1 [](version-id)** Getalsysteem. Hage Patzke[](author-id).
+**v0.1.1 [](version-id)** Getalsysteem door HU IICT[](author-id).
 
 ---
 
