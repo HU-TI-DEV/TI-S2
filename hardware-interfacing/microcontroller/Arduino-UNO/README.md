@@ -16,7 +16,7 @@
 
 ---
 
-**v0.1.1 [](version-id)** Start document Arduino UNO microcontroller Brian van der Bijl[](author-id). Revisie door Harm Snippe[](author-id).
+**v0.1.1 [](version-id)** Start document Arduino UNO microcontroller door HU IICT[](author-id).
 
 ---
 

@@ -20,7 +20,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor 1-Wire uitleg en voorbeeld code. Harm Snippe[](author-id).
+**v0.1.0 [](version-id)** Start document voor 1-Wire uitleg en voorbeeld code door HU IICT[](author-id).
 
 ---
 
