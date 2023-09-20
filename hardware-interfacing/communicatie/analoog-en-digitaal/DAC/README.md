@@ -68,16 +68,16 @@ int speed = 0;         // speed of the fan
 int fadeSpeed = 5;     // how many points to fade the speed by
 
 void setup() {
-  pinMode(fan, OUTPUT); // declare pwm pin to be an output:
+  pinMode(fan, OUTPUT); // declare pwm pin to be an output
 }
 
 void loop() {
-  analogWrite(fan, speed); // set the speed of fan
+  analogWrite(fan, speed); // set the speed of the fan
 
-  // change the speed for next time through the loop:
+  // change the speed for next time through the loop
   speed = speed + fadeSpeed;
 
-  // reverse the direction of the fading at the ends of the fade:
+  // reverse the direction of the fading at the ends of the fade
   if (speed <= 0 || speed >= 255) {
     fadeSpeed = -fadeSpeed;
   }  
