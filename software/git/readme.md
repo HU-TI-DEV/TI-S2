@@ -20,6 +20,13 @@
     - [Branch how?](#branch-how)
     - [Branch 'Workflow'](#branch-workflow)
   - [Pull requests](#pull-requests)
+  - [Git Commands](#git-commands)
+    - [status](#status)
+    - [config](#config)
+    - [branch](#branch)
+    - [stage, commit en merge](#stage-commit-en-merge)
+  - [Workflow for trusted team](#workflow-for-trusted-team)
+  - [Workflow for unknown contributors](#workflow-for-unknown-contributors)
   - [Referenties](#referenties)
 
 ---
@@ -121,7 +128,85 @@ Switch to your destination folder and merge the branch you want to merge into de
 
 ## Pull requests
 
-Pull requests are a [GitHub](https://www.GitHub.com) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main
+Pull requests are a [GitHub](https://www.GitHub.com) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main.
+
+## Git Commands
+
+### status
+Zorg dat Git Bash altijd in directory staat waar ook de repo is.
+
+```bash
+# gebruik heel vaak, om te weten wat de situatie is:
+git status
+git log --all --graph  (en evt --oneline)
+```
+
+### config 
+Vooraf eenmalig instellen
+```bash
+# VsCode instellen als default editor:
+git config --global core.editor "code --wait"
+
+# Fast Forward merging uitzetten:
+git config --global merge.ff false
+```
+
+### branch
+
+```bash
+# Nieuwe branch maken
+git branch myBranch
+
+# Of bestaande branch van remote halen:
+git pull myBranch
+
+# Switchen naar de nieuwe branch:
+git switch myBranch
+```
+
+### stage, commit en merge
+
+... Coderen, files veranderen, aanmaken  ....
+
+```bash
+# Alle veranderingen stagen
+git stage .
+
+# Je kunt ook files per stuk stagen of unstagen:
+git stage file1
+git unstage file1
+
+# committen:
+git commit -m "korte beschrijving" "evt lange beschrijving"
+
+# voor het geval myBranch op de remote staat, nog een keer pullen:
+git pull myBranch
+
+# ook de master, zodat je daar de laatste versie van hebt
+git pull master
+
+# dan die laatste master naar je myBranch (waar je nog bent) mergen:
+git merge master
+
+# dan myBranch terug mergen naar de master (als je de branch op de remote wilt mergen):
+git switch master     (eerst naar de master branch gaan)
+git merge myBranch    (myBranch naar de master branch mergen)
+
+git push master
+
+# check nog een laatste keer dat alles gelukt is met git status en git log.
+# als dat het geval is, is de branch gelijk aan de head en de master, en kan hij verwijderd worden:
+git branch -d myBranch
+
+# als hij ook remote stond, ook:
+git push origin --delete myBranch
+```
+
+## Workflow for trusted team
+![Workflow for trusted team](../git/img/Workflow_for_trusted_team_Page.png)
+
+## Workflow for unknown contributors
+![Workflow_for_unknown_contributors](../git/img/Workflow_for_unknown_contributors.png)
 
 ## Referenties
 
