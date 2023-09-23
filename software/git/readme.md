@@ -27,6 +27,7 @@
     - [stage, commit en merge](#stage-commit-en-merge)
   - [Workflow for trusted team](#workflow-for-trusted-team)
   - [Workflow for unknown contributors](#workflow-for-unknown-contributors)
+  - [Git recommended workflow](#git-recommended-workflow)
   - [Referenties](#referenties)
 
 ---
@@ -203,10 +204,13 @@ git push origin --delete myBranch
 ```
 
 ## Workflow for trusted team
-![Workflow for trusted team](../git/img/Workflow_for_trusted_team_Page.png)
+![Workflow for trusted team](../git/img/GIT_Werkwijzen-Vertrouwd.drawio.svg)
 
 ## Workflow for unknown contributors
-![Workflow_for_unknown_contributors](../git/img/Workflow_for_unknown_contributors.png)
+![Workflow_for_unknown_contributors](../git/img/GIT_Werkwijzen-OpenSource.drawio.svg)
+
+## Git recommended workflow
+![Workflow_for_unknown_contributors](../git/img/GIT_Werkwijzen-Koninklijke%20Weg.drawio.svg)
 
 ## Referenties
 
