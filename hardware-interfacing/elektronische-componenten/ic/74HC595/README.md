@@ -1,13 +1,14 @@
-![logo](../1-wire/img/1-Wire-Protocol.png) [](logo-id)
+![logo](../74HC595/img/4-Bit_PISO_Shift_Register_Seq.gif) [](logo-id)
 
-# Communicatieprotocol: 1-Wire[](title-id)
+# HC595 Intergrated Circuit (IC)[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [Communicatieprotocol: 1-Wire](#communicatieprotocol-1-wire)
+- [HC595 Intergrated Circuit (IC)](#hc595-intergrated-circuit-ic)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [De schakeling](#de-schakeling)
+  - [Arduino voorbeeld](#arduino-voorbeeld)
   - [Referenties](#referenties)
 
 ---
@@ -50,7 +51,42 @@ Om 8 waarden op de uitgangspinnen van een 74HC595 chip te krijgen moeten we dus 
 
 De 74HC595 schuifregister heeft drie ingangen die aan de micro-controller moeten worden aangesloten: shift-clock (SHCP = SHift Clock Pulse), data (DS), en hold-clock (STCP = STorage Clock Pulse). Verder moet je natuurlijk GND en VCC (3.3V) aansluiten, en MR (Master Reset) aan VCC en OE (Outpout Enable) aan GND.
 
+![HC595 pin diagram](../74HC595/img/595_pin_diagram.png)
+
+We kunnen de 8 LEDs direct aansluiten op de HC595 om een 8 bit binair getal voor te stellen. De anode kant naar de IC (Q0-Q7) en de kathode kant naar ground. Dit heet sourcing current in tegenstelling tot sinking current wanneer een schuifregister geen spanning kan leveren.
+
+![HC595 diagram](../74HC595/img/HC595_bb.png)
+
+## Arduino voorbeeld
+
+Dit is een software implementatie. Gebruik de SPI bibliotheek voor een hardware implementatie.
+
+```arduino
+int latchPin = 8;
+int clockPin = 12;
+int dataPin = 11;
+// anyNumber < 256, decimal 123 is binary 01111011
+int anyNumber = 123; 
+
+void setup() {
+  //set pins to output
+  pinMode(latchPin, OUTPUT);
+  pinMode(clockPin, OUTPUT);
+  pinMode(dataPin, OUTPUT);
+}
+
+void loop() {
+  // latchPin low, LEDs do not turn on while sending bits
+  digitalWrite(latchPin, LOW);
+  // shift out the bits
+  shiftOut(dataPin, clockPin, MSBFIRST, anyNumber);
+  //take the latch pin high, LEDs turn on
+  digitalWrite(latchPin, HIGH);
+}
+```
+
 ## Referenties
 
 - Shift register (<https://en.wikipedia.org/wiki/Shift_register>)
 - Datasheet (<https://www.ti.com/lit/ds/symlink/cd74hc595.pdf>)
+- Serial to Parallel Shifting-Out with a 74HC595 (<https://docs.arduino.cc/tutorials/communication/guide-to-shift-out>)
