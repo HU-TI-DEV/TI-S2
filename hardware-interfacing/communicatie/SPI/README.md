@@ -8,6 +8,8 @@
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [SPI protocol](#spi-protocol)
+  - [De schakeling](#de-schakeling)
+  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
 
 ---
@@ -38,7 +40,15 @@ In bovenstaand figuur zien we de [74HC595](../../elektronische-componenten/ic/74
 
 ## SPI protocol
 
-Het SPI protocol kan je op verschillende manieren implementeren. De Arduino Uno heeft een peripheral (speciaal stukje hardware op de chip) dat het SPI protocol implementeert. Als je de maximale snelheid van dataoverdracht wil bereiken dan moet je deze peripheral gebruiken, maar dat is niet triviaal, en hoe je zo’n peripheral precies moet aansturen verschilt van chip tot chip. 
+Het SPI protocol kan je op verschillende manieren implementeren. De Arduino Uno heeft een peripheral (speciaal stukje hardware op de chip) dat het SPI protocol implementeert. Als je de maximale snelheid van dataoverdracht wil bereiken dan moet je deze peripheral gebruiken, maar dat is niet triviaal, en hoe je zo’n peripheral precies moet aansturen verschilt van chip tot chip.
+
+## De schakeling
+
+De BMP280 is een luchtdruk- en temperatuursensor van Bosch. Let op dat dit een 3V3 sensor is. Hoewel een Arduino Uno ook een 3V3 pin heeft is de interne logica 5V. We hebben daarom een 'logic level shifter' nodig om met deze sensor module te communiceren.
+
+    Luchtdruk is een indicator van het weer. Wanneer er een laag-drukgebied ons land binnenkomt wijst dat op de komst van wolken, wind en regen. Een hoog-drukgebied wijst daarentegen op mooi en zonnig weer. Verandering van luchtdruk kan je dus gebruiken voor het voorspellen van het weer.
+
+## Arduino voorbeeld code
 
 ## Referenties
 
