@@ -21,6 +21,7 @@
       - [Soldeerverbinding](#soldeerverbinding)
       - [Sweetspot](#sweetspot)
   - [Instructies](#instructies)
+  - [Referenties](#referenties)
 
 ---
 
@@ -136,3 +137,6 @@ Figuur 3. Sweetspot van de soldeerbout.
 
 9.  Is alles gesoldeerd, zet dan de soldeerbout uit. Als je met lood
     hebt gesoldeerd was dan ook je handen.
+
+## Referenties
+- Learn.sparkfun (<https://learn.sparkfun.com/tutorials/simon-says-assembly-guide/all>)

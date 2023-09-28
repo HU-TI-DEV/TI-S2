@@ -1,10 +1,10 @@
-![logo](../74HC595/img/4-Bit_PISO_Shift_Register_Seq.gif) [](logo-id)
+![logo]() [](logo-id)
 
-# HC595 Intergrated Circuit (IC)[](title-id)
+# HC595 Integrated Circuit (IC)[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [HC595 Intergrated Circuit (IC)](#hc595-intergrated-circuit-ic)
+- [HC595 Integrated Circuit (IC)](#hc595-integrated-circuit-ic)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [De schakeling](#de-schakeling)
