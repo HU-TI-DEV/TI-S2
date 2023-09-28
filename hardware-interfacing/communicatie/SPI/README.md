@@ -44,12 +44,19 @@ Het SPI protocol kan je op verschillende manieren implementeren. De Arduino Uno 
 
 ## De schakeling
 
-De BMP280 is een luchtdruk- en temperatuursensor van Bosch. Let op dat dit een 3V3 sensor is. Hoewel een Arduino Uno ook een 3V3 pin heeft is de interne logica 5V. We hebben daarom een 'logic level shifter' nodig om met deze sensor module te communiceren.
+De BME280 is een luchtdruk- en temperatuurs en (relatieve)luchtvochtigheid sensor van Bosch. De sensor kan gevoed worden met 3V3-5V. De module heeft een logic level shifter voor de SDA en SCL lijn. Je kunt dus ook aansluiten via [I<sup>2</sup>C](../I2C/README.md) op 3V3. In dit voorbeeld demonsteren wij een aansluiting via (hardware) SPI. De naamgeving kan verwarrend zijn kijk en de afbeelding voor de juiste benaming voor SPI bij deze module. 
 
     Luchtdruk is een indicator van het weer. Wanneer er een laag-drukgebied ons land binnenkomt wijst dat op de komst van wolken, wind en regen. Een hoog-drukgebied wijst daarentegen op mooi en zonnig weer. Verandering van luchtdruk kan je dus gebruiken voor het voorspellen van het weer.
 
+![BME280](../SPI/img/BME280_bb.png)
+
 ## Arduino voorbeeld code
+
+Je kunt de BME280 library gebruiken van Adafruit. Pas dan de interface aan van I<sup>2</sup>C naar hardware of software SPI.
+
+Arduino voorbeeld [code](../SPI/files/bme280test/bme280test.ino)
 
 ## Referenties
 
 - SPI (<https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>)
+- Adafruit BME280 (<https://github.com/adafruit/Adafruit_BME280_Library>)
