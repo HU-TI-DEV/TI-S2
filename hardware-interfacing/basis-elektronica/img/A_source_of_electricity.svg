@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.46 82.17">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #00a14b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #00a14b;
+      }
+
+      .cls-5, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-7, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #7f3f98;
+      }
+
+      .cls-6 {
+        font-family: BaskOldFace, 'Baskerville Old Face';
+        font-size: 12px;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" x=".5" y=".5" width="119.46" height="81.17"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <line class="cls-2" x1="22.57" y1="73.19" x2="22.57" y2="9.1"/>
+    <circle class="cls-2" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-4" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-4" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-4" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <g>
+      <path class="cls-7" d="m51.63,7.83c-17.89,2.29-19.03,5.96-19.03,5.96"/>
+      <g>
+        <path class="cls-1" d="m51.63,7.83c-6.73.86-11.09,1.92-13.91,2.9"/>
+        <polygon class="cls-5" points="38.5 6.31 38.91 10.31 42.08 12.8 32.6 13.8 38.5 6.31"/>
+      </g>
+    </g>
+    <g>
+      <path class="cls-7" d="m47.74,75.25c-19.26-4.59-19.26-10.32-19.26-10.32"/>
+      <g>
+        <path class="cls-1" d="m47.74,75.25c-7.96-1.9-12.63-3.99-15.37-5.79"/>
+        <polygon class="cls-5" points="37.17 68.83 33.39 70.2 31.75 73.88 28.47 64.93 37.17 68.83"/>
+      </g>
+    </g>
+    <text class="cls-6" transform="translate(53.6 11.81)"><tspan x="0" y="0">surplus</tspan></text>
+    <text class="cls-6" transform="translate(53.03 75.34)"><tspan x="0" y="0">shortage</tspan></text>
+  </g>
+</svg>
