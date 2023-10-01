@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110.06 69.71">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-3 {
+        letter-spacing: .04em;
+      }
+
+      .cls-4 {
+        letter-spacing: .09em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        letter-spacing: .03em;
+      }
+
+      .cls-8 {
+        fill: #c04040;
+        font-family: ArialMT, Arial;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="27.07" y1="37" x2="27.07" y2="43.85"/>
+  <line class="cls-2" x1="27.07" y1="34.72" x2="27.07" y2="27.87"/>
+  <line class="cls-2" x1="29.35" y1="31.52" x2="32.09" y2="31.52"/>
+  <line class="cls-2" x1="24.79" y1="37" x2="29.35" y2="37"/>
+  <line class="cls-2" x1="22.51" y1="34.72" x2="31.63" y2="34.72"/>
+  <line class="cls-2" x1="30.72" y1="30.15" x2="30.72" y2="32.89"/>
+  <text class="cls-8" transform="translate(38.48 34.26)"><tspan class="cls-3" x="0" y="0">10</tspan><tspan class="cls-5" x="5.47" y="0">V</tspan></text>
+  <text class="cls-8" transform="translate(38.48 28.77)"><tspan class="cls-7" x="0" y="0">BA</tspan><tspan class="cls-4" x="6.39" y="0">TT</tspan><tspan class="cls-7" x="12.79" y="0">E</tspan><tspan class="cls-6" x="15.98" y="0">R</tspan><tspan x="19.18" y="0">Y</tspan></text>
+  <line class="cls-2" x1="77.25" y1="29.24" x2="77.25" y2="25.59"/>
+  <line class="cls-2" x1="77.25" y1="42.48" x2="77.25" y2="46.14"/>
+  <rect class="cls-2" x="73.6" y="29.24" width="6.39" height="12.79"/>
+  <text class="cls-8" transform="translate(84.09 34.26)"><tspan class="cls-3" x="0" y="0">200</tspan><tspan x="8.21" y="0">Ω</tspan></text>
+  <text class="cls-8" transform="translate(84.09 28.77)"><tspan x="0" y="0">R</tspan></text>
+  <line class="cls-1" x1="27.07" y1="27.87" x2="27.07" y2="16.45"/>
+  <line class="cls-1" x1="27.07" y1="16.45" x2="77.25" y2="16.45"/>
+  <line class="cls-1" x1="77.25" y1="25.59" x2="77.25" y2="16.45"/>
+  <line class="cls-1" x1="27.07" y1="43.85" x2="27.07" y2="48.42"/>
+  <line class="cls-1" x1="27.07" y1="48.42" x2="77.25" y2="48.42"/>
+  <line class="cls-1" x1="77.25" y1="48.42" x2="77.25" y2="43.85"/>
+</svg>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156.84 158.22">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        letter-spacing: .01em;
+      }
+
+      .cls-2 {
+        stroke: #408080;
+        stroke-dasharray: 0 0 1.82 1.82;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-10 {
+        letter-spacing: .04em;
+      }
+
+      .cls-11 {
+        letter-spacing: .03em;
+      }
+
+      .cls-12 {
+        letter-spacing: .06em;
+      }
+
+      .cls-13 {
+        letter-spacing: .09em;
+      }
+
+      .cls-4 {
+        stroke: #c04040;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: .03em;
+      }
+
+      .cls-6 {
+        stroke: #d0d0d0;
+      }
+
+      .cls-18 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-19 {
+        fill: #008020;
+      }
+
+      .cls-19, .cls-20 {
+        font-size: 5.94px;
+      }
+
+      .cls-19, .cls-20, .cls-21 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-7 {
+        stroke: red;
+      }
+
+      .cls-21 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-5" x1="105.88" y1="72.71" x2="105.88" y2="69.05"/>
+  <line class="cls-5" x1="105.88" y1="85.95" x2="105.88" y2="89.6"/>
+  <rect class="cls-5" x="102.23" y="72.71" width="6.39" height="12.79"/>
+  <line class="cls-5" x1="87.63" y1="72.71" x2="87.63" y2="69.05"/>
+  <line class="cls-5" x1="87.63" y1="85.95" x2="87.63" y2="89.6"/>
+  <rect class="cls-5" x="83.98" y="72.71" width="6.39" height="12.79"/>
+  <rect class="cls-2" x="78.51" y="55.35" width="36.04" height="49.78"/>
+  <line class="cls-1" x1="96.76" y1="69.05" x2="87.63" y2="69.05"/>
+  <text class="cls-19" transform="translate(101.33 117.92)"><tspan class="cls-18" x="0" y="0">1</tspan><tspan class="cls-12" x="3.2" y="0">0</tspan><tspan class="cls-8" x="6.85" y="0">0</tspan><tspan class="cls-16" x="10.05" y="0">Ω</tspan></text>
+  <rect class="cls-7" x="100.41" y="118.38" width="1.37" height="1.37"/>
+  <line class="cls-1" x1="105.88" y1="87.32" x2="105.88" y2="91.89"/>
+  <line class="cls-1" x1="96.76" y1="91.89" x2="87.63" y2="91.89"/>
+  <line class="cls-1" x1="87.63" y1="87.32" x2="87.63" y2="91.89"/>
+  <path class="cls-3" d="m95.39,91.89c0-.76.61-1.37,1.37-1.37s1.37.61,1.37,1.37-.61,1.37-1.37,1.37-1.37-.61-1.37-1.37h0Z"/>
+  <line class="cls-1" x1="96.76" y1="91.89" x2="96.76" y2="123.86"/>
+  <line class="cls-1" x1="105.88" y1="91.89" x2="96.76" y2="91.89"/>
+  <line class="cls-1" x1="96.76" y1="123.86" x2="42.01" y2="123.86"/>
+  <line class="cls-1" x1="42.01" y1="91.89" x2="42.01" y2="123.86"/>
+  <path class="cls-3" d="m95.39,69.05c0-.76.61-1.37,1.37-1.37s1.37.61,1.37,1.37-.61,1.37-1.37,1.37-1.37-.61-1.37-1.37h0Z"/>
+  <line class="cls-1" x1="96.76" y1="69.05" x2="96.76" y2="41.65"/>
+  <line class="cls-1" x1="105.88" y1="69.05" x2="96.76" y2="69.05"/>
+  <line class="cls-1" x1="96.76" y1="41.65" x2="42.01" y2="41.65"/>
+  <line class="cls-5" x1="42.01" y1="85.04" x2="42.01" y2="91.89"/>
+  <line class="cls-5" x1="42.01" y1="82.75" x2="42.01" y2="75.9"/>
+  <line class="cls-5" x1="44.29" y1="79.56" x2="47.03" y2="79.56"/>
+  <line class="cls-5" x1="39.73" y1="85.04" x2="44.29" y2="85.04"/>
+  <line class="cls-5" x1="37.45" y1="82.75" x2="46.58" y2="82.75"/>
+  <line class="cls-5" x1="45.66" y1="78.19" x2="45.66" y2="80.93"/>
+  <text class="cls-21" transform="translate(53.42 82.3)"><tspan class="cls-10" x="0" y="0">10</tspan><tspan class="cls-14" x="5.47" y="0">V</tspan></text>
+  <text class="cls-21" transform="translate(53.42 76.82)"><tspan class="cls-17" x="0" y="0">BA</tspan><tspan class="cls-13" x="6.39" y="0">TT</tspan><tspan class="cls-17" x="12.79" y="0">E</tspan><tspan class="cls-15" x="15.98" y="0">R</tspan><tspan x="19.18" y="0">Y</tspan></text>
+  <line class="cls-1" x1="42.01" y1="75.9" x2="42.01" y2="41.65"/>
+  <polyline class="cls-5" points="69.39 28.86 69.39 35.71 73.95 32.52 69.39 28.86"/>
+  <line class="cls-4" x1="66.65" y1="32.52" x2="69.39" y2="32.52"/>
+  <line class="cls-4" x1="64.82" y1="32.52" x2="66.65" y2="32.52"/>
+  <rect class="cls-6" x="64.82" y="32.06" height=".91"/>
+  <text class="cls-20" transform="translate(60.26 26.59)"><tspan class="cls-18" x="0" y="0">1</tspan><tspan class="cls-12" x="3.2" y="0">0</tspan><tspan class="cls-8" x="6.85" y="0">0</tspan><tspan class="cls-11" x="10.05" y="0"> </tspan><tspan class="cls-9" x="11.88" y="0">m</tspan><tspan x="16.9" y="0">A</tspan></text>
+</svg>

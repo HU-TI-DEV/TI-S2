@@ -14,6 +14,11 @@
   - [Power](#power)
   - [Energy](#energy)
     - [Energy density and specific energy](#energy-density-and-specific-energy)
+  - [Some circuits, components and concepts](#some-circuits-components-and-concepts)
+    - [Basic circuit](#basic-circuit)
+    - [Resistors in parallel](#resistors-in-parallel)
+    - [Resistors in series](#resistors-in-series)
+    - [Voltage divider](#voltage-divider)
 
 ---
 
@@ -138,7 +143,7 @@ Resistors differ in a number of characteristics, most important in their resista
 
 The resistors that you will use are color-coded with their value.
 
-![Resistor color code for E12 3-ring (+ tolerance) resistors](../basis-elektronica/Resistor_color_code_for_E12_3-ring.png)
+![Resistor color code for E12 3-ring (+ tolerance) resistors](../basis-elektronica/img/Resistor_color_code_for_E12_3-ring.png)
 
 ## Circuit diagrams
 
@@ -252,3 +257,133 @@ Energy density is the amount of energy stored per volume, and specific energy is
 | Lead-acid battery	| 0.17 |
 
 The specific energy of a modern (Li) accu compared to that of (diesel) fuel explains it all: with a kilogram of diesel fuel a car will be able to travel 80 times as far as with the same weight of Lithium accu. The comparison is somewhat unfair because burning diesel requires oxygen (air), which is not accounted for in the table because a car doesn’t need to store it.
+
+##	Some circuits, components and concepts
+
+### Basic circuit
+
+Below figure shows an variation on the ‘mother of all circuits’ containing a 10 V voltage source and a 200 Ω resistor. The voltage source determines the voltage over the resistor, hence we can use Ohm’s law to calculate the current through the resistor: 10 V / 200Ω = 0.05 A or 50 mA.
+
+![Battery and resistor](../basis-elektronica/img/Battery_and_resistor.svg)
+
+The voltage source can be depicted as a battery, or implied by showing an agreed-upon symbol for the ground and for the voltage source. A circle or triangle is often used for the positive supply, and a small box for the negative one. When such symbols are used, all such symbols are assumed to be connected.
+
+![Ground and power symbols are implicitly connected: The resistor is connected to the 10V voltage source](../basis-elektronica/img/Implicitly_connected.svg)
+
+A voltage source feeding those common symbols can be shown, or it can be omitted, with just the voltage shown.
+
+![A resistor connected to 5V. The power source can be omitted](../basis-elektronica/img/Resistor_5V.svg)
+
+###	Resistors in parallel
+
+The circuit in the figure below is like the previous one, but with one extra 200 Ω resistor in parallel to the first resistor. The voltage source now determines the voltage across *both* resistors, hence the current through each resistor is 50 mA. The total current delivered by the voltage source is the sum of these two currents: 100 mA.
+
+![Resistors in parallel](../basis-elektronica/img/Resistors_in_parallel.svg)
+
+We can now use Ohm’s law in reverse to calculate the single resistor that would be equivalent to the two resistors in the circuit. This resistor would draw 100mA from a 10V source.
+
+$
+I = U/R → R = U/I
+$
+
+Hence that replacement resistor would be 10 V / 0.1 A = 100 Ω. For n resistors of the same value R in parallel, the equivalent resistor value is R / n. In our case, 200 Ω / 2 = 100 Ω.
+
+![Equivalent of two resistors in parallel](../basis-elektronica/img/Equivalent_two_resistors_in_parallel.svg)
+
+For different-valued resistors the formula for the equivalent resistance is:
+
+$
+1/R_{Equivalent} = 1/R_1 + 1/R_2 + 1/R_3 + . . .
+$
+
+###	Resistors in series
+
+The circuit below shows a 3V voltage source, and two resistors in series, of 100Ω and 50Ω.
+
+![Two resistors in series](../basis-elektronica/img/Two_resistors_in_series.svg)
+
+The current through the two resistors will be the same (see section 2.3.1). Hence we can use a variation of Ohm’s law to determine the ratio between the voltages over the two resistors:
+
+$
+I = U/R → U = I ∗ R
+$
+
+In other words: if the current is the same, the voltage is proportional to the resistance. We know the total voltage (that is determined by the 3V voltage source). This voltage is divided among the two resistors in the ratio 100 : 50, hence the voltage across the 100Ω resistor will be 2V, and the voltage across the 50Ω resistor will be 1V. This type of circuit is called a voltage divider, because the two resistors divide the total voltage among the two.
+
+![Two resistors in series](../basis-elektronica/img/Two_resistors_in_series.svg)
+
+With those voltages know, we can calculate the current. It doesn’t matter for which resistor we calculate the current, the value will be the same. For the top resistor:
+
+$
+R= U/I
+$
+
+$
+U= 3V
+$
+
+$
+I= 20mA = 0.02A
+$
+
+$
+3V/0.02A = 150Ω
+$
+
+
+![Equivalent of two resistors in series](../basis-elektronica/img/Equivalent_two_resistors_in_series.svg)
+
+For resistors in series, the equivalent resistor value is the sum (addition) of the resistor values:
+
+$
+R_{Equivalent} = R_1 + R_2 + R_3 + . . .
+$
+
+###	Voltage divider
+ 
+Apart from creating a new resistor with a higher resistance, you can also use two resistors in series to create a voltage divider.
+
+![A voltage divider](../basis-elektronica/img/Two_resistors_in_series.svg)
+
+The attenuation (the reduction of the voltage) of this voltage divider is:
+
+$
+att = V_{out}/V_i = R_2/R_1+R_2
+$
+
+For instance, if you want to connect the output of an Arduino Nano mi- crocontroller (which can have values from 0 to 5V) to the input of an ESP microcontroller (that should not get values higher than 3.3V), you could use the voltage divider to make them match:
+ 
+
+$
+att = 3.3V/5V = 0.66
+$
+
+$
+0.66 = R_2/R_1+R_2
+$
+
+$
+0.66(R_1+R_2) = R_2
+$
+
+$
+0.66R_1 + 0.66R_2 = R_2
+$
+
+$
+0.66R_1 = R_2 - 0.66R_2
+$
+
+$
+0.66R_1 = 0.34R_2
+$
+
+$
+0.66R_1/0.34 = R_2
+$
+
+$
+1.94R_1 = R_2
+$
+
+So if you select R1 = 1.2kOhm and R2 =2.2 kOhm, you’ll be close enough.

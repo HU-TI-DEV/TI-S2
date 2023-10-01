@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90.8 131.16">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-5 {
+        font-size: 5.94px;
+      }
+
+      .cls-5, .cls-6 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-6 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m36.86,48.09c0-1.78,1.32-3.2,2.97-3.2s2.97,1.42,2.97,3.2-1.32,3.2-2.97,3.2-2.97-1.42-2.97-3.2h0Z"/>
+  <text class="cls-5" transform="translate(45.08 50.38)"><tspan class="cls-4" x="0" y="0">5</tspan><tspan class="cls-3" x="3.2" y="0">V</tspan></text>
+  <line class="cls-2" x1="40.05" y1="60.42" x2="40.05" y2="56.76"/>
+  <line class="cls-2" x1="40.05" y1="73.66" x2="40.05" y2="77.32"/>
+  <rect class="cls-2" x="36.4" y="60.42" width="6.39" height="12.79"/>
+  <text class="cls-6" transform="translate(45.52 59.96)"><tspan x="0" y="0">R</tspan></text>
+  <line class="cls-2" x1="36.86" y1="81.43" x2="43.7" y2="81.43"/>
+  <line class="cls-2" x1="40.05" y1="75.03" x2="40.05" y2="81.43"/>
+  <line class="cls-1" x1="40.05" y1="56.76" x2="40.05" y2="56.76"/>
+  <line class="cls-1" x1="40.05" y1="56.76" x2="40.05" y2="51.74"/>
+</svg>
