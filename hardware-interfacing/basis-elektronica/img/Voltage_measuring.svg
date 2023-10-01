@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245.06 84.71">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 16px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #00a14b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-11, .cls-7 {
+        font-family: BaskOldFace, 'Baskerville Old Face';
+      }
+
+      .cls-1, .cls-3, .cls-12 {
+        fill: #00a14b;
+      }
+
+      .cls-13 {
+        fill: #21409a;
+      }
+
+      .cls-13, .cls-12, .cls-14 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-4, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-size: 7.45px;
+      }
+
+      .cls-4 {
+        stroke-width: .75px;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #21409a;
+      }
+
+      .cls-5, .cls-14, .cls-6, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-5, .cls-7, .cls-9, .cls-10 {
+        stroke: #7f3f98;
+      }
+
+      .cls-15 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        letter-spacing: 0em;
+        stroke-width: .25px;
+      }
+
+      .cls-7 {
+        font-size: 8px;
+      }
+
+      .cls-8 {
+        stroke: #fff;
+      }
+
+      .cls-10 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-8" x=".5" y=".5" width="244.06" height="83.71"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-5" x="22.57" y="11.52" width="81.82" height="61.67"/>
+    <circle class="cls-5" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-10" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-10" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-10" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <text class="cls-3" transform="translate(42.12 81.67)"><tspan class="cls-11" x="0" y="0">V </tspan><tspan class="cls-15" x="6.91" y="0">=?</tspan></text>
+    <g>
+      <path class="cls-14" d="m66.82,32.14c.23-16.06,0-16.75,0-16.75"/>
+      <g>
+        <path class="cls-2" d="m66.82,32.14c.06-4.19.09-7.33.1-9.69"/>
+        <polygon class="cls-12" points="66.82 15.39 70.96 25.31 66.87 22.98 62.83 25.36 66.82 15.39"/>
+      </g>
+    </g>
+    <path class="cls-6" d="m97.03,48.06c-2,1.45-4.31,2.24-.69,6.53,3.61,4.28,8.43,3.04,9.25,1,.68-1.7,0-3.19.76-4.82,1-2.15,5.56.13,7.19-2.51,1.01-1.64-.68-5.38-3.39-6.83-3.53-1.89,2.36-2.99,3.05-5.6,1.03-3.95-16.08-9.4-16.42-.42-.05,1.35,4.47,9.59.25,12.65Z"/>
+    <rect class="cls-5" x="147.01" y="11.55" width="81.82" height="61.67"/>
+    <circle class="cls-5" cx="147.01" cy="41.18" r="15.88"/>
+    <line class="cls-10" x1="163.74" y1="20.46" x2="163.74" y2="28.15"/>
+    <path class="cls-10" d="m160.18,24.16l6.98-.36"/>
+    <path class="cls-10" d="m160.79,59.76c1.94.07,3.89-.22,5.77-.84"/>
+    <path class="cls-6" d="m221.47,48.1c-2,1.45-4.31,2.24-.69,6.53,3.61,4.28,8.43,3.04,9.25,1,.68-1.7,0-3.19.76-4.82,1-2.15,5.56.13,7.19-2.51,1.01-1.64-.68-5.38-3.39-6.83-3.53-1.89,2.36-2.99,3.05-5.6,1.03-3.95-16.08-9.4-16.42-.42-.05,1.35,4.47,9.59.25,12.65Z"/>
+    <path class="cls-6" d="m198.91,41.18c-.03,4.43-3.59,8.03-8.03,8.03s-8.03-3.59-8.03-8.03,3.59-8.07,8.03-8.03c4.48.05,8.06,3.63,8.03,8.03Z"/>
+    <g>
+      <path class="cls-13" d="m192.43,38.85c.6-.35-2.73,4.21-5.27,6.88"/>
+      <g>
+        <path class="cls-4" d="m191.21,40.84c-1.09,1.47-2.68,3.46-4.05,4.89"/>
+        <polygon class="cls-13" points="194.85 44.02 192.43 38.85 186.72 38.82 186.7 38.85 194.84 44.05 194.85 44.02"/>
+      </g>
+    </g>
+    <g>
+      <path class="cls-14" d="m65.96,49.12c-.23,16.06,0,16.75,0,16.75"/>
+      <g>
+        <path class="cls-2" d="m65.96,49.12c-.06,4.19-.09,7.33-.1,9.69"/>
+        <polygon class="cls-12" points="65.96 65.87 61.83 55.95 65.91 58.28 69.96 55.89 65.96 65.87"/>
+      </g>
+    </g>
+    <text class="cls-1" transform="translate(63.48 46.24)"><tspan x="0" y="0">?</tspan></text>
+    <line class="cls-9" x1="189.83" y1="11.52" x2="189.83" y2="33.15"/>
+    <line class="cls-9" x1="189.83" y1="48.92" x2="189.83" y2="73.19"/>
+    <text class="cls-7" transform="translate(195.13 32.14)"><tspan x="0" y="0">V</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.46 82.17">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #7f3f98;
+      }
+
+      .cls-5 {
+        fill: #00a14b;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 10px;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" x=".5" y=".5" width="119.46" height="81.17"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <polyline class="cls-2" points="73.74 73.19 22.57 73.19 22.57 9.1 75.11 9.1"/>
+    <circle class="cls-2" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-4" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-4" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-4" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <text class="cls-5" transform="translate(46.01 39.3)"><tspan x="0" y="0">ci</tspan><tspan class="cls-7" x="6.82" y="0">r</tspan><tspan x="9.99" y="0">cle not closed:</tspan><tspan x="0" y="12">NO cu</tspan><tspan class="cls-1" x="25.58" y="12">r</tspan><tspan class="cls-7" x="28.89" y="12">r</tspan><tspan x="32.06" y="12">e</tspan><tspan class="cls-6" x="37.07" y="12">n</tspan><tspan x="42.58" y="12">t</tspan></text>
+  </g>
+</svg>
