@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.08 100.15">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-5 {
+        letter-spacing: .01em;
+      }
+
+      .cls-6 {
+        letter-spacing: .04em;
+      }
+
+      .cls-7 {
+        letter-spacing: .06em;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+
+      .cls-2 {
+        stroke: #c04040;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-10 {
+        letter-spacing: .03em;
+      }
+
+      .cls-4 {
+        stroke: #d0d0d0;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        font-size: 5.94px;
+      }
+
+      .cls-12, .cls-13 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-13 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="85.64" y1="59.03" x2="83.82" y2="61.77"/>
+  <line class="cls-3" x1="74.69" y1="57.66" x2="81.99" y2="57.66"/>
+  <line class="cls-3" x1="74.69" y1="64.51" x2="81.99" y2="64.51"/>
+  <line class="cls-3" x1="78.34" y1="64.51" x2="78.34" y2="69.08"/>
+  <line class="cls-3" x1="81.99" y1="57.66" x2="78.34" y2="64.51"/>
+  <line class="cls-3" x1="78.34" y1="64.51" x2="74.69" y2="57.66"/>
+  <line class="cls-3" x1="82.45" y1="60.4" x2="83.82" y2="61.77"/>
+  <line class="cls-3" x1="85.64" y1="59.03" x2="82.45" y2="60.4"/>
+  <line class="cls-3" x1="85.18" y1="59.49" x2="80.62" y2="63.14"/>
+  <line class="cls-3" x1="78.34" y1="53.1" x2="78.34" y2="57.66"/>
+  <line class="cls-3" x1="84.73" y1="59.95" x2="83.36" y2="61.32"/>
+  <line class="cls-3" x1="84.27" y1="59.95" x2="82.9" y2="60.4"/>
+  <line class="cls-3" x1="82.9" y1="60.4" x2="83.36" y2="60.86"/>
+  <text class="cls-13" transform="translate(87.92 56.3)"><tspan class="cls-6" x="0" y="0">L</tspan><tspan class="cls-10" x="2.74" y="0">E</tspan><tspan x="5.93" y="0">D</tspan></text>
+  <line class="cls-3" x1="34.09" y1="61.77" x2="34.09" y2="68.62"/>
+  <line class="cls-3" x1="34.09" y1="59.49" x2="34.09" y2="52.64"/>
+  <line class="cls-3" x1="36.37" y1="56.29" x2="39.11" y2="56.29"/>
+  <line class="cls-3" x1="31.81" y1="61.77" x2="36.37" y2="61.77"/>
+  <line class="cls-3" x1="29.53" y1="59.49" x2="38.65" y2="59.49"/>
+  <line class="cls-3" x1="37.74" y1="54.92" x2="37.74" y2="57.66"/>
+  <text class="cls-13" transform="translate(41.38 55.83)"><tspan class="cls-10" x="0" y="0">BA</tspan><tspan class="cls-8" x="6.39" y="0">TT</tspan><tspan class="cls-10" x="12.79" y="0">E</tspan><tspan class="cls-9" x="15.98" y="0">R</tspan><tspan x="19.18" y="0">Y</tspan></text>
+  <line class="cls-3" x1="48.69" y1="36.66" x2="45.04" y2="36.66"/>
+  <line class="cls-3" x1="61.92" y1="36.66" x2="65.57" y2="36.66"/>
+  <rect class="cls-3" x="48.69" y="33.46" width="12.77" height="6.39"/>
+  <text class="cls-13" transform="translate(45.04 43.51)"><tspan x="0" y="0">?</tspan></text>
+  <text class="cls-13" transform="translate(45.04 32.08)"><tspan x="0" y="0">R</tspan></text>
+  <line class="cls-1" x1="34.09" y1="52.64" x2="34.09" y2="36.66"/>
+  <line class="cls-1" x1="34.09" y1="36.66" x2="45.04" y2="36.66"/>
+  <line class="cls-1" x1="63.29" y1="36.66" x2="78.34" y2="36.66"/>
+  <line class="cls-1" x1="78.34" y1="36.66" x2="78.34" y2="53.1"/>
+  <line class="cls-1" x1="78.34" y1="69.08" x2="34.09" y2="69.08"/>
+  <line class="cls-1" x1="34.09" y1="69.08" x2="34.09" y2="68.62"/>
+  <polyline class="cls-3" points="92.94 35.74 86.1 35.74 89.29 40.31 92.94 35.74"/>
+  <line class="cls-2" x1="89.29" y1="33" x2="89.29" y2="35.74"/>
+  <line class="cls-2" x1="89.29" y1="31.17" x2="89.29" y2="33"/>
+  <rect class="cls-4" x="89.29" y="31.17"/>
+  <text class="cls-12" transform="translate(92.48 33.46)"><tspan class="cls-11" x="0" y="0">2</tspan><tspan class="cls-7" x="3.2" y="0">0</tspan><tspan class="cls-5" x="6.85" y="0">m</tspan><tspan x="11.88" y="0">A</tspan></text>
+</svg>
