@@ -19,6 +19,7 @@
     - [Resistors in parallel](#resistors-in-parallel)
     - [Resistors in series](#resistors-in-series)
     - [Voltage divider](#voltage-divider)
+  - [Summary](#summary)
 
 ---
 
@@ -387,3 +388,21 @@ $$
 $$
 
 So if you select R1 = 1.2kOhm and R2 =2.2 kOhm, you’ll be close enough.
+
+## Summary
+
+| Quantity | Unit | Symbol| Formula | | |
+| -------- | --------- | -------- | --------- | --------- | --------- |
+| Voltage	| Volt (V)	| V or U	| U = I * R	|	|
+| Current	| Ampere (A) | I | I = U / R ||
+| Resistance | Ohm (Ω) |R	| R = U / I |||
+| Power	Watt | (W)	| P	| P = I * U	| P = R ∗ I<sup>2</sup>	| P = U<sup>2</sup>/R |
+| Energy |Joule (J)	| E |	E = P * T	|||	
+
+Resistors in series: R<sub>S</sub> = R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub> · · ·
+
+Resistors in parallel: 1/R<sub>P</sub> = 1/R<sub>1</sub> + 1 /R<sub>2</sub> + 1/R<sub>3</sub> + · · ·
+ 
+Voltage divider: V<sub>out</sub> = V<sub>in</sub> ∗ R<sub>bottom</sub>/( R<sub>bottom</sub> + R<sub>top</sub>)	
+
+
