@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.61 67.87">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: .06em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-6 {
+        letter-spacing: .03em;
+      }
+
+      .cls-7 {
+        letter-spacing: .03em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        font-size: 5.94px;
+      }
+
+      .cls-9, .cls-10 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-10 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="70.87" y1="42.66" x2="70.87" y2="35.35"/>
+  <line class="cls-2" x1="77.71" y1="42.66" x2="77.71" y2="35.35"/>
+  <line class="cls-2" x1="77.71" y1="39.01" x2="82.27" y2="39.01"/>
+  <line class="cls-2" x1="70.87" y1="35.35" x2="77.71" y2="39.01"/>
+  <line class="cls-2" x1="77.71" y1="39.01" x2="70.87" y2="42.66"/>
+  <line class="cls-2" x1="66.31" y1="39.01" x2="70.87" y2="39.01"/>
+  <text class="cls-10" transform="translate(66.31 33.99)"><tspan x="0" y="0">D</tspan></text>
+  <line class="cls-1" x1="66.31" y1="39.01" x2="51.25" y2="39.01"/>
+  <line class="cls-1" x1="82.27" y1="39.01" x2="99.61" y2="39.01"/>
+  <text class="cls-9" transform="translate(40.31 36.27)"><tspan class="cls-7" x="0" y="0">A</tspan><tspan class="cls-8" x="4.11" y="0">n</tspan><tspan class="cls-4" x="7.31" y="0">o</tspan><tspan class="cls-8" x="10.96" y="0">d</tspan><tspan x="14.16" y="0">e</tspan></text>
+  <text class="cls-9" transform="translate(91.4 36.27)"><tspan class="cls-5" x="0" y="0">C</tspan><tspan class="cls-4" x="4.12" y="0">a</tspan><tspan class="cls-6" x="7.77" y="0">t</tspan><tspan class="cls-3" x="9.59" y="0">h</tspan><tspan class="cls-4" x="12.79" y="0">o</tspan><tspan class="cls-8" x="16.44" y="0">d</tspan><tspan x="19.64" y="0">e</tspan></text>
+</svg>
