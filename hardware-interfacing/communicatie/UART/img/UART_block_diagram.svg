@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="20cm" height="15cm" viewBox="159 99 391 282" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="160" y="220" width="122.2" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="160" y="220" width="122.2" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="221.1" y="243.9">
+      <tspan x="221.1" y="243.9">clock generator</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="320" y="100" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320" y="100" width="140" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="123.9">
+      <tspan x="390" y="123.9">transmit register</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="320" y="180" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320" y="180" width="140" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="329" y="203.9">
+      <tspan x="329" y="203.9">shift register</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="320" y="340" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320" y="340" width="140" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="363.9">
+      <tspan x="390" y="363.9">receive register</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="320" y="260" width="140" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="320" y="260" width="140" height="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="329" y="283.9">
+      <tspan x="329" y="283.9">shift register</tspan>
+    </text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="282.2,240 282.2,240 390,240 390,231 "/>
+    <polygon style="fill: #000000" points="395,231 390,221 385,231 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="395,231 390,221 385,231 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="282.2,240 282.2,240 390,240 390,249 "/>
+    <polygon style="fill: #000000" points="385,249 390,259 395,249 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,249 390,259 395,249 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="461.006" y1="200" x2="509" y2="200"/>
+    <polygon style="fill: #000000" points="509,205 519,200 509,195 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="509,205 519,200 509,195 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="520" y1="280" x2="472.006" y2="280"/>
+    <polygon style="fill: #000000" points="472.006,275 462.006,280 472.006,285 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="472.006,275 462.006,280 472.006,285 "/>
+  </g>
+  <g transform="rotate(180,390,319.96223)">
+    <polygon style="fill: #ffffff" points="385,340 385,321 380,321 390,302 400,321 395,321 395,340 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,340 385,321 380,321 390,302 400,321 395,321 395,340 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,340 385,321 380,321 390,302 400,321 395,321 395,340 "/>
+  </g>
+  <g>
+    <polygon style="fill: #ffffff" points="385,140 385,159 380,159 390,178 400,159 395,159 395,140 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,140 385,159 380,159 390,178 400,159 395,159 395,140 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="385,140 385,159 380,159 390,178 400,159 395,159 395,140 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="420" y1="200" x2="437.764" y2="200"/>
+    <polygon style="fill: #ffffff" points="437.764,205 447.764,200 437.764,195 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="437.764,205 447.764,200 437.764,195 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="450" y1="280" x2="432.236" y2="280"/>
+    <polygon style="fill: #ffffff" points="432.236,275 422.236,280 432.236,285 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="432.236,275 422.236,280 432.236,285 "/>
+  </g>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="540" y="204.425">
+    <tspan x="540" y="204.425">TX</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="540" y="284.425">
+    <tspan x="540" y="284.425">RX</tspan>
+  </text>
+  <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="180" y1="260" x2="179.757" y2="319.024"/>
+  <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="340">
+    <tspan x="180" y="340">clock</tspan>
+  </text>
+</svg>
