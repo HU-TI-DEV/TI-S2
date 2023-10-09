@@ -24,7 +24,7 @@ Electric Linear Actuators are a type of actuator that converts energy and signal
 
 ## 5V relais to drive 12V Linear actuator
 
-Linear actuators typically operate on higher voltages. We use a 5V relais to operate a 12V relais from an Arduino UNO. We actually use two relais to switch the polarity and drive de linear actuator up and down.
+Linear actuators typically operate on higher voltages. We use a 5V [relais](../relais&SSR/README.md) to operate a 12V relais from an Arduino UNO. We actually use two relais to switch the polarity and drive de linear actuator up and down.
 
 ![The linear actuator wiring diagram](../linear-actuator/img/linear-actuator_bb.png)
 
