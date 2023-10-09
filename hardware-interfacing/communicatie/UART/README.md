@@ -1,10 +1,10 @@
 ![logo](../UART/img/UART_block_diagram.svg) [](logo-id)
 
-# Communicatie[](title-id)
+# UART[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [Communicatie](#communicatie)
+- [UART](#uart)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
 - [UART communicatie tussen Raspberry Pi en Arduino](#uart-communicatie-tussen-raspberry-pi-en-arduino)
@@ -12,11 +12,11 @@
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
-  - [Zenden en ontvangen via extra uart op de Arduino Uno](#zenden-en-ontvangen-via-extra-uart-op-de-arduino-uno)
-  - [Zenden met de Arduino Uno:](#zenden-met-de-arduino-uno)
-  - [Ontvangen met de Arduino Uno:](#ontvangen-met-de-arduino-uno)
-  - [Zenden met de Arduino Due:](#zenden-met-de-arduino-due)
-  - [Ontvangen met Arduino Due:](#ontvangen-met-arduino-due)
+  - [Zenden en ontvangen via extra UART op de Arduino Uno](#zenden-en-ontvangen-via-extra-uart-op-de-arduino-uno)
+  - [Zenden met de Arduino Uno](#zenden-met-de-arduino-uno)
+  - [Ontvangen met de Arduino Uno](#ontvangen-met-de-arduino-uno)
+  - [Zenden met de Arduino Due](#zenden-met-de-arduino-due)
+  - [Ontvangen met Arduino Due](#ontvangen-met-arduino-due)
   - [Referenties](#referenties)
 
 ---
@@ -259,11 +259,11 @@ if __name__ == "__main__":
 ```
 
 
-## Zenden en ontvangen via extra uart op de Arduino Uno
+## Zenden en ontvangen via extra UART op de Arduino Uno
 
-Dat kan alleen via een software uart:
+Dat kan alleen via een software UART omdat de Arduino slechts beschikking heeft over één enkele hardware UART.
 
-## Zenden met de Arduino Uno:
+## Zenden met de Arduino Uno
 
 ```c++
 #include <SoftwareSerial.h>
@@ -287,7 +287,7 @@ void loop() { // verstuur de cijferreeks elke 2 seconden
 }
 ```
 
-## Ontvangen met de Arduino Uno:
+## Ontvangen met de Arduino Uno
 
 ```c++
 #include <SoftwareSerial.h>
@@ -314,7 +314,7 @@ void loop() {
 }
 ```
 
-## Zenden met de Arduino Due:
+## Zenden met de Arduino Due
 
 ```c++
 void setup() {
@@ -329,7 +329,7 @@ void loop() {
 }
 ```
 
-## Ontvangen met Arduino Due:
+## Ontvangen met Arduino Due
 
 ```c++
 void setup() {

@@ -25,7 +25,7 @@ Een bus met even veel draadjes als de hoeveelheid databits die gestuurd moeten w
 
 Er zijn veel verschillende bussen en communicatieprotocollen. Iedere combinatie bus + communicatieprotocol maakt een andere overweging en eindigd qua voor en nadelen tussen de bovenstaand genoemde extreeme vormen. Hier behandelen we [SPI](../communicatie/SPI/README.md) en [I2C](../communicatie/I2C/README.md), de populairste bus en communicatieprotocol combinaties voor de communicatie tussen chips. Daarnaast leren we [1-Wire](../communicatie/1-wire/README.md) te gebruiken en het uitwisselen van data via [analoge en digitale signalen](../communicatie/analoog-en-digitaal/README.md).
 
-Om sensordata uit te wisselen met een Arduino Uno en Raspberry Pi 4 kunnen we gebruik maken van UART. Een veel gebruikte seriele interface om randapparatuur aan te sluiten.
+Om sensordata uit te wisselen met een Arduino Uno en Raspberry Pi 4 kunnen we gebruik maken van [UART](../communicatie/UART/README.md). Een veel gebruikte seriele interface om randapparatuur aan te sluiten.
 
 ## Referenties
 - Serial Peripheral Interface (<https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>)
