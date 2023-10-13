@@ -10,6 +10,7 @@
     - [ssh verbinding](#ssh-verbinding)
     - [Update systeem](#update-systeem)
     - [Datum en tijd](#datum-en-tijd)
+    - [Sudo](#sudo)
   - [Docker containers](#docker-containers)
     - [Data opslag](#data-opslag)
     - [Berichten service](#berichten-service)
@@ -70,6 +71,13 @@ timedatectl status
 
 De Raspberry Pi 4 heeft geen hardware clock. Is er geen internet verbinding? Dan kan er geen tijdsynchronisatie plaatsvinden. Overweeg de installatie van een Real Time Clock (RTC).
 
+### Sudo
+
+Je hebt voor de meeste configuratie en executie momenten sudo toegang nodig.
+```bash
+sudo su
+```
+
 ## Docker containers
 
 De Raspberry Pi 4 is de centrale hub voor het verwerken van sensor gegevens. Om efficient verschillende applicaties te installeren en te beheren gaan we gebruik maken van [Docker containers](../../Docker/README.md). Installeer Docker en Docker Compose om de volgende applicaties te installeren.
@@ -106,7 +114,13 @@ mkdir data
 mkdir log
 ```
 
-Maak een bestand **mosquitto.conf** aan in de config directory met de volgende inhoud.
+Maak een bestand **mosquitto.conf** aan in de config directory.
+```bash
+cd config
+nano mosquitto.conf
+```
+
+Voeg de volgende inhoud toe.
 ```bash
 allow_anonymous true
 listener 1883
