@@ -137,3 +137,4 @@ Controleer de MQTT broker bijvoorbeeld met MQTT Explorer.
 
 ## Referenties
 - Raspberry Pi OS (<https://www.raspberrypi.com/software/>)
+- Raspberry Pi Foundation (<https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation>)
