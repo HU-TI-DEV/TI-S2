@@ -11,9 +11,12 @@
     - [Update systeem](#update-systeem)
     - [Datum en tijd](#datum-en-tijd)
     - [Sudo](#sudo)
+    - [IP adres opvragen](#ip-adres-opvragen)
   - [Docker containers](#docker-containers)
     - [Data opslag](#data-opslag)
     - [Berichten service](#berichten-service)
+    - [Visual coding](#visual-coding)
+    - [Flask](#flask)
   - [Referenties](#referenties)
 
 ---
@@ -78,6 +81,13 @@ Je hebt voor de meeste configuratie en executie momenten sudo toegang nodig.
 sudo su
 ```
 
+### IP adres opvragen
+
+Om te controleren hoe je Raspberry Pi is verbonden gebruik het volgende commando.
+```bash
+ip a
+```
+
 ## Docker containers
 
 De Raspberry Pi 4 is de centrale hub voor het verwerken van sensor gegevens. Om efficient verschillende applicaties te installeren en te beheren gaan we gebruik maken van [Docker containers](../../Docker/README.md). Installeer Docker en Docker Compose om de volgende applicaties te installeren.
@@ -133,8 +143,31 @@ log_dest file /mosquitto/log/mosquitto.log
 docker run --name mqtt -d --restart unless-stopped -it -p 1883:1883 -p 9001:9001 -v ${PWD}/config/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
 ```
 
-Controleer de MQTT broker bijvoorbeeld met MQTT Explorer.
+Controleer de MQTT broker bijvoorbeeld met [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer).
+
+
+### Visual coding
+
+Voor het visueel programmeren en het maken van Inernet of Things (IoT) toepassingen kan je gebruik maken van [NodeRed](../../../software/visueel-programmeren/Node-RED/README.md).
+
+
+```bash
+mkdir node_red_data
+```
+
+```bash
+docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/node_red_data nodered/node-red
+```
+
+De grafische gebruikersinterfacekan je nu met een browser bereiken op http://<your host ip adress>:1880
+
+### Flask
+
+Maak een webinterface voor je IoT oplossing met Flask.
 
 ## Referenties
 - Raspberry Pi OS (<https://www.raspberrypi.com/software/>)
 - Raspberry Pi Foundation (<https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation>)
+- Docker (<https://www.docker.com/>)
+- Postgres (<https://www.postgresql.org/>)
+- Flask (<https://pypi.org/project/Flask/>)

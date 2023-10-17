@@ -20,7 +20,9 @@
 
 ### Inleiding
 
-Docker is a tool for creating, deploying, and running applications in containers. The software is popular among developers as it speeds up the development process and does not use a lot of resources. With docker you can automate the deployment of applications in lightweight containers. Multiple applications can run in an isolated environement. The Raspberry Pi 4 is a good candidate for running docker and 
+Docker is a tool for creating, deploying, and running applications in containers. The software is popular among developers as it speeds up the development process and does not use a lot of resources. With docker you can automate the deployment of applications in lightweight containers. Multiple applications can run in an isolated environement. 
+
+With Docker you can compartmentalise an individual application based on their dependencies, but allow them to still “share” libraries with other applications without duplicating them. All the applications will share the same host Operating System (OS), without the extra layer of a guest OS that is present in the virtual machine set-up.
 
 ### Installeer Docker
 
