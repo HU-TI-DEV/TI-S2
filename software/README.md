@@ -1,0 +1,16 @@
+# software
+
+* [c++/](../software/c++/README.md)
+  * [basisconcepten/](../software/c++/basisconcepten/README.md)
+  * [condities/](../software/c++/condities/README.md)
+  * [data-types/](../software/c++/data-types/README.md)
+  * [for-loop/](../software/c++/for-loop/README.md)
+* [communicatie/](../software/communicatie/README.md)
+  * [MQTT/](../software/communicatie/MQTT/README.md)
+* [getalsysteem/](../software/getalsysteem/README.md)
+* [git/](../software/git/README.md)
+* [inrichten-ontwikkelomgeving/](../software/inrichten-ontwikkelomgeving/README.md)
+* [visueel-programmeren/](../software/visueel-programmeren/README.md)
+  * [Node-RED/](../software/visueel-programmeren/Node-RED/README.md)
+* [webserver/](../software/webserver/README.md)
+  * [Flask/](../software/webserver/Flask/README.md)
