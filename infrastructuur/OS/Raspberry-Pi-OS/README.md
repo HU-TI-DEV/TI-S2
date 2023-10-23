@@ -1,4 +1,4 @@
-![logo](../Raspberry%20Pi%20OS/img/Raspberry_Pi_Logo.svg) [](logo-id)
+![logo](../Raspberry-Pi-OS/img/Raspberry_Pi_Logo.svg) [](logo-id)
 
 # Raspberry Pi OS[](title-id)
 
@@ -38,7 +38,7 @@ Voor deze installatie is gebruik gemaakt van de volgende hardware en software ve
 
 Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: https://www.raspberrypi.com/software/
 
-![Raspberry Pi Imager](../Raspberry%20Pi%20OS/img/Raspberry%20Pi%20Imager.png)
+![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 
 Download en installeer de image op een microSD kaart. Bij het configuratie symbool kan je vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
 
@@ -48,7 +48,7 @@ Maak met ssh verbinding met je Raspberry Pi.
 
 **ssh < user >@< hostname or ip >**
 
-![ssh](../Raspberry%20Pi%20OS/img/ssh.png)
+![ssh](../Raspberry-Pi-OS/img/ssh.png)
 
 ### Update systeem
 
@@ -108,7 +108,7 @@ docker run --name postgres -d --restart unless-stopped -p 5432:5432 -e POSTGRES_
 
 Controlleer de database verbinding bijvoorbeeld met SQL shell (psql) of pgAdmin.
 
-![psql](../Raspberry%20Pi%20OS/img/psql.png)
+![psql](../Raspberry-Pi-OS/img/psql.png)
 
 ### Berichten service
 
