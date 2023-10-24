@@ -71,6 +71,8 @@ Succes met de uitwerking van de verantwoording!
 
     Omdat ik moeite heb gehad om/ met ........../ Omdat mijn interesse is gewekt in........ wil ik de komende periode graag (meer) aandacht besteden aan: ........
 
+---
+
 ## Leeruitkomsten
 
 ### Leeruitkomst 1
@@ -111,6 +113,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+---
+
 ### Leeruitkomst 2
 
 Student zet de requirements om in logische onderdelen voor de oplossing, onderzoekt de toepasbaarheid van componenten, maakt bewuste keuzes in de samenstelling en ontwerpt hiermee de IoT-oplossing.
@@ -149,6 +153,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+---
 
 ### Leeruitkomst 3
 
@@ -189,6 +195,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+---
+
 ### Leeruitkomst 4
 
 Student werkt doelgericht en met verantwoordelijkheid samen door zich aan afspraken te houden, taken op te pakken en uit te voeren, teamleden op de hoogte te houden, feedback te geven, feedback te onvangen en waar nodig om hulp te vragen en aan te bieden.
@@ -228,6 +236,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+---
+
 ### Leeruitkomst 5
 
 Student deelt een boodschap helder met het team en opdrachtgever en is in staat om diens werk te presenteren aan peers en opdrachtgever en vraagt door om onduidelijkheden weg te nemen.
@@ -265,6 +275,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+---
+
 ### Leeruitkomst 6
 
 Student evalueert eigen gedrag en eigen leerontwikkeling, kijkt kritisch terug op eigen handelen en de invloed daarvan op de teamprestaties/leerontwikkeling, herkent hierin de eigen sterktes en verbeterpunten, en kan deze vervolgens vertalen naar concrete acties.
@@ -301,6 +313,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+---
+
 ### Leeruitkomst 7
 
 Student voert eenvoudige tests uit in strikte overeenstemming met gecommuniceerde instructies en evalueert de resultaten om uitspraken te kunnen doen over de kwaliteit van de code en het systeem.
@@ -336,6 +350,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+---
 
 ### Leeruitkomst 8
 
@@ -374,6 +390,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+---
 
 ### Leeruitkomst 9
 
