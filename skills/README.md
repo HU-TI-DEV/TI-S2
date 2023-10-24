@@ -7,6 +7,11 @@
 - [Professional skills](#professional-skills)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
+  - [Scrum](#scrum)
+  - [Feedback geven](#feedback-geven)
+  - [reflecteren vs evalueren](#reflecteren-vs-evalueren)
+  - [Git](#git)
+  - [Documenteren](#documenteren)
 
 ---
 
@@ -18,15 +23,15 @@
 
 Naast het ontwikkkelen van technische skills zijn professional skills minstens zo belangrijk. Hoe goed een technische oplossing ook is deze moet wel aan de man worden gebracht. Dit gebeurt in de eerste plaats vaak in de vorm van een presentatie en daarom is het belangrijk om te leren hoe te [presenteren](../skills/presenteren/README.md).
 
-Scrum
+## Scrum
 
-Feedback geven
+## Feedback geven
 
-reflecteren vs evalueren 
+## reflecteren vs evalueren 
 
-Git 
+## Git 
 
-Documenteren 
+## Documenteren 
 
 
 

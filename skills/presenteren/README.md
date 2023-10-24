@@ -7,18 +7,35 @@
 - [Presenteren](#presenteren)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
-    - [Bus-systeem](#bus-systeem)
+  - [Basis van het spreken](#basis-van-het-spreken)
+  - [Praktisch presenteren](#praktisch-presenteren)
+    - [Voorbereiding](#voorbereiding)
+  - [Gebruik van visuele ondersteuning](#gebruik-van-visuele-ondersteuning)
+  - [bronnen](#bronnen)
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor 1-Wire uitleg en voorbeeld code door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeeld code door HU IICT[](author-id).
 
 ---
 
 ## Een introductie
 
-1-Wire is een communicatieprotocol dat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensortoepassingen zoals het meten van temperatuur. Dit bussysteem is ontwikkeld door Dallas Semiconductor Corporation. Daarom spreken we ook wel van Dallas 1-Wire. 1-Wire gebruikt slechts een enkele lijn voor voeding en dataoverdracht.
+Effectief leren communiceren naar een groep is iets waar vrijwel iedereen in zijn leven te maken mee krijgt. Voor veel mensen is dit een zeer stressvolle gebeurtenis [1]. Hoewel het altijd spannend is hoeft het voor veruit de meeste mensen geen groot probleem te zijn. In dit topic is informatie verzameld die gebruikt kan worden bij het effectief leren presenteren. In het eerste hoofdstuk, Basis van het spreken, wordt de theorie besproken. Daarna worden praktische tips gegeven voor het geven van een presentatie in het topic Praktisch presenteren. Het gebruik van visuele ondersteuning wordt apart beschreven in het topic Gebruik van visuele ondersteuning. 
 
-### Bus-systeem
-Een bus is in de computertechniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
+## Basis van het spreken
+
+
+
+## Praktisch presenteren
+### Voorbereiding
+  
+
+## Gebruik van visuele ondersteuning
+
+
+
+## bronnen
+
+ [1] 	J. Elliott and . J. L. Chong, "Presentation Anxiety: A challenge for some students and a pit of despair," [Online]. Available: http://www. isana. org. au/files.
 
