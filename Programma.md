@@ -15,6 +15,9 @@
     - [Onderwijsweek C5](#onderwijsweek-c5)
     - [Onderwijsweek C6](#onderwijsweek-c6)
     - [Onderwijsweek C7](#onderwijsweek-c7)
+    - [Onderwijsweek C8](#onderwijsweek-c8)
+    - [Onderwijsweek C9](#onderwijsweek-c9)
+    - [Onderwijsweek C10](#onderwijsweek-c10)
 
 ---
 
@@ -60,17 +63,17 @@ C3 | vr | Vakantie | |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C3 | ma | **Excursie** | Excursie glastuinbouw Westland | **Volledige dag!**
-C4 | di | We behandelen [actieve elektronica](../TI-S2/hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../TI-S2/hardware-interfacing/communicatie/1-wire/) protocol. Met half duplex [I2C communicatie](../TI-S2/hardware-interfacing/communicatie/I2C/README.md) sluiten we een Real Time Clock (RTC) om de tijd bij te houden. Week C4. Een low-power clock-controlled IoT device met een Arduino Uno. Gebruik de clock om periodiek de temperatuur van de omgeving te meten. (Een P-channel mosfet voor het schakelen.) | Arduino Omgevging installeren | cpp en hpp files, includes, namespace
-C4 | wo | 1-Wire, I2C & RTC | Werken aan project | struct, compositie UML relatie
-C4 | do | 1-Wire, I2C & RTC | Werken aan project | bits, uint8
+C3 | ma | **Excursie** | Excursie glastuinbouw Westland | **Excursie volledige dag!**
+C4 | di | We behandelen [actieve elektronica](../TI-S2/hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../TI-S2/hardware-interfacing/communicatie/1-wire/) protocol. Met half duplex [I2C communicatie](../TI-S2/hardware-interfacing/communicatie/I2C/README.md) sluiten we een Real Time Clock (RTC) om de tijd bij te houden. Week C4. Een low-power clock-controlled IoT device met een Arduino Uno. Gebruik de clock om periodiek de temperatuur van de omgeving te meten. (Een P-channel mosfet voor het schakelen.) | Arduino Omgevging installeren | Datasheet lezen
+C4 | wo | 1-Wire, I2C & RTC | Werken aan project | cpp en hpp files, includes, namespace
+C4 | do | 1-Wire, I2C & RTC | Werken aan project | struct, compositie UML relatie, bits, uint8
 C4 | vr | 1-Wire, I2C & RTC | Werken aan project | files i/o, fstream
 
 ### Onderwijsweek C5
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C5 | di | Schuifregister & SPI| We leren het gebruik van een (output) [schuifregister](../TI-S2/hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../TI-S2/hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. Week C5. Met 8 leds simuleren we de stand van deuren en ramen we sturen deze aan met een 74HC595. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver.| Schuifregister, libraries, recursie
+C5 | di | We leren het gebruik van een (output) [schuifregister](../TI-S2/hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../TI-S2/hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. Week C5. Met 8 leds simuleren we de stand van deuren en ramen we sturen deze aan met een 74HC595. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver. | | Schuifregister, libraries, recursie
 C5 | wo | Schuifregister & SPI | Werken aan project | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren
 C5 | do | Schuifregister & SPI | Werken aan project |
 C5 | vr | Schuifregister & SPI | Show & Tell | 
@@ -79,16 +82,43 @@ C5 | vr | Schuifregister & SPI | Show & Tell |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C6 | di | | |
-C6 | wo | | |
-C6 | do | | |
-C6 | vr | | |
+C6 | di | Een actor gebruik je om een actie te genereren. Soms moet dat ook met hogere voltages en gebruiken we een relais. Week C6. Schakel een grotere spanning met behulp van een [relais](../TI-S2/hardware-interfacing/elektronische-componenten/relais&SSR/README.md) voor het activeren van een [linear-actuator](../TI-S2/hardware-interfacing/elektronische-componenten/linear-actuator/README.md) om een raam of deur te openen. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | use-case & activity diagrammen
+C6 | wo | Relais & Linear-actuator | Werken aan project | Multimeter
+C6 | do | Relais & Linear-actuator | Werken aan project| Logic Analyzer
+C6 | vr | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |
 
 ### Onderwijsweek C7
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C7 | di | | |
-C7 | wo | | |
-C7 | do | | |
-C7 | vr | | |
+C7 | di | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (PWM). Week C7. We gebruiken [UART](../TI-S2/hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../TI-S2/hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../TI-S2/hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../TI-S2/hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator aan om te ventileren op het gewenste niveau. | |
+C7 | wo | UART communicatie & PWM | |
+C7 | do | UART communicatie & PWM | |
+C7 | vr | UART communicatie & PWM | Show & Tell |
+
+### Onderwijsweek C8
+
+Onderwijsweek | Dag | Thema | Project | Kennissessie
+--- | --- | --- | --- | ---
+C8 | di | Om data van A naar B krijgen heb je data communicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT](../TI-S2/software/communicatie/MQTT/README.md), [PostgreSQL](../TI-S2/infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../TI-S2/software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../TI-S2/software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../TI-S2/infrastructuur/Docker/README.md) containers. | |
+C8 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | |
+C8 | do | Node-Red, PostgreSQL, MQTT, Flask & Docke | |
+C8 | vr | **Goedevrijdag** | |
+
+### Onderwijsweek C9
+
+Onderwijsweek | Dag | Thema | Project | Kennissessie
+--- | --- | --- | --- | ---
+C9 | di | | |
+C9 | wo | | |
+C9 | do | | |
+C9 | vr | | |
+
+### Onderwijsweek C10
+
+Onderwijsweek | Dag | Thema | Project | Kennissessie
+--- | --- | --- | --- | ---
+C10 | di | | |
+C10 | wo | | |
+C10 | do | | |
+C10 | vr | | |

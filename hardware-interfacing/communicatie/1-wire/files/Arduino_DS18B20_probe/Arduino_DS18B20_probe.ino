@@ -1,4 +1,4 @@
-//1-Wire Arduino sketch for BS18B20 waterproof temperature sensor
+//1-Wire Arduino sketch for DS18B20 waterproof temperature sensor
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -10,7 +10,7 @@ DallasTemperature sensors(&oneWire);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("1-Wire Arduino sketch for BS18B20 waterproof temperature sensor");
+  Serial.println("1-Wire Arduino sketch for DS18B20 waterproof temperature sensor");
   sensors.begin();
 }
 
