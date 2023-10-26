@@ -91,8 +91,8 @@ C6 | vr | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsd
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C7 | di | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (PWM). Week C7. We gebruiken [UART](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator aan om te ventileren op het gewenste niveau. | |
-C7 | wo | UART communicatie & PWM | |
+C7 | di | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (PWM). Week C7. We gebruiken [UART](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | | UART
+C7 | wo | UART communicatie & PWM | | PWM
 C7 | do | UART communicatie & PWM | |
 C7 | vr | UART communicatie & PWM | Show & Tell |
 
@@ -100,9 +100,9 @@ C7 | vr | UART communicatie & PWM | Show & Tell |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C8 | di | Om data van A naar B krijgen heb je data communicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | |
-C8 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | |
-C8 | do | Node-Red, PostgreSQL, MQTT, Flask & Docke | |
+C8 | di | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | | Docker & MQTT
+C8 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | |  PostgreSQL & Node-Red
+C8 | do | Node-Red, PostgreSQL, MQTT, Flask & Docker | | Flask
 C8 | vr | **Goedevrijdag** | |
 
 ### Onderwijsweek C9
