@@ -19,9 +19,9 @@ download the executable.-->
 			<DATE></DATE>
 			<GRID spacing='25.00000' snap='0'/>
 		</DETAILS>
-		<FONT id='0'>
-			<HEIGHT>-13</HEIGHT>
-			<WIDTH>6</WIDTH>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
 			<WEIGHT>400</WEIGHT>
 			<ITALIC>0</ITALIC>
 			<UNDERLINE>0</UNDERLINE>
@@ -29,9 +29,9 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<FONT id='1'>
-			<HEIGHT>-10</HEIGHT>
-			<WIDTH>0</WIDTH>
+		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
 			<ITALIC>0</ITALIC>
 			<UNDERLINE>0</UNDERLINE>
@@ -106,7 +106,7 @@ download the executable.-->
 		</SYMBOL>
 		<WIRE a='30.80000,21.40000' b='24.20000,21.40000'/>
 		<WIRE a='37.80000,21.40000' b='45.40000,21.40000'/>
-		<TEXT pos='19.40000,20.80000' direction='3' font='0' color='000000'>Anode</TEXT>
-		<TEXT pos='41.80000,20.80000' direction='3' font='0' color='000000'>Cathode</TEXT>
+		<TEXT pos='19.40000,20.80000' direction='3' font='3' color='000000'>Anode</TEXT>
+		<TEXT pos='41.80000,20.80000' direction='3' font='3' color='000000'>Cathode</TEXT>
 	</TinyCAD>
 </TinyCADSheets>

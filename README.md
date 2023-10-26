@@ -8,6 +8,7 @@
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [Beroepstaak](#beroepstaak)
+  - [Context](#context)
   - [Leeruitkomsten](#leeruitkomsten)
   - [License information](#license-information)
 
@@ -28,6 +29,10 @@ Onderwijs in semester 2 is projectgestuurd dat betekent dat het project centraal
 Voor semester 2 van de richting Technische Informatica staat de volgende beroepstaak centraal:
 
 Het ontwikkelteam stemt met elkaar en een opdrachtgever af wat de wenselijke functionaliteiten zijn en hoe de hoofdlijnen van de oplossing er uit zien. Op basis van deze functionaliteiten en richting van de oplossing ontwerpt en realiseert het team een (extern-)connected embedded systeem door bestaande componenten te integreren via software en deze op basis van gespecificeerde testcases te testen. Het team houdt de opdrachtgever en elkaar op de hoogte van de voortgang en neemt de feedback mee in de verdere ontwikkeling van zichzelf en de oplossing. Uiteindelijk levert het team de oplossing, en alles wat daarbij hoort, op aan de opdrachtgever en diens potentiële doorontwikkelteam.
+
+## Context
+
+In dit semester van Technische Informatica staat een slim (kweek)kas systeem centraal. In de glastuinbouw is vollop geautomatiseerd. Van het meten van temperatuur tot aan het planten van 1000 zaailingen per uur met een verplantingsmachine. Wij beperken ons tot het meten met sensoren en het gebruik van actuatoren om een optimaal klimaat te behouden voor de planten. De kweekkas maak je 'connected' waardoor je ook online kunt rapporteren, aansturen en bijsturen.  
 
 ## Leeruitkomsten
 
