@@ -1,4 +1,4 @@
-![logo](../switch/img/Switch.svg) [](logo-id)
+![logo](./img/Switch.svg) [](logo-id)
 
 # Switch[](title-id)
 

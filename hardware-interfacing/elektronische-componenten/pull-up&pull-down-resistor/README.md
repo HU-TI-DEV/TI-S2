@@ -1,4 +1,4 @@
-![logo]() [](logo-id)
+![logo](./img/Pull-upp-resistor.svg) [](logo-id)
 
 # Pul-up & Pull-down resistor[](title-id)
 
