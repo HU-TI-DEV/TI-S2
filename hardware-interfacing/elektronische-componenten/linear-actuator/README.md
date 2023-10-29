@@ -26,7 +26,9 @@ Electric Linear Actuators are a type of actuator that converts energy and signal
 
 Linear actuators typically operate on higher voltages. We use a 5V [relais](../relais&SSR/README.md) to operate a 12V relais from an Arduino UNO. We actually use two relais to switch the polarity and drive de linear actuator up and down.
 
-![The linear actuator wiring diagram](../linear-actuator/img/linear-actuator_bb.png)
+![The linear actuator wiring diagram](./img/linear-actuator_bb.png)
+
+In motor contorol a [H-bridge](../H-brug/README.md) is often used to switch polarity in stead of a relais and PWM is then used for signal or controlling the current.
 
 ## Duty Cycle
 
@@ -34,7 +36,7 @@ Many linear actuators have a duty cycle. To limit wear an tear you should obey t
 
 ## Arduino example
 
-```
+```c++
 //assign relay INx pin to arduino pin
 const int forwards = 7;
 const int backwards = 6;
