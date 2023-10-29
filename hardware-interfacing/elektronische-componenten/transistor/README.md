@@ -1,4 +1,4 @@
-![logo](../transistor/img/Transistor.svg) [](logo-id)
+![logo](./img/Transistor.svg) [](logo-id)
 
 # Transistor[](title-id)
 

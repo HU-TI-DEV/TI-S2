@@ -1,4 +1,4 @@
-![logo]() [](logo-id)
+![logo](./img/12_board_mounted_potentiometers.jpg) [](logo-id)
 
 # Potentiometer[](title-id)
 
