@@ -49,9 +49,11 @@ We kunnen deze tijden variëren. Als we uitgaan van een 5V output en het signaal
 
 Bij een servo wordt een PWM signaal uitsluitend gebruikt als signaal drager. De mate waarin het signaal aan en uit is heeft betekenis (stuursignaal). De tijd dat het signaal hoog is geeft aan waar de servo naar toe moet en hoe snel.
 
+Zie voor een voorbeeld en uitleg van PWM ook het voorbeeld met het [aansturen van een ventilator](../../communicatie/analoog-en-digitaal/DAC/README.md).
+
 ### L298N Driver
 
-Met een H-brug kunnen we het potentiaal omdraaien en met PWM kunnen we de stroomsterkte regelen. Een Motor driver zoals de L298N Driver combineert deze twee mogelijkheden. Dit is een dual motor driver en je kunt dus twee motoren aansturen via [I2C](../../communicatie/I2C/README.md). Met een 12 volt voeding is de 'voltage drop' ongeveer 2V. Je kunt dan dus niet de volledige snelheid gebruiken van de DC-motor. Tot 12V kan je ook de onboard 5V voltage regulator gebruiken. Zo kan je veilig de 5V logica van de Arduino Uno gebruiken.
+Met een H-brug kunnen we het potentiaal omdraaien en met PWM kunnen we de stroomsterkte regelen. Een Motor driver zoals de L298N Driver combineert deze twee mogelijkheden. Dit is een dual motor driver en je kunt dus twee motoren aansturen via [GPIO pinnen](../../communicatie/analoog-en-digitaal/README.md) van de Arduino Uno. Met een 12 volt voeding is de 'voltage drop' ongeveer 2V. Je kunt dan dus niet de volledige snelheid gebruiken van de DC-motor. Tot 12V kan je ook de onboard 5V voltage regulator gebruiken. Zo kan je veilig de 5V logica van de Arduino Uno gebruiken.
 
 ![L298N wiring diagram](./img/L298N_bb.png)
 
