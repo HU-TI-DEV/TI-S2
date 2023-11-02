@@ -389,3 +389,21 @@ Criteria |
 * Het bevat reflectieverslag bevat een link/document van de uitgevoerde retro;
 * Een referentie naar vorige retrospectives/reflecties;
 * Een beschrijving over de eigen verantwoordelijkheden en actiepunten voor de toekomst.
+
+---
+
+Portfolio item | Beschrijving
+--- | --- 
+Oefenopdrachten Infrastructuur | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
+
+---
+
+Portfolio item | Beschrijving
+--- | --- 
+Oefenopdrachten Software | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
+
+---
+
+Portfolio item | Beschrijving
+--- | --- 
+Oefenopdrachten Hardware Interfacing | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
