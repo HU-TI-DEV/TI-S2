@@ -2,6 +2,7 @@
 
 * [capacitor/](../elektronische-componenten/capacitor/README.md)
 * [diode/](../elektronische-componenten/diode/README.md)
+* [H-brug/](../elektronische-componenten/H-brug/README.md)
 * [ic/](../elektronische-componenten/ic/README.md)
   * [74HC595/](../elektronische-componenten/ic/74HC595/README.md)
   * [OpAmp/](../elektronische-componenten/ic/OpAmp/README.md)
