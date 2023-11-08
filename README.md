@@ -9,8 +9,10 @@
   - [Een introductie](#een-introductie)
   - [Beroepstaak](#beroepstaak)
   - [Context](#context)
+  - [Sustainable Development Goals](#sustainable-development-goals)
   - [Leeruitkomsten](#leeruitkomsten)
-  - [License information](#license-information)
+  - [Referenties](#referenties)
+  - [Licentie informatie](#licentie-informatie)
 
 ---
 
@@ -34,6 +36,10 @@ Het ontwikkelteam stemt met elkaar en een opdrachtgever af wat de wenselijke fun
 
 In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een slimme (kweek)kas. In de glastuinbouw wordt vollop geautomatiseerd. Van het meten van temperatuur tot aan het planten van 1000 zaailingen per uur met een verplantingsmachine. Wij beperken ons tot het meten met sensoren en het gebruik van actuatoren om een optimaal klimaat te behouden voor de planten. De kweekkas maak je in dit semester 'connected' waardoor je ook online kunt rapporteren, aansturen en bijsturen.  
 
+## Sustainable Development Goals
+
+
+
 ## Leeruitkomsten
 
 In semester 2 van de richting Technische Informatica zijn de volgende leeruitkomsten gedefineerd:
@@ -50,7 +56,11 @@ S2.7 | Student voert eenvoudige tests uit in strikte overeenstemming met gecommu
 S2.8 | Student is in staat om een eenvoudige planning voor zichzelf en/of voor het team op te stellen door grote taken op te delen in kleinere (deel)taken om zodoende het gestelde doel te bereiken en zich daaraan te kunnen houden. Naar aanleiding van (gecontroleerde) gebeurtenissen kan de student zijn planning aanpassen en deze aanpassingen toelichten. | Plannen
 S2.9 | Student levert, in een daarvoor ingerichte versiebeheeromgeving, de producten en diensten op zodanig dat de opdrachtgever en peers verder kunnen met de doorontwikkeling van de resultaten waarvan een bijdrage aan de documentatie een wezenlijk onderdeel is.| Opleveren / Documenteren
 
-## License information
+## Referenties
+
+
+
+## Licentie informatie
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
