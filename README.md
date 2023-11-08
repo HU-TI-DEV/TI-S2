@@ -38,7 +38,11 @@ In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het
 
 ## Sustainable Development Goals
 
+Ecologische ontwikkelingen zoals klimaatverandering, verlies van biodiversiteit, uitputting van grondstoffen, dreigende tekorten aan drinkwater, toenemende stikstof uitstoot maar ook uitbreiding van woningbouw ten kosten van de natuur leggen een druk op de toekomstige generaties.
 
+Economisch is er een grens bereikt. De groei economie houdt geen stand. Dat betekent een brede transitie naar de betekenis economie. Verbruikseconomie verandert in circulaire economie. Fossiele brandstoffen moeten worden vervangen door duurzame energie. Enzovoort.
+
+Om deze ambitie waar te maken zijn er 17 duurzame ontwikkelingsdoelen door de Verenigde Naties opgesteld. In het project stel je minimaal één [Sustainable Development Goal](./SDG.md) (SDG) centraal zodat je leert om vanuit jouw professie een bijdrage te kunnen gaan leveren aan de noodzakelijke transities op economisch, sociaal en ecologisch gebied.
 
 ## Leeruitkomsten
 
@@ -58,7 +62,7 @@ S2.9 | Student levert, in een daarvoor ingerichte versiebeheeromgeving, de produ
 
 ## Referenties
 
-
+Waarom SDG's in het onderwijs? (<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
 
 ## Licentie informatie
 
