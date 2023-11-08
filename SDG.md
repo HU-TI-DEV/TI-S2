@@ -27,7 +27,7 @@ Volgens het Wereldvoedselprogramma hebben op dit moment 795 miljoen mensen niet 
 
 Daarnaast hebben we te maken met een uitdijende bevolking. De huidige bevolking op aarde van 8 miljard mensen groeit waarschijnlijk door tot 10 miljard in 2050. Al deze mensen willen eten zoals wij dat doen en dus moet er veel meer voedsel geproduceerd worden. Meer produceren, maar niet meer grond gebruiken.
 
-Je kunt er voor kiezen om bijvoorbeeld groeilampen in je kas te verwerken. Door het gericht aanbieden van [UV licht](./hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) kan je de groei van planten optimaliseren. Wat zijn de technische keuzes die je dan maakt? En wat hebben die keuzes voor (negatieve) consequenties? Het laten branden van extra verlichting kost bijvoorbeeld mee elektra en water. Daarnaast kan het zorgen voor lichtvervuiling. 
+Je kunt er voor kiezen om bijvoorbeeld groeilampen in je kas te verwerken. Door het gericht aanbieden van [UV licht](./hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) kan je de groei van planten optimaliseren. Wat zijn de technische keuzes die je dan maakt? En wat hebben die keuzes voor (negatieve) consequenties? Het laten branden van extra verlichting kost bijvoorbeeld meer elektra en water. Daarnaast kan het zorgen voor lichtvervuiling. 
 
 We vragen door het verwerken van een SDG in je project om over deze afwegingen goed na te denken, te reflecteren en te communiceren.
 
