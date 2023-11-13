@@ -16,7 +16,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Semester 2 TI door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Semester 2 TI door HU IICT[](author-id).
 
 ---
 
