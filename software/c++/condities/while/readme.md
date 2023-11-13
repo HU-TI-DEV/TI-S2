@@ -22,19 +22,91 @@ De codevoorbeelden hieronder laten while-loops zien.
 using namespace std;
 
 int main(){
-int num = 7;
-cout << "start num: " << num << "\n";
-while(num < 10){
-num++;
-cout << "num: " << num << "\n";
+    int num = 7;
+    cout << "start num: " << num << "\n";
+    while(num < 10){
+        num++;
+        cout << "num: " << num << "\n";
+    }
+    cout << "end num: " << num << "\n";
+    // start num: 7
+    // num: 8
+    // num: 9
+    // num: 10
+    // end num: 10
 }
-cout << "end num: " << num << "\n";
-// start num: 7
-// num: 8
-// num: 9
-// num: 10
-// end num: 10
-}
-
 ```
-Codevoorbeeld van een while-loop - 1
+*Codevoorbeeld 5.4 - while-loop*
+
+``` c++
+#include <iostream>
+using namespace std;
+
+int main(){
+    char letter = 'h';
+    cout << "start letter: " << letter << "\n";
+    while(letter >= 'a' && letter <= 'z'){
+        cout << "letter: " << letter << "\n";
+        if(letter <= 'e'){
+            letter -= 2;
+        }else{
+            letter--;
+        }
+    }
+    cout << "end letter: " << letter << "\n";
+    // start letter: h
+    // letter: h
+    // letter: g
+    // letter: f
+    // letter: e
+    // letter: c
+    // letter: a
+    // end letter: _
+}
+```
+*Codevoorbeeld 5.5 - while-loop*
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main(){
+    int y = 0;
+    cout << "start y: " << y << "\n";
+    while(y<=6){
+        int z = 9;
+        cout << "start z: " << z << "\n";
+        cout << "start second while loop: \n";
+        while(z > 0){
+            z -= 2;
+            cout << '\t' << z << ", ";
+        }
+        cout << "\nend second while loop. \n";
+        cout << "end z:" << z << "\n";
+        y += 3;
+        cout << "y: " << y << "\n";
+    }
+    cout << "end y:" << y << "\n";
+    // start y: 0
+    // start z: 9
+    // start second while loop:
+    // 7, 5, 3, 1, -1
+    // end second while loop
+    // end z: -1
+    // y: 3
+    // start z: 9
+    // start second while loop:
+    // 7, 5, 3, 1, -1
+    // end second while loop
+    // end z: -1
+    // y: 6
+    // start z: 9
+    // start second while loop:
+    // 7, 5, 3, 1, -1
+    // end second while loop
+    // end z: -1
+    // y: 9
+    // end y: 9
+}
+```
+*Codevoorbeeld 5.6 - while-loop*

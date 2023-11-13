@@ -21,4 +21,9 @@ int main() {
     // c: 0
 }
 ```
-Codevoorbeeld Booleans
+*Codevoorbeeld 3.6 Booleans*
+
+### Cout
+Net als *characters* hebben booleans een sterke relatie met integers. De waarden true en
+false worden bij het printen op het scherm met cout standaard omgezet naar een 1 (true) of
+een 0 (false). Dit verklaart waarom we in de output enkel getallen zien.

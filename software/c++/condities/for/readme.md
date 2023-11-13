@@ -27,7 +27,8 @@ int main(){
     // Hello, world4
 }
 ```
-codevoorbeeld for-loop
+*Codevoorbeeld 5.7 for-loop*
+
 
 ```c++
 #include <iostream>
@@ -50,7 +51,14 @@ int main(){
     // 9: !
 }
 ```
-codevoorbeeld for-loop
+*Codevoorbeeld 5.8 for-loop met unsigned int*
 
+### Unsigned int
 
+Een “gewone” integer kan zowel negatieve als positieve getallen bevatten. Een
+unsigned int kan enkel positieve getallen bevatten. De functie **.size()** in codevoorbeeld
+5.8 geeft als datatype een unsigned integer terug. Als we een int met een unsigned
+int gaan vergelijken, dan kan dit fout gaan bij grote of negatieve getallen. Gelukkig
+is dat makkelijk te voorkomen door van de “loop control variabele” (in codevoorbeeld 5.8
+variabele j) een unsigned int te maken.
 
