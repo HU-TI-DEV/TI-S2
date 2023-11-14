@@ -6,7 +6,7 @@
 
 - [Condities](#condities)
     - [Inhoud](#inhoud)
-    - 
+  - [Introductie](#introductie)
 
 ---
 
@@ -18,5 +18,3 @@
 Als we een programma schrijven, willen we kunnen sturen welke code uiteindelijk door de computer wordt uitgevoerd. Dit kan door condities te stellen en herhalingen te maken. C++ heeft hiervoor if/else statements, while-loops, do-while-loops en for-loops. 
 
 We behandelen de volgende condities [if-else](#if-else), [while](#while), [do-while](#do-while) en [for](#for).
-
-

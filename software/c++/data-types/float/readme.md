@@ -2,6 +2,13 @@
 # Float [](title-id)
 
 ### Inhoud[](toc-id)
+- [Float ](#float-)
+    - [Inhoud](#inhoud)
+    - [float](#float)
+    - [Float](#float-1)
+    - [Output](#output)
+    - [Delen](#delen)
+
 
 ### float
 Om gebroken getallen op te slaan kunnen we het datatype float gebruiken. In codevoorbeelden
@@ -25,10 +32,10 @@ int main(){
 ```
 *Codevoorbeeld 3.3 Floats*
 
-## Float
+### Float
 Met het sleutelwoord float geven we aan dat een variabele van het datatype float is.
 
-## Output
+### Output
 We zien dat variabelen met het float datatype wel gebroken getallen kunnen bevatten.
 In *codevoorbeeld 3.3* krijgt variabele y nu wel de waarde 4,9.
 
@@ -60,7 +67,7 @@ int main(){
 ```
 *Codevoorbeeld 3.4 Floats en delen*
 
-## Delen
+### Delen
 
 In *codevoorbeeld 3.4* zien we in variabele *div1*  een interessant resultaat: 100=8 zou
 12,5 moeten opleveren, maar als we *div1* uitprinten blijkt 12 de waarde van de variabele
