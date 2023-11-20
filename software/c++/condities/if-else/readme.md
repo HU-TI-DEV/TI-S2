@@ -120,4 +120,4 @@ int main(){
     // d: 124
 }
 ```
-*Codevoorbeeld 5.3  - genest if-statement*
+*Codevoorbeeld 5.3 - genest if-statement (if in if)*

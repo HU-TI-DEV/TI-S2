@@ -7,17 +7,19 @@
     - [Inhoud](#inhoud)
   - [Introductie](#introductie)
     - [For](#for-1)
+  - [For - codevoorbeelden](#for---codevoorbeelden)
     - [Unsigned int](#unsigned-int)
 
 
 ## Introductie
 
 ### For
-Bij de while-loop hangt het van de conditie af hoe vaak het stuk code in de loop wordt herhaald. 
+Bij de while-loop hangt het van de conditie af hoe vaak de code in de loop wordt herhaald. 
 De for-loop gebruiken we als de loop niet afhankelijk is van een conditie, maar als we de code in de loop een aantal keer willen herhalen. 
 
 Bijvoorbeeld als we 5 keer “Hello, world” willen printen of als we alle characters in een string af willen lopen. 
 
+## For - codevoorbeelden
 In codevoorbeelden 5.7 en 5.8 zien we de for-loop uitgewerkt.
 
 ```c++ {.line-numbers}

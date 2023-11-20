@@ -23,7 +23,7 @@ herhaalt zich, totdat de conditie niet waar is (false).
 C++ kent ook een [do-while-loop](#do-while). Deze behandelen we niet in de les, maar kan soms wel handig zijn.
 
 ### While - codevoorbeelden 
-De codevoorbeelden hieronder laten while-loops zien.
+Codevoorbeelden 5.4, 5.5 en 5.6 laten while-loops zien.
 
 ```c++
 #include <iostream>
@@ -102,12 +102,14 @@ int main(){
     // end second while loop
     // end z: -1
     // y: 3
+
     // start z: 9
     // start second while loop:
     // 7, 5, 3, 1, -1
     // end second while loop
     // end z: -1
     // y: 6
+    
     // start z: 9
     // start second while loop:
     // 7, 5, 3, 1, -1

@@ -158,4 +158,4 @@ De complete lijst met vector-functies staat op: http://en.cppreference.com/w/cpp
 Een “gewone” integer kan zowel negatieve als positieve getallen bevatten. Een *unsigned int* kan enkel positieve getallen bevatten. De functie `size()` in *codevoorbeeld
 7.1* geeft als datatype een unsigned integer terug. Als we een int met een unsigned
 int gaan vergelijken, dan kan dit fout gaan bij grote of negatieve getallen. Gelukkig
-is dat makkelijk te voorkomen door van de “loop control variable” (in codevoorbeeld 7.1 variabele i) een unsigned int te maken.
+is dat makkelijk te voorkomen door van de “loop control variable” (in codevoorbeeld 7.1 variabele i) een *unsigned int* te maken.
