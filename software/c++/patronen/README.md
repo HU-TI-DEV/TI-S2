@@ -1,6 +1,17 @@
 # Patronen
 
 ### Inhoud[](toc-id)
+- [Patronen](#patronen)
+    - [Inhoud](#inhoud)
+  - [Introductie](#introductie)
+    - [Design Patterns](#design-patterns)
+  - [Informatie uit en over één rij](#informatie-uit-en-over-één-rij)
+    - [Informatie uit een rij](#informatie-uit-een-rij)
+    - [Break](#break)
+    - [De gezochte informatie](#de-gezochte-informatie)
+    - [Return i](#return-i)
+    - [Return -1](#return--1)
+- [Todo: p. 55 en verder toevoegen](#todo-p-55-en-verder-toevoegen)
 
 ---
 
@@ -76,4 +87,47 @@ Deze gekke waarde geeft ons de mogelijkheid om makkelijk te herkennen dat de inf
 Stel dat er in de rij geen getal groter dan 5 zit. In dat geval gaan we met de for-loop de gehele
 rij af, maar veranderen we de variabele index niet. Na de for-loop bevat de variabele index dan nog steeds zijn gekke startwaarde -1.
 
-<**todo Gera: blz 55 en verder vullen**>
+Als we deze for-loop in een functie zetten, dan hebben we geen variabele nodig om de gevonden waarde in op te slaan. 
+Dit zien we in codevoorbeeld 9.2.
+
+```c++
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int findIndexNumberBiggerThan5(vector<int> n){
+  for(unsigned int i=0; i<n.size(); i++){
+    if(n[i] > 5){ // information we are searching
+      return i; // returning the found information
+    }
+  }
+  return -1; // return value when the searched information is not found
+}
+
+int main(){
+  vector<int> numbers = {1,3,4,7,2,9,6};
+
+  int index = findIndexNumberBiggerThan5(numbers);
+  if(index > -1){
+    cout
+    << "The first index with a number larger than 5 is at: "
+    << index << "\n";
+  }else{
+    cout << "All numbers are smaller than 5." << "\n";
+  }
+
+  // output:
+  // The first index with a number larger than 5 is at: 3
+}
+```
+*Codevoorbeeld 9.2 - Informatie uit een rij 2*
+
+### Return i
+Met return i geven we de gezochte informatie terug. Als een return wordt aangeroepen,
+dan stopt de functie gelijk en wordt de waarde teruggeven. Aangezien de functie gelijk
+stopt, stopt ook de for-loop direct.
+
+### Return -1
+Wederom kan het zijn dat in de rij geen getal zit dat groter is dan 5. In dat geval wordt de hele for-loop doorlopen zonder dat er iets wordt gereturned. Om aan de gebruiker duidelijk te maken dat we de gezochte informatie niet hebben gevonden geven we een gekke waarde terug: -1.
+
+# Todo: p. 55 en verder toevoegen
