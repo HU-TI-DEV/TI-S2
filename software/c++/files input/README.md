@@ -1,8 +1,8 @@
 # Files input/output[](title-id)
 
-## Inhoud[]- [Files input/output](#files-inputoutput)
+## Inhoud[](toc-id)
 - [Files input/output](#files-inputoutput)
-  - [Inhoud\[\]- Files input/output](#inhoud--files-inputoutput)
+  - [Inhoud](#inhoud)
   - [Bestand schrijven](#bestand-schrijven)
     - [Fstream](#fstream)
     - [Ofstream](#ofstream)
