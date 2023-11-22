@@ -1,10 +1,10 @@
-# Patronen
+# Patronen[](title-id)
 
-### Inhoud[](toc-id)
+## Inhoud[](toc-id)
 - [Patronen](#patronen)
-    - [Inhoud](#inhoud)
+  - [Inhoud](#inhoud)
   - [Introductie](#introductie)
-    - [Design Patterns](#design-patterns)
+  - [Design Patterns](#design-patterns)
   - [Informatie uit en over één rij](#informatie-uit-en-over-één-rij)
     - [Informatie uit een rij](#informatie-uit-een-rij)
     - [Break](#break)
@@ -15,10 +15,10 @@
     - [Zinnige beginwaarde](#zinnige-beginwaarde)
   - [Waarden omwisselen](#waarden-omwisselen)
     - [tmp](#tmp)
-- [Informatie uit en over een rij van rijen](#informatie-uit-en-over-een-rij-van-rijen)
-  - [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
+  - [Informatie uit en over een rij van rijen](#informatie-uit-en-over-een-rij-van-rijen)
+    - [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
     - [Size()](#size)
-  - [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
+    - [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
 
 ---
 
@@ -28,7 +28,7 @@ en de waarden zijn meestal wel anders, maar **veel problemen die we willen oplos
 opgelost wordt het programmeren een stuk makkelijker. We kunnen dan dezelfde
 oplossing gebruiken. Deze oplossingen noemen we patronen. 
 
-### Design Patterns
+## Design Patterns
 Als je in de praktijk met grotere
 problemen aan de slag gaat kun je meestal het grote probleem opsplitsen in kleinere problemen waarvan je de oplossingen (de patronen) weet. 
 In dit hoofdstuk behandelen we enkele patronen die je als programmeur veel tegenkomt. Zulke patronen (design patterns) overstijgen de taal C++. Zulke patronen zijn ook toepasbaar als je programmeert in Python, Java of een andere procedurele of object georiënteerde taal.
@@ -244,10 +244,10 @@ int main(){
 ### tmp
 De variabele tmp staat voor temporary. Dit is de gebruikelijke naamgeving voor een variabele die enkel dient als tussenvariabele.
 
-# Informatie uit en over een rij van rijen
+## Informatie uit en over een rij van rijen
 Gegevens worden vaak opgeslagen in een rij van rijen. In deze sectie bespreken we hoe je uit een rij van rijen informatie haalt of er informatie uit onttrekt.
 
-## Informatie uit een rij van rijen
+### Informatie uit een rij van rijen
 Voorbeelden van informatie uit een rij van rijen zijn:
 - Het controleren van het voorkomen van een letter in een lijst woorden.
 - Het vinden van een locatie van een object in een 2D-spel.
@@ -297,7 +297,7 @@ In *codevoorbeeld 9.6* zien we dat in een rij van rijen, de rijen verschillende 
 hebben. Het is dus belangrijk dat we in de tweede for-loop echt de size opvragen van de juiste rij. In *codevoorbeeld 9.6* gebeurt dat met de code:
 `m[i].size()`.
 
-## Informatie over een rij van rijen
+### Informatie over een rij van rijen
 Het kan ook voorkomen dat we informatie willen hebben over een rij van rijen.
 Voorbeelden hiervan zijn:
 - Het gemiddelde van een matrix.
