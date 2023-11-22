@@ -1,10 +1,22 @@
-# Bits [](title-id)
+# Bits[](title-id)
 
 ## Inhoud[](toc-id)
-- [Bits ](#bits-)
+- [Bits](#bits)
   - [Inhoud](#inhoud)
     - [bitstring, byte](#bitstring-byte)
     - [tellen](#tellen)
+  - [Bitoperatoren](#bitoperatoren)
+    - [Bitsgewijs ‘and’](#bitsgewijs-and)
+    - [Bitsgewijs ‘or’](#bitsgewijs-or)
+    - [Bitsgewijs ‘xor’ (exclusive or)](#bitsgewijs-xor-exclusive-or)
+    - [Bitsgewijs Inversie (‘not’)](#bitsgewijs-inversie-not)
+    - [Bit inverse](#bit-inverse)
+    - [Bit shiften](#bit-shiften)
+  - [Bit statements](#bit-statements)
+    - [Bit setten](#bit-setten)
+    - [Bit resetten](#bit-resetten)
+    - [Bit inverteren](#bit-inverteren)
+    - [Bit ophalen](#bit-ophalen)
 
 
 Gegevens worden in het geheugen opslagen als bitjes. In C++ is het mogelijk om
@@ -32,3 +44,258 @@ Voorbeeld: als we de bitstring
 grotere datatypes gebruiken we niet omdat dit de voorbeelden onduidelijker maakt.*
 
 <a name="bitprint">2</a>: *De library bitset heeft ook andere handige functionaliteiten. Deze mogen tijdens deze cursus echter niet worden gebruikt. Zonder deze functionaliteiten kunnen we ons beter focussen op het begrijpen en toepassen van de bitoperatoren.*
+
+## Bitoperatoren
+We hebben verschillende operatoren die we kunnen gebruiken om bitsets te manipuleren.
+In deze sectie behandelen we bitsgewijs ‘and’, bitsgewijs ‘or’, bitsgewijs
+‘xor’, inversie en bit shiften.
+
+### Bitsgewijs ‘and’
+Voor de bitoperatie ‘and’ gebruiken we in C++ een enkele ampersand ( & ). 
+In *codevoorbeeld 10.1* zien we het gebruik hiervan.
+
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main(){
+
+  uint8_t value = 0x6b; // 01101011
+  uint8_t mask = 0xf0; // 11110000
+  uint8_t result = value & mask;
+
+  cout << "value in bits: \t\t" << bitset<8>(value)<< endl;
+  cout << "mask in bits: \t\t" << bitset<8>(mask)<< endl;
+  cout << "and-result in bits: \t" << bitset<8>(result) << endl;
+
+  //output:
+  // value in bits: 01101011
+  // mask in bits: 11110000
+  // and-result in bits: 01100000
+}
+```
+*Codevoorbeeld 10.1 - Bit and*
+
+### Bitsgewijs ‘or’
+Voor de bitoperatie ‘or’ gebruiken we in C++ een enkele verticale balk ( | ). In *codevoorbeeld 10.2* zien we het gebruik hiervan.
+
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+  uint8_t value = 0x6b; // 01101011
+  uint8_t mask = 0xf0; // 11110000
+  uint8_t result = value | mask;
+
+  cout << "value in bits: \t\t" << bitset<8>(value) << endl;
+  cout << "mask in bits: \t\t" << bitset<8>(mask) << endl;
+  cout << "and-result in bits: \t" << bitset<8>(result) << endl;
+
+  //output:
+  // value in bits: 01101011
+  // mask in bits: 11110000
+  // or-result in bits: 11111011
+}
+```
+*Codevoorbeeld 10.2 - Bit or*
+
+### Bitsgewijs ‘xor’ (exclusive or)
+Voor de bitoperatie ‘exor’ gebruiken we in C++ een enkele dakje ( ˆ ). In *codevoorbeeld 10.3* zien we het gebruik hiervan.
+
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+
+int main(){
+  uint8_t value = 0x6b; // 01101011
+  uint8_t mask = 0xf0; // 11110000
+  uint8_t result = value ^ mask;
+
+  cout << "value in bits: \t\t" << bitset<8>(value) << endl;
+  cout << "mask in bits: \t\t" << bitset<8>(mask) << endl;
+  cout << "exor-result in bits: \t" << bitset<8>(result) << endl;
+
+  //output:
+  // value in bits: 01101011
+  // mask in bits: 11110000
+  // exor-result in bits: 10011011
+}
+```
+*Codevoorbeeld 10.3 - Bit xor*
+
+### Bitsgewijs Inversie (‘not’)
+Voor de inversie van alle bits gebruiken we in C++ een enkele tilde ( ˜ ). In codevoorbeeld
+10.4 zien we het gebruik hiervan.
+
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+uint8_t result = ~value;
+cout << "value in bits: \t\t" << bitset<8>(value) << endl;
+cout << "inverse-result in bits: " << bitset<8>(result) << endl;
+//output:
+// value in bits: 01101011
+// inverse-result in bits: 10010100
+}
+```
+Codevoorbeeld 10.4
+
+### Bit inverse
+Bit shiften
+Bit shiften is het verschuiven van alle bits naar links of naar rechts. Met << kunnen
+we een bitpatroon naar links schuiven en met >> kunnen we een bitpatroon naar rechts
+schuiven3.
+3Bij cout en cin hebben << en >> een andere betekenis.
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+uint8_t shift_left = value << 3;
+uint8_t shift_right = value >> 3;
+cout << "value in bits: \t\t" << bitset<8>(value) << endl;
+cout << "shift-left in bits: \t" << bitset<8>(shift_left) << endl;
+cout << "shift-right in bits: \t" << bitset<8>(shift_right) << endl;
+//output:
+// value in bits: 01101011
+// shift-left in bits: 01011000
+// shift-right in bits: 00001101
+}
+```
+Codevoorbeeld 10.5
+
+### Bit shiften
+Vrijgekomen plaatsen
+Bij het shiften naar links (<<) krijgen de vrijgekomen plaatsen de waarde 0. Welke
+waarden de vrijgekomen plaatsen krijgen bij het shiften naar rechts (>>) hangt in C++
+af van de compiler. In twee situaties weten we zeker dat de vrijgekomen plaatsen de
+waarde 0 krijgen:
+• als de meeste linkse bit 0 is
+• als de variabele van een unsigned datatype is.
+Om te voorkomen dat we hier over moeten nadenken is het beste om bij het werken
+met bitoperatoren gebruik te maken van unsigned datatypes (zoals uint8_t).
+
+## Bit statements
+Bepaalde combinaties van bit operatoren zal je vaker tegenkomen en gebruiken. In
+deze sectie behandelen we er drie: bit setten, bit resetten, bit inverteren en bit ophalen.
+
+### Bit setten
+In codevoorbeeld 10.6 zien we drie manieren hoe we één enkele bit (het tweede bitje)
+in een bitstring kunnen setten. Een bit setten is de waarde van een bit op 1 zetten
+ongeacht de huidige waarde.
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+uint8_t x = value | (1 << 2);
+uint8_t y = value | 0x04; // (1 << 2) is gelijk aan 0x04)
+uint8_t z = 0x6b; // 01101011
+z |= (1 << 2);
+cout << "value in bits: \t" << bitset<8>(value) << endl;
+cout << "x in bits: \t" << bitset<8>(x) << endl;
+cout << "y in bits: \t" << bitset<8>(y) << endl;
+cout << "z in bits: \t" << bitset<8>(z) << endl;
+//output:
+// value in bits: 01101011
+// x in bits: 01101111
+// y in bits: 01101111
+// z in bits: 01101111
+}
+```
+Codevoorbeeld 10.6
+Bit setten
+
+### Bit resetten
+In codevoorbeeld 10.7 zien we drie manieren hoe we één enkele bit (het derde bitje)
+in een bitstring kunnen resetten. Een bit resetten is een bit op 0 zetten ongeacht de
+huidige waarde.
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+uint8_t x = value & ~(1 << 3);
+uint8_t y = value & 0xF7; // ~(1 << 3) is gelijk aan 0xF7)
+uint8_t z = 0x6b; // 01101011
+z &= ~(1 << 3);
+cout << "value in bits: \t" << bitset<8>(value) << endl;
+cout << "x in bits: \t" << bitset<8>(x) << endl;
+cout << "y in bits: \t" << bitset<8>(y) << endl;
+cout << "z in bits: \t" << bitset<8>(z) << endl;
+//output:
+// value in bits: 01101011
+// x in bits: 01100011
+// y in bits: 01100011
+// z in bits: 01100011
+}
+```
+Codevoorbeeld 10.7
+Bit resetten
+
+### Bit inverteren
+In codevoorbeeld 10.8 zien we drie manieren hoe we één enkele bit (het derde bitje)
+in een bitstring kunnen inverteren.
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+// method 1:
+uint8_t x = value ^ (1 << 3);
+// method 2:
+uint8_t y = value ^ 0x08; // (1 << 3) is gelijk aan 0x08)
+// method 3:
+uint8_t z = 0x6b; // 01101011
+z ^= (1 << 3);
+cout << "value in bits: \t" << bitset<8>(value) << endl;
+cout << "x in bits: \t" << bitset<8>(x) << endl;
+cout << "y in bits: \t" << bitset<8>(y) << endl;
+cout << "z in bits: \t" << bitset<8>(z) << endl;
+//output:
+// value in bits: 01101011
+// x in bits: 01100011
+// y in bits: 01100011
+// z in bits: 01100011
+}
+```
+Codevoorbeeld 10.8
+Bit inverteren
+
+### Bit ophalen
+In codevoorbeeld 10.9 zien we twee manieren hoe we de waarde van één enkele bit
+(het derde bitje) uit een bitstring kunnen ophalen en in een variabele kunnen stoppen.
+```c++
+#include <iostream>
+#include <bitset>
+using namespace std;
+int main(){
+uint8_t value = 0x6b; // 01101011
+// method 1:
+int x = 0;
+if(value & (1 << 3)){
+x = 1;
+}
+// method 2:
+int y = (value >> 3) & 1;
+cout << "value in bits: \t" << bitset<8>(value) << endl;
+cout << "x: \t" << x << endl;
+cout << "y: \t" << y << endl;
+//output:
+// value in bits: 01101011
+// x: 1
+// y: 1
+}
+```
+Codevoorbeeld 10.9
+Bit ophalen
