@@ -63,7 +63,7 @@ C3 | vr | Vakantie | |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C3 | ma | **Excursie** | Excursie glastuinbouw Westland | **Excursie volledige dag!**
+C4 | ma | **Excursie** | Excursie glastuinbouw Westland | **Excursie volledige dag!**
 C4 | di | We behandelen [actieve elektronica](./hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](./hardware-interfacing/communicatie/1-wire/) protocol. Met half duplex [I2C communicatie](./hardware-interfacing/communicatie/I2C/README.md) sluiten we een Real Time Clock (RTC) om de tijd bij te houden. Week C4. Een low-power clock-controlled IoT device met een Arduino Uno. Gebruik de clock om periodiek de temperatuur van de omgeving te meten. (Een P-channel mosfet voor het schakelen.) | Arduino Omgevging installeren | Datasheet lezen
 C4 | wo | 1-Wire, I2C & RTC | Werken aan project | cpp en hpp files, includes, namespace
 C4 | do | 1-Wire, I2C & RTC | Werken aan project | struct, compositie UML relatie, bits, uint8
