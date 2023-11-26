@@ -19,6 +19,8 @@
     - [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
     - [Size()](#size)
     - [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
+  - [Reductie](#reductie)
+  - [Recursie](#recursie)
 
 ---
 
@@ -353,3 +355,11 @@ int main(){
 
 ```
 *Codevoorbeeld 9.7 - Informatie over een rij van rijen.*
+
+## [Reductie](#reductie)
+<!-- Er is een apart md-bestand met informatie over reductie -->
+
+## [Recursie](#recursie)
+<!-- Er is een apart md-bestand met informatie over recursie -->
+
+
