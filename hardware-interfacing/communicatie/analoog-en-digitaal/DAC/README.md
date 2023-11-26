@@ -1,4 +1,4 @@
-![logo](/hardware-interfacing/communicatie/analoog-en-digitaal/img/Original_message.jpg) [](logo-id)
+![logo](../img/Original_message.jpg) [](logo-id)
 
 # DAC: digitaal naar analoog[](title-id)
 

@@ -1,4 +1,4 @@
-![logo](../diode/img/diode.svg) [](logo-id)
+![logo](./img/diode.svg) [](logo-id)
 
 # Diode[](title-id)
 

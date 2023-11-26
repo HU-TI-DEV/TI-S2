@@ -1,4 +1,4 @@
-![logo]() [](logo-id)
+![logo](./img/595_pin_diagram.png) [](logo-id)
 
 # HC595 Integrated Circuit (IC)[](title-id)
 

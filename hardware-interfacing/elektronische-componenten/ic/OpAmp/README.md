@@ -1,4 +1,4 @@
-![logo](../../ic/OpAmp/img/OpAmp.svg) [](logo-id)
+![logo](./img/OpAmp.svg) [](logo-id)
 
 # OpAmp[](title-id)
 

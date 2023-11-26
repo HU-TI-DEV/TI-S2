@@ -296,13 +296,13 @@ emphasis. Text wrapped with one `*` or `_` will be wrapped with an
 HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
 `<strong>` tag. E.g., this input:
 
-_single asterisks_
+*single asterisks*
 
 _single underscores_
 
 **double asterisks**
 
-**double underscores**
+__double underscores__
 
 ### Code
 

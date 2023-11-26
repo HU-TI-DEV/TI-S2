@@ -8,6 +8,8 @@
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [I2C Communicatie protocol](#i2c-communicatie-protocol)
+  - [De schakeling](#de-schakeling)
+  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
 
 ---
@@ -61,6 +63,24 @@ Om iets uit een slave te lezen moet de master een read transactie gebruiken. Nad
 In bovenstaand figuur zien we een tijdlijn van een read. De commando-byte wordt verstuurd door de master. Gevolgd door een acknowledge-bit van de geadresseerde de slave. De tweede byte (D7 t/m D0) wordt verzonden door de slave. De tweede acknowledge-bit komt vanuit de master.
 
 Merk op dat er in een read transactie geen gelegenheid is voor de master.
+
+## De schakeling
+
+Als voorbeeld nemen we een SSD1306 0.96 inch I2C OLED display en sluiten dit aan op een Arduino Uno. Maak de volgende verbinding:
+* Vcc – 5V
+* Gnd – Gnd
+* SDA – A4
+* SCK – A5
+
+![SSD1306 0.96 inch I2C OLED](./img/SSD1306_bb.png)
+
+Je dient nu alleen nog het I2C [Hexidecimal](../../../software/getalsysteem/README.md) adres vinden van de OLED en dat kan met dit [I2C_Scanner](./files/I2C_scanner/I2C_scanner.ino) script.
+
+## Arduino voorbeeld code
+
+Installeer in de Arduino IDE de volgende libraries Adafruit GFX Library en Adafruit SSD1306.
+
+Upload de demo ssd1306_128x32_i2c en controleer of je het juiste adres gebruikt.
 
 ## Referenties
 
