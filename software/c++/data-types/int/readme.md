@@ -7,6 +7,7 @@
 - [Integer](#integer)
     - [Inhoud](#inhoud)
   - [Integer (int)](#integer-int)
+  - [Gebroken getallen](#gebroken-getallen)
   - [Referenties](#referenties)
 
 ---
@@ -35,6 +36,33 @@ int main(){
    // x: 4
 }
 ```
+*Codevoorbeeld 3.1 Integers*
+
+```c++
+#include <iostream>
+using namespace std;
+int main(){
+   int y = 4.9;
+   cout << "y: " << y << "\n";
+   // y: 4
+
+   z = 21;
+   int result1 = z / 3;
+   int result2 = z / 6;
+   cout << "result1: " << result1 << "\n";
+   cout << "result2: " << result2 << "\n";
+   // result1: 7
+   // result2: 3
+}
+```
+*Codevoorbeeld 3.2 Integers en gebroken getallen*
+
+## Gebroken getallen
+Kijk naar codevoorbeeld 3.2:
+Als de variabele y wordt afgedrukt zien we dat het de waarde 4 heeft. Dit terwijl y wordt geïnitialiseerd met de waarde 4,9. Dit komt omdat y van het type integer is en dus enkel gehele getallen kan bevatten. Als oplossing gooit C++ alles achter de komma weg en stopt enkel de waarde 4 in y.
+
+Dit zelfde zien we ook gebeuren met de variabele result2. Van z=6 verwachten we dat de uitkomst 3,5 is, maar result2 is van het type integer. Dus alles na de komma wordt genegeerd en result2 krijgt de waarde 3. Als we willen dat result2 wel gebroken
+getallen kan bevatten, dan moeten we result2 een ander type maken (bijvoorbeeld een [float](../data-types/float/readme.md))
 
 ## Referenties
 

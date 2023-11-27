@@ -31,6 +31,7 @@ int main(){
     cout << "hello, world\n"; 
     }
 ```
+*Codevoorbeeld 2.1 hello, world*
 
 ### Layout en puntkomma’s
 
@@ -41,7 +42,7 @@ Regel 0:
 #include <iostream> 
 ```
 
-Net als in andere programmeertalen kan je in C++ gebruik maken van libraries. Sommige zijn al standaard geïnstalleerd. Om makkelijk dingen te printen op het scherm wordt in C++ de library iostream gebruikt . Op regel 0 vertellen we de compiler dat we gebruik willen maken van deze library. Dit doen we met de commando #include en de naam van de library tussen punthaken (< en >). Het object cout op regel 4 komt uit deze library. Later zullen we ook nog andere libraries gebruiken. Het includeren van een library is geen instructie, dus er is geen puntkomma (;) nodig om de regel af te sluiten.
+Net als in andere programmeertalen kun je in C++ gebruik maken van libraries. Sommige zijn al standaard geïnstalleerd. Om makkelijk dingen te printen op het scherm wordt in C++ de library iostream gebruikt . Op regel 0 vertellen we de compiler dat we gebruik willen maken van deze library. Dit doen we met de commando #include en de naam van de library tussen punthaken (< en >). Het object cout op regel 4 komt uit deze library. Later zullen we ook nog andere libraries gebruiken. Het includeren van een library is geen instructie, dus er is geen puntkomma (;) nodig om de regel af te sluiten.
 
 Regel 1 (namespace):
 ```c++
@@ -74,4 +75,6 @@ int main(){
     cout << "hello, world\n"; 
     }
 ```
+*Codevoorbeeld 2.2 Programma met commentaar in de code*
+
 Net als in de meeste andere programmeertalen kunnen we in C++ waarden opslaan in variabelen. In C++ moet bij de declaratie van de variabele aangegeven worden van welke type het is. Het type van een variabele legt vast hoeveel geheugenruimte een variabele nodig heeft, welke bewerkingen mogelijk zijn en natuurlijk welke soort waardes we erin kunnen stoppen.

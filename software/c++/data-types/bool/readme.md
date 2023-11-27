@@ -1,9 +1,14 @@
 # Booleans [](title-id)
 
 ### Inhoud[](toc-id)
+- [Booleans ](#booleans-)
+    - [Inhoud](#inhoud)
+    - [bool](#bool)
+    - [Cout](#cout)
+
 
 Het boolean datatype kan maar twee verschillende waardes hebben: *true* of *false*. 
-In onderstaand codevoorbeeld zien we hoe we met de boolean omgaan in C++.
+In codevoorbeeld 3.6 zien we hoe we met de boolean omgaan in C++.
 
 ### bool
 Met het sleutelwoord bool geven we aan dat een variabele van het datatype boolean is.
@@ -21,4 +26,9 @@ int main() {
     // c: 0
 }
 ```
-Codevoorbeeld Booleans
+*Codevoorbeeld 3.6 Booleans*
+
+### Cout
+Net als *characters* hebben booleans een sterke relatie met integers. De waarden true en
+false worden bij het printen op het scherm met cout standaard omgezet naar een 1 (true) of
+een 0 (false). Dit verklaart waarom we in de output enkel getallen zien.

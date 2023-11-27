@@ -3,6 +3,10 @@
 # do-while[](title-id)
 
 ### Inhoud[](toc-id)
+- [do-while](#do-while)
+    - [Inhoud](#inhoud)
+  - [Introductie](#introductie)
+
 
 ## Introductie
 C++ kent een do-while-loop. Deze behandelen we niet in de les (reader), maar deze kan soms wel handig zijn. 
