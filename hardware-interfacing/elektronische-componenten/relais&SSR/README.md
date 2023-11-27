@@ -1,4 +1,4 @@
-![logo](../relais&ssr/img/Relais.svg) [](logo-id)
+![logo](./img/Relais.svg) [](logo-id)
 
 # Relais and Solid-state relais[](title-id)
 

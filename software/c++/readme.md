@@ -7,6 +7,7 @@
 - [Introductie C++](#introductie-c)
     - [Inhoud](#inhoud)
   - [Introductie](#introductie)
+- [c++](#c)
   - [Referenties](#referenties)
 ---
 
@@ -25,6 +26,23 @@ De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.
 Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
 
     De naam C++ is een toespeling op het met één verhogen van een integer in de taal. Dit kan namelijk door twee plusjes achter de variabele te zetten.
+
+# c++
+
+* [basisconcepten/](../c++/basisconcepten/README.md)
+* [condities/](../c++/condities/README.md)
+  * [do-while/](../c++/condities/do-while/README.md)
+  * [for/](../c++/condities/for/README.md)
+  * [if-else/](../c++/condities/if-else/README.md)
+  * [while/](../c++/condities/while/README.md)
+* [data-types/](../c++/data-types/README.md)
+  * [bool/](../c++/data-types/bool/README.md)
+  * [float/](../c++/data-types/float/README.md)
+  * [int/](../c++/data-types/int/README.md)
+  * [list/](../c++/data-types/list/README.md)
+  * [vector/](../c++/data-types/vector/README.md)
+* [for-loop/](../c++/for-loop/README.md)
+  * [dubbele-for-loop/](../c++/for-loop/dubbele-for-loop/README.md)
 
 
 ## Referenties

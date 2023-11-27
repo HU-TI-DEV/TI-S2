@@ -1,4 +1,4 @@
-![logo](../capacitor/img/Capacitor.svg) [](logo-id)
+![logo](./img/Capacitor.svg) [](logo-id)
 
 # Capacitor[](title-id)
 

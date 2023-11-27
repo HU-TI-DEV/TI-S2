@@ -1,4 +1,4 @@
-![logo](/hardware-interfacing/communicatie/analoog-en-digitaal/img/Kennline_NTC.png) [](logo-id)
+![logo](../img/Kennline_NTC.png) [](logo-id)
 
 # ADC: analoog naar digitaal[](title-id)
 
