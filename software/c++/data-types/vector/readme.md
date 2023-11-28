@@ -104,7 +104,7 @@ int main(){
 using namespace std;
 
 int main(){
-  vector<vector<int> > matrix = {{3, 99},{32, 88}};
+  vector<vector<int> > matrix = {% raw %}{{3, 99},{32, 88}}{% endraw %};
   vector<int> row = {54, 28};
   matrix.push_back(row); // add row to the vector matrix
     for(unsigned int i=0; i<matrix.size(); i++){
