@@ -1,0 +1,70 @@
+:root {
+  --slidev-theme-primary: #00A0D2;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+
+  h1 {
+    @apply text-6xl leading-20;
+  }
+
+  h1 + p {
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2,
+  ul + h2,
+  table + h2 {
+    @apply mt-10;
+  }
+}
+
+.bottom-12 {
+  left: 12px;
+}
+
+.hu-footer {
+  height: 100px;
+}
+.hu-footer .logo {
+  height: 36px;
+  position: absolute;
+  display: inline-block;
+  top: 100%;
+  left: 0%;
+  transform: translate(40px, -68px);
+}
+.hu-footer .payoff {
+  font-size: 21px;
+  line-height: 20px;
+  text-align: right;
+  display: inline-block;
+  height: 36px;
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  transform: translate(-100%, -70px) translate(-40px, 0);
+}
+
+.default {
+  padding: 40px;
+}
+
+.big-title h1 {
+  font-size: 50px;
+  line-height: 55px;
+}
+
+subtitle {
+  display: inline-block;
+  position: absolute;
+  left: 40px;
+  top: 100%;
+  transform: translate(0, -100%) translate(0, -40px);
+}
+
+center {
+    text-align: center;
+}
