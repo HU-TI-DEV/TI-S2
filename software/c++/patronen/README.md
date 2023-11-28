@@ -278,8 +278,8 @@ vector<int> findIndexNumberBiggerThan5(vector<vector<int>> m){
 
 int main(){
   vector<vector<int>> numbers =
-  {{1, 2, 2}, {1,2,4,7,9},
-  {3}, {4,2,4,2,9,3,2}};
+  {% raw %} {{1, 2, 2}, {1,2,4,7,9},
+  {3}, {4,2,4,2,9,3,2}} {% endraw %};
 
   vector<int> index = findIndexNumberBiggerThan5(numbers);
 
@@ -339,7 +339,7 @@ int count(vector<string> v_s, char c){
 }
 
 int main(){
-  vector<vector<int>> numbers = {{5,8},{2,4},{9,2}};
+  vector<vector<int>> numbers = {% raw %}{{5,8},{2,4},{9,2}}{% endraw %};
   int m = max(numbers);
   vector<string> text = {"En je hoeft niet te tanken!", "030 beter als 020",
   "Ik vind helemaal mooi", "Nou, nee!"};
