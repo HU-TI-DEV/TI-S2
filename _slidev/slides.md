@@ -1,41 +1,78 @@
 ---
-theme: seriph
-background: https://source.unsplash.com/collection/94734566/1920x1080
-class: text-center
+# try also 'default' to start simple
+theme: ./slidev-theme-hu
+# https://sli.dev/custom/highlighters.html
 highlighter: shiki
+# show line numbers in code blocks
 lineNumbers: false
+# some information about the slides, markdown enabled
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## Slidev Template for HU.
 
   Learn more at [Sli.dev](https://sli.dev)
+fonts:
+  sans: 'Avenir'
+  serif: 'Roboto Slab'
+  mono: 'Cascadia Mono'
+# persist drawings in exports and build
 drawings:
   persist: false
-transition: slide-left
-title: Welcome to Slidev
-mdc: true
+# page transition
+transition: fade-out
+# use UnoCSS
+css: unocss
+themeConfig:
+  paginationX: r
+  paginationY: t
+  paginationPagesDisabled: [1]
+layout: cover
 ---
 
----
-layout: cover
+<style>
+code, pre {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+pre {
+  left: 6px;
+  border-left: 3px solid rgba(255, 255, 255, 0.07);
+}
+</style>
+
+# Kennissessies
+
+## C++ Historie
+
+<subtitle><b>2022-2023 Blok C</b><br>
+TI Semester 2
+</subtitle>
+
 ---
 
 # Slidev
 
-This is the cover page.
+# 1 Introductie en geschiedenis C++
 
----
-layout: center
-background: './images/background-1.png'
-class: 'text-white'
----​
+Inhoud zie: 
+[Introductie C++](#introductie-c)
 
-# Page 2
-
-This is a page with the layout `center` and a background image.
+Todo: hoe include ik de info uit bovenstaande md?
 
 ---
 
-# Page 3
+# 2 Basisconcepten 
 
-This is a default page without any additional metadata.
+Inhoud zie: 
+[Basisconcepten C++](#basisconcepten-c)
+
+Todo: hoe include ik de info uit bovenstaande md?
+
+---
+
+# 3 Datatypes
+
+Inhoud zie:
+[Data-types](#data-types)
+
+Todo: hoe include ik de info uit bovenstaande md?
