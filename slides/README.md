@@ -17,4 +17,6 @@
 ### Inleiding
 Om een presentatie te sarten vanuit de terminal:
 
-`.\show_slides kennissessies\C++_geschiedenis.md`
+```bash
+.\show_slides.bat kennissessies\C++_geschiedenis.md
+```
