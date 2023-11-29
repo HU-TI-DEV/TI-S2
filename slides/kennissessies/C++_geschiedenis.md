@@ -73,6 +73,8 @@ Todo: hoe include ik de info uit bovenstaande md?
 # 3 Datatypes
 
 Inhoud zie:
-[Data-types](#data-types)
+[Data-types](https://hu-ti-dev.github.io/TI-S2/software/c++/data-types/)
+
+[Data-types](../../software/c++/data-types/)
 
 Todo: hoe include ik de info uit bovenstaande md?
