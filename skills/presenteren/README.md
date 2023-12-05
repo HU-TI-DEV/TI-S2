@@ -10,12 +10,13 @@
   - [Basis van het spreken](#basis-van-het-spreken)
   - [Praktisch presenteren](#praktisch-presenteren)
     - [Voorbereiding](#voorbereiding)
+    - [tools](#tools)
   - [Gebruik van visuele ondersteuning](#gebruik-van-visuele-ondersteuning)
   - [bronnen](#bronnen)
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeeld code door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeelden door HU IICT[](author-id).
 
 ---
 
@@ -29,7 +30,7 @@ Effectief leren communiceren naar een groep is iets waar vrijwel iedereen in zij
 
 ## Praktisch presenteren
 ### Voorbereiding
-  
+### tools  
 
 ## Gebruik van visuele ondersteuning
 
