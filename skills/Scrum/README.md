@@ -17,7 +17,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeeld code door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor scrum uitleg en voorbeelden door HU IICT[](author-id).
 
 ---
 
@@ -71,15 +71,26 @@ Als afronding van de sprint voor team wordt ook een retro gehouden. In de retro 
 
 Hieronder staat een visuele representatie van het programma per sprint voor S2:
 
-![logo](../Scrum/img/Sprintoverzicht.png) [](logo-id)
+![Sprint1](../Scrum/img/Sprintoverzicht.png) [](logo-id)
+*Eerste sprint*
 
-Elke sprint begint met het maken van een planing voor de sprint. In deze sessie wordt het bord gevuld met taken door het team. Deze taken worden toegewezen aan de projectleden. De scrum master begeleid dit proces, maar het team bepaald wie welke taak krijgt. Als alle leden akkoord zijn wordt het aantal taken geregistreerd op de burn down chart en kan er gestart worden met de sprint. Elke dag daarna werkt elk teamlid autonoom of als de taak dat vereist samen. Om de voortgang te bewaken wordt elke dag een stand-up gehouden. De laatste dag van de sprint is de donderdag. Hier wordt in maximaal een uur de sprint opgeleverd aan de product owner in de review en doet het team een retro van een uur om het werkproces scherper te krijgen. **Let er op dat de uitkomst van de ceremonies vast staat, maar de vorm zeker niet!**  
+![sprint2](../Scrum/img/Sprintoverzicht%20p2.png)
+*Overige sprints*
 
-De uitkomsten van de ceremonies worden tijdens de ceremonie vastgelegd in een kort document. Deze documenten worden bij elkaar verzameld en dienen als naslag werk voor het team en de PO.
- 
+Elke sprint begint met het maken van een planing voor de sprint. De eerste sprint wijkt af doordat deze start op een maandag. De sprints daarna starten op de donderdag direct na de review. In de planningsessie wordt het bord gevuld met taken door het team. Deze taken worden toegewezen aan de projectleden. De scrum master begeleid dit proces, maar het team bepaald wie welke taak krijgt. Als alle leden akkoord zijn wordt het aantal taken geregistreerd op de burn down chart en kan er gestart worden met de sprint. Elke dag daarna werkt elk teamlid autonoom of als de taak dat vereist samen. Om de voortgang te bewaken wordt elke dag een stand-up gehouden. De laatste dag van de sprint is de donderdag. Hier wordt in maximaal een uur de sprint opgeleverd aan de product owner in de review en doet het team een retro van een uur om het werkproces scherper te krijgen. **Let er op dat de uitkomst van de ceremonies vast staat, maar de vorm zeker niet!**  
+Na het aflsuiten van de sprint wordt direct de nieuwe sprint opgestart. De informatie vanuit de review is dan nog vers en dat maakt het maken van de planning makkelijker.
+De uitkomsten van de ceremonies worden tijdens de ceremonie vastgelegd in een kort document. Deze documenten worden bij elkaar verzameld en dienen als naslag werk voor het team en de PO. 
+
 ## Ondersteunende documenten
+In de templates staan de elemeneten beschreven die in de ceremonie moeten worden behandeld en kan een handvat zijn voor de registratie. De vorm wordt hier nit door bepaald.
 
+De template voor de planning ceremonie vind je hier: [planning](../Scrum/files/Planning%20Template.docx)
 
+De template voor de daily ceremonie vind je hier: [daily](..\skills\Scrum\files\Stand%20up%20template.docx)
+
+De template voor de review ceremonie vind je hier: [review](..\skills\Scrum\files\Review%20Template.docx)
+
+De template voor de retro ceremonie vind je hier: [retro](..\skills\Scrum\files\Retro%20template.docx)
 
 ## bronnen
 
