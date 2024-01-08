@@ -41,9 +41,9 @@ Dit is het verantwoordingsdocument waarin je op vier verschillende peilmomenten 
 
 [Geef eerst kort aan waar je trots op bent, waar je tegenaan bent gelopen en wat je nog wilt leren.](#algemeen) Je ziet onder elk kopje een aantal voorbeeldzinnen die je kunt gebruiken. Die voorbeelden mag je gebruiken, maar je mag het ook helemaal in je eigen woorden zeggen.
 
-[Geef daarna per leeruitkomst aan of je aan deze (volgens jezelf) hebt gewerkt, en zo ja, wat je daar allemaal voor hebt gedaan.](#leeruitkomsten) Vervolgens geef je hier een korte, puntsgewijze onderbouwing bij. Verwijs bij elk punt zo concreet mogelijk naar een [portfolio-item](./Portfolio-items.md) (op welke pagina? In welk fragment?) waaruit het punt naar voren komt (met hyperlink, zodat de docent snel kan vinden waar het om gaat). Bij de eerste leeruitkomst zie een aantal voorbeeldzinnen die je hierbij kunt gebruiken. Die kun je gebruiken of weghalen. Je mag ook je eigen formulering kiezen. Geef bij elk punt aan wat jouw eigen bijdrage was (als dit niet direct blijkt uit het portfolio-item). Er zijn twee onderdelen aangeven. Bij het eerst onderdeel geef je aan wat je hebt gedaan om te **oefenen** (dus welke portfolio-items heb je gebruikt om te oefenen). Bij het twee onderdeel geef je welke bijdrages je hebt gedaan aan portfolio items voor het **project** om zo te laten zien dat je het geleerde hebt toegepast.
+[Geef daarna per leeruitkomst aan of je aan deze (volgens jezelf) hebt gewerkt, en zo ja, wat je daar allemaal voor hebt gedaan.](#leeruitkomsten) Vervolgens geef je hier een korte, puntsgewijze onderbouwing bij. Verwijs bij elk punt zo concreet mogelijk naar een [portfolio-item](./Portfolio-items.md) (op welke pagina? In welk fragment?) waaruit het punt naar voren komt (met hyperlink, zodat de docent snel kan vinden waar het om gaat). Bij de eerste leeruitkomst zie een aantal voorbeeldzinnen die je hierbij kunt gebruiken. Die kun je gebruiken of weghalen. Je mag ook je eigen formulering kiezen. Geef bij elk punt aan wat jouw eigen bijdrage was (als dit niet direct blijkt uit het portfolio-item). Er zijn twee onderdelen aangeven. Bij het eerst onderdeel geef je aan wat je hebt gedaan om te **oefenen** (dus welke portfolio-items heb je gebruikt om te oefenen). Bij het twee onderdeel geef je welke bijdrages je hebt gedaan aan portfolio-items voor het **project** om zo te laten zien dat je het geleerde hebt toegepast.
 
-Belangrijk is dat bij elk portfolio item dat je gebruikt in je onderbouwing ook **feedback is aangegeven van docenten en experts**. Deze feedback kan je dan gebruiken om te onderbouwen dat wat je hebt gedaan ook goed is.
+Belangrijk is dat bij elk portfolio-item dat je gebruikt in je onderbouwing ook **feedback is aangegeven van docenten en experts**. Deze feedback kan je dan gebruiken om te onderbouwen dat wat je hebt gedaan ook goed is.
 
 Jouw docenten gebruiken deze verantwoording om te bepalen in hoeverre je op schema ligt en aan welke leeruitkomsten je nog (extra) aandacht moet besteden. Zij zullen je hier feedback op geven zoals tops (feedback) over wat er al goed gaat en tips (feed forward) over wat je kunt doen om je nog verder te ontwikkelen ten opzichte van die leeruitkomst. 
 
@@ -99,6 +99,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -112,6 +117,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -140,6 +150,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -153,6 +168,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -181,6 +201,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -194,6 +219,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -222,6 +252,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -235,6 +270,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -261,6 +301,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -274,6 +319,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -299,6 +349,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -312,6 +367,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -337,6 +397,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -350,6 +415,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -377,6 +447,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -390,6 +465,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
 
 ---
 
@@ -418,6 +498,11 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
 
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
+
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
@@ -431,3 +516,8 @@ Onderbouwing hoe dit heeft bijgedragen aan het aantonen van deze leeruitkomst.
 - `Op pagina XX van portfolio-item A laat ik zien dat.........`
 - `In het audiofragment (portfolio-item B) hoor je vanaf XX seconden dat ik ....`
 - `In portfolio-item C beschrijf ik op pagina X wat mijn eigen bijdrage was aan het project. Hieruit blijkt dat .....`
+
+Feedback vragen en verwerken.
+
+- `Ik heb met vakdocent X dit portfolio-item besproken. Ik heb de volgend feedback ontvangen ...`
+- `Ik heb deze feedback verwerkt en de volgende aanpassingen gedaan ....`
