@@ -41,9 +41,9 @@
 
 In semester 2 van Technische Informatica staat het kweekkas project centraal. Je krijgt in dit semester verschillende facetten van Technische Informatica te zien. Van Object Georienteerd programmeren tot aan de beginselen van elektronica. In het project zal je merken dat je deze opgedane kennis direct kunt gebruiken. Je komt in aanreking met veel Internet of Things (IoT) concepten. Elke week maak je een stapje. Aan het einde van dit semester heb je samen met je  ontwikkelteam een geautomatiseerd kas systeem gemaakt.
 
-De contacturen zijn op maandag & dinsdag in de ochtend en woensdag & donderdag in de middag. Ons lokaal is HL15-3.072. De docenten zijn:
+De contacturen zijn op maandag & dinsdag in de middag en woensdag & donderdag in de ochtend. Ons lokaal is HL15-3.072. De docenten zijn:
 
-Teun Pieter (**TP**), Harm (**H**), Gera (**G**) en Marius (**M**)
+Teun Pieter (**TPM**), Harm (**HS**), Hagen (**HP),Gera (**GP**) en Marius (**MV**)
 
 ## Programma
 
