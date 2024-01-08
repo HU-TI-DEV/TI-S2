@@ -43,7 +43,7 @@ In semester 2 van Technische Informatica staat het kweekkas project centraal. Je
 
 De contacturen zijn op maandag & dinsdag in de middag en woensdag & donderdag in de ochtend. Ons lokaal is HL15-3.072. De docenten zijn:
 
-Teun Pieter (**TPM**), Harm (**HS**), Hagen (**HP),Gera (**GP**) en Marius (**MV**)
+Teun Pieter (**TPM**), Harm (**HS**), Hagen (**HP**), Gera (**GP**) en Marius (**MV**)
 
 ## Programma
 
@@ -51,19 +51,19 @@ Teun Pieter (**TPM**), Harm (**HS**), Hagen (**HP),Gera (**GP**) en Marius (**MV
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C1 | ma | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kan je een temperatuursensor uitlezen een analoge waarde omzetten naar een temperatuur. In een for-loop kan je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console. | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Introductie en geschiedenis C/C++
-C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual studio code & Platform IO basics. "Hello world" voorbeeld code.
-C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project | Git introductie en opzetten. Eerste project "Hello greenhouse" aanpassen en op Git plaatsen. Analoge pin uitlezen. SI eenheden. Rekenkundige expressies.
-C1 | do | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Team contract inleveren. | Data types, int float, bool en C++ for loop 
+C1 | ma | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een temperatuursensor uitlezen en een analoge waarde omzetten naar een temperatuur. In een for-loop kun je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console. | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | [Introductie en geschiedenis C, C++](./software/c++/README.md) (**GP**)
+C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual studio code & Platform IO basics. ["Hello world" voorbeeld code.](../c++/basisconcepten/README.md)(**HP & GP**)
+C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project | Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](./software/c++/basisconcepten/opdr_basisconcepten) (**GP**) en op Git plaatsen. Analoge pin uitlezen. (**HP**) SI eenheden. Rekenkundige expressies. (**GP**)
+C1 | do | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Team contract inleveren. | [Data types](./software/c++/data-types/README.md), [int](./software/c++/data-types/int/README.md), [float](./software/c++/data-types/float/README.md), [bool](./software/c++/data-types/bool/README.md) en [C++ for loop](./software/c++/condities/for/README.md) (**GP**)
 
 ### Onderwijsweek C2 (12-2-2024)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C2 | ma | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). Wat heb je minimaal nodig om een eigen microcontroller te kunnen aansturen? Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om te registreren of een deur open en dicht gaat. | Uitleg retrospective en sprint review | C++ vector en condities if then else
-C2 | di | Excursie Kwekerij Lankhaar | 8.30 Aanwezig! | 15.00 terug in Utrecht
-C2 | wo | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Werken aan project | C++ vector input, C++ oefenen met vectoren
-C2 | do | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Show & Tell |
+C2 | ma | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). Wat heb je minimaal nodig om een eigen microcontroller te kunnen aansturen? Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om te registreren of een deur open en dicht gaat. | Uitleg retrospective en sprint review | C++ vector en condities if then else (**GP**)
+C2 | di | Excursie Kwekerij Lankhaar | 8.30 Aanwezig! | 15.00 terug in Utrecht (**allen**)
+C2 | wo | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Werken aan project | C++ vector input, C++ oefenen met vectoren (**GP**)
+C2 | do | [Digitale & analoge I/O](./hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Show & Tell | (**MV**)
 
 ### Onderwijsweek C3 (19-2-2024)
 
