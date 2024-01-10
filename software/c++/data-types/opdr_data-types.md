@@ -3,14 +3,14 @@
 ### Inhoud[](toc-id)
 - [Opdrachten Data-types C++](#opdrachten-data-types-c)
     - [Inhoud](#inhoud)
-  - [Opdracht 1.3A Int, Float, Char, Bool](#opdracht-13a-int-float-char-bool)
-  - [Opdracht 1.3B](#opdracht-13b)
+    - [Opdracht 1.3A Int, Float, Char, Bool](#opdracht-13a-int-float-char-bool)
+    - [Opdracht 1.3B Int, Float, Char, Bool](#opdracht-13b-int-float-char-bool)
   - [BONUS opdrachten](#bonus-opdrachten)
-  - [Opdracht 1.3C](#opdracht-13c)
-  - [Opdracht 1.3D](#opdracht-13d)
+    - [Opdracht 1.3C Int, Float, Char, Bool](#opdracht-13c-int-float-char-bool)
+    - [Opdracht 1.3D Int, Float, Char, Bool](#opdracht-13d-int-float-char-bool)
 
 
-## Opdracht 1.3A Int, Float, Char, Bool
+### Opdracht 1.3A Int, Float, Char, Bool
 - **Lees** de code uit *Codevoorbeeld 1.3.1 data-types simpel* (dus NIET uitvoeren!).
 - Schrijf van elke variabele (x, y, etc..) de waarde op die de variabele heeft na het uitvoeren. Doe dit zonder de code uit te voeren op een computer.
 
@@ -40,7 +40,7 @@ int main(){
 ```
 *Codevoorbeeld 1.3.1 data-types simpel*
 
-## Opdracht 1.3B
+### Opdracht 1.3B Int, Float, Char, Bool
 Je wilt natuurlijk weten of je het goed hebt gedaan.
 - Voer *Codevoorbeeld 1.3.1 data-types* uit op een computer.
 - Wat valt je op als je het programma draait?
@@ -48,7 +48,7 @@ Je wilt natuurlijk weten of je het goed hebt gedaan.
 - Hint: `cout << "x is: " << x;`
 
 ## BONUS opdrachten
-## Opdracht 1.3C
+### Opdracht 1.3C Int, Float, Char, Bool
 - **Lees** de code uit *Codevoorbeeld 1.3.3 data-types complex* (dus NIET uitvoeren!).
 - Schrijf van elke variabele (x, y, etc..) de waarde op die de variabele heeft na het uitvoeren. Doe dit zonder de code uit te voeren op een computer.
 
@@ -84,6 +84,6 @@ int main(){
 ```
 *Codevoorbeeld 1.3.3 data-types complex*
 
-## Opdracht 1.3D
+### Opdracht 1.3D Int, Float, Char, Bool
 - Voer *Codevoorbeeld 1.3.3 data-types complex* uit op een computer.
 - Maak gebruik van cout om de waarden te printen.
