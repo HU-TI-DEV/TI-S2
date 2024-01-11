@@ -4,7 +4,7 @@
 - [Opdrachten While C++](#opdrachten-while-c)
     - [Inhoud](#inhoud)
     - [Opdracht 1.4 While-loop - code lezen](#opdracht-14-while-loop---code-lezen)
-    - [Opdracht 1.4 Controle](#opdracht-14-controle)
+    - [Controle](#controle)
 
 
 ### Opdracht 1.4 While-loop - code lezen
