@@ -15,7 +15,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeelden door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor 3D modeleren uitleg en voorbeelden door HU IICT[](author-id).
 
 ---
 
