@@ -1,4 +1,4 @@
-![logo](../Presenteren/img/presenting.jpg) [](logo-id)
+![picture1](../3D%20Modeleren/img/Fusion360.png) [](logo-id)
 
 # 3D Modeleren[](title-id)
 
