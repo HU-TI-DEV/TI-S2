@@ -1,4 +1,4 @@
-![logo](../Presenteren/img/presenting.jpg) [](logo-id)
+![logo](../Gesprekstechniek/img/gesprek.jpg) [](logo-id)
 
 # Gesprekstechniek[](title-id)
 
@@ -13,7 +13,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor presentatietechnieken uitleg en voorbeeld code door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor gesprekstechnieken uitleg en voorbeelden door HU IICT[](author-id).
 
 ---
 
