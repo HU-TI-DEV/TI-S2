@@ -1,10 +1,10 @@
 ![picture1](../3D%20Modeleren/img/Fusion360.png) [](logo-id)
 
-# 3D Modeleren[](title-id)
+# 3D Modelleren[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [3D Modeleren](#3d-modeleren)
+- [3D Modelleren](#3d-modelleren)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [De basis van Fusion 360](#de-basis-van-fusion-360)
@@ -15,18 +15,18 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor 3D modeleren uitleg en voorbeelden door HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor 3D modelleren uitleg en voorbeelden door HU IICT[](author-id).
 
 ---
 
 ## Een introductie
 
-Er zijn veel 3d modelleer programma’s die je kan gebruiken om objecten te maken voor 3d printen of lasersnijden. Voor deze instructie gebruiken we Fusion 360 van Autodesk. Deze software heeft mogelijkheden voor zowel platte materialen als ook voor 3D objecten modeleren. We richten ons nu met name op 3d modellen, maar met deze instructie kunnen even goed ook platte tekeningen worden gemaakt om als basis te fungeren voor een vector bestand dat kan worden geïnterpreteerd door een laser programma. 
+Er zijn veel 3d modelleer programma’s die je kan gebruiken om objecten te maken voor 3d printen of lasersnijden. Voor deze instructie gebruiken we Fusion 360 van Autodesk. Deze software heeft mogelijkheden voor zowel platte materialen als ook voor 3D objecten modelleren. We richten ons nu met name op 3d modellen, maar met deze instructie kunnen even goed ook platte tekeningen worden gemaakt om als basis te fungeren voor een vector bestand dat kan worden geïnterpreteerd door een laser programma. 
 
 ## De basis van Fusion 360
 Als je Fusion opent krijg je eerst een leg scherm te zien met een aantal knoppen.
 
-![picture1](../3D%20Modeleren/img/Picture1.png)
+![picture1](../3D%20modeleren/img/Picture1.png)
 
 Het belangrijkste is om eerst op te slaan (rode kader). Hierdoor worden extra mogelijkheden geactiveerd en wordt je tijdlijn goed opgeslagen. In het groene kader zie je een kubus staan en daaraan kan je zien hoe je naar je tekening aan het kijken bent. Om een tekening te starten begin je altijd met een platte schets. Deze kan je oproepen door op het schets knopje te drukken (blauwe kader).
 Het scherm veranderd dan in een grid met een beeld van de X, Y en Z assen zoals die zijn weergegeven op de kubus:
@@ -104,7 +104,7 @@ Bij veel objecten die je gebruikt zijn er al tekeningen die je kan gebruiken. Om
 ![picture26](../3D%20Modeleren/img/Picture26.png)
 [1]
 
-In het voorgaande hoofdstuk is al beschreven hoe we de dimensies van het doosje kunnen beinvloeden met user parameters. We kunnen de dimensies op de tekening Overnemen en gebruiken om bijvoorbeeld gaten te maken voor de usb poorten en dergelijke. Ook staan de locaties van montage gaten op de tekening. In fusion kunnen we hiervor standofs modeleren zodat het model kan worden vast geschroeft. Het enige wat hiervor nodig is het aanpassen van de schets. Met het dimension (d) commando kan je aangeven hoever een object moet worden geplaatst vanaf een ander object. Uiteraard is het verstandig om hier user parameters voor te gebruiken!
+In het voorgaande hoofdstuk is al beschreven hoe we de dimensies van het doosje kunnen beinvloeden met user parameters. We kunnen de dimensies op de tekening Overnemen en gebruiken om bijvoorbeeld gaten te maken voor de usb poorten en dergelijke. Ook staan de locaties van montage gaten op de tekening. In fusion kunnen we hiervor standofs modelleren zodat het model kan worden vast geschroeft. Het enige wat hiervor nodig is het aanpassen van de schets. Met het dimension (d) commando kan je aangeven hoever een object moet worden geplaatst vanaf een ander object. Uiteraard is het verstandig om hier user parameters voor te gebruiken!
 
 Een tweede optie is om een volledig 3d model te importeren. Hiervoor kan je een account aanmaken bij bijvoorbeeld grabcad of kan je gebruik maken van de import functie van fusion:
 
