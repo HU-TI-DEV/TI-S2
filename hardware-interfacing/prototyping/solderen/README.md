@@ -31,11 +31,7 @@
 
 ## Een introductie
 
-Op het moment dat je een project gemaakt op een breadboard permanent wil maken,
-zul je moeten gaan solderen. Ook het verwijderen en toevoegen van
-pinnen, het toevoegen van bedrading, of het maken van een breakout (een
-adapter voor een chip zodat je deze kan gebruiken op een breadboard) zul
-je moeten doen door te solderen.
+Op het moment dat je een project gemaakt op een [breadboard](../breadboard/README.md) permanent wil maken moet je gaan solderen. Ook het verwijderen en toevoegen van pinnen, het toevoegen van bedrading, of het maken van een breakout (een adapter voor een chip zodat je deze kan gebruiken op een breadboard) moet je doen door te solderen.
 
 ## Tools
 
