@@ -143,4 +143,9 @@ Het kan handig zijn om bij iets wat kritiek is eerst een klein object te maken. 
 ## bronnen
 [1] https://www.krekr.nl/content/arduino-uno-technical-drawing/
 
+[2] https://www.youtube.com/watch?v=y8keHm9lyVo&t=806s
+
+[3] https://www.youtube.com/watch?v=BLC-O_lTv_E
+
+[4] https://www.youtube.com/watch?v=A5bc9c3S12g&list=RDQM86i-42H4_FU&start_radio=1
 
