@@ -22,15 +22,12 @@
 
 ## Een introductie
 
-Effectief leren communiceren naar een groep is iets waar vrijwel iedereen in zijn leven te maken mee krijgt. Voor veel mensen is dit een zeer stressvolle gebeurtenis [1]. Hoewel het altijd spannend is hoeft het voor veruit de meeste mensen geen groot probleem te zijn. In dit topic is informatie verzameld die gebruikt kan worden bij het effectief leren presenteren. In het eerste hoofdstuk, Basis van het spreken, wordt de theorie besproken. Daarna worden praktische tips gegeven voor het geven van een presentatie in het topic Praktisch presenteren. Het gebruik van visuele ondersteuning wordt apart beschreven in het topic Gebruik van visuele ondersteuning. 
+Effectief leren communiceren naar een groep is iets waar vrijwel iedereen in zijn leven te maken mee krijgt. Voor veel mensen is dit een zeer stressvolle gebeurtenis [1]. Hoewel het altijd spannend is hoeft het voor veruit de meeste mensen geen groot probleem te zijn. In dit topic is informatie verzameld die gebruikt kan worden bij het effectief leren presenteren. De focus ligt hierbij niet op theorie, maar juist op het doen. We beginnen met de voorbereiding en bespreken daarna tips voor tijdens de presentatie.Het gebruik van visuele ondersteuning wordt apart beschreven in het topic Gebruik van visuele ondersteuning. 
 
-## Basis van het spreken
+## Voorbereiding
 
+## Tijdens de presentatie
 
-
-## Praktisch presenteren
-### Voorbereiding
-### tools  
 
 ## Gebruik van visuele ondersteuning
 

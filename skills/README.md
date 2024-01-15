@@ -32,8 +32,6 @@ Naast het ontwikkkelen van technische skills zijn professional skills minstens z
 
 ## Gesprekstechniek 
 
-## Git 
-
 ## Documenteren
 
 
