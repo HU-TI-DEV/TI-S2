@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.87 29.66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-2 {
+        fill: #c04040;
+        font-family: ArialMT, Arial;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="13.64" y1="15.39" x2="13.64" y2="22.24"/>
+  <line class="cls-1" x1="13.64" y1="13.11" x2="13.64" y2="6.26"/>
+  <line class="cls-1" x1="9.99" y1="15.39" x2="17.29" y2="15.39"/>
+  <line class="cls-1" x1="9.99" y1="13.11" x2="17.29" y2="13.11"/>
+  <text class="cls-2" transform="translate(19.57 9.46)"><tspan x="0" y="0">C</tspan></text>
+</svg>

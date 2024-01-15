@@ -75,7 +75,7 @@ De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel of wit. Roo
 ## Arduino voorbeeld code
 
 ```arduino
-//1-Wire Arduino sketch for BS18B20 waterproof temperature sensor
+//1-Wire Arduino sketch for DS18B20 waterproof temperature sensor
 
 #include <OneWire.h>
 #include <DallasTemperature.h>
@@ -87,7 +87,7 @@ DallasTemperature sensors(&oneWire);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("1-Wire Arduino sketch for BS18B20 waterproof temperature sensor");
+  Serial.println("1-Wire Arduino sketch for DS18B20 waterproof temperature sensor");
   sensors.begin();
 }
 
@@ -106,3 +106,4 @@ void loop() {
 ## Referenties
 
 - 1-Wire (<https://en.wikipedia.org/wiki/1-Wire>)
+- DS18B20 datasheet (<https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>)

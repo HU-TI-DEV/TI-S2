@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.69 82.17">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke: #7f3f98;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke: #21409a;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        fill: #00a14b;
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 8px;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-9 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-4" x=".5" y=".5" width="145.69" height="81.17"/>
+    <polyline class="cls-3" points="53.1 50.04 66.63 50.27 69.38 57.38 72.36 44.31 76.95 58.03 79.81 44.97 83.14 58.03 86.97 44.31 89.56 58.75 91.84 52.26 101.48 52.49"/>
+    <text class="cls-7" transform="translate(58.15 33.49)"><tspan class="cls-10" x="0" y="0">I</tspan><tspan class="cls-9" x="1.99" y="0">n</tspan><tspan class="cls-6" x="6.4" y="0">t</tspan><tspan x="9" y="0">e</tspan><tspan class="cls-5" x="13.01" y="0">r</tspan><tspan x="15.66" y="0">n</tspan><tspan class="cls-1" x="20.1" y="0">a</tspan><tspan class="cls-8" x="23.92" y="0">tional</tspan></text>
+    <text class="cls-7" transform="translate(62.6 70.87)"><tspan x="0" y="0">USA (old)</tspan></text>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <line class="cls-2" x1="53.1" y1="17.54" x2="104.35" y2="17.54"/>
+    <rect class="cls-3" x="72.7" y=".96" width="13.07" height="33.26" transform="translate(61.64 96.82) rotate(-90)"/>
+  </g>
+</svg>

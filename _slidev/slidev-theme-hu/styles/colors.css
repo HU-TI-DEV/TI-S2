@@ -1,0 +1,21 @@
+.hu-blue {
+    background-color: #00A0D2;
+}
+.hu-red {
+    background-color: #EC0010;
+}
+.hu-blue-text {
+    color: #00A0D2;
+}
+.hu-red-text {
+    color: #EC0010;
+}
+.hu-footer {
+    background-color: #FFF;
+}
+h1 {
+    color: #00A0D2;
+}
+.hu-red h1, .hu-blue h1 {
+    color: #FFF;
+}

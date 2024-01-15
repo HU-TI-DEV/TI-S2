@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.11 63.29">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: .06em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-2 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        font-size: 5.94px;
+      }
+
+      .cls-7, .cls-8 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-8 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-2" x1="45.2" y1="28.13" x2="47.93" y2="28.13"/>
+  <line class="cls-2" x1="46.57" y1="40.46" x2="46.57" y2="43.2"/>
+  <line class="cls-2" x1="45.2" y1="41.83" x2="47.93" y2="41.83"/>
+  <line class="cls-2" x1="42.92" y1="28.13" x2="38.35" y2="28.13"/>
+  <line class="cls-2" x1="42.92" y1="19" x2="42.92" y2="50.97"/>
+  <line class="cls-2" x1="42.92" y1="50.97" x2="63.45" y2="34.98"/>
+  <line class="cls-2" x1="63.45" y1="34.98" x2="68.01" y2="34.98"/>
+  <line class="cls-2" x1="63.45" y1="34.98" x2="42.92" y2="19"/>
+  <line class="cls-2" x1="42.92" y1="41.83" x2="38.35" y2="41.83"/>
+  <text class="cls-8" transform="translate(70.29 27.67)"><tspan x="0" y="0">A</tspan></text>
+  <line class="cls-1" x1="68.01" y1="34.98" x2="92.19" y2="34.98"/>
+  <line class="cls-1" x1="38.35" y1="28.13" x2="25.58" y2="28.13"/>
+  <line class="cls-1" x1="38.35" y1="41.83" x2="25.12" y2="41.83"/>
+  <text class="cls-7" transform="translate(16 28.13)"><tspan class="cls-6" x="0" y="0">U</tspan><tspan x="4.12" y="0">1</tspan></text>
+  <text class="cls-7" transform="translate(16 40.47)"><tspan class="cls-6" x="0" y="0">U</tspan><tspan x="4.12" y="0">2</tspan></text>
+  <text class="cls-7" transform="translate(94.02 34.98)"><tspan class="cls-6" x="0" y="0">U</tspan><tspan class="cls-5" x="4.12" y="0">u</tspan><tspan class="cls-3" x="7.77" y="0">i</tspan><tspan class="cls-4" x="9.13" y="0">t</tspan></text>
+</svg>

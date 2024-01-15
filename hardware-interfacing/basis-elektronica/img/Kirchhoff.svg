@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.46 82.17">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-4 {
+        fill: #00a14b;
+        font-family: BaskOldFace, 'Baskerville Old Face';
+        stroke: #00a14b;
+      }
+
+      .cls-1, .cls-4 {
+        font-size: 6px;
+        stroke-width: .25px;
+      }
+
+      .cls-2 {
+        font-size: 7.45px;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #7f3f98;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-3" x=".5" y=".5" width="119.46" height="81.17"/>
+    <text class="cls-2" transform="translate(46.64 13.87)"><tspan x="0" y="0">I </tspan></text>
+    <text class="cls-4" transform="translate(51.19 15.87) scale(.58)"><tspan x="0" y="0">2</tspan></text>
+    <text class="cls-2" transform="translate(78.95 24.64)"><tspan x="0" y="0">I </tspan></text>
+    <text class="cls-4" transform="translate(83.5 26.64) scale(.58)"><tspan x="0" y="0">3</tspan></text>
+    <text class="cls-2" transform="translate(63.15 54.47)"><tspan x="0" y="0">I </tspan></text>
+    <text class="cls-4" transform="translate(67.7 56.47) scale(.58)"><tspan x="0" y="0">4</tspan></text>
+    <text class="cls-2" transform="translate(24.59 60.18)"><tspan x="0" y="0">I </tspan></text>
+    <text class="cls-1" transform="translate(29.14 62.18) scale(.58)"><tspan x="0" y="0">n</tspan></text>
+    <text class="cls-2" transform="translate(37.8 56.91)"><tspan x="0" y="0">. . .</tspan></text>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-2" transform="translate(20.34 31.01)"><tspan x="0" y="0">I </tspan></text>
+    <text class="cls-4" transform="translate(24.88 33) scale(.58)"><tspan x="0" y="0">1</tspan></text>
+    <path class="cls-5" d="m45.61,35.87l-2.8,1.99c-7.49,5.31-14.98,10.62-22.47,15.93"/>
+    <path class="cls-5" d="m45.61,35.06c3.8-7.27,8.67-13.97,14.41-19.83"/>
+    <path class="cls-5" d="m45.61,35.87c1.27.72,2.21,1.97,3.08,3.22,4.63,6.6,8.53,13.83,11.58,21.46"/>
+    <path class="cls-5" d="m44.68,35.87c12.73-4.77,27.84-3.98,41.66-6.59"/>
+    <path class="cls-5" d="m45.61,35.87c-4.57-5.59-10.79-10.22-17.95-13.37"/>
+  </g>
+</svg>

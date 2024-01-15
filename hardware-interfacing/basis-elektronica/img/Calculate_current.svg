@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146.69 82.17">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #00a14b;
+      }
+
+      .cls-1, .cls-7 {
+        fill: none;
+      }
+
+      .cls-8, .cls-3 {
+        fill: #00a14b;
+      }
+
+      .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-2, .cls-9, .cls-4, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5, .cls-7 {
+        stroke: #7f3f98;
+      }
+
+      .cls-3 {
+        font-size: 6px;
+        stroke-width: .25px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-4 {
+        stroke: #21409a;
+      }
+
+      .cls-5 {
+        fill: #21409a;
+        font-size: 12px;
+        stroke-width: .5px;
+      }
+
+      .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-7 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-6" x=".5" y=".5" width="145.69" height="81.17"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-2" x="22.57" y="9.1" width="81.82" height="64.09"/>
+    <circle class="cls-2" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-7" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-7" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-7" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <rect class="cls-4" x="97.81" y="25.26" width="13.07" height="33.26"/>
+    <text class="cls-5" transform="translate(44.89 46.14)"><tspan x="0" y="0">3V</tspan></text>
+    <text class="cls-5" transform="translate(117.53 52.79)"><tspan x="0" y="0">10Ω </tspan></text>
+    <g>
+      <path class="cls-9" d="m85.07,41.09c-.23,16.06,0,16.75,0,16.75"/>
+      <g>
+        <path class="cls-1" d="m85.07,41.09c-.06,4.19-.09,7.33-.1,9.69"/>
+        <polygon class="cls-8" points="85.07 57.83 80.94 47.91 85.02 50.25 89.07 47.86 85.07 57.83"/>
+      </g>
+    </g>
+    <text class="cls-3" transform="translate(76.54 38.06)"><tspan x="0" y="0">300mA</tspan></text>
+  </g>
+</svg>

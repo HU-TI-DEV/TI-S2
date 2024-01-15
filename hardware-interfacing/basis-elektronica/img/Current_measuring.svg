@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.27 82.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #21409a;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-5, .cls-9 {
+        stroke: #00a14b;
+      }
+
+      .cls-4, .cls-6, .cls-11 {
+        fill: none;
+      }
+
+      .cls-12, .cls-9 {
+        font-family: BaskOldFace, 'Baskerville Old Face';
+      }
+
+      .cls-5, .cls-2, .cls-9 {
+        fill: #00a14b;
+      }
+
+      .cls-5, .cls-9 {
+        font-size: 7.45px;
+      }
+
+      .cls-6 {
+        stroke-width: .75px;
+      }
+
+      .cls-6, .cls-8 {
+        stroke: #21409a;
+      }
+
+      .cls-7, .cls-3, .cls-8, .cls-10 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-11 {
+        stroke: #7f3f98;
+      }
+
+      .cls-13 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        letter-spacing: 0em;
+        stroke-width: .25px;
+      }
+
+      .cls-10 {
+        stroke: #fff;
+      }
+
+      .cls-11 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-10" x=".5" y=".5" width="272.27" height="81.17"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-7" x="22.57" y="11.52" width="81.82" height="61.67"/>
+    <circle class="cls-7" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-11" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-11" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-11" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <text class="cls-5" transform="translate(26.48 7.99)"><tspan class="cls-12" x="0" y="0">I </tspan><tspan class="cls-13" x="4.55" y="0">=?</tspan></text>
+    <g>
+      <path class="cls-3" d="m48.06,5.42c26.6.23,27.75,0,27.75,0"/>
+      <g>
+        <path class="cls-4" d="m48.06,5.42c10.15.09,16.6.11,20.69.1"/>
+        <polygon class="cls-2" points="75.8 5.42 65.89 9.58 68.22 5.49 65.82 1.45 75.8 5.42"/>
+      </g>
+    </g>
+    <path class="cls-8" d="m97.03,48.06c-2,1.45-4.31,2.24-.69,6.53,3.61,4.28,8.43,3.04,9.25,1,.68-1.7,0-3.19.76-4.82,1-2.15,5.56.13,7.19-2.51,1.01-1.64-.68-5.38-3.39-6.83-3.53-1.89,2.36-2.99,3.05-5.6,1.03-3.95-16.08-9.4-16.42-.42-.05,1.35,4.47,9.59.25,12.65Z"/>
+    <rect class="cls-7" x="147.01" y="11.55" width="81.82" height="61.67"/>
+    <circle class="cls-7" cx="147.01" cy="41.18" r="15.88"/>
+    <line class="cls-11" x1="163.74" y1="20.46" x2="163.74" y2="28.15"/>
+    <path class="cls-11" d="m160.18,24.16l6.98-.36"/>
+    <path class="cls-11" d="m160.79,59.76c1.94.07,3.89-.22,5.77-.84"/>
+    <path class="cls-8" d="m221.47,48.1c-2,1.45-4.31,2.24-.69,6.53,3.61,4.28,8.43,3.04,9.25,1,.68-1.7,0-3.19.76-4.82,1-2.15,5.56.13,7.19-2.51,1.01-1.64-.68-5.38-3.39-6.83-3.53-1.89,2.36-2.99,3.05-5.6,1.03-3.95-16.08-9.4-16.42-.42-.05,1.35,4.47,9.59.25,12.65Z"/>
+    <path class="cls-8" d="m194.41,11.55c-.03,4.43-3.59,8.03-8.03,8.03s-8.03-3.59-8.03-8.03,3.59-8.07,8.03-8.03c4.48.05,8.06,3.63,8.03,8.03Z"/>
+    <text class="cls-9" transform="translate(198.26 7.99)"><tspan x="0" y="0">I </tspan></text>
+    <g>
+      <path class="cls-1" d="m187.92,9.23c.6-.35-2.73,4.21-5.27,6.88"/>
+      <g>
+        <path class="cls-6" d="m186.7,11.22c-1.09,1.47-2.68,3.46-4.05,4.89"/>
+        <polygon class="cls-1" points="190.35 14.39 187.92 9.23 182.21 9.2 182.19 9.22 190.33 14.42 190.35 14.39"/>
+      </g>
+    </g>
+  </g>
+</svg>

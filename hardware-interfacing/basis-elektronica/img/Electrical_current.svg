@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.46 82.17">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #00a14b;
+      }
+
+      .cls-1, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6, .cls-7 {
+        stroke-width: 0px;
+      }
+
+      .cls-6, .cls-3 {
+        fill: #00a14b;
+      }
+
+      .cls-2, .cls-7, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-5 {
+        stroke: #7f3f98;
+      }
+
+      .cls-3 {
+        font-family: BaskOldFace, 'Baskerville Old Face';
+        font-size: 7.45px;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-4" x=".5" y=".5" width="119.46" height="81.17"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-2" x="22.57" y="9.1" width="81.82" height="64.09"/>
+    <circle class="cls-2" cx="22.57" cy="41.14" r="15.88"/>
+    <line class="cls-5" x1="39.31" y1="20.42" x2="39.31" y2="28.11"/>
+    <path class="cls-5" d="m35.74,24.12l6.98-.36"/>
+    <path class="cls-5" d="m36.35,59.73c1.94.07,3.89-.22,5.77-.84"/>
+    <g>
+      <path class="cls-7" d="m75.42,20.42c42.06,21.84,9.3,48.33-7.69,35.32"/>
+      <g>
+        <path class="cls-1" d="m75.42,20.42c41.35,21.47,10.4,47.43-6.81,35.95"/>
+        <polygon class="cls-6" points="73.6 54.49 73.81 55.47 68.99 56.49 70.36 61.23 69.4 61.51 67.73 55.74 73.6 54.49"/>
+      </g>
+    </g>
+    <text class="cls-3" transform="translate(79.61 39.03)"><tspan x="0" y="0">I</tspan></text>
+  </g>
+</svg>

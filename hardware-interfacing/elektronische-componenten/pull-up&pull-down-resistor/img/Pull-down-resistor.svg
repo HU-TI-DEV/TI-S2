@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 187.11 152.71">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: blue;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-7 {
+        letter-spacing: .06em;
+      }
+
+      .cls-8 {
+        letter-spacing: .09em;
+      }
+
+      .cls-3 {
+        stroke: #c04040;
+      }
+
+      .cls-9 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: .02em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: .03em;
+      }
+
+      .cls-14 {
+        letter-spacing: .04em;
+      }
+
+      .cls-15 {
+        letter-spacing: .03em;
+      }
+
+      .cls-5 {
+        stroke: #d0d0d0;
+      }
+
+      .cls-16 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-17 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-18 {
+        font-size: 5.94px;
+      }
+
+      .cls-18, .cls-19 {
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-19 {
+        fill: #c04040;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="90.23" y1="87.18" x2="92.97" y2="87.18"/>
+  <line class="cls-3" x1="86.13" y1="87.18" x2="90.23" y2="87.18"/>
+  <rect class="cls-5" x="85.67" y="86.73" width=".91" height=".91"/>
+  <line class="cls-3" x1="107.11" y1="87.18" x2="104.37" y2="87.18"/>
+  <line class="cls-3" x1="111.22" y1="87.18" x2="107.11" y2="87.18"/>
+  <rect class="cls-5" x="110.76" y="86.73" width=".91" height=".91"/>
+  <polyline class="cls-4" points="92.97 80.33 92.97 94.03 104.37 87.18 92.97 80.33"/>
+  <text class="cls-19" transform="translate(113.5 83.54)"><tspan class="cls-13" x="0" y="0">B</tspan><tspan class="cls-11" x="3.2" y="0">U</tspan><tspan class="cls-16" x="6.39" y="0">FF</tspan><tspan class="cls-13" x="11.88" y="0">E</tspan><tspan x="15.08" y="0">R</tspan></text>
+  <line class="cls-4" x1="51" y1="135.59" x2="57.84" y2="135.59"/>
+  <line class="cls-4" x1="54.19" y1="129.2" x2="54.19" y2="135.59"/>
+  <line class="cls-4" x1="54.19" y1="106.36" x2="54.19" y2="102.71"/>
+  <line class="cls-4" x1="54.19" y1="119.61" x2="54.19" y2="123.26"/>
+  <rect class="cls-4" x="50.54" y="106.36" width="6.39" height="12.79"/>
+  <text class="cls-19" transform="translate(59.66 105.91)"><tspan x="0" y="0">R</tspan></text>
+  <path class="cls-4" d="m51.91,46.76c0-1.14.91-2.06,2.05-2.06s2.05.91,2.05,2.06-.91,2.06-2.05,2.06-2.05-.91-2.05-2.06h0Z"/>
+  <line class="cls-4" x1="54.19" y1="62.98" x2="47.35" y2="44.71"/>
+  <line class="cls-3" x1="54.19" y1="67.54" x2="54.19" y2="62.98"/>
+  <line class="cls-3" x1="54.19" y1="76.68" x2="54.19" y2="67.54"/>
+  <rect class="cls-5" x="53.74" y="76.22" width=".91" height=".91"/>
+  <line class="cls-3" x1="54.19" y1="40.14" x2="54.19" y2="44.71"/>
+  <line class="cls-3" x1="54.19" y1="31.01" x2="54.19" y2="40.14"/>
+  <rect class="cls-5" x="53.74" y="30.55" width=".91" height=".91"/>
+  <text class="cls-19" transform="translate(58.75 34.21)"><tspan class="cls-13" x="0" y="0">S</tspan><tspan class="cls-6" x="3.2" y="0">W</tspan><tspan class="cls-10" x="7.31" y="0">I</tspan><tspan class="cls-8" x="8.68" y="0">T</tspan><tspan class="cls-9" x="11.88" y="0">C</tspan><tspan x="15.07" y="0">H</tspan></text>
+  <path class="cls-4" d="m52.37,28.95c0-.89.81-1.6,1.82-1.6s1.82.71,1.82,1.6-.81,1.6-1.82,1.6-1.82-.71-1.82-1.6h0Z"/>
+  <text class="cls-18" transform="translate(51 24.62)"><tspan class="cls-15" x="0" y="0">V</tspan><tspan class="cls-14" x="4.11" y="0">c</tspan><tspan x="7.3" y="0">c</tspan></text>
+  <line class="cls-1" x1="54.19" y1="102.71" x2="54.19" y2="99.97"/>
+  <line class="cls-1" x1="54.19" y1="87.18" x2="54.19" y2="76.68"/>
+  <line class="cls-1" x1="54.19" y1="129.2" x2="54.19" y2="128.28"/>
+  <line class="cls-1" x1="54.19" y1="128.28" x2="54.19" y2="122.8"/>
+  <line class="cls-1" x1="86.13" y1="87.18" x2="54.19" y2="87.18"/>
+  <path class="cls-2" d="m52.82,87.18c0-.76.61-1.37,1.37-1.37s1.37.61,1.37,1.37-.61,1.37-1.37,1.37-1.37-.61-1.37-1.37h0Z"/>
+  <line class="cls-1" x1="54.19" y1="87.64" x2="54.19" y2="87.18"/>
+  <line class="cls-1" x1="54.19" y1="87.18" x2="54.19" y2="87.64"/>
+  <path class="cls-2" d="m52.82,87.64c0-.76.61-1.37,1.37-1.37s1.37.61,1.37,1.37-.61,1.37-1.37,1.37-1.37-.61-1.37-1.37h0Z"/>
+  <line class="cls-1" x1="54.19" y1="99.97" x2="54.19" y2="87.64"/>
+  <line class="cls-1" x1="111.22" y1="87.18" x2="143.61" y2="87.18"/>
+  <text class="cls-18" transform="translate(146.8 87.63)"><tspan class="cls-15" x="0" y="0">V</tspan><tspan class="cls-17" x="4.11" y="0">o</tspan><tspan class="cls-7" x="7.31" y="0">u</tspan><tspan class="cls-12" x="10.96" y="0">t</tspan></text>
+</svg>

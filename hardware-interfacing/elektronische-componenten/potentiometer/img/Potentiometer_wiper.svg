@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 145.05 69.82">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 9px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke: #071457;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-5, .cls-9, .cls-10, .cls-11 {
+        stroke-width: 2px;
+      }
+
+      .cls-12 {
+        stroke-width: 0px;
+      }
+
+      .cls-13 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        stroke-width: .75px;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9, .cls-11 {
+        stroke: #000;
+      }
+
+      .cls-6, .cls-7, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-7, .cls-8 {
+        stroke-width: .25px;
+      }
+
+      .cls-8 {
+        fill: #c2020e;
+      }
+
+      .cls-14 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: 0em;
+      }
+
+      .cls-10 {
+        stroke: #73a850;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        fill: #fff;
+      }
+
+      .cls-17 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-11" cx="58.72" cy="23.74" r="22.74"/>
+  <circle class="cls-11" cx="59.16" cy="23.45" r="3.74"/>
+  <line class="cls-9" x1="59.16" y1="27.18" x2="59.16" y2="59.76"/>
+  <path class="cls-7" d="m68.67,33.1s-.02.02-.02.02"/>
+  <path class="cls-8" d="m68.67,33.1c2.49-2.46,4.04-5.87,4.04-9.65,0-7.48-6.07-13.55-13.55-13.55s-13.52,6.07-13.55,13.55c-.02,4.13,1.74,7.84,4.66,10.33l-1.39,1.92c-.44-.35-.77-.73-1.17-1.12-2.95-2.92-4.78-6.97-4.78-11.45,0-8.89,7.21-16.09,16.09-16.09s16.09,7.21,16.09,16.09c0,4.82-2.12,9.15-5.48,12.1l-.96-2.13Z"/>
+  <line class="cls-10" x1="69.45" y1="32.7" x2="79.75" y2="56.19"/>
+  <path class="cls-5" d="m49.48,33.29l-10.3,23.49,10.3-23.49Z"/>
+  <g>
+    <line class="cls-6" x1="17.81" y1="27.18" x2="51.37" y2="19.55"/>
+    <polygon class="cls-12" points="50.19 21.12 51.15 19.6 49.63 18.64 50.68 18.4 52.2 19.36 51.25 20.88 50.19 21.12"/>
+  </g>
+  <text class="cls-2" transform="translate(0 21.36)"><tspan class="cls-17" x="0" y="0">W</tspan><tspan x="7.47" y="0">iper</tspan></text>
+  <text class="cls-2" transform="translate(22.01 67.57)"><tspan x="0" y="0">GND</tspan></text>
+  <text class="cls-2" transform="translate(45.09 67.58)"><tspan class="cls-3" x="0" y="0">O</tspan><tspan x="6.23" y="0">utput</tspan></text>
+  <text class="cls-2" transform="translate(78.88 67.57)"><tspan class="cls-13" x="0" y="0">V</tspan><tspan class="cls-16" x="4.73" y="0">c</tspan><tspan class="cls-15" x="8.7" y="0">c</tspan></text>
+  <text class="cls-2" transform="translate(93.94 16.15)"><tspan class="cls-1" x="0" y="0">R</tspan><tspan x="4.88" y="0">esisti</tspan><tspan class="cls-14" x="23.71" y="0">v</tspan><tspan class="cls-4" x="27.94" y="0">e st</tspan><tspan class="cls-1" x="40.9" y="0">r</tspan><tspan x="43.88" y="0">ip</tspan></text>
+  <line class="cls-9" x1="48.27" y1="11.1" x2="56.29" y2="20.24"/>
+  <g>
+    <line class="cls-6" x1="111.05" y1="20.87" x2="76.55" y2="24.98"/>
+    <polygon class="cls-12" points="77.88 23.54 76.77 24.95 78.18 26.07 77.11 26.19 75.7 25.08 76.81 23.67 77.88 23.54"/>
+  </g>
+</svg>

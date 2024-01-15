@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74 35">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-2 {
+        letter-spacing: .09em;
+      }
+
+      .cls-3 {
+        stroke: #c04040;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-8 {
+        letter-spacing: .03em;
+      }
+
+      .cls-5 {
+        stroke: #d0d0d0;
+      }
+
+      .cls-9 {
+        fill: #c04040;
+        font-family: ArialMT, Arial;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <path class="cls-4" d="m43.6,20.91c0-1.14.91-2.06,2.05-2.06s2.05.91,2.05,2.06-.91,2.06-2.05,2.06-2.05-.91-2.05-2.06h0Z"/>
+  <line class="cls-4" x1="29.91" y1="21.14" x2="48.16" y2="14.29"/>
+  <line class="cls-3" x1="25.35" y1="21.14" x2="29.91" y2="21.14"/>
+  <line class="cls-3" x1="16.23" y1="21.14" x2="25.35" y2="21.14"/>
+  <rect class="cls-5" x="16.23" y="20.68" height=".91"/>
+  <line class="cls-3" x1="52.72" y1="21.14" x2="48.16" y2="21.14"/>
+  <line class="cls-3" x1="61.85" y1="21.14" x2="52.72" y2="21.14"/>
+  <rect class="cls-5" x="61.85" y="20.68" height=".91"/>
+  <text class="cls-9" transform="translate(16.23 12.92)"><tspan class="cls-8" x="0" y="0">S</tspan><tspan class="cls-1" x="3.2" y="0">W</tspan><tspan class="cls-7" x="7.31" y="0">I</tspan><tspan class="cls-2" x="8.68" y="0">T</tspan><tspan class="cls-6" x="11.88" y="0">C</tspan><tspan x="15.07" y="0">H</tspan></text>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.08 58.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: .46px;
+      }
+
+      .cls-2 {
+        fill: #c04040;
+        font-family: ArialMT, Arial;
+        font-size: 4.57px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="20.14" y1="22.45" x2="22.87" y2="22.45"/>
+  <line class="cls-1" x1="21.5" y1="34.78" x2="21.5" y2="37.52"/>
+  <line class="cls-1" x1="20.14" y1="36.15" x2="22.87" y2="36.15"/>
+  <line class="cls-1" x1="17.85" y1="22.45" x2="13.29" y2="22.45"/>
+  <line class="cls-1" x1="17.85" y1="13.32" x2="17.85" y2="45.29"/>
+  <line class="cls-1" x1="17.85" y1="45.29" x2="38.38" y2="29.3"/>
+  <line class="cls-1" x1="38.38" y1="29.3" x2="42.95" y2="29.3"/>
+  <line class="cls-1" x1="38.38" y1="29.3" x2="17.85" y2="13.32"/>
+  <line class="cls-1" x1="17.85" y1="36.15" x2="13.29" y2="36.15"/>
+  <text class="cls-2" transform="translate(45.23 21.99)"><tspan x="0" y="0">A</tspan></text>
+</svg>
