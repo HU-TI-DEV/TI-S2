@@ -7,7 +7,20 @@
 - [Introductie C++](#introductie-c)
     - [Inhoud](#inhoud)
   - [Introductie](#introductie)
-- [c++](#c)
+    - [Programmeren bij Technische Informatica (TI)](#programmeren-bij-technische-informatica-ti)
+    - [C++ en Technische Informatica](#c-en-technische-informatica)
+  - [Ontwikkelomgeving en tools](#ontwikkelomgeving-en-tools)
+    - [Ontwikkelomgeving](#ontwikkelomgeving)
+    - [IDE (CodeLite)](#ide-codelite)
+  - [Leren programmeren](#leren-programmeren)
+    - [Oefenen, fouten maken en doorzetten](#oefenen-fouten-maken-en-doorzetten)
+    - [Vereiste basiskennis](#vereiste-basiskennis)
+  - [Code](#code)
+    - [Formules en algoritmes](#formules-en-algoritmes)
+    - [Oorsprong C++](#oorsprong-c)
+    - [De naam C++](#de-naam-c)
+    - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
+  - [C++ onderwerpen](#c-onderwerpen)
   - [Referenties](#referenties)
 ---
 
@@ -17,17 +30,51 @@
 
 ## Introductie
 
+### Programmeren bij Technische Informatica (TI)
+In de studie HBO ICT leer je hoe je computers kunt inzetten om een probleem op te lossen. 
+Bij de studierichting Technische Informatica focussen we ons op programmatuur waar extra eisen aan wordt gesteld, qua:
+- snelheid,
+- geheugengebruik, 
+- energieverbruik of 
+- nauwkeurigheid.
+
+*Voorbeelden*
+- Het aansturen van een medisch apparaat of een auto, vraagt om andere software dan het runnen van een website.
+- Performance: je wilt geen game programmeren met haperende beelden.
+
+### C++ en Technische Informatica
 C++ is een taal die snel is en dicht bij de hardware staat. Dat zijn eigenschappen waar we bij Technische Informatica gelukkig van worden. In veel bedrijven is programmeren in C++ de standaard.
 
-Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat de student al een basiskennis heeft van programmeren door het volgen van de eerstejaars programmeercursus in Python.
+## Ontwikkelomgeving en tools
+### Ontwikkelomgeving
+Bij TI willen we software vaak 'draaien' op een microcomputer (bv Raspberry Pi) of microcontroller (bv Arduino, ESP32). 
+In het begin schrijven we code op een Personal Computer (PC); bijvoorbeeld een laptop of desktop.
 
+### IDE (CodeLite)
+Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* voor C++ code (en PyCharm voor Python code.)
+
+## Leren programmeren
+### Oefenen, fouten maken en doorzetten
+Goed programmeren vraagt veel oefening. Je kunt geen goed programmeur worden zonder veel te oefenen.
+
+### Vereiste basiskennis
+Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat je al basiskennis hebt van programmeren (door het volgen van de eerstejaars programmeercursus in Python).
+
+## Code
+### Formules en algoritmes
+Een reeks instructies in een bepaalde volgorde (een stuk programmacode) noemen we een *algoritme*.  In zekere zin is een recept voor een gerecht ook een algoritme. Hoe je berekent of een jaar een schrikkeljaar is, is ook een algoritme. Eigenlijk is een algoritme een formule, maar meestal wordt een algoritme vertaald naar programmacode.
+Voor het schrijven van algoritmes gebruiken we bij TI vaak de programmeertaal C++.
+
+### Oorsprong C++
 De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.edu/3e/docs/chistory.html). C++ is bedacht door de Deen Bjarne Stroustrup in 1979. C++ combineert de voordelen van C (o.a. de snelheid en de mate van controle over hardware)  met structuren uit andere talen. C++ wordt nog steeds geüpdatet. De laatste updates waren in 2017 en 2020.
 
-Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
-
+### De naam C++
     De naam C++ is een toespeling op het met één verhogen van een integer in de taal. Dit kan namelijk door twee plusjes achter de variabele te zetten.
 
-# c++
+### Gebruikte versie (C++14)
+Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
+
+## C++ onderwerpen
 
 * [basisconcepten/](../c++/basisconcepten/README.md)
 * [condities/](../c++/condities/README.md)
@@ -46,5 +93,4 @@ Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aan
 
 
 ## Referenties
-
 - C++ 14 (<https://isocpp.org/wiki/faq/cpp14>)

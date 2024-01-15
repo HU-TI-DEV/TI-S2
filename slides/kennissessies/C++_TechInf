@@ -1,0 +1,80 @@
+---
+# try also 'default' to start simple
+theme: ./slidev-theme-hu
+# https://sli.dev/custom/highlighters.html
+highlighter: shiki
+# show line numbers in code blocks
+lineNumbers: false
+# some information about the slides, markdown enabled
+info: |
+  ## Slidev Template for HU.
+
+  Learn more at [Sli.dev](https://sli.dev)
+fonts:
+  sans: 'Avenir'
+  serif: 'Roboto Slab'
+  mono: 'Cascadia Mono'
+# persist drawings in exports and build
+drawings:
+  persist: false
+# page transition
+transition: fade-out
+# use UnoCSS
+css: unocss
+themeConfig:
+  paginationX: r
+  paginationY: t
+  paginationPagesDisabled: [1]
+layout: cover
+---
+
+<style>
+code, pre {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+pre {
+  left: 6px;
+  border-left: 3px solid rgba(255, 255, 255, 0.07);
+}
+</style>
+
+# Kennissessies
+
+## C++ en Technische Informatica
+
+<subtitle><b>2023-2024</b><br>
+TI Semester 2
+</subtitle>
+
+---
+
+# Slidev
+
+# 1 Introductie
+
+Inhoud zie: 
+[Introductie C++](../../software/c++/README.md) #introductie-c)
+
+# 2 Programmeren bij TI
+
+Beantwoord de volgende vragen:
+
+- Wat maakt programmeren bij TI anders dan bij andere studierichtingen?
+- Waarom leer je C++ bij Technische Informatica?
+
+---
+
+# 3 Installatie Game
+
+Inhoud zie: 
+[Installatie ontwikkelomgeving](...)
+
+*Installeer de benodigde ontwikkelomgeving.*
+Je speelt de game in teams tegen elkaar.
+Het doel van de game is om zo snel mogelijk met alle leden van de groep de ontwikkelomgeving geinstalleerd te krijgen; het lastige is dat op elk moment alle groepsleden even ver in het installatieproces moeten zijn.
+Tijdens de game, worden er een paar 'meetmomenten'
+uitgevoerd. Tijdens die meetmomenten geldt: de groep krijgt
+- pluspunten: voor elke stap die alle teamleden hebben uitgevoerd in het installatieproces (synchronisatiepunten).
+- minpunten: als teamleden 'uit de pas lopen'. Hoe groter het verschil is tussen de teamleden, hoe meer puntenaftrek de groep krijgt.

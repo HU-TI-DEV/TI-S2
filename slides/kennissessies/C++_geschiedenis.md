@@ -44,7 +44,7 @@ pre {
 
 ## C++ Historie
 
-<subtitle><b>2022-2023 Blok C</b><br>
+<subtitle><b>2023-2024</b><br>
 TI Semester 2
 </subtitle>
 
@@ -54,17 +54,18 @@ TI Semester 2
 
 # 1 Introductie en geschiedenis C++
 
-Inhoud zie: 
-[Introductie C++](#introductie-c)
+Inhoud zie:
+[Introductie C++](../../software/c++/README.md)
 
-Todo: hoe include ik de info uit bovenstaande md?
-
+Beantwoord de volgende vraag, met je groepje:
+- Zoek een weetje over C++ (probeer iets ludieks te vinden).
+- Maak er een C++ programma van.
 ---
 
 # 2 Basisconcepten 
 
 Inhoud zie: 
-[Basisconcepten C++](#basisconcepten-c)
+[Basisconcepten C++](../../software/c++/basisconcepten/README.md)
 
 Todo: hoe include ik de info uit bovenstaande md?
 

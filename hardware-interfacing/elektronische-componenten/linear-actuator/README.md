@@ -1,10 +1,10 @@
 ![logo](../linear-actuator/img/Linear_actuator_basic.gif) [](logo-id)
 
-# Diode[](title-id)
+# Linear actuator[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [Diode](#diode)
+- [Linear actuator](#linear-actuator)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [5V relais to drive 12V Linear actuator](#5v-relais-to-drive-12v-linear-actuator)
