@@ -7,6 +7,7 @@
 - [Embedded](#embedded)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
+- [prototyping](#prototyping)
 
 ---
 
@@ -24,3 +25,8 @@ The term ‘embedded’ is often used, but it doesn’t tell much about the hard
 
 •	[Micro-controllers](../embedded/microcontroller/Arduino-UNO/README.md), running one application program, without any separate Operating System (bare metal).
 
+# prototyping
+
+* [breadboard/](../prototyping/breadboard/README.md)
+* [pcb/](../prototyping/pcb/README.md)
+* [solderen/](../prototyping/solderen/README.md)
