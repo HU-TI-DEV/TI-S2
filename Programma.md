@@ -52,8 +52,8 @@ Teun Pieter (**TPM**), Harm (**HS**), Hagen (**HP**), Gera (**GP**) en Marius (*
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
 C1 | ma | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een temperatuursensor uitlezen en een analoge waarde omzetten naar een temperatuur. In een for-loop kun je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console. | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | [Introductie en geschiedenis C, C++](./software/c++/README.md) (**GP**)
-C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual studio code & Platform IO basics. ["Hello world" voorbeeld code.](../c++/basisconcepten/README.md)(**HP & GP**)
-C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project | Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](./software/c++/basisconcepten/opdr_basisconcepten) (**GP**) en op Git plaatsen. Analoge pin uitlezen. (**HP**) SI eenheden. [Rekenkundige expressies](./software/c++/expressies/README.md). (**GP**)
+C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../c++/basisconcepten/README.md)(**HP & GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](./software/c++/basisconcepten/opdr_basisconcepten) (**GP**) en op Git plaatsen. Analoge pin uitlezen. (**HP**)
+C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project |  SI eenheden. (**MV**) 
 C1 | do | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Team contract inleveren. | [Data types](./software/c++/data-types/README.md), [int](./software/c++/data-types/int/README.md), [float](./software/c++/data-types/float/README.md), [bool](./software/c++/data-types/bool/README.md) en [C++ for loop](./software/c++/condities/for/README.md) (**GP**)
 
 ### Onderwijsweek C2 (12-2-2024)
@@ -133,7 +133,7 @@ C9 | do | | |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C10 | ma | | |
+C10 | ma | |[Rekenkundige expressies](./software/c++/expressies/README.md). (**GP**) |
 C10 | di | | |
 C10 | wo | | |
 C10 | do | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | |
