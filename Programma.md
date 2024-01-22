@@ -39,7 +39,7 @@
 
 ## Een introductie
 
-In semester 2 van Technische Informatica staat het kweekkas project centraal. Je krijgt in dit semester verschillende facetten van Technische Informatica te zien. Van Object Georienteerd programmeren tot aan de beginselen van elektronica. In het project zal je merken dat je deze opgedane kennis direct kunt gebruiken. Je komt in aanreking met veel Internet of Things (IoT) concepten. Elke week maak je een stapje. Aan het einde van dit semester heb je samen met je  ontwikkelteam een geautomatiseerd kas systeem gemaakt.
+In semester 2 van Technische Informatica staat het kweekkas project centraal. Je krijgt in dit semester verschillende facetten van Technische Informatica te zien. Van Object Georienteerd Programmeren (*Object-Oriented Programming*, OOP) tot aan de beginselen van elektronica. In het project zal je merken dat je deze opgedane kennis direct kunt gebruiken. Je komt in aanraking met veel Internet of Things (IoT) concepten. Elke week maak je een stapje. Aan het einde van dit semester heb je samen met je ontwikkelteam een geautomatiseerd kas systeem gemaakt.
 
 De contacturen zijn op maandag & dinsdag in de ochtend en woensdag & donderdag in de middag. Ons lokaal is HL15-3.072. De docenten zijn:
 
@@ -51,9 +51,9 @@ Teun Pieter (**TP**), Harm (**H**), Gera (**G**) en Marius (**M**)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C1 | ma | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kan je een temperatuursensor uitlezen een analoge waarde omzetten naar een temperatuur. In een for-loop kan je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console. | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Introductie en geschiedenis C/C++
-C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual studio code & Platform IO basics. "Hello world" voorbeeld code.
-C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project | Git introductie en opzetten. Eerste project "Hello greenhouse" aanpassen en op Git plaatsen. Analoge pin uitlezen. SI eenheden. Rekenkundige expressies.
+C1 | ma | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kan je een temperatuursensor uitlezen en een analoge waarde omzetten naar een temperatuur. In een for-loop kan je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console. | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Introductie en geschiedenis C/C++
+C1 | di | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Scrum en projectplanning | Inrichten ontwikkelomgeving en opzetten. Visual Studio Code & PlatformIO basics. "Hello world" voorbeeld code.
+C1 | wo | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Werken aan project | GitHub introductie en opzetten. Eerste project "Hello greenhouse" aanpassen en op GitHub plaatsen. Analoge pin uitlezen. SI eenheden. Rekenkundige expressies.
 C1 | do | Project Kick-off. Inrichten van een [ontwikkelomgeving](./software/inrichten-ontwikkelomgeving/readme.md) & werken met [Git](./software/git/readme.md). | Team contract inleveren. | Data types, int float, bool en C++ for loop 
 
 ### Onderwijsweek C2 (12-2-2024)
@@ -88,7 +88,7 @@ C4 | do | 1-Wire, I2C & RTC | Werken aan project | struct, compositie UML relati
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C5 | ma | We leren het gebruik van een (output) [schuifregister](./hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](./hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. Week C5. Met 8 leds simuleren we de stand van deuren en ramen we sturen deze aan met een 74HC595. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver. | | Schuifregister, libraries, recursie
+C5 | ma | We leren het gebruik van een (output) [schuifregister](./hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](./hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. Week C5. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aan met een 74HC595. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver. | | Schuifregister, libraries, recursie
 C5 | di | Schuifregister & SPI | Werken aan project | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren
 C5 | wo | Schuifregister & SPI | Werken aan project |
 C5 | do | Schuifregister & SPI | Show & Tell | 
@@ -97,7 +97,7 @@ C5 | do | Schuifregister & SPI | Show & Tell |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C6 | ma | Een actor gebruik je om een actie te genereren. Soms moet dat ook met hogere voltages en gebruiken we een relais. Week C6. Schakel een grotere spanning met behulp van een [relais](./hardware-interfacing/elektronische-componenten/relais&SSR/README.md) voor het activeren van een [linear-actuator](./hardware-interfacing/elektronische-componenten/linear-actuator/README.md) om een raam of deur te openen. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | use-case & activity diagrammen
+C6 | ma | Een actor gebruik je om een actie te genereren. Soms moet dat met hogere voltages en dan gebruiken we een relais. Week C6. Schakel een grotere spanning met behulp van een [relais](./hardware-interfacing/elektronische-componenten/relais&SSR/README.md) voor het activeren van een [linear-actuator](./hardware-interfacing/elektronische-componenten/linear-actuator/README.md) om een raam of deur te openen. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | use-case & activity diagrammen
 C6 | di | Relais & Linear-actuator | Werken aan project | Multimeter
 C6 | wo | Relais & Linear-actuator | Werken aan project| Logic Analyzer
 C6 | do | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |
@@ -106,7 +106,7 @@ C6 | do | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsd
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C7 | ma | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (PWM). Week C7. We gebruiken [UART](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | | UART
+C7 | ma | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | | UART
 C7 | di | UART communicatie & PWM | | PWM
 C7 | wo | UART communicatie & PWM | |
 C7 | do | UART communicatie & PWM | Show & Tell |
@@ -115,7 +115,7 @@ C7 | do | UART communicatie & PWM | Show & Tell |
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C8 | ma | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | | Docker & MQTT
+C8 | ma | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | | Docker & MQTT
 C8 | di | Node-Red, PostgreSQL, MQTT, Flask & Docker | |  PostgreSQL & Node-Red
 C8 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | | Flask
 C8 | do | **Goedevrijdag** | |
