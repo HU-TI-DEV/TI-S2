@@ -1,0 +1,3 @@
+[submodule "slidev-theme-hu"]
+	path = slidev-theme-hu
+	url = https://github.com/sabvdf/slidev-theme-hu.git

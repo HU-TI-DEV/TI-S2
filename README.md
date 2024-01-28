@@ -22,9 +22,9 @@
 
 ## Een introductie
 
-Na het gemeenschappelijke deel (Semester 1) van de opleiding HBO-ICT kies je een richting. Als je gekozen hebt voor Technisch Informatica (TI) dan begin je met semester 2 met als thema *Internet of Things*. Aansluitend volgen nog twee semesters in het tweede leerjaar semeter 3 *Control Technology* en semeser 4 *Complex Systems Engineering*​. In dit repository staat alle inhoud van dit Internet of Things (IoT) semester. Het project staat centraal en de inhoud zoals [hardware-interfacing](./hardware-interfacing/README.md), [software](./software/README.md) en [infrastructuur](./infrastructuur/README.md) pas je toe in het project. Er zijn vier pijlmomenten waar we kijken naar je voortgang aan de hand van het door jouw opgestelde [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md). Het semester 2 heeft een eigen [beroepstaak](#beroepstaak) en daarnaast zijn er negen [leeruitkomsten](#leeruitkomsten) gedefineerd deze komen gedurende dit semester stapsgewijs aan bod.
+Na het gemeenschappelijke deel (Semester 1) van de opleiding HBO-ICT kies je een richting. Als je gekozen hebt voor Technische Informatica (TI) dan begin je met semester 2 met als thema *Internet of Things* (IoT). Aansluitend volgen nog twee semesters in het tweede leerjaar: semester 3 *Control Technology* en semester 4 *Complex Systems Engineering*​. In dit repository staat alle inhoud van het *Internet of Things* semester. Het project staat centraal en de inhoud zoals [hardware-interfacing](./hardware-interfacing/README.md), [software](./software/README.md) en [infrastructuur](./infrastructuur/README.md) pas je toe in het project. Er zijn [vier pijlmomenten](./Portfolio-items.md) waar we kijken naar je voortgang aan de hand van het door jouw opgestelde [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md). Het semester 2 heeft een eigen [beroepstaak](#beroepstaak) en daarnaast zijn er negen [leeruitkomsten](#leeruitkomsten) gedefineerd. Deze komen gedurende dit semester stapsgewijs aan bod.
 
-Onderwijs in semester 2 is projectgestuurd dat betekent dat het project centraal staat in ons onderwijs. Je werkt samen in een ontwikkelteam en je bent daarnaast verantwoordelijk voor je eigen leerprestaties. Er zijn 4 dagen in de week contactmomenten. De belasting van een voltijds studie is 42 uur per week, deels moet je dus ook thuis aan het werk. Kijk hier voor het volledige [programma van semester 2](./Programma.md)
+Onderwijs in semester 2 is projectgestuurd. Dat betekent dat het project centraal staat in ons onderwijs. Je werkt samen in een ontwikkelteam en je bent daarnaast verantwoordelijk voor je eigen leerprestaties. Er zijn 4 dagen in de week contactmomenten. De belasting van een voltijds studie is 42 uur per week, deels moet je dus ook buiten de HU (bv thuis) aan het werk. Kijk hier voor het volledige [programma van semester 2](./Programma.md)
 
 ## Beroepstaak
 
@@ -34,15 +34,15 @@ Het ontwikkelteam stemt met elkaar en een opdrachtgever af wat de wenselijke fun
 
 ## Context
 
-In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een slimme (kweek)kas. In de glastuinbouw wordt vollop geautomatiseerd. Van het meten van temperatuur tot aan het planten van 1000 zaailingen per uur met een verplantingsmachine. Wij beperken ons tot het meten met sensoren en het gebruik van actuatoren om een optimaal klimaat te behouden voor de planten. De kweekkas maak je in dit semester 'connected' waardoor je ook online kunt rapporteren, aansturen en bijsturen.  
+In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een slimme (kweek)kas. In de glastuinbouw wordt vollop geautomatiseerd, van het meten van temperatuur tot aan het planten van 1000 zaailingen per uur met een verplantingsmachine. Wij beperken ons tot het meten met sensoren en het gebruik van actuatoren om een optimaal klimaat te behouden voor de planten. De kweekkas maak je in dit semester 'connected' waardoor je ook online kunt rapporteren, aansturen en bijsturen.  
 
 ## Sustainable Development Goals
 
-Ecologische ontwikkelingen zoals klimaatverandering, verlies van biodiversiteit, uitputting van grondstoffen, dreigende tekorten aan drinkwater, toenemende stikstof uitstoot maar ook uitbreiding van woningbouw ten kosten van de natuur leggen een druk op de toekomstige generaties.
+Ecologische ontwikkelingen zoals klimaatverandering, verlies van biodiversiteit, uitputting van grondstoffen, dreigende tekorten aan drinkwater, toenemende stikstof uitstoot maar ook uitbreiding van straat- en woningbouw ten kosten van de natuur leggen een druk op de toekomstige generaties.
 
-Economisch is er een grens bereikt. De groei economie houdt geen stand. Dat betekent een brede transitie naar de betekenis economie. Verbruikseconomie verandert in circulaire economie. Fossiele brandstoffen moeten worden vervangen door duurzame energie. Enzovoort.
+Economisch is er een grens bereikt. De 'groei economie' houdt geen stand. Dat betekent een brede transitie naar de 'betekenis economie'. Verbruikseconomie verandert in circulaire economie. Fossiele brandstoffen moeten worden vervangen door duurzame energie. Enzovoort.
 
-Om deze ambitie waar te maken zijn er 17 duurzame ontwikkelingsdoelen door de Verenigde Naties opgesteld. In het project stel je minimaal één [Sustainable Development Goal](./SDG.md) (SDG) centraal zodat je leert om vanuit jouw professie een bijdrage te kunnen gaan leveren aan de noodzakelijke transities op economisch, sociaal en ecologisch gebied.
+Om deze ambitie waar te maken zijn er door de Verenigde Naties 17 duurzame ontwikkelingsdoelen opgesteld. In het project stel je van deze minimaal één [Sustainable Development Goal](./SDG.md) (SDG) centraal zodat je leert om vanuit jouw professie een bijdrage te kunnen gaan leveren aan de noodzakelijke transities op economisch, sociaal en ecologisch gebied.
 
 ## Leeruitkomsten
 
@@ -62,7 +62,7 @@ S2.9 | Student levert, in een daarvoor ingerichte versiebeheeromgeving, de produ
 
 ## Referenties
 
-Waarom SDG's in het onderwijs? (<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
+ * [Waarom SDG's in het onderwijs? \[Link\]](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
 
 ## Licentie informatie
 
