@@ -111,37 +111,37 @@ C5 | do |  | Show & Tell | Soldeerpracticum (**HS**)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C10 | ma | | Werken aan project | Kirchhof, Weerstansnetwerkjes, Multimeter, meetweerstanden, diode, led (**MV**)
-C10 | di | | Werken aan project |  cpp en hpp files, includes, namespace (**GP**)
-C10 | wo | | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)
-C10 | do | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**)
+C6 | ma | | Werken aan project | Kirchhof, Weerstansnetwerkjes, Multimeter, meetweerstanden, diode, led (**MV**)
+C6 | di | | Werken aan project |  cpp en hpp files, includes, namespace (**GP**)
+C6 | wo | | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)
+C6 | do | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**)
 
 ### Onderwijsweek C7 (18-3-2024)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C6 | ma |  We behandelen [actieve elektronica](./hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](./hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | use-case & activity diagrammen (**MV**)
-C6 | di | Relais & Linear-actuator | Werken aan project | Multimeter (**MV**)
-C6 | wo | Relais & Linear-actuator | Werken aan project| Logic Analyzer (**MV**)
-C6 | do | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Temperatuurmeten: via ADC en one-wire (**HS**)
+C7 | ma |  We behandelen [actieve elektronica](./hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](./hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | use-case & activity diagrammen (**MV**)
+C7 | di | Relais & Linear-actuator | Werken aan project | Multimeter (**MV**)
+C7 | wo | Relais & Linear-actuator | Werken aan project| Logic Analyzer (**MV**)
+C7 | do | Relais & Linear-actuator | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Temperatuurmeten: via ADC en one-wire (**HS**)
 
 ### Onderwijsweek C8 (25-3-2024)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C7 | ma | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project | UART
-C7 | di | UART communicatie & PWM | Werken aan project | UART, PWM
-C7 | wo | UART communicatie & PWM | Werken aan project | PWM
-C7 | do | UART communicatie & PWM | Show & Tell | Git workshop (**HS**, **TM**)
+C8 | ma | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](./hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](./hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](./hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](./hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project | UART
+C8 | di | UART communicatie & PWM | Werken aan project | UART, PWM
+C8 | wo | UART communicatie & PWM | Werken aan project | PWM
+C8 | do | UART communicatie & PWM | Show & Tell | Git workshop (**HS**, **TM**)
 
 ### Onderwijsweek C9 (1-4-2024)
 
 Onderwijsweek | Dag | Thema | Project | Kennissessie
 --- | --- | --- | --- | ---
-C8 | ma | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | Werken aan project | Docker & MQTT (**HS**)
-C8 | di | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project |  PostgreSQL & Node-Red (**HS**)
-C8 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)
-C8 | do | **Goedevrijdag** | |
+C9 | ma | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](./software/communicatie/MQTT/README.md), [PostgreSQL](./infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](./software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](./software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](./infrastructuur/Docker/README.md) containers. | Werken aan project | Docker & MQTT (**HS**)
+C9 | di | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project |  PostgreSQL & Node-Red (**HS**)
+C9 | wo | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)
+C9 | do | **Goedevrijdag** | |
 
 ### Onderwijsweek C10 (8-4-2024)
 
@@ -150,7 +150,7 @@ Onderwijsweek | Dag | Thema | Project | Kennissessie
 C10 | ma | | Werken aan project | Fets, Comparator, Condensator (**MV**)
 C10 | di | | Werken aan project | Schakelen, H-brug, fly-back (**MV**)
 C10 | wo | | Werken aan project | Bedienen via MOS/relais, lin. actuator (**MV**)
-C10 | do | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | |
+C10 | do | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)
 
 ### Onderwijsweek D1 (15-4-2024)
 
@@ -196,7 +196,7 @@ Onderwijsweek | Dag | Thema | Project | Kennissessie
 D5 | ma | | Werken aan project | Practicum IO Expander I2C (**MV**)
 D5 | di | | Werken aan project | Practicum IO Expander I2C (**MV**)
 D5 | wo | | Werken aan project | C++ (**GP**,**HP**)
-D5 | do | **[3e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | | C++ (**GP**,**HP**)
+D5 | do | **[3e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)
 
 ### Onderwijsweek D6 (20-5-2024)
 
