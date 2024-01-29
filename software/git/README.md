@@ -80,6 +80,8 @@ Cloning and Forking both create copies of a repository, but with different inten
 
 `git status`: Shows tracked files that have changed and new files that aren’t tracked yet. Additionally; `git diff``: Shows changes within files
 
+`git log --all --graph`: shows the commit history in the form of a graph
+
 `git add`: Allows to add new files to the staging area; can be new files or tracked files that have changed
 
 
