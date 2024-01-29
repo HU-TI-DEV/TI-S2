@@ -1,6 +1,19 @@
-# Klassen en compositie[](title-id)
+# Compositie - structs[](title-id)
 
 ### Inhoud[](toc-id)
+- [Compositie - structs](#compositie---structs)
+    - [Inhoud](#inhoud)
+  - [Introductie](#introductie)
+    - [Voorkennis en leeswijzer](#voorkennis-en-leeswijzer)
+    - [Teken een lijn](#teken-een-lijn)
+      - [Naamgeving functie](#naamgeving-functie)
+      - [Grafisch scherm en coördinaten](#grafisch-scherm-en-coördinaten)
+    - [Struct datatype voor lijn](#struct-datatype-voor-lijn)
+      - [Let op accolades { en } en puntkommma's](#let-op-accolades--en--en-puntkommmas)
+      - [Overloading van functies](#overloading-van-functies)
+    - [Memberfuncties](#memberfuncties)
+    - [Constructors (memberfuncties)](#constructors-memberfuncties)
+    - [Afscherming (private en public)](#afscherming-private-en-public)
 
 ---
 
@@ -10,12 +23,16 @@
 
 ## Introductie
 
+### Voorkennis en leeswijzer
+Onderstaande informatie gaat ervan uit dat je kennis hebt genomen van de C++ [basisconcepten](../basisconcepten/README.md) en [datatypes](../data-types/README.md).
+Als je nog niet eerder met het datatype `struct` hebt gewerkt, begin dan met de [basisinformatie over het datatype struct](../data-types/struct/README.md).
+
 ### Teken een lijn
 Stel dat we op een grafisch scherm vormen willen afbeelden, te beginnen met een eenvoudige vorm: een lijn. Als we de lijn willen printen, kunnen we hiervoor een functie maken. Aan deze print-functie moeten we doorgeven wat hij precies moet doen. Dit kan door de coördinaten van het begin- en eindpunt van de lijn mee te geven als 4 (integer) parameters.
 Met de code in voorbeeld 04-01 (en natuurlijk de bijbehorende implementatie van `line_print`) wordt een lijn geschreven in een window.
 
 #### Naamgeving functie
-De naam van de functie (`line_print`) geeft aan wat de functie doet. Beide delen zijn nuttig: als je ‘print’ weglaat weet je niet wat er met de lijn die je specificeert moet gebeuren (opslaan? Uitwissen? roteren? ...); als je ‘line’ weglaat weet je niet wat die 4 getallen betekenen (een rechthoek? Gemiddelde temperaturen van 4 dagen? …).
+De naam van de functie (`line_print`) geeft aan wat de functie doet. Beide naamdelen zijn nuttig: als je ‘print’ weglaat weet je niet wat er met de lijn moet gebeuren (opslaan? uitwissen? roteren? ...); als je ‘line’ weglaat weet je niet wat de 4 parameters (getallen) betekenen (punten van een rechthoek? gemiddelde temperaturen van 4 dagen? …).
 
 ```c++
 void line_print( int start_x, int start_y, int end_x, int end_y );
@@ -26,7 +43,7 @@ line_print( 10, 10, 20, 20 );
 ```
 *Codevoorbeeld 04-01 - Specificeer een lijn via de x en y waarden van zijn begin- en eindpunten*
 
-### Grafisch scherm en coördinaten
+#### Grafisch scherm en coördinaten
 ![Alt text](image.png)
 
 Bij een grafisch scherm is het de gewoonte dat (0,0) linksboven is, en dat de y-coördinaten naar beneden lopen (dus anders dan in een grafiek).
@@ -35,7 +52,7 @@ Bij een grafisch scherm is het de gewoonte dat (0,0) linksboven is, en dat de y-
 
 Voor een window met grootte w (breedte, horizontaal) bij h (hoogte, verticaal) valt de pixel (0,0) dus net binnen een window, de pixel (w, h) valt er net buiten. Net als bij vectoren en arrays lopen de indexen van 0 ……n-1.
 
-### Struct voor lijn
+### Struct datatype voor lijn
 Vaak is het handig om alle gegevens van een lijn bij elkaar te zetten, zodat ze als 1 variabele (of parameter) kunnen worden behandeld; net als alle bitjes van een integer. 
 Dit kan door de gegevens, in dit geval de 4 coördinaat-waarden, bij elkaar te plaatsen in een `struct`. Zo’n `struct` definieert een nieuw datatype, in dit geval een lijn. 
 Met een struct kun je:
@@ -45,6 +62,9 @@ Met een struct kun je:
 - een array van lijnen maken.
   
 Een struct datatype is vrijwel gelijkwaardig aan de ingebouwde datatypen (int, float, etc.).
+
+Lees ook de [basisinformatie over het datatype struct](../data-types/struct/README.md).
+
 
 Het volgende code fragment laat zien hoe een line struct wordt gedefinieerd en gebruikt. Je ziet dat de print functie nog maar 1 parameter heeft. Het ‘lijn’ deel van de functienaam kunnen we nu ook weglaten, want de parameter *is* een lijn.
 Let op: onderstaande code kan nog verbeterd worden.
@@ -126,7 +146,7 @@ diagonal_line.print();
 *Codevoorbeeld 04-04 - Initialisatie d.m.v. een constructor*
 
 ### Afscherming (private en public)
-De lijn heeft nu 
+De lijn, uit codevoorbeeld 04-04, heeft
 - een constructor waarmee hij aangemaakt kan worden en 
 - een print functie die de lijn kan printen. 
 
