@@ -220,9 +220,9 @@ De docenten zijn:
 
 | Onderwijsweek | Dag | Thema | Project            | Kennissessie                                |
 | ------------- | --- | ----- | ------------------ | ------------------------------------------- |
-| D8            | ma  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
+| D8            | ma  |       | Werken aan project | Workshop Lt-spice (**MV**)                  |
 | D8            | di  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8            | wo  |       | Werken aan project |                                             |
+| D8            | wo  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8            | do  |       | Werken aan project |                                             |
 
 ### Onderwijsweek D9 (10-6-2024)
