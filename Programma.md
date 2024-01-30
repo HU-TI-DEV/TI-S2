@@ -114,7 +114,7 @@ De docenten zijn:
 | C6            | ma  |                                                                | Werken aan project | Kirchhof, Weerstansnetwerkjes (**MV**)                                                                               |
 | C6            | di  |                                                                | Werken aan project | cpp en hpp files, includes, namespace (**GP**)                                                                       |
 | C6            | wo  |                                                                | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)                                            |
-| C6            | do  | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |                    | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
+| C6            | do  | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |                    | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
@@ -123,7 +123,7 @@ De docenten zijn:
 | C7            | ma  | We behandelen [actieve elektronica](./hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](./hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project                                             | Functionele Requirements (**MV**)                |
 | C7            | di  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                | Werken aan project                                             | Multimeter, meetweerstanden, diode, led (**MV**) |
 | C7            | wo  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                | Werken aan project                                             | Logic Analyzer (**MV**)                          |
-| C7            | do  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Temperatuurmeten: via ADC en one-wire (**HS**)   |
+| C7            | do  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                | Werken aan Project | Temperatuurmeten: via ADC en one-wire (**HS**)   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
