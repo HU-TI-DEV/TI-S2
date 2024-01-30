@@ -5,14 +5,14 @@
 ### Inhoud[](toc-id)
 
 - [Semester 2 van Technische Informatica](#semester-2-van-technische-informatica)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Beroepstaak](#beroepstaak)
-  - [Context](#context)
-  - [Sustainable Development Goals](#sustainable-development-goals)
-  - [Leeruitkomsten](#leeruitkomsten)
-  - [Referenties](#referenties)
-  - [Licentie informatie](#licentie-informatie)
+  - [Inhoud](#inhoud)
+    - [Een introductie](#een-introductie)
+    - [Beroepstaak](#beroepstaak)
+    - [Context](#context)
+    - [Sustainable Development Goals](#sustainable-development-goals)
+    - [Leeruitkomsten](#leeruitkomsten)
+    - [Referenties](#referenties)
+    - [Licentie informatie](#licentie-informatie)
 
 ---
 
@@ -48,21 +48,21 @@ Om deze ambitie waar te maken zijn er door de Verenigde Naties 17 duurzame ontwi
 
 In semester 2 van de richting Technische Informatica zijn de volgende leeruitkomsten gedefineerd:
 
-Nummer | Leeruitkomst | Competentie
----|---|---
-S2.1 | Student analyseert de met de opdrachtgever afgestemde functionaliteit en hoofdlijnen van de (eenvoudige) IoT oplossing en stelt aan de hand hiervan requirements op. | Analyseren
-S2.2 | Student zet de requirements om in logische onderdelen voor de oplossing, onderzoekt de toepasbaarheid van componenten, maakt bewuste keuzes in de samenstelling en ontwerpt hiermee de IoT-oplossing. | Ontwerpen
-S2.3 | Student realiseert vanuit een ontwerp een eenvoudige toekomstbestendige IoT oplossing in zowel hard- als software waarbij integratie van componenten via software een onderdeel is. | Realisatie
-S2.4 | Student werkt doelgericht en met verantwoordelijkheid samen door zich aan afspraken te houden, taken op te pakken en uit te voeren, teamleden op de hoogte te houden, feedback te geven, feedback te onvangen en waar nodig om hulp te vragen en aan te bieden. | Samenwerken
-S2.5 | Student deelt een boodschap helder met het team en opdrachtgever en is in staat om diens werk te presenteren aan peers en opdrachtgever en vraagt door om onduidelijkheden weg te nemen. | Communiceren
-S2.6 | Student evalueert eigen gedrag en eigen leerontwikkeling, kijkt kritisch terug op eigen handelen en de invloed daarvan op de teamprestaties/leerontwikkeling, herkent hierin de eigen sterktes en verbeterpunten, en kan deze vervolgens vertalen naar concrete acties. | Reflecteren / Verbeteren / Evalueren
-S2.7 | Student voert eenvoudige tests uit in strikte overeenstemming met gecommuniceerde instructies en evalueert de resultaten om uitspraken te kunnen doen over de kwaliteit van de code en het systeem. | Testen / Evalueren
-S2.8 | Student is in staat om een eenvoudige planning voor zichzelf en/of voor het team op te stellen door grote taken op te delen in kleinere (deel)taken om zodoende het gestelde doel te bereiken en zich daaraan te kunnen houden. Naar aanleiding van (gecontroleerde) gebeurtenissen kan de student zijn planning aanpassen en deze aanpassingen toelichten. | Plannen
-S2.9 | Student levert, in een daarvoor ingerichte versiebeheeromgeving, de producten en diensten op zodanig dat de opdrachtgever en peers verder kunnen met de doorontwikkeling van de resultaten waarvan een bijdrage aan de documentatie een wezenlijk onderdeel is.| Opleveren / Documenteren
+| Nummer | Leeruitkomst                                                                                                                                                                                                                                                                                                                                                | Competentie                          |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| S2.1   | Student analyseert de met de opdrachtgever afgestemde functionaliteit en hoofdlijnen van de (eenvoudige) IoT oplossing en stelt aan de hand hiervan requirements op.                                                                                                                                                                                        | Analyseren                           |
+| S2.2   | Student zet de requirements om in logische onderdelen voor de oplossing, onderzoekt de toepasbaarheid van componenten, maakt bewuste keuzes in de samenstelling en ontwerpt hiermee de IoT-oplossing.                                                                                                                                                       | Ontwerpen                            |
+| S2.3   | Student realiseert vanuit een ontwerp een eenvoudige toekomstbestendige IoT oplossing in zowel hard- als software waarbij integratie van componenten via software een onderdeel is.                                                                                                                                                                         | Realisatie                           |
+| S2.4   | Student werkt doelgericht en met verantwoordelijkheid samen door zich aan afspraken te houden, taken op te pakken en uit te voeren, teamleden op de hoogte te houden, feedback te geven, feedback te onvangen en waar nodig om hulp te vragen en aan te bieden.                                                                                             | Samenwerken                          |
+| S2.5   | Student deelt een boodschap helder met het team en opdrachtgever en is in staat om diens werk te presenteren aan peers en opdrachtgever en vraagt door om onduidelijkheden weg te nemen.                                                                                                                                                                    | Communiceren                         |
+| S2.6   | Student evalueert eigen gedrag en eigen leerontwikkeling, kijkt kritisch terug op eigen handelen en de invloed daarvan op de teamprestaties/leerontwikkeling, herkent hierin de eigen sterktes en verbeterpunten, en kan deze vervolgens vertalen naar concrete acties.                                                                                     | Reflecteren / Verbeteren / Evalueren |
+| S2.7   | Student voert eenvoudige tests uit in strikte overeenstemming met gecommuniceerde instructies en evalueert de resultaten om uitspraken te kunnen doen over de kwaliteit van de code en het systeem.                                                                                                                                                         | Testen / Evalueren                   |
+| S2.8   | Student is in staat om een eenvoudige planning voor zichzelf en/of voor het team op te stellen door grote taken op te delen in kleinere (deel)taken om zodoende het gestelde doel te bereiken en zich daaraan te kunnen houden. Naar aanleiding van (gecontroleerde) gebeurtenissen kan de student zijn planning aanpassen en deze aanpassingen toelichten. | Plannen                              |
+| S2.9   | Student levert, in een daarvoor ingerichte versiebeheeromgeving, de producten en diensten op zodanig dat de opdrachtgever en peers verder kunnen met de doorontwikkeling van de resultaten waarvan een bijdrage aan de documentatie een wezenlijk onderdeel is.                                                                                             | Opleveren / Documenteren             |
 
 ## Referenties
 
- * [Waarom SDG's in het onderwijs? \[Link\]](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
+* [Waarom SDG's in het onderwijs? \[Link\]](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
 
 ## Licentie informatie
 
