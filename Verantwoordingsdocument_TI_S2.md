@@ -87,7 +87,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -106,7 +106,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -138,7 +138,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -157,7 +157,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -189,7 +189,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -208,7 +208,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -240,7 +240,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -259,7 +259,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -289,7 +289,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -308,7 +308,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -337,7 +337,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -356,7 +356,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -385,7 +385,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -404,7 +404,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -435,7 +435,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -454,7 +454,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -486,7 +486,7 @@ Indicatoren
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt om te oefenen en te leren:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
@@ -505,7 +505,7 @@ Feedback vragen en verwerken.
 
 ---
 
-Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik gebruikt in het toepassen van mijn kennis en kunde:
+Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik heb gebruikt in **het toepassen van mijn kennis en kunde**:
 
 | Portfolio-item | Beschrijving | Bewijslast|
 |---|---|---|
