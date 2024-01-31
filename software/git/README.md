@@ -113,29 +113,40 @@ There are a few different strategies development teams use for branching, but th
 
 Making new branches or switching to existing branches can be done using the `git checkout` commands. Adding the `-b` flag allows for making a new branch as such; `git checkout –b “new_branch_name”` (quotes aren’t necessary, but some developers prefer using them). If you leave out the –b flag you change to an existing branch instead -> `git checkout “dev”` would switch to the ‘dev’ branch.
 
+Do note that, alternatively, you can use the `git branch "new_branch_name"` command to make a new branch. This accomplishes the same as `git checkout`, but leaves you on your current branch. You can then use `git switch "new_branch_name"` to switch to that branch (similar to checkout).
+
 ### Branch 'Workflow'
 
-Working with branches introduces a few new commands. 
+Working with branches introduces a few new commands: 
 
-`git checkout` is used for switching branches or making a new one. The –b flag allows for making a new branch, while leaving that flag unchecked switches to a different branch; `git checkout (-b) “branch_name”`
-
-`git pull` pulls changes from the remote to your local repository. If you use this in a specific branch only the changes from the remote to that branch are pulled. For example, if the dev branch has been changed but you pull a different feature branch, you don’t pull the changes to the dev branch.
-
-`git push` pushes your local commits to the branch you are in to the corresponding branch on the remote. Similar to pull, this only works for the specific branch you are on.
-
-`git merge “other”` merges ‘other’ into the branch you are currently in. Merging can create merge conflicts, so using it properly requires a merging strategy.
+```bash
+git checkout 
+# Checkout is used for switching branches or making a new one. The –b flag allows for making a new branch, while leaving that flag unchecked switches to a different branch; `git checkout (-b) “branch_name”`
+```
+```bash
+git pull 
+# Pulls changes from the remote to your local repository. If you use this in a specific branch only the changes from the remote to that branch are pulled. For example, if the dev branch has been changed but you pull a different feature branch, you don’t pull the changes to the dev branch.
+```
+```bash
+git push 
+# Pushes your local commits to the branch you are in to the corresponding branch on the remote. Similar to pull, this only works for the specific branch you are on.
+```
+```bash
+git merge “other” 
+# Merges ‘other’ into the branch you are currently in. Merging can create merge conflicts, so using it properly requires a merging strategy.
+```
  
 ### Merging workflow
 
 First, make sure the branch you want to merge into is up to date by switching to that branch and pulling it. This branch is called the destination.
-```
+```bash
 git checkout "destination"
 git pull
 ```
 
 Then move back to the branch you want to merge (origin) and merge the destination branch to your origin. 
 
-```
+```bash
 git checkout "origin"
 git merge "destination"
 ```
@@ -146,7 +157,7 @@ If no merge conflicts arise (anymore), you can push your local changes with `git
 
 Switch to your destination folder and merge the branch you want to merge into destination, push changes.
 
-```
+```bash
 git checkout "destination"
 git merge "origin"
 git push
@@ -156,19 +167,8 @@ git push
 
 Pull requests are a [GitHub](https://www.GitHub.com) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main.
 
-## Git Commands
-
-### status
-Zorg dat Git Bash altijd in directory staat waar ook de repo is.
-
-```bash
-# gebruik heel vaak, om te weten wat de situatie is:
-git status
-git log --all --graph  (en evt --oneline)
-```
-
-### config 
-Vooraf eenmalig instellen
+## Configureren
+Vooraf eenmalig instellen:
 ```bash
 # VsCode instellen als default editor:
 git config --global core.editor "code --wait"
