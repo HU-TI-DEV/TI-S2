@@ -93,6 +93,8 @@ Cloning and Forking both create copies of a repository, but with different inten
 
 `git restore`: Allows for removal of staged files from staging area -> `git restore <filename>`
 
+Instead of `git add` you can also choose to use `git stage`. If that is the syntax you choose, you would also use `git unstage` instead of `git restore`. Both versions are identical.
+
 `git commit`: ‘Saves’ staging area to local repository. Use the –m flag to add a commit message. Another –m can be used for a more detailed description -> `git commit –m “COMMIT MESSAGE” –m “MORE DETAILS”`. The first –m is ‘required’ (not adding it opens a text editor to type it instead), the second is optional.
 
 There is also `git push` to push your commits to the linked remote repo, but this is further explained in the branching segment.
@@ -138,7 +140,7 @@ git merge “other”
  
 ### Merging workflow
 
-First, make sure the branch you want to merge into is up to date by switching to that branch and pulling it. This branch is called the destination.
+First, make sure the branch you want to merge into (destination) is up to date by switching to that branch and pulling it. 
 ```bash
 git checkout "destination"
 git pull
@@ -163,69 +165,20 @@ git merge "origin"
 git push
 ```
 
+This is generally only done for feature branches into other feature branches, or sometimes the development branch. For merging into the main (and some teams prefer doing this for development as well) we generally advise to use a Pull Request.
+
 ## Pull requests
 
-Pull requests are a [GitHub](https://www.GitHub.com) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main.
+Pull requests are a [GitHub](https://www.GitHub.com) (or alternative Git server) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main.
 
-## Configureren
-Vooraf eenmalig instellen:
+## Configuration
+One time setup:
 ```bash
-# VsCode instellen als default editor:
+# Assign VSCode as default text editor:
 git config --global core.editor "code --wait"
 
-# Fast Forward merging uitzetten:
+# Disable Fast Forward merging:
 git config --global merge.ff false
-```
-
-### branch
-
-```bash
-# Nieuwe branch maken
-git branch myBranch
-
-# Of bestaande branch van remote halen:
-git pull myBranch
-
-# Switchen naar de nieuwe branch:
-git switch myBranch
-```
-
-### stage, commit en merge
-
-... Coderen, files veranderen, aanmaken  ....
-
-```bash
-# Alle veranderingen stagen
-git stage .
-
-# Je kunt ook files per stuk stagen of unstagen:
-git stage file1
-git unstage file1
-
-# committen:
-git commit -m "korte beschrijving" "evt lange beschrijving"
-
-# voor het geval myBranch op de remote staat, nog een keer pullen:
-git pull myBranch
-
-# ook de master, zodat je daar de laatste versie van hebt
-git pull master
-
-# dan die laatste master naar je myBranch (waar je nog bent) mergen:
-git merge master
-
-# dan myBranch terug mergen naar de master (als je de branch op de remote wilt mergen):
-git switch master     (eerst naar de master branch gaan)
-git merge myBranch    (myBranch naar de master branch mergen)
-
-git push master
-
-# check nog een laatste keer dat alles gelukt is met git status en git log.
-# als dat het geval is, is de branch gelijk aan de head en de master, en kan hij verwijderd worden:
-git branch -d myBranch
-
-# als hij ook remote stond, ook:
-git push origin --delete myBranch
 ```
 
 ## Workflow for trusted team
