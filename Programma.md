@@ -5,32 +5,32 @@
 ### Inhoud[](toc-id)
 
 - [Semester 2 van Technische Informatica](#semester-2-van-technische-informatica)
-  - [Inhoud](#inhoud)
-    - [Een introductie](#een-introductie)
-  - [Organisatie](#organisatie)
-    - [Programma](#programma)
-  - [Onderwijsweek C1 (5-2-2024)](#onderwijsweek-c1-5-2-2024)
-  - [Onderwijsweek C2 (12-2-2024)](#onderwijsweek-c2-12-2-2024)
-  - [Onderwijsweek C3 (19-2-2024)](#onderwijsweek-c3-19-2-2024)
-  - [Onderwijsweek C4 (26-2-2024)](#onderwijsweek-c4-26-2-2024)
-  - [Onderwijsweek C5 (4-3-2024)](#onderwijsweek-c5-4-3-2024)
-  - [Onderwijsweek C6 (11-3-2024)](#onderwijsweek-c6-11-3-2024)
-  - [Onderwijsweek C7 (18-3-2024)](#onderwijsweek-c7-18-3-2024)
-  - [Onderwijsweek C8 (25-3-2024)](#onderwijsweek-c8-25-3-2024)
-  - [Onderwijsweek C9 (1-4-2024)](#onderwijsweek-c9-1-4-2024)
-  - [Onderwijsweek C10 (8-4-2024)](#onderwijsweek-c10-8-4-2024)
-  - [Onderwijsweek D1 (15-4-2024)](#onderwijsweek-d1-15-4-2024)
-  - [Onderwijsweek D2 (22-4-2024)](#onderwijsweek-d2-22-4-2024)
-  - [Onderwijsweek D3 (29-4-2024)](#onderwijsweek-d3-29-4-2024)
-  - [Onderwijsweek D4 (6-5-2024)](#onderwijsweek-d4-6-5-2024)
-  - [Onderwijsweek D5 (13-5-2024)](#onderwijsweek-d5-13-5-2024)
-  - [Onderwijsweek D6 (20-5-2024)](#onderwijsweek-d6-20-5-2024)
-  - [Onderwijsweek D7 (20-5-2024)](#onderwijsweek-d7-20-5-2024)
-  - [Onderwijsweek D8 (3-6-2024)](#onderwijsweek-d8-3-6-2024)
-  - [Onderwijsweek D9 (10-6-2024)](#onderwijsweek-d9-10-6-2024)
-  - [Onderwijsweek D10 (17-6-2024)](#onderwijsweek-d10-17-6-2024)
-  - [Onderwijsweek D11 (24-6-2024)](#onderwijsweek-d11-24-6-2024)
-  - [Onderwijsweek D12 (1-7-2024)](#onderwijsweek-d12-1-7-2024)
+    - [Inhoud](#inhoud)
+  - [Een introductie](#een-introductie)
+    - [Organisatie](#organisatie)
+  - [Programma](#programma)
+    - [Onderwijsweek C1 (5-2-2024)](#onderwijsweek-c1-5-2-2024)
+    - [Onderwijsweek C2 (12-2-2024)](#onderwijsweek-c2-12-2-2024)
+    - [Onderwijsweek C3 (19-2-2024)](#onderwijsweek-c3-19-2-2024)
+    - [Onderwijsweek C4 (26-2-2024)](#onderwijsweek-c4-26-2-2024)
+    - [Onderwijsweek C5 (4-3-2024)](#onderwijsweek-c5-4-3-2024)
+    - [Onderwijsweek C6 (11-3-2024)](#onderwijsweek-c6-11-3-2024)
+    - [Onderwijsweek C7 (18-3-2024)](#onderwijsweek-c7-18-3-2024)
+    - [Onderwijsweek C8 (25-3-2024)](#onderwijsweek-c8-25-3-2024)
+    - [Onderwijsweek C9 (1-4-2024)](#onderwijsweek-c9-1-4-2024)
+    - [Onderwijsweek C10 (8-4-2024)](#onderwijsweek-c10-8-4-2024)
+    - [Onderwijsweek D1 (15-4-2024)](#onderwijsweek-d1-15-4-2024)
+    - [Onderwijsweek D2 (22-4-2024)](#onderwijsweek-d2-22-4-2024)
+    - [Onderwijsweek D3 (29-4-2024)](#onderwijsweek-d3-29-4-2024)
+    - [Onderwijsweek D4 (6-5-2024)](#onderwijsweek-d4-6-5-2024)
+    - [Onderwijsweek D5 (13-5-2024)](#onderwijsweek-d5-13-5-2024)
+    - [Onderwijsweek D6 (20-5-2024)](#onderwijsweek-d6-20-5-2024)
+    - [Onderwijsweek D7 (20-5-2024)](#onderwijsweek-d7-20-5-2024)
+    - [Onderwijsweek D8 (3-6-2024)](#onderwijsweek-d8-3-6-2024)
+    - [Onderwijsweek D9 (10-6-2024)](#onderwijsweek-d9-10-6-2024)
+    - [Onderwijsweek D10 (17-6-2024)](#onderwijsweek-d10-17-6-2024)
+    - [Onderwijsweek D11 (24-6-2024)](#onderwijsweek-d11-24-6-2024)
+    - [Onderwijsweek D12 (1-7-2024)](#onderwijsweek-d12-1-7-2024)
 
 ---
 
@@ -58,6 +58,7 @@ De docenten zijn:
 * (**GP**) Gera Pronk
 * (**MV**) Marius Versteegen
 * (**HP**) Hagen Patzke
+* (**NG**) Nick Goris
 
 ## Programma
 
@@ -104,8 +105,8 @@ De docenten zijn:
 | ------------- | --- | ----- | ------------------ | -------------------------------------------- |
 | C5            | ma  |       | Werken aan project | Electrisch Schema, Weerstanden(**MV**)       |
 | C5            | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**) |
-| C5            | wo  |       | Werken aan project | Soldeerpracticum (**HS**)                    |
-| C5            | do  |       | Show & Tell        | Soldeerpracticum (**HS**)                    |
+| C5            | wo  |       | Werken aan project | Soldeerpracticum (**HS**) of [Git](./software/git/readme.md) cursus (**NG**) |
+| C5            | do  |       | Show & Tell        | Soldeerpracticum (**HS**) of [Git](./software/git/readme.md) Cursus (**NG**) |
 
 ### Onderwijsweek C6 (11-3-2024)
 
