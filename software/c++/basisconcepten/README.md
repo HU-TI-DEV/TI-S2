@@ -64,7 +64,7 @@ cout << "hello, world\n";
 Op deze regel printen we de string “hello, world\n”. Als je het woord cout ziet als je beeldscherm, dan kan je de punthaken << zien als dat de string naar het scherm wordt gestuurd.
 
 ## Commentaar
-In C++ kan commentaar toegevoegd worden aan de code met het gebruik van twee schuine strepen (//). Alles wat achter de twee schuine strepen staat zal worden genegeerd door de compiler. Onderstaand dodevoorbeeld laat code zien met commentaar.
+In C++ kan commentaar toegevoegd worden aan de code met het gebruik van twee schuine strepen (//). Alles wat achter de twee schuine strepen staat zal worden genegeerd door de compiler. Onderstaand codevoorbeeld laat code zien met commentaar.
 
 ```c++
 #include <iostream> 
