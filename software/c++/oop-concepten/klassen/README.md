@@ -62,7 +62,7 @@ Een *constructor* herken je aan de naam (gelijk aan de naam van de klasse), en a
 #### Voorbeeld: line class
 In de line class zijn de attributen (variabelen) private, en de methoden (functies) public. Dit is de meest voorkomende situatie (zeker voor eenvoudige klassen), maar private functies en (in mindere mate) public variabelen komen ook voor.
 
-![UML diagram van de lijn klasse](image.png)
+![UML diagram van de lijn klasse](uml_lijnklasse.png)
 *Image 1 - UML diagram van de lijn klasse*
 
 ```c++

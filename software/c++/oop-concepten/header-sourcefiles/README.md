@@ -14,9 +14,8 @@
     - [Schermobjecten](#schermobjecten)
       - [Gebruik schermobject](#gebruik-schermobject)
     - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen)
-    - [Relaties tussen klassen: Associatie](#relaties-tussen-klassen-associatie)
+    - [Relaties tussen klassen: associatie](#relaties-tussen-klassen-associatie)
 
-TODO: puntjes op de i zetten (laatste stuk)
 
 ### Verdeling over header en source files
 Vaak wordt C++ code opgesplitst in twee soorten files:
@@ -43,7 +42,7 @@ class line {
 . . .
 };
 ```
-*Codevoorbeeld 04-06 - Bescherming tegen multiple-inclusion in de file line.hpp*
+*Codevoorbeeld 04-07 - Bescherming tegen multiple-inclusion in de file line.hpp*
 
 #### Namespace
 Een functie of methode is meestal onderdeel van een bepaalde klasse. Voor de lijn klasse (`class line`) staat de implementatie van de print functie in de `line.cpp` file. Buiten deze klasse declaratie moet je aangeven bij welke klasse de functie behoort: voor de naam van de functie zet je zijn klasse-naam en `::` zetten, anders heb je het over een losse functie die niets met een klasse te maken heeft. Bínnen de klasse definitie zelf hoeft dat niet.
@@ -56,7 +55,7 @@ void line::print(){
   . . . // code
 }
 ```
-*Codevoorbeeld 04-06 - Implementatie van een member-functie (= methode) in de file line.cpp*
+*Codevoorbeeld 04-08 - Implementatie van een member-functie (= methode) in de file line.cpp*
 
 ### Relaties tussen klassen
 
@@ -66,7 +65,7 @@ De *constructor* kan deze lijn-objecten aanmaken; in de print functie hoeven we 
 
 In *UML* wordt dit aangegeven door een lijn met aan de kant van de ‘eigenaar’ een opgevuld wiebertje. Dit heet compositie: de rechthoek is samengesteld uit vier lijnen. Compositie (A bevat B, B is een deel van A) is de sterkste relatie (associatie) tussen klassen: de deelobjecten kunnen alleen bestaan als onderdeel van het omvattende object en dat omvattende object is verantwoordelijk voor het aanmaken van zijn deelobjecten.
 Net als bij attributen geeft een + of – voor de naam van het deelobject aan of de compositie public (voor code buiten de klasse benaderbaar) of private (niet door vreemden benaderbaar) is.
-![UML diagram van een rechthoek die vier lijnen bevat](image.png)
+![UML diagram van een rechthoek die vier lijnen bevat](uml_rechthoek.png)
 
 Zie het UML diagram hierboven:
 In C++ zijn de vier compositie relaties zichtbaar als attributen van de rechthoek, van het type lijn. Om dit te kunnen doen moet de declaratie van lijn (line.hpp) opgenomen worden in de definitie van rechthoek.
@@ -83,7 +82,7 @@ class rectangle {
     void print();
 };
 ```
-*Codevoorbeeld 04-07A - C++ declaratie van een rechthoek die vier lijnen bevat (file rectangle.hpp)*
+*Codevoorbeeld 04-09 - C++ declaratie van een rechthoek die vier lijnen bevat (file rectangle.hpp)*
 
 #### Constructor en initialisatielijst voor compositie
 In de rechthoek zijn vier lijnen opgenomen (*left, right, top en bottom*). 
@@ -102,11 +101,11 @@ rectangle::rectangle( int start_x, int start_y, int end_x, int end_y ):
   bottom( start_x, end_y, end_x + 1, end_y )
   {} // lege body
 ```
-*Codevoorbeeld 04-07B - De constructor van een rechthoek (file rectangle.cpp)*
+*Codevoorbeeld 04-10 - De constructor van een rechthoek (file rectangle.cpp)*
 
-Ad. codevoorbeeld 04-07B: Merk op dat er in de coördinaten soms +1 staat. Kun je beredeneren waarom?
+Ad. codevoorbeeld 04-10: Merk op dat er in de coördinaten soms +1 staat. Kun je beredeneren waarom?
 
-Omdat de lijnen al geconstrueerd zijn in de constructor van rechthoek hoeft er in de print functie maar weinig gedaan te worden: het printen van de rechthoek wordt gedaan door het printen van de vier lijnen. Zie codevoorbeeld 04-07C.
+Omdat de lijnen al geconstrueerd zijn in de constructor van rechthoek hoeft er in de print functie maar weinig gedaan te worden: het printen van de rechthoek wordt gedaan door het printen van de vier lijnen. Zie codevoorbeeld 04-11.
 
 ```c++
 void rectangle::print(){
@@ -116,14 +115,14 @@ void rectangle::print(){
   bottom.print();
 }
 ```
-*Codevoorbeeld 04-07 - de print functie van een rechthoek (ook in de file rectangle.cpp)*
+*Codevoorbeeld 04-11 - de print functie van een rechthoek (ook in de file rectangle.cpp)*
 
 ### Schermobjecten
 Tot nu toe zijn we er aan voorbij gegaan waar een lijn of rechthoek eigenlijk op afgebeeld wordt. Dit kan worden aangegeven door een schermobject mee te geven. Van dit object interesseert ons (als programmeurs die schermobjecten willen implementeren) alleen de publieke interface. Die kan heel beperkt zijn: wis een scherm (maak het wit), en maak een pixel zwart.
 
 *Andere interfaces zijn ook mogelijk, zoals ‘maak deze pixel kleur k’, dan heb je geen aparte wis-functie nodig.*
 
-![UML diagram van een window klasse](image-1.png)
+![UML diagram van een window klasse](windowklasse.png)
 
 *Image - UML diagram van een window klasse*
 
@@ -139,22 +138,20 @@ Hoe je het scherm ook doorgeeft aan de print functie, het is van belang dat het 
 
 *In C zouden we om het schermobject zelf (dus niet een kopie) door te geven, een pointer naar het scherm doorgeven (en in de tweede oplossing ook opslaan). In C++ kunnen we in zo’n geval een reference doorgeven (en desgewenst ook opslaan).*
 
-Een reference declareer je door een `&` voor de naam van een parameter of object te plaatsen. Als je vervolgens die naam gebruikt in een expressie of om er een waarde aan toe te kennen, dan gebruik je automatisch het object waar de reference naar refereert.14
+Een reference declareer je door een `&` voor de naam van een parameter of object te plaatsen. Als je vervolgens die naam gebruikt in een expressie of om er een waarde aan toe te kennen, dan gebruik je automatisch het object waar de reference naar refereert.
 
 Voor een reference moet je op het moment dat de reference wordt aangemaakt aangeven waaraan hij refereert. Gedurende de levensduur van de reference blijft hij naar dat object refereren. Er is geen mogelijkheid om een reference later naar een ander object te laten wijzen.
 
-### Relaties tussen klassen: Associatie
+### Relaties tussen klassen: associatie
 In UML komt een reference tussen objecten die ieder een eigen ‘leven’ hebben (het ene object is niet een logisch deel van het andere) doorgaans overeen met een ‘gewone’ associatie. Een associatie wordt weergegeven met een open wiebertje aan de kant van de klasse die de reference bevat, en de naam van de referentie aan de kant van de klasse waar hij aan refereert. Als we in een lijn opslaan op welk scherm hij afgebeeld moet worden krijgen we dus het volgende UML diagram:
-12 Andere interfaces zijn ook mogelijk, zoals ‘maak deze pixel kleur k’, dan heb je geen aparte wis-functie nodig.
-13 In C zouden we om het scherm object zelf (dus niet een kopie) door te geven een pointer naar het scherm doorgeven (en in de tweede oplossing ook opslaan). In C++ kunnen we in zo’n geval een reference doorgeven (en desgewenst ook opslaan).
-14 Een reference lijkt op een pointer, maar een reference kan je niet naar een ander object laten wijzen, je kan er niet mee rekenen, en je hoeft geen adres-van (&) en pointer-dereference (*) operatoren te gebruiken.
-Reader V1OOPC - 16 van 105
 
-![UML diagram voor een lijn die (een referentie naar) zijn window opslaat](image-2.png)
+![UML diagram voor een lijn die (een referentie naar) zijn window opslaat](lijnwindow.png)
 *Image - UML diagram voor een lijn die (een referentie naar) zijn window opslaat* 
 
 Merk op dat (net als bij een compositie) de window niet apart wordt vermeld in de lijst met attributen: de associatie met de naam w geeft aan dat de lijn klasse een attribuut w van het type window heeft.
-In de C++ code is er een window reference attribuut toegevoegd die in de initialisatielijst van de constructor zijn waarde krijgt. Dit moet op die plaats, je kunt een reference niet later (in de body) een waarde geven. In dit voorbeeld zijn de coördinaten nu ook in de initialisatielijst gezet zodat de body van de constructor leeg is. De definitie van de constructor staat in dit voorbeeld in de class declaratie.
+In de C++ code is een window reference attribuut toegevoegd die in de initialisatielijst van de constructor zijn waarde krijgt. Dit moet op die plaats, je kunt een reference niet later (in de body) een waarde geven. In dit voorbeeld zijn de coördinaten nu ook in de initialisatielijst gezet zodat de body van de constructor leeg is. De definitie van de constructor staat in dit voorbeeld in de class declaratie.
+
+*Een reference lijkt op een pointer, maar een reference kun je niet naar een ander object laten wijzen, je kunt er niet mee rekenen, en je hoeft geen adres-van (&) en pointer-dereference (\*) operatoren te gebruiken.*
 
 ```c++
 #include “window.hpp”
@@ -178,7 +175,7 @@ public:
   void print();
 };
 ```
-*Codevoorbeeld 04-09A - C++ klasse voor een lijn die (een referentie naar) zijn window opslaat*
+*Codevoorbeeld 04-12 - C++ klasse voor een lijn die (een referentie naar) zijn window opslaat*
 
 Merk op dat in de initialisatielijst bv. voor het initialiseren van w de syntax w( w ) wordt gebruikt. Er zijn twee dingen die w heten: het attribuut en de parameter van de constructor. De compiler geeft de parameter voorrang, dus in principe betekent w de parameter, behalve bij de attribuut naam in een initialisatielijst: dat kan alleen maar een attribuut zijn, dus dan wordt w geïnterpreteerd als het
 attribuut w. Daardoor betekent w( w ) in een initialisatielijst dus initialiseer het attribuut w (de eerste w) met de waarde van de parameter w (de tweede w).
@@ -195,4 +192,4 @@ int main(int argc, char **argv){
   diagonal_line.print();
 }
 ```
-*Codevoorbeeld 04-09B - Gebruik van een lijn die een expliciete window vereist*
+*Codevoorbeeld 04-13 - Gebruik van een lijn die een expliciete window vereist*
