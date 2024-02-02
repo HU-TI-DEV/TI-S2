@@ -144,19 +144,55 @@ layout: intro
 
 ![Verloop in detail](/werkproces.jpg)
 
+# Het docenten team
+
+[Canvas Internet of Things](https://canvas.hu.nl/courses/39897)
+
+---
+
+# Praktische zaken
+
+Weekrooster:
+
+| ma | di | wo | do | vr
+| --- |---| ---| --- | ---
+|  || HL15-3.072| HL15-3.072 | 
+| HL15-3.072  | HL15-3.072 | |  | 
+
+Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www.ruimtereserveren.hu.nl/). Ook in het Turing Lab kan je werken.
+
+---
+
+# Praktische zaken
+
+- Elektronica en de (kweek)kassen worden hergebruikt!
+- Elektronica en sensoren in de [TI Lab Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/)
+
+---
+
+# Praktische zaken
+
+- Ruimte netjes houden (we delen dde ruimte met BIM)
+- Spanningsloos maken
+- Zorg dat er geen lekkages kunnen ontstaan
+- Kostbare spullen opbergen
+- Hergebruik onderdelen-setje uit blok B
+
+---
+
+# Praktische zaken
+
+Dinsdag 13 februari inspiratie uitje! Kwekerij Lankhaar.
+
+Iedereen om 8.30 uur aanwezig!
+
 ---
 layout: intro
 ---
 
-## Hoe gaan we het semester doen?
+## Werken in een team.
 
 <subtitle>Team vorming starten</subtitle>
-
----
-
-# Het docenten team
-
-[Canvas Internet of Things](https://canvas.hu.nl/courses/39897)
 
 ---
 
