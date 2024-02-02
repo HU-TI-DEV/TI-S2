@@ -202,9 +202,8 @@ Zelf teams vormen van 5 per team:
 Teamnaam en logo verzinnen.
 
 Wie kan wat? 
-- Programeren 1 -5 (schaal zonder punten? Startend- Gevorderd)
-- Samenwerken 1 -5 (Marzano)
 - Waar zit je nu al op de [leeruitkomsten](https://hu-ti-dev.github.io/TI-S2/#leeruitkomsten)?
-- Spinnenweb maken?
+
+Team vragen: 
 - Welke leeruitkomst kunnen we andere teams mee ondersteunen
 - Welke leeruitkomst verwachten wij ondersteuning bij nodig te hebben?
