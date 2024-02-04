@@ -105,8 +105,8 @@ De docenten zijn:
 | ------------- | --- | ----- | ------------------ | -------------------------------------------- |
 | C5            | ma  |       | Werken aan project | Electrisch Schema, Weerstanden(**MV**)       |
 | C5            | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**) |
-| C5            | wo  |       | Werken aan project | [Soldeerpracticum](./programma/programma-solderen.md) (**HS**) of [Git](../software/git/readme.md) cursus (**NG**) |
-| C5            | do  |       | Show & Tell        | [Soldeerpracticum](./programma/programma-solderen.md) (**HS**) of [Git](../software/git/readme.md) Cursus (**NG**) |
+| C5            | wo  |       | Werken aan project | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
+| C5            | do  |       | Show & Tell        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
 
 ### Onderwijsweek C6 (11-3-2024)
 
