@@ -186,6 +186,10 @@ Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www
 
 Dinsdag 13 februari inspiratie uitje! Kwekerij Lankhaar.
 
+![Kwekerij Lankhaar](/lankhaar.jpg)
+
+Video [Kwekerij Lankhaar](https://youtube.com/shorts/vG3Eq2omaHQ?feature=share)
+
 Iedereen om 8.30 uur aanwezig!
 
 ---
