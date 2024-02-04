@@ -33,6 +33,7 @@
     * [const/](../software/c++/oop-concepten/const/README.md)
     * [header-sourcefiles/](../software/c++/oop-concepten/header-sourcefiles/README.md)
     * [klassen/](../software/c++/oop-concepten/klassen/README.md)
+    * [macros/](../software/c++/oop-concepten/macros/README.md)
     * [std-array/](../software/c++/oop-concepten/std-array/README.md)
     * [structs/](../software/c++/oop-concepten/structs/README.md)
   * [opdrachten/](../software/c++/opdrachten/README.md)
