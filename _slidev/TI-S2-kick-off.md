@@ -142,7 +142,9 @@ layout: intro
 
 # Verloop in detail
 
-![Verloop in detail](/werkproces.jpg)
+![Verloop in detail](/Semester_proces_robot.png)
+
+---
 
 # Het docenten team
 
@@ -172,11 +174,11 @@ Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www
 
 # Praktische zaken
 
-- Ruimte netjes houden (we delen dde ruimte met BIM)
+- Ruimte netjes houden (we delen de ruimte met BIM)
 - Spanningsloos maken
 - Zorg dat er geen lekkages kunnen ontstaan
 - Kostbare spullen opbergen
-- Hergebruik onderdelen-setje uit blok B
+- Hergebruik het onderdelen-setje uit blok B
 
 ---
 
@@ -202,9 +204,8 @@ Zelf teams vormen van 5 per team:
 Teamnaam en logo verzinnen.
 
 Wie kan wat? 
-- Programeren 1 -5 (schaal zonder punten? Startend- Gevorderd)
-- Samenwerken 1 -5 (Marzano)
 - Waar zit je nu al op de [leeruitkomsten](https://hu-ti-dev.github.io/TI-S2/#leeruitkomsten)?
-- Spinnenweb maken?
+
+Team vragen: 
 - Welke leeruitkomst kunnen we andere teams mee ondersteunen
 - Welke leeruitkomst verwachten wij ondersteuning bij nodig te hebben?

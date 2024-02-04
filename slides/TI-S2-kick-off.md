@@ -142,7 +142,9 @@ layout: intro
 
 # Verloop in detail
 
-![Verloop in detail](/werkproces.jpg)
+![Verloop in detail](/Semester_proces_robot.png)
+
+---
 
 # Het docenten team
 
@@ -172,11 +174,11 @@ Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www
 
 # Praktische zaken
 
-- Ruimte netjes houden (we delen dde ruimte met BIM)
+- Ruimte netjes houden (we delen de ruimte met BIM)
 - Spanningsloos maken
 - Zorg dat er geen lekkages kunnen ontstaan
 - Kostbare spullen opbergen
-- Hergebruik onderdelen-setje uit blok B
+- Hergebruik het onderdelen-setje uit blok B
 
 ---
 
