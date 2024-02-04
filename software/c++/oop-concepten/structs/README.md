@@ -44,11 +44,11 @@ line_print( 10, 10, 20, 20 );
 *Codevoorbeeld 04-01 - Specificeer een lijn via de x en y waarden van zijn begin- en eindpunten*
 
 #### Grafisch scherm en coördinaten
-![Alt text](image.png)
+![Grafisch scherm - LCD Window](lcdwindow.png)
 
 Bij een grafisch scherm is het de gewoonte dat (0,0) linksboven is, en dat de y-coördinaten naar beneden lopen (dus anders dan in een grafiek).
 
-![](image-1.png)
+![Screen](screen.png)
 
 Voor een window met grootte w (breedte, horizontaal) bij h (hoogte, verticaal) valt de pixel (0,0) dus net binnen een window, de pixel (w, h) valt er net buiten. Net als bij vectoren en arrays lopen de indexen van 0 ……n-1.
 
