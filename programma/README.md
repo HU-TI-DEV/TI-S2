@@ -107,6 +107,7 @@ De docenten zijn:
 | C5            | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**) |
 | C5            | wo  |       | Werken aan project | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
 | C5            | do  |       | Show & Tell        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5            | vr  |       |         | [Soldeerpracticum](./programma-solderen.md) (**HS**) |
 
 ### Onderwijsweek C6 (11-3-2024)
 
