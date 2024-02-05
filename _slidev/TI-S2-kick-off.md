@@ -146,6 +146,14 @@ layout: intro
 
 ---
 
+# Kennis en inhoud
+
+[TI S2 repository](https://github.com/HU-TI-DEV/TI-S2/)
+
+[TI S2 website](https://hu-ti-dev.github.io/TI-S2/)
+
+---
+
 # Praktische zaken
 
 Weekrooster:
