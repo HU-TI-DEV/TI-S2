@@ -140,13 +140,17 @@ layout: intro
 
 ---
 
-# Verloop in detail
-
-![Verloop in detail](/werkproces.jpg)
-
 # Het docenten team
 
 [Canvas Internet of Things](https://canvas.hu.nl/courses/39897)
+
+---
+
+# Kennis en inhoud
+
+[TI S2 repository](https://github.com/HU-TI-DEV/TI-S2/)
+
+[TI S2 website](https://hu-ti-dev.github.io/TI-S2/)
 
 ---
 
@@ -172,11 +176,11 @@ Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www
 
 # Praktische zaken
 
-- Ruimte netjes houden (we delen dde ruimte met BIM)
+- Ruimte netjes houden (we delen de ruimte met BIM)
 - Spanningsloos maken
 - Zorg dat er geen lekkages kunnen ontstaan
 - Kostbare spullen opbergen
-- Hergebruik onderdelen-setje uit blok B
+- Hergebruik het onderdelen-setje uit blok B
 
 ---
 
@@ -184,7 +188,18 @@ Extra ruimte HL15-3.076 of zoek met je team een [plek in het gebouw](https://www
 
 Dinsdag 13 februari inspiratie uitje! Kwekerij Lankhaar.
 
+![Kwekerij Lankhaar](/lankhaar.jpg)
+
+Video [Kwekerij Lankhaar](https://youtube.com/shorts/vG3Eq2omaHQ?feature=share)
+
 Iedereen om 8.30 uur aanwezig!
+
+---
+
+# Praktische zaken
+
+Installeer vast Arduino IDE
+[Arduino IDE](https://www.arduino.cc/en/software)
 
 ---
 layout: intro
@@ -201,10 +216,11 @@ layout: intro
 Zelf teams vormen van 5 per team: 
 Teamnaam en logo verzinnen.
 
+https://classroom.github.com/a/dBS-3nqo
+
 Wie kan wat? 
-- Programeren 1 -5 (schaal zonder punten? Startend- Gevorderd)
-- Samenwerken 1 -5 (Marzano)
 - Waar zit je nu al op de [leeruitkomsten](https://hu-ti-dev.github.io/TI-S2/#leeruitkomsten)?
-- Spinnenweb maken?
+
+Team vragen: 
 - Welke leeruitkomst kunnen we andere teams mee ondersteunen
 - Welke leeruitkomst verwachten wij ondersteuning bij nodig te hebben?
