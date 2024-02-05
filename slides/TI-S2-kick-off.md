@@ -140,12 +140,6 @@ layout: intro
 
 ---
 
-# Verloop in detail
-
-![Verloop in detail](/Semester_proces_robot.png)
-
----
-
 # Het docenten team
 
 [Canvas Internet of Things](https://canvas.hu.nl/courses/39897)
@@ -191,6 +185,13 @@ Dinsdag 13 februari inspiratie uitje! Kwekerij Lankhaar.
 Video [Kwekerij Lankhaar](https://youtube.com/shorts/vG3Eq2omaHQ?feature=share)
 
 Iedereen om 8.30 uur aanwezig!
+
+---
+
+# Praktische zaken
+
+Installeer vast Arduino IDE
+[Arduino IDE](https://www.arduino.cc/en/software)
 
 ---
 layout: intro
