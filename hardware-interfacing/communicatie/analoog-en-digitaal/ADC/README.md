@@ -5,11 +5,12 @@
 ### Inhoud[](toc-id)
 
 - [ADC: analoog naar digitaal](#adc-analoog-naar-digitaal)
-    - [Inhoud](#inhoud)
+  - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [GYML8511 UV sensor](#gyml8511-uv-sensor)
   - [De schakeling](#de-schakeling)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
+  - [LDR-NTC](#ldr-ntc)
   - [Referenties](#referenties)
 
 ---
@@ -133,6 +134,10 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 }
 ```
 [Arduino bestand](../ADC/files/GYMP8511/GYMP8511.ino) 
+
+## LDR-NTC
+
+[LDR-NTC](LDR-NTC.md) - Analog In met een LDR of een NTC
 
 ## Referenties
 
