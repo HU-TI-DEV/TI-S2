@@ -29,17 +29,17 @@ write numbers in other bases.
 
 The most relevant number bases for programming are:
 
--   \- decimal - the default base for numbers, a single digit is from 0
+-   decimal - the default base for numbers, a single digit is from 0
     to 9
 
--   \- hexadecimal or sexagesimal, a convenient abbreviation for binary
+-   hexadecimal or sexagesimal, a convenient abbreviation for binary
     numbers, because each hexadecimal digit (0..F) represents four bits
 
--   \- octal - this was used in early computers and one octal digit
+-   octal - this was used in early computers and one octal digit
     (0..7) represents three bits, we see it when Unix file access rights
     are printed or entered, e.g. `chmod 644 myfile.txt` for `rw-r–r–`
 
--   \- binary - the base in which all conventional digital computer
+-   binary - the base in which all conventional digital computer
     circuits work, a bit or binary digit (0..1) represents 'no current'
     and 'current'
 
@@ -101,6 +101,9 @@ Hexadecimal dump of the input data (`od -Ax -t x1`):
 0000040 62 75 6c 61 74 6f 72 21 0a 0a 
 000004a
 ```
+
+## Fun Fact
+Many early civilizations (and some current civilizations, too) used to count in a base 12 (duodecimal) system, by using their thumb to count their phalanges. For further reading, see: https://en.wikipedia.org/wiki/Duodecimal
 
 ## Referenties
 
