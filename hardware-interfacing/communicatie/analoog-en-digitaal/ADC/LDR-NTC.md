@@ -4,11 +4,11 @@
 
 ### Inhoud[](toc-id)
 
-- [LDR-NTC: analoog naar digitaal met passief sensoren](#ldr-ntc-analoog-naar-digitaal)
-  - [Inhoud](#inhoud)
-  - [LDR](#ldr)
-  - [NTC](#ntc)
-  - [De schakeling](#de-schakeling)
+- [LDR-NTC: analoog naar digitaal met passief sensoren ](#ldr-ntc-analoog-naar-digitaal-met-passief-sensoren-)
+    - [Inhoud](#inhoud)
+    - [LDR](#ldr)
+    - [NTC](#ntc)
+    - [De schakeling](#de-schakeling)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
 
@@ -20,9 +20,9 @@
 
 Een Light Dependent Resistor (LDR) verandert zijn weerstand afhankelijk van de hoeveelheid licht die erop valt.
 
-De LDR's in het [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen ca. 2 MegaOhm (donker) tot ca. 600 Ohm (erg helder). Waarschijnlijk is dat een 5528 type (LDR03/LDR04).
+De LDR's in de [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen ca. 2 MegaOhm (donker) tot circa 600 Ohm (erg helder). Waarschijnlijk is de aanwezige sensor een 5528 type (LDR03/LDR04).
 
-Met hulp van een vaste weerstand kunnen we deze verandering in een spanning wandelen. Deze spanning kan de ADC meten.
+Met hulp van een vaste weerstand kunnen we deze verandering in een spanning omzetten. Deze spanning kan de ADC meten.
 
 ### NTC
 
