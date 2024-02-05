@@ -38,7 +38,7 @@ Het Droste-effect is een visueel effect, waarbij een afbeelding een verkleinde v
 In de afbeelding, waar het effect haar naam aan dankt, zien we een vrouw die een blik vasthoudt. Op het blik bevindt zich een kleiner plaatje waarop de vrouw staat met hetzelfde blik. Dat blik bevat ook weer een kleinere afbeelding van haar met het blik, etc. 
 Een deel van het plaatje is dus gedefinieerd als het plaatje zelf.
 
-![Droste cacao-blik uit 1904. Ontwerp: Jan Misset](image.png)
+![Droste cacao-blik uit 1904. Ontwerp: Jan Misset](droste.png)
 *Figuur 14.1 - Droste cacao-blik uit 1904. Ontwerp: Jan Misset*
 
 Een robot die de vrouw met het blik kan tekenen moet het tekenen steeds herhalen.
