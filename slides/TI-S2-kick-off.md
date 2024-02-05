@@ -207,6 +207,8 @@ layout: intro
 Zelf teams vormen van 5 per team: 
 Teamnaam en logo verzinnen.
 
+https://classroom.github.com/a/dBS-3nqo
+
 Wie kan wat? 
 - Waar zit je nu al op de [leeruitkomsten](https://hu-ti-dev.github.io/TI-S2/#leeruitkomsten)?
 
