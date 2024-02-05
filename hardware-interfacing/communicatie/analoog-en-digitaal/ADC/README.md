@@ -5,17 +5,19 @@
 ### Inhoud[](toc-id)
 
 - [ADC: analoog naar digitaal](#adc-analoog-naar-digitaal)
-  - [Inhoud](#inhoud)
+    - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [GYML8511 UV sensor](#gyml8511-uv-sensor)
   - [De schakeling](#de-schakeling)
+    - [ML8511](#ml8511)
+    - [GYML8511](#gyml8511)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [LDR-NTC](#ldr-ntc)
   - [Referenties](#referenties)
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor analoog naar digitaal door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor analoog naar digitaal door HU IICT[](author-id).
 
 ---
 
@@ -41,7 +43,7 @@ De module GYML8511 heeft een ingebouwde ultraviolet (UV) licht sensor. Het berei
 
 ## De schakeling
 
-Omzetting van analoog naar digitaal is afhankelijk van VCC. Maar omdat je voeding kan verschillen kan dit lager of hoger zijn dan 5.0V. Heb je geen stabiele voeding kan VCC 0.25V naar boven of beneden afwijken. We gebruiken daarom de onboard 3.3V als referentiespanning.
+Omzetting van analoog naar digitaal is afhankelijk van VCC. Maar omdat je voeding kan verschillen kan dit lager of hoger zijn dan 5.0V. Heb je geen stabiele voeding dan kan VCC 0.25V naar boven of beneden afwijken. We gebruiken daarom de onboard 3.3V als referentiespanning.
 
 ### ML8511
 
@@ -51,17 +53,17 @@ De EN (Enable) pin en 3V3 sluiten we op de 3.3V pin van de Arduino aan. Deze pin
 
 ### GYML8511
 
-De GYML8511 heeft 5 pins, de pin VIN is voor een interne 'linear regulator' om hogere spanningen nauwkeurig tot 3.3V te wandelen.
+De GYML8511 heeft 5 pins, de pin VIN is voor een interne 'linear regulator' om hogere spanningen nauwkeurig tot 3.3V om te zetten.
 
 | GYML8511 Pin | Omschrijving | Arduino Pin |
 | --- | ---          | --- |
-| VIN | Spanning invoer tot interne regulator (bv 5V) | +5V |
-| 3V3 | Spanning outvoer na regulator of invoer 3.3V  | A1  |
+| VIN | Spanning invoer naar interne regulator (bv 5V) | +5V |
+| 3V3 | Spanning outvoer naar regulator of invoer 3.3V  | A1  |
 | GND | Ground (Massa), 0V                            | GND |
 | OUT | Output, spanning afhankelijk van UV licht     | A0  |
 | EN  | Enable, deze pin schakelt de sensor aan/uit   | 3V3 |
 
-**Let op dat 5V alleen aan VIN komen, anders kan het module kapot gaan!**
+**Let op dat 5V alleen aan VIN komt, anders kan de module kapot gaan!**
 
 De GYML8511 geeft aan OUT een spanning af die afhankelijk is van de sterkte van UV licht die op de sensor valt.
 
@@ -137,7 +139,7 @@ float mapfloat(float x, float in_min, float in_max, float out_min, float out_max
 
 ## LDR-NTC
 
-[LDR-NTC](LDR-NTC.md) - Analog In met een LDR of een NTC
+Andere sensoren zoals een lichtgevoelige weerstand (LDR) of een NTC-weerstand om de temperatuur te meten geven ook een analoge waarde die je op bovenstaande manier kunt uitlezen. Zie het voorbeeld met een [LDR](LDR-NTC.md) en [NTC](LDR-NTC.md).
 
 ## Referenties
 

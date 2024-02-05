@@ -6,7 +6,7 @@
 
 ### Inhoud[](toc-id)
 
-- [LDR-NTC: analoog naar digitaal met passieve sensoren](#ldr-ntc-analoog-naar-digitaal)
+- [LDR-NTC: analoog naar digitaal met passieve sensoren](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren)
   - [Inhoud](#inhoud)
   - [Basis principe](#basis-principe)
   - [LDR](#ldr)
@@ -34,7 +34,7 @@ Om een analoge waarde te meten en een verandering te zien als de omgeving verand
 
 Een `Light Dependent Resistor` (LDR) verandert zijn weerstand afhankelijk van de hoeveelheid licht die erop valt.
 
-De LDR's in het [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen ca. 2 MegaOhm (donker) tot ca. 600 Ohm (erg helder). Waarschijnlijk is dat een 5528 type (LDR03/LDR04).
+De LDR's in de [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen ca. 2 MegaOhm (donker) tot circa 600 Ohm (erg helder). Waarschijnlijk is de aanwezige sensor een 5528 type (LDR03/LDR04).
 
 ### NTC
 
