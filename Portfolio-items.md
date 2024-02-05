@@ -423,16 +423,16 @@ Criteria
 
 Portfolio item | Beschrijving
 --- | --- 
-Oefenopdrachten Infrastructuur | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
+Oefenopdrachten Infrastructuur | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
 
 ---
 
 Portfolio item | Beschrijving
 --- | --- 
-Oefenopdrachten Software | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
+Oefenopdrachten Software | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
 
 ---
 
 Portfolio item | Beschrijving
 --- | --- 
-Oefenopdrachten Hardware Interfacing | Je laat met oefenopdrachten die (weekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
+Oefenopdrachten Hardware Interfacing | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.

@@ -93,7 +93,7 @@ Elke kant van het doosje kan je ook weer selecteren om schetsen op te maken. Let
 
 ![picture17](../3D_Modeleren/img/Picture17.png)
 
-Er zijn uiteraard veel meer mogelijkheden. Bij de bronnen staan er linkjes naar filmpjes die in detail voorbeelden van het gebruik weergeven.
+Er zijn uiteraard veel meer mogelijkheden. Bij de bronnen staan linkjes naar filmpjes die in meer detail voorbeelden van het gebruik uitleggen. Dit is maar een selectie er is nog heel veel meer te vinden en als je specifieke uitdagingen hebt dan is daar abolsuut iets voor. Kijk vooral ook even bij de verschillende mogelijkheden die je hebt nij het maken ban de 2d schets en het 3d object. 
 
 ## Gebruik van bestaande modellen
 Een doosje maak je natuurlijk voor een object wat je erin wil stoppen. Bijvoorbeeld een behuizing voor een microcontroller of een sensor. Hierbij weet je soms hoe groot iets is en soms niet. Er volgen nu drie mogelijke manieren om hiermee om te gaan in fusion.
