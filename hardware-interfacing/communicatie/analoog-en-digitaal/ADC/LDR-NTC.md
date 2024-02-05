@@ -26,7 +26,7 @@ Met hulp van een vaste weerstand kunnen we deze verandering in een spanning wand
 
 ### NTC
 
-Een ''Negative Temperature Coefficient resistor'' (NTC) verandert zijn weerstand afhankelijk van de temperaturr van d eomgeving.
+Een ''Negative Temperature Coefficient resistor'' (NTC) verandert zijn weerstand afhankelijk van de temperatuur van de omgeving.
 
 Een weerstand heeft een 'positive temperature coefficient' (PTC) als de waarde van de weerstand hoger wordt als de temperatuur hoger wordt. Als de waarde van de weerstand kleiner wordt met verhoging van de temperatuur spreken we van 'negative temperature coefficient' (NTC).
 
