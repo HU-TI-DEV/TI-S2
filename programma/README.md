@@ -46,10 +46,10 @@ In semester 2 van Technische Informatica staat het kweekkas project centraal. Je
 
 De contacturen zijn:
 
-* maandag & dinsdag in de ochtend
-* woensdag & donderdag in de middag.
+* maandag & dinsdag in de middag
+* woensdag & donderdag in de ochtend.
 
-Ons lokaal is HL15-3.072.
+Ons lokaal is HL15-3.072. HL15-3.076 is beschikbaar als extra overlegruimte.
 
 De docenten zijn:
 
