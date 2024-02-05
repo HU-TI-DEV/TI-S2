@@ -38,7 +38,7 @@ Een weerstand heeft een 'positive temperature coefficient' (PTC) als de waarde v
 
 De voorbeeld code meet alleen een spanning en geeft deze via het serial interface uit.
 
-> Let op: Op de Arduino Nano is Analog Pin 'A7' erg makkelijk bereikbaar. Als je een Arduino Uno gebruikt, neem beter een andere pin en pas het programma aan. (Je kan bijvoorbeeld A5 gebruiken.)
+> Let op: Het voorbeeld gebruikt Analog Pin 'A0', maar op de Arduino Nano is Analog Pin 'A7' erg makkelijk bereikbaar. Voor een andere Analog Pin kan je makkelijk het programma aanpassen.
 
 ```arduino
 // LDR-NTC.ino - Analog Input example - 2024-02-04-hp
