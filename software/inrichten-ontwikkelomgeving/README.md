@@ -6,10 +6,11 @@
 - [Inrichten ontwikkelomgeving](#inrichten-ontwikkelomgeving)
   - [Inhoud](#inhoud)
   - [Installeren](#installeren)
+    - [Arduino IDE](#arduino-ide)
     - [CodeLite](#codelite)
-    - [MinGW](#mingw)
-    - [Een C++programma uitvoeren](#een-cprogramma-uitvoeren)
-    - [Project](#project)
+      - [MinGW](#mingw)
+      - [Een C++programma uitvoeren](#een-cprogramma-uitvoeren)
+      - [Project](#project)
 - [Uitgebreide software ontwikelomgeving](#uitgebreide-software-ontwikelomgeving)
   - [Vooraf](#vooraf)
   - [Software-ontwikkelomgeving](#software-ontwikkelomgeving)
@@ -22,24 +23,28 @@
 
 ## Installeren
 In dit semester wordt onder andere gebuik gemaakt van de volgende, vrij verkrijgbare, software:
+- Arduino IDE
 - CodeLite
 - MinGW
 - Git
+- Visual Studio Code
 
+### Arduino IDE
+Om C++ code te draaien, gebruiken we in eerste instantie een [Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/).
 
 ### CodeLite
 CodeLite is een editor/IDE die je kunt vinden op: https://codelite.org.
 
 CodeLite heeft de vervelende eigenschap bij het opstarten te checken of er een nieuwe versie is, en als die er niet is lukt het niet om die te installeren. Dit kan je uitzetten via Settings -> Preferences -> Misc -> Check for new version at startup.
 
-### MinGW
+#### MinGW
 MinGW is een GCC compiler voor Windows. Je kunt MinGW installeren via de link op: http://tdm-gcc.tdragon.net/download. Neem de 32 bits versie.
 
-### Een C++programma uitvoeren
+#### Een C++programma uitvoeren
 Om een C++programma uit te voeren moet je eerst een **workspace** hebben. In een workspace kunnen meerdere C++ programma’s staan. Een workspace maak je met:
 File -> New -> New Workspace.
 
-### Project
+#### Project
 Voor elk C++programma moet je een **project** aanmaken in je workspace. Een project maak je aan met: 
 - File -> new -> project. 
 - Kies "Simple executable (g++)" -> next.
@@ -52,7 +57,7 @@ In het project staat nu een bestand genaamd `“main.cpp”`. Hierin schrijf je 
 
 Deze uitgebreide handleiding heb je pas nodig na de tweede helft van semester 2 van Technische Informatica.
 
-In iedere professionel omgeving krijg je te maken met een ontwikkelomgeving. Ga je werken bij een bedrijf of begin je voor jezelf er is altijd sprake van een gedefineerde software ontwikelomgeving. Om de software opdrachten te maken binnen de aangeboden semesters kom je er dan ook niet onderuit om je softwareomgeving op een vooraf gedefineerde manier in te richten. We bieden vooraf geteste procedure aan met deze handleiding. Je bent vrij om hier van af te wijken en andere systemen te gebruien als je daar comfortabel mee bent. In semester 3 leer je hoe je een ontwikkelomgeving zelf kunt opzetten.
+In iedere professionele omgeving krijg je te maken met een ontwikkelomgeving. Ga je werken bij een bedrijf of begin je voor jezelf er is altijd sprake van een gedefineerde software ontwikelomgeving. Om de software opdrachten te maken binnen de aangeboden semesters kom je er dan ook niet onderuit om je softwareomgeving op een vooraf gedefineerde manier in te richten. We bieden vooraf geteste procedure aan met deze handleiding. Je bent vrij om hier van af te wijken en andere systemen te gebruien als je daar comfortabel mee bent. In semester 3 leer je hoe je een ontwikkelomgeving zelf kunt opzetten.
 
 De procedure duurt in totaal ongeveer 15-20 minuten.
 
