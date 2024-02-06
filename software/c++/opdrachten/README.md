@@ -17,12 +17,12 @@
 
 Dit bestand bevat links naar C++ opdrachten.
 ### Basisconcepten
-- [Opdrachten basisconcepten](../basisconcepten/opdr_basisconcepten)
+- [Opdrachten basisconcepten](../basisconcepten/opdr_basisconcepten.md)
   - 1.0A Hello, greenhouse
   - 1.0B Greenhouse commentaar
 
 ### Datatypes
-- [Opdrachten data-types](../data-types/opdr_data-types)
+- [Opdrachten data-types](../data-types/opdr_data-types.md)
   - 1.3A, 1.3B Int, Float, Char, Bool
   - 1.3C, 1.3D Int, Float, Char, Bool
 - [Opdrachten char](../data-types/char/opdr_char.md)
