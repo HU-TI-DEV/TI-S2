@@ -29,17 +29,17 @@ write numbers in other bases.
 
 The most relevant number bases for programming are:
 
--   \- decimal - the default base for numbers, a single digit is from 0
+-   decimal - the default base for numbers, a single digit is from 0
     to 9
 
--   \- hexadecimal or sexagesimal, a convenient abbreviation for binary
+-   hexadecimal or sexagesimal, a convenient abbreviation for binary
     numbers, because each hexadecimal digit (0..F) represents four bits
 
--   \- octal - this was used in early computers and one octal digit
+-   octal - this was used in early computers and one octal digit
     (0..7) represents three bits, we see it when Unix file access rights
     are printed or entered, e.g. `chmod 644 myfile.txt` for `rw-r–r–`
 
--   \- binary - the base in which all conventional digital computer
+-   binary - the base in which all conventional digital computer
     circuits work, a bit or binary digit (0..1) represents 'no current'
     and 'current'
 
@@ -49,25 +49,25 @@ from 0 up to base $10 + 26 =$ 36 in a single digit.
 
 ## Numbers from 0 to 16 in four different bases
 
-    10     16     8            2
+    10     16        8             2
   ---- ------ ----- ------------
-     0   0x00    00   0b00000000
-     1   0x01    01   0b00000001
-     2   0x02    02   0b00000010
-     3   0x03    03   0b00000011
-     4   0x04    04   0b00000100
-     5   0x05    05   0b00000101
-     6   0x06    06   0b00000110
-     7   0x07    07   0b00000111
-     8   0x08   010   0b00001000
-     9   0x09   011   0b00001001
-    10   0x0A   012   0b00001010
-    11   0x0B   013   0b00001011
-    12   0x0C   014   0b00001100
-    13   0x0D   015   0b00001101
-    14   0x0E   016   0b00001110
-    15   0x0F   017   0b00001111
-    16   0x10   020   0b00010000
+    00   0x00       0o00       0b00000000
+    01   0x01       0o01       0b00000001
+    02   0x02       0o02       0b00000010
+    03   0x03       0o03       0b00000011
+    04   0x04       0o04       0b00000100
+    05   0x05       0o05       0b00000101
+    06   0x06       0o06       0b00000110
+    07   0x07       0o07       0b00000111
+    08   0x08       0o10       0b00001000
+    09   0x09       0o11       0b00001001
+    10   0x0A       0o12       0b00001010
+    11   0x0B       0o13       0b00001011
+    12   0x0C       0o14       0b00001100
+    13   0x0D       0o15       0b00001101
+    14   0x0E       0o16       0b00001110
+    15   0x0F       0o17       0b00001111
+    16   0x10       0o20       0b00010000
 
 ## Larger bases - are they actually used?
 
@@ -101,6 +101,9 @@ Hexadecimal dump of the input data (`od -Ax -t x1`):
 0000040 62 75 6c 61 74 6f 72 21 0a 0a 
 000004a
 ```
+
+## Fun Fact
+Many early civilizations (and some current civilizations, too) used to count in a base 12 (duodecimal) system, by using their thumb to count their phalanges. For further reading, see: https://en.wikipedia.org/wiki/Duodecimal
 
 ## Referenties
 

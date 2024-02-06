@@ -97,3 +97,4 @@ Je gebruikt hiervoor:
 - een C++ programma.
 
 ![Selecteer blink in Arduino IDE](image.png)
+
