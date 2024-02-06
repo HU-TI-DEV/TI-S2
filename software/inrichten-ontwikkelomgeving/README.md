@@ -29,6 +29,8 @@ In dit semester wordt onder andere gebuik gemaakt van de volgende, vrij verkrijg
 - Git
 - Visual Studio Code
 
+Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor (bv https://onecompiler.com/cpp).
+
 ### Arduino IDE
 Om C++ code te draaien, gebruiken we in eerste instantie een [Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/).
 

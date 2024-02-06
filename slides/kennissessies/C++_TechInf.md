@@ -95,3 +95,5 @@ Je gebruikt hiervoor:
 - [de Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/), 
 - een Arduino UNO (een per groepje is genoeg)
 - een C++ programma.
+
+![Selecteer blink in Arduino IDE](image.png)
