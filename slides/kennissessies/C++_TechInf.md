@@ -58,11 +58,11 @@ Vandaag maken we een start met **programmeren in C++**.
 Ook installeren we de benodigde **ontwikkelomgeving**.
 
 Inhoud zie: 
-[Introductie C++](../../software/c++/README.md#introductie-c)
+[Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md)
 
 # 2 Programmeren bij TI
 
-Bestudeer de informatie in: [Introductie C++](../../software/c++/README.md#introductie-c).
+Bestudeer de informatie in: [Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md).
 
 Beantwoord de volgende vragen:
 

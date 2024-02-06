@@ -40,11 +40,11 @@ pre {
 }
 </style>
 
-# Kennissessies
+# Kennissessie 02
 
 ## C++ Historie
 
-<subtitle><b>2022-2023 Blok C</b><br>
+<subtitle><b>2023-2024</b><br>
 TI Semester 2
 </subtitle>
 
@@ -52,29 +52,12 @@ TI Semester 2
 
 # Slidev
 
-# 1 Introductie en geschiedenis C++
-
-Inhoud zie: 
-[Introductie C++](#introductie-c)
-
-Todo: hoe include ik de info uit bovenstaande md?
-
----
-
-# 2 Basisconcepten 
-
-Inhoud zie: 
-[Basisconcepten C++](#basisconcepten-c)
-
-Todo: hoe include ik de info uit bovenstaande md?
-
----
-
-# 3 Datatypes
+# 1 Geschiedenis C++
 
 Inhoud zie:
-[Data-types](https://hu-ti-dev.github.io/TI-S2/software/c++/data-types/)
+[Geschiedenis C++](../../software/c++/geschiedenis/README.md)
 
-[Data-types](../../software/c++/data-types/)
-
-Todo: hoe include ik de info uit bovenstaande md?
+Beantwoord de volgende vraag, met je groepje:
+- Zoek een weetje over C++ (probeer iets ludieks te vinden).
+- Maak er een C++ programma van.
+---
