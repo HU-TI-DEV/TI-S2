@@ -55,7 +55,7 @@ TI Semester 2
 # 1 Datatypes C++
 
 Inhoud zie:
-[Data-types](https://hu-ti-dev.github.io/TI-S2/software/c++/data-types/)
+[Data-types](https://hu-ti-dev.github.io/TI-S2/software/c++/data-types/README.md)
 
 Maak de
-[opdrachten over datatypes](../../software/c++/data-types/opdr_data-types.md).
+[opdrachten over datatypes](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/data-types/opdr_data-types.md).
