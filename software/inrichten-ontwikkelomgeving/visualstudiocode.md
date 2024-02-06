@@ -27,7 +27,7 @@ To successfully complete this tutorial, you must do the following steps:
 - Install Visual Studio Code.
 - Install the C/C++ extension for VS Code. 
 - Install MSYS2 (Windows):
-#  - Doorloop alle stappen op de pagina: https://code.visualstudio.com/docs/cpp/config-mingw
+- Doorloop alle stappen op de pagina: https://code.visualstudio.com/docs/cpp/config-mingw
 
 ### VScode C++, Arduino UNO & PlatformIO
 See the instructions in the video (about 11 minutes): https://www.youtube.com/watch?v=0poh_2rBq7E 
