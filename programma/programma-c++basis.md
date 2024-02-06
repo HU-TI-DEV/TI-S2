@@ -6,7 +6,7 @@ We schrijven in dit semester software in C++.
 ## Voorbereiding
 Begin met de [Introductie C++](../software/c++/README.md).
 
-Alle opdrachten voor het eerste kwartaal vind je in: [Opdrachten C++ (1)](../software/c++/opdrachten/).
+Alle opdrachten voor het eerste kwartaal vind je in: [Opdrachten C++ (1)](../software/c++/opdrachten/README.md).
 
 ## Na de les
 Als je goed gewerkt hebt, neem dan een pauze. Ga naar de Vlindertuin in de Hortus Botanicus. Je hebt gratis toegang met je HU studentenpas.
