@@ -9,6 +9,7 @@ const int pinAnalogIn = A0;
 int dataAnalogIn = 0;
 
 // The Arduino Analog-to-Digital Converter (ADC) has 10 bit resolution.
+// Each measurement results in a number from 0 to 1023.
 // Arduino Uno and Arduino Nano map this to a range from 0 Volts to 5 Volts.
 const float analogDataToVolt = 5.0 / 1024;
 
