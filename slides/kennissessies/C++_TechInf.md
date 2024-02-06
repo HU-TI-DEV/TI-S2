@@ -74,7 +74,7 @@ Beantwoord de volgende vragen:
 # 3 Installatie Game VSC
 
 Inhoud zie: 
-[Installatie VSC ontwikkelomgeving](../../software/inrichten-ontwikkelomgeving/visualstudiocode.md)
+[Installatie VSC ontwikkelomgeving](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/inrichten-ontwikkelomgeving/visualstudiocode.md)
 
 Let op: de aanwijzingen in het document staan nog niet allemaal goed. Soms staan ze er dubbel in. Misschien is er een stap vergeten.
 Voor elke **verbetering** ontvang je een punt.
