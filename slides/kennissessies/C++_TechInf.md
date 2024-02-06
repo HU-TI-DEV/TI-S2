@@ -58,11 +58,11 @@ Vandaag maken we een start met **programmeren in C++**.
 Ook installeren we de benodigde **ontwikkelomgeving**.
 
 Inhoud zie: 
-[Introductie C++](../../software/c++/README.md#introductie-c)
+[Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md)
 
 # 2 Programmeren bij TI
 
-Bestudeer de informatie in: [Introductie C++](../../software/c++/README.md#introductie-c).
+Bestudeer de informatie in: [Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md).
 
 Beantwoord de volgende vragen:
 
@@ -74,7 +74,7 @@ Beantwoord de volgende vragen:
 # 3 Installatie Game VSC
 
 Inhoud zie: 
-[Installatie VSC ontwikkelomgeving](../../software/inrichten-ontwikkelomgeving/visualstudiocode.md)
+[Installatie VSC ontwikkelomgeving](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/inrichten-ontwikkelomgeving/visualstudiocode.md)
 
 Let op: de aanwijzingen in het document staan nog niet allemaal goed. Soms staan ze er dubbel in. Misschien is er een stap vergeten.
 Voor elke **verbetering** ontvang je een punt.

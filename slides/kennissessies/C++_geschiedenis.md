@@ -55,7 +55,7 @@ TI Semester 2
 # 1 Geschiedenis C++
 
 Inhoud zie:
-[Geschiedenis C++](../../software/c++/geschiedenis/README.md)
+[Geschiedenis C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/geschiedenis/README.md)
 
 Beantwoord de volgende vraag, met je groepje:
 - Zoek een weetje over C++ (probeer iets ludieks te vinden).
