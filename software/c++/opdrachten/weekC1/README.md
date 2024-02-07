@@ -6,7 +6,7 @@
 
 
 Je kunt de volgende opdrachten maken:
-- [Opdrachten basisconcepten](../../basisconcepten/opdr_basisconcepten)
+- [Opdrachten basisconcepten](../../basisconcepten/opdr_basisconcepten.md)
   - 1.0A Hello, greenhouse
   - 1.0B Greenhouse commentaar
 
