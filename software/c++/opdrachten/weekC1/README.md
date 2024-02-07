@@ -10,7 +10,7 @@ Je kunt de volgende opdrachten maken:
   - 1.0A Hello, greenhouse
   - 1.0B Greenhouse commentaar
 
-- [Opdrachten data-types](../../data-types/opdr_data-types)
+- [Opdrachten data-types](../../data-types/opdr_data-types.md)
   - 1.3A, 1.3B Int, Float, Char, Bool
   - 1.3C, 1.3D Int, Float, Char, Bool
 - [Opdrachten char](../../data-types/char/opdr_char.md)
