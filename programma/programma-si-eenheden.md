@@ -24,4 +24,4 @@ Kijk eventueel alvast de volgende videos:
 
 ## Na de les
 
-Bestudeer bovenstaande stof nog eens door en controleer voor jezelf of alles nu duidelijk is.
+Bestudeer bovenstaande stof nog eens en controleer voor jezelf of alles nu duidelijk is.
