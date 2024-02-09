@@ -10,11 +10,17 @@ Lees van
 [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
 
 de delen:
+
 - Introductie
 - Current
 - Voltage
 - Power
 - Energy
+
+Kijk eventueel alvast de volgende videos:
+
+- [Electric Potential](https://www.youtube.com/watch?v=-Rb9guSEeVE&list=PLkyBCj4JhHt9dIWsO7GaTU149BkIFbo5y&index=3)
+- [Battery Energy and Power](https://www.youtube.com/watch?v=u4FpbaMW5sk&list=PLkyBCj4JhHt9dIWsO7GaTU149BkIFbo5y&index=4)
 
 ## Na de les
 
