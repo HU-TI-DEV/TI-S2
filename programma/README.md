@@ -5,32 +5,32 @@
 ### Inhoud[](toc-id)
 
 - [Semester 2 van Technische Informatica](#semester-2-van-technische-informatica)
-  - [Inhoud](#inhoud)
-    - [Een introductie](#een-introductie)
-  - [Organisatie](#organisatie)
-    - [Programma](#programma)
-  - [Onderwijsweek C1 (5-2-2024)](#onderwijsweek-c1-5-2-2024)
-  - [Onderwijsweek C2 (12-2-2024)](#onderwijsweek-c2-12-2-2024)
-  - [Onderwijsweek C3 (19-2-2024)](#onderwijsweek-c3-19-2-2024)
-  - [Onderwijsweek C4 (26-2-2024)](#onderwijsweek-c4-26-2-2024)
-  - [Onderwijsweek C5 (4-3-2024)](#onderwijsweek-c5-4-3-2024)
-  - [Onderwijsweek C6 (11-3-2024)](#onderwijsweek-c6-11-3-2024)
-  - [Onderwijsweek C7 (18-3-2024)](#onderwijsweek-c7-18-3-2024)
-  - [Onderwijsweek C8 (25-3-2024)](#onderwijsweek-c8-25-3-2024)
-  - [Onderwijsweek C9 (1-4-2024)](#onderwijsweek-c9-1-4-2024)
-  - [Onderwijsweek C10 (8-4-2024)](#onderwijsweek-c10-8-4-2024)
-  - [Onderwijsweek D1 (15-4-2024)](#onderwijsweek-d1-15-4-2024)
-  - [Onderwijsweek D2 (22-4-2024)](#onderwijsweek-d2-22-4-2024)
-  - [Onderwijsweek D3 (29-4-2024)](#onderwijsweek-d3-29-4-2024)
-  - [Onderwijsweek D4 (6-5-2024)](#onderwijsweek-d4-6-5-2024)
-  - [Onderwijsweek D5 (13-5-2024)](#onderwijsweek-d5-13-5-2024)
-  - [Onderwijsweek D6 (20-5-2024)](#onderwijsweek-d6-20-5-2024)
-  - [Onderwijsweek D7 (20-5-2024)](#onderwijsweek-d7-20-5-2024)
-  - [Onderwijsweek D8 (3-6-2024)](#onderwijsweek-d8-3-6-2024)
-  - [Onderwijsweek D9 (10-6-2024)](#onderwijsweek-d9-10-6-2024)
-  - [Onderwijsweek D10 (17-6-2024)](#onderwijsweek-d10-17-6-2024)
-  - [Onderwijsweek D11 (24-6-2024)](#onderwijsweek-d11-24-6-2024)
-  - [Onderwijsweek D12 (1-7-2024)](#onderwijsweek-d12-1-7-2024)
+    - [Inhoud](#inhoud)
+  - [Een introductie](#een-introductie)
+    - [Organisatie](#organisatie)
+  - [Programma](#programma)
+    - [Onderwijsweek C1 (5-2-2024)](#onderwijsweek-c1-5-2-2024)
+    - [Onderwijsweek C2 (12-2-2024)](#onderwijsweek-c2-12-2-2024)
+    - [Onderwijsweek C3 (19-2-2024)](#onderwijsweek-c3-19-2-2024)
+    - [Onderwijsweek C4 (26-2-2024)](#onderwijsweek-c4-26-2-2024)
+    - [Onderwijsweek C5 (4-3-2024)](#onderwijsweek-c5-4-3-2024)
+    - [Onderwijsweek C6 (11-3-2024)](#onderwijsweek-c6-11-3-2024)
+    - [Onderwijsweek C7 (18-3-2024)](#onderwijsweek-c7-18-3-2024)
+    - [Onderwijsweek C8 (25-3-2024)](#onderwijsweek-c8-25-3-2024)
+    - [Onderwijsweek C9 (1-4-2024)](#onderwijsweek-c9-1-4-2024)
+    - [Onderwijsweek C10 (8-4-2024)](#onderwijsweek-c10-8-4-2024)
+    - [Onderwijsweek D1 (15-4-2024)](#onderwijsweek-d1-15-4-2024)
+    - [Onderwijsweek D2 (22-4-2024)](#onderwijsweek-d2-22-4-2024)
+    - [Onderwijsweek D3 (29-4-2024)](#onderwijsweek-d3-29-4-2024)
+    - [Onderwijsweek D4 (6-5-2024)](#onderwijsweek-d4-6-5-2024)
+    - [Onderwijsweek D5 (13-5-2024)](#onderwijsweek-d5-13-5-2024)
+    - [Onderwijsweek D6 (20-5-2024)](#onderwijsweek-d6-20-5-2024)
+    - [Onderwijsweek D7 (20-5-2024)](#onderwijsweek-d7-20-5-2024)
+    - [Onderwijsweek D8 (3-6-2024)](#onderwijsweek-d8-3-6-2024)
+    - [Onderwijsweek D9 (10-6-2024)](#onderwijsweek-d9-10-6-2024)
+    - [Onderwijsweek D10 (17-6-2024)](#onderwijsweek-d10-17-6-2024)
+    - [Onderwijsweek D11 (24-6-2024)](#onderwijsweek-d11-24-6-2024)
+    - [Onderwijsweek D12 (1-7-2024)](#onderwijsweek-d12-1-7-2024)
 
 ---
 
@@ -71,7 +71,7 @@ Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 | C1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).           | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Teamvorming (**TM**)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | C1   | di  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).           | Scrum en projectplanning                                                                                            | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**HP & GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen. [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](../programma/programma-ADC.md) nog eens na |
 | C1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project                                                                                                  | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                         |
-| C1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren.                                                                                            | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| C1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren.                                                                                            | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ### Onderwijsweek C2 (12-2-2024)
 
@@ -79,11 +79,10 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 
 | Week | Dag | Thema                                                                                         | Project                               | Kennissessie                                                                                                                                                                                                 |
 | ---- | --- | --------------------------------------------------------------------------------------------- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Uitleg retrospective en sprint review | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
+| C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | C2   | di  | Excursie Kwekerij Lankhaar                                                                    | Excursie: 8.30 Aanwezig!              | 15.00 terug in Utrecht (**allen**)                                                                                                                                                                           |
 | C2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas                   | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), [Electronika (basis)](programma-si-eenheden.md) (**MV**)                                                |
-| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas                   | Digitaal Pin (**HP**), C++ oefenen met vectoren (**GP**), Recursie (**HP**,**GP**)                                                                                                                           |
-
+| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas                   | Digitaal Pin (**HP**), C++ oefenen met vectoren (**GP**), Recursie (**HP**,**GP**)                                                                                                                         
 ### Onderwijsweek C3 (19-2-2024)
 
 | Week | Dag | Thema    | Project | Kennissessie |
@@ -110,7 +109,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C5   | ma  |       | Werken aan project | Electrisch Schema, Weerstanden(**MV**)                                                                   |
 | C5   | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**)                                                             |
 | C5   | wo  |       | Werken aan project | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
-| C5   | do  |       | Show & Tell        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5   | do  |       | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
 | C5   | vr  |       |                    | [Soldeerpracticum](./programma-solderen.md) (**HS**)                                                     |
 
 ### Onderwijsweek C6 (11-3-2024)
@@ -138,7 +137,8 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project | UART                          |
 | C8   | di  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Werken aan project | UART, PWM                     |
 | C8   | wo  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Werken aan project | PWM                           |
-| C8   | do  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Show & Tell        | Git workshop (**HS**, **TM**) |
+| C8   | do  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)        | Git workshop (**HS**, **TM**) |
+>>>>>>> dd6f1f518c6be76ee244cccfa495bf4bb803fa3b
 
 ### Onderwijsweek C9 (1-4-2024)
 
@@ -165,7 +165,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | D1   | ma  |       | Werken aan project | Niet-Functionele Requirements (**MV**)                                        |
 | D1   | di  |       | Werken aan project | Activity Diagrammen (**MV**)                                                  |
 | D1   | wo  |       | Werken aan project | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
-| D1   | do  |       | Werken aan project | Klassediagram (**MV**)                                                        |
+| D1   | do  |       | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)                                                        |
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -192,9 +192,8 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | ---- | --- | ------------------ | ------------------ | ----------------------------- |
 | D4   | ma  |                    | Werken aan project | Servo Controller (**MV**)     |
 | D4   | di  |                    | Werken aan project | Finite state machine (**MV**) |
-| D4   | wo  |                    | Werken aan project | C++ (**GP**,**HP**)           |
+| D4   | wo  |                    | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)           |
 | D4   | do  | **Hemelvaartsdag** |                    |                               |
-
 ### Onderwijsweek D5 (13-5-2024)
 
 | Week | Dag | Thema                                                          | Project            | Kennissessie                                                       |
@@ -211,7 +210,8 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | D6   | ma  | **2e Pinksterdag** |                    |                                                          |
 | D6   | di  |                    | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**) |
 | D6   | wo  |                    | Werken aan project | C++ (**GP**,**HP**)                                      |
-| D6   | do  |                    | Werken aan project | C++ (**GP**,**HP**)                                      |
+| D6   | do  |                    | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)                                      |
+
 
 ### Onderwijsweek D7 (20-5-2024)
 
@@ -229,7 +229,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | D8   | ma  |       | Werken aan project | Workshop Lt-spice (**MV**)                  |
 | D8   | di  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | wo  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8   | do  |       | Werken aan project |                                             |
+| D8   | do  |       | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |                                             |
 
 ### Onderwijsweek D9 (10-6-2024)
 

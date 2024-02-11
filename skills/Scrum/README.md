@@ -53,6 +53,9 @@ Naast dat taken worden doorgezet op het scrumboard wordt de voortgang vaak ook g
 
 - Definition of done
 De definition of done (DOD) is eigenlijk niet een apart document, maar de afspraken waaraan alle tickets moeten voldoen voordat ze als klaar kunnen worden gemarkeerd. Dit is erg belangrijk omdat dit nodig is om aan de PO aan te tonen dat iets daadwerkelijk klaar is.
+
+-Defintion of fun
+De defintion of fun (DOF) wordt direct afgeleid van het teamcontract. In de praktijk wordt deze meestal vastgesteld aan het begin van het project en ook niet alszodanig benoemt. Wel is het zo dat dit ook in de praktijk een van de basis elementen is van de retro. Je kan elkaar alleen houden aan afsrpaken die je hebt opgeschreven.  
   
 ### De scrum ceremonies 
 - Sprint Planning
@@ -79,20 +82,15 @@ Hieronder staat een visuele representatie van het programma per sprint voor S2:
 
 Elke sprint begint met het maken van een planing voor de sprint. De eerste sprint wijkt af doordat deze start op een maandag. De sprints daarna starten op de donderdag direct na de review. In de planningsessie wordt het bord gevuld met taken door het team. Deze taken worden toegewezen aan de projectleden. De scrum master begeleid dit proces, maar het team bepaald wie welke taak krijgt. Als alle leden akkoord zijn wordt het aantal taken geregistreerd op de burn down chart en kan er gestart worden met de sprint. Elke dag daarna werkt elk teamlid autonoom of als de taak dat vereist samen. Om de voortgang te bewaken wordt elke dag een stand-up gehouden. De laatste dag van de sprint is de donderdag. Hier wordt in maximaal een uur de sprint opgeleverd aan de product owner in de review en doet het team een retro van een uur om het werkproces scherper te krijgen. **Let er op dat de uitkomst van de ceremonies vast staat, maar de vorm zeker niet!**  
 Na het aflsuiten van de sprint wordt direct de nieuwe sprint opgestart. De informatie vanuit de review is dan nog vers en dat maakt het maken van de planning makkelijker.
-De uitkomsten van de ceremonies worden tijdens de ceremonie vastgelegd in een kort document. Deze documenten worden bij elkaar verzameld en dienen als naslag werk voor het team en de PO. 
+De uitkomsten van de ceremonies worden tijdens de ceremonie vastgelegd in een kort document. Dit document wordt bij elkaar verzameld en dient als naslag werk voor het team en de PO. 
 
 ## Ondersteunende documenten
-In de templates staan de elemeneten beschreven die in de ceremonie moeten worden behandeld en kan een handvat zijn voor de registratie. De vorm wordt hier nit door bepaald.
+In de template staan de elementen beschreven die in de ceremonies moeten worden behandeld. Let op dat dit de vorm bepaald, maar enkel het resultaat beschrijft. 
 
-De template voor de planning ceremonie vind je hier: [planning](../Scrum/files/Planning%20Template.docx)
+[Sprint verslag](../Scrum/files/Sprint-verslag.md)
 
-De template voor de daily ceremonie vind je hier: [daily](..\skills\Scrum\files\Stand%20up%20template.docx)
-
-De template voor de review ceremonie vind je hier: [review](..\skills\Scrum\files\Review%20Template.docx)
-
-De template voor de retro ceremonie vind je hier: [retro](..\skills\Scrum\files\Retro%20template.docx)
 
 ## bronnen
-
+[scrum checklist](../Scrum/files/Scrum%20Checklist.pdf)
 
 
