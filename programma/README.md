@@ -75,7 +75,7 @@ De docenten zijn:
 
 | Onderwijsweek | Dag | Thema                                                                                                                                                                                                                                                                                                  | Project                               | Kennissessie                                        |
 | ------------- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------- | --------------------------------------------------- |
-| C2            | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). Wat heb je minimaal nodig om een eigen microcontroller te kunnen aansturen? Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om te registreren of een deur open en dicht gaat. | Uitleg retrospective en sprint review | C++ vector en condities if then else (**GP**)       |
+| C2            | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). Wat heb je minimaal nodig om een eigen microcontroller te kunnen aansturen? Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om te registreren of een deur open en dicht gaat. | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | C++ vector en condities if then else (**GP**)       |
 | C2            | di  | Excursie Kwekerij Lankhaar                                                                                                                                                                                                                                                                             | Excursie: 8.30 Aanwezig!              | 15.00 terug in Utrecht (**allen**)                  |
 | C2            | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md).                                                                                                                                                                                                           | Werken aan project                    | C++ vector input, C++ oefenen met vectoren (**GP**) |
 | C2            | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md).                                                                                                                                                                                                           | Show & Tell                           | recursie (**HP**,**GP**)                            |
@@ -106,7 +106,7 @@ De docenten zijn:
 | C5            | ma  |       | Werken aan project | Electrisch Schema, Weerstanden(**MV**)       |
 | C5            | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**) |
 | C5            | wo  |       | Werken aan project | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
-| C5            | do  |       | Show & Tell        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5            | do  |       | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)        | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
 | C5            | vr  |       |         | [Soldeerpracticum](./programma-solderen.md) (**HS**) |
 
 ### Onderwijsweek C6 (11-3-2024)
@@ -134,7 +134,7 @@ De docenten zijn:
 | C8            | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project | UART                          |
 | C8            | di  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Werken aan project | UART, PWM                     |
 | C8            | wo  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Werken aan project | PWM                           |
-| C8            | do  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Show & Tell        | Git workshop (**HS**, **TM**) |
+| C8            | do  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)        | Git workshop (**HS**, **TM**) |
 
 ### Onderwijsweek C9 (1-4-2024)
 
@@ -161,7 +161,7 @@ De docenten zijn:
 | D1            | ma  |       | Werken aan project | Niet-Functionele Requirements (**MV**)                                        |
 | D1            | di  |       | Werken aan project | Activity Diagrammen (**MV**)                                                  |
 | D1            | wo  |       | Werken aan project | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
-| D1            | do  |       | Werken aan project | Klassediagram (**MV**)                                                        |
+| D1            | do  |       | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)                                                        |
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -188,7 +188,7 @@ De docenten zijn:
 | ------------- | --- | ------------------ | ------------------ | ----------------------------- |
 | D4            | ma  |                    | Werken aan project | Servo Controller (**MV**)     |
 | D4            | di  |                    | Werken aan project | Finite state machine (**MV**) |
-| D4            | wo  |                    | Werken aan project | C++ (**GP**,**HP**)           |
+| D4            | wo  |                    | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)           |
 | D4            | do  | **Hemelvaartsdag** |                    |                               |
 
 ### Onderwijsweek D5 (13-5-2024)
@@ -207,7 +207,7 @@ De docenten zijn:
 | D6            | ma  | **2e Pinksterdag** |                    |                                                          |
 | D6            | di  |                    | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**) |
 | D6            | wo  |                    | Werken aan project | C++ (**GP**,**HP**)                                      |
-| D6            | do  |                    | Werken aan project | C++ (**GP**,**HP**)                                      |
+| D6            | do  |                    | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)                                      |
 
 ### Onderwijsweek D7 (20-5-2024)
 
@@ -225,7 +225,7 @@ De docenten zijn:
 | D8            | ma  |       | Werken aan project | Workshop Lt-spice (**MV**)                  |
 | D8            | di  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8            | wo  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8            | do  |       | Werken aan project |                                             |
+| D8            | do  |       | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |                                             |
 
 ### Onderwijsweek D9 (10-6-2024)
 
