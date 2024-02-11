@@ -40,7 +40,7 @@ pre {
 }
 </style>
 
-# Kennissessies
+# Kennissessie 01
 
 ## C++ en Technische Informatica
 
@@ -54,10 +54,15 @@ TI Semester 2
 
 # 1 Introductie
 
+Vandaag maken we een start met **programmeren in C++**.
+Ook installeren we de benodigde **ontwikkelomgeving**.
+
 Inhoud zie: 
-[Introductie C++](../../software/c++/README.md) #introductie-c)
+[Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md)
 
 # 2 Programmeren bij TI
+
+Bestudeer de informatie in: [Introductie C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/README.md).
 
 Beantwoord de volgende vragen:
 
@@ -66,10 +71,13 @@ Beantwoord de volgende vragen:
 
 ---
 
-# 3 Installatie Game
+# 3 Installatie Game VSC
 
 Inhoud zie: 
-[Installatie ontwikkelomgeving](...)
+[Installatie VSC ontwikkelomgeving](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/inrichten-ontwikkelomgeving/visualstudiocode.md)
+
+Let op: de aanwijzingen in het document staan nog niet allemaal goed. Soms staan ze er dubbel in. Misschien is er een stap vergeten.
+Voor elke **verbetering** ontvang je een punt.
 
 *Installeer de benodigde ontwikkelomgeving.*
 Je speelt de game in teams tegen elkaar.
@@ -78,3 +86,15 @@ Tijdens de game, worden er een paar 'meetmomenten'
 uitgevoerd. Tijdens die meetmomenten geldt: de groep krijgt
 - pluspunten: voor elke stap die alle teamleden hebben uitgevoerd in het installatieproces (synchronisatiepunten).
 - minpunten: als teamleden 'uit de pas lopen'. Hoe groter het verschil is tussen de teamleden, hoe meer puntenaftrek de groep krijgt.
+  
+# 4 Installatie Arduino IDE + Blink
+
+Opdracht:
+De volgende opdracht voer je uit met je team. De bedoeling is dat iedereen in je team een Arduino UNO kan laten knipperen. 
+Je gebruikt hiervoor:
+- [de Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/), 
+- een Arduino UNO (een per groepje is genoeg)
+- een C++ programma.
+
+![Selecteer blink in Arduino IDE](image.png)
+

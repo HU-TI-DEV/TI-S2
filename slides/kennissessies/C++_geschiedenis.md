@@ -40,7 +40,7 @@ pre {
 }
 </style>
 
-# Kennissessies
+# Kennissessie 02
 
 ## C++ Historie
 
@@ -52,30 +52,12 @@ TI Semester 2
 
 # Slidev
 
-# 1 Introductie en geschiedenis C++
+# 1 Geschiedenis C++
 
 Inhoud zie:
-[Introductie C++](../../software/c++/README.md)
+[Geschiedenis C++](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/geschiedenis/README.md)
 
 Beantwoord de volgende vraag, met je groepje:
 - Zoek een weetje over C++ (probeer iets ludieks te vinden).
 - Maak er een C++ programma van.
 ---
-
-# 2 Basisconcepten 
-
-Inhoud zie: 
-[Basisconcepten C++](../../software/c++/basisconcepten/README.md)
-
-Todo: hoe include ik de info uit bovenstaande md?
-
----
-
-# 3 Datatypes
-
-Inhoud zie:
-[Data-types](https://hu-ti-dev.github.io/TI-S2/software/c++/data-types/)
-
-[Data-types](../../software/c++/data-types/)
-
-Todo: hoe include ik de info uit bovenstaande md?

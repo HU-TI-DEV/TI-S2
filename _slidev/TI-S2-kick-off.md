@@ -140,15 +140,17 @@ layout: intro
 
 ---
 
-# Verloop in detail
-
-![Verloop in detail](/Semester_proces_robot.png)
-
----
-
 # Het docenten team
 
 [Canvas Internet of Things](https://canvas.hu.nl/courses/39897)
+
+---
+
+# Kennis en inhoud
+
+[TI S2 repository](https://github.com/HU-TI-DEV/TI-S2/)
+
+[TI S2 website](https://hu-ti-dev.github.io/TI-S2/)
 
 ---
 
@@ -193,6 +195,13 @@ Video [Kwekerij Lankhaar](https://youtube.com/shorts/vG3Eq2omaHQ?feature=share)
 Iedereen om 8.30 uur aanwezig!
 
 ---
+
+# Praktische zaken
+
+Installeer vast Arduino IDE
+[Arduino IDE](https://www.arduino.cc/en/software)
+
+---
 layout: intro
 ---
 
@@ -206,6 +215,8 @@ layout: intro
 
 Zelf teams vormen van 5 per team: 
 Teamnaam en logo verzinnen.
+
+https://classroom.github.com/a/dBS-3nqo
 
 Wie kan wat? 
 - Waar zit je nu al op de [leeruitkomsten](https://hu-ti-dev.github.io/TI-S2/#leeruitkomsten)?

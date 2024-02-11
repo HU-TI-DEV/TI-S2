@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../HU/TIsoftware/TiPlatformIO"
+		},
+		{
+			"name": "Blink Arduino UNO",
+			"path": "Blink Arduino UNO"
+		},
+		{
+			"name": "BlinkFunction Arduino UNO",
+			"path": "BlinkFunction Arduino UNO"
+		},
+		{
+			"name": "SimpleServo UNO",
+			"path": "SimpleServo UNO"
+		}
+	],
+	"settings": {}
+}

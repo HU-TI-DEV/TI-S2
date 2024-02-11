@@ -20,7 +20,7 @@
     - [Oorsprong C++](#oorsprong-c)
     - [De naam C++](#de-naam-c)
     - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
-  - [C++ onderwerpen](#c-onderwerpen)
+  - [C++ onderwerpen (nog niet volledig)](#c-onderwerpen-nog-niet-volledig)
   - [Referenties](#referenties)
 ---
 
@@ -74,22 +74,33 @@ De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.
 ### Gebruikte versie (C++14)
 Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
 
-## C++ onderwerpen
-
+## C++ onderwerpen (nog niet volledig)
 * [basisconcepten/](../c++/basisconcepten/README.md)
+* [bits/](../c++/bits/README.md)
 * [condities/](../c++/condities/README.md)
   * [do-while/](../c++/condities/do-while/README.md)
   * [for/](../c++/condities/for/README.md)
   * [if-else/](../c++/condities/if-else/README.md)
   * [while/](../c++/condities/while/README.md)
+  * [break](../c++/condities/break/README.md)
 * [data-types/](../c++/data-types/README.md)
   * [bool/](../c++/data-types/bool/README.md)
   * [float/](../c++/data-types/float/README.md)
   * [int/](../c++/data-types/int/README.md)
+  * [char/](../c++/data-types/char/README.md)
   * [list/](../c++/data-types/list/README.md)
+  * [string/](../c++/data-types/string/README.md)
   * [vector/](../c++/data-types/vector/README.md)
-* [for-loop/](../c++/for-loop/README.md)
-  * [dubbele-for-loop/](../c++/for-loop/dubbele-for-loop/README.md)
+  * [struct/](../c++/data-types/struct/README.md)
+* [expressies/](../c++/expressies/README.md)
+* [files-input/](../c++/files-input/README.md)
+* [functies/](../c++/functies/README.md)
+* [geschiedenis/](../c++/geschiedenis/README.md)
+* [inlezen-gegevens](../c++/inlezen-gegevens/README.md)
+* [meerdere-bronbestanden](../c++/meerdere-bronbestanden/README.md)
+* [patronen/](../c++/patronen/README.md)
+* [programmastroom/](../c++/programmastroom/README.md)
+...
 
 
 ## Referenties
