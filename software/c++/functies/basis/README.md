@@ -167,7 +167,7 @@ eerste wordt aangeroepen.
 
 ### Returnwaarde main
 
-De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. `return 0;` mag bij main() worden weggelaten. Als de return-opdracht ontbreekt wordt door de compiler `return 0;` toegevoegd.
+De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. 'return 0;' mag bij main() worden weggelaten. Als de return-opdracht ontbreekt wordt door de compiler 'return 0;' toegevoegd.
 
 ### Zo min mogelijk code in main
 
