@@ -16,6 +16,7 @@
 ---
 
 ## Basis
+
 Een functie is een verzameling coderegels die we een *naam* geven. De code van de functie noemen we de *body*.
 
 We kunnen de functie iets meegeven via *parameters* en iets terugvragen via de *returnwaarde*.
@@ -116,7 +117,6 @@ int main(){
 
 *Codevoorbeeld 8.3 Functies met string en char*
 
-
 ```c++
 #include <iostream>
 #include <string>
@@ -167,7 +167,7 @@ eerste wordt aangeroepen.
 
 ### Returnwaarde main
 
-De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. “return 0;” mag bij main() worden weggelaten. Als de return-opdracht ontbreekt wordt door de compiler “return 0;” toegevoegd.
+De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. `return 0;` mag bij main() worden weggelaten. Als de return-opdracht ontbreekt wordt door de compiler `return 0;` toegevoegd.
 
 ### Zo min mogelijk code in main
 
