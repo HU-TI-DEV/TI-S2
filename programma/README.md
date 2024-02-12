@@ -49,7 +49,7 @@ De contacturen zijn:
 * maandag & dinsdag in de middag
 * woensdag & donderdag in de ochtend.
 
-Ons lokaal is HL15-3.072. HL15-3.076 is beschikbaar als extra overlegruimte.
+Ons lokaal is HL15-3.072. HL15-3.076 is beschikbaar als extra overlegruimte. Ruimte HL15-3.070 is daarnaast elk projectuur beschikbaar als overlegruimte. 
 
 De docenten zijn:
 
