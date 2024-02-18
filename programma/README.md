@@ -67,7 +67,7 @@ De docenten zijn:
 Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een temperatuursensor uitlezen en een analoge waarde omzetten naar een temperatuur. In een for-loop kun je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
-| -- | -- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | C1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Teamvorming (**TM**)     |
 | C1   | di  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Scrum en projectplanning     | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**HP & GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen. [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](../programma/programma-ADC.md) nog eens na |
 | C1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project     | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**)     |
@@ -101,9 +101,9 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Schuifregister (**HS**) |
-| C4   | di  | Schuifregister & SPI     | Werken aan project     | [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
+| C4   | di  | Schuifregister & SPI     | Werken aan project     | Rekenen (**MV**)     |
 | C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](../hardware-interfacing/communicatie/SPI/README.md) (**HP**)     |
-| C4   | do  | Schuifregister SPI     | Werken aan project     | Rekenen (**MV**), Rekenen met eenheden (**MV**)     |
+| C4   | do  | Schuifregister SPI     | Werken aan project     | Rekenen met eenheden (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
 
 ### Onderwijsweek C5 (4-3-2024)
 
