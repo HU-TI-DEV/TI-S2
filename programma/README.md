@@ -66,12 +66,12 @@ De docenten zijn:
 
 Week C1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een temperatuursensor uitlezen en een analoge waarde omzetten naar een temperatuur. In een for-loop kun je graden Kelvin omzetten naar graden Celsius en het resultaat laten weergeven in een console.
 
-| Week | Dag | Thema                                                                                                                                                               | Project                                                                                                             | Kennissessie                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| ---- | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| C1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).           | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Teamvorming (**TM**)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- | 
+| C1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).           | Project introductie. De slimme kas. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Teamvorming (**TM**)  |
 | C1   | di  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).           | Scrum en projectplanning                                                                                            | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**HP & GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello greenhouse" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen. [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](../programma/programma-ADC.md) nog eens na |
-| C1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project                                                                                                  | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                         |
-| C1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren.                                                                                            | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| C1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**) |
+| C1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren. | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 ### Onderwijsweek C2 (12-2-2024)
 
@@ -100,15 +100,15 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema | Project | Kennissessie |
 | ---- | --- | --- | --- | --- |
-| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller.  | Uitleg: Daily Standup en Review | SPI, Schuifregister (**GP**,**HP**)                                           |
-| C4   | di  | Schuifregister & SPI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Werken aan project | [Functionele Requirements](./programma-functionele-requirements.md). (**MV**) |
-| C4   | wo  | Schuifregister & SPI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Werken aan project                                                     | Rekenen (**MV**)                                                              |
-| C4   | do  | Schuifregister & SPI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Werken aan project                                                     | Rekenen met eenheden (**MV**)                                                 |
+| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller.  | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Schuifregister (**HS**) |
+| C4   | di  | Schuifregister & SPI | Werken aan project | [Functionele Requirements](./programma-functionele-requirements.md) (**MV**) |
+| C4   | wo  | Schuifregister & SPI  | Werken aan project  | [SPI](../hardware-interfacing/communicatie/SPI/README.md) (**HP**) |
+| C4   | do  | Schuifregister SPI | Werken aan project  | Rekenen (**MV**), Rekenen met eenheden (**MV**)  |
 
 ### Onderwijsweek C5 (4-3-2024)
 
-| Week | Dag | Thema | Project            | Kennissessie                                                                                             |
-| ---- | --- | ----- | ------------------ | -------------------------------------------------------------------------------------------------------- |
+| Week | Dag | Thema | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C5   | ma  |       | Werken aan project | Electrisch Schema, Weerstanden(**MV**)                                                                   |
 | C5   | di  |       | Werken aan project | Spanningsbronnen en pullup/pulldown (**MV**)                                                             |
 | C5   | wo  |       |  [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
@@ -117,8 +117,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C6 (11-3-2024)
 
-| Week | Dag | Thema                                                          | Project            | Kennissessie                                                                                                         |
-| ---- | --- | -------------------------------------------------------------- | ------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C6   | ma  |                                                                | Werken aan project | Kirchhof, Weerstansnetwerkjes (**MV**)                                                                               |
 | C6   | di  |                                                                | Werken aan project | cpp en hpp files, includes, namespace (**GP**)                                                                       |
 | C6   | wo  |                                                                | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)                                            |
@@ -126,8 +126,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C7 (18-3-2024)
 
-| Week | Dag | Thema                                                                                                                                                                                                                                                                                                     | Project            | Kennissessie                                     |
-| ---- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C7   | ma  | We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | UC Diagram, UC Beschrijvingen **(MV)**           |
 | C7   | di  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                  | Werken aan project | Multimeter, meetweerstanden, diode, led (**MV**) |
 | C7   | wo  | Relais & Linear-actuator                                                                                                                                                                                                                                                                                  | Werken aan project | Logic Analyzer (**MV**)                          |
@@ -135,8 +135,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C8 (25-3-2024)
 
-| Week | Dag | Thema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Project            | Kennissessie                  |
-| ---- | --- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ----------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project | UART                          |
 | C8   | di  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Werken aan project | UART, PWM                     |
 | C8   | wo  | UART communicatie & PWM                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Werken aan project | PWM                           |
@@ -144,8 +144,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C9 (1-4-2024)
 
-| Week | Dag | Thema                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Project            | Kennissessie                   |
-| ---- | --- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ | ------------------------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C9   | ma  | **Tweede Paasdag**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                    |                                |
 | C9   | di  | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](../software/communicatie/MQTT/README.md), [PostgreSQL](../infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../infrastructuur/Docker/README.md) containers. | Werken aan project | Docker & MQTT (**HS**)         |
 | C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Werken aan project | PostgreSQL & Node-Red (**HS**) |
@@ -153,8 +153,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C10 (8-4-2024)
 
-| Week | Dag | Thema                                                          | Project                                                | Kennissessie                               |
-| ---- | --- | -------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | C10  | ma  |                                                                | Bedienen via H-brug, lin. actuator, Werken aan project | Fets, Schakelen, H-brug, fly-back (**MV**) |
 | C10  | di  |                                                                | Werken aan project                                     | Comparator, Condensator (**MV**)           |
 | C10  | wo  |                                                                | Werken aan project                                     | Bipolaire transistor, Darlington (**MV**)  |
@@ -162,8 +162,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D1 (15-4-2024)
 
-| Week | Dag | Thema | Project            | Kennissessie                                                                  |
-| ---- | --- | ----- | ------------------ | ----------------------------------------------------------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D1   | ma  |       | Werken aan project | Niet-Functionele Requirements (**MV**)                                        |
 | D1   | di  |       | Werken aan project | Activity Diagrammen (**MV**)                                                  |
 | D1   | wo  |       | Werken aan project | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
@@ -171,8 +171,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D2 (22-4-2024)
 
-| Week | Dag | Thema | Project            | Kennissessie                              |
-| ---- | --- | ----- | ------------------ | ----------------------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D2   | ma  |       | Werken aan project | Condensator laadcurve, picoscoop (**MV**) |
 | D2   | di  |       | Werken aan project | Servo Controller (**MV**)                 |
 | D2   | wo  |       | Werken aan project | C++ (**GP**,**HP**)                       |
@@ -181,7 +181,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 ### Onderwijsweek D3 (29-4-2024)
 
 | Week | Dag | Thema    | Project | Kennissessie |
-| ---- | --- | -------- | ------- | ------------ |
+| --- | --- | --- | --- | --- |
 | D3   | ma  | Vakantie |         |              |
 | D3   | di  | Vakantie |         |              |
 | D3   | wo  | Vakantie |         |              |
@@ -190,16 +190,16 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D4 (6-5-2024)
 
-| Week | Dag | Thema              | Project            | Kennissessie                  |
-| ---- | --- | ------------------ | ------------------ | ----------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D4   | ma  |                    | Werken aan project | Servo Controller (**MV**)     |
 | D4   | di  |                    | Werken aan project | Finite state machine (**MV**) |
 | D4   | wo  |                    | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)           |
 | D4   | do  | **Hemelvaartsdag** |                    |                               |
 ### Onderwijsweek D5 (13-5-2024)
 
-| Week | Dag | Thema                                                          | Project            | Kennissessie                                                       |
-| ---- | --- | -------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D5   | ma  |                                                                | Werken aan project | Talking Servos (**MV**)                                            |
 | D5   | di  |                                                                | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**) |
 | D5   | wo  |                                                                | Werken aan project | C++ (**GP**,**HP**)                                                |
@@ -207,8 +207,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D6 (20-5-2024)
 
-| Week | Dag | Thema              | Project            | Kennissessie                                             |
-| ---- | --- | ------------------ | ------------------ | -------------------------------------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |                    |                                                          |
 | D6   | di  |                    | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**) |
 | D6   | wo  |                    | Werken aan project | C++ (**GP**,**HP**)                                      |
@@ -217,8 +217,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D7 (20-5-2024)
 
-| Week | Dag | Thema | Project | Kennissessie                                                 |
-| ---- | --- | ----- | ------- | ------------------------------------------------------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D7   | ma  |       |         | Afronding workshop I2C, Start IO expander practicum (**MV**) |
 | D7   | di  |       |         | Practicum IO Expander I2C (**MV**)                           |
 | D7   | wo  |       |         | C++ (**GP**,**HP**)                                          |
@@ -226,8 +226,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D8 (3-6-2024)
 
-| Week | Dag | Thema | Project            | Kennissessie                                |
-| ---- | --- | ----- | ------------------ | ------------------------------------------- |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D8   | ma  |       | Werken aan project | Workshop Lt-spice (**MV**)                  |
 | D8   | di  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | wo  |       | Werken aan project | Workshop printplaatontwerp (**MV**, **HS**) |
@@ -235,8 +235,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D9 (10-6-2024)
 
-| Week | Dag | Thema                                                          | Project            | Kennissessie |
-| ---- | --- | -------------------------------------------------------------- | ------------------ | ------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D9   | ma  |                                                                | Werken aan project |              |
 | D9   | di  |                                                                | Werken aan project |              |
 | D9   | wo  |                                                                | Werken aan project |              |
@@ -244,8 +244,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D10 (17-6-2024)
 
-| Week | Dag | Thema                         | Project | Kennissessie |
-| ---- | --- | ----------------------------- | ------- | ------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D10  | ma  | **Assessment en beoordeling** |         |              |
 | D10  | di  | **Assessment en beoordeling** |         |              |
 | D10  | wo  | **Assessment en beoordeling** |         |              |
@@ -253,8 +253,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D11 (24-6-2024)
 
-| Week | Dag | Thema         | Project | Kennissessie |
-| ---- | --- | ------------- | ------- | ------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D11  | ma  | **Reparatie** |         |              |
 | D11  | di  | **Reparatie** |         |              |
 | D11  | wo  | **Reparatie** |         |              |
@@ -262,8 +262,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek D12 (1-7-2024)
 
-| Week | Dag | Thema         | Project | Kennissessie |
-| ---- | --- | ------------- | ------- | ------------ |
+| Week | Dag | Thema    | Project | Kennissessie |
+| --- | --- | --- | --- | --- |
 | D12  | ma  | **Reparatie** |         |              |
 | D12  | di  | **Reparatie** |         |              |
 | D12  | wo  | **Reparatie** |         |              |
