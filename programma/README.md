@@ -101,7 +101,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Schuifregister (**HS**) |
-| C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md)] (**MV**)     |
+| C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md) (**MV**)     |
 | C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](../hardware-interfacing/communicatie/SPI/README.md) (**HP**)     |
 | C4   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](/hardware-interfacing/basis-elektronica/rekenen-met-eenheden.md) (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
 
