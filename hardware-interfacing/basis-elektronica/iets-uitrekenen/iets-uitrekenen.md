@@ -55,7 +55,7 @@ breuk = $\Large \frac{teller}{noemer}\normalsize $
 $\Large \frac{2}{5}\normalsize  \footnotesize \bullet \normalsize \Large \frac{3}{4}\normalsize  = \Large \frac{6}{20}\normalsize $
 
 NB: een geheel getal is ook te schrijven als een breuk:
-$2 = \Large \frac{2}{1}\normalsize $
+$2 = \Large \frac{2}{1}\normalsize $     
 [video breuken vermenigvuldigen](https://viewtube.io/watch?v=mZfSS5SoomY)
 
 ## Hoe deel je twee breuken?
@@ -150,9 +150,9 @@ $- \Large \frac{8}{3}\normalsize  + 12 + 14 + \Large \frac{8}{15}\normalsize  - 
 
 $= 26 - \Large \frac{40}{15}\normalsize  + \Large \frac{8}{15}\normalsize  + \Large \frac{78}{15}\normalsize  = 26 + \Large \frac{- 40 + 8 + 78}{15}\normalsize  = 26 + \Large \frac{46}{15}\normalsize  = 26 + 3\Large \frac{1}{15}\normalsize  = 29\Large \frac{1}{15}\normalsize $   
 
-[video haakjes uitvermenigvuldigen](https://viewtube.io/watch?v=q9qyBaqCxSg)
-[ext video haakjes wegwerken (eerste 4 minuten)](https://viewtube.io/watch?v=VRVchiXKDW4)
-[ext video haakjes wegwerken (eerste 3 minuten)](https://viewtube.io/watch?v=2i2SwjiovX4)
+[video haakjes uitvermenigvuldigen](https://viewtube.io/watch?v=q9qyBaqCxSg)   
+[ext video haakjes wegwerken (eerste 4 minuten)](https://viewtube.io/watch?v=VRVchiXKDW4)   
+[ext video haakjes wegwerken (eerste 3 minuten)](https://viewtube.io/watch?v=2i2SwjiovX4)   
 
 # Buiten haakjes halen
 
@@ -160,8 +160,8 @@ De bovenstaande stappen kun je ook de andere kant op uitvoeren.
 Je kunt een gemeenschappelijke factor buiten haakjes halen.  
 $\Large \frac{20}{3}\normalsize  - 10 + 15 = 5 \footnotesize \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \footnotesize \bullet \normalsize 2 + 5 \footnotesize \bullet \normalsize 3 = 5 \footnotesize \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right)$    
 
-[video buiten haakjes halen](https://viewtube.io/watch?v=IWIWTU5WXXw)
-[ext video buiten haakjes halen](https://viewtube.io/watch?v=_hi4oi6VxLk)
+[video buiten haakjes halen](https://viewtube.io/watch?v=IWIWTU5WXXw)   
+[ext video buiten haakjes halen](https://viewtube.io/watch?v=_hi4oi6VxLk)   
 
 # Vergelijking oplossen
 
@@ -285,8 +285,8 @@ Daarmee is x geen onbekende meer. Je weet nu voor elke
 keus van de bekende constante c voor welke waarde van x de vergelijking
 geldig is.   
 
-[video eenvoudige vergelijking met 1 onbekende oplossen](https://viewtube.io/watch?v=Jcq5FBnVsSo)
-[video lastiger vergelijking met 1 onbekende oplossen](https://viewtube.io/watch?v=naBssCoG64o)
+[video eenvoudige vergelijking met 1 onbekende oplossen](https://viewtube.io/watch?v=Jcq5FBnVsSo)   
+[video lastiger vergelijking met 1 onbekende oplossen](https://viewtube.io/watch?v=naBssCoG64o)   
 
 # Een stelsel van meerdere vergelijkingen oplossen
 
@@ -509,8 +509,8 @@ en het aantal mintekens verminderen door teller en noemer te
 vermenigvuldigen met -1:  
 3’’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{ac}{a - d}\normalsize $
 
-[video twee vergelijkingen met twee onbekenden oplossen](https://viewtube.io/watch?v=QcJxVLUMOSw)
-[video drie vergelijkingen met drie onbekenden oplossen](https://viewtube.io/watch?v=VZ2I1o1hl_8)
+[video twee vergelijkingen met twee onbekenden oplossen](https://viewtube.io/watch?v=QcJxVLUMOSw)    
+[video drie vergelijkingen met drie onbekenden oplossen](https://viewtube.io/watch?v=VZ2I1o1hl_8)    
 
 # Appendix (optioneel)
 
