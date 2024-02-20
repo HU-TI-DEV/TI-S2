@@ -81,9 +81,9 @@ Bovenstaand is zowel teller als noemer deelbaar door 5.
 NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.   
 $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$  
 
-[video breuken vereenvoudigen](https://viewtube.io/watch?v=0TErQIXxuvQ)
-[ext video breuken met cijfers vereenvoudigen](https://viewtube.io/watch?v=BCj-1swFimo)
-[ext video breuken met variabelen vereenvoudigen (eerste 3 minuten)](https://viewtube.io/watch?v=yrW3Qof3vbE)
+[video breuken vereenvoudigen](https://viewtube.io/watch?v=0TErQIXxuvQ)   
+[ext video breuken met cijfers vereenvoudigen](https://viewtube.io/watch?v=BCj-1swFimo)   
+[ext video breuken met variabelen vereenvoudigen (eerste 3 minuten)](https://viewtube.io/watch?v=yrW3Qof3vbE)   
 
 ## Hoe tel je breuken bij elkaar op?
 
