@@ -52,22 +52,22 @@ breuk = $\Large \frac{teller}{noemer}\normalsize $
 
 **"Teller keer teller** en **noemer keer noemer"**  
 
-$\Large \frac{2}{5}\normalsize  \footnotesize \bullet \normalsize \Large \frac{3}{4}\normalsize  = \Large \frac{6}{20}\normalsize $
+$\Large \frac{2}{5}\normalsize  \small \bullet \normalsize \Large \frac{3}{4}\normalsize  = \Large \frac{6}{20}\normalsize $
 
 NB: een geheel getal is ook te schrijven als een breuk:
-$2 = \Large \frac{2}{1}\normalsize $     
+$2 = \Large \frac{2}{1}\normalsize $    
 [video breuken vermenigvuldigen](https://viewtube.io/watch?v=mZfSS5SoomY)
 
 ## Hoe deel je twee breuken?
 
 Onthoud goed: “**Delen door een breuk is vermenigvuldigen met het
 omgekeerde**”  
-$\Large \frac{\Large \frac{2}{5}\normalsize \ }{\Large \frac{3}{4}\normalsize } = \Large \frac{2}{5}\normalsize  \footnotesize \bullet \normalsize \Large \frac{4}{3}\normalsize $
+$\Large \frac{\Large \frac{2}{5}\normalsize \ }{\Large \frac{3}{4}\normalsize } = \Large \frac{2}{5}\normalsize  \small \bullet \normalsize \Large \frac{4}{3}\normalsize $
 
 ## Wat is **herleiden**?
 
 **Herleiden** is het herschrijven van een wiskundige formule of breuk naar een **eenvoudigere** vorm, die equivalent is. 
-Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$ is equivalent met $\frac{2}{4}$, maar eenvoudiger.
+Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$is equivalent met $\frac{2}{4}$, maar eenvoudiger.
 
 ## Hoe vereenvoudig je een breuk?
 
@@ -75,11 +75,11 @@ Het kan voorkomen dat **teller en noemer** van een breuk **deelbaar** zijn
 **door hetzelfde hele getal**.  
 In dat geval kun je die deling uitvoeren om de breuk eenvoudiger te
 schrijven.  
-$\Large \frac{20}{25}\normalsize  = \Large \frac{20 \footnotesize \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \footnotesize \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize 
+$\Large \frac{20}{25}\normalsize  = \Large \frac{20 \small \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \small \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize 
 $
 Bovenstaand is zowel teller als noemer deelbaar door 5.  
 NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.   
-$\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$   
+$\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$  
 
 [video breuken vereenvoudigen](https://viewtube.io/watch?v=0TErQIXxuvQ)
 [ext video breuken met cijfers vereenvoudigen](https://viewtube.io/watch?v=BCj-1swFimo)
@@ -92,12 +92,12 @@ $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \fr
 Dat doe je door teller **en** noemer van de ene breuk te
 vermenigvuldigen met de noemer van de andere breuk (en vice versa).
 
-$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \footnotesize \bullet \normalsize 3}{5 \footnotesize \bullet \normalsize 3}\normalsize  + \Large \frac{4 \footnotesize \bullet \normalsize 5}{3 \footnotesize \bullet \normalsize 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
+$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \small \bullet \normalsize 3}{5 \small \bullet \normalsize 3}\normalsize  + \Large \frac{4 \small \bullet \normalsize 5}{3 \small \bullet \normalsize 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
 
 <u>**Stap 2: tellers optellen**  
 </u>Zodra de noemers gelijk zijn, kan er worden opgeteld:
 
-$\Large \frac{6}{15}\normalsize  + \Large \frac{20}{15}\normalsize  = \Large \frac{6 + 20}{15}\normalsize  = \Large \frac{26}{15}\normalsize $   
+$\Large \frac{6}{15}\normalsize  + \Large \frac{20}{15}\normalsize  = \Large \frac{6 + 20}{15}\normalsize  = \Large \frac{26}{15}\normalsize $  
 
 [video breuken optellen](https://viewtube.io/watch?v=NjTClKJCr-A)
 
@@ -132,23 +132,23 @@ stond vermenigvuldigt met -1.  − 5 =  − 1 • 5
 Vermenigvuldig met elk van de delen en tel ze op. Hieronder vind je 3
 voorbeelden.
 
-$(1)\ 5 \footnotesize \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right) = 5 \footnotesize \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \footnotesize \bullet \normalsize 2 + 5 \footnotesize \bullet \normalsize 3$
+$(1)\ 5 \small \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right) = 5 \small \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \small \bullet \normalsize 2 + 5 \small \bullet \normalsize 3$
 
-$(2)\  - 5 \footnotesize \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 5 \footnotesize \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - 5 \footnotesize \bullet \normalsize 2 + - 5 \footnotesize \bullet \normalsize - 3 = \Large \frac{20}{3}\normalsize  - 10 + 15$
+$(2)\  - 5 \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 5 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - 5 \small \bullet \normalsize 2 + - 5 \small \bullet \normalsize - 3 = \Large \frac{20}{3}\normalsize  - 10 + 15$
 
-$(3)\  - \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \footnotesize \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \footnotesize \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - 1 \footnotesize \bullet \normalsize 2 + - 1 \footnotesize \bullet \normalsize - 3 = \Large \frac{4}{3}\normalsize  - 2 + 3$
+$(3)\  - \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - 1 \small \bullet \normalsize 2 + - 1 \small \bullet \normalsize - 3 = \Large \frac{4}{3}\normalsize  - 2 + 3$
 
 ## Hoe kun je haakjes uitvermenigvuldigen bij vermenigvuldigen met andere haakjes?
 
 Vermenigvuldig elk van de termen links met elk van de termen rechts en
 tel ze op.
-${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \footnotesize \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \footnotesize \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \footnotesize \bullet \normalsize 6 + 2 \footnotesize \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \footnotesize \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize 
-}$    
+${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \small \bullet \normalsize 6 + 2 \small \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize 
+}$   
 
 Je kunt dit eventueel nog verder vereenvoudigen door gelijknamig te maken en op te tellen:
-$- \Large \frac{8}{3}\normalsize  + 12 + 14 + \Large \frac{8}{15}\normalsize  - \Large \frac{12}{5}\normalsize  - \Large \frac{14}{5}\normalsize  = - \Large \frac{8}{3}\normalsize  + 26 + \Large \frac{8}{15}\normalsize  + - \Large \frac{26}{5}\normalsize  = \ 26 - \Large \frac{8}{3}\normalsize  \footnotesize \bullet \normalsize \Large \frac{5}{5}\normalsize  + \Large \frac{8}{15}\normalsize  - \Large \frac{26}{5}\normalsize  \footnotesize \bullet \normalsize \Large \frac{3}{3}\normalsize $
+$- \Large \frac{8}{3}\normalsize  + 12 + 14 + \Large \frac{8}{15}\normalsize  - \Large \frac{12}{5}\normalsize  - \Large \frac{14}{5}\normalsize  = - \Large \frac{8}{3}\normalsize  + 26 + \Large \frac{8}{15}\normalsize  + - \Large \frac{26}{5}\normalsize  = \ 26 - \Large \frac{8}{3}\normalsize  \small \bullet \normalsize \Large \frac{5}{5}\normalsize  + \Large \frac{8}{15}\normalsize  - \Large \frac{26}{5}\normalsize  \small \bullet \normalsize \Large \frac{3}{3}\normalsize $
 
-$= 26 - \Large \frac{40}{15}\normalsize  + \Large \frac{8}{15}\normalsize  + \Large \frac{78}{15}\normalsize  = 26 + \Large \frac{- 40 + 8 + 78}{15}\normalsize  = 26 + \Large \frac{46}{15}\normalsize  = 26 + 3\Large \frac{1}{15}\normalsize  = 29\Large \frac{1}{15}\normalsize $   
+$= 26 - \Large \frac{40}{15}\normalsize  + \Large \frac{8}{15}\normalsize  + \Large \frac{78}{15}\normalsize  = 26 + \Large \frac{- 40 + 8 + 78}{15}\normalsize  = 26 + \Large \frac{46}{15}\normalsize  = 26 + 3\Large \frac{1}{15}\normalsize  = 29\Large \frac{1}{15}\normalsize $  
 
 [video haakjes uitvermenigvuldigen](https://viewtube.io/watch?v=q9qyBaqCxSg)   
 [ext video haakjes wegwerken (eerste 4 minuten)](https://viewtube.io/watch?v=VRVchiXKDW4)   
@@ -158,7 +158,7 @@ $= 26 - \Large \frac{40}{15}\normalsize  + \Large \frac{8}{15}\normalsize  + \La
 
 De bovenstaande stappen kun je ook de andere kant op uitvoeren.  
 Je kunt een gemeenschappelijke factor buiten haakjes halen.  
-$\Large \frac{20}{3}\normalsize  - 10 + 15 = 5 \footnotesize \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \footnotesize \bullet \normalsize 2 + 5 \footnotesize \bullet \normalsize 3 = 5 \footnotesize \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right)$    
+$\Large \frac{20}{3}\normalsize  - 10 + 15 = 5 \small \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \small \bullet \normalsize 2 + 5 \small \bullet \normalsize 3 = 5 \small \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right)$   
 
 [video buiten haakjes halen](https://viewtube.io/watch?v=IWIWTU5WXXw)   
 [ext video buiten haakjes halen](https://viewtube.io/watch?v=_hi4oi6VxLk)   
@@ -228,33 +228,33 @@ volgende stappen te doorlopen:**
 $- \Large \frac{4}{- 3(x + 1) + 1}\normalsize  + c = - 5
 $
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x + - 3 \footnotesize \bullet \normalsize 1 + 1}\normalsize  + c = - 5$
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x + - 3 \small \bullet \normalsize 1 + 1}\normalsize  + c = - 5$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x - 2}\normalsize  + c = - 5$
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  + c = - 5$
 
 **Stap 2 toepassen: Verkas alle termen met x naar een kant, en de rest
 naar de andere kant.**   
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; (door links en rechts c aftrekken)  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x - 2}\normalsize  + c - c = - 5 - c$
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  + c - c = - 5 - c$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x - 2}\normalsize  = - 5 - c$
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  = - 5 - c$
 
 **Stap 3 toepassen: Vermenigvuldig links en rechts met de top-level
 noemers waar x in voorkomt.**
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; (links en rechts keer de noemer met x)  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x - 2}\normalsize  \footnotesize \bullet \normalsize ( - 3 \footnotesize \bullet \normalsize x - 2) = ( - 5 - c) \footnotesize \bullet \normalsize ( - 3 \footnotesize \bullet \normalsize x - 2)$
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  \small \bullet \normalsize ( - 3 \small \bullet \normalsize x - 2) = ( - 5 - c) \small \bullet \normalsize ( - 3 \small \bullet \normalsize x - 2)$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; (gelijke factoren in teller en noemer mag je tegen elkaar
 wegstrepen):  
-$- \Large \frac{4}{- 3 \footnotesize \bullet \normalsize x - 2}\normalsize  \footnotesize \bullet \normalsize ( - 3 \footnotesize \bullet \normalsize x - 2) = ( - 5 - c) \footnotesize \bullet \normalsize ( - 3 \footnotesize \bullet \normalsize x - 2)
+$- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  \small \bullet \normalsize ( - 3 \small \bullet \normalsize x - 2) = ( - 5 - c) \small \bullet \normalsize ( - 3 \small \bullet \normalsize x - 2)
 $
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-$- \Large \frac{4}{1}\normalsize  = ( - 5 - c) \footnotesize \bullet \normalsize ( - 3 \footnotesize \bullet \normalsize x - 2)$
+$- \Large \frac{4}{1}\normalsize  = ( - 5 - c) \small \bullet \normalsize ( - 3 \small \bullet \normalsize x - 2)$
 
 **Goto stap 1, stap 1 toepassen: Vermenigvuldig alle haakjes met x uit**  
-${- \Large \frac{4}{1}\normalsize  = - 5 \footnotesize \bullet \normalsize - 3 \footnotesize \bullet \normalsize x + - 5 \footnotesize \bullet \normalsize - 2 + \  - c \footnotesize \bullet \normalsize - 3 \footnotesize \bullet \normalsize x + \  - c \footnotesize \bullet \normalsize - 2
+${- \Large \frac{4}{1}\normalsize  = - 5 \small \bullet \normalsize - 3 \small \bullet \normalsize x + - 5 \small \bullet \normalsize - 2 + \  - c \small \bullet \normalsize - 3 \small \bullet \normalsize x + \  - c \small \bullet \normalsize - 2
 }
 $
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
@@ -276,10 +276,10 @@ naar de andere kant.**
 **Stap 5 toepassen: Deel links en rechts door de factor tussen haakjes.**  
 (links en rechts delen door de haakjes achter x, gelijke factor in
 teller en noemer wegstrepen)  
-$\Large \frac{- 14 - 2 \footnotesize \bullet \normalsize c}{15 + \ 3 \footnotesize \bullet \normalsize c}\normalsize  = x \footnotesize \bullet \normalsize \Large \frac{15 + \ 3 \footnotesize \bullet \normalsize c}{15 + \ 3 \footnotesize \bullet \normalsize c}\normalsize $
+$\Large \frac{- 14 - 2 \small \bullet \normalsize c}{15 + \ 3 \small \bullet \normalsize c}\normalsize  = x \small \bullet \normalsize \Large \frac{15 + \ 3 \small \bullet \normalsize c}{15 + \ 3 \small \bullet \normalsize c}\normalsize $
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-${\Large \frac{- 14 - 2 \footnotesize \bullet \normalsize c}{15 + \ 3 \footnotesize \bullet \normalsize c}\normalsize  = x}$   
+${\Large \frac{- 14 - 2 \small \bullet \normalsize c}{15 + \ 3 \small \bullet \normalsize c}\normalsize  = x}$  
 x staat nu in zijn eentje aan een kant van de vergelijking geschreven.
 Daarmee is x geen onbekende meer. Je weet nu voor elke
 keus van de bekende constante c voor welke waarde van x de vergelijking
@@ -391,7 +391,7 @@ en 2’.
 **Stap 3.** Dit keer kies ik onbekende x uit, in vergelijking 1. Eerst
 moet die vergelijking herschreven worden, zodanig dat x aan een kant
 staat.  
-1*&nbsp;&nbsp; x = $\Large \frac{c}{a}\normalsize $  
+1*&nbsp;&nbsp; x = $\Large \frac{c}{a}\normalsize $ 
 
 Met deze substitutievergelijking vervangen we alle x in de resterende
 vergelijkingen. In dit geval is dat alleen nog vergelijking 2’.  
@@ -434,7 +434,7 @@ invullen (in dit geval alleen x):
 
 Daarmee zijn alle onbekenden opgelost, en uitgedrukt in bekenden. Nog
 even op een rijtje:  
-z = $\Large \frac{c}{a}\normalsize $ , t = $\Large \frac{b + \ a}{a}\normalsize $ , x = $\Large \frac{c}{a}\normalsize $ en y =
+z = $\Large \frac{c}{a}\normalsize $, t = $\Large \frac{b + \ a}{a}\normalsize $, x = $\Large \frac{c}{a}\normalsize $en y =
 $\Large \frac{c}{a}\normalsize \ (b + \ a)$
 
 ### Tips en Trucs
@@ -450,7 +450,7 @@ $\Large \frac{c}{a}\normalsize \ (b + \ a)$
 
 3 vergelijkingen met 3 onbekenden: x, y en z. a, b, c en d zijn bekende
 constanten.  
-(1)&nbsp;&nbsp; x - b - $\Large \frac{y}{a}\normalsize $ = 0  
+(1)&nbsp;&nbsp; x - b - $\Large \frac{y}{a}\normalsize $= 0  
 (2)&nbsp;&nbsp; z = y – c  
 (3)&nbsp;&nbsp; $d = \Large \frac{z}{x - b}\normalsize $
 
@@ -464,7 +464,7 @@ vergelijking (3):
 3’&nbsp;&nbsp; $d = \Large \frac{y - c}{x - b}\normalsize $
 
 We hebben dan alleen nog vergelijking (1) en vergelijking 3’ over:  
-(1)&nbsp;&nbsp; x - b - $\Large \frac{y}{a}\normalsize $ = 0  
+(1)&nbsp;&nbsp; x - b - $\Large \frac{y}{a}\normalsize $= 0  
 3’&nbsp;&nbsp; $d = \Large \frac{y - c}{x - b}\normalsize $
 
 **Stap 2.** We zien dat (x-b) een kluitje is met als enige onbekende x,
@@ -480,10 +480,10 @@ Nu hebben we nog maar 1 vergelijking over, met 1 onbekende (de gezochte
 onbekende y).  
 Die kunnen we oplossen met onze “Methode die altijd werkt”:  
 We zien dat y nog voorkomt in een top-level noemer:
-$d = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }$ .  
+$d = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }$.  
 We vermenigvuldigen dus de volledige linkerkant en rechterkant met die
 noemer:  
-3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $  
+3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $ 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; vermenigvuldigen en delen door hetzelfde heffen elkaar op:
 
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \textcolor{orange}{\frac{y}{a}} \normalsize }\Large \textcolor{orange}{\frac{y}{a}}\normalsize $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
@@ -491,12 +491,12 @@ noemer:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; Alle termen met y naar een kant, de rest naar de andere kant,  
 door links en rechts y ervan af te trekken:  
-3’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = y - y - c$  
+3’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = y - y - c$ 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 3’’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = - c$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; y buiten haakjes halen:  
-3’’’’’’’&nbsp;&nbsp; $y(\Large \frac{d}{a}\normalsize  - 1) = - c$  
+3’’’’’’’&nbsp;&nbsp; $y(\Large \frac{d}{a}\normalsize  - 1) = - c$ 
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; links en rechts delen door wat tussen de haakjes staat:  
 3’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- c}{\Large \frac{d}{a}\normalsize  - 1}$
@@ -504,7 +504,7 @@ door links en rechts y ervan af te trekken:
 Nu is y geschreven in termen van bekenden, en dus ook uitgerekend.  
 Desgewenst kun je het nog wat mooier schrijven. Bijvoorbeeld door teller
 en noemer met a te vermenigvuldigen:  
-3’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- ac}{d - a}\normalsize $  
+3’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- ac}{d - a}\normalsize $ 
 en het aantal mintekens verminderen door teller en noemer te
 vermenigvuldigen met -1:  
 3’’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{ac}{a - d}\normalsize $
@@ -533,7 +533,7 @@ Elke **herschrijving** markeer ik met een extra **‘**, en het resultaat markee
 ik met **\*** om te markeren dat het een **substitutievergelijking** is:
 
 .2&nbsp;&nbsp; a x + b = c y &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-.2’&nbsp;&nbsp; $\Large \frac{1}{c}\normalsize (ax + b) = \Large \frac{1}{c}\normalsize \ c\ y$ &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
+.2’&nbsp;&nbsp; $\Large \frac{1}{c}\normalsize (ax + b) = \Large \frac{1}{c}\normalsize \ c\ y$&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 \.2*&nbsp;&nbsp; $\Large \frac{ax + b}{c}\normalsize  = y$
 y komt niet voor in vergelijking 1. Die hoeven we dus niet te
 herschrijven.  
@@ -552,11 +552,11 @@ vergelijking 3’.
 (omdat dat weinig werk lijkt).  
 De geupdate versie van die vergelijking noemen we 3\* (markeren als
 substitutievergelijking).  
-.3’’&nbsp;&nbsp; $d\Large \frac{ax + b}{c}\normalsize  + b = c\ z + 2$ &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
+.3’’&nbsp;&nbsp; $d\Large \frac{ax + b}{c}\normalsize  + b = c\ z + 2$&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 .3’’’&nbsp;&nbsp; $d\Large \frac{ax + b}{c}\normalsize  + b - 2 = c\ z + 2 - 2\ $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-.3’’’’&nbsp;&nbsp; $d\Large \frac{ax + b}{c}\normalsize  + b - 2 = c\ z$ &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-.3’’’’’&nbsp;&nbsp; $\Large \frac{d\Large \frac{ax + b}{c}\normalsize  + b - 2}{c} = \Large \frac{c\ z}{c}\normalsize $ &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
-\.3*&nbsp;&nbsp; $d\Large \frac{ax + b}{c^{2}} + \Large \frac{b}{c}\normalsize  - \Large \frac{2}{c}\normalsize  = z$ 
+.3’’’’&nbsp;&nbsp; $d\Large \frac{ax + b}{c}\normalsize  + b - 2 = c\ z$&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
+.3’’’’’&nbsp;&nbsp; $\Large \frac{d\Large \frac{ax + b}{c}\normalsize  + b - 2}{c} = \Large \frac{c\ z}{c}\normalsize $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
+\.3*&nbsp;&nbsp; $d\Large \frac{ax + b}{c^{2}} + \Large \frac{b}{c}\normalsize  - \Large \frac{2}{c}\normalsize  = z$
 
 We vullen z in in de overgebleven vergelijkingen. Dat is nu alleen nog
 vergelijking 1:

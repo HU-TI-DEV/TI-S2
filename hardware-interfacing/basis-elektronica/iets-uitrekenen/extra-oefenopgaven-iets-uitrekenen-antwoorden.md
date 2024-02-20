@@ -22,19 +22,19 @@
 Schrijf de volgende vermenigvuldigingen als een enkele breuk:
 
 **Vraag a:**  
-$\Large \frac{3}{5}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{2}\normalsize  = \Large \frac{3}{10}\normalsize $
+$\Large \frac{3}{5}\normalsize  \small \bullet \normalsize \Large \frac{1}{2}\normalsize  = \Large \frac{3}{10}\normalsize $
 
 **Vraag b:**  
-$3 \footnotesize \bullet \normalsize \Large \frac{1}{3}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{1}{4}\normalsize $
+$3 \small \bullet \normalsize \Large \frac{1}{3}\normalsize  \small \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{1}{4}\normalsize $
 
 **Vraag c:**  
-$5 \footnotesize \bullet \normalsize \Large \frac{1}{2 \footnotesize \bullet \normalsize 7}\normalsize  = \Large \frac{5}{14}\normalsize $
+$5 \small \bullet \normalsize \Large \frac{1}{2 \small \bullet \normalsize 7}\normalsize  = \Large \frac{5}{14}\normalsize $
 
 **Vraag d:**  
-$- \Large \frac{3}{- 4}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{- 1}{5}\normalsize  = \Large \frac{3}{20}\normalsize $
+$- \Large \frac{3}{- 4}\normalsize  \small \bullet \normalsize - \Large \frac{- 1}{5}\normalsize  = \Large \frac{3}{20}\normalsize $
 
 **Vraag e:**  
-$\Large \frac{3 \footnotesize \bullet \normalsize b}{- 8}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{- 1}{- 2}\normalsize  = \Large \frac{3 \footnotesize \bullet \normalsize b}{16}\normalsize $
+$\Large \frac{3 \small \bullet \normalsize b}{- 8}\normalsize  \small \bullet \normalsize - \Large \frac{- 1}{- 2}\normalsize  = \Large \frac{3 \small \bullet \normalsize b}{16}\normalsize $
 
 ### Opgave 2: Breuken vereenvoudigen
 
@@ -50,11 +50,11 @@ ${- \Large \frac{40}{12}\normalsize  = \Large \frac{10}{3}\normalsize
 }$
 
 **Vraag c:**  
-${\Large \frac{b \footnotesize \bullet \normalsize 68}{- 17}\normalsize  = 4 \footnotesize \bullet \normalsize b
+${\Large \frac{b \small \bullet \normalsize 68}{- 17}\normalsize  = 4 \small \bullet \normalsize b
 }$
 
 **Vraag d:**  
-$\Large \frac{54}{18 \footnotesize \bullet \normalsize y}\normalsize  = \Large \frac{3}{y}\normalsize 
+$\Large \frac{54}{18 \small \bullet \normalsize y}\normalsize  = \Large \frac{3}{y}\normalsize 
 $
 
 ### Opgave 3: Breuken optellen
@@ -74,11 +74,11 @@ ${- \Large \frac{3}{- 5}\normalsize  + \Large \frac{- 7}{4}\normalsize  = - \Lar
 }$
 
 **Vraag d:**  
-${- \Large \frac{3 \footnotesize \bullet \normalsize x}{- 2}\normalsize  + \Large \frac{- 2}{3}\normalsize  = \Large \frac{3 \footnotesize \bullet \normalsize x - 2}{3}\normalsize 
+${- \Large \frac{3 \small \bullet \normalsize x}{- 2}\normalsize  + \Large \frac{- 2}{3}\normalsize  = \Large \frac{3 \small \bullet \normalsize x - 2}{3}\normalsize 
 }$
 
 **Vraag e:**  
-${- \Large \frac{3 \footnotesize \bullet \normalsize y}{- 2}\normalsize  + \Large \frac{- 2}{3 \footnotesize \bullet \normalsize c}\normalsize  = - \Large \frac{9 \footnotesize \bullet \normalsize c \footnotesize \bullet \normalsize y + 4}{6 \footnotesize \bullet \normalsize c}\normalsize 
+${- \Large \frac{3 \small \bullet \normalsize y}{- 2}\normalsize  + \Large \frac{- 2}{3 \small \bullet \normalsize c}\normalsize  = - \Large \frac{9 \small \bullet \normalsize c \small \bullet \normalsize y + 4}{6 \small \bullet \normalsize c}\normalsize 
 }
 $
 
@@ -86,20 +86,20 @@ $
 
 Dit is de omgekeerde herschrijving van het voorgaande.  
 Voorbeeld:
-$\Large \frac{- x + 5 \footnotesize \bullet \normalsize y}{2 + c}\normalsize  = \Large \frac{- x}{2 + c}\normalsize  + \Large \frac{5 \footnotesize \bullet \normalsize y}{2 + c}\normalsize $
+$\Large \frac{- x + 5 \small \bullet \normalsize y}{2 + c}\normalsize  = \Large \frac{- x}{2 + c}\normalsize  + \Large \frac{5 \small \bullet \normalsize y}{2 + c}\normalsize $
 
 Voorbeeld 2:
-$\Large \frac{x + 5 \footnotesize \bullet \normalsize (y - 2)}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} = \Large \frac{x}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} + \Large \frac{5 \footnotesize \bullet \normalsize y}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} + \Large \frac{- 10}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)}$
+$\Large \frac{x + 5 \small \bullet \normalsize (y - 2)}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} = \Large \frac{x}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} + \Large \frac{5 \small \bullet \normalsize y}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} + \Large \frac{- 10}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)}$
 
 Splits de volgende breuken op in losse sommen:
 
 **Vraag a:**  
-${\Large \frac{a + \Large \frac{y}{b}\normalsize  \footnotesize \bullet \normalsize (3 - d)}{(3 - d) \footnotesize \bullet \normalsize y} = \Large \frac{a}{(3 - d) \footnotesize \bullet \normalsize y}\normalsize  + \Large \frac{1}{b}\normalsize 
+${\Large \frac{a + \Large \frac{y}{b}\normalsize  \small \bullet \normalsize (3 - d)}{(3 - d) \small \bullet \normalsize y} = \Large \frac{a}{(3 - d) \small \bullet \normalsize y}\normalsize  + \Large \frac{1}{b}\normalsize 
 }
 $
 
 **Vraag b:**  
-$\Large \frac{(x + 3) \footnotesize \bullet \normalsize (y - 4)}{(3 + b) \footnotesize \bullet \normalsize x}\normalsize  = \Large \frac{y}{(3 + b)}\normalsize  - \Large \frac{4}{(3 + b)}\normalsize  + \Large \frac{3y}{(3 + b) \footnotesize \bullet \normalsize x}\normalsize  - \Large \frac{12}{(3 + b) \footnotesize \bullet \normalsize x}\normalsize 
+$\Large \frac{(x + 3) \small \bullet \normalsize (y - 4)}{(3 + b) \small \bullet \normalsize x}\normalsize  = \Large \frac{y}{(3 + b)}\normalsize  - \Large \frac{4}{(3 + b)}\normalsize  + \Large \frac{3y}{(3 + b) \small \bullet \normalsize x}\normalsize  - \Large \frac{12}{(3 + b) \small \bullet \normalsize x}\normalsize 
 $
 
 ### Opgave 5: Haakjes uitvermenigvuldigen
@@ -107,11 +107,11 @@ $
 Vermenigvuldig de volgende haakjes uit:
 
 **Vraag a:**  
-${\Large \frac{1}{3}\normalsize  \footnotesize \bullet \normalsize \left( \Large \frac{5}{3}\normalsize  + \Large \frac{1}{4}\normalsize  \right) = \Large \frac{5}{9}\normalsize  + \Large \frac{1}{12}\normalsize 
+${\Large \frac{1}{3}\normalsize  \small \bullet \normalsize \left( \Large \frac{5}{3}\normalsize  + \Large \frac{1}{4}\normalsize  \right) = \Large \frac{5}{9}\normalsize  + \Large \frac{1}{12}\normalsize 
 }$
 
 **Vraag b:**  
-${- \Large \frac{1}{4}\normalsize  \footnotesize \bullet \normalsize - \left( \Large \frac{- 3}{2}\normalsize  + \Large \frac{1}{- 3}\normalsize  \right) = - \Large \frac{3}{8}\normalsize  - \Large \frac{1}{12}\normalsize 
+${- \Large \frac{1}{4}\normalsize  \small \bullet \normalsize - \left( \Large \frac{- 3}{2}\normalsize  + \Large \frac{1}{- 3}\normalsize  \right) = - \Large \frac{3}{8}\normalsize  - \Large \frac{1}{12}\normalsize 
 }
 $
 
@@ -122,7 +122,7 @@ $- \left( \Large \frac{- 2}{5}\normalsize x + \Large \frac{1}{- 3}\normalsize  \
 (*a*−4) • (−3+*c*) =  − 3 *a* + *a* *c* + 12 − 4 *c*
 
 **Vraag e:**  
-$(3 \footnotesize \bullet \normalsize b - 2) \footnotesize \bullet \normalsize \left( \Large \frac{- 4}{5}\normalsize  \footnotesize \bullet \normalsize x + \Large \frac{1}{- 3 \footnotesize \bullet \normalsize b}\normalsize  \right) = \Large \frac{- 12\ b}{5}\normalsize  \footnotesize \bullet \normalsize x + \Large \frac{8}{5}\normalsize  \footnotesize \bullet \normalsize x - 1 + \Large \frac{2}{3 \footnotesize \bullet \normalsize b}\normalsize $
+$(3 \small \bullet \normalsize b - 2) \small \bullet \normalsize \left( \Large \frac{- 4}{5}\normalsize  \small \bullet \normalsize x + \Large \frac{1}{- 3 \small \bullet \normalsize b}\normalsize  \right) = \Large \frac{- 12\ b}{5}\normalsize  \small \bullet \normalsize x + \Large \frac{8}{5}\normalsize  \small \bullet \normalsize x - 1 + \Large \frac{2}{3 \small \bullet \normalsize b}\normalsize $
 
 **Vraag f:**  
 (*x*−5) • (−3+*b*−*c*) =  − 3 *x* + *b* *x* − *c* *x* + 15 − 5 *b* + 5 *c*
@@ -132,11 +132,11 @@ $(3 \footnotesize \bullet \normalsize b - 2) \footnotesize \bullet \normalsize \
 Haal x zoveel mogelijk buiten haakjes:
 
 **Vraag a:**  
-${\Large \frac{1}{5}\normalsize  \footnotesize \bullet \normalsize \left( \Large \frac{4}{5}\normalsize x + \Large \frac{x}{3}\normalsize  \right) = \Large \frac{1}{5}\normalsize x \footnotesize \bullet \normalsize \left( \Large \frac{4}{5}\normalsize  + \Large \frac{1}{3}\normalsize  \right)
+${\Large \frac{1}{5}\normalsize  \small \bullet \normalsize \left( \Large \frac{4}{5}\normalsize x + \Large \frac{x}{3}\normalsize  \right) = \Large \frac{1}{5}\normalsize x \small \bullet \normalsize \left( \Large \frac{4}{5}\normalsize  + \Large \frac{1}{3}\normalsize  \right)
 }$
 
 **Vraag b:**  
-${\left( - \Large \frac{4}{5}\normalsize x^{2} + \Large \frac{x^{2} \footnotesize \bullet \normalsize (4 - c)}{3 + d} \right) = \left( - \Large \frac{4}{5}\normalsize  + \Large \frac{(4 - c)}{3 + d}\normalsize  \right)x^{2}
+${\left( - \Large \frac{4}{5}\normalsize x^{2} + \Large \frac{x^{2} \small \bullet \normalsize (4 - c)}{3 + d} \right) = \left( - \Large \frac{4}{5}\normalsize  + \Large \frac{(4 - c)}{3 + d}\normalsize  \right)x^{2}
 }
 $
 
@@ -150,13 +150,13 @@ Los x op uit de volgende vergelijkingen:
 -\> *x* = 7
 
 **Vraag b:**  
-$\Large \frac{- 2}{5}\normalsize  \footnotesize \bullet \normalsize x + \Large \frac{1}{- 3 \footnotesize \bullet \normalsize c}\normalsize  = c \footnotesize \bullet \normalsize x + d$
+$\Large \frac{- 2}{5}\normalsize  \small \bullet \normalsize x + \Large \frac{1}{- 3 \small \bullet \normalsize c}\normalsize  = c \small \bullet \normalsize x + d$
 
 -\>
 $x = - \Large \frac{d + \Large \frac{1}{3c}\normalsize }{c + \Large \frac{2}{5}\normalsize } = - \Large \frac{15\ c\ d + 5}{15\ c^{2} + 6c}$
 
 **Vraag c:**  
-$7 - \left( \Large \frac{- 2}{3}\normalsize  \footnotesize \bullet \normalsize x + 3 \right) = d - \Large \frac{x}{2}\normalsize $
+$7 - \left( \Large \frac{- 2}{3}\normalsize  \small \bullet \normalsize x + 3 \right) = d - \Large \frac{x}{2}\normalsize $
 
 -\> $x = \Large \frac{6\ d - 24}{7}\normalsize $
 
