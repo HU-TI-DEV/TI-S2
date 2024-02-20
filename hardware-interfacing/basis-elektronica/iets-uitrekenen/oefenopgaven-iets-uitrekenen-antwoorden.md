@@ -18,19 +18,19 @@
 Schrijf de volgende vermenigvuldigingen als een enkele breuk:
 
 **Vraag a:**  
-$\Large \frac{7}{2}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
+$\Large \frac{7}{2}\normalsize  \small \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag b:**  
-$7 \footnotesize \bullet \normalsize \Large \frac{1}{2}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
+$7 \small \bullet \normalsize \Large \frac{1}{2}\normalsize  \small \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag c:**  
-$7 \footnotesize \bullet \normalsize \Large \frac{1}{2 \footnotesize \bullet \normalsize 4}\normalsize  = \Large \frac{7}{8}$
+$7 \small \bullet \normalsize \Large \frac{1}{2 \small \bullet \normalsize 4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag d:**  
-$- \Large \frac{7}{2}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{1}{- 4}\normalsize  = -\Large \frac{7}{8}$
+$- \Large \frac{7}{2}\normalsize  \small \bullet \normalsize - \Large \frac{1}{- 4}\normalsize  = -\Large \frac{7}{8}$
 
 **Vraag e:**  
-$\Large \frac{7 \footnotesize \bullet \normalsize c}{- 2}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{- 1}{- a}\normalsize  = \Large \frac{7 c}{2 a}$
+$\Large \frac{7 \small \bullet \normalsize c}{- 2}\normalsize  \small \bullet \normalsize - \Large \frac{- 1}{- a}\normalsize  = \Large \frac{7 c}{2 a}$
 
 ### Opgave 2: Breuken vereenvoudigen
 
@@ -43,10 +43,10 @@ ${\Large \Large \frac{27}{18}\normalsize  = \Large \frac{3}{2}}$
 ${\Large - \Large \frac{32}{12}\normalsize  = -\Large \frac{8}{3} }$
 
 **Vraag c:**   
-${\Large \Large \frac{c \footnotesize \bullet \normalsize 56}{- 14}\normalsize  = 4 c}$
+${\Large \Large \frac{c \small \bullet \normalsize 56}{- 14}\normalsize  = 4 c}$
 
 **Vraag d:**  
-$\Large \frac{48}{15 \footnotesize \bullet \normalsize x}\normalsize  = \Large \frac{16}{5 x} $
+$\Large \frac{48}{15 \small \bullet \normalsize x}\normalsize  = \Large \frac{16}{5 x} $
 
 ### Opgave 3: Breuken optellen
 
@@ -62,27 +62,27 @@ ${\Large \frac{2}{7}\normalsize  + \Large \frac{5}{6}\normalsize  = \Large \frac
 ${- \Large \frac{2}{- 7}\normalsize  + \Large \frac{- 5}{6}\normalsize  = -\Large \frac{23}{42}}$
 
 **Vraag d:**  
-${- \Large \frac{2 \footnotesize \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6}\normalsize  = \Large \frac{12 x -35}{42}}$
+${- \Large \frac{2 \small \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6}\normalsize  = \Large \frac{12 x -35}{42}}$
 
 **Vraag e:**  
-${- \Large \frac{2 \footnotesize \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6 \footnotesize \bullet \normalsize c}\normalsize  = \Large \frac{12 x c -35}{42 c}}$
+${- \Large \frac{2 \small \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6 \small \bullet \normalsize c}\normalsize  = \Large \frac{12 x c -35}{42 c}}$
 
 ### Opgave 4: Breuken opsplitsen
 
 Dit is de omgekeerde herschrijving van het voorgaande.  
 Voorbeeld:
-$\Large \frac{- x + 5 \footnotesize \bullet \normalsize y}{2 + c}\normalsize  = \Large \frac{- x}{2 + c}\normalsize  + \Large \frac{5 \footnotesize \bullet \normalsize y}{2 + c}\normalsize $
+$\Large \frac{- x + 5 \small \bullet \normalsize y}{2 + c}\normalsize  = \Large \frac{- x}{2 + c}\normalsize  + \Large \frac{5 \small \bullet \normalsize y}{2 + c}\normalsize $
 
 Voorbeeld 2:
-$\Large \frac{x + 5 \footnotesize \bullet \normalsize (y - 2)}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} = \Large \frac{x}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} + \Large \frac{5 \footnotesize \bullet \normalsize y}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)} + \Large \frac{- 10}{\Large \frac{(2 + c)}{x}\normalsize  \footnotesize \bullet \normalsize (1 + d)}$
+$\Large \frac{x + 5 \small \bullet \normalsize (y - 2)}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} = \Large \frac{x}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} + \Large \frac{5 \small \bullet \normalsize y}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)} + \Large \frac{- 10}{\Large \frac{(2 + c)}{x}\normalsize  \small \bullet \normalsize (1 + d)}$
 
 Splits de volgende breuken op in losse sommen:
 
 **Vraag a:**  
-${\Large \frac{x + \Large \frac{y}{x}\normalsize  \footnotesize \bullet \normalsize (2 + c)}{(2 + c) \footnotesize \bullet \normalsize x} = \Large \frac{1}{2+c} \normalsize + \Large \frac{2 y}{(2+c) x^2} \normalsize + \Large \frac{c y}{(2+c) x^2} \normalsize}$
+${\Large \frac{x + \Large \frac{y}{x}\normalsize  \small \bullet \normalsize (2 + c)}{(2 + c) \small \bullet \normalsize x} = \Large \frac{1}{2+c} \normalsize + \Large \frac{2 y}{(2+c) x^2} \normalsize + \Large \frac{c y}{(2+c) x^2} \normalsize}$
 
 **Vraag b:**  
-$\Large \frac{(x + 5) \footnotesize \bullet \normalsize (y - 2)}{(2 + c) \footnotesize \bullet \normalsize x}\normalsize  = \Large \frac{y}{2+c} \normalsize - \Large \frac{2}{2+c} \normalsize + \Large \frac{5 y}{x(2+c)} \normalsize - \Large \frac{10}{x(2+c)} \normalsize $
+$\Large \frac{(x + 5) \small \bullet \normalsize (y - 2)}{(2 + c) \small \bullet \normalsize x}\normalsize  = \Large \frac{y}{2+c} \normalsize - \Large \frac{2}{2+c} \normalsize + \Large \frac{5 y}{x(2+c)} \normalsize - \Large \frac{10}{x(2+c)} \normalsize $
 
 ### Opgave 5: Haakjes uitvermenigvuldigen
 
@@ -93,7 +93,7 @@ ${\Large \frac{1}{2}\normalsize   \left( \Large \frac{4}{3}\normalsize  + \Large
 }$
 
 **Vraag b:**  
-${- \Large \frac{1}{2}\normalsize  \footnotesize \bullet \normalsize - \left( \Large \frac{- 4}{3}\normalsize  + \Large \frac{1}{- 2}\normalsize  \right)  = - \Large\frac{1}{2}\small\bullet\Large\frac{4}{3}\normalsize - \Large\frac{1}{2}\small\bullet\Large\frac{1}{2}\normalsize 
+${- \Large \frac{1}{2}\normalsize  \small \bullet \normalsize - \left( \Large \frac{- 4}{3}\normalsize  + \Large \frac{1}{- 2}\normalsize  \right)  = - \Large\frac{1}{2}\small\bullet\Large\frac{4}{3}\normalsize - \Large\frac{1}{2}\small\bullet\Large\frac{1}{2}\normalsize 
  }$
 
 **Vraag c:**  
