@@ -21,13 +21,13 @@ Schrijf de volgende vermenigvuldigingen als een enkele breuk:
 $\Large \frac{7}{2}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag b:**  
-$ 7 \footnotesize \bullet \normalsize \Large \frac{1}{2}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
+$7 \footnotesize \bullet \normalsize \Large \frac{1}{2}\normalsize  \footnotesize \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag c:**  
-$ 7 \footnotesize \bullet \normalsize \Large \frac{1}{2 \footnotesize \bullet \normalsize 4}\normalsize  = \Large \frac{7}{8}$
+$7 \footnotesize \bullet \normalsize \Large \frac{1}{2 \footnotesize \bullet \normalsize 4}\normalsize  = \Large \frac{7}{8}$
 
 **Vraag d:**  
-$ - \Large \frac{7}{2}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{1}{- 4}\normalsize  = -\Large \frac{7}{8}$
+$- \Large \frac{7}{2}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{1}{- 4}\normalsize  = -\Large \frac{7}{8}$
 
 **Vraag e:**  
 $\Large \frac{7 \footnotesize \bullet \normalsize c}{- 2}\normalsize  \footnotesize \bullet \normalsize - \Large \frac{- 1}{- a}\normalsize  = \Large \frac{7 c}{2 a}$
@@ -97,13 +97,13 @@ ${- \Large \frac{1}{2}\normalsize  \footnotesize \bullet \normalsize - \left( \L
  }$
 
 **Vraag c:**  
-$ - \left( \Large \frac{- 4}{3}\normalsize x + \Large \frac{1}{- 2}\normalsize  \right)  = -1 \small\bullet\Large\frac{-4}{3}\normalsize x+ -1 \small\bullet\Large\frac{1}{-2}$
+$- \left( \Large \frac{- 4}{3}\normalsize x + \Large \frac{1}{- 2}\normalsize  \right)  = -1 \small\bullet\Large\frac{-4}{3}\normalsize x+ -1 \small\bullet\Large\frac{1}{-2}$
 
 **Vraag d:**  
 (*a*−3) (−2+*b*)= $-2 a + a b - 3\small\bullet\normalsize-2+-3\small\bullet\normalsize b$
 
 **Vraag e:**  
-$ (2  c - 3)  (\Large \frac{- 4}{3}\normalsize   x + \Large \frac{1}{- 2c}\normalsize ) = (2 c - 3)\Large \frac{-4}{3}\normalsize x + \Large\frac{2 c -3 }{-2c}$
+$(2  c - 3)  (\Large \frac{- 4}{3}\normalsize   x + \Large \frac{1}{- 2c}\normalsize ) = (2 c - 3)\Large \frac{-4}{3}\normalsize x + \Large\frac{2 c -3 }{-2c}$
 
 **Vraag e:**  
 (*a*−3) (−2+*b*−*c*) = - 2 a + a b - a c + 6 - 3 b + 3 c
@@ -113,7 +113,7 @@ $ (2  c - 3)  (\Large \frac{- 4}{3}\normalsize   x + \Large \frac{1}{- 2c}\norma
 Haal x zoveel mogelijk buiten haakjes:
 
 **Vraag a:**  
-$\Large \frac{1}{2}\normalsize  ( \Large \frac{4}{3}\normalsize x + \Large \frac{x}{2}\normalsize ) = x \small\bullet\normalsize (\Large\frac{1}{2}\normalsize(\Large\frac{4}{3}\normalsize+\Large\frac{1}{2}\normalsize))$ 
+$\Large \frac{1}{2}\normalsize  ( \Large \frac{4}{3}\normalsize x + \Large \frac{x}{2}\normalsize ) = x \small\bullet\normalsize (\Large\frac{1}{2}\normalsize(\Large\frac{4}{3}\normalsize+\Large\frac{1}{2}\normalsize))$
 
 **Vraag b:**  
 ${( - \Large \frac{4}{3}\normalsize x^{2} + \Large \frac{x^{2}  (3 - d)}{2 + c}\normalsize) = x^2( - \Large \frac{4}{3}\normalsize + \Large \frac{3 - d}{2 + c})}$
@@ -133,12 +133,12 @@ $\Large \frac{- 4}{3}\normalsize  x + \Large \frac{1}{- 2  c}\normalsize  = c \ 
 ->   $x=\Large\frac{-d+\frac{1}{2 c}}{-\frac{4}{3}-c}$
 
 **Vraag c:**  
-$ 5 - \left( \Large \frac{- 4}{3}\normalsize   x + 2 \right) = d - \Large \frac{x}{3}\normalsize $
+$5 - \left( \Large \frac{- 4}{3}\normalsize   x + 2 \right) = d - \Large \frac{x}{3}\normalsize $
 
 ->  $x=(d-3)\small\bullet\Large\frac{3}{5}$
 
 **Vraag d:**  
-$\Large \frac{2(x + 2)}{- 2(x + 1) - 1}\normalsize  + a = - b$    
+$\Large \frac{2(x + 2)}{- 2(x + 1) - 1}\normalsize  + a = - b$   
 
 ->  $x = \Large\frac{3(b+a)-4}{2-2(b+a)}$
 
@@ -149,23 +149,23 @@ volgende vergelijkingen:
 (a, b, c en d zijn bekende constanten)
 
 **Vraag a:**  
-(1)&nbsp;&nbsp; ${2x + 3y = - 4}$   
+(1)&nbsp;&nbsp; ${2x + 3y = - 4}$  
 (2)&nbsp;&nbsp; ${\Large \frac{y}{2 - x}\normalsize  = 2}$
 -> 
 x = 4
 y = -4
 **Vraag b:**  
-(1)&nbsp;&nbsp; ${2x + 3y = a}$   
+(1)&nbsp;&nbsp; ${2x + 3y = a}$  
 (2)&nbsp;&nbsp; ${\Large \Large \frac{y}{2 - x}\normalsize  = b}$
 ->   
-$x=\Large\frac{6b - a}{3 b -2}$   
+$x=\Large\frac{6b - a}{3 b -2}$  
 
 $y=\Large\frac{a-2\frac{6 b-a}{3b -2}}{3}$
 
 **Vraag c:**  
-(1)&nbsp;&nbsp; ${\Large \frac{x + 2}{y}\normalsize  = 1}$   
-(2)&nbsp;&nbsp; ${z - 3y = 1}$   
-(3)&nbsp;&nbsp; ${x - z = 2}$   
+(1)&nbsp;&nbsp; ${\Large \frac{x + 2}{y}\normalsize  = 1}$  
+(2)&nbsp;&nbsp; ${z - 3y = 1}$  
+(3)&nbsp;&nbsp; ${x - z = 2}$  
 
 ->    
 $x=-\Large\frac{9}{2}$
@@ -175,9 +175,9 @@ $y=-\Large\frac{5}{2}$
 $z=-\Large\frac{13}{2}$
 
 **Vraag d:**  
-(1)&nbsp;&nbsp; ${\Large \frac{\ x + 2}{y}\normalsize  = a}$   
-(2)&nbsp;&nbsp; ${z - 3y = a}$   
-(3)&nbsp;&nbsp; ${x - z = b}$   
+(1)&nbsp;&nbsp; ${\Large \frac{\ x + 2}{y}\normalsize  = a}$  
+(2)&nbsp;&nbsp; ${z - 3y = a}$  
+(3)&nbsp;&nbsp; ${x - z = b}$  
 
 ->  
 
@@ -188,9 +188,9 @@ $y=\Large\frac{2+a+b}{a-3}$
 $z=a+3\Large\frac{2+a+b}{a-3}$
 
 **Vraag e:**  
-(1)&nbsp;&nbsp; ${x - a = 2b}$  
-(2)&nbsp;&nbsp; ${\Large \frac{x - 2}{y}\normalsize  = c + 1}$   
-(3)&nbsp;&nbsp; ${(z + 2)(x - 2) = - a\ y}$   
+(1)&nbsp;&nbsp; ${x - a = 2b}$ 
+(2)&nbsp;&nbsp; ${\Large \frac{x - 2}{y}\normalsize  = c + 1}$  
+(3)&nbsp;&nbsp; ${(z + 2)(x - 2) = - a\ y}$  
 
 ->  
 $x=2 b+a$
