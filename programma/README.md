@@ -201,8 +201,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D5   | ma  |     | Werken aan project | Talking Servos (**MV**)     |
-| D5   | di  |     | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**) |
+| D5   | ma  |     | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)     | 
+| D5   | di  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
@@ -211,7 +211,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
-| D6   | di  |     | Werken aan project     | Workshop lasercutting / design for lasercutting (**TM**) |
+| D6   | di  |     | Werken aan project     | Practicum IO Expander I2C (**MV**)  |
 | D6   | wo  |     | Werken aan project     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 
@@ -219,8 +219,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     |     | Afronding workshop I2C, Start IO expander practicum (**MV**) |
-| D7   | di  |     |     | Practicum IO Expander I2C (**MV**)     |
+| D7   | ma  |     |     | Workshop Lt-spice (**MV**)    |
+| D7   | di  |     |     | Workshop lasercutting / design for lasercutting (**TM**)    |
 | D7   | wo  |     |     | C++ (**GP**,**HP**)     |
 | D7   | do  |     |     | C++ (**GP**,**HP**)     |
 
@@ -228,7 +228,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D8   | ma  |     | Werken aan project     | Workshop Lt-spice (**MV**)     |
+| D8   | ma  |     | Werken aan project     |  Talking Servos (**MV**)   |
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | wo  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
