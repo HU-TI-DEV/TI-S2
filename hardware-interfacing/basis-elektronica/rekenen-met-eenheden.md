@@ -1,5 +1,3 @@
-![logo](./img/SI_Illustration_Base_Units_and_Constants_Colour_Full.svg) [](logo-id)
-
 # Rekenen met eenheden[](title-id)
 
 ### Inhoud[](toc-id)
