@@ -98,11 +98,11 @@ Je ziet dus dat we de standaardeenheden [C]/[s] direct mogen vervangen door [A].
 
 Dan volgt: I = 20 [C]/[min] 
 
-[min] is een eenheid voor de grootheid tijd, maar geen standaardeenheid. We moeten dat dus eerst nog omzetten naar de standaardeenheid voor tijd [s] voordat we de eenheden mogen vervangen door de standaardeenheid Watt [W]:
+[min] is een eenheid voor de grootheid tijd, maar geen standaardeenheid. We moeten dat dus eerst nog omzetten naar de standaardeenheid voor tijd [s] voordat we de eenheden mogen vervangen door de standaardeenheid Ampere [A]:
 
 We substitueren: [min] = 60*[s]. 
 
-We krijgen dan: I = 20 [C]/ (60*[s]), ofwel I = 0.33 [C]/[s] = 0.33 [W].
+We krijgen dan: I = 20 [C]/ (60*[s]), ofwel I = 0.33 [C]/[s] = 0.33 [A].
 
 Dus: Typisch bij opgaven waarbij 2 grootheden zijn gegeven (zoals bovenstaand tijd en lading), dan kun je via een van de 5 “**per**” **formules** de 3e grootheid uitrekenen. Gebruik bij twijfel altijd **standaardeenheden**.
 
