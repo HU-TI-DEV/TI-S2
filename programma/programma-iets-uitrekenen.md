@@ -26,10 +26,10 @@ Het college zal zijn in de stijl van de "**Flipped Classroom**". Dat wil zeggen:
 - Maak de oefenopgaven af als je ze nog niet af had.
 
 - Werk aan de extra oefenopgaven:
-  [Oefenopgaven Iets Uitrekenen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen.md)
+  [Extra Oefenopgaven Iets Uitrekenen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen.md)
 
 - Controleer je antwoorden met:
-  [Oefenopgaven Iets Uitrekenen - antwoorden](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen-antwoorden.md)
+  [Extra Oefenopgaven Iets Uitrekenen - antwoorden](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen-antwoorden.md)
 
 ## Canvas
 
