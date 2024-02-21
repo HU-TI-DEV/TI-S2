@@ -11,7 +11,7 @@ Als je de teller ervan bijvoorbeeld met 7 moet vermenigvuldigen, kun je
 dat op de rekenmachine doen.
 
 Als je de oplossingen voor de variabelen met de letters van het alphabet
-achter mekaar zet (abcdefg.. etc), en vervolgens van elk de waard
+achter mekaar zet (abcdefg.. etc), en vervolgens van elk de waarde
 vervangt door de bijbehorende letter (bijvoorbeeld 26 wordt de letter
 “z”, 3 wordt de letter “c”, 4 wordt de letter “d”, dan komt er een zin
 uit.  
