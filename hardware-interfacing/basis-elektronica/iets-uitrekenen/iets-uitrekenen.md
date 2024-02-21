@@ -67,7 +67,7 @@ $\Large \frac{\Large \frac{2}{5}\normalsize \ }{\Large \frac{3}{4}\normalsize } 
 ## Wat is **herleiden**?
 
 **Herleiden** is het herschrijven van een wiskundige formule of breuk naar een **eenvoudigere** vorm, die equivalent is. 
-Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$is equivalent met $\frac{2}{4}$, maar eenvoudiger.
+Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$ is equivalent met $\frac{2}{4}$, maar eenvoudiger.
 
 ## Hoe vereenvoudig je een breuk?
 
@@ -76,7 +76,7 @@ Het kan voorkomen dat **teller en noemer** van een breuk **deelbaar** zijn
 In dat geval kun je die deling uitvoeren om de breuk eenvoudiger te
 schrijven.  
 $\Large \frac{20}{25}\normalsize  = \Large \frac{20 \small \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \small \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize 
-$
+$   
 Bovenstaand is zowel teller als noemer deelbaar door 5.  
 NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.   
 $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$  
@@ -92,7 +92,7 @@ $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \fr
 Dat doe je door teller **en** noemer van de ene breuk te
 vermenigvuldigen met de noemer van de andere breuk (en vice versa).
 
-$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \small \bullet \normalsize 3}{5 \small \bullet \normalsize 3}\normalsize  + \Large \frac{4 \small \bullet \normalsize 5}{3 \small \bullet \normalsize 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
+$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \small \bullet \Large 3}{5 \small \bullet \Large 3}\normalsize  + \Large \frac{4 \small \bullet \Large 5}{3 \small \bullet \Large 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
 
 <u>**Stap 2: tellers optellen**  
 </u>Zodra de noemers gelijk zijn, kan er worden opgeteld:
@@ -111,9 +111,9 @@ met lengte 2 die naar rechts wijst.
 
 Een min-teken voor een getal betekent dat de pijl van richting omklapt.
 Onderstaande plaatje beeldt het getal -2 af:  
-![image1.png](./media/media/image2.png)
-**Er moet dus gelden:  
-**\- - 2 = 2  
+![image1.png](./media/media/image2.png)   
+**Er moet dus gelden:**   
+\- - 2 = 2  
 \- - - - 2 = 2  
 (richting klapt een even aantal keren om, en blijft gelijk)
 
@@ -434,7 +434,7 @@ invullen (in dit geval alleen x):
 
 Daarmee zijn alle onbekenden opgelost, en uitgedrukt in bekenden. Nog
 even op een rijtje:  
-z = $\Large \frac{c}{a}\normalsize $, t = $\Large \frac{b + \ a}{a}\normalsize $, x = $\Large \frac{c}{a}\normalsize $en y =
+z = $\Large \frac{c}{a}\normalsize$, t = $\Large \frac{b + \ a}{a}\normalsize$, x = $\Large \frac{c}{a}\normalsize$ en y =
 $\Large \frac{c}{a}\normalsize \ (b + \ a)$
 
 ### Tips en Trucs
@@ -456,6 +456,7 @@ constanten.
 
 Stel, we zijn alleen geinteresseerd in y. Voor minimaal rekenwerk moeten
 we dus de overige onbekenden eerst substitueren:  
+
 **Stap 1.** We kiezen vergelijking (2) als substitutievergelijking voor
 z:  
 2*&nbsp;&nbsp; z = y – c  
@@ -484,7 +485,8 @@ $d = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }$.
 We vermenigvuldigen dus de volledige linkerkant en rechterkant met die
 noemer:  
 3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $ 
-&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; vermenigvuldigen en delen door hetzelfde heffen elkaar op:
+&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;    
+vermenigvuldigen en delen door hetzelfde heffen elkaar op:
 
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \textcolor{orange}{\frac{y}{a}} \normalsize }\Large \textcolor{orange}{\frac{y}{a}}\normalsize $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = y - c$
