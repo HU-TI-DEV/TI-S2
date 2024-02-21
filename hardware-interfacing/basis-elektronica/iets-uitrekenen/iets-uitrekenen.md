@@ -456,6 +456,7 @@ constanten.
 
 Stel, we zijn alleen geinteresseerd in y. Voor minimaal rekenwerk moeten
 we dus de overige onbekenden eerst substitueren:  
+
 **Stap 1.** We kiezen vergelijking (2) als substitutievergelijking voor
 z:  
 2*&nbsp;&nbsp; z = y – c  
@@ -484,7 +485,8 @@ $d = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }$.
 We vermenigvuldigen dus de volledige linkerkant en rechterkant met die
 noemer:  
 3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $ 
-&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; vermenigvuldigen en delen door hetzelfde heffen elkaar op:
+&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;    
+vermenigvuldigen en delen door hetzelfde heffen elkaar op:
 
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \textcolor{orange}{\frac{y}{a}} \normalsize }\Large \textcolor{orange}{\frac{y}{a}}\normalsize $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = y - c$
