@@ -111,9 +111,9 @@ met lengte 2 die naar rechts wijst.
 
 Een min-teken voor een getal betekent dat de pijl van richting omklapt.
 Onderstaande plaatje beeldt het getal -2 af:  
-![image1.png](./media/media/image2.png)
-**Er moet dus gelden:  
-**\- - 2 = 2  
+![image1.png](./media/media/image2.png)   
+**Er moet dus gelden:**   
+\- - 2 = 2  
 \- - - - 2 = 2  
 (richting klapt een even aantal keren om, en blijft gelijk)
 
