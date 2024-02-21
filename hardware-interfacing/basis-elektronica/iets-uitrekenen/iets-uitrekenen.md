@@ -434,7 +434,7 @@ invullen (in dit geval alleen x):
 
 Daarmee zijn alle onbekenden opgelost, en uitgedrukt in bekenden. Nog
 even op een rijtje:  
-z = $\Large \frac{c}{a}\normalsize $, t = $\Large \frac{b + \ a}{a}\normalsize $, x = $\Large \frac{c}{a}\normalsize $en y =
+z = $\Large \frac{c}{a}\normalsize$, t = $\Large \frac{b + \ a}{a}\normalsize$, x = $\Large \frac{c}{a}\normalsize$ en y =
 $\Large \frac{c}{a}\normalsize \ (b + \ a)$
 
 ### Tips en Trucs
