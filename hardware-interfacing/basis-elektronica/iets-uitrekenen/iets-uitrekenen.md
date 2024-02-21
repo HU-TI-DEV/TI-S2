@@ -67,7 +67,7 @@ $\Large \frac{\Large \frac{2}{5}\normalsize \ }{\Large \frac{3}{4}\normalsize } 
 ## Wat is **herleiden**?
 
 **Herleiden** is het herschrijven van een wiskundige formule of breuk naar een **eenvoudigere** vorm, die equivalent is. 
-Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$is equivalent met $\frac{2}{4}$, maar eenvoudiger.
+Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$ is equivalent met $\frac{2}{4}$, maar eenvoudiger.
 
 ## Hoe vereenvoudig je een breuk?
 
