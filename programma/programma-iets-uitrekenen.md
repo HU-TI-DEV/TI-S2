@@ -2,7 +2,7 @@
 
 Het komt vaak in het leven voor dat het handig is om iets te kunnen uitrekenen. Of het nu gaat over je financiën, electronica, de beweging van een robot of van een object in een computer-game. De **basics** daarvan hebben we op de lagere school gehad, maar zijn vaak weggezakt. Die gaan we dus eerst weer **verversen**. Vervolgens doen we er een stapje bovenop, en oefenen waar het om draait: het kunnen **oplossen van een of meerdere vergelijkingen**.
 
-Sommige studenten hebben in het verleden een soort "reken-trauma" opgelopen, en denken dat ze niet kunnen leren rekenen. Toch blijken in de praktijk dat ook zij, na bestudering van de basics en het maken van onderstaande oefenopgaven een heel eind kunnen komen. **Tip: investeer hier echt in**. Je krijgt er zowel bij deze opleiding als daarbuiten voor terug.
+Sommige studenten hebben in het verleden een soort "reken-trauma" opgelopen, en denken dat ze niet kunnen leren rekenen. Toch blijkt in de praktijk dat ook zij, na bestudering van de basics en het maken van onderstaande oefenopgaven een heel eind kunnen komen. **Tip: investeer hier echt in**. Je krijgt er zowel bij deze opleiding als daarbuiten voor terug.
 
 ## Voorbereiding (ruim tevoren)
 
