@@ -92,7 +92,7 @@ $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \fr
 Dat doe je door teller **en** noemer van de ene breuk te
 vermenigvuldigen met de noemer van de andere breuk (en vice versa).
 
-$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \small \bullet \normalsize 3}{5 \small \bullet \normalsize 3}\normalsize  + \Large \frac{4 \small \bullet \normalsize 5}{3 \small \bullet \normalsize 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
+$\Large \frac{2}{5}\normalsize  + \Large \frac{4}{3}\normalsize  = \Large \frac{2 \small \bullet \Large 3}{5 \small \bullet \Large 3}\normalsize  + \Large \frac{4 \small \bullet \Large 5}{3 \small \bullet \Large 5}\normalsize  = \Large \frac{6}{\mathbf{15}} + \Large \frac{20}{\mathbf{15}}$
 
 <u>**Stap 2: tellers optellen**  
 </u>Zodra de noemers gelijk zijn, kan er worden opgeteld:
