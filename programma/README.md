@@ -119,7 +119,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  |     | Werken aan project | Kirchhof, Weerstansnetwerkjes (**MV**)     |
+| C6   | ma  |     | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
 | C6   | di  |     | Werken aan project | cpp en hpp files, includes, namespace (**GP**)     |
 | C6   | wo  |     | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
