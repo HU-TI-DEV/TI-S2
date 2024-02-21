@@ -240,7 +240,3 @@ Laten we bij deze laatste vergelijking eens linker en rechter deel delen door I:
         𝐼∗𝑡/𝐼= 𝑄/𝐼 <-> 𝒕= 𝑸/𝑰 (de I’s delen aan de linkerkant op elkaar weg)
 
 Samengevat: door links en rechts met hetzelfde te vermenigvuldigen of door hetzelfde te delen kunnen eenvoudig de andere vormen worden afgeleid (en hoeven we dus maar 1 vorm te onthouden).
-
-## References
-
-Units (<https://en.wikipedia.org/wiki/International_System_of_Units>)
