@@ -76,7 +76,7 @@ Het kan voorkomen dat **teller en noemer** van een breuk **deelbaar** zijn
 In dat geval kun je die deling uitvoeren om de breuk eenvoudiger te
 schrijven.  
 $\Large \frac{20}{25}\normalsize  = \Large \frac{20 \small \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \small \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize 
-$
+$   
 Bovenstaand is zowel teller als noemer deelbaar door 5.  
 NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.   
 $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$  
