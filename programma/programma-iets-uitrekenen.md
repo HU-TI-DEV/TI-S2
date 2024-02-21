@@ -38,7 +38,7 @@ Upload fotos van je finale handgeschreven uitwerkingen naar de bijbehorende canv
 ## Bonus
 Voor wie de smaak te pakken heeft, of nog beter wil worden door extra oefening, is er keuze uit de volgende bonusopgaven:
 - [Extra Opgaven Vergelijkingen met 1 variabele](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgaven-vergelijkingen-met-1-variabele-oplossen.md)
-- [Extra Opgave Vergelijking met 6 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-6-variabelen.md)
+- [Extra Opgave Vergelijkingen met 6 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-6-variabelen.md)
 - [Extra Opgaven Vergelijkingen met 15 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-15-variabelen.md)
 - [Extra Opgaven Vergelijkingen met 1 variabele](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgaven-vergelijkingen-met-1-variabele-oplossen.md)
 - [Extra Opgaven Vergelijkingen met 26 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-26-variabelen.md)
