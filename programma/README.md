@@ -111,8 +111,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | --- | --- | --- | --- | --- |
 | C5   | ma  |     | Werken aan project     | Electrisch Schema, Weerstanden(**MV**)     |
 | C5   | di  |     | Werken aan project     | Spanningsbronnen en pullup/pulldown (**MV**)     |
-| C5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
-| C5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
+| C5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
 | C5   | vr  |     |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
