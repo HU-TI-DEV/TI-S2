@@ -56,6 +56,10 @@ Je kunt de BME280 library gebruiken van Adafruit. Pas dan de interface aan van I
 
 Arduino voorbeeld [code](../SPI/files/bme280test/bme280test.ino)
 
+Er is ook een versie zonder luchtvochtigheid sensor de BMP280. Deze is goedkoper en beter beschikbaar in de [TI lab shop] (https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/BMP280%20sensor%20module.html).
+
+Arduino voobeeld [code](../SPI/files/bmp280test/bmp280test.ino)
+
 ## Referenties
 
 - SPI (<https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>)
