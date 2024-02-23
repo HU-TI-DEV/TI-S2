@@ -19,7 +19,7 @@ de delen:
 
 Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- [Practicum Circuit Multimeter Weerstand](../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md) 
+- [Practicum Circuit Multimeter Weerstand](../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)    
   Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
 - [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md) 
 
