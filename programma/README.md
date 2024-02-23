@@ -82,7 +82,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | C2   | di  | Excursie Kwekerij Lankhaar     | Excursie: 8.30 Aanwezig!     | 15.00 terug in Utrecht (**allen**)     |
 | C2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), C++ oefenen met vectoren (**GP**), Recursie (**GP**)     |
-| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitaal Pin (**HP**),  [Electronika (basis)](programma-si-eenheden.md) (**MV**)     |
+| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitaal Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
 
 ### Onderwijsweek C3 (19-2-2024)
 
@@ -109,8 +109,8 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C5   | ma  |     | Werken aan project     | Electrisch Schema, Weerstanden(**MV**)     |
-| C5   | di  |     | Werken aan project     | Spanningsbronnen en pullup/pulldown (**MV**)     |
+| C5   | ma  |     | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
+| C5   | di  |     | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
 | C5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
 | C5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
 | C5   | vr  |     |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
