@@ -82,7 +82,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | C2   | di  | Excursie Kwekerij Lankhaar     | Excursie: 8.30 Aanwezig!     | 15.00 terug in Utrecht (**allen**)     |
 | C2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), C++ oefenen met vectoren (**GP**), Recursie (**GP**)     |
-| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitaal Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
+| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitale Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
 
 ### Onderwijsweek C3 (19-2-2024)
 

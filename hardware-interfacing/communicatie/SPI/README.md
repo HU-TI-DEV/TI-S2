@@ -44,7 +44,7 @@ Het SPI protocol kan je op verschillende manieren implementeren. De Arduino Uno 
 
 ## De schakeling
 
-De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor van Bosch. De sensor kan gevoed worden met 3V3-5V. De module heeft een logic level shifter voor de SDA en SCL lijn. Je kunt dus ook aansluiten via [I<sup>2</sup>C](../I2C/README.md) op 3V3. In dit voorbeeld demonsteren wij een aansluiting via (hardware) SPI. De naamgeving kan verwarrend zijn kijk en de afbeelding voor de juiste benaming voor SPI bij deze module. 
+De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor van Bosch. De sensor kan gevoed worden met 3V3-5V. De module heeft een logic level shifter voor de SDA en SCL lijn. Je kunt dus ook aansluiten via [I<sup>2</sup>C](../I2C/README.md) op 3V3. In dit voorbeeld demonsteren wij een aansluiting via (hardware) SPI. De naamgeving kan verwarrend zijn. Kijk naar de afbeelding voor de juiste benaming voor SPI bij deze module. 
 
     Luchtdruk is een indicator van het weer. Wanneer er een laag-drukgebied ons land binnenkomt wijst dat op de komst van wolken, wind en regen. Een hoog-drukgebied wijst daarentegen op mooi en zonnig weer. Verandering van luchtdruk kan je dus gebruiken voor het voorspellen van het weer.
 
@@ -55,6 +55,10 @@ De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor
 Je kunt de BME280 library gebruiken van Adafruit. Pas dan de interface aan van I<sup>2</sup>C naar hardware of software SPI.
 
 Arduino voorbeeld [code](../SPI/files/bme280test/bme280test.ino)
+
+Er is ook een versie zonder luchtvochtigheid sensor de BMP280. Deze is goedkoper en beter beschikbaar in de [TI lab shop] (https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/BMP280%20sensor%20module.html).
+
+Arduino voobeeld [code](../SPI/files/bmp280test/bmp280test.ino)
 
 ## Referenties
 
