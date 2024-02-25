@@ -103,7 +103,7 @@ DIP Dual in-line Package
 
 De 74HC595 werkt op basis van Serial IN Parallel OUT protocol (SIPO).
 
-![How shift registers work(Animation)](https://www.youtube.com/watch?v=6nsQuKBRyl4)
+[How shift registers work(Animation)](https://www.youtube.com/watch?v=6nsQuKBRyl4)
 
 Voorbeeld van een 4 bit shift register.
 
@@ -118,6 +118,10 @@ De IC ontvangt seriele data van de microcontroller en stuurt de data door naar p
 [74HC595 datasheet](https://www.ti.com/lit/ds/symlink/cd74hc595.pdf)
 
 ![Pin diagram](/595_pin_diagram.png)
+
+---
+
+# Pin functions
 
 | PINS 1-7, 15	| Q0 - Q7	| Output Pins |
 | --- | --- | --- |
@@ -134,14 +138,21 @@ De IC ontvangt seriele data van de microcontroller en stuurt de data door naar p
 MR Master Reclear en OE Output Enable gebruiken we niet, dit zorgt wel voor undefined behaviour tijdens het opstarten. Je kan er voor kiezen ook deze pinnen met je Arduino aan te sturen. De pinnen die actief laag zijn hebben een streep boven de Pin benaming. Q7' is geen output maar serial out om een volgende 74HC595 te daisy-chaining.
 -->
 
-
----
-
-# Binary
-
-Voorbeeld is
-
-
 ---
 
 # Arduino voorbeeld
+
+[Arduino voorbeeld](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/elektronische-componenten/ic/74HC595/README.md)
+
+shiftOut functie heeft twee opties MSBFIRST of LSBFIRST
+
+| Dec 123 |  |  |  |  |  |  |  | 
+| ---  | ---  |---  |---  |---  |---  |---  |---  | 
+| 0 | 1 | 1 | 1 | 1 | 0 | 1 | 1 |
+| MSb  |  |  |  |  |  |  | LSb |
+| Q7 | | | | | | | Q0| 
+
+
+<!--
+MSBFIRST staat voor Most Significant bit first. MSb is de hoogste-order place van binair integer waarde. Met de optie MSBFIRST wordt de meest linker bit eerst verzonden. In dit geval een 0 deze komt uiteindelijk op output pin Q7
+-->
