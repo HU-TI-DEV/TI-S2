@@ -260,6 +260,16 @@ Neem de potentiometer:
    dat bestaat uit R3, R1 en R2. (Tip: de vervangingsweerstand als
    geheel gehoorzaamt ook de wet van Ohm).**
 
+# Pull-up
+
+Stel je wilt met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
+
+1. Stel je gebruikt daarvoor een schakelaar met **pull-up** weerstand, wat is dan het gedrag van het circuit? Waarom werkt het niet als je de pull-up weerstand weglaat?
+
+# Pull-down
+
+Stel je wilt met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
+
 # Uitsmijter (theorie)
 
 <img title="" src="./media/media/groter-netwerkje-1.png" alt="" width="220">   
