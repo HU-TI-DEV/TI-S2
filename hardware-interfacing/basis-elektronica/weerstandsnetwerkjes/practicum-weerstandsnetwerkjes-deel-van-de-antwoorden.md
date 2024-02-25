@@ -259,3 +259,26 @@ Neem de potentiometer:
 6. **Bereken mbv alleen I3 en V1 de vervangingsweerstand van het geheel
    dat bestaat uit R3, R1 en R2. (Tip: de vervangingsweerstand als
    geheel gehoorzaamt ook de wet van Ohm).**
+
+# Uitsmijter (theorie)
+
+<img title="" src="./media/media/groter-netwerkje-1.png" alt="" width="220">   
+
+1. **Bereken de vervangingsweerstand (die je tussen de klemmen meet) van het bovenstaande netwerk**
+   (Tip: gebruik alleen de formules voor serie en parallelweerstand)
+   **-> $\Large\frac{5}{8}$kΩ**
+
+# Bonus: Laddernetwerk
+
+<img title="" src="./media/media/ladder1.gif" alt="" width="667">   
+
+<img title="" src="./media/media/ladder2.gif" alt="" width="667">   
+
+<img title="" src="./media/media/ladder3.gif" alt="" width="667">   
+
+1. **Probeer uit te leggen waar de bovenstaande plaatjes over gaan.**
+
+Tips: 
+
+- Kijk eens naar [ladder-networks](https://www.sciencedirect.com/topics/engineering/ladder-networks)).
+- De opamp-weerstandscombinatie rechtsonder regelt zijn ingang op 0Volt, en converteert de binnenkomende stroom naar de uitgangs-spanning: -Iin * Rt.
