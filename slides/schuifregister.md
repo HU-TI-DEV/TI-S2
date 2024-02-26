@@ -93,7 +93,7 @@ DIP Dual in-line Package
  8bit shift register:
  - Meer output pinnen voor je project (er zijn maar 3 GPIO pinnen nodig voor 8 extra pinnen)
  - Als je Arduino of microcontroller op afstand staat
- - 74HC595 ondersteund daisy chaining  
+ - 74HC595 ondersteunt daisy chaining  
 
 ![Pin diagram](/595_pin_diagram.png)
 
