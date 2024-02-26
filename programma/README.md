@@ -122,7 +122,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | C6   | ma  |     | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
 | C6   | di  |     | Werken aan project | cpp en hpp files, includes, namespace (**GP**)     |
 | C6   | wo  |     | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)     |
-| C6   | do  | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
+| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
@@ -158,7 +158,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | C10  | ma  |     | Bedienen via H-brug, lin. actuator, Werken aan project | Fets, Schakelen, H-brug, fly-back (**MV**) |
 | C10  | di  |     | Werken aan project     | Comparator, Condensator (**MV**)     |
 | C10  | wo  |     | Werken aan project     | Bipolaire transistor, Darlington (**MV**)  |
-| C10  | do  | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
+| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D1 (15-4-2024)
 
@@ -204,7 +204,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | D5   | ma  |     | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)     | 
 | D5   | di  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
-| D5   | do  | **[3e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
+| D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
 
@@ -240,7 +240,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |     |     |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
 
 ### Onderwijsweek D10 (17-6-2024)
 
