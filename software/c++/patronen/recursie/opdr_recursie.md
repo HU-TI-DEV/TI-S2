@@ -12,6 +12,7 @@
 
 
 ## Opdracht 5.1 — Konijnen
+
 *Beschrijf* in één zin wat de onderstaande functie doet. Probeer de code alleen te *lezen* en niet uit te voeren.
 
 ```c++
@@ -25,6 +26,7 @@ int ears(int n_rabbits){
 ```
 
 ## Opdracht 5.3 — Groot en gemeen
+
 Hoe vaak wordt de onderstaande code uitgevoerd als `a=900` en `b=280`?
 
 ```c++
@@ -41,7 +43,9 @@ int findGCD(int a,int b){
 ```
 
 ## Opdracht 5.4 — Rij van Fibonacci
-![Voorbeeld van een programma dat recursief het vierde element van de fibonacci reeks uitrekent.](fibonacci.png)
+
+![Voorbeeld van een programma dat recursief het vierde element van de fibonacci reeks uitrekent.](./img/fibonacci.png)
+
 *Figuur 5.1 - Voorbeeld van een programma dat recursief het vierde element van de fibonacci reeks uitrekent.*
 
 De rij van Fibonacci is genoemd naar Leonardo van Pisa, bijgenaamd Fibonacci, die de
@@ -51,6 +55,7 @@ rij noemt in zijn boek *Liber abaci* uit 1202.
 - vervolgens is elk volgend element van de rij steeds **de som van de twee voorgaande elementen**. 
 
 #### Notatie en uitkomsten
+
 Bij de rij gebruiken we de notatie f<sub>n</sub> voor het aangeven van het n-de element van de rij. f<sub>9</sub> is bijvoorbeeld gelijk aan 34. 
 De eerste elementen van de rij zijn dan als volgt:
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584.
@@ -69,10 +74,12 @@ Dezelfde regels, maar iets uitgebreider uitgelegd:
 Je mag aannemen dat de gebruiker altijd een n geeft die groter of gelijk is aan 0.
 
 ## Opdracht 5.6 - Gemiddelde
+
 Schrijf een recursieve functie die van een `vector<int>` het gemiddelde uitrekent. 
 Neem aan dat de vector die de functie meekrijgt minimaal één element heeft.
 
 ## Opdracht 5.8 — Robotpiraat
+
 De robotpiraat Arrrrr2D2 is op zoek naar de schat van de beroemde robotpiraat Roestbaard.
 Om de schat te vinden heeft hij instructies gekregen, maar zijn batterij is bijna op. 
 

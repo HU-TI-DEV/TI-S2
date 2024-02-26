@@ -29,7 +29,7 @@ int main() {
     // x: 10
 
     float y = 100 / 8.0;
-    cout << "y: " << c << "\n";
+    cout << "y: " << y << "\n";
     // y = 12.5
 
     char c = 'F';

@@ -13,10 +13,10 @@
     - [Returnwaarde main in scripts](#returnwaarde-main-in-scripts)
     - [Void](#void)
 
-
 ---
 
 ## Basis
+
 Een functie is een verzameling coderegels die we een *naam* geven. De code van de functie noemen we de *body*.
 
 We kunnen de functie iets meegeven via *parameters* en iets terugvragen via de *returnwaarde*.
@@ -25,6 +25,7 @@ In C++ moeten we bij elke variabele het datatype aangeven. Dit geldt ook voor fu
 De datatypes van zowel de return-waarde als de parameters moeten worden gespecificeerd. 
 
 ### Codevoorbeelden - functies
+
 In codevoorbeelden 8.1, 8.2, 8.3 en 8.4 zien we enkele C++ functies en hoe deze functies worden aangeroepen.
 
 ```c++
@@ -56,6 +57,7 @@ int main(){
     // p: 16
 }
 ```
+
 *Codevoorbeeld 8.1 Functies add en power met integers en floats* 
 
 ```c++
@@ -83,8 +85,8 @@ int main(){
     // bt5: 0
 }
 ```
-*Codevoorbeeld 8.2 Functies met bool en void*
 
+*Codevoorbeeld 8.2 Functies met bool en void*
 
 ```c++
 #include <iostream>
@@ -112,8 +114,8 @@ int main(){
     // b: D
 }
 ```
-*Codevoorbeeld 8.3 Functies met string en char*
 
+*Codevoorbeeld 8.3 Functies met string en char*
 
 ```c++
 #include <iostream>
@@ -146,34 +148,35 @@ int main(){
     // 1,1,1,1,
 }
 ```
+
 *Codevoorbeeld 8.4 Functies met vectoren*
 
 ### Datatypen functies
-Het datatype van de return-waarde zetten we voor de naam van de functie. 
-Het datatype van een parameter zetten we voor de naam van de parameter.
+
+Het datatype van de return-waarde zetten we voor de naam van de functie. Het datatype van een parameter zetten we voor de naam van de parameter.
 
 ### { }
-Net als met if/else-statements en loops geven we met krulhaken ({ en }) aan wat de
-body is van een functie.
+
+Net als met if/else-statements en loops geven we met krulhaken ({ en }) aan wat de body is van een functie.
 
 ### Main
+
 We zien in de codevoorbeelden dat main() ook een functie is met als return type int.
 De functie main() is speciaal, omdat het de functie is die door het programma altijd als
 eerste wordt aangeroepen. 
 
 ### Returnwaarde main
-De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. “return 0;” mag bij main() worden weggelaten.
-Als de return-opdracht ontbreekt wordt door de compiler “return 0;” toegevoegd.
+
+De main()-functie geeft meestal als return-waarde 0 terug. Hiermee wordt aangegeven dat alles succesvol is uitgevoerd. 'return 0;' mag bij main() worden weggelaten. Als de return-opdracht ontbreekt wordt door de compiler 'return 0;' toegevoegd.
 
 ### Zo min mogelijk code in main
-Het is gebruikelijk en het wordt gezien als goede programmeerstijl om zo min
-mogelijk code in de main()-functie te zetten. In de body van de main()-functie worden
-voornamelijk andere functies aangeroepen die het echte werk doen. Hiermee geeft de
-main()-functie een overzicht van je programma
+
+Het is gebruikelijk en het wordt gezien als goede programmeerstijl om zo min mogelijk code in de main()-functie te zetten. In de body van de main()-functie worden voornamelijk andere functies aangeroepen die het echte werk doen. Hiermee geeft de main()-functie een overzicht van je programma
 
 ### Returnwaarde main in scripts
-Als het programma wordt gebruikt in een script (.sh[linux] of .bat[Windows]) dan kan het programma
-het script informeren of het programma goed is verlopen. Maar je kunt ook allerlei andere returnwaardes definiëren (bijvoorbeeld als je geen connectie kunt krijgen met het internet).
+
+Als het programma wordt gebruikt in een script (.sh[linux] of .bat[Windows]) dan kan het programma het script informeren of het programma goed is verlopen. Maar je kunt ook allerlei andere returnwaardes definiëren (bijvoorbeeld als je geen connectie kunt krijgen met het internet).
 
 ### Void
+
 Een functie met return-type *void* heeft geen return-waarde.
