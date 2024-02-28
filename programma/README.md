@@ -107,19 +107,21 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C5 (4-3-2024)
 
+Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. 
+
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C5   | ma  |     | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
-| C5   | di  |     | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
-| C5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
-| C5   | vr  |     |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
+| C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
+| C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  |     | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
+| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
 | C6   | di  |     | Werken aan project | cpp en hpp files, includes, namespace (**GP**)     |
 | C6   | wo  |     | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
