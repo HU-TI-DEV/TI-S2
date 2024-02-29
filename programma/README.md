@@ -102,7 +102,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | --- | --- | --- | --- | --- |
 | C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
 | C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md) (**MV**)     |
-| C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](../hardware-interfacing/communicatie/SPI/README.md) (**HP**)     |
+| C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](/programma/programma-SPI.md) (**HP**)     |
 | C4   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](./programma-rekenen-met-eenheden.md) (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
 
 ### Onderwijsweek C5 (4-3-2024)
@@ -121,7 +121,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
+| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhoff, Weerstandsnetwerkjes (**MV**)     |
 | C6   | di  |     | Werken aan project | cpp en hpp files, includes, namespace (**GP**)     |
 | C6   | wo  |     | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
