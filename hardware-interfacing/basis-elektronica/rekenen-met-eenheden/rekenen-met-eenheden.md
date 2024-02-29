@@ -42,7 +42,7 @@ Het wordt misschien het duidelijkst met een lijst met voorbeelden:
 | m (massa) | mg, g, ***kg***, ounce, pound | 
 | | | 
 | **In het electrische domein:** | | 
-| Q (lading) | ***C*** (Coulomb), Ah (Ampereuur) | 
+| Q (lading) | ***C*** (Coulomb), As (Ampereseconde) | 
 | E (energie) | ***J*** (Joule), Wh (Wattuur) | 
 | P (vermogen) | ***W*** (Watt), VA (VoltAmpere), J/s (Joule per seconde) | 
 | I (electrische stroom) | ***A*** (Ampere), C/s (Coulomb per seconde) | 
