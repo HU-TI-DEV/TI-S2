@@ -113,8 +113,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
 | C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) of [Bits](../software/c++/bits/README.md) (**GP**) |
-| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) of [Bits](../software/c++/bits/README.md) (**GP**) |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
@@ -140,8 +140,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project     | UART     |
-| C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM     |
-| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM     |
+| C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM (**HP**) |
 | C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Git workshop (**HS**, **TM**) |
 
 ### Onderwijsweek C9 (1-4-2024)
