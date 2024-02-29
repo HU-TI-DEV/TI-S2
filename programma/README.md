@@ -102,27 +102,29 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | --- | --- | --- | --- | --- |
 | C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
 | C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md) (**MV**)     |
-| C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](../hardware-interfacing/communicatie/SPI/README.md) (**HP**)     |
+| C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](/programma/programma-SPI.md) (**HP**)     |
 | C4   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](./programma-rekenen-met-eenheden.md) (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
 
 ### Onderwijsweek C5 (4-3-2024)
 
+Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. 
+
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C5   | ma  |     | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
-| C5   | di  |     | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
-| C5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
-| C5   | vr  |     |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
+| C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
+| C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) |
+| C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  |     | Werken aan project | Kirchhof, Weerstandsnetwerkjes (**MV**)     |
+| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhoff, Weerstandsnetwerkjes (**MV**)     |
 | C6   | di  |     | Werken aan project | cpp en hpp files, includes, namespace (**GP**)     |
 | C6   | wo  |     | Werken aan project | struct, compositie UML relatie, bits, uint8,  files i/o, fstream (**GP**)     |
-| C6   | do  | **[1e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
+| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
@@ -158,7 +160,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | C10  | ma  |     | Bedienen via H-brug, lin. actuator, Werken aan project | Fets, Schakelen, H-brug, fly-back (**MV**) |
 | C10  | di  |     | Werken aan project     | Comparator, Condensator (**MV**)     |
 | C10  | wo  |     | Werken aan project     | Bipolaire transistor, Darlington (**MV**)  |
-| C10  | do  | **[2e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
+| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D1 (15-4-2024)
 
@@ -204,7 +206,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | D5   | ma  |     | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)     | 
 | D5   | di  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
-| D5   | do  | **[3e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
+| D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
 
@@ -240,7 +242,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../TI-S2/Verantwoordingsdocument_TI_S2.md)** |     |     |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
 
 ### Onderwijsweek D10 (17-6-2024)
 

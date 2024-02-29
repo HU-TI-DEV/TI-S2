@@ -22,7 +22,7 @@
 
 SPI (Serial Peripheral Interface) is een communicatiestandaard waarbij één chip, de master, bepaalt welke van de andere chips (slaves) mag communiceren over de bus. De SPI-aansluiting bestaat in haar meest simpele vorm uit twee datalijnen en een kloklijn. De eerste datalijn heet MOSI (Master Out Slave In) hierover wordt de data van de master naar een slave gestuurd. De tweede datalijn is de MISO (Master In Slave Out) hierover wordt de data van een slave naar de master gestuurd. De kloklijn, SCLK (Serial CLocK), is er om aan te geven wanneer de volgende bit wordt verstuurd over de datalijn. Het signaal van de kloklijn wordt gegenereerd door de master.
 
-    Om de associatie met slavernij te voorkomen is het voorstel gedaan om de pin referenties in relatie tot SPI aan te passen. [A Resolution to Redefine SPI Signal Names](<https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/>). Deze terminologie is nog niet volledig overgenomen in dit document.
+> Om de associatie met slavernij te voorkomen is het voorstel gedaan om de pin referenties in relatie tot SPI aan te passen. [A Resolution to Redefine SPI Signal Names](<https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names/>). Deze terminologie is nog niet volledig overgenomen in dit document.
 
 ![SPI met één master en één slave.](../SPI/img/SPI_master_slave.png)
 
@@ -36,7 +36,7 @@ Het is ook mogelijk om met SPI meerdere slaves op de master aan te sluiten waarb
 
 In bovenstaand figuur zien we de [74HC595](../../elektronische-componenten/ic/74HC595/README.md) schuifregister. Door deze als slave via SPI aan te sluiten op je Arduino kan je het aantal output pinnen van je Arduino vergroten. Je kan ook juist het aantal input pins verhogen door een SN74LS598 schuifregister aan te sluiten. SPI heb je ook nodig om met sommige sensoren en actuatoren te communiceren en natuurlijk kan je SPI ook gebruiken om twee Arduino’s met elkaar te laten communiceren.
 
-    Er kunnen ook een andere reden zijn om een schuifregeister te gebruiken omdat er dan bijvoorbeeld minder draden hoeven te lopen naar van de micro-controller naar de plek waar de IO pinnen nodig zijn. Of omdat de pinnen van een extender chip vaak meer stroom kunnen leveren dan die van een micro-controller. Of gewoon omdat de pinnen van de micro-controllerr op zijn: goedkope micro-controllerrollers hebben vaak veel minder IO pinnen. Een PIC10F200 heeft er bijvoorbeeld maar 6.
+> Er kunnen ook andere reden zijn om een schuifregeister te gebruiken omdat er dan bijvoorbeeld minder draden hoeven te lopen van de micro-controller naar de plek waar de IO pinnen nodig zijn. Of omdat de pinnen van een extender chip vaak meer stroom kunnen leveren dan die van een micro-controller. Of gewoon omdat de pinnen van de micro-controller op zijn: goedkope micro-controllers hebben vaak veel minder IO pinnen. Een PIC10F200 heeft er bijvoorbeeld maar 6.
 
 ## SPI protocol
 
@@ -44,9 +44,9 @@ Het SPI protocol kan je op verschillende manieren implementeren. De Arduino Uno 
 
 ## De schakeling
 
-De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor van Bosch. De sensor kan gevoed worden met 3V3-5V. De module heeft een logic level shifter voor de SDA en SCL lijn. Je kunt dus ook aansluiten via [I<sup>2</sup>C](../I2C/README.md) op 3V3. In dit voorbeeld demonsteren wij een aansluiting via (hardware) SPI. De naamgeving kan verwarrend zijn. Kijk naar de afbeelding voor de juiste benaming voor SPI bij deze module. 
+De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor van Bosch. De sensor kan gevoed worden met 3V3-5V. De module heeft een logic level shifter voor de SDA en SCL lijn. Je kunt dus ook aansluiten via [I<sup>2</sup>C](../I2C/README.md) op 3V3. In dit voorbeeld demonsteren wij een aansluiting via (hardware) SPI. De naamgeving kan verwarrend zijn. Kijk naar de afbeelding voor de juiste benaming voor SPI bij deze module.
 
-    Luchtdruk is een indicator van het weer. Wanneer er een laag-drukgebied ons land binnenkomt wijst dat op de komst van wolken, wind en regen. Een hoog-drukgebied wijst daarentegen op mooi en zonnig weer. Verandering van luchtdruk kan je dus gebruiken voor het voorspellen van het weer.
+> Luchtdruk is een indicator van het weer. Wanneer er een laag-drukgebied ons land binnenkomt wijst dat op de komst van wolken, wind en regen. Een hoog-drukgebied wijst daarentegen op mooi en zonnig weer. Verandering van luchtdruk kan je dus gebruiken voor het voorspellen van het weer.
 
 ![BME280](../SPI/img/BME280_bb.png)
 
@@ -54,13 +54,23 @@ De BME280 is een luchtdruk- en temperatuur en (relatieve)luchtvochtigheid sensor
 
 Je kunt de BME280 library gebruiken van Adafruit. Pas dan de interface aan van I<sup>2</sup>C naar hardware of software SPI.
 
-Arduino voorbeeld [code](../SPI/files/bme280test/bme280test.ino)
+- [Arduino voorbeeld code voor BME280](../SPI/files/bme280test/bme280test.ino)
 
-Er is ook een versie zonder luchtvochtigheid sensor de BMP280. Deze is goedkoper en beter beschikbaar in de [TI lab shop] (https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/BMP280%20sensor%20module.html).
+Er is ook een versie zonder luchtvochtigheid sensor de BMP280. Deze is goedkoper en beter beschikbaar in de [TI lab shop] (<https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/BMP280%20sensor%20module.html>).
 
-Arduino voobeeld [code](../SPI/files/bmp280test/bmp280test.ino)
+- [Arduino voorbeeld code voor BMP280](../SPI/files/bmp280test/bmp280test.ino)
 
 ## Referenties
 
 - SPI (<https://en.wikipedia.org/wiki/Serial_Peripheral_Interface>)
 - Adafruit BME280 (<https://github.com/adafruit/Adafruit_BME280_Library>)
+
+BME280
+
+- [BME280 Datasheet (PDF)](./files/bst-bme280-ds002.pdf)
+- [Bosch Sensortec BME280 page](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/)
+
+BMP280
+
+- [BMP280 Datasheet (PDF)](./files/bst-bmp280-ds001.pdf)
+- [Bosch Sensortec BMP280 page](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/)

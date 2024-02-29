@@ -64,7 +64,7 @@ ${- \Large \frac{2}{- 7}\normalsize  + \Large \frac{- 5}{6}\normalsize  = }$
 **Vraag d:**  
 ${- \Large \frac{2 \small \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6}\normalsize  = }$
 
-**Vraag 3:**  
+**Vraag e:**  
 ${- \Large \frac{2 \small \bullet \normalsize x}{- 7}\normalsize  + \Large \frac{- 5}{6 \small \bullet \normalsize c}\normalsize  = }$
 
 Opgave 4: Breuken opsplitsen

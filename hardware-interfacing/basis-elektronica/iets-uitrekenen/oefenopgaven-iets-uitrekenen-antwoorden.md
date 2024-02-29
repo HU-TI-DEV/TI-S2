@@ -43,7 +43,7 @@ ${\Large \Large \frac{27}{18}\normalsize  = \Large \frac{3}{2}}$
 ${\Large - \Large \frac{32}{12}\normalsize  = -\Large \frac{8}{3} }$
 
 **Vraag c:**   
-${\Large \Large \frac{c \small \bullet \normalsize 56}{- 14}\normalsize  = 4 c}$
+${\Large \Large \frac{c \small \bullet \normalsize 56}{- 14}\normalsize  = - 4 c}$
 
 **Vraag d:**  
 $\Large \frac{48}{15 \small \bullet \normalsize x}\normalsize  = \Large \frac{16}{5 x} $
