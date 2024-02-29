@@ -38,12 +38,12 @@ Een batterij bevat 10000 Joule aan energie afkomstig uit windmolens. Hij wordt v
 **Vraag a**   
 Wat was de spanning van de batterij? (voordat hij leeg was)   
 ->   
-8.3 [V]
+1.4 [V]
 
 **Vraag b**
 Hoe groot (hoeveel ohm) moet de weerstand zijn geweest?   
 ->   
-4.2 [Ω]
+0.7 [Ω]
 
 ## Opgave 4
 Een zonnepaneel levert tijdens een zonnige dag, om precies te zijn op 5 juli, 60 Watt aan electrisch vermogen. Daarmee wordt een verwarmingselement (van een zwembadje) met een weerstand van 2 Ohm van energie voorzien. Welke spanning kun je daarbij met een multimeter meten over het verwarmingselement?   
