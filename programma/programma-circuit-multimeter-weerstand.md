@@ -4,7 +4,7 @@ In een vorige les hebben we al wat kennis opgedaan over electrische grootheden, 
 
 ## Voorbereiding
 
-Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13.
+Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
 
 Lees van
 [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
