@@ -121,7 +121,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhoff, Weerstandsnetwerkjes (**MV**)     |
+| C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
 | C6   | di  |     | Werken aan project | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)     |
 | C6   | wo  |     | Werken aan project | [struct](../software/c++/data-types/struct/README.md), compositie UML relatie, [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |

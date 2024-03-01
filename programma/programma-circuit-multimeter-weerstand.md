@@ -30,3 +30,6 @@ Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tij
 - Lever het resultaat in op de Canvas entry voor deze opdracht. 
 
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
+
+## Aanbeveling
+Dit practicum is relatief klein - je houdt vermoedelijk tijd over. Voor het volgende practicum (weerstandsnetwerkjes) is meer tijd nodig. Het is aan te bevelen om de les van weerstandsnetwerkjes ook voor te bereiden, zodat je aansluitend alvast met het bijbehorende practicum kunt beginnen.
