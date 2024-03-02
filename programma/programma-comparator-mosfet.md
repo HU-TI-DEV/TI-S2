@@ -4,6 +4,7 @@ In deze les maken we kennis met de MosFet transistor en een opamp die gebruikt w
 
 ## Voorbereiding
 
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
 - Lees van [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf):
   - bladzijde 27 en 28 (over schakelen met MOSFETs).  
 - Lees van [Reader Digitale Technologie](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-dit.pdf) :

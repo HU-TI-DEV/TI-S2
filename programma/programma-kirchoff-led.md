@@ -4,6 +4,8 @@ In deze les gaan we wat experimenteren met diodes. Ook met "Light Emitting Diode
 
 ## Voorbereiding
 
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
+
 Lees van [Reader Digitale techniek](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-dit.pdf) het deel over de diode door: blz 40 en 41.
 
 ## Tijdens de les

@@ -132,7 +132,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C7   | ma  | We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)    |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | Logic Analyzer (**MV**)     |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)      |
 | C7   | do  | Relais & Linear-actuator     | Werken aan Project | Temperatuurmeten: via ADC en one-wire (**HS**)   |
 
 ### Onderwijsweek C8 (25-3-2024)

@@ -4,6 +4,8 @@ In een vorige les hebben we al wat kennis opgedaan over electrische grootheden, 
 
 ## Voorbereiding
 
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
+
 Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
 
 Lees van
