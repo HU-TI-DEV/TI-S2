@@ -66,7 +66,7 @@ Voor de bovenstaande schakeling geldt:
 - De junctiespanning van de Rode LED noem ik even VjRood
 - De junctiespanning van de Rode LED noem ik even VjGroen
 
-Deze schakeling is handig circuit voor het testen van logische niveaus.
+Deze schakeling is een handig circuit voor het testen van logische niveaus.
 Probeer eerst onderstaande vragen te beantwoorden door te redeneren. Controleer vervolgens of het klopt door het circuit te bouwen en te testen:   
 **Vraag a: Welke LED brandt als de meetklem wordt verbonden met een (digitale output-) pin die een spanning van 5V heeft? En welke stroom loopt er dan door?**   
 
