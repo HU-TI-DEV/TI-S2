@@ -31,4 +31,4 @@ Merk op dat de 4 rechterbits `0110` die 'eraf' vallen aan de linkerkant worden i
 
 Ander leermateriaal:
 - [Binary Logical Shifts](https://youtu.be/C_MJ-UW1HkY).
-- [Circular shift](https://en.wikipedia.org/wiki/Circular_shift#:~:text=In%20computer%20programming%2C%20a%20bitwise,all%20bits%20of%20its%20operand.)
+- [Circular shift](https://en.wikipedia.org/wiki/Circular_shift)
