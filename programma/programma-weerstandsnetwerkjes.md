@@ -3,6 +3,7 @@
 In deze les gaan we met wat geavanceerdere electrische circuits aan de gang: weerstandsnetwerkjes.
 
 ## Voorbereiding
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
 
 Lees van
 [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)

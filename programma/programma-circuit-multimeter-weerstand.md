@@ -4,7 +4,9 @@ In een vorige les hebben we al wat kennis opgedaan over electrische grootheden, 
 
 ## Voorbereiding
 
-Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13.
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
+
+Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
 
 Lees van
 [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
@@ -30,3 +32,6 @@ Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tij
 - Lever het resultaat in op de Canvas entry voor deze opdracht. 
 
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
+
+## Aanbeveling
+Dit practicum is relatief klein - je houdt vermoedelijk tijd over. Voor het volgende practicum (weerstandsnetwerkjes) is meer tijd nodig. Het is aan te bevelen om de les van weerstandsnetwerkjes ook voor te bereiden, zodat je aansluitend alvast met het bijbehorende practicum kunt beginnen.

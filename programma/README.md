@@ -113,15 +113,15 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
 | C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) of [Bits](../software/c++/bits/README.md) (**GP**) |
-| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) of [Bits](../software/c++/bits/README.md) (**GP**) |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C6   | ma  | Elektrisch netwerk | Werken aan project | Kirchhoff, Weerstandsnetwerkjes (**MV**)     |
+| C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
 | C6   | di  |     | Werken aan project | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)     |
 | C6   | wo  |     | Werken aan project | [struct](../software/c++/data-types/struct/README.md), compositie UML relatie, [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
@@ -131,8 +131,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C7   | ma  | We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | [Use Cases](./programma-use-case.md) (**MV**)       |
-| C7   | di  | Relais & Linear-actuator     | Werken aan project | Multimeter, meetweerstanden, diode, led (**MV**) |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | Logic Analyzer (**MV**)     |
+| C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug  |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington   |
 | C7   | do  | Relais & Linear-actuator     | Werken aan Project | Temperatuurmeten: via ADC en one-wire (**HS**)   |
 
 ### Onderwijsweek C8 (25-3-2024)
@@ -140,8 +140,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project     | UART     |
-| C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM     |
-| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM     |
+| C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM (**HP**) |
 | C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Git workshop (**HS**, **TM**) |
 
 ### Onderwijsweek C9 (1-4-2024)
@@ -157,8 +157,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  |     | Bedienen via H-brug, lin. actuator, Werken aan project | Fets, Schakelen, H-brug, fly-back (**MV**) |
-| C10  | di  |     | Werken aan project     | Comparator, Condensator (**MV**)     |
+| C10  | ma  |     | .Bedienen via H-brug, lin. actuator, Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**)  Fets, Schakelen, H-brug, fly-back (**MV**) |
+| C10  | di  |     | Werken aan project     | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
 | C10  | wo  |     | Werken aan project     | Bipolaire transistor, Darlington (**MV**)  |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
 
