@@ -159,14 +159,14 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C10  | ma  |     | .Bedienen via H-brug, lin. actuator, Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
 | C10  | di  |     | Werken aan project     | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
-| C10  | wo  |     | Werken aan project     | Bipolaire transistor, Darlington (**MV**)  |
+| C10  | wo  |     | Werken aan project     | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D1 (15-4-2024)
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D1   | ma  |     | Werken aan project     | Niet-Functionele Requirements (**MV**)     |
+| D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
 | D1   | wo  |     | Werken aan project     | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
@@ -175,8 +175,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D2   | ma  |     | Werken aan project | Condensator laadcurve, picoscoop (**MV**) |
-| D2   | di  |     | Werken aan project | Servo Controller (**MV**)     |
+| D2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./programma-servocontroller-2.md) (**MV**) |
+| D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
 | D2   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D2   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
 
@@ -194,7 +194,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D4   | ma  |     | Werken aan project     | Servo Controller (**MV**)     |
+| D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
 | D4   | di  |     | Werken aan project     | Finite state machine (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
@@ -203,8 +203,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D5   | ma  |     | Werken aan project | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)     | 
-| D5   | di  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**) |
+| D5   | ma  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**)    | 
+| D5   | di  |     | Werken aan project | Practicum IO Expander I2C (**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
@@ -213,7 +213,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
-| D6   | di  |     | Werken aan project     | Practicum IO Expander I2C (**MV**)  |
+| D6   | di  |     | Werken aan project     | Talking Servos (**MV**)   |
 | D6   | wo  |     | Werken aan project     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 
@@ -221,7 +221,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     |     | Workshop Lt-spice (**MV**)    |
+| D7   | ma  |     |     | Talking Servos (**MV**)    |
 | D7   | di  |     |     | Workshop lasercutting / design for lasercutting (**TM**)    |
 | D7   | wo  |     |     | C++ (**GP**,**HP**)     |
 | D7   | do  |     |     | C++ (**GP**,**HP**)     |
@@ -230,9 +230,9 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D8   | ma  |     | Werken aan project     |  Talking Servos (**MV**)   |
+| D8   | ma  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**   |
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8   | wo  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
+| D8   | wo  |     | Werken aan project     |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
 
 ### Onderwijsweek D9 (10-6-2024)
