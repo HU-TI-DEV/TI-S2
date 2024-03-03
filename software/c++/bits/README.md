@@ -62,7 +62,7 @@ using namespace std;
 int main(){
 
   uint8_t value = 0x6b; // 01101011
-  uint8_t mask = 0xf0; // 11110000
+  uint8_t mask = 0xf0; //  11110000
   uint8_t result = value & mask;
 
   cout << "value in bits: \t\t" << bitset<8>(value)<< endl;
@@ -71,8 +71,8 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // mask in bits: 11110000
-  // and-result in bits: 01100000
+  // mask in bits:  11110000
+  // and-result:    01100000
 }
 ```
 *Codevoorbeeld 10.1 - Bit and*
@@ -87,7 +87,7 @@ using namespace std;
 
 int main(){
   uint8_t value = 0x6b; // 01101011
-  uint8_t mask = 0xf0; // 11110000
+  uint8_t mask = 0xf0; //  11110000
   uint8_t result = value | mask;
 
   cout << "value in bits: \t\t" << bitset<8>(value) << endl;
@@ -96,8 +96,8 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // mask in bits: 11110000
-  // or-result in bits: 11111011
+  // mask in bits:  11110000
+  // or-result:     11111011
 }
 ```
 *Codevoorbeeld 10.2 - Bit or*
@@ -112,7 +112,7 @@ using namespace std;
 
 int main(){
   uint8_t value = 0x6b; // 01101011
-  uint8_t mask = 0xf0; // 11110000
+  uint8_t mask = 0xf0; //  11110000
   uint8_t result = value ^ mask;
 
   cout << "value in bits: \t\t" << bitset<8>(value) << endl;
@@ -121,8 +121,8 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // mask in bits: 11110000
-  // exor-result in bits: 10011011
+  // mask in bits:  11110000
+  // exor-result:   10011011
 }
 ```
 *Codevoorbeeld 10.3 - Bit xor*
@@ -144,8 +144,8 @@ int main(){
   cout << "inverse-result in bits: " << bitset<8>(result) << endl;
 
   //output:
-  // value in bits: 01101011
-  // inverse-result in bits: 10010100
+  // value in bits:  01101011
+  // inverse-result: 10010100
 }
 ```
 *Codevoorbeeld 10.4 - Bit inverse*
@@ -172,8 +172,8 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // shift-left in bits: 01011000
-  // shift-right in bits: 00001101
+  // shift-left:    01011000
+  // shift-right:   00001101
 }
 ```
 *Codevoorbeeld 10.5 - Bit shiften*
@@ -212,9 +212,9 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // x in bits: 01101111
-  // y in bits: 01101111
-  // z in bits: 01101111
+  // x in bits:     01101111
+  // y in bits:     01101111
+  // z in bits:     01101111
 }
 ```
 *Codevoorbeeld 10.6 - Bit setten*
@@ -241,9 +241,9 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // x in bits: 01100011
-  // y in bits: 01100011
-  // z in bits: 01100011
+  // x in bits:     01100011
+  // y in bits:     01100011
+  // z in bits:     01100011
 }
 ```
 *Codevoorbeeld 10.7 - Bit resetten*
@@ -273,9 +273,9 @@ int main(){
 
   //output:
   // value in bits: 01101011
-  // x in bits: 01100011
-  // y in bits: 01100011
-  // z in bits: 01100011
+  // x in bits:     01100011
+  // y in bits:     01100011
+  // z in bits:     01100011
 }
 ```
 *Codevoorbeeld 10.8 - Bit inverteren*
