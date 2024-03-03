@@ -9,7 +9,7 @@ Begin met de [Introductie C++](../software/c++/README.md).
 Alle opdrachten voor het eerste kwartaal vind je in: [Opdrachten C++ (1)](../software/c++/opdrachten/README.md).
 
 ## Na de les
-Als je goed gewerkt hebt, neem dan een pauze. Ga naar de Vlindertuin in de Hortus Botanicus. Je hebt gratis toegang met je HU studentenpas.
+Als je goed gewerkt hebt, neem dan een pauze. Ga naar de [Vlinderkas](https://www.uu.nl/botanischetuinen/de-tuinen/tuindelen/vlinderkas) in de [Hortus Botanicus](https://www.uu.nl/botanischetuinen). Je hebt gratis toegang met je HU studentenpas.
 
 ## Portfolio-Tip
 Probeer alle opdrachten af te ronden. Dan heb je een goede basis voor C++ gelegd.

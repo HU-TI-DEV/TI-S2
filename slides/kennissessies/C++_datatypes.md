@@ -1,4 +1,3 @@
-
 ---
 # try also 'default' to start simple
 theme: ./slidev-theme-hu
