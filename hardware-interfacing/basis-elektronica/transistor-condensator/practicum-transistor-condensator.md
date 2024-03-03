@@ -293,8 +293,4 @@ Controleer of de groene LED het doet het doet als de spanning op het
 bordje staat. De groene LED met weerstand moet op het bordje blijven
 staan, de andere componenten haal je van het bordje af.
 
-Doe de weerstanden, de diode en de condensator weer in het zakje.
-
-Zijn alle onderdelen weer compleet?
-
 **SCHAKEL DE MULTIMETER UIT!**
