@@ -143,8 +143,9 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project     | UART     |
 | C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Git workshop (**HS**, **TM**) |
+| C8   | wo  | UART communicatie & PWM     |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
+| C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | Git workshop (**HS**, **TM**) |
+| C8 | vr |   | :end: Einde sprint 2 & :runner: Planning sprint 3
 
 ### Onderwijsweek C9 (1-4-2024)
 
