@@ -130,6 +130,8 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 ### Onderwijsweek C7 (18-3-2024)
 
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C7   | ma  | We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | [Use Cases](./programma-use-case.md) (**MV**)       |
@@ -204,6 +206,8 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 ### Onderwijsweek D5 (13-5-2024)
 
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D5   | ma  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**)    | 
@@ -248,6 +252,8 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 | D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
 
 ### Onderwijsweek D10 (17-6-2024)
+
+Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project | Kennissessie |
 | --- | --- | --- | --- | --- |
