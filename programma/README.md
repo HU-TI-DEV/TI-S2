@@ -82,7 +82,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | C2   | di  | Excursie Kwekerij Lankhaar     | Excursie: 8.30 Aanwezig!     | 15.00 terug in Utrecht (**allen**)     |
 | C2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), C++ oefenen met vectoren (**GP**), Recursie (**GP**)     |
-| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitale Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
+| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas. :end: Einde sprint 0 | Digitale Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
 
 ### Onderwijsweek C3 (19-2-2024)
 
@@ -100,7 +100,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
+| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review. :runner: planning sprint 1 | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
 | C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md) (**MV**)     |
 | C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](/programma/programma-SPI.md) (**HP**)     |
 | C4   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](./programma-rekenen-met-eenheden.md) (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
@@ -115,7 +115,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
 | C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
+| C5   | vr  | Solderen | :end: Einde sprint 1 & :runner: planning sprint 2 | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
 
