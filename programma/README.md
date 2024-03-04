@@ -119,6 +119,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 ### Onderwijsweek C6 (11-3-2024)
 
+Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden. We maken kennis met het struct datatype en leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291940).  
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
