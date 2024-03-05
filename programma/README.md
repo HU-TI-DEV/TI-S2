@@ -173,8 +173,9 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
-| D1   | wo  |     | Werken aan project     | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
+| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
+| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -200,9 +201,10 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
-| D4   | di  |     | Werken aan project     | Finite state machine (**MV**) |
+| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Finite state machine (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
+| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
 
 ### Onderwijsweek D5 (13-5-2024)
 
@@ -221,8 +223,9 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
 | D6   | di  |     | Werken aan project     | Talking Servos (**MV**)   |
-| D6   | wo  |     | Werken aan project     | C++ (**GP**,**HP**)     |
+| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
 
 ### Onderwijsweek D7 (20-5-2024)
 
@@ -239,8 +242,9 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | --- | --- | --- | --- | --- |
 | D8   | ma  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**   |
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8   | wo  |     | Werken aan project     |  |
+| D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
+| D8   | vr |     | :end: Einde sprint 7 & planning afronden (sprint 8) |     |
 
 ### Onderwijsweek D9 (10-6-2024)
 
