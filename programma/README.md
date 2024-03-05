@@ -107,7 +107,7 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 ### Onderwijsweek C5 (4-3-2024)
 
-Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. 
+Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. We maken kennis met het struct datatype in C++.
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
@@ -119,7 +119,7 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 ### Onderwijsweek C6 (11-3-2024)
 
-Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden. We maken kennis met het struct datatype en leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291940).  
+Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden.  We leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291940).  
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
