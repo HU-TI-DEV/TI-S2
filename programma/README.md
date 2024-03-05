@@ -113,8 +113,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
 | C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of Introductie datatype [struct](../software/c++/data-types/struct/README.md) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Soldeerpracticum](./programma-solderen.md) (**HS**) of Introductie datatype [struct](../software/c++/data-types/struct/README.md) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | C5   | vr  | Solderen | :end: Einde sprint 2 & :runner: planning sprint 3 | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
@@ -124,8 +124,8 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
-| C6   | di  |     | Werken aan project | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)     |
-| C6   | wo  |     | Werken aan project | [struct](../software/c++/data-types/struct/README.md), compositie UML relatie, [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
+| C6   | di  |     | Werken aan project | [Git](../software/git/README.md) cursus (**NG**)      |
+| C6   | wo  |     | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md), compositie UML relatie, [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
