@@ -232,10 +232,10 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     |     | Talking Servos (**MV**)    |
-| D7   | di  |     |     | Workshop lasercutting / design for lasercutting (**TM**)    |
-| D7   | wo  |     |     | C++ (**GP**,**HP**)     |
-| D7   | do  |     |     | C++ (**GP**,**HP**)     |
+| D7   | ma  |     | Werken aan project | Talking Servos (**MV**)    |
+| D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
+| D7   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
+| D7   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D8 (3-6-2024)
 
