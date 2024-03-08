@@ -82,7 +82,7 @@ Week C2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | C2   | ma  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | C2   | di  | Excursie Kwekerij Lankhaar     | Excursie: 8.30 Aanwezig!     | 15.00 terug in Utrecht (**allen**)     |
 | C2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), C++ oefenen met vectoren (**GP**), Recursie (**GP**)     |
-| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas     | Digitale Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
+| C2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md). | Opbouwen (kweek)kas. :end: Einde sprint 1 | Digitale Pin (**HP**),  [Electronika (basis)](programma-electrische-grootheden.md) (**MV**)     |
 
 ### Onderwijsweek C3 (19-2-2024)
 
@@ -100,40 +100,45 @@ Week C4. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
+| C4   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review. :runner: planning sprint 2 | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), [Schuifregister](/programma/programma-schuifregister.md) (**HS**) |
 | C4   | di  | Schuifregister & SPI     | Werken aan project     | [Iets Uitrekenen](./programma-iets-uitrekenen.md) (**MV**)     |
 | C4   | wo  | Schuifregister & SPI     | Werken aan project     | [SPI](/programma/programma-SPI.md) (**HP**)     |
 | C4   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](./programma-rekenen-met-eenheden.md) (**MV**), [Functionele Requirements](./programma-functionele-requirements.md) (**MV**)     |
 
 ### Onderwijsweek C5 (4-3-2024)
 
-Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. 
+Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in de situatie dat je bijvoorbeeld een aantal headerpins moet solderen. We solderen een eenvoudig DIY (Do It Yourself) soldeer kitje. We leren ook het gebruik en de eigenschappen van weerstanden in parralel en in serie. Met een weerstanden kan je een spanningsdeler maken. Verder leer je hoe een Multimeter te gebruiken om componenten te testen of een (deel van een) circuit door te meten. We maken kennis met het struct datatype in C++.
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C5   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./programma-circuit-multimeter-weerstand.md) (**MV**)     |
 | C5   | di  | Elektrisch netwerk | Werken aan project     | [Weerstandsnetwerkjes](./programma-weerstandsnetwerkjes.md) (**MV**)     |
-| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of [Git](../software/git/README.md) Cursus (**NG**) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| C5   | vr  | Solderen |     | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
+| C5   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.038 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of Introductie datatype [struct](../software/c++/data-types/struct/README.md) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (**TM**) & HL15-3.090 (**HS**)| [Soldeerpracticum](./programma-solderen.md) (**HS**) of Introductie datatype [struct](../software/c++/data-types/struct/README.md) en [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
+| C5   | vr  | Solderen | :end: Einde sprint 2 & :runner: planning sprint 3 | [Soldeerpracticum](./programma-solderen.md) (**HS**)     |
 
 ### Onderwijsweek C6 (11-3-2024)
+
+Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden.  We leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291940).  
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
-| C6   | di  |     | Werken aan project | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)     |
-| C6   | wo  |     | Werken aan project | [struct](../software/c++/data-types/struct/README.md), compositie UML relatie, [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
+| C6   | di  | Software | Werken aan project | [Git](../software/git/README.md) cursus (**NG**)      |
+| C6   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md), [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
 | C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C7   | ma  | We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert om een multimeter te gebruiken en een logic analyzer om hardware te debuggen. | Werken aan project | [Use Cases](./programma-use-case.md) (**MV**)       |
+| C7   | ma  | Hardware interfacing  | Werken aan project | [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
 | C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
-| C7   | do  | Relais & Linear-actuator     | Werken aan Project | Temperatuurmeten: via ADC en one-wire (**HS**)   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: 1-wire (**HS**)   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
@@ -141,8 +146,9 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project     | UART     |
 | C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM     | Werken aan project     | PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Git workshop (**HS**, **TM**) |
+| C8   | wo  | UART communicatie & PWM     |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
+| C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
+| C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
 
@@ -168,8 +174,9 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
-| D1   | wo  |     | Werken aan project     | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
+| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
+| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -195,11 +202,14 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
-| D4   | di  |     | Werken aan project     | Finite state machine (**MV**) |
+| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Finite state machine (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
+| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
 
 ### Onderwijsweek D5 (13-5-2024)
+
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
@@ -214,17 +224,18 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
 | D6   | di  |     | Werken aan project     | Talking Servos (**MV**)   |
-| D6   | wo  |     | Werken aan project     | C++ (**GP**,**HP**)     |
+| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
 
 ### Onderwijsweek D7 (20-5-2024)
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     |     | Talking Servos (**MV**)    |
-| D7   | di  |     |     | Workshop lasercutting / design for lasercutting (**TM**)    |
-| D7   | wo  |     |     | C++ (**GP**,**HP**)     |
-| D7   | do  |     |     | C++ (**GP**,**HP**)     |
+| D7   | ma  |     | Werken aan project | Talking Servos (**MV**)    |
+| D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
+| D7   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
+| D7   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D8 (3-6-2024)
 
@@ -232,8 +243,9 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | D8   | ma  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**   |
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
-| D8   | wo  |     | Werken aan project     |  |
+| D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
+| D8   | vr |     | :end: Einde sprint 7 & planning afronden (sprint 8) |     |
 
 ### Onderwijsweek D9 (10-6-2024)
 
@@ -245,6 +257,8 @@ Week C5. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
 
 ### Onderwijsweek D10 (17-6-2024)
+
+Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project | Kennissessie |
 | --- | --- | --- | --- | --- |

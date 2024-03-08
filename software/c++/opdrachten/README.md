@@ -74,13 +74,13 @@ Dit bestand bevat links naar C++ opdrachten.
 
 ### Meerdere bronbestanden
 
-- [Opdrachten Meerdere bronbestanden](../meerdere%20bronbestanden/opdr_TV_sensatie.md)
-  - [Opdracht 4.2 TV sensatie](#opdracht-42-tv-sensatie)
+- [Opdrachten Meerdere bronbestanden](../meerdere-bronbestanden/opdr_TV_sensatie.md)
+  - Opdracht 4.2 TV sensatie
   
 ### Files input
 
-- [Opdrachten Files input/output](../files%20input/opdr_compression.md)
-  - [Opdracht 4.5 Compression](../files%20input/opdr_compression.md)
+- [Opdrachten Files input/output](../files-input/opdr_compression.md)
+  - Opdracht 4.5 Compression
 
 ### Patronen - recursie
 
@@ -151,10 +151,11 @@ Je kunt de volgende opdrachten maken:
 <details>
   <summary>Week C4</summary>
   Je kunt de volgende opdrachten maken:
-- [Opdrachten Meerdere bronbestanden](../meerdere-bronbestanden/opdr_TV_sensatie.md)
-  - [Opdracht 4.2 TV sensatie](#opdracht-42-tv-sensatie)
+
+- Opdrachten Meerdere bronbestanden
+  - [Opdracht 4.2 TV sensatie](../meerdere-bronbestanden/opdr_TV_sensatie.md)
   
-- [Opdrachten Files input/output](../files-input/opdr_compression.md)
+- Opdrachten Files input/output
   - [Opdracht 4.5 Compression](../files-input/opdr_compression.md)
   
 - Opdrachten bits
@@ -164,11 +165,13 @@ Je kunt de volgende opdrachten maken:
 
 <details>
   <summary>Week C5</summary>
+Je kunt de volgende opdrachten maken:
 
-Todo: opdrachten
-
-- 5.4 Fibonacci
-- 5.6 Gemiddelde
-- 5.8 Robotpiraat
+- [Opdrachten Recursie](../patronen/recursie/opdr_recursie.md)
   
+  - [Opdracht 5.1 — Konijnen](../patronen/recursie/opdr_recursie.md#opdracht-51--konijnen)
+  - [Opdracht 5.3 — Groot en gemeen](../patronen/recursie/opdr_recursie.md#opdracht-53--groot-en-gemeen)
+  - [Opdracht 5.4 — Rij van Fibonacci](../patronen/recursie/opdr_recursie.md#opdracht-54--rij-van-fibonacci)
+  - [Opdracht 5.6 — Gemiddelde](../patronen/recursie/opdr_recursie.md#opdracht-56---gemiddelde)
+  - [Opdracht 5.8 — Robotpiraat](../patronen/recursie/opdr_recursie.md#opdracht-58--robotpiraat)
 </details>
