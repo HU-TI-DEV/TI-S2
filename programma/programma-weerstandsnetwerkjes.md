@@ -14,6 +14,9 @@ de delen:
 - Some circuits, components and concepts - Resistors in series
 - Some circuits, components and concepts - Voltage Divider
 
+Een deel daarvan is ook in video-vorm te beschikbaar:
+- [Weerstandsnetwerkjes](https://www.youtube.com/watch?v=gCSOnq60i2M)
+
 ## Tijdens de les
 
 Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:

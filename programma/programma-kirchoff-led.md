@@ -8,6 +8,10 @@ In deze les gaan we wat experimenteren met diodes. Ook met "Light Emitting Diode
 
 Lees van [Reader Digitale techniek](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-dit.pdf) het deel over de diode door: blz 40 en 41.
 
+Een deel daarvan is ook in video-vorm te beschikbaar:
+- [Spanningswet van Kirchoff](https://www.youtube.com/watch?v=OXv0qSWrKLg)
+- [Diode](https://www.youtube.com/watch?v=H45FKcw6Li0)
+
 ## Tijdens de les
 
 Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:

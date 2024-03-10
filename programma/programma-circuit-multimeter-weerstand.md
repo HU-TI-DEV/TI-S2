@@ -17,6 +17,11 @@ de delen:
 - Circuit Diagrams
 - Some circuits, components and concepts - Basic circuit
 
+Een deel daarvan is ook in video-vorm te beschikbaar:
+- [Electrisch Schema](https://www.youtube.com/watch?v=YDCEUy-kM9w)
+- [Weerstand](https://www.youtube.com/watch?v=tUazer9WJPY)
+- [De stroomwet van Kircoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
+
 ## Tijdens de les
 
 Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
