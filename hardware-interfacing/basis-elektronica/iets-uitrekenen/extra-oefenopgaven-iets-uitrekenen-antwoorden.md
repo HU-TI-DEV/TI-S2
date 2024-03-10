@@ -179,7 +179,7 @@ volgende vergelijkingen:
 **Vraag b:**  
 (1) ${\ 3x + 2y = a}$     
 (2) ${\Large \frac{y}{2 - x}\normalsize  = b}$      
-->   $x = \Large \frac{a - 4b}{3 - 2b}\normalsize ,\ y = \Large \frac{6b - ab}{3 - 1b}\normalsize $   
+->   $x = \Large \frac{a - 4b}{3 - 2b}\normalsize ,\ y = \Large \frac{6b - ab}{3 - 2b}\normalsize $   
 
 **Vraag c:**  
 (1) ${\Large \frac{\ x + 3}{y}\normalsize  = 1}$   
