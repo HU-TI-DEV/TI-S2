@@ -138,7 +138,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
 | C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: 1-wire (**HS**)   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**)   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
