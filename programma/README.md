@@ -126,7 +126,7 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 | C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
 | C6   | di  | Software | Werken aan project | [Git](../software/git/README.md) cursus (**NG**)      |
 | C6   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md), [bits, uint8](../software/c++/bits/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
-| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | Functies schrijven, references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
+| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/functies/README.md), references en const, Goede naamgeving, vermijden van herhaling, Doxygen en documenteren (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
