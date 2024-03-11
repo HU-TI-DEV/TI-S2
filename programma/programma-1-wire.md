@@ -11,8 +11,8 @@ Lees over [communicatie](../hardware-interfacing/communicatie/README.md) het ond
 
 ## Tijdens en na de les
 
-Maak je met behulp van de DS18B20 temperatuur sensor een 1-Wire verbinding met je Arduino Uno. 
+Maak je met behulp van de DS18B20 temperatuur sensor een 1-Wire verbinding met je Arduino Uno. Top. Soldeer pinnen op de draad van de sonsor zodat je deze makkelijk kunt gebruiken.
 
 ## Portfolio-Tip
 
-Hoe kan je dit onderdeel gebruiken in de (kweek)kas. Zijn er andere sensoren die je zou kunnen gebruiken. Kan je meerdere sensoren aansluiten op de bus. Leg dit vast, maak een verslag en haal feedback op bij de docent.
+Hoe kan je dit onderdeel gebruiken in de (kweek)kas. Zijn er andere 1-Wire sensoren die je zou kunnen gebruiken? Waarom wel/niet? Kan je meerdere temperatuursensoren aansluiten op de bus? Leg dit vast, maak een verslag en haal feedback op bij de docent.
