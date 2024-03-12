@@ -131,7 +131,7 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 ### Onderwijsweek C7 (18-3-2024)
 
 Week C7. Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
-We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren.
+We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
