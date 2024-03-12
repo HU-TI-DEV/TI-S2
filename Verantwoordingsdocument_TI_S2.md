@@ -81,6 +81,7 @@ Student analyseert de met de opdrachtgever afgestemde functionaliteit en hoofdli
 
 Indicatoren
 - Lijst van requirements (functionele en één niet-functionele)
+- Use Case diagram, Use Case beschrijvingen
 - Gespreksverslag
 - Interview
 - Terugkoppeling van de opdrachtgever
@@ -131,7 +132,7 @@ Student zet de requirements om in logische onderdelen voor de oplossing, onderzo
 
 Indicatoren
 - Gebruikte componenten, zowel software als hardware
-- Ontwerpdiagrammen
+- Ontwerpdiagrammen (electrisch schema, klassediagram, ..)
 - Vastgelegde keuzes
 - Redenatieketen
 - Gebruikte onderzoeksmethode
@@ -186,6 +187,7 @@ Indicatoren
 - Opgeleverde code in repository
 - Voldoen aan codestandaarden
 - Herbruikbare modules
+- Gerealiseerde code en hardware in sync met de bijbehorende diagrammen.
 
 ---
 
