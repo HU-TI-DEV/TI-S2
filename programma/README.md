@@ -124,9 +124,9 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C6   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./programma-kirchoff-led.md) (**MV**)      |
-| C6   | di  | Software | Werken aan project | [Git](../software/git/README.md) cursus (**NG**)  of individuele feedback op software opdrachten (**GP**, **HP**, **VvS**)    |
-| C6   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md),  [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)     |
-| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), vermijden van herhaling, Doxygen en documenteren (**GP**) |
+| C6   | di  | Software | Werken aan project | individuele feedback op software opdrachten (**GP**, **HP**, **VvS**)    |
+| C6   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) en [Git](../software/git/README.md) cursus (**NG**)      |
+| C6   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 
 ### Onderwijsweek C7 (18-3-2024)
 
@@ -138,7 +138,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
 | C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**)   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), vermijden van herhaling, Doxygen en documenteren (**GP**)  |
 
 ### Onderwijsweek C8 (25-3-2024)
 
