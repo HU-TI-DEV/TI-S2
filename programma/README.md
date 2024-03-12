@@ -154,20 +154,22 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 ### Onderwijsweek C9 (1-4-2024)
 
+Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](../software/communicatie/MQTT/README.md), [PostgreSQL](../infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../infrastructuur/Docker/README.md) containers.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C9   | ma  | **Tweede Paasdag**     |     |     |
-| C9   | di  | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](../software/communicatie/MQTT/README.md), [PostgreSQL](../infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../infrastructuur/Docker/README.md) containers. | Werken aan project | Docker & MQTT (**HS**)     |
-| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker     | Werken aan project | PostgreSQL & Node-Red (**HS**) |
-| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker     | Werken aan project | Flask (**HS**)     |
+| C9   | ma  | **Tweede Paasdag** |     |     |
+| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Docker & MQTT (**HS**)     |
+| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | PostgreSQL & Node-Red (**HS**) |
+| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)     |
 
 ### Onderwijsweek C10 (8-4-2024)
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  |     | .Bedienen via H-brug, lin. actuator, Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
-| C10  | di  |     | Werken aan project     | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
-| C10  | wo  |     | Werken aan project     | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
+| C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
+| C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
+| C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D1 (15-4-2024)
