@@ -148,7 +148,7 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie & PWM | Werken aan project | UART (**MV**)    |
 | C8   | di  | UART communicatie & PWM | Werken aan project | UART (**MV**), PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
 | C8   | do  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
@@ -178,7 +178,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
-| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
+| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Obeject Oriented Programming (OOP) C++ (**GP**,**HP**)  |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
