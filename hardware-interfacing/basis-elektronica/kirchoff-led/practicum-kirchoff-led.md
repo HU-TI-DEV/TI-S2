@@ -64,7 +64,7 @@ Voor de bovenstaande schakeling geldt:
 - R1 = 1kOhm
 - R2 = 1kOhm
 - De junctiespanning van de Rode LED noem ik even VjRood
-- De junctiespanning van de Rode LED noem ik even VjGroen
+- De junctiespanning van de Groene LED noem ik even VjGroen
 
 Deze schakeling is een handig circuit voor het testen van logische niveaus.
 Probeer eerst onderstaande vragen te beantwoorden door te redeneren. Controleer vervolgens of het klopt door het circuit te bouwen en te testen:   
