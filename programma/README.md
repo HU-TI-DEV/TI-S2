@@ -130,7 +130,7 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 ### Onderwijsweek C7 (18-3-2024)
 
-Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Week C7. Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
@@ -142,12 +142,14 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 ### Onderwijsweek C8 (25-3-2024)
 
+Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met PWM kan je een ventilator aansluiten om het klimaat in de kas te regelen.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C8   | ma  | UART communicatie voor het aansluiten van randapparatuur. Een servo of LED-strip stuur je naukeurig aan met Pulse Width Modulatie (*Pulse Width Modulation*, PWM). Week C7. We gebruiken een [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) om te communiceren tussen de [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) sturen we een ventilator en passen de snelheid aan op het gewenste niveau. | Werken aan project     | UART     |
-| C8   | di  | UART communicatie & PWM     | Werken aan project     | UART, PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM     |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
+| C8   | ma  | UART communicatie & PWM | Werken aan project | UART (**MV**)    |
+| C8   | di  | UART communicatie & PWM | Werken aan project | UART (**MV**), PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
+| C8   | do  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
