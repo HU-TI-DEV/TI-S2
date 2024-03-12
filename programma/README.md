@@ -170,7 +170,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
 | C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
 | C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
-| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
+| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     |      |
 
 ### Onderwijsweek D1 (15-4-2024)
 
@@ -178,7 +178,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
-| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Obeject Oriented Programming (OOP) C++ (**GP**,**HP**)  |
+| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
