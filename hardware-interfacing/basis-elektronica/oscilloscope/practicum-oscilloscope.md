@@ -598,7 +598,7 @@ seriële poort. Het bleef toen bij een afbeelding van het seriële signaal dat j
 De eerste stap, voordat je gaat meten, is instellen en controleren of je
 seriële karakters kunt versturen.
 
-Sluit de seriële connector aan op de seriële poort van de computer (voor een meting op je laptop kun je gebruik maken van de meegeleverde USB-serieel-converter, de driver staat hier (TODO: voeg link naar de driver toe)).
+Sluit de seriële connector aan op de seriële poort van de computer (voor een meting op je laptop kun je gebruik maken van de meegeleverde USB-serieel-converter, [de driver staat hier](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 
 Start het communicatieprogramma **PuTTY** op (je kunt installeren via de Microsoft Store). Stel de terminal
 in op: 9600 bits/sec, geen pariteit, 8 databits, 1 stopbit (9600,n,8,1).
