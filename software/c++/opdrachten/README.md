@@ -14,6 +14,7 @@
     - [Meerdere bronbestanden](#meerdere-bronbestanden)
     - [Files input](#files-input)
     - [Patronen - recursie](#patronen---recursie)
+    - [Structs en klassen](#structs-en-klassen)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -90,6 +91,9 @@ Dit bestand bevat links naar C++ opdrachten.
   - [Opdracht 5.4 — Rij van Fibonacci](../patronen/recursie/opdr_recursie.md#opdracht-54--rij-van-fibonacci)
   - [Opdracht 5.6 - Gemiddelde](../patronen/recursie/opdr_recursie.md#opdracht-56---gemiddelde)
   - [Opdracht 5.8 — Robotpiraat](../patronen/recursie/opdr_recursie.md#opdracht-58--robotpiraat)
+
+### Structs en klassen
+
 
 ## Opdrachten Weekoverzicht
 
