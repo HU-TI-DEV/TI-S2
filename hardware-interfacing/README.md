@@ -35,3 +35,5 @@
   * [breadboard/](../hardware-interfacing/prototyping/breadboard/README.md)
   * [pcb/](../hardware-interfacing/prototyping/pcb/README.md)
   * [solderen/](../hardware-interfacing/prototyping/solderen/README.md)
+## Leerdoelen
+<img src="./images/Leerdoelen-S2-S3-electro.png" width="1200px" />
