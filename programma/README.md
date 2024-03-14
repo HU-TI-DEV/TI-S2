@@ -138,7 +138,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
 | C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), vermijden van herhaling, Doxygen en documenteren (**GP**)  |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), C++ struct en classes (**GP**)  |
 
 ### Onderwijsweek C8 (25-3-2024)
 
@@ -148,27 +148,29 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- | --- | --- |
 | C8   | ma  | UART communicatie & PWM | Werken aan project | UART (**MV**)    |
 | C8   | di  | UART communicatie & PWM | Werken aan project | UART (**MV**), PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM |[Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
 | C8   | do  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
 
+Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](../software/communicatie/MQTT/README.md), [PostgreSQL](../infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../infrastructuur/Docker/README.md) containers.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C9   | ma  | **Tweede Paasdag**     |     |     |
-| C9   | di  | Om data van A naar B krijgen heb je datacommunicatie nodig, opslag en visualisatie. Week C8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Transport*)](../software/communicatie/MQTT/README.md), [PostgreSQL](../infrastructuur/OS/Raspberry-Pi-OS/README.md) voor dataopslag, [Node-RED](../software/visueel-programmeren/Node-RED/README.md) voor het visueel programmeren en [Flask](../software/webserver/Flask/README.md) om een eenvoudige webserver te maken. De verschillende services draai je in [Docker](../infrastructuur/Docker/README.md) containers. | Werken aan project | Docker & MQTT (**HS**)     |
-| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker     | Werken aan project | PostgreSQL & Node-Red (**HS**) |
-| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker     | Werken aan project | Flask (**HS**)     |
+| C9   | ma  | **Tweede Paasdag** |     |     |
+| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Docker & MQTT (**HS**)     |
+| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | PostgreSQL & Node-Red (**HS**) |
+| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)     |
 
 ### Onderwijsweek C10 (8-4-2024)
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  |     | .Bedienen via H-brug, lin. actuator, Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
-| C10  | di  |     | Werken aan project     | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
-| C10  | wo  |     | Werken aan project     | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
-| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     | C++ (**GP**,**HP**)     |
+| C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
+| C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
+| C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
+| C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     |      |
 
 ### Onderwijsweek D1 (15-4-2024)
 
@@ -176,7 +178,7 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
-| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | UART en PWM, Arduino x Raspberry PI, Ventilator aansturen en regelen (**HS**) |
+| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 

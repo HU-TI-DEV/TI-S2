@@ -136,7 +136,6 @@ Indicatoren
 - Vastgelegde keuzes
 - Redenatieketen
 - Gebruikte onderzoeksmethode
-
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
@@ -187,8 +186,10 @@ Indicatoren
 - Opgeleverde code in repository
 - Voldoen aan codestandaarden
 - Herbruikbare modules
-- Gerealiseerde code en hardware in sync met de bijbehorende diagrammen.
-
+- Gerealiseerde code en hardware, in sync met de bijbehorende diagrammen en schemas
+- Berekeningen aan electronica (stromen, spanningen, energieverbruik). Controle via simulatie en/of meting
+- Simulatie van electronisch schema met uitleg
+- Samenvatting van de voor de toepassing relevante gegevens uit een datasheet
 ---
 
 Portfolio-items inclusief link(s) en pagina(s)/fragment(en) die ik **heb gebruikt om te oefenen en te leren**:
