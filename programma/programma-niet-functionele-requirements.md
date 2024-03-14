@@ -1,6 +1,6 @@
 # Niet-Functionele Requirements
 
-Een gestructureerde manier om vast te leggen **wat** het systeem moet gaan doen.
+Een gestructureerde manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. 
 
 ## Voorbereiding
 
