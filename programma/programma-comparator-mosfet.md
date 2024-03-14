@@ -14,9 +14,11 @@ In deze les maken we kennis met de MosFet transistor en een opamp die gebruikt w
 
 ## Tijdens de les
 
-Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
+Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
 - [Practicum Comparator Mosfet](../hardware-interfacing/basis-elektronica/comparator-mosfet/practicum-comparator-mosfet.md) 
+
+Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
   
 ## Na de les
 
