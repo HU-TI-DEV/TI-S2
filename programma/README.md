@@ -137,7 +137,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | --- | --- | --- | --- | --- |
 | C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
 | C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), C++ struct en classes (**GP**)  |
 
 ### Onderwijsweek C8 (25-3-2024)
@@ -146,8 +146,8 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C8   | ma  | UART communicatie & PWM | Werken aan project | UART (**MV**)    |
-| C8   | di  | UART communicatie & PWM | Werken aan project | UART (**MV**), PWM (**HP**) |
+| C8   | ma  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**)    |
+| C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**), PWM (**HP**) |
 | C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
 | C8   | do  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
