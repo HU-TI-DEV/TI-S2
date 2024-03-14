@@ -43,7 +43,7 @@ Bij deze opdracht ga je dezelfde schakeling bouwen in de simulator en daar "beme
 ### Opdracht 1
 Voor de servo-controller werd een ne555 gebruikt. Het interne schema van de ne555, afkomstig uit diens datasheet is ook te vinden in [practicum-servocontroller](../servo-controller/practicum-servo-controller.md).
 
-Bouw in LtSpice als volgt dat model uit de datasheet van de NE555 na:   
+Bouw in LtSpice als volgt dat model uit de datasheet van de NE555 na:    
 <img src="./media/media/zelfgemaakte_ne555.png" width="790px"/>
 
 Gebruik daarbij:
@@ -60,7 +60,7 @@ Gebruik daarbij:
   makkelijker de knooppuntsspanningen te kunnen inspecteren.
 
 Controleer voor je verder gaat of na het bouwen de Transient simulatie van de spanning VTest en de drainstroom 
-Id van Mosfet M1 er als volgt uitzien:
+Id van Mosfet M1 er als volgt uitzien:    
 <img src="./media/media/zelfgemaakte_ne555_simulatie.png" width="700px"/>
 
 #### Vraag a
