@@ -73,6 +73,6 @@ Controleer in de datasheet of de Vgs threshold van de gebruikte MOSFET laag geno
 Bouw nu gebruikmakende van dit model van de NE555 de servocontrollerschakeling uit [practicum-servocontroller](../servo-controller/practicum-servo-controller.md) na in ltspice (vergeet niet de afvlakcondensator van de voeding weg te laten).
 ### Vraag a
 Stel P2 in op op 0 Ohm en P1 op 33%.
-Laat met screenshots van de uitgangsspanning zien dat de servo/pwm-controller goed werkt.
+Laat met een screenshot van de uitgangsspanning zien dat de servo/pwm-controller goed werkt.
 ### Vraag b
 Leg de werking van de pwm-controller uit door screenshot(s) van de simulatie. Betrek daarbij in ieder geval alle knooppuntsspanningen (behalve de interne knooppuntsspanningen van de NE555).
