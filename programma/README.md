@@ -206,7 +206,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
-| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Finite state machine (**MV**) |
+| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
 | D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
