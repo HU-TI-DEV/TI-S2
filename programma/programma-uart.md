@@ -22,3 +22,7 @@ Voer het zelf uit - tegelijkertijd - samenwerking wordt aangemoedigd - en is zel
 ## Na de les
 
 - Upload de resultaten van het practicum naar de bijbehorende Canvas entry.
+
+## Portfolio-Tip
+Tijdens het kas-project zul je vermoedelijk de meetgegevens van de microcontroller via uart communiceren naar een pc of raspberri-pi.
+De resulterende code, de bijbehorende toelichting en feedback daarop kan gebruikt worden als portfolio-item.

@@ -10,7 +10,10 @@ Een gestructureerde manier om kwaliteitseisen en kenmerken van het systeem vast 
 
 ## Tijdens en na de les
 
-Bedenk en documenteer ieder enkele goede, relevante niet-functionele requirements voor het kas-project. Dat kan zowel van je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver) als van het gemeenschappelijke deel (de 'team-cockpit' van waaruit alles in de kas wordt beheerd) zijn. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. Upload je eerste niet-functionele requirements naar de Canvas entry voor deze opdracht.
+Bedenk en documenteer ieder enkele goede, relevante niet-functionele requirements voor het kas-project. Dat kan zowel van je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver) als van het gemeenschappelijke deel (de 'team-cockpit' van waaruit alles in de kas wordt beheerd) zijn. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. 
+
+### Canvas
+Upload je eerste niet-functionele requirements naar de Canvas entry voor deze opdracht.
 
 ## Portfolio-Tip
 

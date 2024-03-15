@@ -24,6 +24,9 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 
 - Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-maat ergens af
 
-- Lever het resultaat in op de Canvas entry voor deze opdracht. 
-
+### Canvas
+- Lever het resultaat in op de Canvas entry voor deze opdracht.   
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
+
+## Portfolio Tip
+Gebruik je diodes of leds in het kas-project? Meet (indirect) de stromen die er door vloeien en maak op basis daarvan een schatting van hoeveel energie per maand door de leds wordt verbruikt. Maak ook een gefundeerde schatting van het totale energieverbruik per maand. Hoeveel procent daarvan komt voor rekening van de Leds? Vraag feedback op je bevindingen.

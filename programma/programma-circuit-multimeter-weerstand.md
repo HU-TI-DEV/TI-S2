@@ -36,9 +36,13 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 
 - Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-maat ergens af
 
+### Canvas
 - Lever het resultaat in op de Canvas entry voor deze opdracht. 
 
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
 
 ## Aanbeveling
 Dit practicum is relatief klein - je houdt vermoedelijk tijd over. Voor het volgende practicum (weerstandsnetwerkjes) is meer tijd nodig. Het is aan te bevelen om de les van weerstandsnetwerkjes ook voor te bereiden, zodat je aansluitend alvast met het bijbehorende practicum kunt beginnen.
+
+## Portfolio Tip
+Ga na hoeveel stroom (een deel van-) je project gebruikt met behulp van een een meting via een kleine meetweerstand. Beschrijf je meting en leid er uit af hoeveel watt energie er wordt verbruikt. Vergelijk dat met het maximale vermogen dat je spanningsbron kan leveren en vraag er feedback op.

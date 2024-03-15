@@ -23,5 +23,10 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 ## Na de les
 
 - Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-maat ergens af
+
+### Canvas
 - Lever het resultaat in op de Canvas entry voor deze opdracht. 
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
+
+## Portfolio Tip
+Gebruik je comparators in het kas-project? Of schakel je een motor (met transistor en/of H-brug)? Leg uit hoe een en ander werkt. (welke drempelspanning, waarom, hoeveel stroom loopt er maximaal, hoeveel kan de transistor hebben volgens de datasheet, etc) Ondersteun je verhaal met metingen. Vraag er feedback op.

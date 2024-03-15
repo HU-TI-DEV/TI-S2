@@ -14,6 +14,6 @@ Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
 - [Practicum Oscilloscope](../hardware-interfacing/basis-elektronica/oscilloscope/practicum-oscilloscope.md) 
 
-## Na de les
+## Canvas
 
 - Upload fotos van de uitwerking naar de canvas entry voor deze opdracht.
