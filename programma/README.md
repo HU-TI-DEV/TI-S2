@@ -130,12 +130,12 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 ### Onderwijsweek C7 (18-3-2024)
 
-Week C7. Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Week C7. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
+| C7   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
 | C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
 | C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), C++ struct en classes (**GP**)  |
