@@ -20,3 +20,8 @@ Voeg een foto toe van een screenshot van de logic analyser met daarop een gecomm
 Laat je arduino via seriele verbinding (rx,tx pinnen) communiceren met je raspberri-pi.
 ### Vraag a
 Noteer je bevindingen / persoonlijke lessen.
+
+## Bonus Opdracht
+Communiceer vanuit een python of c++ programma op je windows laptop via uart met je raspberri pi.
+Leen daarvoor een USB to serial converter.
+Check even welk type je gebruikt. Als het gebruik maakt van een CP210x chip, kun je hier de driver downloaden:  [driver voor CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads))
