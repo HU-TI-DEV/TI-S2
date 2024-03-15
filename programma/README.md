@@ -177,7 +177,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
-| D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
+| D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
 | D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
 | D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
@@ -227,7 +227,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
-| D6   | di  |     | Werken aan project     | Talking Servos (**MV**)   |
+| D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
 | D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
@@ -236,7 +236,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     | Werken aan project | Talking Servos (**MV**)    |
+| D7   | ma  |     | Werken aan project | [Talking Servos 2](./programma-talking-servos-2.md) (**MV**)    |
 | D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
 | D7   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D7   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
