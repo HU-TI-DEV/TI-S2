@@ -4,7 +4,8 @@ Een gestructureerde, visuele manier om vast te leggen **wat** het systeem moet g
 
 ## Voorbereiding
 
-Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over activity diagrammen, bladzijde 40 tm 46.
+- Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over activity diagrammen, bladzijde 40 tm 46.
+- Wat highlights kun je ook in video-vorm bestuderen: [video activity diagrammen](https://www.youtube.com/watch?v=Gptyg-YtdXw)
 
 ## Tijdens een de les
 

@@ -5,6 +5,7 @@ Een gestructureerde manier om kwaliteitseisen en kenmerken van het systeem vast 
 ## Voorbereiding
 
 - Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over (Niet Functionele-) Requirements, bladzijde 29 tm 30.
+- Wat highlights kun je ook in video-vorm bestuderen: [video niet-functionele requirements](https://www.youtube.com/watch?v=vGkhKBkg98w)
 - Niet-functionele requirements zijn vaak afgeleid van functionele requirements.  
   Als je nog geen functionele requirements hebt opgesteld (zie [Programma Functionele Requirements](./programma-functionele-requirements.md)) is het een goed idee om er voorafgaand aan deze les alsnog een aantal op te stellen.
 
