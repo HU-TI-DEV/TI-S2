@@ -6,13 +6,13 @@ In deze les gaan we ontdekken dat we door toepassing van het FSM-paradigma op ee
 
 - Neem je electronica spullen (breadboard, weerstanden etc) mee.   
 
-Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader) het deel over de diode door: blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
+Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf) het deel over de diode door: blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
 
 ## Tijdens de les
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- Maak de opdrachten 7.1 tm 7.4 op bladzijde 22 van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader)    
+- Maak de opdrachten 7.1 tm 7.4 op bladzijde 22 van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf)    
 - Maak optioneel nog een of meer van de daarop volgende opdrachten.
 
 ### Canvas
