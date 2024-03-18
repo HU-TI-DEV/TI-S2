@@ -10,6 +10,7 @@ Het college zal zijn in de stijl van de "**Flipped Classroom**". Dat wil zeggen:
 
 - Neem ruim tevoren het lesmateriaal door:
   [Iets Uitrekenen Lesmateriaal](../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
+- Wat highlights daarvan kun je ook in video-vorm bestuderen: [video iets uitrekenen](https://www.youtube.com/watch?v=a1BqdFN03E4)
 - Maak alvast zoveel mogelijk oefenopgaven (op papier, vergeet de tussenstappen niet op te schrijven):
   [Oefenopgaven Iets Uitrekenen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/oefenopgaven-iets-uitrekenen.md)
 - Controleer je antwoorden met:

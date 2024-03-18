@@ -15,3 +15,6 @@ Solderen van een header.
 ## Na de les
 
 Pas je kennis toe in het project. Ruim je spullen netjes op voor de volgend student. Maak alles spanningsloos.
+
+## Portfolio Tip
+Als je wat voor het kas-project hebt gesoldeerd, maak dan een foto van beide kanten van de resulterende print. Voorzie het van commentaar over je soldeer-ervaring. Ging het direct makkelijk, of heb je ontdekt hoe iets beter kon? Was het resultaat optimaal? Vraag er feedback op van bijvoorbeeld een medestudent.

@@ -17,5 +17,5 @@ Dat simulatie-practicum maak je individueel, op je eigen laptop. Je wordt wel aa
 ## De volgende les
 - Het simulatiepracticum is te groot om binnen een enkele les af te ronden. Tijdens de volgende les ronden we het af. Omdat het simulaties betreft (er is geen oscilloscoop nodig) kun je eventueel ook alvast een en ander buiten de les er aan werken.
 
-## Na de les
+## Canvas
 Upload het resultaat van het meet-practicum bij de geassocieerde Canvas entry.
