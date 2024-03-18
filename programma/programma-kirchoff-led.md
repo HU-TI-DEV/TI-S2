@@ -14,14 +14,19 @@ Een deel daarvan is ook in video-vorm te beschikbaar:
 
 ## Tijdens de les
 
-Tijdens de les breng je samen met een partner de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
+Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
 - [Practicum Kirchoff Led](../hardware-interfacing/basis-elektronica/kirchoff-led/practicum-kirchoff-led.md) 
+
+Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
   
 ## Na de les
 
 - Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-maat ergens af
 
-- Lever het resultaat in op de Canvas entry voor deze opdracht. 
-
+### Canvas
+- Lever het resultaat in op de Canvas entry voor deze opdracht.   
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
+
+## Portfolio Tip
+Gebruik je diodes of leds in het kas-project? Meet (indirect) de stromen die er door vloeien en maak op basis daarvan een schatting van hoeveel energie per maand door de leds wordt verbruikt. Maak ook een gefundeerde schatting van het totale energieverbruik per maand. Hoeveel procent daarvan komt voor rekening van de Leds? Vraag feedback op je bevindingen.

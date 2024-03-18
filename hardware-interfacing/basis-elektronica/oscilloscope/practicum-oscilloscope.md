@@ -695,8 +695,7 @@ een gele condensator die op het protobordje zijn aangebracht. Vergis je
 bij het aansluiten niet in de plaats van de weerstand en de condensator,
 dan maak je een hoogdoorlaatfilter.
 
-<img src="./media/media/image12.png"
-width="400px" />
+<img src="./media/media/image12.png" width="400px" />
 
 **Aansluiten van de meetdraden voor de meting**
 

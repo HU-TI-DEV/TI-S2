@@ -4,9 +4,11 @@ Kennismaking met electrische grootheden: lading, stroom, spanning, energie en ve
 
 ## Voorbereiding
 
-Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door tot en met bladzijde 5.
+- Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door tot en met bladzijde 5.
 
-Lees van
+- Wat highlights daarvan kun je ook in video-vorm bestuderen: [video electrische grootheden en eenheden](https://www.youtube.com/watch?v=bYL4OfpEA-U)
+
+- Lees van
 [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
 
 de delen:

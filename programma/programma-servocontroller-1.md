@@ -1,7 +1,7 @@
 # Servo Controller - pwm, servo, timing
 
 Deze les is een les uit een serie van 3 lessen, met daarbinnen aansluitend twee practicums:
-- We maken praktisch kennis met pwm, het dynamisch op en ontladen van een condensator en de ne555 timer chip. We onderzoeken hoe een schakeling met die componenten werkt door er metingen met de picoscope aan te doen.
+- We maken praktisch kennis met pwm, een set-reset-flipflop, het dynamisch op en ontladen van een condensator en de ne555 timer chip. We onderzoeken hoe een schakeling met die componenten werkt door er metingen met de picoscope aan te doen.
 - Vervolgens maken we voor het circuit een gelijkend model in LtSpice. We bestuderen of het gesimuleerde gedrag overereenkomt met het gemeten gedrag.
 
 ## Voorbereiding

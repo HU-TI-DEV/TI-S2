@@ -130,15 +130,15 @@ Week C6. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 ### Onderwijsweek C7 (18-3-2024)
 
-Week C7. Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Week C7. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C7   | ma  | Hardware interfacing  | Werken aan project | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
+| C7   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, T...?   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)  |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
@@ -146,10 +146,10 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C8   | ma  | UART communicatie & PWM | Werken aan project | UART (**MV**)    |
-| C8   | di  | UART communicatie & PWM | Werken aan project | UART (**MV**), PWM (**HP**) |
-| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
+| C8   | ma  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**)    |
+| C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**), PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (TM) & HL15-3.038 (HS)| PWM (**HP**) |
+| C8   | do  | UART communicatie & PWM lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
@@ -177,9 +177,9 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
-| D1   | di  |     | Werken aan project     | Activity Diagrammen (**MV**)     |
+| D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
 | D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
-| D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**MV**)     |
+| D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**GP**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D2 (22-4-2024)
@@ -206,7 +206,7 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
-| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Finite state machine (**MV**) |
+| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
 | D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
@@ -227,7 +227,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
-| D6   | di  |     | Werken aan project     | Talking Servos (**MV**)   |
+| D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
 | D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
@@ -236,7 +236,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D7   | ma  |     | Werken aan project | Talking Servos (**MV**)    |
+| D7   | ma  |     | Werken aan project | [Talking Servos 2](./programma-talking-servos-2.md) (**MV**)    |
 | D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
 | D7   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D7   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |

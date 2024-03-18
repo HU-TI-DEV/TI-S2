@@ -13,4 +13,5 @@ Wederom betreft het een "Flipped Classroom" les. De hoeveelheid nut van de les v
 ## Na de les
 Maak opdrachten die niet afgekomen zijn af en kijk jezelf na met de antwoorden:
 [Antwoorden van de opgaven rekenen met eenheden](../hardware-interfacing/basis-elektronica/rekenen-met-eenheden/opgaven-rekenen-met-eenheden-antwoorden.md)
+### Canvas
 Lever ze (handgeschreven, met tussenstappen) in op Canvas bij de opdracht "Rekenen met eenheden".

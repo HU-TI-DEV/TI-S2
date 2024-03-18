@@ -8,9 +8,11 @@ In deze les maken we kennis met de bipolaire transistor en de condensator.
 
 ## Tijdens de les
 
-Tijdens de les werk je samen met een partner aan de volgende opdracht:
+Tijdens de les werk je aan de volgende opdracht:
 
 - [Practicum Transistor Condensator](../hardware-interfacing/basis-elektronica/transistor-condensator/practicum-transistor-condensator.md) 
+
+Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
   
 ## Na de les
 
