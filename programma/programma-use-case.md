@@ -5,6 +5,7 @@ Use cases beschrijven samenhangende reeksen interacties. Ze vormen een belangrij
 ## Voorbereiding
 
 - Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over **use cases**, **use case diagrammen** en **use case beschrijvingen**, bladzijde 34 tm 40.
+- De [sheets](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/sheets-use-cases.pdf)
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video use cases](https://www.youtube.com/watch?v=KOnqXexY-1A)
 
 ## Tijdens een na de les
