@@ -4,7 +4,8 @@ Een gestructureerde manier om vast te leggen **wat** het systeem moet gaan doen.
 
 ## Voorbereiding
 
-Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over (Functionele-) Requirements, bladzijde 26 tm 29.
+- Lees van [Reader System Engineering](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-system-engineering.pdf) het stukje over (Functionele-) Requirements, bladzijde 26 tm 29.
+- Highlights daarvan zijn ook beschikbaar als [video](https://www.youtube.com/watch?v=IJ0bIVxbi04)
 
 ## Tijdens en na de les
 
