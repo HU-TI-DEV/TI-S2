@@ -2,3 +2,9 @@
 *.autosave
 _slidev\*.md
 **/tripleminus.py
+software/c++/oop-concepten/klassen/04-07-rectangle/line.cpp
+software/c++/oop-concepten/klassen/04-07-rectangle/line.hpp
+software/c++/oop-concepten/klassen/04-07-rectangle/main.cpp
+software/c++/oop-concepten/klassen/04-07-rectangle/Makefile
+software/c++/oop-concepten/klassen/04-07-rectangle/rectangle.cpp
+software/c++/oop-concepten/klassen/04-07-rectangle/rectangle.hpp

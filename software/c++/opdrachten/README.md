@@ -14,7 +14,8 @@
     - [Meerdere bronbestanden](#meerdere-bronbestanden)
     - [Files input](#files-input)
     - [Patronen - recursie](#patronen---recursie)
-    - [Structs en klassen](#structs-en-klassen)
+    - [Structs](#structs)
+    - [Classes](#classes)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -92,7 +93,15 @@ Dit bestand bevat links naar C++ opdrachten.
   - [Opdracht 5.6 - Gemiddelde](../patronen/recursie/opdr_recursie.md#opdracht-56---gemiddelde)
   - [Opdracht 5.8 — Robotpiraat](../patronen/recursie/opdr_recursie.md#opdracht-58--robotpiraat)
 
-### Structs en klassen
+### Structs
+- [Opdracht 4.3 - Voorwerpen](../oop-concepten/structs/opdr_structs.md)
+
+### Classes
+- [Opdracht OO1.2 - Boeken](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo12-boeken)
+- [Opdracht OO1.3 - Boeken Main](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo13-boeken-main)
+- [Opdracht OO1.4 - Meubels, code & klassendiagram](../oop-concepten/klassen/opdr_meubels.md)
+- [Opdracht OO1.5 - Gevulde rechthoek]()
+- [Opdracht OO1.6 - Samengesteld object]()
 
 
 ## Opdrachten Weekoverzicht
