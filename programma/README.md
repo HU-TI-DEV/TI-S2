@@ -137,8 +137,8 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | --- | --- | --- | --- | --- |
 | C7   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
