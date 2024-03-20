@@ -137,8 +137,8 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | --- | --- | --- | --- | --- |
 | C7   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) | Inhalen [Soldeerpracticum](./programma-solderen.md) van 10.00 tot 11.00 uur HL15-4.060 (**HS**) & 14.00 uur [Use Cases](./programma-use-case.md) (**MV**)       |
 | C7   | di  | Relais & Linear-actuator     | Werken aan project | [Comparator en Mosfet](./programma-comparator-mosfet.md) (**MV**)  Schakelen, H-brug, flyback  |
-| C7   | wo  | Relais & Linear-actuator     | Werken aan project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
-| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
+| C7   | wo  | Relais & Linear-actuator     | Werken aan project | Temperatuurmeten: [1-wire](./programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
+| C7   | do  | Hardware interfacing & communicatie   | Werken aan Project | [Transistor en Condensator](./programma-transistor-condensator.md) (**MV**)   Darlington, ULN2003   |
 
 ### Onderwijsweek C8 (25-3-2024)
 
@@ -149,7 +149,7 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | C8   | ma  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**)    |
 | C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**), PWM (**HP**) |
 | C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (TM) & HL15-3.038 (HS)| PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team | compositie UML relatie (**GP**) |
+| C8   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team: lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | compositie UML relatie (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)

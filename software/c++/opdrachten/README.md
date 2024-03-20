@@ -103,7 +103,6 @@ Dit bestand bevat links naar C++ opdrachten.
 - [Opdracht OO1.5 - Gevulde rechthoek]()
 - [Opdracht OO1.6 - Samengesteld object]()
 
-
 ## Opdrachten Weekoverzicht
 
 <details>
