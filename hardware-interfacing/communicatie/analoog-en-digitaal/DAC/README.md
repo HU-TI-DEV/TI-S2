@@ -56,9 +56,9 @@ De Titan Silent Fan heeft een Four-pin Molex aansluiting met de volgende aanslui
 
         Draden kunnen van kleur verschillen. Zo zijn er ook 4 pin aansluitingen met de kleuren blauw(PWM)-groen(sense)-geel(+5V, +12V or +24V afhankelijk van het model)-zwart(GND).
 
-![Titan Fan](../DAC/img/PWM_bb.png)
-
-Plaats een diode zodat je 12V en de USB kan aansluiten zonder iets te beschadigen.
+> **MOET WORDEN BIJGEWERKT (HP)** - SCHEMA EN OPMERKING ZIJN NIET OK. 
+> [Titan Fan](../DAC/img/PWM_bb.png)
+> Plaats een diode zodat je 12V en de USB kan aansluiten zonder iets te beschadigen.
 
 ## Arduino voorbeeld code
 
