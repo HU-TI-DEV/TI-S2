@@ -1,6 +1,10 @@
 # Opdrachten Structs C++[](title-id)
 
 ### Inhoud[](toc-id)
+- [Opdrachten Structs C++](#opdrachten-structs-c)
+    - [Inhoud](#inhoud)
+    - [Opdracht 4.3 Voorwerpen](#opdracht-43-voorwerpen)
+
 
 ### Opdracht 4.3 Voorwerpen
 Gegeven is de struct-definitie:
