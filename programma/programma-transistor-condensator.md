@@ -22,6 +22,8 @@ Maar het is ook prima om die stof na het practicum pas te bestuderen. Het practi
 Tijdens de les werk je aan de volgende opdracht:
 
 - [Practicum Transistor Condensator](../hardware-interfacing/basis-elektronica/transistor-condensator/practicum-transistor-condensator.md) 
+   
+   De sub-opdracht "diode" kun je overslaan. Een soortgelijke opdracht heb je eerder al gedaan.
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
   
