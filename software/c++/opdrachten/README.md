@@ -14,7 +14,8 @@
     - [Meerdere bronbestanden](#meerdere-bronbestanden)
     - [Files input](#files-input)
     - [Patronen - recursie](#patronen---recursie)
-    - [Structs en klassen](#structs-en-klassen)
+    - [Structs](#structs)
+    - [Classes](#classes)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
