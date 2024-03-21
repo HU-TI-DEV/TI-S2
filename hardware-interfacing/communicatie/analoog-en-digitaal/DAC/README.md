@@ -52,13 +52,12 @@ De Titan Silent Fan heeft een Four-pin Molex aansluiting met de volgende aanslui
 3) Rood voor 12V
 4) Zwart voor GND
 
+> Draden kunnen van kleur verschillen. Zo zijn er ook 4 pin aansluitingen met de kleuren blauw(PWM)-groen(sense)-geel(+5V, +12V or +24V afhankelijk van het model)-zwart(GND).
 
+[Titan Fan](../DAC/img/PWM_bb.png)
 
-        Draden kunnen van kleur verschillen. Zo zijn er ook 4 pin aansluitingen met de kleuren blauw(PWM)-groen(sense)-geel(+5V, +12V or +24V afhankelijk van het model)-zwart(GND).
-
-> **MOET WORDEN BIJGEWERKT (HP)** - SCHEMA EN OPMERKING ZIJN NIET OK. 
-> [Titan Fan](../DAC/img/PWM_bb.png)
-> Plaats een diode zodat je 12V en de USB kan aansluiten zonder iets te beschadigen.
+> Let op dat je alleen de GND van de Arduino met GND van de 12V voeding en de Titan Silent Fan verbindt.  
+> Anders kan je de Arduino beschadigen.
 
 ## Arduino voorbeeld code
 
