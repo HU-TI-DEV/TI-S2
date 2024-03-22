@@ -46,7 +46,7 @@ ${\Large \frac{36}{24}\normalsize  = \Large \frac{3}{2}\normalsize
 $
 
 **Vraag b:**  
-${- \Large \frac{40}{12}\normalsize  = \Large \frac{10}{3}\normalsize 
+${- \Large \frac{40}{12}\normalsize  = -\Large \frac{10}{3}\normalsize 
 }$
 
 **Vraag c:**  
@@ -74,7 +74,7 @@ ${- \Large \frac{3}{- 5}\normalsize  + \Large \frac{- 7}{4}\normalsize  = - \Lar
 }$
 
 **Vraag d:**  
-${- \Large \frac{3 \small \bullet \normalsize x}{- 2}\normalsize  + \Large \frac{- 2}{3}\normalsize  = \Large \frac{3 \small \bullet \normalsize x - 2}{3}\normalsize 
+${- \Large \frac{3 \small \bullet \normalsize x}{- 2}\normalsize  + \Large \frac{- 2}{3}\normalsize  = \Large \frac{9 \small \bullet \normalsize x - 4}{6}\normalsize 
 }$
 
 **Vraag e:**  
@@ -191,7 +191,7 @@ volgende vergelijkingen:
 (1) ${\Large \frac{\ x + 1}{y}\normalsize  = a}$   
 (2) ${\ z - 3y = a}$   
 (3) ${\ x - z = b}$   
-->   $x = - \Large \frac{1}{2}\normalsize b - \Large \frac{3}{2}\normalsize ,\ y = - \Large \frac{b + 1}{2a}\normalsize ,\ z = a - \Large \frac{3(b + 1)}{2a}\normalsize $
+->   $x = - \Large \frac{a^2+a b+3}{a-3}\normalsize,\ y = \Large \frac{1+a+b}{a-3}\normalsize ,\ z = \Large \frac{a^2+3b+3}{a-3}\normalsize $
 
 **Vraag e:**  
 (1) ${\ x + a = - 2b}$    
