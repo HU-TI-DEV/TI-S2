@@ -191,7 +191,7 @@ volgende vergelijkingen:
 (1) ${\Large \frac{\ x + 1}{y}\normalsize  = a}$   
 (2) ${\ z - 3y = a}$   
 (3) ${\ x - z = b}$   
-->   $x = - \Large \frac{a^2+a b+3}{a-3}\normalsize,\ y = \Large \frac{1+a+b}{a-3}\normalsize ,\ z = \Large \frac{a^2+3b+3}{a-3}\normalsize $
+->   $x = \Large \frac{a^2+a b+3}{a-3}\normalsize,\ y = \Large \frac{1+a+b}{a-3}\normalsize ,\ z = \Large \frac{a^2+3b+3}{a-3}\normalsize $
 
 **Vraag e:**  
 (1) ${\ x + a = - 2b}$    
