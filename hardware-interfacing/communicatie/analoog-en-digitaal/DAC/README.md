@@ -28,9 +28,16 @@
 
 Bij PWM is de output niet direct een analoog signaal. Iets wat andere DAC wel produceren In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad.
 
+## PWM frequency ##
+
+Dit geeft aan hoeveel PWM pulse per seconde worden verstuurd/ontvangen.
+
 ## Duty cycle
 
-De lengte van de digitale signalen drukken we bij PWM uit in *duty cycle*. De duty cycle beschrijft hoe de verhouding is van hoe lang het signaal hoog is en hoe lang het signaal laag is.
+De PWM *duty cycle* beschrijft hoe de verhouding is van hoe lang het signaal hoog is en hoe lang het signaal laag is.
+
+De *duty cycle* kan worden aangegeven als een percentage tussen 0% en 100%.  
+Soms is in het datasheet van het ontvangende toestel ook een minimaal en maximaal tijd aangegeven.
 
 ![Duty cycle](../DAC/img/Duty_Cycle_Examples.png)
 
@@ -40,7 +47,7 @@ In bovenstaand figuur zien we drie voorbeelden van duty cycle. PWM is makkelijk 
 
 ## Titan Silent Fan TFD-8015HH12ZP/W1
 
-Om voor koeling te zorgen maken we gebruik van de Titan Fan. Deze werkt op 12V maar dat kan een Arduino niet leveren. Een externe voeding is daarom een aanrader.
+Om voor koeling te zorgen maken we gebruik van de Titan Fan. Deze werkt op 12V maar dat kan een Arduino niet leveren. Een externe voeding is daarom nodig.
 
 ## De schakeling
 
@@ -61,6 +68,10 @@ De Titan Silent Fan heeft een Four-pin Molex aansluiting met de volgende aanslui
 > **Anders kan je de Arduino beschadigen.**
 
 ## Arduino voorbeeld code
+
+> Een "4-pin PWM Fan" gebruikt vaak een PWM frequency van 25kHz.  
+> Maar de Arduino kan geen zo snelle PWM-pulses leveren (zie analogWrite()).  
+> De Titan PWM-Fan die we gebruiken werkt ook met deze (veel lagere) frequentie.
 
 ```arduino
 // PWM.ino - Pulse Width Modulation example (fan control)
@@ -113,3 +124,6 @@ void loop() {
 - Analoog en digitaal (<https://en.wikipedia.org/wiki/Analogue_electronics#Analogue_vs_digital_electronics>)
 - Pulse-width modulation (<https://en.wikipedia.org/wiki/Pulse-width_modulation>)
 - Arduino PWM (<https://docs.arduino.cc/tutorials/generic/secrets-of-arduino-pwm>)
+- [Titan TFD-8015HH12ZP_W1 page](https://www.titan-cd.com/en/product/TFD-8015HH12ZP_W1.html)
+- [Arduino analogWrite() function](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
+- [Arduino PWM pins](https://support.arduino.cc/hc/en-us/articles/9350537961500-Use-PWM-output-with-Arduino)
