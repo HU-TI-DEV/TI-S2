@@ -5,7 +5,7 @@
 ### Inhoud[](toc-id)
 
 - [DAC: digitaal naar analoog](#dac-digitaal-naar-analoog)
-    - [Inhoud](#inhoud)
+  - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [PWM](#pwm)
   - [Dyty cycle](#dyty-cycle)
@@ -26,9 +26,9 @@
 
 ## PWM
 
-Bij PWM is de output niet direct een analoog signaal. Iets wat andere DAC wel produceren In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad. 
+Bij PWM is de output niet direct een analoog signaal. Iets wat andere DAC wel produceren In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad.
 
-## Dyty cycle
+## Duty cycle
 
 De lengte van de digitale signalen drukken we bij PWM uit in *duty cycle*. De duty cycle beschrijft hoe de verhouding is van hoe lang het signaal hoog is en hoe lang het signaal laag is.
 
@@ -36,7 +36,7 @@ De lengte van de digitale signalen drukken we bij PWM uit in *duty cycle*. De du
 
 In bovenstaand figuur zien we drie voorbeelden van duty cycle. PWM is makkelijk zelf te implementeren door snel, in de juiste verhouding, een pin een hoog signaal en daarna weer een laag signaal te laten sturen. Het nadeel hiervan is dat microcontroller dan ondertussen geen andere taken kan uitvoeren. Gelukkig is hier ook specifieke hardware (zoals de TL5002) voor. Op de meeste Arduino’s zijn enkele pins uitgerust met PWM. Voor de meeste Arduino’s zijn dat pin 3, 5, 6, 9, 10 en 11. PWM is erg handig als je bijvoorbeeld een elektromotor of servo wil aansturen.
 
-    PWM wordt al heel lang gebruikt voor het aansturen van computer ventilatoren die nodig zijn om te koelen. Omdat het voltage niet hoeft worden aangepast maar omdat een PWM signaal wordt gestuurd kunnen moederborden goedkoper gemaakt worden (geen extra voltage regulators nodig).
+> PWM wordt al heel lang gebruikt voor het aansturen van computer ventilatoren die nodig zijn om te koelen. Omdat het voltage niet hoeft worden aangepast maar omdat een PWM signaal wordt gestuurd kunnen moederborden goedkoper gemaakt worden (geen extra voltage regulators nodig).
 
 ## Titan Silent Fan TFD-8015HH12ZP/W1
 
@@ -47,43 +47,66 @@ Om voor koeling te zorgen maken we gebruik van de Titan Fan. Deze werkt op 12V m
 ![Four-pin connector](../DAC/img/connector.svg)
 
 De Titan Silent Fan heeft een Four-pin Molex aansluiting met de volgende aansluitingen:
-1) Blauw voor PWM signaal 5V, 25kHz
-2) Geel voor Sense (het meten van het aantal RPM)
-3) Rood voor 12V
-4) Zwart voor GND
+
+1) **Blauw** voor PWM signaal 5V, 25kHz
+2) **Geel** voor Sense (het meten van het aantal RPM)
+3) **Rood** voor 12V
+4) **Zwart** voor GND
 
 > Draden kunnen van kleur verschillen. Zo zijn er ook 4 pin aansluitingen met de kleuren blauw(PWM)-groen(sense)-geel(+5V, +12V or +24V afhankelijk van het model)-zwart(GND).
 
-[Titan Fan](../DAC/img/PWM_bb.png)
+![Titan Fan](../DAC/img/PWM_bb.png)
 
-> Let op dat je alleen de GND van de Arduino met GND van de 12V voeding en de Titan Silent Fan verbindt.  
-> Anders kan je de Arduino beschadigen.
+> **Let op** dat je alleen de GND van de Arduino met GND van de voeding en de Titan Silent Fan verbindt.  
+> **Anders kan je de Arduino beschadigen.**
 
 ## Arduino voorbeeld code
 
 ```arduino
-int fan = 6;           // the PWM pin
-int speed = 0;         // speed of the fan
-int fadeSpeed = 5;     // how many points to fade the speed by
+// PWM.ino - Pulse Width Modulation example (fan control)
+// "Fading in and out" of maximum fan speed.
+int delay_ms = 300;  // delay for the main loop
+int fan_pin = 6;     // the PWM pin we use (make sure the pin supports PWM if you change this!)
+int fan_speed = 0;   // current speed of the fan
+int fan_delta = 5;   // amount to change the speed (pos/neg)
+
+void built_in_self_test() {
+  // flash built-in LED three times
+  pinMode(LED_BUILTIN, OUTPUT);
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    delay(500);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(500);
+  }
+}
 
 void setup() {
-  pinMode(fan, OUTPUT); // declare pwm pin to be an output
+  built_in_self_test();
+  pinMode(fan_pin, OUTPUT);  // declare PWM pin to be an output
 }
 
 void loop() {
-  analogWrite(fan, speed); // set the speed of the fan
-
-  // change the speed for next time through the loop
-  speed = speed + fadeSpeed;
-
-  // reverse the direction of the fading at the ends of the fade
-  if (speed <= 0 || speed >= 255) {
-    fadeSpeed = -fadeSpeed;
-  }  
-  delay(300);  // wait for 300 milliseconds to see the fade effect
+  // set the speed of fan by generating a PWM signal
+  analogWrite(fan_pin, fan_speed);
+  // change the speed for next iteration
+  fan_speed = fan_speed + fan_delta;
+  // make sure fan_speed does not get lower than 0 or higher than 255
+  if (fan_speed < 0) {
+    fan_speed = 0;
+  } else if (fan_speed > 255) {
+    fan_speed = 255;
+  }
+  // reverse the direction of the fan_delta at the ends of the 'fade'
+  if (fan_speed <= 0 || fan_speed >= 255) {
+    fan_delta = -fan_delta;
+  }
+  // wait for 300 milliseconds to see the fade effect
+  delay(300);
 }
 ```
-[Arduino bestand](../DAC/files/PWM/PWM.ino) 
+
+[Arduino bestand](../DAC/files/PWM/PWM.ino)
 
 ## Referenties
 
