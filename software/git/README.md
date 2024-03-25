@@ -5,7 +5,7 @@
 ### Inhoud[](toc-id)
 
 - [Git](#git)
-    - [Inhoud](#inhoud)
+  - [Inhoud](#inhoud)
   - [Version Control System](#version-control-system)
   - [Alternatives to Git](#alternatives-to-git)
   - [Distributed versus centralized VCS](#distributed-versus-centralized-vcs)
@@ -38,19 +38,19 @@
 
 ## Version Control System
 
-VCS is an abbreviation for Version Control System. A VCS is a tool that saves the changes to files in a local and/or remote repository. The benefit of using a VCS is the clear development history – at any point in time it is possible to see who did what and what happened since then. This clear development history makes it easier to locate bugs and roll back to stable versions. 
+VCS is an abbreviation for Version Control System. A VCS is a tool that saves the changes to files in a local and/or remote repository. The benefit of using a VCS is the clear development history – at any point in time it is possible to see who did what and what happened since then. This clear development history makes it easier to locate bugs and roll back to stable versions.
 
 ## Alternatives to Git
 
 Are there any alternatives to using a VCS? Not really – one could use local backups on (removable) hard drives, but this makes working together much harder. Git is the most popular VCS worldwide, mostly because of its ease of use and speed – because you work locally you’re not as limited by network speed, there is no single point of failure as with centralized VCS(SVN) and git is available offline.
 
-Alternatives to Git include Mercurial and SVN, but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread). 
+Alternatives to Git include Mercurial and SVN, but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread).
 
 Another important thing to note with these statistics is that many developers don't use just one system - they will often use different systems profesionally than personally.
 
 ## Distributed versus centralized VCS
 
-Git is a distributed VCS, meaning that you always have a working local repository in addition to a central remote. Centralized VCS only have a remote, so any ‘commits’ you make are sent directly to the remote. 
+Git is a distributed VCS, meaning that you always have a working local repository in addition to a central remote. Centralized VCS only have a remote, so any ‘commits’ you make are sent directly to the remote.
 
 ## Git versus GitHub: Git as a service
 
@@ -84,12 +84,10 @@ Cloning and Forking both create copies of a repository, but with different inten
 
 `git add`: Allows to add new files to the staging area; can be new files or tracked files that have changed
 
-
 `git add` has a lot of flags/commands you can use to make using it easier (such as `git add .` or `git add -a`), but usually it’s neater to use filenames directly -> `git add <filename1> <filename2>`: this way you keep full control of what happens.
 
-    https://stackoverflow.com/a/26039014
-
-    Using these flags is generally discouraged, but if you DO use them at least make sure you know what they do exactly.
+> See <https://stackoverflow.com/a/26039014>  
+> Using these flags is generally discouraged, but if you **do** use them at least make sure you know what they do exactly.
 
 `git restore`: Allows for removal of staged files from staging area -> `git restore <filename>`
 
@@ -105,11 +103,11 @@ A branch is a copy of the main codebase, where one can introduce changes without
 
 ![branch](../git/img/Revision_controlled_project_visualization-2010-24-02.svg)
 
-Merge conflicts should be avoided if possible. They occur when conflicting versions of files exist when either pulling to your local repo or pushing to the remote. A proper Git Workflow with proper use of a Branching Strategy prevents most merge conflicts.
+**Merge conflicts** should be avoided if possible. They occur when conflicting versions of files exist (someone else changed a file that you also changed) when either pulling to your local repo or pushing to the remote. A proper Git Workflow with proper use of a Branching Strategy prevents most merge conflicts.
 
 ### Branching strategies
 
-There are a few different strategies development teams use for branching, but the most common is branching based on features. In this strategy, a team usually starts off with a main branch – this is the release branch. This branch only contains working code ready for release. From the main branch a development branch is created – this is where complete code is ‘staged’ until it is ready to be released. From this development branch developers create new branches for each new feature, including potential branches for bug fixes etc. If an agile project is properly set up (task division etc.), this is very easy to do. 
+There are a few different strategies development teams use for branching, but the most common is branching based on features. In this strategy, a team usually starts off with a main branch – this is the release branch. This branch only contains working code ready for release. From the main branch a development branch is created – this is where complete code is ‘staged’ until it is ready to be released. From this development branch developers create new branches for each new feature, including potential branches for bug fixes etc. If an agile project is properly set up (task division etc.), this is very easy to do.
 
 ### Branch how?
 
@@ -119,60 +117,122 @@ Do note that, alternatively, you can use the `git branch "new_branch_name"` comm
 
 ### Branch 'Workflow'
 
-Working with branches introduces a few new commands: 
+Working with branches introduces a few new commands:
 
 ```bash
-git checkout 
-# Checkout is used for switching branches or making a new one. The –b flag allows for making a new branch, while leaving that flag unchecked switches to a different branch; `git checkout (-b) “branch_name”`
+git checkout "branch-name"
+# Checkout is used for switching branches. Examples:
+git checkout main
+git checkout my-local-work-branch
+# By adding the -b flag you can make a new branch:
+git checkout -b "my-new-branch-name"
 ```
+
 ```bash
 git pull 
-# Pulls changes from the remote to your local repository. If you use this in a specific branch only the changes from the remote to that branch are pulled. For example, if the dev branch has been changed but you pull a different feature branch, you don’t pull the changes to the dev branch.
+# Pulls changes from the remote to your local repository.
+# If you use this in a specific branch only the changes from the remote to that branch are pulled.
+# For example, if the dev branch has been changed but you pull a different feature branch, you don’t pull the changes from the dev branch:
+git pull different-feature-branch
+# ...will copy any changes for that branch from the server into your local repository.
 ```
+
 ```bash
 git push 
-# Pushes your local commits to the branch you are in to the corresponding branch on the remote. Similar to pull, this only works for the specific branch you are on.
+# Pushes your local commits to the branch you are in to the corresponding branch on the remote.
+# Similar to pull, this only works for the specific branch you are on.
 ```
+
 ```bash
-git merge “other” 
-# Merges ‘other’ into the branch you are currently in. Merging can create merge conflicts, so using it properly requires a merging strategy.
+git merge "some-other-branch" 
+# Merges ‘some-other-branch’ into the branch you are currently in.
+# Merging can create merge conflicts, so using it properly requires a merging strategy.
 ```
- 
+
 ### Merging workflow
 
-First, make sure the branch you want to merge into (destination) is up to date by switching to that branch and pulling it. 
+First, make sure the branch you want to merge into (destination) is up to date by switching to that branch and pulling it.
+
 ```bash
-git checkout "destination"
+git checkout merge-destination-branch
 git pull
 ```
 
-Then move back to the branch you want to merge (origin) and merge the destination branch to your origin. 
+Then move back to the branch you want to merge (origin) and merge the destination branch to your origin.
+
+> We do this to make sure we get the latest changes from the destination branch in our own origin branch.  
+> We work on the origin-branch anyway, and now we can resolve any conflicts (if any) without disturbing other developers.
+>  
+> If we would immediately merge our origin branch into the destination branch,
+> any merge conflict would break the build for all developers who pull the destination branch afterwards.
+
+So let's be a good team player and  move the latest version of the destination-branch into our own branch:
 
 ```bash
-git checkout "origin"
-git merge "destination"
+git checkout my-merge-origin-branch
+git merge merge-destination-branch
 ```
 
-If merge conflicts arise, fix them and repeat from the top.
+If there are any merge conflicts, we now fix them and repeat the procedure (merge-destination-branch might have changed while we fixed any conflict).
 
-If no merge conflicts arise (anymore), you can push your local changes with `git push`
+If no merge conflicts arise (anymore), we can push your local changes (to our own "my-merge-origin-branch") with `git push`
 
-Switch to your destination folder and merge the branch you want to merge into destination, push changes.
+Afterwards we can "trivial merge" our origin branch into the destination branch.
+
+To do this, we switch to the merge-destination-branch and merge the branch we want to merge into it.
+If there are no errors or conflicts, we can then **push** our changes.
 
 ```bash
-git checkout "destination"
-git merge "origin"
+git checkout merge-destination-branch
+git merge my-merge-origin-branch
+# Only push if there are no conflicts, errors or warnings!
 git push
 ```
 
-This is generally only done for feature branches into other feature branches, or sometimes the development branch. For merging into the main (and some teams prefer doing this for development as well) we generally advise to use a Pull Request.
+This merge and push will make any of your changes immediately active on the remote (server) repository.
+
+This is generally only done for merging feature branches into other feature branches, or sometimes for merging into the **dev** development branch.
+
+For merging into the **main** branch (and some teams prefer doing this for development as well) we generally advise to use a **Pull Request**.
+
+### Example for merging into a development branch
+
+```bash
+# let's make sure we have a current copy of 'develop' in our local repository
+git checkout develop
+git pull
+# Let's go to our own branch and apply the latest changes from 'develop' there.
+git checkout feature-blinkenlights
+git merge develop
+# If we have merge conflicts, we need to resolve them
+# ...
+# Successfully resolved, we can update our (own!) branch:
+git push
+# Now let's merge our changes onto develop, first we need to make sure it is 'fresh':
+git checkout develop
+git pull
+# If there were no more changes on develop, we now have a "trivial merge":
+git merge feature-blinkenlights
+# A "trivial merge" means we are sure we will not have any conflicts
+# Yay! All good! Let's send our work to the remote server:
+git push
+```
 
 ## Pull requests
 
-Pull requests are a [GitHub](https://www.GitHub.com) (or alternative Git server) feature, not Git. They allow you to ask if a branch can be merged into a different branch, giving the opportunity for a code review. This is usually done in order to allow feature branches to be merged into dev, or even to merge dev into main.
+**Pull requests (PR's)** are a Git server feature, e.g. they are not built into the core of Git itself, but were added to server systems like
+[GitHub](https://www.github.com), [GitLab](https://www.gitlab.com/), [Bitbucket](https://bitbucket.org/) or other alternatives.
+
+With a **pull request** you ask others to merge your branch into a different branch, giving them the opportunity for a code review of your changes.
+
+In companies or other organizations this is usually the procedure to follow to merge feature branches into dev.
+
+Almost all companies will use such a procedure whenever something is to be merged into important branches like **main** or into a "production" or "release" branch.
 
 ## Configuration
+
 One time setup:
+
 ```bash
 # Assign VSCode as default text editor:
 git config --global core.editor "code --wait"
@@ -182,12 +242,15 @@ git config --global merge.ff false
 ```
 
 ## Workflow for trusted team
+
 ![Workflow for trusted team](../git/img/GIT_Werkwijzen-Vertrouwd.drawio.svg)
 
 ## Workflow for unknown contributors
+
 ![Workflow_for_unknown_contributors](../git/img/GIT_Werkwijzen-OpenSource.drawio.svg)
 
 ## Git recommended workflow
+
 ![Workflow_for_unknown_contributors](../git/img/GIT_Werkwijzen-Koninklijke%20Weg.drawio.svg)
 
 ## Referenties
