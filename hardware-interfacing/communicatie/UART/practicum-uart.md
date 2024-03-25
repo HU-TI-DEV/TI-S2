@@ -25,7 +25,7 @@ Laat je arduino via seriele verbinding (rx,tx pinnen) communiceren met je raspbe
 ### Vraag a
 Noteer je bevindingen / persoonlijke lessen.
 
-## Bonus Opdracht
+## Bonus Opdracht 1
 Communiceer vanuit een python of c++ programma op je windows laptop via uart met je raspberri pi ([gebruik python op VSCode](../../../software/python/python-op-vscode.md)).
 Leen daarvoor een USB to serial converter.
 Check even welk type je gebruikt. Als het gebruik maakt van een CP210x chip, kun je hier de driver downloaden:  [driver voor CP210x](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads))   
@@ -35,3 +35,6 @@ Check even welk type je gebruikt. Als het gebruik maakt van een CP210x chip, kun
 Welke code heb je gebruikt op de pc kant?
 ### Vraag b
 Noteer je bevindingen / persoonlijke lessen.
+
+## Bonus Opdracht 2
+Zelfde als de vorige Bonus Opdracht, maar nu twee laptops die (zonder arduinos) via USB-naar-Serial converters met elkaar communiceren.
