@@ -6,7 +6,7 @@
 - Neem een geinstalleerde raspberry pi mee.
 - Neem je electronica spullen (breadboard, weerstanden etc) mee.
 - Neem je logic analyser mee (als je die al hebt)
-- Lees alvast de lesstof door: [uart](../README.md) en [uart](./README.md)
+- Lees alvast de lesstof door: [uart](./README.md)
 - Kijk de volgende video [Salae Logic Analyser Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 - Een indruk voor de plaats van deze opdracht in het geheel vind je [in dit overzicht](./img/overzicht1.png) en [in dit overzicht](./img/overzicht2.png).
 
