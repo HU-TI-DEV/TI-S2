@@ -149,7 +149,7 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | C8   | ma  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**)    |
 | C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**), PWM (**HP**) |
 | C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (TM) & HL15-3.038 (HS)| PWM (**HP**) |
-| C8   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team: lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | compositie UML relatie (**GP**) |
+| C8   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team: lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
