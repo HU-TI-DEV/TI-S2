@@ -5,8 +5,11 @@
 ### Inhoud[](toc-id)
 
 - [Verantwoordingsdocument Tips](#verantwoordingsdocument-tips)
-  - [Inhoud](#inhoud)
-  - [Portfolio Technische Informatica (TI) semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
+    - [Inhoud](#inhoud)
+  - [Portfolio Technische Informatica (TI) Semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
+    - [Verantwoordingsdocument](#verantwoordingsdocument)
+    - [Portfolio en Portfolio-Items](#portfolio-en-portfolio-items)
+    - [Structuur van jouw repositories](#structuur-van-jouw-repositories)
 
 ---
 
@@ -28,7 +31,7 @@ Een aantal tips voor het schrijven van een goed en leesbaar verantwoordingsdocum
 
 ### Portfolio en Portfolio-Items
   
-- Met een portfolio laat je zien wat je hebt geleert en hoe je deze kennis hebt toegepast. Een foto of video kan een onderdeel van een portfolio item zijn, maar een link naar een foto alleen is niet voldoende. Je moet kunnen aantonen dat het opgegeven [portfolio item](./Portfolio-items.md) ook voldoet aan de opgestelde (minimale) criteria. Ook dien je feedback te hebben opgehaald en verwerkt.
+- Met een portfolio laat je zien wat je hebt geleerd en hoe je deze kennis hebt toegepast. Een foto of video kan een onderdeel van een portfolio item zijn, maar een link naar een foto alleen is niet voldoende. Je moet kunnen aantonen dat het opgegeven [portfolio item](./Portfolio-items.md) ook voldoet aan de opgestelde (minimale) criteria. Ook dien je feedback te hebben opgehaald en verwerkt.
 - Een portfolio-item kan gebruikt worden om meerdere leeruitkomsten te ondersteunen. Er zijn meerdere verschillende portfolio-items vereist om de meeste leeruitkomsten goed te kunnen onderbouwen.
 - In jouw GitHub-repository gebruik je Markdown (.md) voor het documenteren van je werk. Deze bestanden zijn in GitHub meteen te zien. Een PDF of Word document gaan wij niet downloaden en bekijken.
 - Een portfolio-item is altijd herleidbaar naar een document op je persoonlijke repository.
