@@ -100,7 +100,7 @@ Dit bestand bevat links naar C++ opdrachten.
 - [Opdracht OO1.2 - Boeken](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo12-boeken)
 - [Opdracht OO1.3 - Boeken Main](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo13-boeken-main)
 - [Opdracht OO1.4 - Meubels, code & klassendiagram](../oop-concepten/klassen/opdr_meubels.md)
-- [Opdracht OO1.5 - Gevulde rechthoek](../oop-concepten/klassen/opdr_rechthoek.md)
+- [Opdracht OO1.5 - SFML en gevulde rechthoek](../oop-concepten/klassen/opdr_rechthoek.md)
 
 ## Opdrachten Weekoverzicht
 
