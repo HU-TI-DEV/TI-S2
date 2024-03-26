@@ -16,11 +16,11 @@ Maak met een 12V-bron (bijvoorbeeld een labvoeding), een Titan PWM-Fan en een Ar
 
 ## Portfolio-Tip
 
-Hier zijn meerdere alternatieven:
+Hier zijn meerdere mogelijkheden:
 
 - Hoe kan je dit onderdeel gebruiken in de (kweek)kas?
 - Welke soort input of sensorwaarden je kan gebruiken om de snelheid van deze fan te bepalen?
-- Wat gebeurt als je een PWM-signaal gebruikt met een LED?
+- Wat gebeurt er als je een PWM-signaal gebruikt met een LED?
 - Kunnen we een PWM-signaal in een spanning omzetten als dit nodig is? (Tip: Denk aan basis-electronica.)
 
 Leg dit vast, maak een verslag en haal feedback op bij de docent.
