@@ -25,7 +25,44 @@ Verschillende portfolio items kunnen bijdragen aan verschillende leeruitkomsten.
 Wanneer je een portfolio item gebruikt in je [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md) zorg dan dat voor elk portfolio item er altijd is aangeven wat de eigen bijdrage is, welke feedback op dit portfolio item is verkregen (en van wie) en wat er met die feedback is gedaan (uptake van de feedback).
 
 ## Portfolio items
+- [Repository](#repository)
+- [Review Feedback op Commits](#review-feedback-op-commits)
+- [Gefilterde Commits Reports](#gefilterde-commits-reports)
+- [Hardwareontwerp](#hardwareontwerp)
+- [Electrisch Schema](#electrisch-schema)
+- [Berekeningen aan electronica](#berekeningen-aan-electronica)
+- [Simulatie aan electronica](#simulatie-aan-electronica)
+- [Fritzing Schema van het initiele prototype](#fritzing-schema-van-het-initiele-prototype)
+- [Printplaatje (PCB)](#printplaatje-pcb)
+- [3D-print](#3d-print)
+- [Gelasercut Object](#gelasercut-object)
+- [Softwareontwerp](#softwareontwerp)
+- [Klassediagram](#klassediagram)
+- [Unit tests](#unit-tests)
+- [Source Code](#source-code)
+- [Requirements(-analyse)](#requirements-analyse)
+- [Use Case diagram(men)](#use-case-diagrammen)
+- [Use Case beschrijvingen](#use-case-beschrijvingen)
+- [Activity Diagrammen](#activity-diagrammen)
+- [Video/foto van hardware](#videofoto-van-hardware)
+- [Adviesrapport](#adviesrapport)
+- [Gesprekverslag met feedback](#gesprekverslag-met-feedback)
+- [Journaal / Logboek](#journaal--logboek)
+- [Uitleg video](#uitleg-video)
+- [Demonstratie video](#demonstratie-video)
+- [Oefenopgave Git gebruik](#oefenopgave-git-gebruik)
+- [Gebruik multimeter](#gebruik-multimeter)
+- [Gebruik logic analyzer](#gebruik-logic-analyzer)
+- [Gebruik van oscilloscope / picoscope](#gebruik-van-oscilloscope--picoscope)
+- [Datasheet lezen & interpreteren](#datasheet-lezen--interpreteren)
+- [Show & Tell](#show--tell)
+- [Modellen voor het gemeenschappelijke deel](#modellen-voor-het-gemeenschappelijke-deel)
+- [Retrospective/reflectie](#retrospectivereflectie)
+- [Oefenopdrachten Infrastructuur](#oefenopdrachten-infrastructuur)
+- [Oefenopdrachten Software](#oefenopdrachten-software)
+- [Oefenopdrachten Hardware Interfacing](#oefenopdrachten-hardware-interfacing)
 
+### Repository
 Portfolio item | Beschrijving
 --- | --- 
 Repository | Link naar de repository met alle branches, commits en merges.
@@ -42,7 +79,7 @@ Criteria
 * Branches zijn up-to-date gehouden met main/master en dev branches.
 
 ---
-
+### Review Feedback op Commits
 Portfolio item | Beschrijving
 --- | --- 
 Commits. Review Feedback op Commits | Feedback van een reviewer waaruit aan de hand van een steekproef blijkt dat de student gestructureerd werkt met een repository. 
@@ -55,7 +92,7 @@ Criteria
 * Duidelijke naamgeving van tags.
 
 ---
-
+### Gefilterde Commits Reports
 Portfolio item | Beschrijving
 --- | --- 
 Commits. Gefilterde Commits Reports | Gefilterde commits-reports van de student zelf.
@@ -68,7 +105,7 @@ Criteria
 * Toont aan dat de student zijn eigen wijzigingen (een uitzondering daargelaten) zelf heeft gemerged naar de master.
 
 ---
-
+### Hardwareontwerp
 Portfolio item | Beschrijving
 --- | --- 
 Hardwareontwerp | Een document/verslag onder versiebeheer van het deel van de kasapparatuur waar de student voor verantwoordelijk is (de eigen taartpunt van het project), met:
@@ -86,7 +123,7 @@ Criteria
 * Duidelijke uitleg hoe de hardware testbaar is.
 
 ---
-
+### Electrisch Schema
 Portfolio item | Beschrijving
 --- | --- 
 Electrisch Schema | Een document met een electrisch schema.
@@ -101,7 +138,30 @@ Criteria
 * Voorzien van een duidelijke uitleg erbij en uitleg waarom je bepaalde keuzes hebt gemaakt.
 
 ---
+### Berekeningen aan electronica
+Portfolio item | Beschrijving
+--- | --- 
+Berekeningen aan electronica | Berekeningen aan stromen, spanningen, energieverbruik. Controle via simulatie en/of meting.
 
+Criteria 
+---
+* Correcte berekeningen;
+* Met schema uitleggen hoe het geverifieerd is en dat gedegen onderbouwen;
+---
+
+### Simulatie aan electronica
+Portfolio item | Beschrijving
+--- | --- 
+Simulatie aan electronica | Bepalen van stromen, spanningen, energieverbruik. Optimaliseren van keuzes van componentwaarden. Steekproefsgewijze controle via meting of berekening.
+
+Criteria 
+---
+* Duidelijke knooppunts-namen;
+* Je laat aan de hand van je uitleg bij simulatie-screenshots zien dat je begrijpt hoe het werkt.
+* Bij de simulatie-screenshots wordt duidelijk gemaakt wat er te zien is (voor welke stroom staat id1?)
+
+---
+### Fritzing Schema van het initiele prototype
 Portfolio item | Beschrijving
 --- | --- 
 Fritzing Schema van het initiele prototype | Document met een Fritzing schema
@@ -116,7 +176,7 @@ Criteria
 * Voorzien van een duidelijke uitleg erbij en uitleg waarom je bepaalde keuzes hebt gemaakt.
 
 ---
-
+### Printplaatje (PCB)
 Portfolio item | Beschrijving
 --- | --- 
 Printplaatje (PCB) | De ontwerptekening van de layout (PCB design). Een foto van de printplaat met de gesoldeerde en/of bestückte componenten.
@@ -130,7 +190,7 @@ Criteria
 * Bevat argumentatie voor de ontwerpkeuzes voor de gekozen layout.
 
 ---
-
+### 3D-print
 Portfolio item | Beschrijving
 --- | --- 
 3D-print | Een afbeelding van je 3D-ontwerp en bijbehorende documenten. Een foto van het resultaat.
@@ -143,7 +203,7 @@ Criteria
 * Bevat evaluatie: Hoe goed doet het wat het doen moest? Zijn er mogelijke verbeteringen voor een volgende versie?
 
 ---
-
+### Gelasercut Object
 Portfolio item | Beschrijving
 --- | --- 
 Gelasercut Object | Een afbeelding van je 2D-ontwerp inclusief de bijbehorende documenten. Een foto van het resultaat.
@@ -157,6 +217,7 @@ Criteria
 
 ---
 
+### Softwareontwerp
 Portfolio item | Beschrijving
 --- | --- 
 Softwareontwerp | Een document/verslag onder versiebeheer van het deel van de kasapparatuur waar de student voor verantwoordelijk is (de eigen taartpunt van het project).
@@ -169,7 +230,7 @@ Criteria
 * Bevat uitgevoerde Unittesten inclusief de resultaten.
 
 ---
-
+### Klassediagram
 Portfolio item | Beschrijving
 --- | --- 
 Klassediagram |
@@ -183,7 +244,7 @@ Criteria
 * Correcte relaties (reference,composite,inheritance).
 
 ---
-
+### Unit tests
 Portfolio item | Beschrijving
 --- | --- 
 Unit tests | Unit tests voor de driver
@@ -195,7 +256,7 @@ Criteria
 * Het is duidelijk gedocumenteerd hoe ze gebruikt moeten worden.
 
 ---
-
+### Source Code
 Portfolio item | Beschrijving
 --- | --- 
 Source Code | Een peer-review steekproef van de source code van de eigen taartpunt. Een peer-review steekproef van de source code van decbijdrage aan het gezamenlijke geheel.
@@ -213,7 +274,7 @@ Criteria
 * Geen duplicate code.
 
 ---
-
+### Requirements(-analyse)
 Portfolio item | Beschrijving
 --- | --- 
 Requirements(-analyse) | Een document/pagina onder versiebeheer waarbij de analyse van de requirements duidelijk is gemaakt inclusief uitkomsten uit klantgesprekken, een lijst van requirements, waaronder use case diagram(men), use case beschrijvingen, en activity diagram(men). 
@@ -226,7 +287,7 @@ Criteria
 * Student kan door middel van versiebeheer laten zien aan welke requirements is gewerkt.
 
 ---
-
+### Use Case diagram(men)
 Portfolio item | Beschrijving
 --- | --- 
 Use Case diagram(men)
@@ -240,7 +301,7 @@ Criteria
 * Usecases onderling correct relateren middels <`<include>`> en <`<extend>`> waar nodig (alleen afsplitsing bepaalt, niet volgordelijkheid).
 
 ---
-
+### Use Case beschrijvingen
 Portfolio item | Beschrijving
 --- | --- 
 Use Case beschrijvingen
@@ -252,7 +313,7 @@ Criteria
 * Voldoende specifiek. Niet "de actor", maar "de machinist".
 
 ---
-
+### Activity Diagrammen
 Portfolio item | Beschrijving
 --- | --- 
 Activity Diagrammen
@@ -265,7 +326,7 @@ Criteria
 * Bij decision nodes worden events of guards gebruikt, maar niet beide gemixt.
 
 ---
-
+### Video/foto van hardware
 Portfolio item | Beschrijving
 --- | --- 
 Video/foto van hardware | Een demonstratie, in video of foto's met tekst, van de werkende hardware.
@@ -276,7 +337,7 @@ Criteria
 * De video (eventueel met ingesproken commentaar) of foto's met tekst moet duidelijk maken hoe het product er uit ziet en wat het product kan.
 
 ---
-
+### Adviesrapport
 Portfolio item | Beschrijving
 --- | --- 
 Adviesrapport | Aan het eind van het project, een document waarin aanbevelingen staan voor verbeteringen van het product van de eigen taartpunt.
@@ -288,7 +349,7 @@ Criteria
 * De aanbevelingen betreffen op zijn minst performance, kwaliteit en toepasbaarheid.
 
 ---
-
+### Gesprekverslag met feedback
 Portfolio item | Beschrijving
 --- | --- 
 Gesprekverslag met feedback | Een verslag van een gesprek met een stakeholder inclusief een bevestiging van die stakeholder dat hetgeen in het verslag staat ook klopt.
@@ -300,7 +361,7 @@ Criteria
 * Voor alle relevante onderdelen van het project is de stakeholder om feedback gevraagd.
 
 ---
-
+### Journaal / Logboek
 Portfolio item | Beschrijving
 --- | --- 
 Journaal / Logboek | Een (levend) document waarin de student zijn actuele gedachten en bevindingen registreert en op een rijtje zet.
@@ -316,7 +377,7 @@ Criteria
 * Aan het eind van elke dag een korte retro: Wat ging top? Wat kan beter? Hoe?
 
 ---
-
+### Uitleg video
 Portfolio item | Beschrijving
 --- | --- 
 Uitleg video | Een  video waarmee de student helder een scenario van toepassing van zijn product demonstreert. Of een video waarmee de student een probleem (in de kweeekkas) illustreert.
@@ -326,6 +387,7 @@ Criteria
 
 * De uitleg is helder.
 
+### Demonstratie video
 Portfolio item | Beschrijving
 --- | --- 
 Demonstratie video | De student  laat een demonstratievideo zien waarin hij een docker container met <<`Mosquitto`><`PostgreSQL`><`NodeRED`><`Flask`>> op zijn systeem opstart, en succesvol toepast in een eigen testapplicatie.
@@ -337,7 +399,7 @@ Criteria
 * De testapplicatie werkt.
 
 ---
-
+### Oefenopgave Git gebruik
 Portfolio item | Beschrijving
 --- | --- 
 Oefenopgave Git gebruik | Een repository voor het oefenen met Git inclusief oefencommits en merges.
@@ -350,6 +412,7 @@ Criteria
 
 ---
 
+### Gebruik multimeter
 Portfolio item | Beschrijving
 --- | --- 
 Gebruik multimeter | De student toont zijn kennis aan door het verwijzen naar uitgevoerde metingen en resulten in zijn logboek. 
@@ -361,6 +424,7 @@ Criteria
 
 ---
 
+### Gebruik logic analyzer
 Portfolio item | Beschrijving
 --- | --- 
 Gebruik logic analyzer |  De student toont zijn kennis aan door het verwijzen naar het gebruik van de logic analyzer voor het testen en/of debuggen. 
@@ -368,10 +432,24 @@ Gebruik logic analyzer |  De student toont zijn kennis aan door het verwijzen na
 Criteria 
 --- 
 
-* Metingen zijn realistische en worden op de juiste manier geïnterpreteerd door de student.
+* Metingen zijn realistisch en worden op de juiste manier geïnterpreteerd door de student.
 
 ---
 
+### Gebruik van oscilloscope / picoscope
+Portfolio item | Beschrijving
+--- | --- 
+Gebruik van oscilloscope / picoscope |  De student toont zijn kennis aan door het verwijzen naar het gebruik van de Gebruik van oscilloscope / picoscope voor het testen en/of debuggen. 
+
+Criteria 
+--- 
+* Duidelijke screenshots of fotos van de metingen.
+* Duidelijke uitleg erbij van wat er gemeten is.
+* Metingen zijn realistisch en worden op de juiste manier geïnterpreteerd door de student.
+
+---
+
+### Datasheet lezen & interpreteren
 Portfolio item | Beschrijving
 --- | --- 
 Datasheet lezen & interpreteren | De student raadpleegt en past kennis toe uit verschillende datasheet en weet deze kennis op de juiste manier toe te passen in het project.
@@ -384,6 +462,7 @@ Criteria
 
 ---
 
+### Show & Tell
 Portfolio item | Beschrijving
 --- | --- 
 Show & Tell | Een 'presentatie' <<`2-minute-talk`>><`poster`><`infographic`>> over wat het team heeft gedaan de afgelopen sprint, en wat de student zijn persoonlijke bijdrage is geweest inclusief het werk dat die heeft gedaan om te leren.
@@ -397,6 +476,7 @@ Criteria
 
 ---
 
+### Modellen voor het gemeenschappelijke deel
 Portfolio item | Beschrijving
 --- | --- 
 Modellen voor het gemeenschappelijke deel | Modellen behorende bij het volledige project.
@@ -407,7 +487,7 @@ Criteria
 * In de modellen is aangeven (bijvoorbeeld middels omlijningen) welke bijdragen zijn geleverd aan de modellen van het gemeenschappelijke (use case diagram(men) en klassediagram(men)).
 
 ---
-
+### Retrospective/reflectie
 Portfolio item | Beschrijving
 --- | --- 
 Retrospective/reflectie | Een persoonlijke retrospective/reflectie op basis van de retro die is uitgevoerd door met het ontwikkelteam.
@@ -420,19 +500,20 @@ Criteria
 * Een beschrijving over de eigen verantwoordelijkheden en actiepunten voor de toekomst.
 
 ---
-
+### Oefenopdrachten Infrastructuur
 Portfolio item | Beschrijving
 --- | --- 
 Oefenopdrachten Infrastructuur | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
 
 ---
 
+### Oefenopdrachten Software
 Portfolio item | Beschrijving
 --- | --- 
 Oefenopdrachten Software | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
 
 ---
-
+### Oefenopdrachten Hardware Interfacing
 Portfolio item | Beschrijving
 --- | --- 
 Oefenopdrachten Hardware Interfacing | Je laat met oefenopdrachten die (wekelijks) worden aangereikt dat je de aangeboden stof begrijpt en eigen hebt gemaakt.
