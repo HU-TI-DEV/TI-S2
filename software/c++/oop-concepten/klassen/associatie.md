@@ -1,22 +1,13 @@
 # Associatie [](title-id)
 
 ### Inhoud[](toc-id)
-- [Compositie ](#compositie-)
+- [Associatie ](#associatie-)
     - [Inhoud](#inhoud)
     - [Relaties tussen klassen](#relaties-tussen-klassen)
-      - [Compositie](#compositie)
-      - [Compositie en UML](#compositie-en-uml)
-      - [Voorbeeld van compositie](#voorbeeld-van-compositie)
-      - [Constructor en initialisatielijst voor compositie](#constructor-en-initialisatielijst-voor-compositie)
-      - [Initialisatie van variabelen (in constructor)](#initialisatie-van-variabelen-in-constructor)
-    - [Schermobjecten](#schermobjecten)
-      - [Gebruik schermobject](#gebruik-schermobject)
-    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen)
-      - [References vs. pointers](#references-vs-pointers)
-    - [Relaties tussen klassen: associatie](#relaties-tussen-klassen-associatie)
-    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen-1)
-      - [Declaratie reference (\&)](#declaratie-reference-)
-      - [Verschil reference en pointer](#verschil-reference-en-pointer)
+      - [Associatie](#associatie)
+      - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
+    - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
+
 
 ### Relaties tussen klassen
 #### Associatie
