@@ -1,6 +1,23 @@
 # Compositie [](title-id)
 
 ### Inhoud[](toc-id)
+- [Compositie ](#compositie-)
+    - [Inhoud](#inhoud)
+    - [Relaties tussen klassen](#relaties-tussen-klassen)
+      - [Compositie](#compositie)
+      - [Compositie en UML](#compositie-en-uml)
+      - [Voorbeeld van compositie](#voorbeeld-van-compositie)
+      - [Constructor en initialisatielijst voor compositie](#constructor-en-initialisatielijst-voor-compositie)
+      - [Initialisatie van variabelen (in constructor)](#initialisatie-van-variabelen-in-constructor)
+    - [Schermobjecten](#schermobjecten)
+      - [Gebruik schermobject](#gebruik-schermobject)
+    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen)
+      - [References vs. pointers](#references-vs-pointers)
+    - [Relaties tussen klassen: associatie](#relaties-tussen-klassen-associatie)
+    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen-1)
+      - [Declaratie reference (\&)](#declaratie-reference-)
+      - [Verschil reference en pointer](#verschil-reference-en-pointer)
+
 ### Relaties tussen klassen
 
 #### Compositie
@@ -147,3 +164,19 @@ int main(int argc, char **argv){
 }
 ```
 *Codevoorbeeld 04-13 - Gebruik van een lijn die een expliciete window vereist*
+
+### Reference parameters en reference variabelen
+Hoe je het scherm ook doorgeeft aan de print functie, het is van belang dat het scherm object niet ‘by value’ wordt doorgegeven. Als je dat doet dan wordt er geprint op een kopie van het scherm, wat in veel gevallen niet het juiste resultaat zal leveren (het oorspronkelijke scherm object wordt dan niet veranderd). 
+
+*In C zouden we om het scherm-object zelf (dus niet een kopie) door te geven een pointer naar het scherm doorgeven (en in de tweede oplossing ook opslaan). In C++ kunnen we in zo’n geval een reference doorgeven (en desgewenst ook opslaan).*
+
+#### Declaratie reference (&)
+Een reference declareer je door een `&` voor de naam van de parameter of het object te plaatsen. Als je vervolgens die naam gebruikt in een expressie of om er een waarde aan toe te kennen, dan gebruik je automatisch het object waar de reference naar verwijst.
+
+#### Verschil reference en pointer
+Een reference lijkt op een pointer, maar een reference 
+- kun je niet naar een ander object laten wijzen, 
+- je kunt er niet mee rekenen, en 
+- je hoeft geen adres-van (&) en pointer-dereference (*) operatoren te gebruiken.
+
+Voor een reference moet je op het moment dat de reference wordt aangemaakt aangeven waarnaar hij refereert, en gedurende de lifetime van de reference blijft hij naar dat object refereren. **Er is geen mogelijkheid om een reference later naar een ander object te laten wijzen.**
