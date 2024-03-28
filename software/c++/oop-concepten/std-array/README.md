@@ -9,7 +9,7 @@
       - [std::array als parameter](#stdarray-als-parameter)
       - [Best practices std::array parameter](#best-practices-stdarray-parameter)
       - [Sentinel](#sentinel)
-        - [ASCII sntinel](#ascii-sntinel)
+        - [ASCII sentinel](#ascii-sentinel)
 
 ### std::array<>
 Een `std::array<>` bevat een aantal waarden van hetzelfde type. Anders dan bij een `std::vector<>` moet je aangeven wat het *aantal* is, en dit aantal kan gedurende de levensduur van het array niet veranderen. Dit is een flinke beperking, maar daar staat tegenover dat het alloceren en benaderen van een `std::array<>` sneller gaat dan een `std::vector<>`. 
@@ -108,7 +108,7 @@ int main(){
 #### Sentinel
 Soms is het mogelijk een speciale waarde te gebruiken om aan te geven dat een element (en de elementen die daarna komen) niet geldig zijn. Dit wordt vaak een **‘sentinel’** genoemd. 
 
-##### ASCII sntinel
+##### ASCII sentinel
 Voor ASCII characters is het ASCII nul character ( `\0` ) een veel gebruikte sentinel. Dit is zelfs in de taal ingebouwd: een string literal tussen dubbel-quotes is de reeks characters tussen de quotes, met een ASCII nul er achter. De string ”hello” neemt dus 6 bytes in beslag: de 5 letters plus de nul.
 
 ```c++

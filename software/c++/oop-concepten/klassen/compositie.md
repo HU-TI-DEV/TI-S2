@@ -32,7 +32,7 @@ Compositie (A bevat B, B is een deel van A) is de sterkste relatie (associatie) 
 Net als bij attributen geeft een + of – voor de naam van het deelobject aan of de compositie public (voor code buiten de klasse benaderbaar) of private (niet door vreemden benaderbaar) is.
 
 #### Voorbeeld van compositie
-![UML diagram van een rechthoek die vier lijnen bevat](uml_rechthoek.png)
+![UML diagram van een rechthoek die vier lijnen bevat](uml_rechthoek_vierlijnen.png)
 *UML diagram van een rechthoek die vier lijnen bevat*
 
 Zie het UML diagram hierboven:
