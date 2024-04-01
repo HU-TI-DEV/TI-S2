@@ -21,6 +21,6 @@ De komende dagen verzinnen en maken jullie zelf een oplossing met behulp van bov
 - Het opslaan van weergegevens uit een weer API in een database.
 - Meten van temperatuur in je kas en opslag in een database.
 - Het tonen van meetingen in de kas op een Flask webpagina.
-- Het publiceren van temperatuur en vochtigheid op een MQTT server. 
+- Het publiceren van temperatuur- en rv- (relatieve luchtvochtigheid) metingen op een MQTT server. 
 
 Aan het eind van de week presenteer je als team een zelf gekozen oplossing voor de klas (max. 5 min.).  
