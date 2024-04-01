@@ -23,4 +23,4 @@ De komende dagen verzinnen en maken jullie zelf een oplossing met behulp van bov
 - Het tonen van meetingen in de kas op een Flask webpagina.
 - Het publiceren van temperatuur en vochtigheid op een MQTT server. 
 
-Aan het eind van de week presenteer je als team een oplossing voor de klas (max. 10 min.).  
+Aan het eind van de week presenteer je als team een zelf gekozen oplossing voor de klas (max. 5 min.).  
