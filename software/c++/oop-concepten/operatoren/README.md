@@ -12,6 +12,10 @@
     - [Overloading (C++)](#overloading-c)
       - [Geen functie overloading in C](#geen-functie-overloading-in-c)
 
+Verder lezen:
+- [Constructor](./constructor.md)
+- [Meer operatoren](./meer-operatoren.md)
+
 
 ## Operatoren
 In codevoorbeeld 06-04 moeten we voor het optellen van twee locaties twee statements gebruiken, één voor de x en één voor de y. 
