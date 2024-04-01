@@ -159,9 +159,9 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C9   | ma  | **Tweede Paasdag** |     |     |
-| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Docker & MQTT (**HS**)     |
-| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | PostgreSQL & Node-Red (**HS**) |
-| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)     |
+| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./programma-infrastructuur.md) (**HS**)     |
+| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [PostgreSQL & Node-Red](./programma-infrastructuur.md) (**HS**) |
+| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./programma-infrastructuur.md) (**HS**)     |
 
 ### Onderwijsweek C10 (8-4-2024)
 
