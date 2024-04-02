@@ -161,13 +161,15 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | C9   | ma  | **Tweede Paasdag** |     |     |
 | C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./programma-infrastructuur.md) (**HS**)     |
 | C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [PostgreSQL & Node-Red](./programma-infrastructuur.md) (**HS**) |
-| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./programma-infrastructuur.md) (**HS**)     |
+| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./programma-infrastructuur.md) (**HS**) & korte presentatie (**teams**) |
 
 ### Onderwijsweek C10 (8-4-2024)
 
+Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cyclische variaties in een elektrische grootheid zichtbaar kan maken. Aan het eind van de week lever je ook weer een vernieuwde versie van het [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291942). Vergeet niet naar de [tips](../Verantwoordingsdocument_tips.md) voor het verantwoordingsdocument te kijken.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
+| C10  | ma  | Bedienevn via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
 | C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
 | C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     |      |
