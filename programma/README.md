@@ -215,8 +215,6 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 ### Onderwijsweek D5 (13-5-2024)
 
-Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
-
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D5   | ma  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**)    | 
@@ -225,6 +223,8 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
+
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
