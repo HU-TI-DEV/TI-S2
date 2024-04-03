@@ -1,0 +1,52 @@
+# I2C aansturing van de PCF8574
+
+Deze opdracht is de enige opdracht met fysieke hardware tijdens deze
+Corona-versie van DIT. Het is je “Hello World” oefening voor het werken
+met I2C. Bij IPass en ook vakken erna zal dat een essentiele ervaring
+zijn.
+
+<img src="./media/media/image1.png" width="200px" />
+<img src="./media/media/image2.png" width="550px" />
+
+De PCF8574 heeft een I2C interface waarmee je 8 I/0 pinnen kan uitlezen
+of aansturen. De 8 I/O pinnen van de chip zijn open-collector, met
+ingebouwde, zwakke pull-ups.
+
+1. Lees eerst de gehele opdracht voordat je aan de slag gaat.
+2. Gebruikt het internet: wat is een open-collector? Waarom is het handig?
+3. Zoek op internet naar de datasheet van de PCF8574.
+4. Sluit de PCF8574 chip aan:
+
+  - VSS aan ground   
+  - VDD aan 3.3V   
+  - De I2C-pinnen (SCL en SDA – of SCL1 en SDA1, afhankelijk van de I2c
+library) naar de Arduino   
+  - Verbindt die pinnen ook met <span class="mark">pull-up weerstanden</span> (van bijvoorbeeld 2.2kOhm) naar de voedingsspanning.
+  - A0-A2 aan de ground   
+  - INT gebruik je niet   
+
+5. Sluit LEDs (met weerstanden) aan op P0, P1, P2 en P3 (naar de VDD/power, dus actief laag).  
+6. Gebruik de hwlib I2C library om de chip aan te sturen.  
+Zoek in de chip datasheet op wat het I2C adres van de chip is. Let
+op: de PCF8574 en de PCF8574A zijn verschillend. Bedenk je of het genoemde
+adres in de datasheet **met of zonder het r/w bit** is. Bedenk je of Wire een adres met of zonder het r/w bit verwacht. Laat de LEDs in Kitt patroon (heen en weer) oplichten.  
+Debug en/of controleer de I2C signalen met behulp van je logic analyser.
+7. Sluit op P4 een drukknop aan naar de ground.  
+8. Lees via de Arduino de stand van de schakelaar uit een bestuur  
+daarmee een of meer LEDs.
+
+-   NB: Door middel van de open-collector kunnen de I/O-pinnen (P1 t/m
+    P7) zichzelf  
+    verbinden met de ground. De I/O-pinnen hebben intern zwakke
+    pull-ups. Zet ze dus in open-collector mode en schrijf er een “1”
+    heen om ze als input te configureren.
+
+# Wat lever je in?
+
+-   De c++ code die je hebt gebruikt om het kitt-patroontje op de leds
+    te laten zien.
+-   De c++ code die je hebt gebruikt om punt 7 en 8 hierboven uit te
+    voeren.
+
+Vergeet niet de code van commentaar te voorzien, zodat duidelijk is wat
+de bedoeling is.

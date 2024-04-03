@@ -207,7 +207,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D4   | ma  |     | Werken aan project     | Workshop Datasheet lezen, I2C, Sensorboard Logic Analyzer (**MV**)      |
+| D4   | ma  |     | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./programma-i2c-1.md) (**MV**)      |
 | D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
@@ -217,8 +217,8 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D5   | ma  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**)    | 
-| D5   | di  |     | Werken aan project | Practicum IO Expander I2C (**MV**) |
+| D5   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./programma-i2c-2-3.md) (**MV**)    | 
+| D5   | di  |     | Werken aan project | [Practicum IO Expander I2C afronden](./programma-i2c-2-3.md)(**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
