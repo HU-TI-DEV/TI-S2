@@ -462,6 +462,23 @@ Criteria
 
 ---
 
+### Driver schrijven voor een chip
+Portfolio item | Beschrijving
+--- | --- 
+Driver/library schrijven voor een chip | De student schrijft op basis van een datasheet van een chip een driver voor die chip, waardoor deze makkelijk vanuit software te gebruiken is.
+
+Criteria 
+--- 
+* De **chip** is uitgekozen met **instemming** van de docent.
+* Een sub-portfolio item van deze opdracht is het portfolio item **"Datasheet lezen & interpreteren"** (zie boven).
+* Een sub-portfolio item van deze opdracht is de **code van de driver** zelf. Criteria: zie portfolio item "code", bovenstaand. Verdere criteria:
+* De library is makkelijk te gebruiken.
+* Er wordt abstractie toegepast, zodat de chip later eventueel makkelijk door een andere kan worden vervangen zonder dat de afhankelijke applicatie hoeft te worden herschreven.   
+* Een sub-portfolio item van deze opdracht is **testcode** die alle mogelijkheden van de library demonstreert.
+* Een sub-portfolio item van deze opdracht is een **nuttige applicatie** die de library gebruikt (liefst geassocieerd met het kas-project). Criteria: zie portfolio item "code", bovenstaand.
+
+---
+
 ### Show & Tell
 Portfolio item | Beschrijving
 --- | --- 
