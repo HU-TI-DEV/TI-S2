@@ -146,11 +146,11 @@ Week C8. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C8   | ma  | UART communicatie & PWM | [Werken aan project](./programma-RaspberryPi.md) | [UART](./programma-uart.md) (**MV**)    |
-| C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**) |
-| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (TM) & HL15-3.038 (HS)| [PWM](programma-PWM.md) (**HP**) |
-| C8   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team: lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | [PWM](programma-PWM.md) (**HP**), compositie UML relatie (**GP**) |
-| C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4 |
+| C8   | ma  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**)    |
+| C8   | di  | UART communicatie & PWM | Werken aan project | [UART](./programma-uart.md) (**MV**), PWM (**HP**) |
+| C8   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team lokaal: HL15-3.076 (TM) & HL15-3.038 (HS)| PWM (**HP**) |
+| C8   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team: lokaal: HL15-3.076 (TM) & HL15-3.060 (HS) | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+| C8 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek C9 (1-4-2024)
 
@@ -159,15 +159,17 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | C9   | ma  | **Tweede Paasdag** |     |     |
-| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Docker & MQTT (**HS**)     |
-| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | PostgreSQL & Node-Red (**HS**) |
-| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Flask (**HS**)     |
+| C9   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./programma-infrastructuur.md) (**HS**)     |
+| C9   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [PostgreSQL & Node-Red](./programma-infrastructuur.md) (**HS**) |
+| C9   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./programma-infrastructuur.md) (**HS**) & korte presentatie (**teams**) |
 
 ### Onderwijsweek C10 (8-4-2024)
 
+Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cyclische variaties in een elektrische grootheid zichtbaar kan maken. Aan het eind van de week lever je ook weer een vernieuwde versie van het [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291942). Vergeet niet naar de [tips](../Verantwoordingsdocument_tips.md) voor het verantwoordingsdocument te kijken.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
+| C10  | ma  | Bedienevn via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
 | C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
 | C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     |      |
@@ -213,8 +215,6 @@ Week C9. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 
 ### Onderwijsweek D5 (13-5-2024)
 
-Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
-
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D5   | ma  |     | Werken aan project | Afronding workshop I2C, Start IO expander practicum (**MV**)    | 
@@ -223,6 +223,8 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
+
+Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |

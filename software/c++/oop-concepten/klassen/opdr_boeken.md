@@ -72,3 +72,5 @@ Maak een project aan met:
 waarin de main functie 
 - een book aanmaakt en deze print.
 
+Tip: let op het verschil tussen ostream en iostream.
+

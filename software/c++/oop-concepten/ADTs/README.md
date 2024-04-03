@@ -18,9 +18,9 @@ Behandelde onderwerpen
 - Public, of get/set
 
 In andere files vind je informatie over:
-- [Operatoren]()
-- [Overloading, meerdere constructors]()
-- [Default parameter waarden]()
+- [Operatoren en overloading](../operatoren/README.md)
+- [Overloading, meerdere constructors](../operatoren/constructor.md)
+- [Default parameterwaarden](../operatoren/constructor.md#default-parameter-waarden)
 - [Operatoren als methoden of als losse functies]()
 - [Lijst van operatoren en hun prioriteiten]()
 - [Vuistregels voor user-defined operatoren]()

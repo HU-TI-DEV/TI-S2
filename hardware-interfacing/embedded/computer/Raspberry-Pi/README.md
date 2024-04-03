@@ -37,3 +37,4 @@ Let er op dat pinnen op twee manieren zijn gelabeled: ze hebben zowel een nummer
 
 - Raspberry Pi (<https://en.wikipedia.org/wiki/Raspberry_Pi>)
 - GPIO pins (<https://projects.raspberrypi.org/en/projects/physical-computing/1>)
+- Installeren van [Raspberry Pi OS](../../../../infrastructuur/OS/Raspberry-Pi-OS)
