@@ -164,8 +164,7 @@ Zorg dat daar in staat:
 ```
 enable_uart=1
 ```
-
-Op basis van het eerdere zou ik zeggen:
+En ook (bijvoorbeeld pal eronder) op basis van het bovenstaande:
 ```  
 dtoverlay=uart0,txd0``_``pin=14,rxd0``_``pin=15  
 dtoverlay=uart1,txd1``_``pin=32,rxd1``_``pin=33  
