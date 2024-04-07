@@ -230,7 +230,7 @@ ttyAMA3 met uart4 (dus gpio 8 en 9)
 ttyAMA4 met uart5 (dus gpio 12 en 13)
 
 ### op Debian Bookwurm
-Op Debian Bookwurm lijken den nummers gelijk getrokken:
+Op Debian Bookwurm lijken de nummers gelijk getrokken:
 ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
 
 Ook het luisteren werkt:
