@@ -215,23 +215,23 @@ if __name__ == "__main__":
     send_data_to_serial(PORT_NAME)
 ```
 
+### op Debian Bullseye
+(als je Debian Bookwurm hebt, skip dan deze alinea)
 ttyAMA0 komt dus overeen met uart0 (gpio 14 en 15)
-
 Je kunt een logic analyser gebruiken om dit te testen. Dan ook proberen met ttyAMA1, 2, 3 en 4.
 
 Probleem: gpio pin 32 en 33 en evenmin 36 en 40 zijn niet aangeboden op de 40 pins connector van de Raspberry Pi 4.
-
 uart1 lijkt dus alleen bruikbaar als ze identiek is aan uart0.
-
 Wat blijkt verder:  
 ttyAMA1 blijkt overeen te komen met uart2 uit het bovenstaande, dus op gpio 0 en 1  
 Dat werkt.
-
 ttyAMA2 met uart3 (dus gpio 4 en 5)
 ttyAMA3 met uart4 (dus gpio 8 en 9)
 ttyAMA4 met uart5 (dus gpio 12 en 13)
 
-Hoera! We hebben dus precies 5 bruikbare UART poorten.
+### op Debian Bookwurm
+Op Debian Bookwurm lijken den nummers gelijk getrokken:
+ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
 
 Ook het luisteren werkt:
 ```python
