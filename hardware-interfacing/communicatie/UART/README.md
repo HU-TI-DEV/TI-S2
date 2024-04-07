@@ -216,7 +216,7 @@ if __name__ == "__main__":
 ```
 
 ### op Debian Bullseye
-(als je Debian Bookwurm hebt, skip dan deze alinea)
+(als je Debian Bookwurm hebt, skip dan deze alinea)    
 ttyAMA0 komt dus overeen met uart0 (gpio 14 en 15)
 Je kunt een logic analyser gebruiken om dit te testen. Dan ook proberen met ttyAMA1, 2, 3 en 4.
 
