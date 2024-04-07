@@ -147,8 +147,12 @@ Params: ctsrts                  Enable CTS/RTS on GPIOs 14-15 (default off)
 ```
 
 Die BCM2711 is een communicatiechip die Raspberry Pi 4 boardjes hebben.
+Voorbeeld:
+Bij uart2 staat: gpios 0-3. Dat impliceert:
+gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
+cts (clear to send) en rts (request to send) zijn twee signalen die je zou kunnen toevoegen om de uart comms betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen)
 
-Controleren:  
+Controleer de uart-gpio pin mapping voor je eigen boardje:  
 
 **cat /proc/cpuinfo**
 
@@ -202,7 +206,7 @@ def send_data_to_serial(port_name, baudrate=9600):
     try:
         while True:
             # Stuur de cijferreeks naar de seriële poort
-            ser.write(b'12345')
+            ser.write(b'12345\n')
     
             # Wacht een seconde
             time.sleep(1)
@@ -212,7 +216,7 @@ def send_data_to_serial(port_name, baudrate=9600):
         ser.close()
 
 if __name__ == "__main__":
-    PORT_NAME = '/dev/ttyAMA0'  # Aangepast voor de Raspberry Pi
+    PORT_NAME = '/dev/ttyAMA2'  # Aangepast voor de Raspberry Pi
     send_data_to_serial(PORT_NAME)
 ```
 
@@ -255,7 +259,7 @@ def listen_to_serial(port_name, baudrate=9600):
         ser.close()
 
 if __name__ == "__main__":
-    PORT_NAME = '/dev/ttyAMA0'  # Voor de Raspberry Pi
+    PORT_NAME = '/dev/ttyAMA2'  # Voor de Raspberry Pi
     listen_to_serial(PORT_NAME)
 ```
 
