@@ -188,6 +188,7 @@ Controleer na het opstarten of het gelukt is met:
 
 Als het goed is zijn er 5 uart poorten te zien (/dev/ttyAMA5 ontbreekt).
 
+## Zenden
 Met de volgende Python code kan je het testen:
 
 ```python
@@ -233,6 +234,7 @@ ttyAMA4 met uart5 (dus gpio 12 en 13)
 Op Debian Bookwurm lijken de nummers gelijk getrokken:
 ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
 
+## Ontvangen
 Ook het luisteren werkt:
 ```python
 import serial
