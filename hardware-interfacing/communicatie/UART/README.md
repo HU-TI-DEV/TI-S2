@@ -190,8 +190,6 @@ Controleer na het opstarten of het gelukt is met:
 
 **ls /dev/ttyAMA&#10033;**
 
-Als het goed is zijn er 5 uart poorten te zien (/dev/ttyAMA5 ontbreekt).
-
 ## Zenden
 Met de volgende Python code kan je het testen:
 
