@@ -160,9 +160,13 @@ Het kan zijn dat jouw Raspberry Pi 4 een andere versie te hebben: BM2835.
 
 backup de config file:
 
+### In Debian Bullseye:
 **sudo cp /boot/config.txt /boot/config.txt.backup**
-
 **sudo nano /boot/config.txt**
+
+### in Debian Bookwurm:
+**sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup**
+**sudo nano /boot/firmware/config.txt**
 
 Zorg dat daar in staat:  
 ```
@@ -189,6 +193,8 @@ Bewaar de veranderingen en reboot:
 Controleer na het opstarten of het gelukt is met:
 
 **ls /dev/ttyAMA&#10033;**
+
+Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
 
 ## Zenden
 Met de volgende Python code kan je het testen:
