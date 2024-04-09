@@ -222,7 +222,6 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D5   | di  |     | Werken aan project | [Practicum IO Expander I2C afronden](./programma-i2c-2-3.md)(**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
-| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
 
 ### Onderwijsweek D6 (20-5-2024)
 
@@ -234,7 +233,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
 | D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
-| D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
+| D6 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
 ### Onderwijsweek D7 (20-5-2024)
 
@@ -253,7 +252,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
-| D8   | vr |     | :end: Einde sprint 7 & planning afronden (sprint 8) |     |
+| D8   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
 
 ### Onderwijsweek D9 (10-6-2024)
 
