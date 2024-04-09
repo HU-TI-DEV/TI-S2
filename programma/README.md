@@ -182,7 +182,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
 | D1   | wo  |     | Werken aan project  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
 | D1   | do  |     | Werken aan project | Klassediagram (**GP**)     |
-| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
+
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -192,6 +192,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
 | D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D3 (29-4-2024)
 
