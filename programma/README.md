@@ -212,7 +212,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D4   | di  |     | Werken aan project    | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | Werken aan project    | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
-| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
+
 
 ### Onderwijsweek D5 (13-5-2024)
 
@@ -222,6 +222,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D5   | di  |     | Werken aan project | [Practicum IO Expander I2C afronden](./programma-i2c-2-3.md)(**MV**) |
 | D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
+| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
 
 ### Onderwijsweek D6 (20-5-2024)
 
