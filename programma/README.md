@@ -169,7 +169,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| C10  | ma  | Bedienevn via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
+| C10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./programma-oscilloscope-1.md) (**MV**) |
 | C10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./programma-oscilloscope-2.md) (**MV**)     |
 | C10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project | [Servo Controller 1 (meten)](./programma-servocontroller-1.md) (**MV**)   |
 | C10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project     |      |
