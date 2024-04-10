@@ -180,9 +180,9 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
-| D1   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
-| D1   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Klassediagram (**GP**)     |
-| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
+| D1   | wo  |     | Werken aan project  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
+| D1   | do  |     | Werken aan project | Klassediagram (**GP**)     |
+
 
 ### Onderwijsweek D2 (22-4-2024)
 
@@ -190,8 +190,9 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | --- | --- | --- | --- | --- |
 | D2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./programma-servocontroller-2.md) (**MV**) |
 | D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
-| D2   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
-| D2   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
+| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D3 (29-4-2024)
 
@@ -208,10 +209,10 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./programma-i2c-1.md) (**MV**)      |
-| D4   | di  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Finite state machine](./programma-fsm.md) (**MV**) |
-| D4   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D4   | di  |     | Werken aan project    | [Finite state machine](./programma-fsm.md) (**MV**) |
+| D4   | wo  |     | Werken aan project    | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
-| D4   | vr  |  | :end: Einde sprint 5 & :runner: Planning sprint 6 |     |
+
 
 ### Onderwijsweek D5 (13-5-2024)
 
@@ -232,7 +233,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
 | D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
-| D6 | vr | |  :end: Einde sprint 6 & :runner: Planning sprint 7 | | 
+| D6 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
 ### Onderwijsweek D7 (20-5-2024)
 
@@ -251,7 +252,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
 | D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
-| D8   | vr |     | :end: Einde sprint 7 & planning afronden (sprint 8) |     |
+| D8   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
 
 ### Onderwijsweek D9 (10-6-2024)
 

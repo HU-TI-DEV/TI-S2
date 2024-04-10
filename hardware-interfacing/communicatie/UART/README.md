@@ -147,8 +147,12 @@ Params: ctsrts                  Enable CTS/RTS on GPIOs 14-15 (default off)
 ```
 
 Die BCM2711 is een communicatiechip die Raspberry Pi 4 boardjes hebben.
+Voorbeeld:
+Bij uart2 staat: gpios 0-3. Dat impliceert:
+gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
+cts (clear to send) en rts (request to send) zijn twee signalen die je zou kunnen toevoegen om de uart comms betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen)
 
-Controleren:  
+Controleer de uart-gpio pin mapping voor je eigen boardje:  
 
 **cat /proc/cpuinfo**
 
@@ -156,16 +160,19 @@ Het kan zijn dat jouw Raspberry Pi 4 een andere versie te hebben: BM2835.
 
 backup de config file:
 
+### In Debian Bullseye:
 **sudo cp /boot/config.txt /boot/config.txt.backup**
-
 **sudo nano /boot/config.txt**
+
+### in Debian Bookwurm:
+**sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup**
+**sudo nano /boot/firmware/config.txt**
 
 Zorg dat daar in staat:  
 ```
 enable_uart=1
 ```
-
-Op basis van het eerdere zou ik zeggen:
+En ook (bijvoorbeeld pal eronder) op basis van het bovenstaande:
 ```  
 dtoverlay=uart0,txd0``_``pin=14,rxd0``_``pin=15  
 dtoverlay=uart1,txd1``_``pin=32,rxd1``_``pin=33  
@@ -187,8 +194,9 @@ Controleer na het opstarten of het gelukt is met:
 
 **ls /dev/ttyAMA&#10033;**
 
-Als het goed is zijn er 5 uart poorten te zien (/dev/ttyAMA5 ontbreekt).
+Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
 
+## Zenden
 Met de volgende Python code kan je het testen:
 
 ```python
@@ -202,7 +210,7 @@ def send_data_to_serial(port_name, baudrate=9600):
     try:
         while True:
             # Stuur de cijferreeks naar de seriële poort
-            ser.write(b'12345')
+            ser.write(b'12345\n')
     
             # Wacht een seconde
             time.sleep(1)
@@ -212,28 +220,29 @@ def send_data_to_serial(port_name, baudrate=9600):
         ser.close()
 
 if __name__ == "__main__":
-    PORT_NAME = '/dev/ttyAMA0'  # Aangepast voor de Raspberry Pi
+    PORT_NAME = '/dev/ttyAMA2'  # Aangepast voor de Raspberry Pi
     send_data_to_serial(PORT_NAME)
 ```
 
+### op Debian Bullseye
+(als je Debian Bookwurm hebt, skip dan deze alinea)    
 ttyAMA0 komt dus overeen met uart0 (gpio 14 en 15)
-
 Je kunt een logic analyser gebruiken om dit te testen. Dan ook proberen met ttyAMA1, 2, 3 en 4.
 
 Probleem: gpio pin 32 en 33 en evenmin 36 en 40 zijn niet aangeboden op de 40 pins connector van de Raspberry Pi 4.
-
 uart1 lijkt dus alleen bruikbaar als ze identiek is aan uart0.
-
 Wat blijkt verder:  
 ttyAMA1 blijkt overeen te komen met uart2 uit het bovenstaande, dus op gpio 0 en 1  
 Dat werkt.
-
 ttyAMA2 met uart3 (dus gpio 4 en 5)
 ttyAMA3 met uart4 (dus gpio 8 en 9)
 ttyAMA4 met uart5 (dus gpio 12 en 13)
 
-Hoera! We hebben dus precies 5 bruikbare UART poorten.
+### op Debian Bookwurm
+Op Debian Bookwurm lijken de nummers gelijk getrokken:
+ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
 
+## Ontvangen
 Ook het luisteren werkt:
 ```python
 import serial
@@ -254,7 +263,7 @@ def listen_to_serial(port_name, baudrate=9600):
         ser.close()
 
 if __name__ == "__main__":
-    PORT_NAME = '/dev/ttyAMA0'  # Voor de Raspberry Pi
+    PORT_NAME = '/dev/ttyAMA2'  # Voor de Raspberry Pi
     listen_to_serial(PORT_NAME)
 ```
 
