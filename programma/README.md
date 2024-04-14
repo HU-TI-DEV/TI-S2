@@ -176,6 +176,8 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 ### Onderwijsweek D1 (15-4-2024)
 
+Week D1. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren.  Bij deze manier van programmeren benadering wordt een systeem opgebouwd uit objecten. 
+
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
@@ -185,6 +187,8 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 
 ### Onderwijsweek D2 (22-4-2024)
+
+Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. Dit is de laatste week voor de vakantie en we ronden sprint 4 af van het project. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
