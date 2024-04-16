@@ -1,6 +1,19 @@
 # Doxygen [](title-id)
 
 ## Inhoud[](toc-id)
+- [Doxygen ](#doxygen-)
+  - [Inhoud](#inhoud)
+    - [Doxygen](#doxygen)
+    - [Werkwijze voor luie documenteurs](#werkwijze-voor-luie-documenteurs)
+    - [Werkwijze Doxygen](#werkwijze-doxygen)
+      - [Doxyfile](#doxyfile)
+      - [Runnen en uitvoer](#runnen-en-uitvoer)
+      - [Excuus-documentatie](#excuus-documentatie)
+      - [Tips](#tips)
+      - [Beschrijving per parameter](#beschrijving-per-parameter)
+    - [Meer mogelijkheden](#meer-mogelijkheden)
+    - [Installatie van Doxygen](#installatie-van-doxygen)
+
 
 ### Doxygen
 
@@ -72,4 +85,24 @@ public:
 #### Beschrijving per parameter
 Voor functies met veel parameters kun je ook een *beschrijving per parameter* geven.
 Doxygen geneert hieruit een overzicht van alle (in dit geval dus maar één) klassen. De <project name> staat in de Doxyfile, die kun je daar dus aanpassen.
-Voor iedere klasse genereert Doxygen een pagina met bovenaan de beschrijving van de klasse, en een overzicht van de dingen (attributen, methoden) in de klasse.
+
+![Voorbeeld van doxygen commentaar voor vector](doxygen_voorbeeld.png)
+Voor iedere klasse genereert Doxygen een pagina met bovenaan de beschrijving van de klasse, en een overzicht van attributen en methoden in de klasse.
+
+![Voorbeeld referenties binnen doxygen](vector_doxygen.png)
+Referenties kunnen linken naar de langere beschrijving die verderop in dezelfde pagina staan.
+
+![Voorbeeld operator informatie](operator_doxygen.png)
+
+### Meer mogelijkheden
+Bovenstaande tekst bevat het meest eenvoudige gebruik van Doxygen. 
+Er zijn veel meer mogelijkheden met Doxygen, bv.
+- formatteren van gegenereerde text,
+- genereren van documentatie in document (printbare) vorm,
+- documentatie per parameter,
+- invoegen van plaatjes,
+- invoegen van fragmenten uit andere files (handig voor code voorbeelden),
+- documentatie van informatie die niet bij een bepaald onderdeel hoort, bv. een algemene inleiding op de hoofdpagina.
+
+### Installatie van Doxygen
+[Doxygen installatie informatie](../../../inrichten-ontwikkelomgeving/doxygen.md)
