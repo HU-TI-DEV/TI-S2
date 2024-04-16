@@ -26,5 +26,5 @@ Gebruik een VSCode extensie (zoek binnen je VScode naar extensies). Bv: [bbenois
 - [Installeer de binaries van Doxygen](https://www.doxygen.nl/manual/install.html#install_bin_windows) (via de downloadknop)
 
 #### Meer informatie
-Zie bijvoorbeeld de informatie op Doxygen zelf: https://www.doxygen.nl/index.html#cplusplus.
-
+[Uitleg en gebruik Doxygen in c++ code](../c++/oop-concepten/doxygen/README.md)
+Informatie op de Doxygen site: https://www.doxygen.nl/index.html#cplusplus.
