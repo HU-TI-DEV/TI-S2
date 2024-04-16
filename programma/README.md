@@ -182,8 +182,8 @@ Week D1. Deze week bespreken we niet-functionele requirements een manier om kwal
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
-| D1   | wo  |     | Werken aan project  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
-| D1   | do  |     | Werken aan project | Klassediagram (**GP**)     |
+| D1   | wo  |     | Werken aan project  | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**)  |
+| D1   | do  |     | Werken aan project | Klassediagram en overerving (**GP**)     |
 
 
 ### Onderwijsweek D2 (22-4-2024)
