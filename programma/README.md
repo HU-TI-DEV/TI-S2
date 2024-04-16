@@ -183,7 +183,7 @@ Week D1. Deze week bespreken we niet-functionele requirements een manier om kwal
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
 | D1   | wo  |     | Werken aan project  | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**)  |
-| D1   | do  |     | Werken aan project | Klassediagram en overerving (**GP**)     |
+| D1   | do  |     | Werken aan project | [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
 
 
 ### Onderwijsweek D2 (22-4-2024)
@@ -194,7 +194,7 @@ Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | --- | --- | --- | --- | --- |
 | D2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./programma-servocontroller-2.md) (**MV**) |
 | D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
-| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Unit tests, C++ (**GP**,**HP**)     |
 | D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
