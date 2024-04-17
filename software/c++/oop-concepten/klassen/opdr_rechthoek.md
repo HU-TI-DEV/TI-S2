@@ -13,7 +13,7 @@
 - Installeer en bestudeer de [SFML graphics library](https://www.sfml-dev.org/).
 - Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de gcc mingw versie.
 
-- Gebruik de [code uit de tutorial(https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.
+- Gebruik de [code uit de tutorial](https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.
 
 ### Opdracht OO1.52 Rechthoek
 - Bestudeer de [SFML shapes library](https://www.sfml-dev.org/tutorials/2.6/graphics-shape.php).
