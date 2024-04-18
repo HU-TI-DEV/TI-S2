@@ -8,7 +8,8 @@ gevallen om daar de software voor te ontwerpen!
 
 A)  Trein besturen
 -   Maak een activity diagram voor de use case: Trein besturen.   
-    Samenvatting van die usecase: De machinist kan de trein in beweging
+    Samenvatting van die usecase:   
+    De machinist kan de trein in beweging
     brengen. Daarbij wordt gecheckt of zich niets voor de trein op het
     spoor bevindt, of het sein voor het betreffende spoordeel niet op
     rood staat en of de deuren al gesloten zijn. Uitzondering: tijdens

@@ -17,6 +17,7 @@
     - [Structs](#structs)
     - [Classes](#classes)
     - [Classes en operatoren](#classes-en-operatoren)
+    - [Const](#const)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -106,6 +107,9 @@ Dit bestand bevat links naar C++ opdrachten.
 ### Classes en operatoren
 - [Opdracht OO2.1 - Katten](../oop-concepten/operatoren/opdr_katten.md)
 - [Opdracht OO2.4 - ADT: vector](../oop-concepten/ADTs/opdr_adt_vector.md)
+
+### Const
+- [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
 
 
 ## Opdrachten Weekoverzicht
@@ -206,7 +210,7 @@ Je kunt de volgende opdrachten maken:
   <summary>Week C7</summary>
 Je kunt de volgende opdrachten maken:
 
-- Classes
+Classes
 
   - [Opdracht OO1.2 - Boeken](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo12-boeken)
   - [Opdracht OO1.3 - Boeken Main](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo13-boeken-main)
@@ -223,5 +227,15 @@ Je kunt de volgende opdrachten maken:
 - [Opdracht OO2.1 - Katten](../oop-concepten/operatoren/opdr_katten.md)
 - [Opdracht OO2.4 - ADT: vector](../oop-concepten/ADTs/opdr_adt_vector.md)
 
+</details>
 
+<details>
+<summary>Week C10</summary>
+Je kunt de volgende opdrachten over 
+
+[Const](../oop-concepten/const/README.md) maken:
+
+
+- [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
+- [Opdracht OO3.2 - Refs](../oop-concepten/const/opdr_refs.md)
 </details>

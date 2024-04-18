@@ -142,7 +142,7 @@ $(3)\  - \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \small \b
 
 Vermenigvuldig elk van de termen links met elk van de termen rechts en
 tel ze op.
-${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \small \bullet \normalsize 6 + 2 \small \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize 
+${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \small \bullet \normalsize 6 + 2 \small \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize \small \bullet \normalsize 7 
 }$   
 
 Je kunt dit eventueel nog verder vereenvoudigen door gelijknamig te maken en op te tellen:
