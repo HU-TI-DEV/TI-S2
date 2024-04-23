@@ -239,3 +239,13 @@ Je kunt de volgende opdrachten over
 - [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
 - [Opdracht OO3.2 - Refs](../oop-concepten/const/opdr_refs.md)
 </details>
+
+<details>
+<summary>Week D2</summary>
+Je kunt de volgende opdracht over 
+
+[Doxygen](../oop-concepten/doxygen/README.md) maken:
+
+- [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
+
+</details>
