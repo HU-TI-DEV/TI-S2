@@ -194,7 +194,7 @@ Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | --- | --- | --- | --- | --- |
 | D2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./programma-servocontroller-2.md) (**MV**) |
 | D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
-| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | Unit tests, C++ (**GP**,**HP**)     |
+| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**)     |
 | D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
