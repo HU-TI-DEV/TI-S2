@@ -216,7 +216,7 @@ Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | D4   | di  |     | Werken aan project    | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | Werken aan project    | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
-
+| D4   | vr  | Schrijven van je eigen library en applicatie |     | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/39897/assignments/303769) |
 
 ### Onderwijsweek D5 (13-5-2024)
 
