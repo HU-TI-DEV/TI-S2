@@ -18,6 +18,7 @@
     - [Classes](#classes)
     - [Classes en operatoren](#classes-en-operatoren)
     - [Const](#const)
+    - [Doxygen](#doxygen)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -111,6 +112,8 @@ Dit bestand bevat links naar C++ opdrachten.
 ### Const
 - [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
 
+### Doxygen
+- [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
 
 ## Opdrachten Weekoverzicht
 
