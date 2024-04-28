@@ -21,13 +21,13 @@ Lees de code en beantwoord de volgende vragen:
 #ifndef BOOK_HPP
 #define BOOK_HPP
 
-#include <ostream>
+#include <iostream>
 
 class book {
 private:
-  string text;
-  string author;
-  string title;
+  std::string text;
+  std::string author;
+  std::string title;
   void print_text();
   void print_author();
   void print_title();
@@ -45,7 +45,7 @@ public:
 *book.hpp*
 
 ```c++
-#include <ostream>
+#include <iostream>
 #include "book.hpp"
 
 void book::print() {
@@ -71,6 +71,4 @@ Maak een project aan met:
 
 waarin de main functie 
 - een book aanmaakt en deze print.
-
-Tip: let op het verschil tussen ostream en iostream.
 
