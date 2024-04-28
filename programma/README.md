@@ -176,22 +176,26 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 ### Onderwijsweek D1 (15-4-2024)
 
+Week D1. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren.  Bij deze manier van programmeren benadering wordt een systeem opgebouwd uit objecten. 
+
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./programma-niet-functionele-requirements.md) (**MV**)      |
 | D1   | di  |     | Werken aan project     | [Activity Diagrammen](./programma-activity-diagrammen.md) (**MV**)     |
-| D1   | wo  |     | Werken aan project  | Introductie Object Oriented Programming (OOP) C++ (**GP**,**HP**)  |
-| D1   | do  |     | Werken aan project | Klassediagram (**GP**)     |
+| D1   | wo  |     | Werken aan project  | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**)  |
+| D1   | do  |     | Werken aan project | [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
 
 
 ### Onderwijsweek D2 (22-4-2024)
+
+Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. Dit is de laatste week voor de vakantie en we ronden sprint 4 af van het project. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./programma-servocontroller-2.md) (**MV**) |
 | D2   | di  |     | Werken aan project | [Servo Controller 3 (simuleren)](./programma-servocontroller-3.md) (**MV**)     |
-| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
-| D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**)     |
+| D2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**)     |
 | D1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek D3 (29-4-2024)
@@ -212,7 +216,7 @@ Week C10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | D4   | di  |     | Werken aan project    | [Finite state machine](./programma-fsm.md) (**MV**) |
 | D4   | wo  |     | Werken aan project    | C++ (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
-
+| D4   | vr  | Schrijven van je eigen library en applicatie |     | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/39897/assignments/303769) |
 
 ### Onderwijsweek D5 (13-5-2024)
 
