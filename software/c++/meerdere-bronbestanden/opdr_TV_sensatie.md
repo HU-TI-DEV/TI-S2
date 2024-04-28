@@ -4,6 +4,7 @@
 - [Opdrachten Meerdere bronbestanden C++](#opdrachten-meerdere-bronbestanden-c)
     - [Inhoud](#inhoud)
     - [Opdracht 4.2 TV sensatie](#opdracht-42-tv-sensatie)
+      - [Tips voor VS code gebruikers](#tips-voor-vs-code-gebruikers)
 
 
 ### Opdracht 4.2 TV sensatie
@@ -17,6 +18,14 @@ score heeft met het grootste verschil met de winnaar.
 
 Schrijf een programma die deze berekeningen uitvoert. Een header-file en de main-file
 zijn al geschreven. Verander de source file `winners.cpp` zodat het programma werkt.
+
+#### Tips voor VS code gebruikers
+Check je `tasks.json` file:
+
+`"${workspaceFolder}/*cpp"` werkt niet als je meerdere mapjes aan hebt gemaakt in je workspace folder.
+
+`"${fileDirname}\*.cpp"` is een beter alternatief als al je .cpp en .hpp files in 1 map hebt staan.
+Met dank aan [@Aimane0](https://github.com/Aimane0).
 
 **winners.hpp**:
 ```c++
