@@ -268,3 +268,12 @@ Je kunt de volgende opdrachten over
 - [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
 
 </details>
+<details>
+<summary>Week D5</summary>
+Je kunt de volgende, uitdagende, opdracht over 
+
+[Compositie](../oop-concepten/klassen/compositie.md), [Overerving](../oop-concepten/overerving/README.md) en [Virtual en Abstract](../oop-concepten/overerving/virtual-abstract.md) maken:
+
+- [Opdracht OO3.6 - Kassysteem](../oop-concepten/overerving/opdr_kassysteem.md)
+
+</details>
