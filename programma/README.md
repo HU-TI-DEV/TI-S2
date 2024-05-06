@@ -25,7 +25,7 @@
     - [Onderwijsweek D4 (6-5-2024)](#onderwijsweek-d4-6-5-2024)
     - [Onderwijsweek D5 (13-5-2024)](#onderwijsweek-d5-13-5-2024)
     - [Onderwijsweek D6 (20-5-2024)](#onderwijsweek-d6-20-5-2024)
-    - [Onderwijsweek D7 (20-5-2024)](#onderwijsweek-d7-20-5-2024)
+    - [Onderwijsweek D7 (27-5-2024)](#onderwijsweek-d7-27-5-2024)
     - [Onderwijsweek D8 (3-6-2024)](#onderwijsweek-d8-3-6-2024)
     - [Onderwijsweek D9 (10-6-2024)](#onderwijsweek-d9-10-6-2024)
     - [Onderwijsweek D10 (17-6-2024)](#onderwijsweek-d10-17-6-2024)
@@ -216,7 +216,7 @@ Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschille
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./programma-i2c-1.md) (**MV**)      |
 | D4   | di  |     | Werken aan project    | [Finite state machine](./programma-fsm.md) (**MV**) |
-| D4   | wo  |     | Werken aan project    | C++ (**GP**,**HP**)     |
+| D4   | wo  |     | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**,**HP**)     |
 | D4   | do  | **Hemelvaartsdag** |     |     |
 | D4   | vr  | Schrijven van je eigen library en applicatie |     | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/39897/assignments/303769) |
 
@@ -228,7 +228,7 @@ Week D5. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 | --- | --- | --- | --- | --- |
 | D5   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./programma-i2c-2-3.md) (**MV**)    | 
 | D5   | di  |     | Werken aan project | [Practicum IO Expander I2C afronden](./programma-i2c-2-3.md)(**MV**) |
-| D5   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
+| D5   | wo  |     | Werken aan project | SDG's (**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
@@ -239,18 +239,18 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
 | D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
-| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ (**GP**,**HP**)     |
-| D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ (**GP**,**HP**)     |
+| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ decorator & adapter patterns (**GP**,**HP**)     |
+| D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ Units en waarden (**GP**,**HP**)     |
 | D6 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
-### Onderwijsweek D7 (20-5-2024)
+### Onderwijsweek D7 (27-5-2024)
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D7   | ma  |     | Werken aan project | [Talking Servos 2](./programma-talking-servos-2.md) (**MV**)    |
 | D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
-| D7   | wo  |     | Werken aan project | C++ (**GP**,**HP**)     |
-| D7   | do  |     | Werken aan project | C++ (**GP**,**HP**)     |
+| D7   | wo  |     | Werken aan project | C++ herhaling / verdieping (**GP**,**HP**)     |
+| D7   | do  |     | Werken aan project | C++ herhaling / verdieping (**GP**,**HP**)     |
 
 ### Onderwijsweek D8 (3-6-2024)
 
