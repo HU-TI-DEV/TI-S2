@@ -256,8 +256,8 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D8   | ma  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**   |
-| D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
+| D8   | ma  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsen (**HS**) |
+| D8   | di  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsen (**HS**) |
 | D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
 | D8   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
@@ -269,7 +269,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Eindpresentatie Kas Project TI Semester 2 Centrale hal HL15 |     |
 
 ### Onderwijsweek D10 (17-6-2024)
 
