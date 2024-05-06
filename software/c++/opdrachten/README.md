@@ -19,6 +19,7 @@
     - [Classes en operatoren](#classes-en-operatoren)
     - [Const](#const)
     - [Doxygen](#doxygen)
+    - [Compositie](#compositie)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -114,6 +115,9 @@ Dit bestand bevat links naar C++ opdrachten.
 
 ### Doxygen
 - [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
+
+### Compositie
+- [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
 
 ## Opdrachten Weekoverzicht
 
@@ -250,5 +254,26 @@ Je kunt de volgende opdracht over
 [Doxygen](../oop-concepten/doxygen/README.md) maken:
 
 - [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
+
+</details>
+
+<details>
+<summary>Week D4</summary>
+Je kunt de volgende opdrachten over 
+
+[Compositie](../oop-concepten/klassen/compositie.md) maken:
+
+- [Opdracht OO1.4 - Meubels](../oop-concepten/klassen/opdr_meubels.md)
+- [Opdracht OO1.5 - Gevulde rechthoek](../oop-concepten/klassen/opdr_rechthoek.md)
+- [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
+
+</details>
+<details>
+<summary>Week D5</summary>
+Je kunt de volgende, uitdagende, opdracht over 
+
+[Compositie](../oop-concepten/klassen/compositie.md), [Overerving](../oop-concepten/overerving/README.md) en [Virtual en Abstract](../oop-concepten/overerving/virtual-abstract.md) maken:
+
+- [Opdracht OO3.6 - Kassysteem](../oop-concepten/overerving/opdr_kassysteem.md)
 
 </details>

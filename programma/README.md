@@ -210,6 +210,8 @@ Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 
 ### Onderwijsweek D4 (6-5-2024)
 
+Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voor een sensor. Aan het eind van de week lever je een Plan van Aanpak in voor het schrijven van je eigen library voor een zelf geselecteerde sensor.
+
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D4   | ma  |     | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./programma-i2c-1.md) (**MV**)      |
@@ -219,6 +221,8 @@ Week D2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | D4   | vr  | Schrijven van je eigen library en applicatie |     | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/39897/assignments/303769) |
 
 ### Onderwijsweek D5 (13-5-2024)
+
+Week D5. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het 3e Peilmoment. Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
@@ -252,8 +256,8 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D8   | ma  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**   |
-| D8   | di  |     | Werken aan project     | Workshop printplaatontwerp (**MV**, **HS**) |
+| D8   | ma  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsen (**HS**) |
+| D8   | di  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsen (**HS**) |
 | D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
 | D8   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
@@ -265,7 +269,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     |     |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Eindpresentatie Kas Project TI Semester 2 Centrale hal HL15 |     |
 
 ### Onderwijsweek D10 (17-6-2024)
 

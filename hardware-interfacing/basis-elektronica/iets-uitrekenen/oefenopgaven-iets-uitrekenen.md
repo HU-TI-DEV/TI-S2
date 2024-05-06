@@ -99,7 +99,7 @@ ${- \frac{1}{2}  \cdot  - \left( \frac{- 4}{3}  + \frac{1}{- 2}  \right) = }$
 $- \left( \frac{- 4}{3} \normalsize{x} + \frac{1}{- 2}  \right) =$
 
 **Vraag d:**  
-$(*a*−3) (−2+*b*)=$
+$(a−3) (−2+b)=$
 
 **Vraag e:**  
 $(2c - 3)  (\frac{- 4}{3}   x + \frac{1}{- 2c} ) =$
