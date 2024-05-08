@@ -20,6 +20,7 @@
     - [Const](#const)
     - [Doxygen](#doxygen)
     - [Compositie](#compositie)
+    - [Unit tests \& Catch2](#unit-tests--catch2)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -112,6 +113,7 @@ Dit bestand bevat links naar C++ opdrachten.
 
 ### Const
 - [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
+- [Opdracht OO3.2 - Refs](../oop-concepten/const/opdr_refs.md)
 
 ### Doxygen
 - [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
@@ -119,6 +121,10 @@ Dit bestand bevat links naar C++ opdrachten.
 ### Compositie
 - [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
 
+### Unit tests & Catch2
+- [Opdracht OO2.4AB - Catch2](../oop-concepten/unit-tests/opdr_catch2.md)
+- [Opdracht OO2.4C - Rational](../oop-concepten/unit-tests/opdr_rational.md)
+  
 ## Opdrachten Weekoverzicht
 
 <details>
@@ -275,5 +281,14 @@ Je kunt de volgende, uitdagende, opdracht over
 [Compositie](../oop-concepten/klassen/compositie.md), [Overerving](../oop-concepten/overerving/README.md) en [Virtual en Abstract](../oop-concepten/overerving/virtual-abstract.md) maken:
 
 - [Opdracht OO3.6 - Kassysteem](../oop-concepten/overerving/opdr_kassysteem.md)
+
+</details>
+<details>
+<summary>Week D6</summary>
+Je kunt de volgende opdracht over [Unit tests](../oop-concepten/unit-tests/README.md) maken:
+
+- [Opdracht OO2.4AB - Catch2](../oop-concepten/unit-tests/opdr_catch2.md)
+- [Opdracht OO2.4C - Rational](../oop-concepten/unit-tests/opdr_rational.md)
+
 
 </details>
