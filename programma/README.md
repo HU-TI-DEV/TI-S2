@@ -269,33 +269,35 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Eindpresentatie Kas Project TI Semester 2 Centrale hal HL15 |     |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Eindpresentatie Kas Project TI Semester 2 Centrale hal HL15 | Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291944) bij de opdracht Eindbeslissing |
 
 ### Onderwijsweek D10 (17-6-2024)
 
-Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen. De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-| Week | Dag | Thema     | Project | Kennissessie |
-| --- | --- | --- | --- | --- |
-| D10  | ma  | **Eindbeoordeling** |     |     |
-| D10  | di  | **Eindbeoordeling** |     |     |
-| D10  | wo  | **Eindbeoordeling** |     |     |
-| D10  | do  | **Eindbeoordeling** |     |     |
+| Week | Dag | Thema     | 
+| --- | --- | --- | 
+| D10  | ma  | **Eindbeoordeling** |  
+| D10  | di  | **Eindbeoordeling** |    
+| D10  | wo  | **Eindbeoordeling** |    
+| D10  | do  | **Eindbeoordeling** |   
 
 ### Onderwijsweek D11 (24-6-2024)
 
-| Week | Dag | Thema     | Project | Kennissessie |
-| --- | --- | --- | --- | --- |
-| D11  | ma  | **Verbeterperiode** |     |     |
-| D11  | di  | **Verbeterperiode** |     |     |
-| D11  | wo  | **Verbeterperiode** |     |     |
-| D11  | do  | **Verbeterperiode** |     |     |
+Week D11 en D12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent (realistisch) plan worden gemaakt en voor je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
+| Week | Dag | Thema     | 
+| --- | --- | --- | 
+| D11  | ma  | **Verbeterperiode** | 
+| D11  | di  | **Verbeterperiode** |  
+| D11  | wo  | **Verbeterperiode** |  
+| D11  | do  | **Verbeterperiode** | 
 
 ### Onderwijsweek D12 (1-7-2024)
 
-| Week | Dag | Thema     | Project | Kennissessie |
-| --- | --- | --- | --- | --- |
-| D12  | ma  | **Verbeterperiode** |     |     |
-| D12  | di  | **Verbeterperiode** |     |     |
-| D12  | wo  | **Verbeterperiode** |     |     |
-| D12  | do  | **Verbeterperiode** |     |     |
+| Week | Dag | Thema     
+| --- | --- | --- |
+| D12  | ma  | **Verbeterperiode** |  
+| D12  | di  | **Verbeterperiode** |  
+| D12  | wo  | **Verbeterperiode** |   
+| D12  | do  | **Verbeterperiode** |  
