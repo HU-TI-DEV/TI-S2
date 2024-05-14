@@ -277,25 +277,25 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen e
 
 | Week | Dag | Thema     | Project | Kennissessie |
 | --- | --- | --- | --- | --- |
-| D10  | ma  | **Assessment en beoordeling** |     |     |
-| D10  | di  | **Assessment en beoordeling** |     |     |
-| D10  | wo  | **Assessment en beoordeling** |     |     |
-| D10  | do  | **Assessment en beoordeling** |     |     |
+| D10  | ma  | **Eindbeoordeling** |     |     |
+| D10  | di  | **Eindbeoordeling** |     |     |
+| D10  | wo  | **Eindbeoordeling** |     |     |
+| D10  | do  | **Eindbeoordeling** |     |     |
 
 ### Onderwijsweek D11 (24-6-2024)
 
 | Week | Dag | Thema     | Project | Kennissessie |
 | --- | --- | --- | --- | --- |
-| D11  | ma  | **Reparatie** |     |     |
-| D11  | di  | **Reparatie** |     |     |
-| D11  | wo  | **Reparatie** |     |     |
-| D11  | do  | **Reparatie** |     |     |
+| D11  | ma  | **Verbeterperiode** |     |     |
+| D11  | di  | **Verbeterperiode** |     |     |
+| D11  | wo  | **Verbeterperiode** |     |     |
+| D11  | do  | **Verbeterperiode** |     |     |
 
 ### Onderwijsweek D12 (1-7-2024)
 
 | Week | Dag | Thema     | Project | Kennissessie |
 | --- | --- | --- | --- | --- |
-| D12  | ma  | **Reparatie** |     |     |
-| D12  | di  | **Reparatie** |     |     |
-| D12  | wo  | **Reparatie** |     |     |
-| D12  | do  | **Reparatie** |     |     |
+| D12  | ma  | **Verbeterperiode** |     |     |
+| D12  | di  | **Verbeterperiode** |     |     |
+| D12  | wo  | **Verbeterperiode** |     |     |
+| D12  | do  | **Verbeterperiode** |     |     |
