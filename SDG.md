@@ -35,6 +35,7 @@ We vragen door het verwerken van een SDG in je project om over deze afwegingen g
 
 * Waarom SDG's in het onderwijs? (<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
 * Duurzameontwikkelingsdoelstellingen (<https://nl.wikipedia.org/wiki/Duurzameontwikkelingsdoelstellingen>)
-* Wereled statistieken (<https://www.worldometers.info/nl/>)
+* Wereld statistieken (<https://www.worldometers.info/nl/>)
 * Wereldvoedselprogramma (<https://www.wfp.org/>)
 * Verenigde Naties (<https://sdgs.un.org/>)
+* [SDGs presentatie](./slides/kennissessies/SDGs/SDG-les%20HBO%20-%20voor%20TI.pptx)
