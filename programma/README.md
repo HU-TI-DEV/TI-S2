@@ -228,7 +228,7 @@ Week D5. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 | --- | --- | --- | --- | --- |
 | D5   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./programma-i2c-2-3.md) (**MV**)    | 
 | D5   | di  |     | Werken aan project | [Practicum IO Expander I2C afronden](./programma-i2c-2-3.md)(**MV**) |
-| D5   | wo  |     | Werken aan project | SDG's (**GP**,**HP**)     |
+| D5   | wo  |     | Werken aan project | [SDG's (.md)](../SDG.md) en [SDGs (.pptx)](../slides/kennissessies/SDGs/SDG-les%20HBO%20-%20voor%20TI.pptx)(**GP**,**HP**)     |
 | D5   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**,**HP**)     |
 
 ### Onderwijsweek D6 (20-5-2024)
