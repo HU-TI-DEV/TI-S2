@@ -6,7 +6,6 @@
     - [Opdracht OO2.3 Catch2](#opdracht-oo23-catch2)
       - [Opdracht OO2.3A Installeer Catch2](#opdracht-oo23a-installeer-catch2)
       - [Opdracht OO2.3B Test Catch2](#opdracht-oo23b-test-catch2)
-      - [Opdracht OO2.3C Rational testen](#opdracht-oo23c-rational-testen)
 
 
 ### Opdracht OO2.3 Catch2
@@ -17,15 +16,8 @@
   - [Catch2 tutorial](https://github.com/catchorg/Catch2/blob/v2.x/docs/tutorial.md#top)
   
 #### Opdracht OO2.3B Test Catch2
-- Maak een folder voor deze opdracht met de volgende bestanden: (`xy.hpp`, `tests.cpp` en `main.cpp`); deze staan onderin dit bestand.
-
-#### Opdracht OO2.3C Rational testen
-- Gebruik de Catch2 test voor een library voor rationele getallen (breuken).
-
-- Als je deze test runt zie je dat er een aantal fouten zitten in de library. 
-- Verbeter de fouten. 
-  - Implementeer eerst een `operator<<` voor rationele getallen, die de beide getallen (teller en noemer) print in vier posities. 
-  - Dit doe je met hexadecimale getallen, voorloopnullen en `0x` ervoor.
+- Maak een folder aan voor deze opdracht met de volgende bestanden: (`xy.hpp`, `tests.cpp` en `main.cpp`); deze staan onderin dit bestand.
+- Met deze bestanden kun je testen of je Catch2 installatie werkt. Er zitten GEEN fouten in de library of de geschreven tests.
 
 ```cpp
 #ifndef XY_HPP
