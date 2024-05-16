@@ -269,7 +269,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan 
 | D9   | ma  |     | Werken aan project |     |
 | D9   | di  |     | Werken aan project |     |
 | D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Eindpresentatie Kas Project TI Semester 2 Centrale hal HL15 | Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291944) bij de opdracht Eindbeslissing |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Eindpresentatie Kas Project TI Semester 2](./programma-eindpresentatie.md) Centrale hal HL15 | Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291944) bij de opdracht Eindbeslissing |
 
 ### Onderwijsweek D10 (17-6-2024)
 
