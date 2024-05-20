@@ -21,6 +21,7 @@
     - [Doxygen](#doxygen)
     - [Compositie](#compositie)
     - [Unit tests \& Catch2](#unit-tests--catch2)
+    - [Decorator en adapter](#decorator-en-adapter)
   - [Opdrachten Weekoverzicht](#opdrachten-weekoverzicht)
 
 Dit bestand bevat links naar C++ opdrachten.
@@ -124,6 +125,11 @@ Dit bestand bevat links naar C++ opdrachten.
 ### Unit tests & Catch2
 - [Opdracht OO2.4AB - Catch2](../oop-concepten/unit-tests/opdr_catch2.md)
 - [Opdracht OO2.4C - Rational](../oop-concepten/unit-tests/opdr_rational.md)
+
+### Decorator en adapter
+- [Opdracht OO5.3 - AND Decorator](../patronen/decorator/opdr_decorator.md#opdracht-oo53--and-decorator)
+- [Opdracht OO5.4 - kitt()](../patronen/decorator/opdr_decorator.md#opdracht-oo54-links-rechts-knipperen-met-kitt)
+- [Opdracht OO5.4 - blink()](../patronen/decorator/opdr_decorator.md#opdracht-oo55-idem-met-blink)
   
 ## Opdrachten Weekoverzicht
 
@@ -289,6 +295,16 @@ Je kunt de volgende opdracht over [Unit tests](../oop-concepten/unit-tests/READM
 
 - [Opdracht OO2.4AB - Catch2](../oop-concepten/unit-tests/opdr_catch2.md)
 - [Opdracht OO2.4C - Rational](../oop-concepten/unit-tests/opdr_rational.md)
+
+
+</details>
+<details>
+<summary>Week D7</summary>
+Je kunt de volgende opdracht over [Decorator](../patronen/decorator/README.md) en [adapter](../patronen/adapter/README.md) patterns maken:
+
+- [Opdracht OO5.3 - AND Decorator](../patronen/decorator/opdr_decorator.md#opdracht-oo53--and-decorator)
+- [Opdracht OO5.4 - kitt()](../patronen/decorator/opdr_decorator.md#opdracht-oo54-links-rechts-knipperen-met-kitt)
+- [Opdracht OO5.4 - blink()](../patronen/decorator/opdr_decorator.md#opdracht-oo55-idem-met-blink)
 
 
 </details>
