@@ -12,6 +12,8 @@
   - [Terminologie](#terminologie)
     - [Decorator voorbeeld: inverter](#decorator-voorbeeld-inverter)
     - [Decorator voorbeeld: pin\_out\_all](#decorator-voorbeeld-pin_out_all)
+  - [Adapter pattern](#adapter-pattern)
+    - [Mirror decorator](#mirror-decorator)
 
 
 ## Design patterns
@@ -178,8 +180,12 @@ int main( void ){
   auto led3 = pin_out_invert( led3_pin );
 
   auto leds = pin_out_all( led0, led1, led2, led3 );
-  
+
   hwlib::blink( leds, 500 );
 }
 ```
 *Codevoorbeeld 17-03 - Blink 4 LEDs in twee clusters*
+
+## [Adapter pattern](../adapter/README.md)
+
+### [Mirror decorator](../adapter/README.md#decorator-voorbeeld-window)
