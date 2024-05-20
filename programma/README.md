@@ -233,13 +233,13 @@ Week D5. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 
 ### Onderwijsweek D6 (20-5-2024)
 
-Vul deze week de Evalytics vragenlijst in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D6   | ma  | **2e Pinksterdag** |     |     |
 | D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
-| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ decorator & adapter patterns (**GP**,**HP**)     |
+| D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**,**HP**)     |
 | D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ Units en waarden (**GP**,**HP**)     |
 | D6 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
