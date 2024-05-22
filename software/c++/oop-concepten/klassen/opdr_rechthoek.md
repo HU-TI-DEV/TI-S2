@@ -14,11 +14,15 @@
 
 Installeer SFML met de packetmanager (dankzij Lia E.):
 - Open een **MSYS2 MSYS terminal** (dus niet een CMD terminal!)
-- Voer de volgende twee commando's uit:
+- Voer het volgende commando uit:
 ```
 pacman -Syu
+```
+- Voer daarna het volgende commando uit:
+```
 pacman -S mingw-w64-ucrt-x86_64-sfml
 ```
+
 - Bij alles op Yes klikken.
 Zet de juiste tasks.json settings:
 Zie voorbeeld onder.
