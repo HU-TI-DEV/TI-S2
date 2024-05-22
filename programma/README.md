@@ -240,7 +240,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | D6   | ma  | **2e Pinksterdag** |     |     |
 | D6   | di  |     | Werken aan project     | [Talking Servos 1](./programma-talking-servos-1.md) (**MV**)   |
 | D6   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**,**HP**)     |
-| D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ Units en waarden (**GP**,**HP**)     |
+| D6   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**,**HP**)     |
 | D6 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
 ### Onderwijsweek D7 (27-5-2024)
