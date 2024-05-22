@@ -91,6 +91,7 @@ int main ()
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+		"-lsfml-graphics",
                 "-lsfml-system",
                 "-lsfml-window",
                 "-o",
