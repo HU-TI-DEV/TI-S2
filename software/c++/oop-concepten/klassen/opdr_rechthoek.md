@@ -10,15 +10,19 @@
 
 *Deze opdracht kan nog veranderen!*
 ### Opdracht OO1.51 SFML window
-- Installeer en bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Hiervoor zijn verschillende mogelijkheden:
+- Bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Voor het installeren zijn verschillende mogelijkheden maar onderstaande werkt op Windows, voor Visual Studio Code:
 
-Met packetmanager (dankzij Lia E.):
-- Open een MSYS2 MSYS terminal
-- Voer de volgende twee commando's uit:
+Installeer SFML met de packetmanager (dankzij Lia E.):
+- Open een **MSYS2 MSYS terminal** (dus niet een CMD terminal!)
+- Voer het volgende commando uit:
 ```
 pacman -Syu
+```
+- Voer daarna het volgende commando uit:
+```
 pacman -S mingw-w64-ucrt-x86_64-sfml
 ```
+
 - Bij alles op Yes klikken.
 Zet de juiste tasks.json settings:
 Zie voorbeeld onder.
@@ -91,6 +95,7 @@ int main ()
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+		"-lsfml-graphics",
                 "-lsfml-system",
                 "-lsfml-window",
                 "-o",
