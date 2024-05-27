@@ -248,7 +248,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | D7   | ma  |     | Werken aan project | [Talking Servos 2](./programma-talking-servos-2.md) (**MV**)    |
-| D7   | di  |     | Werken aan project | Workshop lasercutting / design for lasercutting (**TM**)    |
+| D7   | di  |     | Werken aan project | Workshop design voor 3D printing (**TM**)    |
 | D7   | wo  |     | Werken aan project | C++ herhaling / verdieping (**GP**,**HP**)     |
 | D7   | do  |     | Werken aan project | C++ herhaling / verdieping (**GP**,**HP**)     |
 
