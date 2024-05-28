@@ -45,7 +45,7 @@ Hieronder staat voorbeeldcode die misschien behulpzaam is.
 ```c++
 // incomplete code
 // exercise: draw a SFML rectangle
-#include "rectangle.hpp"
+#include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <iostream>
 
