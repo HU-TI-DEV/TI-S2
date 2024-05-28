@@ -26,7 +26,7 @@ Er zijn veel 3d modelleer programma’s die je kan gebruiken om objecten te make
 ## De basis van Fusion 360
 Als je Fusion opent krijg je eerst een leeg scherm te zien met een aantal knoppen.
 
-![picture1](../3D_modeleren/img/Picture1.png)
+![picture1](../3D_Modeleren/img/Picture1.png)
 
 Het is belangrijk om eerst op te slaan (rode kader). Hierdoor worden extra mogelijkheden geactiveerd en wordt je tijdlijn goed opgeslagen. In het groene kader zie je een kubus staan en daaraan kan je zien hoe je naar je tekening aan het kijken bent. Om een tekening te starten begin je altijd met een platte schets. Deze kan je oproepen door op het schets knopje te drukken (blauwe kader).
 Het scherm veranderd dan in een grid met een beeld van de X, Y en Z assen zoals die zijn weergegeven op de kubus:
