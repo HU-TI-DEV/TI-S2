@@ -1,4 +1,4 @@
-![logo](../Skills/img/Skills.png) [](logo-id)
+![logo](./img/Skills.png) [](logo-id)
 
 # Professional skills[](title-id)
 
@@ -28,16 +28,19 @@ Naast het ontwikkkelen van technische skills zijn professional skills minstens z
 De basis van de projectorgansiatie van S2 is agile werken. We gebruiken hiervoor met name onderdelen van de scrum methodiek. We verzamelen informatie over de manier van werken hier: [Scrum](../skills/Scrum/README.md).
 
 ## Feedback geven en ontvangen
+
 Voor het aantonen van de leeruitkomsten heb je naast het maken van werk feedback van anderen nodig en geef je ook zelf feedback. Ook als je later in het bedrijfsleven aan de slag gaat heb je deze skills hard nodig aangezien het de basis vormt voor zakkelijke communciatie. Je kan meer informatie over goed feedback geven hier vinden: [Feedback](../skills/Feedback/README.md). 
 
 ## reflecteren vs evalueren 
 
 Naast anderen van constructieve feedback te voorzien ga je ook veel feedback ontvangen. Dit kan van je medestudenten zijn, van de docenten en later eventueel externe opdrachtgevers. Deze feedback moet je gebruiken om te reflecteren op jezelf en op de voortgang van je studie en het project. In dit topic geven we inzichten in de basis van [reflecteren](../skills/Reflecteren_en_evalueren/README.md) en geven we handvatten hoe je dit kan verwerken tot een evaluatiedocument.  
 
-## Gesprekstechniek 
+## Gesprekstechniek
+
 Mondelinge communicatie is een belangrijk kenmerk van het agile werken. Het vormt een van de basis ingredienten van het manifest. In het topic [Gesprekstechniek](../skills/Gesprekstechniek/README.md) vind je informatie over hoe je in gesrpekken de juiste toon kan vinden. 
 
 ## Documenteren
+
 Je zou denken dat bij onderwijs het aantonen van de eigen kennis het belangrijkst is, maar het is minstens zo belangrijk om aan te kunnen tonen waar jouw kennis vandaan komt. Correcte bronvermelding is hierbij cruciaal. Uit welke data sheet komt jouw basis? Waarom maak je deze keuze? Dit zijn allemaal vragen die je eigenlijk alleen goed kan beantwoorden met de kennis van anderen. 
 
 
