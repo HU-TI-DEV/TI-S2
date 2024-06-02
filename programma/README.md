@@ -256,8 +256,8 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| D8   | ma  |     | Werken aan project     | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**) |
-| D8   | di  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsen (**HS**) |
+| D8   | ma  |     | Werken aan project     | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**)|, [C++ feedback] (https://canvas.hu.nl/calendar#view_name=month&view_start=2024-06-01) (**GP**)
+| D8   | di  |     | Werken aan project     | Extra hulp en ondersteuning bij het schrijven en onderbouwen van de Leeruitkomsten (**HS**) |
 | D8   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |  |
 | D8   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) |     |
 | D8   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
