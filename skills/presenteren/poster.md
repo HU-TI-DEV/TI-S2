@@ -1,10 +1,10 @@
 ![logo](./img/presenting.png) [](logo-id)
 
-# Presenteren[](title-id)
+# Posterpresentatie [](title-id)
 
 ### Inhoud[](toc-id)
 
-- [Presenteren](#presenteren)
+- [Posterpresentatie ](#posterpresentatie-)
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
   - [Ontwerp](#ontwerp)
