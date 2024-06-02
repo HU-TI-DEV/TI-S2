@@ -64,4 +64,6 @@ Wat in ieder geval op de poster niet mag ontbreken:
 
 ## Referenties
 
-[1] © 2002 | RUG, Faculteit der Letteren, project Communicatieve Vaardigheden. Geraadpleegd via: https://www.rug.nl/language-centre/communication-training/academic/hacv/handboek/mondeling/student/posterpresentatie
+[1] Rijksuniversiteit Groningen, Faculteit der Letteren, project Communicatieve Vaardigheden. Geraadpleegd via: [https://www.rug.nl/language-centre/communication-training/academic/hacv/handboek/mondeling/student/posterpresentatie](https://www.rug.nl/language-centre/communication-training/academic/hacv/handboek/mondeling/student/posterpresentatie)
+
+[2] JANSE, D. (2021). SCIENCE POSTER DESIGN GUIDE a practical guide for designing science posters and visuals. ELEVEN INTL PUBLISHING. [https://hu.on.worldcat.org/oclc/1257705011](https://hu.on.worldcat.org/oclc/1257705011)
