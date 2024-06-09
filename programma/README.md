@@ -264,12 +264,14 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 ### Onderwijsweek D9 (10-6-2024)
 
+Deze week presenteren jullie als team het kassen project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit donderdag gezamenlijk af met een openbare presentatie van de kassen in de hal van Heidelberglaan 15. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. 
+
 | Week | Dag | Thema     | Project     | Kennissessie |
 | --- | --- | --- | --- | --- |
-| D9   | ma  |     | Werken aan project |     |
-| D9   | di  |     | Werken aan project |     |
-| D9   | wo  |     | Werken aan project |     |
-| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Eindpresentatie Kas Project TI Semester 2](./programma-eindpresentatie.md) Centrale hal HL15 | Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291944) bij de opdracht Eindbeslissing |
+| D9   | ma  |     | Werken aan project | Library en applicatie feedback |
+| D9   | di  |     | Werken aan project | Library en applicatie feedback |
+| D9   | wo  |     | Werken aan project | Library en applicatie feedback |
+| D9   | do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Eindpresentatie Kas Project TI Semester 2](./programma-eindpresentatie.md) Centrale hal HL15 aanwezig om 8.00 uur. Opening om 8.30 uur. Koffie en 9.30| Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/39897/assignments/291944) bij de opdracht Eindbeslissing |
 
 ### Onderwijsweek D10 (17-6-2024)
 
