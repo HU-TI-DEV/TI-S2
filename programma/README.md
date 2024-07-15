@@ -88,6 +88,7 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | A2   | di  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md) |      |  Herhaling [C++ vector](../software/c++/data-types/vector/README.md), condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) |
 | A2   | wo  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md) | | [Rekenkundige expressies](../software/c++/expressies/README.md) (**GP**), C++ oefenen met vectoren (**GP**), Recursie (**GP**)     |
 | A2   | do  | [Digitale & analoge I/O](../hardware-interfacing/communicatie/analoog-en-digitaal/README.md) | :end: Einde sprint 1 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB, MV**)     |
+| A2   | vr  | Bedrijfsbezoek | 9.00 uur tot 13.00 uur | (**alle**)     |
 
 ### Onderwijsweek A3 (16-9-2024)
 
