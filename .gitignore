@@ -1,6 +1,7 @@
 .idea
 *.autosave
 _slidev\*.md
+_slidev
 **/tripleminus.py
 software/c++/oop-concepten/klassen/04-07-rectangle/line.cpp
 software/c++/oop-concepten/klassen/04-07-rectangle/line.hpp
