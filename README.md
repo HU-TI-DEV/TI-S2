@@ -34,7 +34,7 @@ Het ontwikkelteam stemt met elkaar en een opdrachtgever af wat de wenselijke fun
 
 ## Context
 
-In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een slimme (kweek)kas. In de glastuinbouw wordt vollop geautomatiseerd, van het meten van temperatuur tot aan het planten van 1000 zaailingen per uur met een verplantingsmachine. Wij beperken ons tot het meten met sensoren en het gebruik van actuatoren om een optimaal klimaat te behouden voor de planten. De kweekkas maak je in dit semester 'connected' waardoor je ook online kunt rapporteren, aansturen en bijsturen.  
+In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een meetstation. In de aankomende jaren zullen er verschillende verandering komen op het Utrecht Science Park. Nieuwe gebouwen worden gebouwd en indelingen van natuur en infrastuctuur zullen waarschijnlijk ver-anderen. Dit zorgt voor de nodige overlast en veranderingen van het klimaat op het Science Park. Denk bijvoorbeeld aan de impact op windrichting of geluid. Veranderingen die impact hebben op de natuur en mensen die zich op of rondom het Science Park bevinden. Daarnaast kan door deze veranderingen ook een extra stofbelasting in de luchtkwaliteit mogelijk zijn. Om te monitoren of en in hoe verre deze aspec-ten aan verandering onderhevig zijn, wordt een meetstation ontworpen die verschillende elementen en waardes meet.  
 
 ## Sustainable Development Goals
 
@@ -62,7 +62,8 @@ In semester 2 van de richting Technische Informatica zijn de volgende leeruitkom
 
 ## Referenties
 
-* [Waarom SDG's in het onderwijs? \[Link\]](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
+* [Waarom SDG's in het onderwijs?](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
+* [Het lectoraat Smart Systems for Healthy Living](<https://www.hu.nl/onderzoek/smart-systems-for-healthy-living>)
 
 ## Licentie informatie
 
