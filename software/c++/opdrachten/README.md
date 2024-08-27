@@ -42,8 +42,9 @@ Dit bestand bevat links naar C++ opdrachten.
 
 ### Condities
 
-- [Opdrachten condities](../condities/while/opdr_while_lezen.md)
+- [Opdracht while](../condities/while/opdr_while_lezen.md)
   - 1.4 while-loop, code lezen
+- [Opdrachten condities](../condities/opdr_condities.md)
 - [Opdrachten for](../condities/for/opdr_piramide.md)
   - 1.12 piramide met opvulling
 
