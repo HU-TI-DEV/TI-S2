@@ -109,8 +109,8 @@ Week A4. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB, MV**), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**)        |
 | A4   | di  | Elektrisch netwerk | Werken aan project     | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) |
-| A4   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**)  |
+| A4   | wo  | Elektrisch netwerk & Solderen | | Bezoek WoTS 2024, [registreer](https://fhi.nl/wots/gadget/) je vooraf |
+| A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | A4   | vr  | Solderen | :end: Einde sprint 2 & :runner: planning sprint 3 | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 
 ### Onderwijsweek A5 (30-9-2024)
@@ -144,7 +144,7 @@ Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- | --- | --- |
 | A7   | ma  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
 | A7   | di  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
-| A7   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [UART](./lesprogramma/programma-uart.md) (**BB, MV**) |
+| A7   | wo  | UART communicatie & PWM | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**BB, MV**) |
 | A7   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | A7 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
@@ -200,7 +200,7 @@ Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | --- | --- | --- | --- | --- |
 | B2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**) |
 | B2   | di  |     | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**) |
-| B2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
+| B2   | wo  |     |  Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
 | B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**)     |
 | B1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
@@ -235,7 +235,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | --- | --- | --- | --- | --- |
 | B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**)   |
 | B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) |
-| B5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
+| B5   | wo  | |  Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
 | B5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)     |
 | B5 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
