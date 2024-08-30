@@ -6,12 +6,12 @@
 
 ### Inhoud[](toc-id)
 
-- [LDR-NTC: analoog naar digitaal met passieve sensoren](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren)
-  - [Inhoud](#inhoud)
-  - [Basis principe](#basis-principe)
-  - [LDR](#ldr)
-  - [NTC](#ntc)
-  - [De schakeling](#de-schakeling)
+- [LDR-NTC: analoog naar digitaal met passieve sensoren ](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren-)
+    - [Inhoud](#inhoud)
+    - [Basis principe](#basis-principe)
+    - [LDR](#ldr)
+    - [NTC](#ntc)
+    - [De schakeling](#de-schakeling)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
 
@@ -57,7 +57,7 @@ We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebru
 
 De voorbeeld code meet alleen een spanning en geeft deze via het serial interface uit.
 
-> Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bv als je een Arduino Nano gebruikt.
+> Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bijvoorbeeld als je een Arduino Nano gebruikt.
 
 ```arduino
 // LDR-NTC.ino - Analog Input example - 2024-02-04-hp

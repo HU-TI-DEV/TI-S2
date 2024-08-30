@@ -58,7 +58,7 @@ De GYML8511 heeft 5 pins, de pin VIN is voor een interne 'linear regulator' om h
 | GYML8511 Pin | Omschrijving | Arduino Pin |
 | --- | ---          | --- |
 | VIN | Spanning invoer naar interne regulator (bv 5V) | +5V |
-| 3V3 | Spanning outvoer naar regulator of invoer 3.3V  | A1  |
+| 3V3 | Spanning uitvoer naar regulator of invoer 3.3V  | A1  |
 | GND | Ground (Massa), 0V                            | GND |
 | OUT | Output, spanning afhankelijk van UV licht     | A0  |
 | EN  | Enable, deze pin schakelt de sensor aan/uit   | 3V3 |
