@@ -34,7 +34,7 @@
 
 ---
 
-**v0.1.1 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
+**v0.1.2 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
 
 ---
 
@@ -73,7 +73,7 @@ Week A1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Project introductie. De klimaatmonitor. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Semester lunch van 12.00 tot 13.00 uur in lokaal HL15-1.96, Teamvorming van 13.00 uur tot 14.00 uur in lokaal HL15-5.070  (**TM**, **HS**)     |
+| A1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Project introductie. De klimaatmonitor. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Semester lunch van 12.00 tot 13.00 uur in lokaal HL15-3.072, Teamvorming van 13.00 uur tot 14.00 uur in lokaal HL15-5.070  (**TM**, **HS**)     |
 | A1   | di  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Scrum en projectplanning     | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
 | A1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project     | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
 | A1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren.     | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)     |
