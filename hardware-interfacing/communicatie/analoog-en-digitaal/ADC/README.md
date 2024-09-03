@@ -39,7 +39,8 @@ In bovenstaand figuur zien we resolutie en de vertaling van een ADC met drie bit
 
 De module GYML8511 heeft een ingebouwde ultraviolet (UV) licht sensor. Het bereik van de sensor valt tussen de 280 en 390nm (golflengte voor het UVA en UVB spectrum). UV straling is schadelijk voor het menselijk lichaam. Beste resultaten met de UV sensor krijg je buiten met daglicht. De analoge output correspondeert lineair met de UV intensiteit (nW/cm<sup>2</sup>).
 
-    UVB licht kan een positief effect hebben op de groei van planten. Daarnaast wordt UV licht ook gebruikt in laboratoria en ziekenhuizen om te ontsmetten. 
+> UVB licht kan een positief effect hebben op de groei van planten.
+> Daarnaast wordt UV licht ook gebruikt in laboratoria en ziekenhuizen om te ontsmetten. 
 
 ## De schakeling
 
