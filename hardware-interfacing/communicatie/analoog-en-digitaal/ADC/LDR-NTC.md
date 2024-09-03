@@ -104,6 +104,7 @@ LDR Datasheets
 
 - [NTE Electronics, Inc. - LDR Photoresistors Datasheet](https://www.nteinc.com/resistor_web/pdf/LDR-Series.pdf)
 - [Alldatasheet.com GL5528 (GL55 series)](https://www.alldatasheet.com/datasheet-pdf/pdf/1131893/ETC2/GL5528.html)
+- [TME overzicht LDRs van NTE](https://www.tme.eu/en/news/about-product/page/54933/ldr-series-of-photoresistors-from-nte/)
 
 NTC Datasheets
 
