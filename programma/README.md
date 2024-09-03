@@ -34,7 +34,7 @@
 
 ---
 
-**v0.1.1 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
+**v0.1.2 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
 
 ---
 
@@ -73,7 +73,7 @@ Week A1. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Project introductie. De klimaatmonitor. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Semester lunch van 12.00 tot 13.00 uur in lokaal HL15-1.96, Teamvorming van 13.00 uur tot 14.00 uur in lokaal HL15-5.070  (**TM**, **HS**)     |
+| A1   | ma  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Project introductie. De klimaatmonitor. Curriculum toelichting semester 2 TI. Wat gaan we doen? Indelen van de groepen. | Semester lunch van 12.00 tot 13.00 uur in lokaal HL15-3.072, Teamvorming van 13.00 uur tot 14.30 uur in lokaal HL15-4.016  (**TM**, **HS**)     |
 | A1   | di  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/README.md) & werken met [Git](../software/git/README.md).     | Scrum en projectplanning     | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
 | A1   | wo  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Werken aan project     | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
 | A1   | do  | Project Kick-off. Inrichten van een [ontwikkelomgeving](../software/inrichten-ontwikkelomgeving/visualstudiocode.md) & werken met [Git](../software/git/README.md). | Team contract inleveren.     | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**)     |
@@ -109,8 +109,8 @@ Week A4. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- | --- | --- |
 | A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB, MV**), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**)        |
 | A4   | di  | Elektrisch netwerk | Werken aan project     | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) |
-| A4   | wo  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
-| A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**)  |
+| A4   | wo  | Elektrisch netwerk & Solderen | | Bezoek WoTS 2024, [registreer](https://fhi.nl/wots/gadget/) je vooraf |
+| A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
 | A4   | vr  | Solderen | :end: Einde sprint 2 & :runner: planning sprint 3 | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 
 ### Onderwijsweek A5 (30-9-2024)
@@ -144,7 +144,7 @@ Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- | --- | --- |
 | A7   | ma  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
 | A7   | di  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
-| A7   | wo  | UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [UART](./lesprogramma/programma-uart.md) (**BB, MV**) |
+| A7   | wo  | UART communicatie & PWM | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**BB, MV**) |
 | A7   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | A7 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
@@ -200,7 +200,7 @@ Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 | --- | --- | --- | --- | --- |
 | B2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**) |
 | B2   | di  |     | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**) |
-| B2   | wo  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
+| B2   | wo  |     |  Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
 | B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**)     |
 | B1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
@@ -222,8 +222,8 @@ Week B4. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**)    | 
-| B4   | di  |     | Werken aan project | [SDG's (.md)](../SDG.md) en [SDGs slides]() (**GP**)  |
+| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expandser practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**)    | 
+| B4   | di  |     | Werken aan project | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**GP**)  |
 | B4   | wo  |     | Werken aan project |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) |
 | B4   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**)     |
 
@@ -235,7 +235,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | --- | --- | --- | --- | --- |
 | B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**)   |
 | B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) |
-| B5   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)     | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
+| B5   | wo  | |  Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
 | B5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)     |
 | B5 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
 
