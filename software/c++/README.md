@@ -11,7 +11,7 @@
     - [C++ en Technische Informatica](#c-en-technische-informatica)
   - [Ontwikkelomgeving en tools](#ontwikkelomgeving-en-tools)
     - [Ontwikkelomgeving](#ontwikkelomgeving)
-    - [IDE (CodeLite)](#ide-codelite)
+    - [IDE (CodeLite of VScode)](#ide-codelite-of-vscode)
   - [Leren programmeren](#leren-programmeren)
     - [Oefenen, fouten maken en doorzetten](#oefenen-fouten-maken-en-doorzetten)
     - [Vereiste basiskennis](#vereiste-basiskennis)
@@ -21,7 +21,7 @@
     - [Oorsprong C++](#oorsprong-c)
     - [De naam C++](#de-naam-c)
     - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
-  - [C++ onderwerpen (nog niet volledig)](#c-onderwerpen-nog-niet-volledig)
+  - [C++ onderwerpen](#c-onderwerpen)
   - [Referenties](#referenties)
 ---
 
@@ -51,8 +51,8 @@ C++ is een taal die snel is en dicht bij de hardware staat. Dat zijn eigenschapp
 Bij TI willen we software vaak 'draaien' op een microcomputer (bv Raspberry Pi) of microcontroller (bv Arduino, ESP32). 
 In het begin schrijven we code op een Personal Computer (PC); bijvoorbeeld een laptop of desktop.
 
-### IDE (CodeLite)
-Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* voor C++ code (en PyCharm voor Python code.)
+### IDE (CodeLite of VScode)
+Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* of [Visual Studio code](../inrichten-ontwikkelomgeving/visualstudiocode.md) voor C++ code (en PyCharm voor Python code.)
 
 ## Leren programmeren
 ### Oefenen, fouten maken en doorzetten
@@ -62,7 +62,7 @@ Goed programmeren vraagt veel oefening. Je kunt geen goed programmeur worden zon
 Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat je al basiskennis hebt van programmeren (door het volgen van de eerstejaars programmeercursus in Python).
 
 ### Lesmateriaal op internet
-Er is onnoemelijk veel les- en cursusmateriaal op internet te vinden. Kijk bijvoorbeeld eens naar de['get started recommendations' van isocpp](https://isocpp.org/get-started).
+Er is onnoemelijk veel les- en cursusmateriaal op internet te vinden. Kijk bijvoorbeeld eens naar de ['get started recommendations' van isocpp](https://isocpp.org/get-started).
 
 ## Code
 ### Formules en algoritmes
@@ -80,7 +80,7 @@ De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.
 ### Gebruikte versie (C++14)
 Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
 
-## C++ onderwerpen (nog niet volledig)
+## C++ onderwerpen
 * [basisconcepten/](../c++/basisconcepten/README.md)
 * [bits/](../c++/bits/README.md)
 * [condities/](../c++/condities/README.md)
@@ -101,12 +101,19 @@ Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aan
 * [expressies/](../c++/expressies/README.md)
 * [files-input/](../c++/files-input/README.md)
 * [functies/](../c++/functies/README.md)
+    * [basis](../c++/functies/basis/README.md)
+    * [constant](../c++/functies/constant/README.md)
+    * [functienamen](../c++/functies/functienamen/README.md)
+    * [references](../c++/functies/references/README.md)
 * [geschiedenis/](../c++/geschiedenis/README.md)
 * [inlezen-gegevens](../c++/inlezen-gegevens/README.md)
 * [meerdere-bronbestanden](../c++/meerdere-bronbestanden/README.md)
+* [oop-concepten/](../c++/oop-concepten/README.md)
+  
+  ADTs, const, doxygen, header-sourcefiles, klassen, macros, objecten en waarden, operatoren, overerving, std-array, structs, unit-tests, units en waarden
 * [patronen/](../c++/patronen/README.md)
 * [programmastroom/](../c++/programmastroom/README.md)
-...
+
 
 
 ## Referenties
