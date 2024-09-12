@@ -18,8 +18,9 @@ VScode informatie vind je op: https://code.visualstudio.com/docs#vscode
 MinGW is een GCC compiler voor Windows. Je kunt MinGW installeren via de link op: http://tdm-gcc.tdragon.net/download. Neem de 32 bits versie.
 
 ### VScode, C++ en Arduino Uno
-Om C++ code te schrijven voor je Arduino Uno met behulp van VScode, heb je de volgende extensies nodig:
-- “vscode-arduino”
+Om C++ code te schrijven voor je Arduino Uno met behulp van VScode, heb je een van de volgende extensies nodig:
+- [vscode-arduino (deprec. since 2024)](https://github.com/microsoft/vscode-arduino/blob/main/README.md)
+- [Arduino community edition](https://marketplace.visualstudio.com/items?itemName=vscode-arduino.vscode-arduino-community)
 
 ### VScode C++ voor Arduino Uno installeren
 To successfully complete this tutorial, you must do the following steps:

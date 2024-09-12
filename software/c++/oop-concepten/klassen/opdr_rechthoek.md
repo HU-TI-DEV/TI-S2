@@ -10,15 +10,19 @@
 
 *Deze opdracht kan nog veranderen!*
 ### Opdracht OO1.51 SFML window
-- Installeer en bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Hiervoor zijn verschillende mogelijkheden:
+- Bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Voor het installeren zijn verschillende mogelijkheden maar onderstaande werkt op Windows, voor Visual Studio Code:
 
-Met packetmanager (dankzij Lia E.):
-- Open een MSYS2 MSYS terminal
-- Voer de volgende twee commando's uit:
+Installeer SFML met de packetmanager (dankzij Lia E.):
+- Open een **MSYS2 MSYS terminal** (dus niet een CMD terminal!)
+- Voer het volgende commando uit:
 ```
 pacman -Syu
+```
+- Voer daarna het volgende commando uit:
+```
 pacman -S mingw-w64-ucrt-x86_64-sfml
 ```
+
 - Bij alles op Yes klikken.
 Zet de juiste tasks.json settings:
 Zie voorbeeld onder.
@@ -41,7 +45,7 @@ Hieronder staat voorbeeldcode die misschien behulpzaam is.
 ```c++
 // incomplete code
 // exercise: draw a SFML rectangle
-#include "rectangle.hpp"
+#include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <iostream>
 
@@ -85,19 +89,22 @@ int main ()
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc.exe build active file",
+            "label": "C/C++: SFML g++.exe build AND RUN active file",
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${fileDirname}\\*.cpp",
+		"-lsfml-graphics",
+        "-lsfml-window",
                 "-lsfml-system",
-                "-lsfml-window",
                 "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "&&",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "C:\\msys64\\ucrt64\\bin"
             },
             "problemMatcher": [
                 "$gcc"
@@ -112,4 +119,7 @@ int main ()
     "version": "2.0.0"
 }
 ```
-*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)Bron: Lia Engelchor*
+*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)Bron: Lia Engelchor en Tobias Bosch*
+
+![Uitleg van Tobias](uitleg_toob01.png)
+*Toelichting door Tobias: als het goed is kun je met bovenstaande tasks.json simpelweg de build task runnen via Terminal -> Run Build Task of de shortcut Ctrl + Shift + B gebruiken. De task compilet de binary, en runt die gelijk daarna, het is niet nodig om die zelf nog te runnen.*

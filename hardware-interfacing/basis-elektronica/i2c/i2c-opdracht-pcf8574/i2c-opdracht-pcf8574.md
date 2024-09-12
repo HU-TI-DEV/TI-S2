@@ -1,8 +1,7 @@
 # I2C aansturing van de PCF8574
 
-Deze opdracht is de enige opdracht met fysieke hardware tijdens deze
-Corona-versie van DIT. Het is je “Hello World” oefening voor het werken
-met I2C. Bij IPass en ook vakken erna zal dat een essentiele ervaring
+Deze opdracht is je “Hello World” oefening voor het werken
+met I2C. Ook voor de volgende semesters zal dat een essentiele ervaring
 zijn.
 
 <img src="./media/media/image1.png" width="200px" />

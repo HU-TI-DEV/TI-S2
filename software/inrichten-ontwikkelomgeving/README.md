@@ -9,6 +9,8 @@
     - [Arduino IDE](#arduino-ide)
     - [CodeLite](#codelite)
       - [MinGW](#mingw)
+      - [Visual Studio Code](#visual-studio-code)
+      - [Doxygen](#doxygen)
       - [Een C++programma uitvoeren](#een-cprogramma-uitvoeren)
       - [Project](#project)
 - [Uitgebreide software ontwikelomgeving](#uitgebreide-software-ontwikelomgeving)
@@ -41,6 +43,15 @@ CodeLite heeft de vervelende eigenschap bij het opstarten te checken of er een n
 
 #### MinGW
 MinGW is een GCC compiler voor Windows. Je kunt MinGW installeren via de link op: http://tdm-gcc.tdragon.net/download. Neem de 32 bits versie.
+
+#### Visual Studio Code
+Visual Studio Code (VSC) is een lichtgewicht ontwikkelomgeving die draait op je desktop. VSC is beschikbaar voor Windows, macOS en Linux.
+* [Installatie VScode](visualstudiocode.md)
+* [Configuratietips](vscode_tips.md)
+
+#### Doxygen
+Doxygen is een tool die helpt bij het genereren van commentaar of documentatie.
+* [Installatie Doxygen](./doxygen.md)
 
 #### Een C++programma uitvoeren
 Om een C++programma uit te voeren moet je eerst een **workspace** hebben. In een workspace kunnen meerdere C++ programma’s staan. Een workspace maak je met:

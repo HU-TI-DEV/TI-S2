@@ -6,12 +6,12 @@
 
 ### Inhoud[](toc-id)
 
-- [LDR-NTC: analoog naar digitaal met passieve sensoren](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren)
-  - [Inhoud](#inhoud)
-  - [Basis principe](#basis-principe)
-  - [LDR](#ldr)
-  - [NTC](#ntc)
-  - [De schakeling](#de-schakeling)
+- [LDR-NTC: analoog naar digitaal met passieve sensoren ](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren-)
+    - [Inhoud](#inhoud)
+    - [Basis principe](#basis-principe)
+    - [LDR](#ldr)
+    - [NTC](#ntc)
+    - [De schakeling](#de-schakeling)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
 
@@ -57,7 +57,7 @@ We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebru
 
 De voorbeeld code meet alleen een spanning en geeft deze via het serial interface uit.
 
-> Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bv als je een Arduino Nano gebruikt.
+> Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bijvoorbeeld als je een Arduino Nano gebruikt.
 
 ```arduino
 // LDR-NTC.ino - Analog Input example - 2024-02-04-hp
@@ -104,6 +104,7 @@ LDR Datasheets
 
 - [NTE Electronics, Inc. - LDR Photoresistors Datasheet](https://www.nteinc.com/resistor_web/pdf/LDR-Series.pdf)
 - [Alldatasheet.com GL5528 (GL55 series)](https://www.alldatasheet.com/datasheet-pdf/pdf/1131893/ETC2/GL5528.html)
+- [TME overzicht LDRs van NTE](https://www.tme.eu/en/news/about-product/page/54933/ldr-series-of-photoresistors-from-nte/)
 
 NTC Datasheets
 

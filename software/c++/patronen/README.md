@@ -19,8 +19,10 @@
     - [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
     - [Size()](#size)
     - [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
-  - [Reductie](#reductie)
-  - [Recursie](#recursie)
+  - [Andere design patterns](#andere-design-patterns)
+    - [Reductie](#reductie)
+    - [Recursie](#recursie)
+    - [Decorator pattern](#decorator-pattern)
 
 ---
 
@@ -356,10 +358,12 @@ int main(){
 ```
 *Codevoorbeeld 9.7 - Informatie over een rij van rijen.*
 
-## [Reductie](#reductie)
+## Andere design patterns
+### [Reductie](../patronen/reductie/README.md)
 <!-- Er is een apart md-bestand met informatie over reductie -->
 
-## [Recursie](#recursie)
+### [Recursie](../patronen/recursie/README.md)
 <!-- Er is een apart md-bestand met informatie over recursie -->
 
-
+### [Decorator pattern](../patronen/decorator/README.md)
+<!-- Er is een apart md-bestand met informatie over het decorator pattern -->

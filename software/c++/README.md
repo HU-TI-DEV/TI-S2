@@ -11,16 +11,17 @@
     - [C++ en Technische Informatica](#c-en-technische-informatica)
   - [Ontwikkelomgeving en tools](#ontwikkelomgeving-en-tools)
     - [Ontwikkelomgeving](#ontwikkelomgeving)
-    - [IDE (CodeLite)](#ide-codelite)
+    - [IDE (CodeLite of VScode)](#ide-codelite-of-vscode)
   - [Leren programmeren](#leren-programmeren)
     - [Oefenen, fouten maken en doorzetten](#oefenen-fouten-maken-en-doorzetten)
     - [Vereiste basiskennis](#vereiste-basiskennis)
+    - [Lesmateriaal op internet](#lesmateriaal-op-internet)
   - [Code](#code)
     - [Formules en algoritmes](#formules-en-algoritmes)
     - [Oorsprong C++](#oorsprong-c)
     - [De naam C++](#de-naam-c)
     - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
-  - [C++ onderwerpen (nog niet volledig)](#c-onderwerpen-nog-niet-volledig)
+  - [C++ onderwerpen](#c-onderwerpen)
   - [Referenties](#referenties)
 ---
 
@@ -50,8 +51,8 @@ C++ is een taal die snel is en dicht bij de hardware staat. Dat zijn eigenschapp
 Bij TI willen we software vaak 'draaien' op een microcomputer (bv Raspberry Pi) of microcontroller (bv Arduino, ESP32). 
 In het begin schrijven we code op een Personal Computer (PC); bijvoorbeeld een laptop of desktop.
 
-### IDE (CodeLite)
-Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* voor C++ code (en PyCharm voor Python code.)
+### IDE (CodeLite of VScode)
+Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* of [Visual Studio code](../inrichten-ontwikkelomgeving/visualstudiocode.md) voor C++ code (en PyCharm voor Python code.)
 
 ## Leren programmeren
 ### Oefenen, fouten maken en doorzetten
@@ -60,13 +61,18 @@ Goed programmeren vraagt veel oefening. Je kunt geen goed programmeur worden zon
 ### Vereiste basiskennis
 Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat je al basiskennis hebt van programmeren (door het volgen van de eerstejaars programmeercursus in Python).
 
+### Lesmateriaal op internet
+Er is onnoemelijk veel les- en cursusmateriaal op internet te vinden. Kijk bijvoorbeeld eens naar de ['get started recommendations' van isocpp](https://isocpp.org/get-started).
+
 ## Code
 ### Formules en algoritmes
 Een reeks instructies in een bepaalde volgorde (een stuk programmacode) noemen we een *algoritme*.  In zekere zin is een recept voor een gerecht ook een algoritme. Hoe je berekent of een jaar een schrikkeljaar is, is ook een algoritme. Eigenlijk is een algoritme een formule, maar meestal wordt een algoritme vertaald naar programmacode.
 Voor het schrijven van algoritmes gebruiken we bij TI vaak de programmeertaal C++.
 
 ### Oorsprong C++
-De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.edu/3e/docs/chistory.html). C++ is bedacht door de Deen Bjarne Stroustrup in 1979. C++ combineert de voordelen van C (o.a. de snelheid en de mate van controle over hardware)  met structuren uit andere talen. C++ wordt nog steeds geüpdatet. De laatste updates waren in 2017 en 2020.
+De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.edu/3e/docs/chistory.html). C++ is bedacht door de Deen Bjarne Stroustrup in 1979. C++ combineert de voordelen van C (o.a. de snelheid en de mate van controle over hardware)  met structuren uit andere talen. C++ wordt nog steeds geüpdatet. De laatste versie is C++23. Er wordt inmiddels gewerkt aan versie C++26.
+
+![isocpp timeline](https://isocpp.org/files/img/timeline-2022-07.png).
 
 ### De naam C++
     De naam C++ is een toespeling op het met één verhogen van een integer in de taal. Dit kan namelijk door twee plusjes achter de variabele te zetten.
@@ -74,7 +80,7 @@ De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.
 ### Gebruikte versie (C++14)
 Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aangegeven als C++14.
 
-## C++ onderwerpen (nog niet volledig)
+## C++ onderwerpen
 * [basisconcepten/](../c++/basisconcepten/README.md)
 * [bits/](../c++/bits/README.md)
 * [condities/](../c++/condities/README.md)
@@ -95,13 +101,21 @@ Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aan
 * [expressies/](../c++/expressies/README.md)
 * [files-input/](../c++/files-input/README.md)
 * [functies/](../c++/functies/README.md)
+    * [basis](../c++/functies/basis/README.md)
+    * [constant](../c++/functies/constant/README.md)
+    * [functienamen](../c++/functies/functienamen/README.md)
+    * [references](../c++/functies/references/README.md)
 * [geschiedenis/](../c++/geschiedenis/README.md)
 * [inlezen-gegevens](../c++/inlezen-gegevens/README.md)
 * [meerdere-bronbestanden](../c++/meerdere-bronbestanden/README.md)
+* [oop-concepten/](../c++/oop-concepten/README.md)
+  
+  ADTs, const, doxygen, header-sourcefiles, klassen, macros, objecten en waarden, operatoren, overerving, std-array, structs, unit-tests, units en waarden
 * [patronen/](../c++/patronen/README.md)
 * [programmastroom/](../c++/programmastroom/README.md)
-...
+
 
 
 ## Referenties
-- C++ 14 (<https://isocpp.org/wiki/faq/cpp14>)
+- C++14 (<https://isocpp.org/wiki/faq/cpp14>)
+- C++ status (<https://isocpp.org/std/status>)

@@ -12,13 +12,13 @@ Gebruik while- of for-loops en druk ieder character apart af. De gebruiker geeft
 
 ```console
 $ Hoe groot? 5
-*
-**
-***
-****
+    *
+   **
+  ***
+ ****
 *****
-****
-***
-**
-*
+ ****
+  ***
+   **
+    *
 ```
