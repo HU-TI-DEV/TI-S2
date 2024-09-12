@@ -11,7 +11,7 @@ Lees over [ICs](../hardware-interfacing/elektronische-componenten/ic/README.md) 
 
 ## Tijdens en na de les
 
-Maak je met behulp van de uitleg en voorbeeldcode een eerste opstelling met een Arduino Uno en een 74HC595 schuifregister. Bekijk de bijbehorende [slides](../slides/schuifregister.md).
+Maak je met behulp van de uitleg en voorbeeldcode een eerste opstelling met een Arduino Uno en een 74HC595 schuifregister.
 
 ## Portfolio-Tip
 
