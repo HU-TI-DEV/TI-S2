@@ -98,8 +98,8 @@ Week A3. Met 8 leds simuleren we de stand van deuren en ramen, we sturen deze aa
 | --- | --- | --- | --- | --- |
 | A3   | ma  | We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. | Uitleg: Daily Standup en Review. :runner: planning sprint 2 |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS**) Lokaal HL15-3.066 van 9.00 tot 11.00 uur. Werktuimte HL15-5.064 & HL15-5.066 van 9.00 tot 14.00 uur. Bezoek aan opdrachtgever het lectoraat Smart Systems for Healthy Living van 12.30 tot 14.00 uur. (**HS**, **TM**) |
 | A3   | di  | Schuifregister & SPI     | Werken aan project     | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), |
-| A3   | wo  | Schuifregister & SPI     | Werken aan project     |  [Iets Uitrekenen](./lesprogramma/programma-iets-uitrekenen.md) (**BB, MV**) [SPI](./lesprogramma/programma-SPI.md) (**HP**) |
-| A3   | do  | Schuifregister SPI     | Werken aan project     | [Rekenen met eenheden](./lesprogramma/programma-rekenen-met-eenheden.md) (**BB, MV**), [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB, MV**)     |
+| A3   | wo  | Schuifregister & SPI     | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HP**) |
+| A3   | do  | Schuifregister SPI     | Werken aan project     | [Iets Uitrekenen](./lesprogramma/programma-iets-uitrekenen.md) (**BB, MV**), [Rekenen met eenheden](./lesprogramma/programma-rekenen-met-eenheden.md) (**BB, MV**), [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB, MV**)     |
 
 ### Onderwijsweek A4 (23-9-2024)
 
