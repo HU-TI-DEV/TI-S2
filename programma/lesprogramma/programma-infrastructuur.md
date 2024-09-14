@@ -5,7 +5,7 @@
 
 ## Voorbereiding
 
-Lees de introductie van de [Raspberry Pi computer](../hardware-interfacing/embedded/computer/README.md) en de inleiding van [Docker containers](../infrastructuur/Docker/README.md).
+Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/README.md) en de inleiding van [Docker containers](../infrastructuur/Docker/README.md).
 
 ## Tijdens en na de les
 

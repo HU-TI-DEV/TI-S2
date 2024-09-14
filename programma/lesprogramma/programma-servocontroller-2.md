@@ -11,7 +11,7 @@ Deze les is de tweede les uit een serie van 3 lessen.
 
 - Maak het practicum dat gestart werd in de vorig les af
 - Maak aansluitend een begin aan het practicum:
-- [Practicum Servocontroller Simulatie met LtSpice](../hardware-interfacing/basis-elektronica/ltspice/practicum-ltspice.md)     
+- [Practicum Servocontroller Simulatie met LtSpice](../../hardware-interfacing/basis-elektronica/ltspice/practicum-ltspice.md)     
 Dat simulatie-practicum maak je individueel, op je eigen laptop. Je wordt wel aangemoedigd om volop te overleggen met anderen en zo van elkaar te leren.
   
 ## De volgende les

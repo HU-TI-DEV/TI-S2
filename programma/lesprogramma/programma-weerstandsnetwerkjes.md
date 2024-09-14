@@ -21,9 +21,9 @@ Een deel daarvan is ook in video-vorm te beschikbaar:
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- [Practicum Weerstandsnetwerkjes](../hardware-interfacing/basis-elektronica/weerstandsnetwerkjes/practicum-weerstandsnetwerkjes.md) 
+- [Practicum Weerstandsnetwerkjes](../../hardware-interfacing/basis-elektronica/weerstandsnetwerkjes/practicum-weerstandsnetwerkjes.md) 
   Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
-- [Practicum Weerstandsnetwerkjes - deel van de antwoorden](../hardware-interfacing/basis-elektronica/weerstandsnetwerkjes/practicum-weerstandsnetwerkjes-deel-van-de-antwoorden.md) 
+- [Practicum Weerstandsnetwerkjes - deel van de antwoorden](../../hardware-interfacing/basis-elektronica/weerstandsnetwerkjes/practicum-weerstandsnetwerkjes-deel-van-de-antwoorden.md) 
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
 

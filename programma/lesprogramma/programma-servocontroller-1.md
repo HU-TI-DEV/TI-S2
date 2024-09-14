@@ -12,7 +12,7 @@ Deze les is een les uit een serie van 3 lessen, met daarbinnen aansluitend twee 
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
-- [Practicum Servocontroller](../hardware-interfacing/basis-elektronica/servo-controller/practicum-servo-controller.md) 
+- [Practicum Servocontroller](../../hardware-interfacing/basis-elektronica/servo-controller/practicum-servo-controller.md) 
   
 ## De volgende les
 - Het practicum is te groot om binnen een enkele les af te ronden. Tijdens de volgende les ronden we het af, en maken we een begin met een vervolgpracticum: het simuleren van de servo-controller met behulp van het programma LtSpice.

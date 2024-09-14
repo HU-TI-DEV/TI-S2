@@ -10,7 +10,7 @@ We gaan onderzoek doen naar vervuiling van spanningsniveaus door grote stromen e
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
-- [practicum-talking-servos](../hardware-interfacing/basis-elektronica/talking-servos/practicum-talking-servos.md) 
+- [practicum-talking-servos](../../hardware-interfacing/basis-elektronica/talking-servos/practicum-talking-servos.md) 
   
 ## De volgende les
 - Het practicum is te groot om binnen een enkele les af te ronden Tijdens de volgende les ronden we het af.

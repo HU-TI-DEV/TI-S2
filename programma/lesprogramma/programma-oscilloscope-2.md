@@ -12,7 +12,7 @@ Deze les maken we het oscilloscope practicum af.
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
-- [Practicum Oscilloscope](../hardware-interfacing/basis-elektronica/oscilloscope/practicum-oscilloscope.md) 
+- [Practicum Oscilloscope](../../hardware-interfacing/basis-elektronica/oscilloscope/practicum-oscilloscope.md) 
 
 ## Canvas
 

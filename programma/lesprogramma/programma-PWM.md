@@ -6,7 +6,7 @@
   
 ## Voorbereiding
 
-Lees over [digitale communicatie](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) en PWM.
+Lees over [digitale communicatie](../../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md) en PWM.
 
 Daar zie je hoe je de snelheid van een 4-pin PWM-Fan met een Arduino kan aansturen.
 

@@ -7,7 +7,7 @@
   
 ## Voorbereiding
 
-Lees over [communicatie](../hardware-interfacing/communicatie/README.md) het onderdeel [1-Wire](../hardware-interfacing/communicatie/1-wire/README.md).
+Lees over [communicatie](../../hardware-interfacing/communicatie/README.md) het onderdeel [1-Wire](../../hardware-interfacing/communicatie/1-wire/README.md).
 
 ## Tijdens en na de les
 

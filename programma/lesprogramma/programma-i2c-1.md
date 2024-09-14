@@ -11,7 +11,7 @@ Deze les is een les uit een serie van 3 lessen, met daarbinnen aansluitend een w
 ## Tijdens de les
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
-- [I2C workshop](../hardware-interfacing/basis-elektronica/i2c/i2c-workshop/workshop-i2c.md) 
+- [I2C workshop](../../hardware-interfacing/basis-elektronica/i2c/i2c-workshop/workshop-i2c.md) 
 - Aanbevolen: gebruik alvast PlatformIO ipv Arduino IDE.
   (Je kunt dat eventueel ook nog een les uitstellen, maar uiteindelijk willen we toch je c++ code graag in PlatformIO zien draaien).
   [Hier zijn wat PlatformIO-Tips](..\infrastructuur\PlatformIO-tips\PlatformIO-Tips.md)

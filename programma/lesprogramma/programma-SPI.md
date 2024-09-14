@@ -14,7 +14,7 @@ Het Serial Peripheral Interface (SPI) kan bijvoorbeeld worden gebruikt:
 ## Voorbereiding
 
 - Lees de info over [SPI op Wikipedia](https://nl.wikipedia.org/wiki/Serial_Peripheral_Interface)
-- Lees het [lesmateriaal over SPI](../hardware-interfacing/communicatie/SPI/README.md)
+- Lees het [lesmateriaal over SPI](../../hardware-interfacing/communicatie/SPI/README.md)
 
 ## Tijdens en na de les
 

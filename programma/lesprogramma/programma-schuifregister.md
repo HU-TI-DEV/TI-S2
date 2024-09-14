@@ -7,7 +7,7 @@
 
 ## Voorbereiding
 
-Lees over [ICs](../hardware-interfacing/elektronische-componenten/ic/README.md) en het [74HC595](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md) schuifregister.
+Lees over [ICs](../../hardware-interfacing/elektronische-componenten/ic/README.md) en het [74HC595](../../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md) schuifregister.
 
 ## Tijdens en na de les
 
