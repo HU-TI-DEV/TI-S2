@@ -1,6 +1,6 @@
 # Een eerste portfolio-item maken
 
-Je hebt een eerste schakeling gemaakt tijdens het prakticum ["Analoge pin uitlezen."](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). Hoe maak je van deze opgedane kennis een portfolio-item.
+Je hebt een eerste schakeling gemaakt tijdens het prakticum ["Analoge pin uitlezen."](../../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). Hoe maak je van deze opgedane kennis een portfolio-item.
 
 ## Na deze les
 

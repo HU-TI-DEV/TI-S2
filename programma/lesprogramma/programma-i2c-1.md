@@ -14,7 +14,7 @@ Tijdens de les werk je samen met een partner aan de volgende opdracht:
 - [I2C workshop](../../hardware-interfacing/basis-elektronica/i2c/i2c-workshop/workshop-i2c.md) 
 - Aanbevolen: gebruik alvast PlatformIO ipv Arduino IDE.
   (Je kunt dat eventueel ook nog een les uitstellen, maar uiteindelijk willen we toch je c++ code graag in PlatformIO zien draaien).
-  [Hier zijn wat PlatformIO-Tips](..\infrastructuur\PlatformIO-tips\PlatformIO-Tips.md)
+  [Hier zijn wat PlatformIO-Tips](../../infrastructuur/PlatformIO-tips/PlatformIO-Tips.md)
   
 ## De volgende les
 - Vermoedelijk lukt het afronden niet helemaal tijdens de eerste les. Tijdens de volgende les ronden we het af, en maken we een begin met het vervolgpracticum: het aansturen van een pcf8574 via I2C.
