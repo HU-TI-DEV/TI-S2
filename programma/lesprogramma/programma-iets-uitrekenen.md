@@ -9,12 +9,12 @@ Sommige studenten hebben in het verleden een soort "reken-trauma" opgelopen, en 
 Het college zal zijn in de stijl van de "**Flipped Classroom**". Dat wil zeggen: weinig of geen plenair college. Het rendement van de les voor jou **staat of valt met je voorbereiding**:
 
 - Neem ruim tevoren het lesmateriaal door:
-  [Iets Uitrekenen Lesmateriaal](../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
+  [Iets Uitrekenen Lesmateriaal](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video iets uitrekenen](https://www.youtube.com/watch?v=a1BqdFN03E4)
 - Maak alvast zoveel mogelijk oefenopgaven (op papier, vergeet de tussenstappen niet op te schrijven):
-  [Oefenopgaven Iets Uitrekenen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/oefenopgaven-iets-uitrekenen.md)
+  [Oefenopgaven Iets Uitrekenen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/oefenopgaven-iets-uitrekenen.md)
 - Controleer je antwoorden met:
-  [Oefenopgaven Iets Uitrekenen - antwoorden](../hardware-interfacing/basis-elektronica/iets-uitrekenen/oefenopgaven-iets-uitrekenen-antwoorden.md)
+  [Oefenopgaven Iets Uitrekenen - antwoorden](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/oefenopgaven-iets-uitrekenen-antwoorden.md)
 
 ## Voorbereiding (op de dag zelf)
 
@@ -27,10 +27,10 @@ Het college zal zijn in de stijl van de "**Flipped Classroom**". Dat wil zeggen:
 - Maak de oefenopgaven af als je ze nog niet af had.
 
 - Werk aan de extra oefenopgaven:
-  [Extra Oefenopgaven Iets Uitrekenen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen.md)
+  [Extra Oefenopgaven Iets Uitrekenen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen.md)
 
 - Controleer je antwoorden met:
-  [Extra Oefenopgaven Iets Uitrekenen - antwoorden](../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen-antwoorden.md)
+  [Extra Oefenopgaven Iets Uitrekenen - antwoorden](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/extra-oefenopgaven-iets-uitrekenen-antwoorden.md)
 
 ## Canvas
 
@@ -38,8 +38,8 @@ Upload fotos van je finale handgeschreven uitwerkingen naar de bijbehorende canv
 
 ## Bonus
 Voor wie de smaak te pakken heeft, of nog beter wil worden door extra oefening, is er keuze uit de volgende bonusopgaven:
-- [Extra Opgaven Stelsels Vergelijkingen met 1 variabele](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgaven-vergelijkingen-met-1-variabele-oplossen.md)
-- [Extra Opgave Stelsel vergelijkingen met 6 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-6-variabelen.md)
-- [Extra Opgave Stelsel vergelijkingen met 15 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-15-variabelen.md)
-- [Extra Opgave Stelsel vergelijkingen met 26 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-26-variabelen.md)
-- [Extra Opgave Nog een stelsel vergelijkingen met 26 variabelen](../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-nog-een-stelsel-vergelijkingen-met-26-variabelen.md)
+- [Extra Opgaven Stelsels Vergelijkingen met 1 variabele](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgaven-vergelijkingen-met-1-variabele-oplossen.md)
+- [Extra Opgave Stelsel vergelijkingen met 6 variabelen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-6-variabelen.md)
+- [Extra Opgave Stelsel vergelijkingen met 15 variabelen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-15-variabelen.md)
+- [Extra Opgave Stelsel vergelijkingen met 26 variabelen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-stelsel-vergelijkingen-met-26-variabelen.md)
+- [Extra Opgave Nog een stelsel vergelijkingen met 26 variabelen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/bonus/extra-opgave-nog-een-stelsel-vergelijkingen-met-26-variabelen.md)
