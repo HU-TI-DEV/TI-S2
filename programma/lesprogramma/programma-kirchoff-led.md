@@ -16,7 +16,7 @@ Een deel daarvan is ook in video-vorm te beschikbaar:
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- [Practicum Kirchoff Led](../hardware-interfacing/basis-elektronica/kirchoff-led/practicum-kirchoff-led.md) 
+- [Practicum Kirchoff Led](../../hardware-interfacing/basis-elektronica/kirchoff-led/practicum-kirchoff-led.md) 
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
   

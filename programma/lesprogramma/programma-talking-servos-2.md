@@ -4,7 +4,7 @@
 
 Tijdens de les maak je samen met je partner de volgende opdracht af:
 
-- [practicum-talking-servos](../hardware-interfacing/basis-elektronica/talking-servos/practicum-talking-servos.md) 
+- [practicum-talking-servos](../../hardware-interfacing/basis-elektronica/talking-servos/practicum-talking-servos.md) 
   
 ## Canvas
 - Upload het resultaat bij de Canvas Entry voor deze opdracht.

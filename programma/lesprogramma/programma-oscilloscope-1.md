@@ -11,7 +11,7 @@ In deze les maken we kennis met een oscilloscope (de picoscope).
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
-- [Practicum Oscilloscope](../hardware-interfacing/basis-elektronica/oscilloscope/practicum-oscilloscope.md) 
+- [Practicum Oscilloscope](../../hardware-interfacing/basis-elektronica/oscilloscope/practicum-oscilloscope.md) 
 
 ## Tweede helft: volgende les
 

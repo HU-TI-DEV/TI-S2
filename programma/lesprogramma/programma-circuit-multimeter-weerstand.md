@@ -26,9 +26,9 @@ Een deel daarvan is ook in video-vorm te beschikbaar:
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- [Practicum Circuit Multimeter Weerstand](../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)    
+- [Practicum Circuit Multimeter Weerstand](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)    
   Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
-- [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md) 
+- [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md) 
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
 

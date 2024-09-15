@@ -1,6 +1,6 @@
 # Eindpresentatie
 
-Als team presenteren jullie het kas project aan collega studenten, docenten en genodigde. 
+Als team presenteren jullie het project aan collega studenten, docenten en genodigde. 
 
 ## Voorbereiding
 
@@ -15,7 +15,7 @@ De poster bevat minimaal het volgende:
 - Een korte uitleg
 - SDG met toelichting
 
-Het schema van deze dag is als volgt:
+Het schema van deze dag is als volgt <nog in ontwerp>:
 - 8.00 uur opbouw door studenten bij de entree
 - 8.30 uur projecten zijn presentatie gereed
 - 8.30 – 9.00 uur inloop van collega studenten en docenten
@@ -25,8 +25,8 @@ Het schema van deze dag is als volgt:
 
 ## Na de les
 
-Ruim je spullen netjes op. Stel je persoonlijke zaken veilig zoals zelf gemaakte 3D prints. Demonteer de kas zo goed mogelijk. Alles wat niet stuk is willen we weer voor het volgende semester gebruiken.
+Ruim je spullen netjes op. Stel je persoonlijke zaken veilig zoals zelf gemaakte 3D prints. Demonteer jullie project zo goed mogelijk. Alles wat niet stuk is willen we weer voor het volgende semester gebruiken.
 
 ## Portfolio Tip
 
-Het maken van een poster en het presenteren en verdedigen van een poster is een 'professional skill'. Leg je werkzaamheden dus goed vast op je groeps- en persoonlijkerepo. 
+Het maken van een poster en het presenteren en verdedigen van een poster is een 'professional skill'. Leg je werkzaamheden dus goed vast op je groeps- en persoonlijke repository. 

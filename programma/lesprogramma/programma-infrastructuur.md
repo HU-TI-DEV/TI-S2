@@ -5,15 +5,15 @@
 
 ## Voorbereiding
 
-Lees de introductie van de [Raspberry Pi computer](../hardware-interfacing/embedded/computer/README.md) en de inleiding van [Docker containers](../infrastructuur/Docker/README.md).
+Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) en de inleiding van [Docker containers](../../infrastructuur/Docker/README.md).
 
 ## Tijdens en na de les
 
-[Installeer](../infrastructuur/OS/Raspberry-Pi-OS/README.md) een Operating System (OS) op de Raspberry Pi. Zorg dat deze toegang heeft tot Eduroam en maak toegang via ssh mogelijk.
+[Installeer](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) een Operating System (OS) op de Raspberry Pi. Zorg dat deze toegang heeft tot Eduroam en maak toegang via ssh mogelijk.
 
 Gebruik dit script en de LCD opstelling van om de IP van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
 
-[Installeer](../infrastructuur/Docker/README.md) Docker en start en configureer de volgende Docker containers: Postgres, [MQTT](../software/communicatie/MQTT/README.md), [Node-RED](../software/visueel-programmeren/Node-RED/README.md) en [Flask](../software/webserver/Flask/README.md)
+[Installeer](../../infrastructuur/Docker/README.md) Docker en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md)
 
 ## Portfolio-Tip
 

@@ -10,7 +10,7 @@ Use cases beschrijven samenhangende reeksen interacties. Ze vormen een belangrij
 
 ## Tijdens een na de les
 
-Bedenk en documenteer een use case diagram (gebruik daarvoor drawio: zie [Drawio Tips](../software/modelleren/drawio-tips/drawio-tips.md)) en enkele goede, relevante use cases, inclusief use case beschrijvingen voor het kas-project. Doe dat individueel voor je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver). En doe het met je team voor het gemeenschappelijke project. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. Upload je eerste functionele requirements naar de **Canvas** entry voor deze opdracht. Gebruik daarvoor dit [Inleverformat](../software/modelleren/inleverformat-voor-modelleeropdrachten.md).
+Bedenk en documenteer een use case diagram (gebruik daarvoor drawio: zie [Drawio Tips](../../software/modelleren/drawio-tips/drawio-tips.md)) en enkele goede, relevante use cases, inclusief use case beschrijvingen voor het kas-project. Doe dat individueel voor je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver). En doe het met je team voor het gemeenschappelijke project. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. Upload je eerste functionele requirements naar de **Canvas** entry voor deze opdracht. Gebruik daarvoor dit [Inleverformat](../../software/modelleren/inleverformat-voor-modelleeropdrachten.md).
 
 ## Portfolio-Tip
 

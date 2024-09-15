@@ -9,14 +9,14 @@ Een gestructureerde, visuele manier om vast te leggen **wat** het systeem moet g
 
 ## Tijdens een de les
 
-Maak: [Oefenopdracht Activitydiagram](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/modelleren/activitydiagram/oefenopdracht-activitydiagram-ns.md). Gebruik daarvoor drawio (zie [Drawio Tips](../software/modelleren/drawio-tips/drawio-tips.md)).
+Maak: [Oefenopdracht Activitydiagram](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/modelleren/activitydiagram/oefenopdracht-activitydiagram-ns.md). Gebruik daarvoor drawio (zie [Drawio Tips](../../software/modelleren/drawio-tips/drawio-tips.md)).
 
 ## Na de les
  Zet een relatief uitgebreide usecase beschrijving om naar een activity diagram. Doe dat individueel voor je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver). En doe het met je team voor het gemeenschappelijke project. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. 
 
 ### Canvas
 
-Upload je eerste activity diagram naar de **Canvas** entry voor deze opdracht. Gebruik daarvoor dit [Inleverformat](../software/modelleren/Inleverformat-voor-modelleeropdrachten.md).
+Upload je eerste activity diagram naar de **Canvas** entry voor deze opdracht. Gebruik daarvoor dit [Inleverformat](../../software/modelleren/Inleverformat-voor-modelleeropdrachten.md).
 
 ## Portfolio-Tip
 
