@@ -1,6 +1,8 @@
 \[draw.io, drawio\]
 
 # Drawio-tips
+[Video voor beginners](https://youtu.be/Rv4_nfpTFHk)
+
 ## Probleem: een class object heeft sub-velden hij wil steeds pijlen attachen aan die subvelden ipv aan de class
 
 Dus als je een arrow vanuit een class probeert te slepen naar een
