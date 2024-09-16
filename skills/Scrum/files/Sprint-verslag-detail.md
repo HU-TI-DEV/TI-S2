@@ -106,12 +106,15 @@ Developers hebben nagedacht over de 3 Daily Scrum vragen (Dev)
     Beschrijf wat jullie goed vonden aan het opgeleverde werk en wat beter kan. Let er op dat je het hier hebt over het product en niet over het proces. 
 
 ### Peer Assessment
-    Feedback van alle teamleden per student.
-    Per student geef je aan:
-    1) Wat ging er goed? Waar zit de kracht van die student?
-    2) Waar zitten verbeterpunten/ontwikkelskansen?
-    3) Krijgt de student een :worried: , :relaxed: , :hearteyes:
-    Het bepalen van de feedback gebeurt met de student in kwestie er bij (die mag ook vragen stellen ter verduidelijking). Het blijft echter wel de indruk van het team (is per definitie subjectief). 
+  Feedback van alle teamleden per student.
+  Per student geef je aan:
+   1) Wat ging er goed? Waar zit de kracht van die student?
+   2) Waar zitten verbeterpunten/ontwikkelskansen?
+   3) Krijgt de student een: 
+  😟 , 😊, 😎 , 😄, 😍
+
+Het bepalen van de feedback gebeurt met de student in kwestie er bij (die mag ook vragen stellen ter verduidelijking). Het blijft echter wel de indruk van het team (is per definitie subjectief). 
+
 
 
 ## Sprint retrospective
