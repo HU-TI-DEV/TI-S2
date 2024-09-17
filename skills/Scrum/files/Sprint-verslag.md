@@ -7,6 +7,7 @@
 - [Sprint review](#sprint-review)
   - [Feedback teambegeleider/ Product owner](#feedback-teambegeleider-product-owner)
   - [Persoonlijke reflectie](#persoonlijke-reflectie)
+  - [Peer Assessment](#peer-assessment)
 - [Sprint retrospective](#sprint-retrospective)
   - [Feedback teambegeleider](#feedback-teambegeleider)
 - [Sprint planning](#sprint-planning)
@@ -40,6 +41,17 @@
 
 ### Persoonlijke reflectie
     Beschrijf wat jullie goed vonden aan het opgeleverde werk en wat beter kan. Let er op dat je het hier hebt over het product en niet over het proces. 
+
+### Peer Assessment
+  Feedback van alle teamleden per student.
+  Per student geef je aan:
+   1) Wat ging er goed? Waar zit de kracht van die student?
+   2) Waar zitten verbeterpunten/ontwikkelkansen?
+   3) Krijgt de student een: 
+  😟 , 😊, 😎 , 😄, 😍
+
+Het bepalen van de feedback gebeurt met de student in kwestie er bij (die mag ook vragen stellen ter verduidelijking). Het blijft echter wel de indruk van het team (is per definitie subjectief). 
+
 
 ## Sprint retrospective
     Datum :     xx - xx - xxxx

@@ -109,7 +109,7 @@ Developers hebben nagedacht over de 3 Daily Scrum vragen (Dev)
   Feedback van alle teamleden per student.
   Per student geef je aan:
    1) Wat ging er goed? Waar zit de kracht van die student?
-   2) Waar zitten verbeterpunten/ontwikkelskansen?
+   2) Waar zitten verbeterpunten/ontwikkelkansen?
    3) Krijgt de student een: 
   😟 , 😊, 😎 , 😄, 😍
 
