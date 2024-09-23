@@ -20,6 +20,7 @@ Schrijf de volgende vermenigvuldigingen als een enkele breuk:
 **Vraag a:**  
 $\Large \frac{7}{2}\normalsize  \small \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
+
 **Vraag b:**  
 $7 \small \bullet \normalsize \Large \frac{1}{2}\normalsize  \small \bullet \normalsize \Large \frac{1}{4}\normalsize  = \Large \frac{7}{8}$
 
