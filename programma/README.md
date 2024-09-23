@@ -107,7 +107,7 @@ Week A4. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB, MV**), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**)        |
+| A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB, MV**), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**) in lokaal HL15-3.066 |
 | A4   | di  | Elektrisch netwerk | Werken aan project     | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) |
 | A4   | wo  | Elektrisch netwerk & Solderen | | Bezoek WoTS 2024, [registreer](https://fhi.nl/wots/gadget/) je vooraf |
 | A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
@@ -119,7 +119,7 @@ Week A5. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A5   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**BB, MV**)      |
+| A5   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**BB, MV**) in lokaal HL15-3.090 tot 11.00 uur |
 | A5   | di  | Software | Werken aan project | individuele feedback op software opdrachten (**GP**)    |
 | A5   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) en [Git](../software/git/README.md) cursus (**NG**)      |
 | A5   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
@@ -131,7 +131,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A6   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) |  [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**)       |
+| A6   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) |  [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**) in lokaal HL15-3.038  |
 | A6   | di  | Relais & Linear-actuator     | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
 | A6   | wo  | Relais & Linear-actuator     | Werken aan project |  [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md) (**BB, MV**)  Schakelen, H-brug, flyback |
 | A6   | do  | Hardware interfacing & communicatie   | Werken aan Project | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**)   Darlington, ULN2003   |
