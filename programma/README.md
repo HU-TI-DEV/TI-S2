@@ -120,7 +120,7 @@ Week A5. We oefenen deze week nog met een multimeter en het meten van spanningen
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | A5   | ma  | Elektrisch netwerk | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**) in lokaal HL15-3.090 tot 11.00 uur |
-| A5   | di  | Software | Werken aan project | individuele feedback op software opdrachten (**GP**)    |
+| A5   | di  | Software | Werken aan project | We beginnen om **14.00 uur**! individuele feedback op software opdrachten (**GP**)    |
 | A5   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) en [Git](../software/git/README.md) cursus (**NG**)      |
 | A5   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 
