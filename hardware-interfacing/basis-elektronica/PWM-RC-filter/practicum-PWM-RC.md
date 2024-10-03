@@ -11,6 +11,7 @@
 
 ## Opdracht
 
+### PWM
 PWM (Pulse Width Modulation) is een manier waarmee je met een digitale uitgang (enkel 0 en 1) toch een analoog varieerende spanning kunt krijgen. 
 Een PWM signaal heeft een zogenaamde *"duty cyle"*. Een duty cycle geeft aan hoeveel percent van de tijd hij "hoog" of "aan" is.
 
@@ -33,3 +34,17 @@ Wat valt je op aan het scope beeld? Wat je in feite aan het doen bent is het ins
 
 Zoals je kunt zien hebben we nu een PWM signaal op pin 5 dat afwisselend hoog en laag is. De waarde van de analogWrite geeft de verhouding aan tussen hoe lang hoog en hoe lang laag (duty cycle). Bij de Arduino is 255 gelijk aan 100% hoog.
 
+### Analoog filteren
+We willen eigenlijk een mooi analoog signaal wat we kunnen varieeren van 0 tot 5 Volt. Een simpele manier om dat te doen is met een RC filter. Een RC filter bestaat uit een weerstand (R) en een condensator (C). We gaan het later nog over condensatoren hebben maar voor nu kunnen we het beschouwen als een soort *"batterijtje"*.<br>
+Een RC filter is een *"low pass filter"*. Dat wil zeggen dat het alleen langzame signalen doorlaat. 
+
+4) Bouw het volgende schema:
+
+<img title="" src="./img/PWM-RC.png" alt="" width="345">
+
+5) Bouw het na. **LET OP, ALS JE DE ELCO (DE CONDENSATOR) NIET JUIST AANSLUIT EXPLODEERT HIJ! ZORG DAT JE DE MIN OP DE GROUND AANSLUIT!!!!**
+
+6) Bekijk het volgende filmpje:
+https://youtu.be/8RlM3kCG-zw
+
+7) Sluit de twee probes van je osciloscoop aan op je circuit. De ene probe (het gele kanaal) op de uitgang van je Arduino pin 5 en de andere probe tussen de weerstand en de condensator. Vergeet niet om de aarde ook aan te sluiten van je beide probes.
