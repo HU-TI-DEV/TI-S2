@@ -14,11 +14,7 @@
 PWM (Pulse Width Modulation) is een manier waarmee je met een digitale uitgang (enkel 0 en 1) toch een analoog varieerende spanning kunt krijgen. 
 Een PWM signaal heeft een zogenaamde *"duty cyle"*. Een duty cycle geeft aan hoeveel percent van de tijd hij "hoog" of "aan" is.
 
-<img title="" src="/img/Duty_Cycle_Examples.png" alt="" width="345">
+<img title="" src="Duty_Cycle_Examples.png" alt="" width="345">
 
-We gaan dit testen aan de hand van de analoge outputs van de Arduino. De Arduino heeft een aantal digitale pinnen die ook PWM signalen kunnen uitsturen (pin 3,5,6,9,10,11). Je kan dit zien aan het wiebertje ~ naast het pin nummer. 
-We gebruiken hier analogWrite voor: 
-
-<img title="" src="/img/test_pwm_1.png" alt="" width="345">
 
 
