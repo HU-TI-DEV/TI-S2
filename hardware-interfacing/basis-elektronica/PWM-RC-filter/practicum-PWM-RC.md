@@ -31,5 +31,5 @@ Wat valt je op aan het scope beeld? Wat je in feite aan het doen bent is het ins
 3) We gaan nu een sweep introduceren. Upload het volgende programma op je Arduino:
 <img title="" src="./img/test_pwm_2.png" alt="" width="345">
 
-
+Zoals je kunt zien hebben we nu een PWM signaal op pin 5 dat afwisselend hoog en laag is. De waarde van de analogWrite geeft de verhouding aan tussen hoe lang hoog en hoe lang laag (duty cycle). Bij de Arduino is 255 gelijk aan 100% hoog.
 
