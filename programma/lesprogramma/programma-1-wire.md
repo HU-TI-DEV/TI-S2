@@ -15,4 +15,4 @@ Maak je met behulp van de DS18B20 temperatuur sensor een 1-Wire verbinding met j
 
 ## Portfolio-Tip
 
-Hoe kan je dit onderdeel gebruiken in de (kweek)kas. Zijn er andere 1-Wire sensoren die je zou kunnen gebruiken? Waarom wel/niet? Kan je meerdere temperatuursensoren aansluiten op de bus? Leg dit vast, maak een verslag en haal feedback op bij de docent.
+Hoe kan je dit onderdeel gebruiken in je project. Zijn er andere 1-Wire sensoren die je zou kunnen gebruiken? Waarom wel/niet? Kan je meerdere temperatuursensoren aansluiten op de bus? Leg dit vast, maak een verslag en haal feedback op bij de docent.
