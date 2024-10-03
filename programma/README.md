@@ -45,8 +45,6 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 ### Organisatie
 
 De contacturen zijn:
-
-De contacturen zijn:
 |dag|van|tot|
 |---|---|---|
 |ma|9:00|13:00|
