@@ -24,6 +24,7 @@ We gebruiken hier analogWrite voor:
 
 1) Upload bovenstaand programma en verbind probe 1 van de scope aan pin 5 van de Arduino (vergeet niet ook de aarde van de probe aan te sluiten).
 Als het goed is zie je het volgende:
+<img title="" src="./img/foto_scope.png" alt="" width="345">
 
 
 2) Verander de waarde van de analogWrite naar analogWrite (5,200);
@@ -41,6 +42,8 @@ Een RC filter is een *"low pass filter"*. Dat wil zeggen dat het alleen langzame
 4) Bouw het volgende schema:
 
 <img title="" src="./img/PWM-RC.png" alt="" width="345">
+
+<img title="" src="./img/foto_setup.png" alt="" width="345">
 
 5) Bouw het na. **LET OP, ALS JE DE ELCO (DE CONDENSATOR) NIET JUIST AANSLUIT EXPLODEERT HIJ! ZORG DAT JE DE MIN OP DE GROUND AANSLUIT!!!!**
 
