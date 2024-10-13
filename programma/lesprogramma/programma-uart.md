@@ -1,6 +1,6 @@
 # Programma Uart
 
-Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberri Pi('s).
+Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry Pi('s).
 
 ## Voorbereiding
 
