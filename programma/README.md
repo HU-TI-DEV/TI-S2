@@ -143,7 +143,7 @@ Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | A7   | ma  | UART communicatie & PWM | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**) lokaal HL15-3.018 van 9.00 tot 11.00 uur en lokaal HL15-1.022 van 11.00 tot 12.00 uur.|
 | A7   | di  | UART communicatie & PWM | Werken aan project | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**)   Darlington, ULN2003 |
 | A7   | wo  | UART communicatie & PWM | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**HS & HP**) |
-| A7   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+| A7   | do  | UART communicatie & PWM  | | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | A7 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek A8 (21-10-2024)
@@ -152,7 +152,7 @@ Week A8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A8   | ma  |  UART communicatie & PWM | Werken aan project  | [UART](./lesprogramma/programma-uart.md) (**BB, MV**) lokaal HL15-3.090 tot 12.00 uur |
+| A8   | ma  |  UART communicatie & PWM | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [UART](./lesprogramma/programma-uart.md) (**BB, MV**) lokaal HL15-3.090 tot 12.00 uur |
 | A8   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
 | A8   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) |
 | A8   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur.md) (**HS**) & korte presentatie (**teams**) |
