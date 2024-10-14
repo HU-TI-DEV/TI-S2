@@ -125,25 +125,25 @@ Week A5. We oefenen deze week nog met een multimeter en het meten van spanningen
 ### Onderwijsweek A6 (7-10-2024)
 
 Week A6. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
-We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
+We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met PWM kan bijvoorbeeld een ventilator aansturen om de temperatuur in het systeem te regelen of een led te dimmen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | A6   | ma  | Hardware interfacing  | Opzetten Planbord  | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**BB, MV**) in lokaal HL15-3.038  |
-| A6   | di  | Relais & Linear-actuator     | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
-| A6   | wo  | Relais & Linear-actuator | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HS**)  |
+| A6   | di  | 1-Wire     | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
+| A6   | wo  | PWM | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HS**)  |
 | A6   | do  | Hardware interfacing & communicatie   | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md) (**BB, MV**)  Schakelen, H-brug, flyback  |
 
 ### Onderwijsweek A7 (14-10-2024)
 
-Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met PWM kan bijvoorbeeld een ventilator aansturen om de temperatuur in het systeem te regelen.
+Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur.  Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A7   | ma  | UART communicatie & PWM | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**) lokaal HL15-3.018 van 9.00 tot 11.00 uur en lokaal HL15-1.022 van 11.00 tot 12.00 uur.|
-| A7   | di  | UART communicatie & PWM | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) |
-| A7   | wo  | UART communicatie & PWM | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**HS & HP**) |
-| A7   | do  | UART communicatie & PWM  | | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+| A7   | ma  | UART communicatie | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**) lokaal HL15-3.018 van 9.00 tot 11.00 uur en lokaal HL15-1.022 van 11.00 tot 12.00 uur.|
+| A7   | di  | UART communicatie | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
+| A7   | wo  | UART communicatie | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**HS & HP**) |
+| A7   | do  | UART communicatie | | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | A7 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek A8 (21-10-2024)
