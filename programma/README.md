@@ -136,7 +136,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 ### Onderwijsweek A7 (14-10-2024)
 
-Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met PWM kan je een ventilator aansluiten om het klimaat in te regelen.
+Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met PWM kan bijvoorbeeld een ventilator aansturen om de temperatuur in het systeem te regelen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
