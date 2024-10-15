@@ -13,6 +13,7 @@
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
     - [in Debian Bookwurm:](#in-debian-bookwurm)
+  - [Loop back test](#loop-back-test)
   - [Zenden](#zenden)
     - [op Debian Bullseye](#op-debian-bullseye)
     - [op Debian Bookwurm](#op-debian-bookwurm)
@@ -201,8 +202,8 @@ Controleer na het opstarten of het gelukt is met:
 
 Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
 
-## Zenden
-Met de volgende Python code kan je het testen:
+## Loop back test
+Je kunt een loop back test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
 
 ```python
 import serial
@@ -213,6 +214,38 @@ def send_data_to_serial(port_name, baudrate=9600):
     ser = serial.Serial(port_name, baudrate, timeout=1)
 
     try:
+        while True:
+            # Stuur de cijferreeks naar de seriële poort
+            ser.write(b'12345\n')
+    
+            # Wacht een seconde
+            time.sleep(1)
+            
+            data = ser.readline()  # Lees een regel van de seriële poort
+            if data:
+                print(f"Ontvangen: {data.decode().strip()}")
+    except KeyboardInterrupt:
+        print("\nProgramma gestopt.")
+    finally:
+        ser.close()
+
+if __name__ == "__main__":
+    PORT_NAME = '/dev/ttyAMA3'  # Aangepast voor de Raspberry Pi
+    send_data_to_serial(PORT_NAME)
+```
+## Zenden
+Met de volgende Python code kan je het verzenden testen:
+
+```python
+import serial
+import time
+
+def send_data_to_serial(port_name, baudrate=9600):
+    # Maak een verbinding met de seriële poort
+    ser = serial.Serial(port_name, baudrate, timeout=1)
+
+    try:
+        print(f"Verzemdem van gegevens op {port_name} ...")
         while True:
             # Stuur de cijferreeks naar de seriële poort
             ser.write(b'12345\n')
