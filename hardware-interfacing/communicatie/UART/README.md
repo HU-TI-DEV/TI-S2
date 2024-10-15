@@ -12,6 +12,12 @@
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
+    - [In Debian Bullseye:](#in-debian-bullseye)
+    - [in Debian Bookwurm:](#in-debian-bookwurm)
+  - [Zenden](#zenden)
+    - [op Debian Bullseye](#op-debian-bullseye)
+    - [op Debian Bookwurm](#op-debian-bookwurm)
+  - [Ontvangen](#ontvangen)
   - [Zenden en ontvangen via extra UART op de Arduino Uno](#zenden-en-ontvangen-via-extra-uart-op-de-arduino-uno)
   - [Zenden met de Arduino Uno](#zenden-met-de-arduino-uno)
   - [Ontvangen met de Arduino Uno](#ontvangen-met-de-arduino-uno)
@@ -33,9 +39,11 @@ UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een a
 
 Wil je (sensor)dat uitwisselen tussen je Arduino UNO en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je heb maar twee draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
 
+  Deze handleiding gaat uit van Raspbian OS (Debian Bookworm). Ubuntu kan ook maar vergt wat meer zelf uitzoeken. 
+
 ## Handleiding UART communicatie RPI - Arduino
 
-Eerst installeer op de Raspberry PI ghostwriter om makkelijk .md files zoals deze te maken:  
+Eerst installeer je op de Raspberry PI ghostwriter om makkelijk .md files zoals deze te maken:  
 
 **sudo apt-get install ghostwriter**
 
@@ -65,6 +73,8 @@ of als de commandline parallel moet blijven werken:
 
 **thonny tests/tmpTest1.py &**
 
+  Bij het gebruik van Ubuntu vink de optie Tools>option>General "Use Tk file dialogs instead of Zenity" aan
+
 ## Virtual Environments gebruiken
 
 Je kunt met Python Virtual Environment (venv) een lichtgewicht geisoleerde Python omgeving maken. Installeer Python venv als volgt:
@@ -89,9 +99,7 @@ Je code uitvoeren:
 
 **python tests/tmpTest1.py**
 
-De venv weer verlaten kan eenvoudig met: 
-
-**deactivate**
+De venv weer verlaten kan eenvoudig met: **deactivate**
 
 Wat echt nodig is voor UART communicatie:
 
@@ -100,6 +108,8 @@ Wat echt nodig is voor UART communicatie:
 Vervolgens de ingebouwde UART van de Raspberry Pi (uart0) inschakelen via:  
 
 **sudo raspi-config**
+
+  Voor Ubuntu volg deze [video](https://www.youtube.com/watch?v=rcPYJvVVWsc)
 
 Kies vervolgens:
 -> Interfacing Options -> Serial Port aanzetten.
