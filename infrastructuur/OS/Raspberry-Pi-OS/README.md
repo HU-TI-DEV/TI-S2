@@ -40,7 +40,7 @@ Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebrui
 
 ![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 
-Download en installeer de image op een microSD kaart. Bij het configuratie symbool kan je vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
+Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je custom configuratie wil toepassen. Je kunt dan vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
 
 ### ssh verbinding
 
