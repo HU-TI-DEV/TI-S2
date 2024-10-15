@@ -12,7 +12,6 @@
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
-    - [In Debian Bullseye:](#in-debian-bullseye)
     - [in Debian Bookwurm:](#in-debian-bookwurm)
   - [Zenden](#zenden)
     - [op Debian Bullseye](#op-debian-bullseye)
@@ -50,7 +49,7 @@ Eerst installeer je op de Raspberry PI ghostwriter om makkelijk .md files zoals 
 ## Python versie controleren
 
 **pyhton --version**
-laat zien: python 3.9.2 is geinstalleerd. (8-2023)
+laat zien: python 3.11.2 is geinstalleerd. (10-2024)
  
 De folder structuur die we maken van het Python project:
 
@@ -62,9 +61,9 @@ De folder structuur die we maken van het Python project:
 
 Thonny schijnt een snelle editor te zijn op Raspberry Pi die gaan we voor dit project gebruiken.
 
-**sudo apt install thonny**
+**sudo apt install thonny** (pre installed on latest release)
 
-Als je rechtsboven aanklikt "use regular version" en Thonny herstart dan krijg je de versie met alle opties te zien.
+Als je rechtsboven aanklikt "switch to regular mode" en Thonny herstart dan krijg je de versie met alle opties te zien.
 
 vanaf de command line kun je dan bijvoorbeeld typen:  
 **thonny tests/tmpTest1.py**
@@ -79,9 +78,9 @@ of als de commandline parallel moet blijven werken:
 
 Je kunt met Python Virtual Environment (venv) een lichtgewicht geisoleerde Python omgeving maken. Installeer Python venv als volgt:
 
-**sudo apt-get install python3-venv**
+**sudo apt-get install python3-venv** (pre installed on latest release)
 
-cd naar je python project directory en creeer er dan de folder met de environment:
+cd naar je Python project (mijn_project) directory en creeer er dan de folder met de environment:
 
 **python3 -m venv myenv**
 
@@ -99,7 +98,7 @@ Je code uitvoeren:
 
 **python tests/tmpTest1.py**
 
-De venv weer verlaten kan eenvoudig met: **deactivate**
+  De venv weer verlaten kan eenvoudig met: **deactivate**
 
 Wat echt nodig is voor UART communicatie:
 
@@ -118,7 +117,7 @@ Kies vervolgens:
 
 **cat /boot/overlays/README**
 
-levert o.a. informatie over de UARTs , bij mijn rpi4:
+levert oonder andere informatie over de UARTs , bij mijn Raspberry Pi 4:
 
 ```
 Name:   uart0
@@ -166,13 +165,9 @@ Controleer de uart-gpio pin mapping voor je eigen boardje:
 
 **cat /proc/cpuinfo**
 
-Het kan zijn dat jouw Raspberry Pi 4 een andere versie te hebben: BM2835.  
+Het kan zijn dat jouw Raspberry Pi 4 een andere versie heeft: BM2835.  
 
 backup de config file:
-
-### In Debian Bullseye:
-**sudo cp /boot/config.txt /boot/config.txt.backup**  
-**sudo nano /boot/config.txt**
 
 ### in Debian Bookwurm:
 **sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup**  
