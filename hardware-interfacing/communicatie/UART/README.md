@@ -202,6 +202,10 @@ Controleer na het opstarten of het gelukt is met:
 
 Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
 
+Welke pinnen gebruikt worden kan je zien met (welke functie op welke pin in je huidige configuratie):
+
+**raspi-gpio get**
+
 ## Loop back test
 Je kunt een loop back test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
 
