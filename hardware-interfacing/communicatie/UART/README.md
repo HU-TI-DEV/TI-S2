@@ -49,7 +49,7 @@ Eerst installeer je op de Raspberry PI ghostwriter om makkelijk .md files zoals 
 
 ## Python versie controleren
 
-**pyhton --version**
+**python --version**
 laat zien: python 3.11.2 is geinstalleerd. (10-2024)
  
 De folder structuur die we maken van het Python project:
