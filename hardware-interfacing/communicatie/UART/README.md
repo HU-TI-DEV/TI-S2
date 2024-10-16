@@ -13,7 +13,7 @@
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
     - [in Debian Bookwurm:](#in-debian-bookwurm)
-  - [Loop back test](#loop-back-test)
+  - [Loopback test](#loopback-test)
   - [Zenden](#zenden)
     - [op Debian Bullseye](#op-debian-bullseye)
     - [op Debian Bookwurm](#op-debian-bookwurm)
@@ -95,15 +95,15 @@ Nu kun je pip install gebruiken:
 
 **pip install matplotlib**
 
+Wat echt nodig is voor UART communicatie:
+
+**pip install pyserial**
+
 Je code uitvoeren:
 
 **python tests/tmpTest1.py**
 
   De venv weer verlaten kan eenvoudig met: **deactivate**
-
-Wat echt nodig is voor UART communicatie:
-
-**pip install pyserial**
 
 Vervolgens de ingebouwde UART van de Raspberry Pi (uart0) inschakelen via:  
 
@@ -206,8 +206,8 @@ Welke pinnen gebruikt worden kan je zien met (welke functie op welke pin in je h
 
 **raspi-gpio get**
 
-## Loop back test
-Je kunt een loop back test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
+## Loopback test
+Je kunt een loopback test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
 
 ```python
 import serial
