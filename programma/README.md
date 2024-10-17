@@ -155,7 +155,7 @@ Week A8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | A8   | ma  |  Transistoren | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**) Darlington, ULN2003 lokaal HL15-3.090 tot 12.00 uur |
 | A8   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
 | A8   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project |  |
-| A8   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Herhaling UART, geruik van Logic Analyzer (**HS** & **HP**) |
+| A8   | do  | UART | Werken aan project | Herhaling UART, geruik van Logic Analyzer (**HS** & **HP**) |
 
 ### Onderwijsweek A9 (28-10-2024)
 
