@@ -34,6 +34,8 @@ curl -sSL https://get.docker.com | sh
 
 ### Docker parameters
 
+Je kunt een docker opstarten met verschillende parameters. Onderstaand een voorbeeld van een opstart-configuratie van een Docker voor een PostgreSQL database.
+
 Voorbeeld:
 ```bash
 sudo docker run --name postgres -d --restart unless-stopped -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v ${PWD}/data:/var/lib/postgresql/data postgres:16
