@@ -154,8 +154,8 @@ Week A8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 | --- | --- | --- | --- | --- |
 | A8   | ma  |  Transistoren | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**) Darlington, ULN2003 lokaal HL15-3.090 tot 12.00 uur |
 | A8   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
-| A8   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | Herhaling UART, gebruik van Logic Analyzer (**HS** & **HP**) |
-| A8   | do  | UART | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**BB, MV**) |
+| A8   | wo  | ART | Herhaling UART, gebruik van Logic Analyzer (**HP**) |
+| A8   | do  | Oscilloscoop | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**BB, MV**) |
 
 ### Onderwijsweek A9 (28-10-2024)
 
@@ -175,7 +175,7 @@ Week A10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 | --- | --- | --- | --- | --- |
 | A10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project |  |
 | A10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur.md) (**HS**) & C++ opdrachten feedback (**GP**)|
-| A10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**BB, MV**) |
+| A10  | wo  | Oscilloscoop | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**BB, MV**) |
 | A10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**BB, MV**)   |
 
 ### Onderwijsweek B1 (11-11-2024)
@@ -184,9 +184,9 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**)      |
-| B1   | di  |     | Werken aan project     | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**) |
-| B1   | wo  |     | Werken aan project  | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) |
+| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**)      |
+| B1   | di  |     | Werken aan project | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**) |
+| B1   | wo  |     | Werken aan project | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) |
 | B1   | do  |     | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) & [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
 
 
