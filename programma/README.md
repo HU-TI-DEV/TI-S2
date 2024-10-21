@@ -152,9 +152,9 @@ Week A8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A8   | ma  |  Transistoren | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**) Darlington, ULN2003 lokaal HL15-3.090 tot 12.00 uur |
+| A8   | ma  | Transistoren | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**) Darlington, ULN2003 lokaal HL15-3.090 tot 12.00 uur |
 | A8   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
-| A8   | wo  | ART | Herhaling UART, gebruik van Logic Analyzer (**HP**) |
+| A8   | wo  | UART | Werken aan project | Herhaling UART, gebruik van Logic Analyzer (**HP**)
 | A8   | do  | Oscilloscoop | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**BB, MV**) |
 
 ### Onderwijsweek A9 (28-10-2024)
