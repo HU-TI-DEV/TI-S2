@@ -16,6 +16,10 @@ Daarnaast hebben jullie nu een werkende [Docker](../../infrastructuur/Docker/REA
 
 Opdracht: Sluit een temperatuur-sensor aan op een Arduino Uno. Zet een UART communicatie op via de Raspberry Pi en sla de data op in een database. Post de laatste sensor uitlezing op MQTT. Maak eventueel een eenvoudige website met Flask of een dashboard via Node-Red. 
 
+UML Daigram
+
+![Diagram](./files/Flask_workshop.drawio.svg)
+
 ## Portfolio-Tip
 
 De komende dagen verzinnen en maken jullie zelf een oplossing met behulp van bovenstaande software paketten. Bijvoorbeeld:
