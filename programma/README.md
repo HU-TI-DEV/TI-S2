@@ -173,8 +173,8 @@ Week A10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Flask](./lesprogramma/programma-infrastructuur.md) (**HS**) van 9.00 uur tot 12.00 uur HL15-3.096 |
-| A10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | C++ opdrachten feedback (**GP**)|
+| A10  | ma  | Flask |  Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) van 9.00 uur tot 12.00 uur HL15-3.096 |
+| A10  | di  | C++ | Werken aan project | C++ opdrachten feedback (**GP**)|
 | A10  | wo  | Oscilloscoop | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**BB, MV**) |
 | A10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**BB, MV**)   |
 
