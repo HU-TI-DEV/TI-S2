@@ -10,7 +10,7 @@ Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/em
 ## Dit hebben we in een vorige les gedaan
 
 Jullie hebben een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi geinstalleerd. 
-Daarnaast hebben jullie nu een werkende [Docker](../../infrastructuur/Docker/README.md) emet de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
+Daarnaast hebben jullie nu een werkende [Docker](../../infrastructuur/Docker/README.md) met de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
 ## Tijdens de les
 

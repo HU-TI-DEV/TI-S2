@@ -158,7 +158,7 @@ mkdir node_red_data
 ```
 
 ```bash
-docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/node_red_data nodered/node-red
+docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/data nodered/node-red
 ```
 
 De grafische gebruikersinterfacekan je nu met een browser bereiken op http://<your host ip adress>:1880
