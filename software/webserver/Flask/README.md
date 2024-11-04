@@ -64,7 +64,7 @@ Als het goed is heb je nu een eerste applicatie gemaakt. Navigeer met je browser
 
 ## Docker image
 
-Maak een [Docker](../../../infrastructuur/Docker/README.md) image aan voor je applicatie. Voeg onderstaand toe aan een bestand Docker.
+Maak een [Docker](../../../infrastructuur/Docker/README.md) image aan voor je applicatie. Voeg onderstaand toe aan een Dockerfile een bestand met de naam 'Dockerfile' zonder extensie (gebruik nano of vi om het bestand te maken).
 ```bash
 FROM python:3.9.2
 WORKDIR /code
