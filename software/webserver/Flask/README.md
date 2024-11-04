@@ -60,7 +60,7 @@ Controleer of je applicatie werkt.
 (venv)$ python flaskApp.py 
 ```
 
-Als het goed is heb je nu een eerste applicatie gemaakt. Navigeer met je browser naar http://<your hostname or ip>:5000
+Als het goed is heb je nu een eerste applicatie gemaakt. Navigeer met je browser naar http://< your hostname or ip >:5000
 
 ## Docker image
 
