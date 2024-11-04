@@ -184,7 +184,7 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**)      |
+| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**) lokaal HL15-5.094 |
 | B1   | di  |     | Werken aan project | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**) |
 | B1   | wo  |     | Werken aan project | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) |
 | B1   | do  |     | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) & [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
@@ -196,7 +196,7 @@ Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**) |
+| B2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**) lokaal HL7-0.060 **ander gebouw!** |
 | B2   | di  |     | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**) |
 | B2   | wo  |     |  Werken aan project | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**) |
 | B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
@@ -208,7 +208,7 @@ Week B3. We beginnen deze week met een workshop Datasheet lezen en in verschille
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B3   | ma  | Datasheet lezen | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**)      |
+| B3   | ma  | Datasheet lezen | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**) lokaal HL15-5.094 |
 | B3   | di  | Datasheet lezen | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**HP**) |
 | B3   | wo  | Datasheet lezen | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174) |
 | B3   | do  | Schrijven van je eigen library en applicatie | | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB, MV**) |
@@ -220,7 +220,7 @@ Week B4. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expandser practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**)    | 
+| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expandser practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) lokaal HL15-5.094 | 
 | B4   | di  |     | Werken aan project | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**GP**)  |
 | B4   | wo  |     | Werken aan project |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) |
 | B4   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**)     |
@@ -231,7 +231,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**)   |
+| B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**) lokaal HL15-5.094  |
 | B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) |
 | B5   | wo  | |  Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
 | B5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)     |
@@ -241,7 +241,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B6   | ma  |     | Werken aan project | [Talking Servos 2](./lesprogramma/programma-talking-servos-2.md) (**BB, MV**)    |
+| B6   | ma  |     | Werken aan project | [Talking Servos 2](./lesprogramma/programma-talking-servos-2.md) (**BB, MV**) lokaal HL15-5.094 |
 | B6   | di  |     | Werken aan project | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**),  |
 | B6   | wo  |     | Werken aan project | Library en applicatie feedback (**GP**)     |
 | B6   | do  |     | Werken aan project | C++ herhaling / verdieping (**GP**)     |
@@ -272,7 +272,7 @@ Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als t
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**)|
+| B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**) lokaal HL15-5.094 |
 | B9   | di  |     | Werken aan project     | Library en applicatie feedback |
 | B9   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback |
 | B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |   [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie tba) aanwezig om 9.00 uur. Opening om 9.30 uur. Koffie en 10.30| Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing   |
