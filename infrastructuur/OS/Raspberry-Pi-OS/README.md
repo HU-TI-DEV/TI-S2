@@ -161,7 +161,7 @@ mkdir node_red_data
 docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/data nodered/node-red
 ```
 
-De grafische gebruikersinterfacekan je nu met een browser bereiken op http://<your host ip adress>:1880
+De grafische gebruikersinterface kan je nu met een browser bereiken op http://< your host ip adress >:1880
 
 ### Flask
 
