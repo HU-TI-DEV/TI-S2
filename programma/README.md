@@ -184,10 +184,10 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**) lokaal HL15-5.094 |
-| B1   | di  |     | Werken aan project | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**) |
-| B1   | wo  |     | Werken aan project | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) |
-| B1   | do  |     | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) & [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
+| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) lokaal HL15-5.094 |
+| B1   | di  |     | Werken aan project | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**) |
+| B1   | wo  |     | Werken aan project | [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**, **HP**)  |
+| B1   | do  |     | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) |
 
 
 ### Onderwijsweek B2 (18-11-2024)
