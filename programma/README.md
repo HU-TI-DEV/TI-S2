@@ -192,7 +192,7 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 ### Onderwijsweek B2 (18-11-2024)
 
-Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. Dit is de laatste week voor de vakantie en we ronden sprint 4 af van het project. 
+Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
