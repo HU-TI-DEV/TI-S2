@@ -192,11 +192,11 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 ### Onderwijsweek B2 (18-11-2024)
 
-Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. 
+Week B2. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. We gaan ook verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B2   | ma  |     | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**) lokaal HL7-0.060 **ander gebouw!** |
+| B2   | ma  | Datasheet lezen | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**) lokaal HL7-0.060 **ander gebouw!** |
 | B2   | di  |     | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**) |
 | B2   | wo  |     |  Werken aan project | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**) |
 | B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**)  |
@@ -204,13 +204,13 @@ Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 m
 
 ### Onderwijsweek B3 (25-11-2024)
 
-Week B3. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voor een sensor. Aan het eind van de week lever je een Plan van Aanpak in voor het schrijven van je eigen library voor een zelf geselecteerde sensor.
+Week B3. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voor een sensor. Aan het eind van de week lever je een Plan van Aanpak in voor het schrijven van je eigen library voor een zelf geselecteerde sensor.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B3   | ma  | Datasheet lezen | Werken aan project     | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) lokaal HL15-5.094 |
+| B3   | ma  | Servo Controller | Werken aan project     | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) lokaal HL15-5.094 |
 | B3   | di  | Datasheet lezen | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**HP**) |
-| B3   | wo  | Datasheet lezen | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174) |
+| B3   | wo  | Schrijven van je eigen library en applicatie | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174) |
 | B3   | do  | Schrijven van je eigen library en applicatie | | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB, MV**) |
 
 
