@@ -208,9 +208,9 @@ Week B3. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B3   | ma  | Servo Controller | Werken aan project     | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) lokaal HL15-5.094 |
+| B3   | ma  | Servo Controller | Werken aan project     | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) support klassendiagrammen (**HP**) lokaal HL15-5.094 |
 | B3   | di  | Datasheet lezen | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
-| B3   | wo  | Schrijven van je eigen library en applicatie | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174) (**HP**) |
+| B3   | wo  | Schrijven van je eigen library en applicatie | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174) Feedback (**HP**) |
 | B3   | do  | Schrijven van je eigen library en applicatie | | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB, MV**) |
 
 
