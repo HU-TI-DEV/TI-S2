@@ -17,7 +17,7 @@ Wat hebben we nodig:
 - 3 verschillende kleuren ledjes<br>
 - 3 voorschakelweerstanden voor de ledjes (kun je zelf de waarde berekenen?)<br>
 - 2 knopjes<br>
-- 2 pull up weerstanden voor de weerstanden<br>
+- 2 pull up weerstanden voor de knopjes<br>
 
 ### We gaan een stoplicht nabouwen. <br>
 Het stoplicht zal normaal op groen staan. <br>
@@ -27,8 +27,8 @@ Het stoplicht staat normaal op groen. Als op knopje A wordt gedrukt moet het sto
 Als knopje B wordt ingedrukt moet hij (het is een duits stoplicht) van rood -> knipperend rood & orange/geel -> groen gaan.<br>
 
 1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen.
-2) Maak de opstelling .
-3) Maak de Class(es)
+2) Maak de opstelling.
+3) Maak de Class(es).
 4) Check met je diagram.
 5) Testen!  
 
