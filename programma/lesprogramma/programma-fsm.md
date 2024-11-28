@@ -11,7 +11,26 @@ In deze les gaan we ontdekken dat we door toepassing van het FSM-paradigma op ee
 
 ## Tijdens de les
 
-Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
+Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:<br>
+Wat hebben we nodig:
+- breadboard & jumper wires <br>
+- 3 verschillende kleuren ledjes<br>
+- 3 voorschakelweerstanden voor de ledjes (kun je zelf de waarde berekenen?)<br>
+- 2 knopjes<br>
+- 2 pull up weerstanden voor de weerstanden<br>
+
+### We gaan een stoplicht nabouwen. <br>
+Het stoplicht zal normaal op groen staan. <br>
+Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.<br>
+Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat. <br>
+Het stoplicht staat normaal op groen. Als op knopje A wordt gedrukt moet het stoplicht van groen -> oranje/geel -> rood gaan. Dan moet hij op rood blijven staan.<br>
+Als knopje B wordt ingedrukt moet hij (het is een duits stoplicht) van rood -> knipperend rood & orange/geel -> groen gaan.<br>
+
+1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen.
+2) Maak de opstelling .
+3) Maak de Class(es)
+4) Check met je diagram.
+5) Testen!  
 
 
 
