@@ -13,8 +13,7 @@ In deze les gaan we ontdekken dat we door toepassing van het FSM-paradigma op ee
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- Maak de opdrachten 7.1 tm 7.4 op bladzijde 22 van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf)    
-- Maak optioneel nog een of meer van de daarop volgende opdrachten.
+
 
 ### Canvas
 - Lever het resultaat in op de Canvas entry voor deze opdracht.   
