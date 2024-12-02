@@ -221,7 +221,7 @@ Week B4. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) lokaal HL15-5.094 | 
-| B4   | di  |     | SDG workshop begint om 13.00 uur | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**GP**)  |
+| B4   | di  |     | SDG workshop begint om 13.00 uur | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**HS**)  |
 | B4   | wo  |     | Werken aan project |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) |
 | B4   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ feedback en werken aan verantwoordingsdocument(**GP** en **HP**)     |
 
