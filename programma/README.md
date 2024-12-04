@@ -268,15 +268,15 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 ### Onderwijsweek B9 (6-1-2025)
 
-Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit donderdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren (lokatie tba). Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. 
+Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit vrijdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren bij de opdrachtgever Padualaan 101. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**) lokaal HL15-5.094 |
 | B9   | di  |     | Werken aan project     | Library en applicatie feedback |
 | B9   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback |
-| B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |   [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie tba) aanwezig om 9.00 uur. Opening om 9.30 uur. Koffie en 10.30| Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing   |
-| B9   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
+| B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing   |
+| B9   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) | [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie PL101) aanwezig om 9.00 uur. Opening om 9.30 uur. Afbreken en opruimen om 11.00 uur. |
 
 ### Onderwijsweek B10 (13-1-2025)
 
