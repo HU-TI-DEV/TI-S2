@@ -232,7 +232,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**) lokaal HL15-5.094  |
-| B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) |
+| B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) van 13.00 tot 16.00 uur HL15-1.096. |
 | B5   | wo  | |  Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
 | B5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)     |
 | B5 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
