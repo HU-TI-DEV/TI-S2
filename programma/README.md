@@ -273,7 +273,7 @@ Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als t
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
 | B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**) lokaal HL15-5.094 |
-| B9   | di  |     | Werken aan project     | Library en applicatie feedback |
+| B9   | di  |     | Werken aan project     | Fusion 360 (**TM**), Library en applicatie feedback (**GP**, **HP**) |
 | B9   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback |
 | B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing   |
 | B9   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) | [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie PL101) aanwezig om 9.00 uur. Opening om 9.30 uur. Afbreken en opruimen om 11.00 uur. |
