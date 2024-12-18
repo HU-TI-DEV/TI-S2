@@ -244,7 +244,7 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 | B6   | ma  |     | Werken aan project | [Talking Servos 2](./lesprogramma/programma-talking-servos-2.md) (**BB, MV**) lokaal HL15-5.094 |
 | B6   | di  |     | Werken aan project | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**),  |
 | B6   | wo  |     | Werken aan project | Library en applicatie feedback (**GP**)     |
-| B6   | do  |     | Werken aan project | Library en applicatie    |
+| B6   | do  |     | Werken aan project | Library en applicatie (**HP**)   |
 
 ### Onderwijsweek B7 (23-12-2024)
 
