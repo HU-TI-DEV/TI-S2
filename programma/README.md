@@ -284,7 +284,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen e
 
 | Week | Dag | Thema     | 
 | --- | --- | --- | 
-| B10  | ma  | **Eindbeoordeling** |  
+| B10  | ma  | 9-12u assessments library en application (HP, GP) **Eindbeoordeling** |  
 | B10  | di  | **Eindbeoordeling** |    
 | B10  | wo  | **Eindbeoordeling** |    
 | B10  | do  | **Eindbeoordeling** |   
