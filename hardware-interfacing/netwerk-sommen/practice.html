@@ -33,7 +33,11 @@
   <br>
   <button onclick="generateLinks()">Generate Links</button>
   <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
-  <a id="higherResultLink" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink2" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink3" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
 
   <script>
     function generateLinks() {
@@ -41,19 +45,47 @@
       const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice_0_";
       
       const formattedNumber = number.toString().padStart(5, '0');
-      const higherNumber = (number + 100).toString().padStart(5, '0');
+      const Number2 = (number + 100).toString().padStart(5, '0');
+      const Number3 = (number + 100).toString().padStart(5, '0');
+      const Number4 = (number + 100).toString().padStart(5, '0');
+      const Number5 = (number + 100).toString().padStart(5, '0');
+      const Number6 = (number + 100).toString().padStart(5, '0');
 
       // First link
       const resultLink = document.getElementById('resultLink');
       resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
-      resultLink.textContent = `Bereken weerstand, simpel   : ${baseUrl}${formattedNumber}.jpg`;
+      resultLink.textContent = `1) Bereken de stroom, simpel     : ${baseUrl}${formattedNumber}.jpg`;
       resultLink.style.display = 'block';
 
       // Second link (100 higher)
-      const higherResultLink = document.getElementById('higherResultLink');
-      higherResultLink.href = `${baseUrl}${higherNumber}.jpg`;
-      higherResultLink.textContent = `View Image (+100): ${baseUrl}${higherNumber}.jpg`;
-      higherResultLink.style.display = 'block';
+      const resultLink2 = document.getElementById('higherResultLink');
+      resultLink2.href = `${baseUrl}${higherNumber}.jpg`;
+      resultLink2.textContent = `2) Bereken de weerstand, simpel : ${baseUrl}${Number2}.jpg`;
+      resultLink2.style.display = 'block';
+
+      // Second link (100 higher)
+      const resultLink3 = document.getElementById('higherResultLink');
+      resultLink3.href = `${baseUrl}${higherNumber}.jpg`;
+      resultLink3.textContent = `3) Bereken de spanning, simpel  : ${baseUrl}${Number3}.jpg`;
+      resultLink3.style.display = 'block';
+
+      // Second link (100 higher)
+      const resultLink4 = document.getElementById('higherResultLink');
+      resultLink4.href = `${baseUrl}${higherNumber}.jpg`;
+      resultLink4.textContent = `4) View Image (+100): ${baseUrl}${Number4}.jpg`;
+      resultLink4.style.display = 'block';
+
+      // Second link (100 higher)
+      const resultLink5 = document.getElementById('higherResultLink');
+      resultLink5.href = `${baseUrl}${higherNumber}.jpg`;
+      resultLink5.textContent = `5) View Image (+100): ${baseUrl}${Number5}.jpg`;
+      resultLink5.style.display = 'block';
+
+      // Second link (100 higher)
+      const resultLink6 = document.getElementById('higherResultLink');
+      resultLink6.href = `${baseUrl}${higherNumber}.jpg`;
+      resultLink6.textContent = `6) View Image (+100): ${baseUrl}${Number6}.jpg`;
+      resultLink6.style.display = 'block';
     }
   </script>
 </body>
