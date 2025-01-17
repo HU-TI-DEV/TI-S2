@@ -27,3 +27,7 @@ Kijk eventueel alvast de volgende videos:
 ## Na de les
 
 Bestudeer bovenstaande stof nog eens en controleer voor jezelf of alles nu duidelijk is.
+
+
+## TEST VAN BART
+https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/index.html
