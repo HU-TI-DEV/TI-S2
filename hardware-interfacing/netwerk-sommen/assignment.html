@@ -55,7 +55,6 @@
   </style>
 </head>
 <body>
-  <div class="container">
     <h1>Netwerk sommen opdracht</h1>
     <p>Type de laatste 3 cijfers van je studentennummer:</p>
     <input type="number" id="numberInput" placeholder="Enter a number (0-1000)" />
@@ -69,10 +68,10 @@
     <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
     <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
     <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
-  </div>
 
   <script>
-    function generateLink() {
+    function generateLink() 
+    {
       // Get input value
       const numberInput = document.getElementById('numberInput').value;
       const errorMessage = document.getElementById('errorMessage');
@@ -87,7 +86,7 @@
       if (isNaN(number) || number < 0 || number > 1000) {
           errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
           return;
-      }
+      
 
       // Perform calculation
       const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
