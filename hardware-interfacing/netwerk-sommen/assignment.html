@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,48 +58,46 @@
   <div class="container">
     <h1>Netwerk sommen opdracht</h1>
     <p>Type de laatste 3 cijfers van je studentennummer:</p>
-      <input type="number" id="numberInput" placeholder="Enter a number (0-1000)" />
-      <br />
-      <button onclick="generateLink()">Generate Links</button>
-      <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
-      <a id="resultLink2" href="#" target="_blank" style="display:none;"></a>
-      <a id="resultLink3" href="#" target="_blank" style="display:none;"></a>
-      <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
-      <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
-      <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
-        <div class="error" id="errorMessage"></div>
-      <div class="result" id="resultMessage"></div>
+    <input type="number" id="numberInput" placeholder="Enter a number (0-1000)" />
+    <br />
+    <button onclick="generateLink()">Generate Links</button>
+    <div class="error" id="errorMessage"></div>
+    <div class="result" id="resultMessage"></div>
+    <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink2" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink3" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
   </div>
 
   <script>
-    function  {
-          // Get input value
-          const numberInput = document.getElementById('numberInput').value;
-          const errorMessage = document.getElementById('errorMessage');
-          const resultMessage = document.getElementById('resultMessage');
+    function generateLink() {
+      // Get input value
+      const numberInput = document.getElementById('numberInput').value;
+      const errorMessage = document.getElementById('errorMessage');
+      const resultMessage = document.getElementById('resultMessage');
 
-          // Clear previous messages
-          errorMessage.textContent = '';
-          resultMessage.textContent = '';
+      // Clear previous messages
+      errorMessage.textContent = '';
+      resultMessage.textContent = '';
 
-          // Validate input
-          const number = parseFloat(numberInput);
-          if (isNaN(number) || number < 0 || number > 1000) {
-              errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
-              return;
-          }
+      // Validate input
+      const number = parseFloat(numberInput);
+      if (isNaN(number) || number < 0 || number > 1000) {
+          errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
+          return;
+      }
 
-          // Perform calculation
-          const result = (number * 3) % 100;
-          resultMessage.textContent = `Result: ${result}`;
+      // Perform calculation
       const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
-      
-      const formattedNumber = number.toString().padStart(5, '0');
-      const Number2 = (number + 100).toString().padStart(5, '0');
-      const Number3 = (number + 200).toString().padStart(5, '0');
-      const Number4 = (number + 300).toString().padStart(5, '0');
-      const Number5 = (number + 400).toString().padStart(5, '0');
-      const Number6 = (number + 500).toString().padStart(5, '0');
+
+      const formattedNumber = number.toString().padStart(3, '0');
+      const Number2 = (number + 100).toString().padStart(3, '0');
+      const Number3 = (number + 200).toString().padStart(3, '0');
+      const Number4 = (number + 300).toString().padStart(3, '0');
+      const Number5 = (number + 400).toString().padStart(3, '0');
+      const Number6 = (number + 500).toString().padStart(3, '0');
 
       const resultLink = document.getElementById('resultLink');
       resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
@@ -130,8 +129,6 @@
       resultLink6.textContent = `6) Bereken de stroom`;
       resultLink6.style.display = 'block';
     }
-    </script>
+  </script>
 </body>
 </html>
-
-
