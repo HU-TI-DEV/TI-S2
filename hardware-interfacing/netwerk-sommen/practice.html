@@ -46,8 +46,9 @@
       const resultLink = document.getElementById('resultLink');
       
       if (number) {
-        resultLink.href = `${baseUrl}${number}.jpg`;
-        resultLink.textContent = `Visit ${baseUrl}${number}.jpg`;
+        formattedNumber = number.toString().padStart(5, '0');
+        resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
+        resultLink.textContent = `Visit ${baseUrl}${formattedNumber}.jpg`;
         resultLink.style.display = 'block';
       } else {
         resultLink.style.display = 'none';
