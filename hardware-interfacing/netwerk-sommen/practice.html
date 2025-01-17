@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oefenen Netwerksommen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input[type="number"] {
+      padding: 10px;
+      width: 200px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oefenen met netwerk-sommen</h1>
+  <br>
+  <button onclick="generateLink()">Generate Links</button>
+  <a id="resultLink" href="#" target="_blank" style="display:none;">Visit Generated Website</a>
+
+  <script>
+    function generateLink() {
+      const randomNumber = Math.floor(Math.random() * (101));
+      const number = document.getElementById('numberInput').value;
+      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice_0_"; // Replace with your base URL
+      const resultLink = document.getElementById('resultLink');
+      
+      if (number) {
+        resultLink.href = `${baseUrl}${number}.jpg`;
+        resultLink.textContent = `Visit ${baseUrl}${number}.jpg`;
+        resultLink.style.display = 'block';
+      } else {
+        resultLink.style.display = 'none';
+        alert("Please enter a valid number.");
+      }
+    }
+  </script>
+</body>
+</html>
