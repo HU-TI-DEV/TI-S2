@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number to Website Link Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input[type="number"] {
+      padding: 10px;
+      width: 200px;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Number to Website Link Generator</h1>
+  <p>Enter a number to generate a link:</p>
+  <input type="number" id="numberInput" placeholder="Enter a number">
+  <br>
+  <button onclick="generateLink()">Generate Link</button>
+  <a id="resultLink" href="#" target="_blank" style="display:none;">Visit Generated Website</a>
+
+  <script>
+    function generateLink() {
+      const number = document.getElementById('numberInput').value;
+      const baseUrl = "https://example.com/page/"; // Replace with your base URL
+      const resultLink = document.getElementById('resultLink');
+      
+      if (number) {
+        resultLink.href = `${baseUrl}${number}`;
+        resultLink.textContent = `Visit ${baseUrl}${number}`;
+        resultLink.style.display = 'block';
+      } else {
+        resultLink.style.display = 'none';
+        alert("Please enter a valid number.");
+      }
+    }
+  </script>
+</body>
+</html>
