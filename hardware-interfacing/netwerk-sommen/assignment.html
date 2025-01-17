@@ -72,8 +72,7 @@
 
       // Validate input
       const number2 = parseFloat(numberInput);
-      const number = (number2 * 3) % 100;
-      if (isNaN(number) || number < 0 || number > 1000) {
+      if (isNaN(number2) || number2 < 0 || number2 > 1000) {
           errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
           return;}
       
@@ -81,6 +80,7 @@
       // Perform calculation
       const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
 
+      const number = (number2 * 3) % 100;
       const formattedNumber = number.toString().padStart(5, '0');
       const Number2 = (number + 100).toString().padStart(5, '0');
       const Number3 = (number + 200).toString().padStart(5, '0');
