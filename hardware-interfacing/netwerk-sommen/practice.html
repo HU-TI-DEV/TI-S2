@@ -10,11 +10,6 @@
       text-align: center;
       padding: 50px;
     }
-    input[type="number"] {
-      padding: 10px;
-      width: 200px;
-      font-size: 16px;
-    }
     button {
       padding: 10px 20px;
       font-size: 16px;
@@ -36,25 +31,31 @@
 <body>
   <h1>Oefenen met netwerk-sommen</h1>
   <br>
-  <button onclick="generateLink()">Generate Links</button>
-  <a id="resultLink" href="#" target="_blank" style="display:none;">Visit Generated Website</a>
+  <button onclick="generateLinks()">Generate Links</button>
+  <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
+  <a id="higherResultLink" href="#" target="_blank" style="display:none;"></a>
 
   <script>
-    function generateLink() {
-      const number = Math.floor(Math.random() * (101));
-      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice_0_"; // Replace with your base URL
-      const resultLink = document.getElementById('resultLink');
+    function generateLinks() {
+      const number = Math.floor(Math.random() * 101); // Random number between 0 and 100
+      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice_0_";
       
-      if (number) {
-        formattedNumber = number.toString().padStart(5, '0');
-        resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
-        resultLink.textContent = `Visit ${baseUrl}${formattedNumber}.jpg`;
-        resultLink.style.display = 'block';
-      } else {
-        resultLink.style.display = 'none';
-        alert("Please enter a valid number.");
-      }
+      const formattedNumber = number.toString().padStart(5, '0');
+      const higherNumber = (number + 100).toString().padStart(5, '0');
+
+      // First link
+      const resultLink = document.getElementById('resultLink');
+      resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
+      resultLink.textContent = `Bereken weerstand, simpel   : ${baseUrl}${formattedNumber}.jpg`;
+      resultLink.style.display = 'block';
+
+      // Second link (100 higher)
+      const higherResultLink = document.getElementById('higherResultLink');
+      higherResultLink.href = `${baseUrl}${higherNumber}.jpg`;
+      higherResultLink.textContent = `View Image (+100): ${baseUrl}${higherNumber}.jpg`;
+      higherResultLink.style.display = 'block';
     }
   </script>
 </body>
 </html>
+

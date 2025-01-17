@@ -31,4 +31,3 @@ Bestudeer bovenstaande stof nog eens en controleer voor jezelf of alles nu duide
 
 ## TEST VAN BART
 https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html
-https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html
