@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netwerk sommen opdracht</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    input[type="number"] {
+        padding: 10px;
+        font-size: 16px;
+        width: 200px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    .error, .result {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .error {
+        color: red;
+    }
+    .result {
+        color: green;
+    }
+    .result img {
+        margin-top: 10px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Netwerksommen opdracht</h1>
+  <p>Type de laatste 3 cijfers van je studentennummer:</p>
+  <input type="number" id="numberInput" placeholder="Enter a number (0-1000)" />
+  <br>
+  <button onclick="generateImages()">Generate Images</button>
+  <br>
+  <div class="error" id="errorMessage"></div><br>
+  <div class="result" id="resultMessage"></div><br>
+  <br>
+  <p>
+    Upload de uitwerkingen van de sommen (handgeschreven op papier) naar canvas. Label de sommen duidelijk met 1 t/m 6. De docenten hebben van alle sommen de uitwerkingen. <br> 
+  </p>
+
+  <script>
+    function generateImages() {
+      // Get input value
+      const numberInput = document.getElementById('numberInput').value;
+      const errorMessage = document.getElementById('errorMessage');
+      const resultMessage = document.getElementById('resultMessage');
+
+      // Clear previous messages
+      errorMessage.textContent = '';
+      resultMessage.innerHTML = ''; // Clear previous images
+
+      // Validate input
+      const number2 = parseFloat(numberInput);
+      if (isNaN(number2) || number2 < 0 || number2 > 1000) {
+        errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
+        return;
+      }
+
+      // Perform calculation
+      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
+
+      const number = (56 + number2) % 83;
+      const formattedNumber = number.toString().padStart(5, '0');
+      const Number2 = (number * 2 + 400).toString().padStart(5, '0');
+      const Number3 = (number + 100).toString().padStart(5, '0');
+      const Number4 = (number + 300).toString().padStart(5, '0');
+      const Number5 = (number + 250).toString().padStart(5, '0');
+      const Number6 = (number + 200).toString().padStart(5, '0');
+
+      const imageUrls = [
+        `${baseUrl}${formattedNumber}.jpg`,
+        `${baseUrl}${Number2}.jpg`,
+        `${baseUrl}${Number3}.jpg`,
+        `${baseUrl}${Number4}.jpg`,
+        `${baseUrl}${Number5}.jpg`,
+        `${baseUrl}${Number6}.jpg`
+      ];
+
+      const descriptions = [
+        'Opgave 1',
+        'Opgave 2',
+        'Opgave 3',
+        'Opgave 4',
+        'Opgave 5',
+        'Opgave 6'
+      ];
+
+      imageUrls.forEach((url, index) => {
+        const img = document.createElement('img');
+        img.src = url;
+        img.alt = descriptions[index];
+        resultMessage.appendChild(img);
+
+        const desc = document.createElement('p');
+        desc.textContent = descriptions[index];
+        resultMessage.appendChild(desc);
+      });
+    }
+  </script>
+</body>
+</html>
+
