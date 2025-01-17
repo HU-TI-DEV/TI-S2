@@ -72,6 +72,7 @@
 
       // Validate input
       const number = parseFloat(numberInput);
+      number = (number * 3) % 100;
       if (isNaN(number) || number < 0 || number > 1000) {
           errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
           return;}
