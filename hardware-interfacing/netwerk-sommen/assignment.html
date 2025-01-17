@@ -81,12 +81,12 @@
       // Perform calculation
       const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
 
-      const formattedNumber = number.toString().padStart(3, '0');
-      const Number2 = (number + 100).toString().padStart(3, '0');
-      const Number3 = (number + 200).toString().padStart(3, '0');
-      const Number4 = (number + 300).toString().padStart(3, '0');
-      const Number5 = (number + 400).toString().padStart(3, '0');
-      const Number6 = (number + 500).toString().padStart(3, '0');
+      const formattedNumber = number.toString().padStart(5, '0');
+      const Number2 = (number + 100).toString().padStart(5, '0');
+      const Number3 = (number + 200).toString().padStart(5, '0');
+      const Number4 = (number + 300).toString().padStart(5, '0');
+      const Number5 = (number + 400).toString().padStart(5, '0');
+      const Number6 = (number + 500).toString().padStart(5, '0');
 
       const resultLink = document.getElementById('resultLink');
       resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
