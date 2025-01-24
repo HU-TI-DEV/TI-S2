@@ -3,14 +3,14 @@
 
 ### Inhoud[](toc-id)
 - [Sprint doel](#sprint-doel)
+- [Sprint planning](#sprint-planning)
+  - [Feedback teambegeleider](#feedback-teambegeleider)
 - [Daily Scrum](#daily-scrum)
 - [Sprint review](#sprint-review)
   - [Feedback teambegeleider/ Product owner](#feedback-teambegeleider-product-owner)
   - [Persoonlijke reflectie](#persoonlijke-reflectie)
   - [Peer Assessment](#peer-assessment)
 - [Sprint retrospective](#sprint-retrospective)
-  - [Feedback teambegeleider](#feedback-teambegeleider)
-- [Sprint planning](#sprint-planning)
   - [Feedback teambegeleider](#feedback-teambegeleider-1)
 
 
@@ -24,16 +24,30 @@
 ## Sprint doel
     geef hier een korte samenvatting van het doel van de sprint. Als er meerdere doelen zijn schrijf deze dan op in bullet points. 
 
+## Sprint planning 
+    Datum :    xx -xx - xxxx
+    Afwezig:
+    Link naar het scrumboard:
+    
+    Beschikbare capaciteit: <xx> uren. Waarom hoger / lager dan eerdere sprint(s)? 
+    Het sprintdoel voor de komende sprint is: 
+    
+    De referentietaak is < > met waarde < > 
+    Totaal aantal gepokerde punten voor komende sprint: 
+
+### Feedback teambegeleider
+
 ## Daily Scrum
 
-  |  Datum: |  Afwezig: |  blokkades in bullet points |
-  |  --- | --- | --- |
-  |  --- | --- | --- |
-  |  --- | --- | --- |
+  |  Datum: |  Afwezig: |  Taken niet af: | blokkades in bullet points |
+  |  --- | --- | --- | --- |
+  |  --- | --- | --- | --- |
+  |  --- | --- | --- | --- |
 
 ## Sprint review
     Datum:      xx - xx - xxxx
     Resultaat in bullet points. Welke story's gehaald welke niet.
+    Verklaring van de blokkades en de oplossingsrichting. 
     Link naar de presentatie.
     Eventueel in overleg de definition of done aanpassen,
 
@@ -67,15 +81,4 @@ Het bepalen van de feedback gebeurt met de student in kwestie er bij (die mag oo
 ### Feedback teambegeleider
     Deze kan je voor of na de retro vragen. 
 
-## Sprint planning 
-    Datum :    xx -xx - xxxx
-    Afwezig:
-    Link naar het scrumboard:
-    
-    Beschikbare capaciteit: <xx> uren. Waarom hoger / lager dan eerdere sprint(s)? 
-    Het sprintdoel voor de komende sprint is: 
-    
-    De referentietaak is < > met waarde < > 
-    Totaal aantal gepokerde punten voor komende sprint: 
 
-### Feedback teambegeleider
