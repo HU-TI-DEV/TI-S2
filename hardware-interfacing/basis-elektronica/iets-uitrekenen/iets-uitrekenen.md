@@ -52,7 +52,7 @@ breuk = $\Large \frac{teller}{noemer}\normalsize $
 
 **"Teller keer teller** en **noemer keer noemer"**  
 
-$\Large \frac{2}{5}\normalsize  \small \bullet \normalsize \Large \frac{3}{4}\normalsize  = \Large \frac{6}{20}\normalsize $
+$\frac{2}{5} \bullet  \frac{3}{4}  = \frac{6}{20} $
 
 NB: een geheel getal is ook te schrijven als een breuk:
 $2 = \Large \frac{2}{1}\normalsize $    

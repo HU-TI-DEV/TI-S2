@@ -45,8 +45,6 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 ### Organisatie
 
 De contacturen zijn:
-
-De contacturen zijn:
 |dag|van|tot|
 |---|---|---|
 |ma|9:00|13:00|
@@ -107,7 +105,7 @@ Week A4. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB, MV**), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**)        |
+| A4   | ma  | Elektrisch netwerk | Werken aan project     | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HS**) in lokaal HL15-3.066 |
 | A4   | di  | Elektrisch netwerk | Werken aan project     | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) |
 | A4   | wo  | Elektrisch netwerk & Solderen | | Bezoek WoTS 2024, [registreer](https://fhi.nl/wots/gadget/) je vooraf |
 | A4   | do  | Elektrisch netwerk & Solderen | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Bits en bitoperatoren](../software/c++/bits/README.md) (**GP**) |
@@ -119,33 +117,33 @@ Week A5. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A5   | ma  | Elektrisch netwerk | Werken aan project | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**BB, MV**)      |
-| A5   | di  | Software | Werken aan project | individuele feedback op software opdrachten (**GP**)    |
-| A5   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) en [Git](../software/git/README.md) cursus (**NG**)      |
+| A5   | ma  | Elektrisch netwerk | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB, MV**) in lokaal HL15-3.090 tot 11.00 uur en van 11.00 tot 13.00 uur PL99-1.328 **Padualaan 99 !!**|
+| A5   | di  | Software | Werken aan project | We beginnen om **14.00 uur**! [Git](../software/git/README.md) cursus (**NG**), Individuele feedback op software opdrachten (**GP**)    |
+| A5   | wo  | Software | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
 | A5   | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |     | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 
 ### Onderwijsweek A6 (7-10-2024)
 
 Week A6. Vul deze week de [Evalytics vragenlijst](https://app.evalytics.nl/login) in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
-We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
+We behandelen [actieve elektronica](../hardware-interfacing/elektronische-componenten/README.md) en het lezen van (sensor)data met behulp van het [1-Wire](../hardware-interfacing/communicatie/1-wire/) protocol. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met PWM kan bijvoorbeeld een ventilator aansturen om de temperatuur in het systeem te regelen of een led te dimmen.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A6   | ma  | Hardware interfacing  | Opzetten Planbord (**Alexander M**) |  [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**)       |
-| A6   | di  | Relais & Linear-actuator     | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**)   |
-| A6   | wo  | Relais & Linear-actuator     | Werken aan project |  [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md) (**BB, MV**)  Schakelen, H-brug, flyback |
-| A6   | do  | Hardware interfacing & communicatie   | Werken aan Project | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**)   Darlington, ULN2003   |
+| A6   | ma  | Hardware interfacing  | Opzetten Planbord  | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**BB, MV**) in lokaal HL15-3.038  |
+| A6   | di  | 1-Wire     | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
+| A6   | wo  | PWM | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HS**)  |
+| A6   | do  | Hardware interfacing & communicatie   | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md) (**BB, MV**)  Schakelen, H-brug, flyback  |
 
 ### Onderwijsweek A7 (14-10-2024)
 
-Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur. Voor het slim en efficient aansturen van motoren leer je het gebruik van Pulse Width Modulatie (*Pulse Width Modulation*, [PWM](../hardware-interfacing/communicatie/analoog-en-digitaal/DAC/README.md)). Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Met PWM kan je een ventilator aansluiten om het klimaat in te regelen.
+Week A7. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](../hardware-interfacing/communicatie/UART/README.md) communicatie voor het aansluiten van randapparatuur.  Met UART kan je communiceren tussen je  [Arduino Uno](../hardware-interfacing/embedded/microcontroller/Arduino-UNO/README.md) en [Raspberry Pi](../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md). Je leert het gebruik van een logic analyzer om digitale signalen te kunnen analyseren. Eind van de week krijgt ieder team ook een Raspberry Pi (in bruikleen) voor het gebruik in het project.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A7   | ma  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
-| A7   | di  | UART communicatie & PWM | Werken aan project | PWM (**HS**) |
-| A7   | wo  | UART communicatie & PWM | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**BB, MV**) |
-| A7   | do  | UART communicatie & PWM  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.| [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+| A7   | ma  | UART communicatie | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**BB, MV**) lokaal HL15-3.018 van 9.00 tot 11.00 uur en lokaal HL15-1.022 van 11.00 tot 12.00 uur.|
+| A7   | di  | UART communicatie | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
+| A7   | wo  | UART communicatie | Werken aan project | [UART](./lesprogramma/programma-uart.md) (**HS & HP**) |
+| A7   | do  | UART communicatie | | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 | A7 | vr |   | :end: Einde sprint 3 & :runner: Planning sprint 4
 
 ### Onderwijsweek A8 (21-10-2024)
@@ -154,10 +152,10 @@ Week A8. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Trans
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A8   | ma  |  UART communicatie & PWM | Werken aan project  | [UART](./lesprogramma/programma-uart.md) (**BB, MV**)  |
+| A8   | ma  | Transistoren | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) 3 teams 20 min per team.  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**BB, MV**) Darlington, ULN2003 lokaal HL15-3.090 tot 12.00 uur |
 | A8   | di  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
-| A8   | wo  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur.md) (**HS**) |
-| A8   | do  | Node-Red, PostgreSQL, MQTT, Flask & Docker | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur.md) (**HS**) & korte presentatie (**teams**) |
+| A8   | wo  | UART | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)
+| A8   | do  | Oscilloscoop | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**BB, MV**) |
 
 ### Onderwijsweek A9 (28-10-2024)
 
@@ -175,9 +173,9 @@ Week A10. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycl
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| A10  | ma  | Bedienen via H-brug, linear actuator |  Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**BB, MV**) |
-| A10  | di  | Bedienen via H-brug, linear actuator | Werken aan project | C++ opdrachten feedback (**GP**)|
-| A10  | wo  | Bedienen via H-brug, linear actuator | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**BB, MV**) |
+| A10  | ma  | Flask |  Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) van 9.00 uur tot 12.00 uur HL15-3.096 |
+| A10  | di  | C++ | Werken aan project | C++ opdrachten feedback (**GP**)|
+| A10  | wo  | Oscilloscoop | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**BB, MV**) |
 | A10  | do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**BB, MV**)   |
 
 ### Onderwijsweek B1 (11-11-2024)
@@ -186,34 +184,34 @@ Week B1. Deze week bespreken we niet-functionele requirements een manier om kwal
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B1   | ma  |     | Werken aan project     |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) (**BB, MV**)      |
-| B1   | di  |     | Werken aan project     | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**,**HP**) |
-| B1   | wo  |     | Werken aan project  | [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) |
-| B1   | do  |     | Werken aan project | [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**)     |
+| B1   | ma  |     | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**BB, MV**) lokaal HL15-5.094 |
+| B1   | di  |     | Werken aan project | Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP**) |
+| B1   | wo  |     | Werken aan project | [Doxygen](/software/c++/oop-concepten/doxygen/README.md), klassediagram en overerving (**GP**, **HP**)  |
+| B1   | do  |     | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 
 
 ### Onderwijsweek B2 (18-11-2024)
 
-Week B2. We gaan verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. Dit is de laatste week voor de vakantie en we ronden sprint 4 af van het project. 
+Week B2. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. We gaan ook verder met het onderdeel servo controller waar we in week C10 mee zijn gestart. Ook staan er weer lessen OO op het programma. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B2   | ma  |     | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**) |
+| B2   | ma  | Datasheet lezen | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**) lokaal HL7-0.060 **ander gebouw!** |
 | B2   | di  |     | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP**,**HP**) |
-| B2   | wo  |     |  Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) |
-| B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**)     |
+| B2   | wo  |     |  Werken aan project | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**,**HP**) |
+| B2   | do  |     | [show & tell](../skills/Scrum/files/Sprint-verslag.md) | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**)  |
 | B1 | vr | | | :end: Einde sprint 4 & :runner: Planning sprint 5 |
 
 ### Onderwijsweek B3 (25-11-2024)
 
-Week B3. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voor een sensor. Aan het eind van de week lever je een Plan van Aanpak in voor het schrijven van je eigen library voor een zelf geselecteerde sensor.
+Week B3. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voor een sensor. Aan het eind van de week lever je een Plan van Aanpak in voor het schrijven van je eigen library voor een zelf geselecteerde sensor.
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B3   | ma  | Datasheet lezen | Werken aan project     | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB, MV**)      |
-| B3   | di  | Datasheet lezen | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**,**HP**) |
-| B3   | wo  | Datasheet lezen | Werken aan project    |  [Finite state machine](./lesprogramma/programma-fsm.md) (**BB, MV**)|
-| B3   | do  | Schrijven van je eigen library en applicatie |     |  [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174)   |
+| B3   | ma  | Servo Controller | Werken aan project     | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB, MV**) support klassendiagrammen (**HP**) lokaal HL15-5.094 |
+| B3   | di  | Datasheet lezen | Werken aan project    | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
+| B3   | wo  | Schrijven van je eigen library en applicatie | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44889/assignments/311174), mogelijkheid voor feedback (**GP**, **HP**, **HS**) |
+| B3   | do  | Schrijven van je eigen library en applicatie | | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB, MV**) |
 
 
 ### Onderwijsweek B4 (2-12-2024)
@@ -222,10 +220,10 @@ Week B4. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expandser practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**)    | 
-| B4   | di  |     | Werken aan project | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**GP**)  |
-| B4   | wo  |     | Werken aan project |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) |
-| B4   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project | C++ (**GP**)     |
+| B4   | ma  |     | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) lokaal HL15-5.094 | 
+| B4   | di  |     | SDG workshop begint om 13.00 uur | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**HS**)  |
+| B4   | wo  |     | Werken aan project | C++ feedback en werken aan verantwoordingsdocument(**GP** en **HP**)  |
+| B4   | do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Werken aan project |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB, MV**) |
 
 ### Onderwijsweek B5 (9-12-2024)
 
@@ -233,8 +231,8 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 | Week | Dag | Thema     | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**)   |
-| B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) |
+| B5   | ma  |     | Werken aan project     | [Talking Servos 1](./lesprogramma/programma-talking-servos-1.md) (**BB, MV**) lokaal HL15-5.094  |
+| B5   | di  | |  Werken aan project | PCB design (gastcollege **Joost Kouijzer**) van 13.00 tot 16.00 uur HL15-1.096. |
 | B5   | wo  | |  Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**)     |
 | B5   | do  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)     |
 | B5 | vr | |  :end: Einde sprint 5 & :runner: Planning sprint 6 | | 
@@ -243,10 +241,10 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 | Week | Dag | Thema | Project | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B6   | ma  |     | Werken aan project | [Talking Servos 2](./lesprogramma/programma-talking-servos-2.md) (**BB, MV**)    |
+| B6   | ma  |     | Werken aan project | [Talking Servos 2](./lesprogramma/programma-talking-servos-2.md) (**BB, MV**) lokaal HL15-5.094 |
 | B6   | di  |     | Werken aan project | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**),  |
 | B6   | wo  |     | Werken aan project | Library en applicatie feedback (**GP**)     |
-| B6   | do  |     | Werken aan project | C++ herhaling / verdieping (**GP**)     |
+| B6   | do  |     | Werken aan project | Library en applicatie (**HP**)   |
 
 ### Onderwijsweek B7 (23-12-2024)
 
@@ -270,15 +268,15 @@ Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds 
 
 ### Onderwijsweek B9 (6-1-2025)
 
-Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit donderdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren (lokatie tba). Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. 
+Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit vrijdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren bij de opdrachtgever Padualaan 101. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. 
 
 | Week | Dag | Thema | Project     | Kennissessie     |
 | --- | --- | --- | --- | --- |
-| B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**)|
-| B9   | di  |     | Werken aan project     | Library en applicatie feedback |
-| B9   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback |
-| B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |   [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie tba) aanwezig om 9.00 uur. Opening om 9.30 uur. Koffie en 10.30| Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing   |
-| B9   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) |     |
+| B9   | ma  |     | Werken aan project     | [C++ feedback]() (**GP**) lokaal HL15-5.094 |
+| B9   | di  |     | Werken aan project     | Fusion 360 (**TM**), Library en applicatie feedback (**GP**, **HP**) |
+| B9   | wo  |     | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44889/assignments/311164) bij de opdracht Eindbeslissing  |
+| B9   | do  |     | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | Library en applicatie feedback (**GP**) |
+| B9   | vr |     | :end: Einde sprint 6 & planning afronden (sprint 7) | [Eindpresentatie klimaatmonitor TI Semester 2](./lesprogramma/programma-eindpresentatie.md) (lokatie PL101) aanwezig om 9.00 uur. Opening om 9.30 uur. Afbreken en opruimen om 11.00 uur. |
 
 ### Onderwijsweek B10 (13-1-2025)
 
@@ -286,7 +284,7 @@ Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen e
 
 | Week | Dag | Thema     | 
 | --- | --- | --- | 
-| B10  | ma  | **Eindbeoordeling** |  
+| B10  | ma  | 9-12u assessments library en application (HP, GP) **Eindbeoordeling** |  
 | B10  | di  | **Eindbeoordeling** |    
 | B10  | wo  | **Eindbeoordeling** |    
 | B10  | do  | **Eindbeoordeling** |   

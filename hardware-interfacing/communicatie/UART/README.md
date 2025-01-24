@@ -5,13 +5,19 @@
 ### Inhoud[](toc-id)
 
 - [UART](#uart)
-    - [Inhoud](#inhoud)
+  - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
 - [UART communicatie tussen Raspberry Pi en Arduino](#uart-communicatie-tussen-raspberry-pi-en-arduino)
   - [Handleiding UART communicatie RPI - Arduino](#handleiding-uart-communicatie-rpi---arduino)
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
+    - [in Debian Bookworm:](#in-debian-bookworm)
+  - [Loopback test](#loopback-test)
+  - [Zenden](#zenden)
+    - [op Debian Bullseye](#op-debian-bullseye)
+    - [op Debian Bookworm](#op-debian-bookworm)
+  - [Ontvangen](#ontvangen)
   - [Zenden en ontvangen via extra UART op de Arduino Uno](#zenden-en-ontvangen-via-extra-uart-op-de-arduino-uno)
   - [Zenden met de Arduino Uno](#zenden-met-de-arduino-uno)
   - [Ontvangen met de Arduino Uno](#ontvangen-met-de-arduino-uno)
@@ -31,86 +37,119 @@ UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een a
 
 # UART communicatie tussen Raspberry Pi en Arduino
 
-Wil je (sensor)dat uitwisselen tussen je Arduino UNO en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je heb maar twee draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
+Wil je (sensor)data uitwisselen tussen je Arduino UNO en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je heb maar twee draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
+
+> Deze handleiding gaat uit van Raspbian OS (Debian Bookworm). Ubuntu kan ook maar vergt wat meer zelf uitzoeken.
 
 ## Handleiding UART communicatie RPI - Arduino
 
-Eerst installeer op de Raspberry PI ghostwriter om makkelijk .md files zoals deze te maken:  
+Eerst installeer je op de Raspberry PI ghostwriter om makkelijk .md files zoals deze te maken:  
 
-**sudo apt-get install ghostwriter**
+```bash
+...$ sudo apt-get install ghostwriter
+```
 
 ## Python versie controleren
 
-**pyhton --version**
-laat zien: python 3.9.2 is geinstalleerd. (8-2023)
- 
+```bash
+...$ python --version
+```
+
+laat zien: python 3.11.2 is geinstalleerd. (10-2024)
+
 De folder structuur die we maken van het Python project:
 
 - mijn_project
-  + venv
-  + src
-  + tests
-  + Readme.md
+  - venv
+  - src
+  - tests
+  - Readme.md
 
 Thonny schijnt een snelle editor te zijn op Raspberry Pi die gaan we voor dit project gebruiken.
 
-**sudo apt install thonny**
+```bash
+...$ sudo apt install thonny   # (pre installed on latest release)
+```
 
-Als je rechtsboven aanklikt "use regular version" en Thonny herstart dan krijg je de versie met alle opties te zien.
+Als je rechtsboven aanklikt "switch to regular mode" en Thonny herstart dan krijg je de versie met alle opties te zien.
 
 vanaf de command line kun je dan bijvoorbeeld typen:  
-**thonny tests/tmpTest1.py**
+
+```bash
+...$ thonny tests/tmpTest1.py
+```
 
 of als de commandline parallel moet blijven werken:
 
-**thonny tests/tmpTest1.py &**
+```bash
+...$ thonny tests/tmpTest1.py &
+```
+
+> Bij het gebruik van Ubuntu vink de optie `Tools` > `Options` > `General` "Use Tk file dialogs instead of Zenity" aan.
 
 ## Virtual Environments gebruiken
 
-Je kunt met Python Virtual Environment (venv) een lichtgewicht geisoleerde Python omgeving maken. Installeer Python venv als volgt:
+Je kunt met Python Virtual Environment (venv) een lichtgewicht geisoleerde Python omgeving maken.
+Installeer Python venv als volgt:
 
-**sudo apt-get install python3-venv**
+```bash
+...$ sudo apt-get install python3-venv  # (pre installed on latest release)
+```
 
-cd naar je python project directory en creeer er dan de folder met de environment:
+Change directory (`cd`) naar je Python project directory (`mijn_project`) en creeer er dan de folder met de environment:
 
-**python3 -m venv myenv**
+```bash
+...$ python3 -m venv myenv
+```
 
 Activeer je venv:  
 
-**source myenv/bin/activate**
+```bash
+...$ source myenv/bin/activate
+```
 
 Je ziet dan aan (myenv) aan het begin van de command prompt dat je in die environment "zit".
 
 Nu kun je pip install gebruiken:
 
-**pip install matplotlib**
-
-Je code uitvoeren:
-
-**python tests/tmpTest1.py**
-
-De venv weer verlaten kan eenvoudig met: 
-
-**deactivate**
+```bash
+...$ pip install matplotlib
+```
 
 Wat echt nodig is voor UART communicatie:
 
-**pip install pyserial**
+```bash
+...$ pip install pyserial
+```
+
+Je code uitvoeren:
+
+```bash
+...$ python tests/tmpTest1.py
+```
+
+> De venv weer verlaten kan eenvoudig met: **deactivate**
 
 Vervolgens de ingebouwde UART van de Raspberry Pi (uart0) inschakelen via:  
 
-**sudo raspi-config**
+```bash
+...$ sudo raspi-config
+```
+
+> Voor Ubuntu volg deze [video](https://www.youtube.com/watch?v=rcPYJvVVWsc)
 
 Kies vervolgens:
 -> Interfacing Options -> Serial Port aanzetten.
 
-## Informatie opvragen over UARTs:
+## Informatie opvragen over UARTs
 
-**cat /boot/overlays/README**
-
-levert o.a. informatie over de UARTs , bij mijn rpi4:
-
+```bash
+...$ cat /boot/overlays/README
 ```
+
+levert oonder andere informatie over de UARTs , bij mijn Raspberry Pi 4:
+
+```text
 Name:   uart0
 Info:   Change the pin usage of uart0
 Load:   dtoverlay=uart0,  <param>=<val>
@@ -147,33 +186,38 @@ Params: ctsrts                  Enable CTS/RTS on GPIOs 14-15 (default off)
 ```
 
 Die BCM2711 is een communicatiechip die Raspberry Pi 4 boardjes hebben.
+
 Voorbeeld:
-Bij uart2 staat: gpios 0-3. Dat impliceert:
-gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
-cts (clear to send) en rts (request to send) zijn twee signalen die je zou kunnen toevoegen om de uart comms betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen)
+- Bij uart2 staat: gpios 0-3. Dat impliceert:
+- gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
+- cts (clear to send) en rts (request to send) zijn twee signalen die je zou kunnen toevoegen om de uart comms betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen)
 
 Controleer de uart-gpio pin mapping voor je eigen boardje:  
 
-**cat /proc/cpuinfo**
+```bash
+...$ cat /proc/cpuinfo
+```
 
-Het kan zijn dat jouw Raspberry Pi 4 een andere versie te hebben: BM2835.  
+Het kan zijn dat jouw Raspberry Pi 4 een andere versie heeft: BM2835.  
 
 backup de config file:
 
-### In Debian Bullseye:
-**sudo cp /boot/config.txt /boot/config.txt.backup**
-**sudo nano /boot/config.txt**
+### in Debian Bookworm
 
-### in Debian Bookwurm:
-**sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup**
-**sudo nano /boot/firmware/config.txt**
+```bash
+...$ sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup 
+...$ sudo nano /boot/firmware/config.txt
+```
 
 Zorg dat daar in staat:  
-```
+
+```text
 enable_uart=1
 ```
+
 En ook (bijvoorbeeld pal eronder) op basis van het bovenstaande:
-```  
+
+```text
 dtoverlay=uart0,txd0``_``pin=14,rxd0``_``pin=15  
 dtoverlay=uart1,txd1``_``pin=32,rxd1``_``pin=33  
 dtoverlay=uart2  
@@ -183,21 +227,32 @@ dtoverlay=uart5
 ```
 
 De bovenstaande pinnen zijn zg "bcm pinnen"  
-Bijvoorbeeld "bcm pin 15" komt overeen met 
+Bijvoorbeeld "bcm pin 15" komt overeen met
 "pin10 van de connector van de rpi".
 
 Bewaar de veranderingen en reboot:  
 
-**sudo reboot**
+```bash
+...$ sudo reboot
+```
 
 Controleer na het opstarten of het gelukt is met:
 
-**ls /dev/ttyAMA&#10033;**
+```bash
+...$ ls /dev/ttyAMA*
+```
 
 Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
 
-## Zenden
-Met de volgende Python code kan je het testen:
+Welke pinnen gebruikt worden kan je zien met (welke functie op welke pin in je huidige configuratie):
+
+```bash
+...$ raspi-gpio get
+```
+
+## Loopback test
+
+Je kunt een loopback test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
 
 ```python
 import serial
@@ -208,6 +263,40 @@ def send_data_to_serial(port_name, baudrate=9600):
     ser = serial.Serial(port_name, baudrate, timeout=1)
 
     try:
+        while True:
+            # Stuur de cijferreeks naar de seriële poort
+            ser.write(b'12345\n')
+    
+            # Wacht een seconde
+            time.sleep(1)
+            
+            data = ser.readline()  # Lees een regel van de seriële poort
+            if data:
+                print(f"Ontvangen: {data.decode().strip()}")
+    except KeyboardInterrupt:
+        print("\nProgramma gestopt.")
+    finally:
+        ser.close()
+
+if __name__ == "__main__":
+    PORT_NAME = '/dev/ttyAMA3'  # Aangepast voor de Raspberry Pi
+    send_data_to_serial(PORT_NAME)
+```
+
+## Zenden
+
+Met de volgende Python code kan je het verzenden testen:
+
+```python
+import serial
+import time
+
+def send_data_to_serial(port_name, baudrate=9600):
+    # Maak een verbinding met de seriële poort
+    ser = serial.Serial(port_name, baudrate, timeout=1)
+
+    try:
+        print(f"Verzemdem van gegevens op {port_name} ...")
         while True:
             # Stuur de cijferreeks naar de seriële poort
             ser.write(b'12345\n')
@@ -225,25 +314,36 @@ if __name__ == "__main__":
 ```
 
 ### op Debian Bullseye
-(als je Debian Bookwurm hebt, skip dan deze alinea)    
+
+*(als je Debian Bookworm hebt, skip dan deze alinea)*
+
 ttyAMA0 komt dus overeen met uart0 (gpio 14 en 15)
+
 Je kunt een logic analyser gebruiken om dit te testen. Dan ook proberen met ttyAMA1, 2, 3 en 4.
 
 Probleem: gpio pin 32 en 33 en evenmin 36 en 40 zijn niet aangeboden op de 40 pins connector van de Raspberry Pi 4.
 uart1 lijkt dus alleen bruikbaar als ze identiek is aan uart0.
-Wat blijkt verder:  
-ttyAMA1 blijkt overeen te komen met uart2 uit het bovenstaande, dus op gpio 0 en 1  
-Dat werkt.
-ttyAMA2 met uart3 (dus gpio 4 en 5)
-ttyAMA3 met uart4 (dus gpio 8 en 9)
-ttyAMA4 met uart5 (dus gpio 12 en 13)
 
-### op Debian Bookwurm
-Op Debian Bookwurm lijken de nummers gelijk getrokken:
+Wat blijkt verder:  
+
+ttyAMA1 blijkt overeen te komen met uart2 uit het bovenstaande, dus op gpio 0 en 1  
+
+Dat werkt.
+
+- ttyAMA2 met uart3 (dus gpio 4 en 5)
+- ttyAMA3 met uart4 (dus gpio 8 en 9)
+- ttyAMA4 met uart5 (dus gpio 12 en 13)
+
+### op Debian Bookworm
+
+Op Debian Bookworm lijken de nummers gelijk getrokken:
+
 ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
 
 ## Ontvangen
+
 Ook het luisteren werkt:
+
 ```python
 import serial
 
@@ -266,7 +366,6 @@ if __name__ == "__main__":
     PORT_NAME = '/dev/ttyAMA2'  # Voor de Raspberry Pi
     listen_to_serial(PORT_NAME)
 ```
-
 
 ## Zenden en ontvangen via extra UART op de Arduino Uno
 
@@ -356,5 +455,6 @@ void loop() {
 ```
 
 ## Referenties
+
 - UART (<https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>)
 - Thonny (<https://thonny.org/>)

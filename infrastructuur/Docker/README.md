@@ -26,13 +26,15 @@ With Docker you can compartmentalise an individual application based on their de
 
 ### Installeer Docker
 
-[Update je systeem](../OS/Raspberry%20Pi%20OS/README.md) en installeer dan Docker met behulp van een shell script.
+[Update je systeem](../OS/Raspberry-Pi-OS/README.md) en installeer dan Docker met behulp van een shell script.
 
 ```bash
 curl -sSL https://get.docker.com | sh
 ```
 
 ### Docker parameters
+
+Je kunt een docker opstarten met verschillende parameters. Onderstaand een voorbeeld van een opstart-configuratie van een Docker voor een PostgreSQL database.
 
 Voorbeeld:
 ```bash

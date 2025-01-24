@@ -38,13 +38,11 @@ op.
 
 - Voor de opdrachten uit samen met een andere student.
 
-- Het is niet erg als je in overleg met andere teams een antwoord
-  uitvogelt.  
+- Het is niet erg als je in overleg met andere teams komt tot eenantwoord.  
   Zorg er wel voor dat je het 100% begrijpt, anders schiet je jezelf
-  in je voet: op het tentamen zal worden verondersteld dat je de
-  practicum opgaven gemaakt hebt en 100% begrijpt.
+  in je voet: je leert door zelf te doen!
 
-- Maak een copie van dit word-document, en voeg daarin je antwoorden
+- Maak een copie van dit document, en voeg daarin je antwoorden
   toe. Als je iets moet invullen, wordt dat aangekondigd met
   **vetgedrukte** letters.
 
@@ -70,7 +68,7 @@ op.
 3. Maak met behulp van de multimeter in “contact detectie” stand een
    tekening die weergeeft hoe de connectors van het breadboard met
    elkaar verbonden zijn.  
-   Zet die tekening (of evt een foto ervan) hieronder:
+   Zet die tekening (of eventueel een foto ervan) hieronder:
 
 > <img title="" src="./media/media/image1.jpeg" alt="" width="553">
 
@@ -84,7 +82,7 @@ op.
 
 - Een 1k weerstand
 
-- Breadboard wires of draad+striptang
+- Breadboard wires of draad + striptang
 
 ## Opdracht
 
@@ -102,7 +100,7 @@ op.
 
 ### Weerstand
 
-1. **Leg uit hoe je de 1k weerstand herkent (google evt op
+1. **Leg uit hoe je de 1k weerstand herkent (google eventueel op
    kleurcodes).**
 
 2. Controleer de weerstand met de multimeter in “weerstand meet modus”
@@ -124,17 +122,17 @@ op.
    
    Bouw en test de schakeling.  
    Houdt rekening met de richtlijnen voor het bouwen en testen van
-   schakelingen (zie de bijlages “testen van een schakeling” en
+   schakelingen (zie de bijlagen “testen van een schakeling” en
    “bedraden van een schakeling” in de reader).  
    **Welke stroom geeft de multimeter aan (in 3 decimalen
    nauwkeurig)?**
 
 ### Lading
 
-1. **Hoeveel lading (in Coulomb) aan electronen stroomt er per seconden
+1. **Hoeveel lading (in Coulomb) aan elektronen stroomt er per seconden
    door de weerstand?**
 
-2. **Hoeveel lading (in Coulomb) aan electronen stroomt er gedurende 1
+2. **Hoeveel lading (in Coulomb) aan elektronen stroomt er gedurende 1
    uur in totaal door de weerstand?**
 
 3. **Hoeveel is die lading, als je het uitdrukt in mAh (milli ampere
@@ -181,7 +179,7 @@ op.
 7. **Als de stroom door een weerstand verdubbelt, hoeveel neemt het in
    de weerstand gedissipeerde vermogen dan toe?**
 
-8. **Hoeveel electrische energie (in Joules) wordt er in de weerstand
+8. **Hoeveel elektrische energie (in Joules) wordt er in de weerstand
    gedurende 10 seconden in totaal omgezet naar warmte-energie?**
 
 9. **Als je de weerstand zou vervangen door een weerstand van 10 Ω, wat
