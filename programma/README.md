@@ -50,7 +50,7 @@ De contacturen zijn (subject to change):
 |ma|13:00|17:00| HL15-1.096 & HL15-5.034 |
 |di|9:00|13:00| HL15-1.096 & HL15-5.034 |
 |wo|9:00|13:00| HL15-1.096 & HL15-5.054 |
-|do|9:00|13:00| HL15-1.096 & HL15-5.080 |
+|do|9:00|13:00| HL15-1.096 & HL15-5.056 |
 
 De docenten zijn:
 
