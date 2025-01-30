@@ -1,10 +1,10 @@
 ![logo](./img/vermogens.png) [](logo-id)
 
-# Professional vermogens[](title-id)
+# Professionele vermogens[](title-id)
 
 ### Inhoud[](toc-id)
 
-- [Professional vermogens](#professional-vermogens)
+- [Professionele vermogens](#professionele-vermogens)
     - [Inhoud](#inhoud)
   - [Presenteren](#presenteren)
   - [Scrum](#scrum)
@@ -15,13 +15,13 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor uitwerking professional vermogens HU IICT[](author-id).
+**v0.1.0 [](version-id)** Start document voor uitwerking professionele vermogens HU IICT[](author-id).
 
 ---
 
 ## Presenteren
 
-Naast het ontwikkkelen van technische vermogens zijn professional vermogens minstens zo belangrijk. Hoe goed een technische oplossing ook is deze moet wel aan de man worden gebracht. Dit gebeurt in de eerste plaats vaak in de vorm van een presentatie en daarom is het belangrijk om te leren hoe te [presenteren](../vermogens/presenteren/README.md).
+Naast het ontwikkkelen van technische skills zijn professionele vermogens minstens zo belangrijk. Hoe goed een technische oplossing ook is deze moet wel aan de man worden gebracht. Dit gebeurt in de eerste plaats vaak in de vorm van een presentatie en daarom is het belangrijk om te leren hoe te [presenteren](../vermogens/presenteren/README.md).
 
 ## Scrum
 

@@ -47,10 +47,10 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 De contacturen zijn (subject to change):
 |dag|van|tot|
 |---|---|---|
-|ma|9:00|13:00|
+|ma|13:00|17:00|
 |di|9:00|13:00|
-|wo|13:00|17:00|
-|do|13:00|17:00|
+|wo|9:00|13:00|
+|do|9:00|13:00|
 
 Ons lokaal is HL15-1.096.  
 
