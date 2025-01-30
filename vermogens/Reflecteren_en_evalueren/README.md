@@ -71,7 +71,7 @@ o	Was je tevreden met de resultaten?
 o	Wat is de essentie van wat je geleerd hebt? 
 o	Wat zou je de volgende keer eventueel anders of beter doen? 
 o	Kun je wat je hebt geleerd ook toepassen in andere, toekomstige situaties? 
-![starr](/skills/Reflecteren%20en%20evalueren/img/Starr.png)[1]
+![starr](/vermogens/Reflecteren%20en%20evalueren/img/Starr.png)[1]
 ## bronnen
 [1] Reflecteren met de STARR-methode. Geraadpleegd van https://www.scribbr.nl/stage/starr-methode/ (opgevraagd dd. 23-05-23) 
  
