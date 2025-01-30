@@ -47,10 +47,10 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 De contacturen zijn (subject to change):
 |dag|van|tot|
 |---|---|---|
-|ma|13:00|17:00|
-|di|13:00|17:00|
-|wo|9:00|13:00|
-|do|9:00|13:00|
+|ma|9:00|13:00|
+|di|9:00|13:00|
+|wo|13:00|17:00|
+|do|13:00|17:00|
 
 Ons lokaal is HL15-1.096.  
 
@@ -119,8 +119,8 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | ma  | Werken aan project | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB & HS**) |
 | di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) |
 | wo  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 1 (**HS**) |
-| do  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)| [Bits en bitoperatoren](../software/c++/bits/README.md) (**HP & GP**) |
-| vr  | :end: Einde sprint 2 & :runner: planning sprint 3 | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 2 (**HS**) |
+| do  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: planning sprint 3| [Bits en bitoperatoren](../software/c++/bits/README.md) (**HP & GP**) |
+| vr  |  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 2 (**HS**) |
 
 ### Onderwijsweek C7 (17-03-2025)
 
@@ -140,9 +140,9 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Hardware interfacing  | Opzetten Planbord  | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV**)  |
+| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV**)  |
 | di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
-| wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**)  |
+| wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
 | do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV & BB**)  |
 
 ### Onderwijsweek C9 (31-03-2025)
@@ -180,7 +180,7 @@ Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycli
 
 ### Onderwijsweek D2 (21-04-2025)
 
-Week D4. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren. Bij deze manier van programmeren wordt een systeem opgebouwd uit objecten. 
+Week D2. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren. Bij deze manier van programmeren wordt een systeem opgebouwd uit objecten. 
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -190,6 +190,8 @@ Week D4. Deze week bespreken we niet-functionele requirements een manier om kwal
 | do  | Werken aan project | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 
 ### Onderwijsweek D3 (28-04-2025)
+
+Week D3.
 
 | Dag | |
 | --- | --- |
