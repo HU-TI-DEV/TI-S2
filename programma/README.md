@@ -124,7 +124,7 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 
 ### Onderwijsweek C7 (17-03-2025)
 
-Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden. We leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/).  
+Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen met behulp van een diode (LED). In C++ leren we hoe je code kan opslitsen in verschillende bestanden. We leren (data) naar bestanden te schrijven. Aan het eind van de week lever je ook voor de eerste keer een [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/44719).  
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -169,14 +169,14 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 
 ### Onderwijsweek D1 (14-04-2025)
 
-Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cyclische variaties in een elektrische grootheid zichtbaar kan maken. Aan het eind van de week lever je ook weer een vernieuwde versie van het [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/). Vergeet niet naar de [tips](../Verantwoordingsdocument_tips.md) voor het verantwoordingsdocument te kijken.
+Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cyclische variaties in een elektrische grootheid zichtbaar kan maken. Aan het eind van de week lever je ook weer een vernieuwde versie van het [verantwoordingsdocument](../Verantwoordingsdocument_TI_S2.md) in op [Canvas](https://canvas.hu.nl/courses/44719). Vergeet niet naar de [tips](../Verantwoordingsdocument_tips.md) voor het verantwoordingsdocument te kijken.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB & MV**) |
 | wo  | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HS**) |
-| do  | **[2e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV**)   |
+| do  | **2e Peilmoment** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV**)   |
 
 ### Onderwijsweek D2 (21-04-2025)
 
@@ -218,20 +218,20 @@ Week D5. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 | --- | --- | --- |
 | ma  | Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB & MV**) support klassendiagrammen |
 | di  | Werken aan project | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP & HP**) |
-| wo  | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/), mogelijkheid voor feedback (**HP & HS**) |
+| wo  | Werken aan project | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44719), mogelijkheid voor feedback (**HP & HS**) |
 | do  | Werken aan project | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
 
 
 ### Onderwijsweek D6 (19-05-2025)
 
-Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het [3e Peilmoment](https://canvas.hu.nl/). Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is.
+Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het 3e Peilmoment. Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) | 
 | di  | SDG workshop | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**HS & GP**)  |
 | wo  | Werken aan project | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**) werken aan verantwoordingsdocument (**HS**)  |
-| do  | **[3e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
+| do  | **3e Peilmoment** |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
 
 ### Onderwijsweek D7 (26-05-2025)
 
@@ -277,18 +277,18 @@ Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je m
 | ma  | Werken aan project | [C++ feedback]() (**HP & GP**) |
 | di  | Werken aan project |  |
 | wo  | Werken aan project | Demo dag? |
-| do  | **[4e Peilmoment](../Verantwoordingsdocument_TI_S2.md)**  | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/) bij de opdracht Eindbeslissing |
+| do  | **4e Peilmoment**  | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44719/assignments/341934) bij de opdracht Eindbeslissing |
 
 ### Onderwijsweek D11 (23-06-2025)
 
 Week D11. De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-| Week | Dag | Thema     | 
-| --- | --- | --- | 
-| B10  | ma  | **Eindbeoordeling** |  
-| B10  | di  | **Eindbeoordeling** |    
-| B10  | wo  | **Eindbeoordeling** |    
-| B10  | do  | **Eindbeoordeling** |   
+| Dag | Thema     | 
+| --- | --- | 
+| ma  | **Eindbeoordeling** |  
+| di  | **Eindbeoordeling** |    
+| wo  | **Eindbeoordeling** |    
+| do  | **Eindbeoordeling** |   
 
 ### Onderwijsweek D12 (30-06-2025)
 
