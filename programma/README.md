@@ -43,14 +43,12 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 ### Organisatie
 
 De contacturen zijn (subject to change):
-|dag|van|tot|
-|---|---|---|
-|ma|9:00|13:00|
-|di|9:00|13:00|
-|wo|13:00|17:00|
-|do|13:00|17:00|
-
-Ons lokaal is HL15-1.096.  
+|dag|van|tot| lokaal |
+|---|---|---| --- |
+|ma|13:00|17:00| HL15-1.096 & HL15-5.034 |
+|di|9:00|13:00| HL15-1.096 & HL15-5.034 |
+|wo|9:00|13:00| HL15-1.096 & HL15-5.054 |
+|do|9:00|13:00| HL15-1.096 & HL15-5.056 |
 
 De docenten zijn:
 
@@ -69,7 +67,7 @@ Week C2. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee. De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
+| ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee (iedereen in lokaal HL15-1.096). De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
 | di  | Scrum en projectplanning     | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
 | wo  | | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
 | do  | Indelen van de groepen. & Team contract inleveren.     | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
@@ -81,8 +79,8 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | [Uitleg retrospective en sprint review](../skills/Scrum/README.md) | Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. Docentfeedback [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS**). |
-| di  | | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**HP & GP**) |
+| ma  | geen les | geen les |
+| di  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**HP & GP**) |
 | wo  | | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**HP & GP**)     |
 | do  | :end: Einde sprint 1 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB**)     |
 
@@ -103,8 +101,8 @@ Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtighei
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 2 |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS**) |
-| di  | Werken aan project     | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), |
+| ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 2 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
+| di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS**) |
 | wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HP & HS**) |
 | do  | Werken aan project     | [Iets Uitrekenen](./lesprogramma/programma-iets-uitrekenen.md), [Rekenen met eenheden](./lesprogramma/programma-rekenen-met-eenheden.md), [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB & MV**)     |
 
@@ -116,8 +114,8 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | --- | --- | --- |
 | ma  | Werken aan project | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB & HS**) |
 | di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) |
-| wo  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 1 (**HS**) |
-| do  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: planning sprint 3| [Bits en bitoperatoren](../software/c++/bits/README.md) (**HP & GP**) |
+| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 1 (**HS**) |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: planning sprint 3| [Bits en bitoperatoren](../software/c++/bits/README.md) (**HP & GP**) |
 | vr  |  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 2 (**HS**) |
 
 ### Onderwijsweek C7 (17-03-2025)
@@ -160,8 +158,8 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV**) Darlington, ULN2003 |
-| di  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
+| ma  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV**) Darlington, ULN2003 |
+| di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
 | wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)
 | do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
 
@@ -207,8 +205,8 @@ Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschille
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
 | di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP** & **HP**) |
-| wo  | [show & tell](../skills/Scrum/files/Sprint-verslag.md)  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP**) |
-| do  | [show & tell](../skills/Scrum/files/Sprint-verslag.md) :end: Einde sprint 4 & :runner: Planning sprint 5 | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**)  |
+| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP**) |
+| do  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 4 & :runner: Planning sprint 5 | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**)  |
 
 ### Onderwijsweek D5 (12-05-2025)
 
@@ -240,8 +238,8 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
-| di  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | PCB design (gastcollege **Joost Kouijzer**) t.b.a. |
-| wo  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md)  :end: Einde sprint 5 & :runner: Planning sprint 6 | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP**)     |
+| di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | PCB design (gastcollege **Joost Kouijzer**) t.b.a. |
+| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md)  :end: Einde sprint 5 & :runner: Planning sprint 6 | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP**)     |
 | do  | Hemelvaartsdag |  |
 
 
@@ -253,7 +251,7 @@ Week D8.
 | Dag | Project | Kennissessie     |
 | --- | --- | --- |
 | ma  |  Werken aan project |  [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 2 (**HP & HS**) |
-| di  | Werken aan project | Het maken van een [poster](../skills/presenteren/poster.md) (**HS**) |
+| di  | Werken aan project | Het maken van een [poster](../vermogens/presenteren/poster.md) (**HS**) |
 | wo  | Werken aan project | |
 | do  | Werken aan project | |
 
@@ -264,13 +262,13 @@ Week D9.
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | 2e Pinksterdag |  |
-| di  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Fusion 360 (**HS & TM**) |
-| wo  | [Show & Tell](../skills/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback (**HP & GP**)     |
+| di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Fusion 360 (**HS & TM**) |
+| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback (**HP & GP**)     |
 | do  | :end: Einde sprint 6 & planning afronden (sprint 7)  | Library en applicatie (**HP & GP**)   |
 
 ### Onderwijsweek D10 (16-06-2025)
 
-Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../skills/presenteren/poster.md). We sluiten dit vrijdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. Eind van de week lever je voor de laatste keer je Verantwoordingsdocument in. Op dit document basseren de docenten de eindbeslissing. Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../vermogens/presenteren/poster.md). We sluiten dit vrijdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. Eind van de week lever je voor de laatste keer je Verantwoordingsdocument in. Op dit document basseren de docenten de eindbeslissing. Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |

@@ -80,7 +80,7 @@ Week C2.
 
 ### Onderwijsweek C3 (17-02-2025)
 
-Week A2. 
+Week C3. 
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
