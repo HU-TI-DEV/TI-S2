@@ -1,3 +1,40 @@
+# Electronica (basis) deel I
+
+## Voorbereiding
+Bekijk de volgende filmpjes:
+[Intro spanning & stroom](https://www.youtube.com/watch?v=R4ulZG0tLf4)  (6 min)
+[Intro spanning & stroom deel II](https://www.youtube.com/watch?v=LXmlo3VvZIw) (11 min)
+[De praktijk! deel I](https://www.youtube.com/watch?v=Q6rE5gQ6wvY)  (4 min)
+[De praktijk! deel II](https://www.youtube.com/watch?v=pDTaQtH4BBI)  (3 min)
+[Battery Energy and Power](https://youtu.be/u4FpbaMW5sk?si=Fz2VmFQ0ywVL_E-f)  (6 min)
+
+
+## Tijdens de les
+
+LINK NAAR POWERPOINT
+
+## Na de les
+
+Oefen met de volgende site: 
+[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)
+Elke keer als je op Generate Links drukt komen er nieuwe oefensommen! 
+Met de QR code kun je de uitwerkingen bekijken.
+
+
+## Canvas
+
+[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)
+Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, de site maakt 6 sommen aan die je op papier moet uitwerrken en uploaden op canvas!
+
+
+
+# Electronica (basis) deel II
+
+
+
+
+
+
 # Electrische-grootheden
 
 Kennismaking met electrische grootheden: lading, stroom, spanning, energie en vermogen.
