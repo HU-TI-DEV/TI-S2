@@ -25,7 +25,7 @@
 
 ## Een introductie
 
-Een OpAmp is een geïntegreerd circuit (IC of chip) bestaand uit een groot aantal transistoren. Het symbool van een OpAmp wordt gegeven door een driehoek met 2 ingangen en 1 uitgang.
+Een OpAmp (**Op**erational **Amp**lifier, operationele versterker) is een geïntegreerde schakeling (Integrated Circuit, IC of chip), bestaand uit een groot aantal transistoren. OpAmps hebben een zeer hoge versterkingsfactor (instelbaar). Het symbool van een OpAmp in een schakelschema is een driehoek met 2 ingangen en 1 uitgang.
 
 ![Het symbool voor een OpAmp](../OpAmp/img/OpAmp_Vss.svg)
 
@@ -138,3 +138,4 @@ n = idealiteits-constante (productie-afhankelijk, tussen 1 en 2. In het ideale g
 
 ## Referenties
 - Diode (<https://nl.wikipedia.org/wiki/Diode>)
+- [LM324 product info (Texas Instruments)](https://www.ti.com/product/LM324)
