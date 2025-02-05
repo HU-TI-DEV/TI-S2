@@ -2,18 +2,22 @@
 
 *NTC temperatuur-weerstand curve*
 
-# LDR-NTC: analoog naar digitaal met passieve sensoren [](title-id)
+# LDR-NTC: analoog naar digitaal met passieve sensoren [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [LDR-NTC: analoog naar digitaal met passieve sensoren ](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren-)
-    - [Inhoud](#inhoud)
     - [Basis principe](#basis-principe)
     - [LDR](#ldr)
     - [NTC](#ntc)
     - [De schakeling](#de-schakeling)
   - [Arduino voorbeeld code](#arduino-voorbeeld-code)
   - [Referenties](#referenties)
+
+
+---
+
+**v0.1.2 [](version-id)** Start document voor analoog naar digitaal door HU IICT[](author-id).
 
 ---
 
@@ -25,8 +29,7 @@ Deze spanning kan de ADC meten en in een getal omzetten.
 
 ![LDR-R measuring schematic](img/LDR-R-measuring_schem.png)
 
-Om een analoge waarde te meten en een verandering te zien als de omgeving verandert zijn zowel LDR als NTC geschikt.
-(We hadden ook een potmeter kunnen gebruiken. Het principe blijft gelijk.)
+Om een analoge waarde te meten en een verandering te zien als de omgeving verandert zijn zowel LDR als NTC geschikt. We hadden ook een [potentiometer](../../../elektronische-componenten/potentiometer/README.md) kunnen gebruiken. Het principe blijft gelijk.
 
 ### LDR
 
@@ -34,7 +37,7 @@ Om een analoge waarde te meten en een verandering te zien als de omgeving verand
 
 Een `Light Dependent Resistor` (LDR) verandert zijn weerstand afhankelijk van de hoeveelheid licht die erop valt.
 
-De LDR's in de [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen ca. 2 MegaOhm (donker) tot circa 600 Ohm (erg helder). Waarschijnlijk is de aanwezige sensor een 5528 type (LDR03/LDR04).
+De LDR's in de [Turing Lab Hardware Shop](https://hu-hbo-ict.gitlab.io/turing-lab/ti-lab-shop/) veranderen hun weerstand tussen circa 2 MegaOhm (donker) tot circa 600 Ohm (erg licht). Waarschijnlijk is de aanwezige sensor een 5528 type (LDR03/LDR04).
 
 ### NTC
 
@@ -55,7 +58,7 @@ We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebru
 
 ## Arduino voorbeeld code
 
-De voorbeeld code meet alleen een spanning en geeft deze via het serial interface uit.
+De voorbeeld code meet alleen een spanning en laat deze waarde via de serial interface zien.
 
 > Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bijvoorbeeld als je een Arduino Nano gebruikt.
 
