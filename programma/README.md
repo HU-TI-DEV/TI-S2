@@ -104,7 +104,7 @@ Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtighei
 | ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 2 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
 | di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS**) |
 | wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HP & HS**) |
-| do  | Werken aan project     | [Iets Uitrekenen](./lesprogramma/programma-iets-uitrekenen.md), [Rekenen met eenheden](./lesprogramma/programma-rekenen-met-eenheden.md), [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB & MV**)     |
+| do  | Werken aan project     | [Electronika basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB & MV**)     |
 
 ### Onderwijsweek C6 (10-03-2025)
 

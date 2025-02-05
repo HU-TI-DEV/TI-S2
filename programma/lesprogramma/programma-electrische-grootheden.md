@@ -11,7 +11,7 @@ Bekijk de volgende filmpjes:
 
 ## Tijdens de les
 
-[powerpoint van de les](./files/Flask_workshop.drawio.svg)
+[powerpoint van de les](./files/Intro%20spanning%20&%20stroom%20college.pptx)
 
 ## Na de les
 
@@ -20,44 +20,28 @@ Oefen met de volgende site:
 Elke keer als je op Generate Links drukt komen er nieuwe oefensommen!   
 Met de QR code kun je de uitwerkingen bekijken.
 
-
 ## Canvas
 
 [De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)  
 Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, de site maakt 6 sommen aan die je op papier moet uitwerrken en uploaden op canvas!
 
-
-
 # Electronica (basis) deel II
 
-Kennismaking met electrische grootheden: lading, stroom, spanning, energie en vermogen.
-
 ## Voorbereiding
+- Lees deze [reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)  (2 uur).
 
-- Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door tot en met bladzijde 5.
+- Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door tot en met bladzijde 5 (1 uur). 
 
-- Wat highlights daarvan kun je ook in video-vorm bestuderen: [video electrische grootheden en eenheden](https://www.youtube.com/watch?v=bYL4OfpEA-U)
+- Wat highlights daarvan kun je ook in video-vorm bestuderen: [video electrische grootheden en eenheden](https://www.youtube.com/watch?v=bYL4OfpEA-U) (15 min). 
+ 
+## Tijdens de les
 
-- Lees van
-[TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
+[powerpoint van de les](./files/Flask_workshop.drawio.svg)
 
-de delen:
-
-- Introductie
-- Current
-- Voltage
-- Power
-- Energy
-
-Kijk eventueel alvast de volgende videos:
-
-- [Electric Potential](https://www.youtube.com/watch?v=-Rb9guSEeVE&list=PLkyBCj4JhHt9dIWsO7GaTU149BkIFbo5y&index=3)
-- [Battery Energy and Power](https://www.youtube.com/watch?v=u4FpbaMW5sk&list=PLkyBCj4JhHt9dIWsO7GaTU149BkIFbo5y&index=4)
 
 ## Na de les
 
 Bestudeer bovenstaande stof nog eens en controleer voor jezelf of alles nu duidelijk is.
 
 
-## TEST VAN BART
-https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html
+
