@@ -2,11 +2,11 @@
 
 ## Voorbereiding
 Bekijk de volgende filmpjes:
-[Intro spanning & stroom](https://www.youtube.com/watch?v=R4ulZG0tLf4)  (6 min)
-[Intro spanning & stroom deel II](https://www.youtube.com/watch?v=LXmlo3VvZIw) (11 min)
-[De praktijk! deel I](https://www.youtube.com/watch?v=Q6rE5gQ6wvY)  (4 min)
-[De praktijk! deel II](https://www.youtube.com/watch?v=pDTaQtH4BBI)  (3 min)
-[Battery Energy and Power](https://youtu.be/u4FpbaMW5sk?si=Fz2VmFQ0ywVL_E-f)  (6 min)
+- [Intro spanning & stroom](https://www.youtube.com/watch?v=R4ulZG0tLf4)  (6 min)
+- [Intro spanning & stroom deel II](https://www.youtube.com/watch?v=LXmlo3VvZIw) (11 min)
+- [De praktijk! deel I](https://www.youtube.com/watch?v=Q6rE5gQ6wvY)  (4 min)
+- [De praktijk! deel II](https://www.youtube.com/watch?v=pDTaQtH4BBI)  (3 min)
+- [Battery Energy and Power](https://youtu.be/u4FpbaMW5sk?si=Fz2VmFQ0ywVL_E-f)  (6 min)
 
 
 ## Tijdens de les
@@ -29,13 +29,6 @@ Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, 
 
 
 # Electronica (basis) deel II
-
-
-
-
-
-
-# Electrische-grootheden
 
 Kennismaking met electrische grootheden: lading, stroom, spanning, energie en vermogen.
 
