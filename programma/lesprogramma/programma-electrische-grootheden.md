@@ -11,19 +11,19 @@ Bekijk de volgende filmpjes:
 
 ## Tijdens de les
 
-LINK NAAR POWERPOINT
+[powerpoint van de les](./files/Flask_workshop.drawio.svg)
 
 ## Na de les
 
-Oefen met de volgende site: 
-[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)
-Elke keer als je op Generate Links drukt komen er nieuwe oefensommen! 
+Oefen met de volgende site:   
+[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)  
+Elke keer als je op Generate Links drukt komen er nieuwe oefensommen!   
 Met de QR code kun je de uitwerkingen bekijken.
 
 
 ## Canvas
 
-[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)
+[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)  
 Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, de site maakt 6 sommen aan die je op papier moet uitwerrken en uploaden op canvas!
 
 
