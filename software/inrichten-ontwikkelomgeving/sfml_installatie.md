@@ -48,10 +48,10 @@ Deze voorbeeldcode toont een venster met een cirkel en een kwadraat.
 int main ()
 {
     sf::RenderWindow window (sf::VideoMode(800,600), "SFMLtest", sf::Style::Default, sf::ContextSettings(0, 0, 2));
-    sf::RectangleShape square(sf:Vector2f(200.0,200.0));
-    sf::CircleShape circle(200.0);
-    square.setPosition(sf:Vector2f(300.0,200.0));
-    circle.setPosition(sf:Vector2f(300.0,200.0));
+    sf::RectangleShape square(sf::Vector2f(200.0,200.0));
+    sf::CircleShape circle(100.0);
+    square.setPosition(sf::Vector2f(150.0,200.0));
+    circle.setPosition(sf::Vector2f(450.0,200.0));
     while (window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
@@ -69,6 +69,13 @@ int main ()
 ```
 
 *main.cpp*
+
+Je kan deze bestand ook [hier downloaden](./test_sfml_installatie.cpp).
+
+Dit is hoe het dan uitziet:
+
+![test_sfml_installatie](./img/test_sfml_installatie.png)
+
 
 ## Voorbeeld tasks.json
 
