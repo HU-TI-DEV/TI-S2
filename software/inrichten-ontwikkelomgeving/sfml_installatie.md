@@ -1,22 +1,27 @@
 # SFML installatie[](title-id)
 
 ### Inhoud[](toc-id)
+
 - [SFML installatie](#sfml-installatie)
     - [Inhoud](#inhoud)
   - [Installatie SFML](#installatie-sfml)
-  - [Tips](#tips)
-    - [SFML voorbeeld](#sfml-voorbeeld)
-
+  - [Test SFML Installatie](#test-sfml-installatie)
+  - [Voorbeeld tasks.json](#voorbeeld-tasksjson)
+  - [SFML voorbeelden](#sfml-voorbeelden)
 
 ## Installatie SFML
 
 Installeer SFML met de packetmanager (dankzij Lia E.):
+
 - Open een **MSYS2 MSYS terminal** (dus niet een CMD terminal!)
 - Voer het volgende commando uit (wacht tot het klaar is!):
+
 ```bash
 pacman -Syu
 ```
+
 - Voer daarna het volgende commando uit:
+
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-sfml
 ```
@@ -26,54 +31,46 @@ Zet de juiste tasks.json settings:
 Zie voorbeeld onder.
 
 Zelf installeren:
+
 - Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de juiste gcc mingw versie.
 - Check evt. de installatie: [VScode + MinGW en GCC](https://code.visualstudio.com/docs/cpp/config-mingw)
 
+## Test SFML Installatie
 
-## Tips
-Hieronder staat voorbeeldcode die misschien behulpzaam is.
+Deze voorbeeldcode toont een venster met een cirkel en een kwadraat.
 
 ```c++
-// incomplete code
-// exercise: draw a SFML rectangle
+/// @file main.c -- SFML install test
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <iostream>
 
 int main ()
 {
-    // the window in which we want to print the line
-    sf::RenderWindow window (sf::VideoMode (800, 600), "My window", sf::Style::Default, sf::ContextSettings (0, 0, 2));
-
-    // Todo: define a sfml rectangle, e.g. named rshape, located at (4, 2) with a size of 120x50
-    // ... rshape ...;
-
-    // run the program as long as the window is open
-    while (window.isOpen ())
-	{
-	    // check all the window's events that were triggered since the last iteration of the loop
-	    sf::Event event;
-	    // window.display ();
-	    while (window.pollEvent (event))
-		{
-		    // "close requested" event: we close the window
-		    if (event.type == sf::Event::Closed)
-			window.close ();
-		}
-
-	    // clear the window
-	    window.clear ();
-	    // Todo: draw the sfml rectangle - uncomment the next line
-	    // window.draw (rshape);
-
-	    window.display ();
-	    // voorkom gebibber op het scherm
-	    sf::sleep (sf::milliseconds (20));
-	}
+    sf::RenderWindow window (sf::VideoMode(800,600), "SFMLtest", sf::Style::Default, sf::ContextSettings(0, 0, 2));
+    sf::RectangleShape square(sf:Vector2f(200.0,200.0));
+    sf::CircleShape circle(200.0);
+    square.setPosition(sf:Vector2f(300.0,200.0));
+    circle.setPosition(sf:Vector2f(300.0,200.0));
+    while (window.isOpen()) {
+        sf::Event event;
+        while (window.pollEvent(event)) {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+        window.clear();
+        window.draw(square);
+        window.draw(circle);
+        window.display ();
+        sf::sleep(sf::milliseconds(20));
+    }
     return 0;
 }
 ```
+
 *main.cpp*
+
+## Voorbeeld tasks.json
 
 ```json
 {
@@ -86,8 +83,8 @@ int main ()
                 "-fdiagnostics-color=always",
                 "-g",
                 "${fileDirname}\\*.cpp",
-		"-lsfml-graphics",
-        "-lsfml-window",
+                "-lsfml-graphics",
+                "-lsfml-window",
                 "-lsfml-system",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -110,10 +107,18 @@ int main ()
     "version": "2.0.0"
 }
 ```
-*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)Bron: Lia Engelchor en Tobias Bosch*
 
-![Uitleg van Tobias](uitleg_toob01.png)
-*Toelichting door Tobias: als het goed is kun je met bovenstaande tasks.json simpelweg de build task runnen via Terminal -> Run Build Task of de shortcut Ctrl + Shift + B gebruiken. De task compilet de binary, en runt die gelijk daarna, het is niet nodig om die zelf nog te runnen.*
+*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)*  
+*Bron: Lia Engelchor en Tobias Bosch*
 
-### SFML voorbeeld
+![Uitleg van Tobias](./img/uitleg_toob01.png)
+> *Toelichting door Tobias:*
+>
+> Als het goed is kun je met bovenstaande tasks.json simpelweg de build task runnen via  
+> `Terminal` -> `Run Build Task` of de shortcut `Ctrl+Shift+B` gebruiken.
+>
+> De task compilet de binary, en runt die gelijk daarna, het is niet nodig om die zelf nog te runnen.*
+
+## SFML voorbeelden
+
 - Gebruik de [code uit de tutorial](https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.
