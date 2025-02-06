@@ -11,15 +11,15 @@
     - [Deel 2 Leeruitkomsten.](#deel-2-leeruitkomsten)
   - [Algemeen](#algemeen)
   - [Leeruitkomsten](#leeruitkomsten)
-    - [Leeruitkomst 1](#leeruitkomst-1)
-    - [Leeruitkomst 2](#leeruitkomst-2)
-    - [Leeruitkomst 3](#leeruitkomst-3)
-    - [Leeruitkomst 4](#leeruitkomst-4)
-    - [Leeruitkomst 5](#leeruitkomst-5)
-    - [Leeruitkomst 6](#leeruitkomst-6)
-    - [Leeruitkomst 7](#leeruitkomst-7)
-    - [Leeruitkomst 8](#leeruitkomst-8)
-    - [Leeruitkomst 9](#leeruitkomst-9)
+    - [Leeruitkomst 1 Analyseren](#leeruitkomst-1-analyseren)
+    - [Leeruitkomst 2 Ontwerpen](#leeruitkomst-2-ontwerpen)
+    - [Leeruitkomst 3 Realisatie](#leeruitkomst-3-realisatie)
+    - [Leeruitkomst 4 Samenwerken](#leeruitkomst-4-samenwerken)
+    - [Leeruitkomst 5 Communiceren](#leeruitkomst-5-communiceren)
+    - [Leeruitkomst 6 Reflecteren / Verbeteren / Evalueren](#leeruitkomst-6-reflecteren--verbeteren--evalueren)
+    - [Leeruitkomst 7 Testen / Evalueren](#leeruitkomst-7-testen--evalueren)
+    - [Leeruitkomst 8 Plannen](#leeruitkomst-8-plannen)
+    - [Leeruitkomst 9 Opleveren / Documenteren](#leeruitkomst-9-opleveren--documenteren)
 
 ---
 
@@ -81,7 +81,7 @@ Succes met de uitwerking van de verantwoording!
 
 ## Leeruitkomsten
 
-### Leeruitkomst 1
+### Leeruitkomst 1 Analyseren
 
 Student analyseert de met de opdrachtgever afgestemde functionaliteit en hoofdlijnen van de IoT oplossing en stelt aan de hand hiervan requirements op.
 
@@ -122,7 +122,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
 
-### Leeruitkomst 2
+### Leeruitkomst 2 Ontwerpen
 
 Student zet de requirements om in logische onderdelen voor de oplossing, onderzoekt de toepasbaarheid van componenten, maakt bewuste keuzes in de samenstelling en ontwerpt hiermee de IoT-oplossing.
 
@@ -164,7 +164,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 3
+### Leeruitkomst 3 Realisatie
 
 Student realiseert vanuit een ontwerp een eenvoudige toekomstbestendige IoT oplossing in zowel hard- als software waarbij integratie van componenten via software een onderdeel is.
 
@@ -210,7 +210,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 4
+### Leeruitkomst 4 Samenwerken
 
 Student werkt doelgericht en met verantwoordelijkheid samen door zich aan afspraken te houden, taken op te pakken en uit te voeren, teamleden op de hoogte te houden, feedback te geven, feedback te onvangen en waar nodig om hulp te vragen en aan te bieden.
 
@@ -239,7 +239,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 5
+### Leeruitkomst 5 Communiceren
 
 Student deelt een boodschap helder met het team en opdrachtgever en is in staat om diens werk te presenteren aan peers en opdrachtgever en vraagt door om onduidelijkheden weg te nemen.
 
@@ -266,7 +266,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 6
+### Leeruitkomst 6 Reflecteren / Verbeteren / Evalueren
 
 Student evalueert eigen gedrag en eigen leerontwikkeling, kijkt kritisch terug op eigen handelen en de invloed daarvan op de teamprestaties/leerontwikkeling, herkent hierin de eigen sterktes en verbeterpunten, en kan deze vervolgens vertalen naar concrete acties.
 
@@ -292,7 +292,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 7
+### Leeruitkomst 7 Testen / Evalueren
 
 Student voert eenvoudige tests uit in strikte overeenstemming met gecommuniceerde instructies en evalueert de resultaten om uitspraken te kunnen doen over de kwaliteit van de code en het systeem.
 
@@ -332,7 +332,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 8
+### Leeruitkomst 8 Plannen
 
 Student is in staat om een eenvoudige planning voor zichzelf en/of voor het team op te stellen door grote taken op te delen in kleinere (deel)taken om zodoende het gestelde doel te bereiken en zich daaraan te kunnen houden. Naar aanleiding van (gecontroleerde) gebeurtenissen kan de student zijn planning aanpassen en deze aanpassingen toelichten.
 
@@ -344,7 +344,7 @@ Indicatoren
 
 ---
 
-**Leeruitkomst 7 Groepsopdrachten:**
+**Leeruitkomst 8 Groepsopdrachten:**
 
 | Portfolio-item     | Beschrijving                                           | Bewijslast               |
 |--------------------|--------------------------------------------------------|--------------------------|
@@ -360,7 +360,7 @@ Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 ---
 
-### Leeruitkomst 9
+### Leeruitkomst 9 Opleveren / Documenteren
 
 Student levert, in een daarvoor ingerichte versiebeheeromgeving, de producten en diensten op zodanig dat de opdrachtgever en peers verder kunnen met de doorontwikkeling van de resultaten waarvan een bijdrage aan de documentatie een wezenlijk onderdeel is.
 

@@ -8,7 +8,7 @@ Vaststellen wat het doel is van de aankomende sprint en een plan maken om dat do
 Eerste dag van iedere sprint 
 
 ### Voorbereiding  
-- Product Backlog is bijgewerkt en inzichtelijk 
+- Product Backlog is bijgewerkt en inzichtelijk. 
 - Stories voor de komende twee sprints zijn gedetailleerd uitgewerkt en iedere Story bevat acceptatiecriteria en de definition of done.
 - Capaciteit voor de sprint wordt vastgesteld.
 - De stories voor de komende sprint zijn verdeeld in taken van 2-4 uur en   toegewezen aan de projectleden. 
