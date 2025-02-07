@@ -1,12 +1,12 @@
-# Opdrachten Basisconcepten C++[](title-id)
+# Opdrachten Basisconcepten C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Basisconcepten C++](#opdrachten-basisconcepten-c)
-    - [Inhoud](#inhoud)
-  - [Opdracht 1.0 Hello, project](#opdracht-10-hello-project)
-  - [Opdracht 1.1 Hello world commentaar](#opdracht-11-hello-world-commentaar)
-  - [Opdracht 1.2 Naam en studentnummer](#opdracht-12-naam-en-studentnummer)
-  - [Opdracht 1.3 Spelen met fouten](#opdracht-13-spelen-met-fouten)
+### Inhoud[](toc-id) <!-- omit in toc -->
+
+- [Opdracht 1.0 Hello, project](#opdracht-10-hello-project)
+- [Opdracht 1.1 Hello world commentaar](#opdracht-11-hello-world-commentaar)
+- [Opdracht 1.2 Naam en studentnummer](#opdracht-12-naam-en-studentnummer)
+- [Opdracht 1.3 Spelen met fouten](#opdracht-13-spelen-met-fouten)
+- [Opdracht 1.4 Gebruik Git](#opdracht-14-gebruik-git)
 
 
 ## Opdracht 1.0 Hello, project
@@ -42,3 +42,6 @@ Zet de `';'` weer in de code.
 
 Het is handig om foutmeldingen te leren herkennen. 
 - 1.3.b Probeer zelf om andere fouten te genereren. Kijk welke meldingen dit oplevert.
+
+## Opdracht 1.4 Gebruik Git
+Plaats je werk met [Git](../../../programma/lesprogramma/programma-git.md) op je persoonlijke repository.

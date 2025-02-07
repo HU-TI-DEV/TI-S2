@@ -14,4 +14,4 @@ software/c++/oop-concepten/overerving/virtual-abstract.md
 *.DS_Store
 .vscode
 package-lock.json
-TI-S2.code-workspace
+*.code-workspace

@@ -6,6 +6,7 @@
 
 - [Een introductie](#een-introductie)
   - [Organisatie](#organisatie)
+  - [De docenten](#de-docenten)
 - [Programma](#programma)
   - [Onderwijsweek C2 (10-02-2025)](#onderwijsweek-c2-10-02-2025)
   - [Onderwijsweek C3 (17-02-2025)](#onderwijsweek-c3-17-02-2025)
@@ -50,14 +51,14 @@ De contacturen zijn (subject to change):
 |wo|9:00|13:00| HL15-1.096 & HL15-5.054 |
 |do|9:00|13:00| HL15-1.096 & HL15-5.056 |
 
-De docenten zijn:
+### De docenten
 
 * (**TM**) Teun Pieter Moddermann
 * (**HS**) Harm Snippe
 * (**GP**) Gera Pronk
+* (**HP**) Hagen Patzke
 * (**MV**) Marius Versteegen
 * (**BB**) Bart Bozon
-* (**HP**) Hagen Patzke
 
 ## Programma
 
@@ -68,7 +69,7 @@ Week C2. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee (iedereen in lokaal HL15-1.096). De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
-| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
+| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) [Git introductie en opzetten](./lesprogramma/programma-git.md). (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
 | wo  | Afmaken opzet IDE | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
 | do  | Afmaken opzet IDE| [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
 | vr  | 9.00 uur aanwezig aan de achterkant van HL15  | Bedrijfsbezoek Maurice Kassenbouw B.V. |
