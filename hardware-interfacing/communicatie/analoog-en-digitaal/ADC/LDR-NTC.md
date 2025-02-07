@@ -25,11 +25,11 @@
 
 LDR en NTC zijn beiden weerstanden. De ene verandert zijn waarde onder invloed van licht, de andere met de temperatuur.
 Met hulp van een vaste weerstand kunnen we deze verandering van weerstand omzetten in de verandering van een spanning.
-Deze spanning kan de ADC meten en in een getal omzetten.
+Deze spanning kan de ADC meten en in een getal omzetten. De meeste microcontrollers kunnen allen spanning meten en geen weerstand. Dat komt door de manier waarop ADC's zijn ontworpen.
 
 ![LDR-R measuring schematic](img/LDR-R-measuring_schem.png)
 
-Om een analoge waarde te meten en een verandering te zien als de omgeving verandert zijn zowel LDR als NTC geschikt. We hadden ook een [potentiometer](../../../elektronische-componenten/potentiometer/README.md) kunnen gebruiken. Het principe blijft gelijk.
+Om een analoge waarde te meten en een verandering te zien als de omgeving verandert zijn zowel LDR als NTC geschikt. We hadden ook een [potentiometer](../../../elektronische-componenten/potentiometer/README.md) kunnen gebruiken. Door aan de knop te draaien kan je de weerstand veranderen. Het principe blijft gelijk.
 
 ### LDR
 
@@ -52,7 +52,7 @@ Er zijn twee types van deze weerstanden:
 
 ### De schakeling
 
-We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebruiken.
+We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebruiken. De variabele weerstand is in serie geschakeld met een vaste weerstand van 10kOhm. Deze schakeling noemen we een voltage divider. Daar gaan we later nog meer aan rekenen met behulp van de Wet van Ohm.
 
 ![LDR-NTC breadboard schakeling](img/LDR-NTC_bb.png)
 
