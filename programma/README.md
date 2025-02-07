@@ -68,9 +68,9 @@ Week C2. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee (iedereen in lokaal HL15-1.096). De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
-| di  | Scrum en projectplanning     | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
-| wo  | | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
-| do  | Indelen van de groepen. & Team contract inleveren.     | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
+| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) Git introductie en opzetten. (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
+| wo  | Afmaken opzet IDE | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
+| do  | Afmaken opzet IDE| [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
 | vr  | 9.00 uur aanwezig aan de achterkant van HL15  | Bedrijfsbezoek Maurice Kassenbouw B.V. |
 
 ### Onderwijsweek C3 (17-02-2025)
@@ -80,8 +80,8 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | geen les | geen les |
-| di  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**HP & GP**) |
-| wo  | | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**HP & GP**)     |
+| di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**HP & GP**) |
+| wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**HP & GP**)     |
 | do  | :end: Einde sprint 0 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB**)     |
 
 
