@@ -1,18 +1,16 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Semester 2 van Technische Informatica[](title-id)
+# Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Semester 2 van Technische Informatica](#semester-2-van-technische-informatica)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Beroepstaak](#beroepstaak)
-  - [Context](#context)
-  - [Sustainable Development Goals](#sustainable-development-goals)
-  - [Leeruitkomsten](#leeruitkomsten)
-  - [Referenties](#referenties)
-  - [Licentie informatie](#licentie-informatie)
+- [Een introductie](#een-introductie)
+- [Beroepstaak](#beroepstaak)
+- [Context](#context)
+- [Sustainable Development Goals](#sustainable-development-goals)
+- [Leeruitkomsten](#leeruitkomsten)
+- [Referenties](#referenties)
+- [Licentie informatie](#licentie-informatie)
 
 ---
 

@@ -17,7 +17,7 @@
 
 Hieronder staat een vertaling van (een deel van de)  [Portfolio items](../Portfolio-items.md) naar de software die je krijgt aangeleerd in dit semester.
 Of, misschien beter gezegd, hieronder kun je vinden welke rol het C++ onderwijs speelt in jouw portfolio. 
-*Let op: leidend is de informatie op de pagina met de volledige lijst met[Portfolio items](../Portfolio-items.md).*
+*Let op: leidend is de informatie op de pagina met de volledige lijst met [Portfolio items](../Portfolio-items.md).*
 
 ## Portfolio items voor software
 

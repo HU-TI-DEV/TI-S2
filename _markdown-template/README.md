@@ -1,32 +1,33 @@
 ![logo](img/logo.svg) [](logo-id)
 
-# Markdown: Syntax [](title-id)
+# Markdown: Syntax [](title-id) <!-- omit in toc -->
 
-### Table of contents [](toc-id)
+### Table of contents [](toc-id) <!-- omit in toc -->
 
-- [Markdown: Syntax ](#markdown-syntax-)
-    - [Table of contents ](#table-of-contents-)
-  - [Overview](#overview)
-    - [Philosophy](#philosophy)
-  - [Block Elements](#block-elements)
-    - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
-    - [Headers](#headers)
-    - [Blockquotes](#blockquotes)
-    - [Lists](#lists)
-    - [Code Blocks](#code-blocks)
-  - [Span Elements](#span-elements)
-    - [Links](#links)
-    - [Emphasis](#emphasis)
-    - [Code](#code)
-  - [Links](#links-1)
-  - [Images](#images)
-  - [Code and syntax highlighting](#code-and-syntax-highlighting)
-  - [Tables](#tables)
-  - [References](#references)
+- [Overview](#overview)
+  - [Philosophy](#philosophy)
+- [Block Elements](#block-elements)
+  - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+  - [Headers](#headers)
+  - [Blockquotes](#blockquotes)
+  - [Lists](#lists)
+  - [Code Blocks](#code-blocks)
+- [Span Elements](#span-elements)
+  - [Links](#links)
+  - [Emphasis](#emphasis)
+  - [Code](#code)
+- [Links](#links-1)
+- [Images](#images)
+- [Code and syntax highlighting](#code-and-syntax-highlighting)
+- [Tables](#tables)
+- [Style bold](#style-bold)
+- [Style italic](#style-italic)
+- [Style strikethrough](#style-strikethrough)
+- [References](#references)
 
 ---
 
-**v0.1.0 [](version-id)** This document is a template for our TI S2 documentation and example code. Harm Snippe[](author-id).
+**v0.1.1 [](version-id)** This document is a template for our TI S2 documentation and example code.
 
 ---
 
@@ -425,6 +426,19 @@ Markdown | Less | Pretty
 | -------- | --------- | ---------- |
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
+
+
+## Style bold
+
+Use double astrics for **bold text** `**bold text**`
+
+## Style italic
+
+Use triple astrics for ***italic text*** `***italic text***`
+
+## Style strikethrough
+
+Use double tilde for ~~strikethrough~~ `~~strikethrough~~`
 
 ## References
 
