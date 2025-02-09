@@ -25,7 +25,7 @@
 
 LDR en NTC zijn beiden weerstanden. De ene verandert zijn waarde onder invloed van licht, de andere met de temperatuur.
 Met hulp van een vaste weerstand kunnen we deze verandering van weerstand omzetten in de verandering van een spanning.
-Deze spanning kan de ADC meten en in een getal omzetten. De meeste microcontrollers kunnen allen spanning meten en geen weerstand. Dat komt door de manier waarop ADC's zijn ontworpen.
+Deze spanning kan de ADC meten en in een getal omzetten. De meeste microcontrollers kunnen alleen spanning meten en geen weerstand. Dat komt door de manier waarop ADC's zijn ontworpen.
 
 ![LDR-R measuring schematic](img/LDR-R-measuring_schem.png)
 
@@ -58,7 +58,7 @@ We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebru
 
 ## Arduino voorbeeld code
 
-De voorbeeld code meet alleen een spanning en laat deze waarde via de serial interface zien.
+De voorbeeld code meet alleen een spanning en laat deze waarde via de serial interface zien. Upload je voor het eerst een `sketch` via de Arduino IDE vink dan onder Preferences -> Settings 'Show verbose output during' compile en upload aan. Dan kan je beter zien wat er gebeurt tijdens deze processen.
 
 > Het voorbeeld gebruikt Analog Pin 'A0', maar je kan het programma makkelijk aanpassen om een andere Analog Pin te kiezen. Dat is handig bijvoorbeeld als je een Arduino Nano gebruikt.
 
@@ -100,6 +100,18 @@ void loop() {
 //EOF
 ```
 [Arduino bestand](../ADC/files/LDR-NTC/LDR-NTC.ino) 
+
+## Pull up configuratie
+
+Door eerst de variable weerstand te plaatsen en dan de vaste weerstand in serie heb je een pull up configuratie. Je meet V<sub>out</sub> tussen de twee weerstanden. Wanneer de temperatuur toeneemt neemt de weerstand van de NTC af waardoor V<sub>out</sub> toe neemt (dichter in de buurt komt van V<sub>supply</sub>). De gemeten spanning is gegeven door V<sub>out</sub> = V<sub>supply</sub> x R<sub>fixed</sub> / R<sub>NTC</sub> + R<sub>fixed</sub>. Deze configuratie is dus handig als je een hoger voltage wil bij meer oplopende temperatuur (of bij meer licht in het geval van een LDR).
+
+## Vragen
+
+- Wat zijn de nadelen wanneer je de vaste weerstand te groot of te klein kiest?
+- Waarom denk je dat we dit geval kiezen voor een 10kOhm weerstand?
+
+
+
 
 ## Referenties
 
