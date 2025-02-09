@@ -444,3 +444,4 @@ Use double tilde for ~~strikethrough~~ `~~strikethrough~~`
 
 - Markdown example taken from (<https://github.com/PavelLaptev/markdown-theme-shell/tree/master>)
 - Markdown cheat-sheet (<https://www.markdownguide.org/cheat-sheet/>)
+- Extended syntax (<https://www.markdownguide.org/extended-syntax/>)
