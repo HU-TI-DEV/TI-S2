@@ -42,19 +42,20 @@ VCS is an abbreviation for Version Control System. A VCS is a tool that saves th
 
 ## Alternatives to Git
 
-Are there any alternatives to using a VCS? Not really – one could use local backups on (removable) hard drives, but this makes working together much harder. Git is the most popular VCS worldwide, mostly because of its ease of use and speed – because you work locally you’re not as limited by network speed, there is no single point of failure as with centralized VCS(SVN) and git is available offline.
+Are there any alternatives to using a VCS? Not really – one could use local backups on (removable) hard drives, but this makes working together much harder. Git is the most popular VCS worldwide, mostly because of its ease of use and speed – because you work locally you’re not limited by network speed, there is no single point of failure as with centralized VCS (for example, SVN and ClearCase) and Git is available offline.
 
-Alternatives to Git include Mercurial and SVN (subversion), but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread).
+Alternatives to Git include Mercurial and SVN (subversion), but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [StackOverflow Survey 2021](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread).
+The [StackOverflow Survey 2022](https://survey.stackoverflow.co/2022/#version-control-version-control-system) even shows Git at 93.87%, SVN at 5.18% and Mercurial at 1.13%.
 
 Another important thing to note with these statistics is that many developers don't use just one system - they will often use different systems professionally than for personal work.
 
 ## Distributed versus centralized VCS
 
-Git is a **distributed** VCS, meaning that you always have a working local repository in addition to a central remote. **Centralized** VCS only have a remote, so any ‘commits’ you make are sent directly to the remote.
+Git is a **distributed** VCS, meaning that you always have a working local repository in addition to a central 'remote'. A **centralized** VCS only has the remote repository: any ‘commits’ you make are sent directly to the remote.
 
 ## Git versus GitHub: Git as a service
 
-GitHub and Git are often used interchangably, but GitHub ‘merely’ hosts Git as a service. There are alternative hosts, such as GitLab, BitBucket, Sourceforge or hosting your own, but GitHub is the most popular provider. However, its market share has decreased a little ever since it got taken over by Microsoft.
+`GitHub` and `Git` are often used interchangably, but GitHub ‘merely’ hosts Git as a service. There are alternative hosts, such as `GitLab`, `BitBucket`, `Sourceforge` or hosting your own, but `GitHub` is the most popular provider. However, its market share has decreased a little ever since it got taken over by Microsoft.
 
 If you decide to use a different host (although we recommend GitHub at this point in time) it is important to note that Git will work the same for every host you choose. It is the host's specific infrastructure and functionality that can be different, but the underlying Git functionality remains the same.
 
