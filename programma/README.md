@@ -81,8 +81,8 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | geen les | geen les |
-| di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**HP & GP**) |
-| wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**HP & GP**)     |
+| di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP & HP**) |
+| wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**GP & HP**)     |
 | do  | :end: Einde sprint 0 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB**)     |
 
 
@@ -102,9 +102,9 @@ Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtighei
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 1 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
-| di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS**) |
-| wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HP & HS**) |
+| ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 1 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS & HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS & HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
+| di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS & HP**) |
+| wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HS & HP**) |
 | do  | Werken aan project     | [Electronika basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB & MV**)     |
 
 ### Onderwijsweek C6 (10-03-2025)
@@ -114,9 +114,9 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Werken aan project | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB & HS**) |
-| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) |
+| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP & HP**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 1 (**HS**) |
-| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 1 & :runner: planning sprint 2| [Bits en bitoperatoren](../software/c++/bits/README.md) (**HP & GP**) |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 1 & :runner: planning sprint 2| [Bits en bitoperatoren II](../software/c++/bits/README.md) (**HP** x 2) |
 | vr  |  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) groep 2 (**HS**) |
 
 ### Onderwijsweek C7 (17-03-2025)
