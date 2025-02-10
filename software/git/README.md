@@ -44,13 +44,13 @@ VCS is an abbreviation for Version Control System. A VCS is a tool that saves th
 
 Are there any alternatives to using a VCS? Not really – one could use local backups on (removable) hard drives, but this makes working together much harder. Git is the most popular VCS worldwide, mostly because of its ease of use and speed – because you work locally you’re not as limited by network speed, there is no single point of failure as with centralized VCS(SVN) and git is available offline.
 
-Alternatives to Git include Mercurial and SVN, but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread).
+Alternatives to Git include Mercurial and SVN (subversion), but only about 16.1% of developers use SVN, and only 3.6% use Mercurial while 80-90% of developers use Git: [https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread](https://insights.stackoverflow.com/survey/2021#most-loved-dreaded-and-wanted-tools-tech-love-dread).
 
-Another important thing to note with these statistics is that many developers don't use just one system - they will often use different systems profesionally than personally.
+Another important thing to note with these statistics is that many developers don't use just one system - they will often use different systems professionally than for personal work.
 
 ## Distributed versus centralized VCS
 
-Git is a distributed VCS, meaning that you always have a working local repository in addition to a central remote. Centralized VCS only have a remote, so any ‘commits’ you make are sent directly to the remote.
+Git is a **distributed** VCS, meaning that you always have a working local repository in addition to a central remote. **Centralized** VCS only have a remote, so any ‘commits’ you make are sent directly to the remote.
 
 ## Git versus GitHub: Git as a service
 
@@ -64,13 +64,15 @@ You can use Git integrated through your IDE or with a GUI, but this presents sev
 
 As a software developer it’s important to select the right tools for the job, but Git through command line is always a good tool to have: you can always use it, you have full control and you are not limited to a specific environment.
 
-Example; 1st year students have learned to use Git through JetBrains IDEs, but not manually. For a project they did they had to work with the Arduino IDE, which does not have a native git integration. They said they kept copy+pasting code from Arduino IDE to Clion in order to use the Git integration.
+> Example:  
+> 1st year students have learned to use Git through JetBrains IDEs, but not manually.  
+> For a project they did they had to work with the Arduino IDE, which does not have native Git integration. They said they kept copy+pasting code from Arduino IDE to Clion in order to use the Git integration.
 
 ## Using Git
 
 ### Creating a repository
 
-There are a few ways of making a new repository. The easiest is by making one on GitHub, or your host of choice, and cloning that to a local repository. This is easiest, because it allows you to initiate with a readme, a gitignore and a license. It also makes it easy for your clone of this repo to find the remote when making your first commit from your local repository. You can then simply clone the remote to make a local copy. It is also possible to initiate a new repo locally and then set its remote using `git remote add <REPO NAME> <REPO SSH/URL>` . This feels like more work though, and if you want a remote anyway it’s easier to start by making the remote.
+There are a few ways of making a new repository. The easiest is by making one on GitHub, or your host of choice, and cloning that to a local repository. This is easiest, because it allows you to `init` immediately with a `README.md`, a `.gitignore` and a `License` file. It also makes it easy for your clone of this repo to find the remote when making your first commit from your local repository. You can then simply clone the remote to make a local copy. It is also possible to `init` (initiate) a new repo locally and then set its remote using `git remote add <REPO NAME> <REPO SSH/URL>`. This feels like more work though, and if you want a remote anyway it’s easier to start by making the remote.
 
 ### Clone versus Fork
 
