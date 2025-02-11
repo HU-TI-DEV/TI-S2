@@ -52,7 +52,7 @@ Er zijn twee types van deze weerstanden:
 
 ### De schakeling
 
-We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebruiken. De variabele weerstand is in serie geschakeld met een vaste weerstand van 10kOhm. Deze schakeling noemen we een voltage divider. Daar gaan we later nog meer aan rekenen met behulp van de Wet van Ohm.
+We tonen in dit voorbeeld een LDR, maar in plaats ervan kan je ook een NTC gebruiken. De variabele weerstand is in serie geschakeld met een vaste weerstand van 10kOhm. Deze schakeling noemen we een voltage divider. Daar gaan we later nog meer aan rekenen met behulp van de [Wet van Ohm](https://www.youtube.com/watch?v=LXmlo3VvZIw).
 
 ![LDR-NTC breadboard schakeling](img/LDR-NTC_bb.png)
 
