@@ -36,12 +36,13 @@ Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, 
  
 ## Tijdens de les
 
-[powerpoint van de les](./files/Flask_workshop.drawio.svg)
+[powerpoint van de les](./files/Vermogen-energie-lading.pptx)
 
 
 ## Na de les
 
-Bestudeer bovenstaande stof nog eens en controleer voor jezelf of alles nu duidelijk is.
+Maak de volgende toets op canvas (je kan hem zo vaak doen als je wilt):
+[De opdracht](https://canvas.hu.nl/courses/44719/quizzes/47789)
 
 
 
