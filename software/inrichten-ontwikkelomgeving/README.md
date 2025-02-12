@@ -40,10 +40,15 @@ Doxygen is een tool die helpt bij het genereren van commentaar of documentatie.
 * [Installatie Doxygen](./doxygen.md)
 
 ## Een C++programma uitvoeren
-Om een C++programma uit te voeren moet je eerst een **workspace** hebben. In een workspace kunnen meerdere C++ programma’s staan. Een workspace maak je met:
-File -> New -> New Workspace.
+Om een C++programma uit te voeren moet je eerst een **workspace** hebben. In een workspace kunnen meerdere C++ programma’s staan.
+Een workspace maak je automatisch aan met: `File` -> `Open Folder`.
 
-## Project
+[Meer uitleg over workspaces staat op deze site.](https://code.visualstudio.com/docs/editor/workspaces/workspaces)
+
+## Project 
+
+(NB: oudere versies van VS Code en sommige plug-ins/extensies bieden deze aparte optie.)
+
 Voor elk C++programma moet je een **project** aanmaken in je workspace. Een project maak je aan met: 
 - File -> new -> project. 
 - Kies "Simple executable (g++)" -> next.
@@ -53,7 +58,7 @@ Voor elk C++programma moet je een **project** aanmaken in je workspace. Een proj
 In het project staat nu een bestand genaamd `“main.cpp”`. Hierin schrijf je je C++ code.
 
 ## Alternatieven
-### Online C++ editor
-Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor (bv https://onecompiler.com/cpp).
+### Online C++ editor/compiler
+Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor/compiler (bv https://onecompiler.com/cpp).
 ### CodeLite
 Of stap over op een andere IDE: bijvoorbeeld [CodeLite](codelite.md).

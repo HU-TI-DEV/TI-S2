@@ -69,8 +69,8 @@ Week C2. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee (iedereen in lokaal HL15-1.096). De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
-| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**GP**) [Git introductie en opzetten](./lesprogramma/programma-git.md). (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**GP**) en op Git plaatsen.  |
-| wo  | Afmaken opzet IDE | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
+| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**HP & GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**HP & GP**) [Git introductie en opzetten](./lesprogramma/programma-git.md). (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**HP & GP**) en op Git plaatsen.  |
+| wo  | Afmaken opzet IDE | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**HP & GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
 | do  | Afmaken opzet IDE| [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
 | vr  | 9.00 uur aanwezig aan de achterkant van HL15  | Bedrijfsbezoek Maurice Kassenbouw B.V. |
 
@@ -127,8 +127,8 @@ Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen
 | --- | --- | --- |
 | ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & HS**) |
 | di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](../software/git/README.md) cursus (**HS**), Individuele feedback op software opdrachten (**GP**)    |
-| wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
-| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
+| wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**HP & GP**) |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP**) |
 
 ### Onderwijsweek C8 (24-03-2025)
 
@@ -137,8 +137,8 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV&BB**)  |
-| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
+| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV**)  |
+| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**HP & GP**) |
 | wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
 | do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV&BB**)  |
 
