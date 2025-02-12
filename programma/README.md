@@ -83,7 +83,7 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | ma  | geen les | geen les |
 | di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP & HP**) |
 | wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**GP & HP**)     |
-| do  | :end: Einde sprint 0 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB**)     |
+| do  | :end: Einde sprint 0 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB&MV**)     |
 
 
 ### Onderwijsweek C4 (24-02-2025)
@@ -105,7 +105,7 @@ Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtighei
 | ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 1 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS & HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS & HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
 | di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS & HP**) |
 | wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HS & HP**) |
-| do  | Werken aan project     | [Electronika basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB & MV**)     |
+| do  | Werken aan project     | [Electronika basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB&MV**)     |
 
 ### Onderwijsweek C6 (10-03-2025)
 
@@ -137,10 +137,10 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV**)  |
+| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV&BB**)  |
 | di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 | wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
-| do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV & BB**)  |
+| do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV&BB**)  |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -148,7 +148,7 @@ Week C9. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**MV**)|
+| ma  | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**MV&BB**)|
 | di  | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [UART](./lesprogramma/programma-uart.md) (**HP & HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: Planning sprint 3 | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP & HP**) |
@@ -159,7 +159,7 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV**) Darlington, ULN2003 |
+| ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV&BB**) Darlington, ULN2003 |
 | di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
 | wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)
 | do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
