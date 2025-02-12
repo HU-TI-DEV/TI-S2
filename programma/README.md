@@ -137,7 +137,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV**)  |
+| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV&BB**)  |
 | di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**HP & GP**) |
 | wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
 | do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV&BB**)  |
@@ -207,7 +207,7 @@ Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschille
 | ma  | Bevrijdingsdag |  |
 | di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP** & **HP**) |
 | wo  | Werken aan project  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP**) |
-| do  | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB, MV**)  |
+| do  | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB& MV**)  |
 
 ### Onderwijsweek D5 (12-05-2025)
 
