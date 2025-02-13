@@ -83,7 +83,7 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | ma  | geen les | geen les |
 | di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP & HP**) |
 | wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**GP & HP**)     |
-| do  | :end: Einde sprint 0 | [Electronika (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB&MV**)     |
+| do  | :end: Einde sprint 0 | [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB&MV**)     |
 
 
 ### Onderwijsweek C4 (24-02-2025)
@@ -105,7 +105,7 @@ Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtighei
 | ma  | Uitleg: Daily Standup en Review. :runner: planning sprint 1 |   [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HS & HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HS & HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
 | di  | Werken aan project     |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HS & HP**) |
 | wo  | Werken aan project     |  [SPI](./lesprogramma/programma-SPI.md) (**HS & HP**) |
-| do  | Werken aan project     | [Electronika basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB&MV**)     |
+| do  | Werken aan project     | [Electronica basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**BB&MV**)     |
 
 ### Onderwijsweek C6 (10-03-2025)
 
