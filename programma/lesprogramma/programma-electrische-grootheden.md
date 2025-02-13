@@ -11,7 +11,12 @@ Bekijk de volgende filmpjes:
 
 ## Tijdens de les
 
-[powerpoint van de les](./files/Intro%20spanning%20&%20stroom%20college.pptx)
+- [powerpoint van de les](./files/Intro%20spanning%20&%20stroom%20college.pptx)
+
+Heb je moeite met rekenen? Bekijk de volgende drie bronnen:  
+- [Hoe ga ik met formules om?](https://www.youtube.com/watch?v=PVVELRqSGco)  
+- [Wat nu als ik meerdere formules heb?](https://www.youtube.com/watch?v=xXiLl0BDu7I)
+- [basis regels rekenen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
 
 ## Na de les
 
