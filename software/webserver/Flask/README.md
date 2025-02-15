@@ -60,11 +60,13 @@ Controleer of je applicatie werkt.
 (venv)$ python flaskApp.py 
 ```
 
-Als het goed is heb je nu een eerste applicatie gemaakt. Navigeer met je browser naar http://<your hostname or ip>:5000
+Als het goed is heb je nu een eerste applicatie gemaakt. Navigeer met je browser naar http://< your hostname or ip >:5000
+
+Als alles werkt kunnen we de venv verlaten met `deactivate`.
 
 ## Docker image
 
-Maak een [Docker](../../../infrastructuur/Docker/README.md) image aan voor je applicatie. Voeg onderstaand toe aan een bestand Docker.
+Maak een [Docker](../../../infrastructuur/Docker/README.md) image aan voor je applicatie. Voeg onderstaand toe aan een Dockerfile een bestand met de naam `Dockerfile` zonder extensie (gebruik nano of vi om het bestand te maken).
 ```bash
 FROM python:3.9.2
 WORKDIR /code

@@ -2,7 +2,7 @@
 
 # Analoog en digitaal[](title-id)
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Analoog en digitaal](#analoog-en-digitaal)
     - [Inhoud](#inhoud)

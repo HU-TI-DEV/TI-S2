@@ -178,7 +178,7 @@ public:
 line diagonal_line = { 10, 10, 40, 40 }; // initialisatie
 
 // dit geeft nu een compilatie fout:
-line.start_x = 7; // error: 'int line::start_x' is private
+diagonal_line.start_x = 7; // error: 'int line::start_x' is private
 
 diagonal_line.print();
 ```

@@ -47,9 +47,9 @@ Om 8 waarden op de uitgangspinnen van een 74HC595 chip te krijgen moeten we dus 
     3) (om het effect te laten zien moet je nu wachten)
 
 
-![Tijdsvolgorde van de wat er gebeurt in een 74HC595](../74HC595/img/HC595_tijdsvolgorde.png)
+![Tijdsvolgorde van wat er gebeurt in een 74HC595](../74HC595/img/HC595_tijdsvolgorde.png)
 
-De 74HC595 schuifregister heeft drie ingangen die aan de micro-controller moeten worden aangesloten: shift-clock (SHCP = SHift Clock Pulse), data (DS), en hold-clock (STCP = STorage Clock Pulse). Verder moet je natuurlijk GND en VCC (3.3V) aansluiten, en MR (Master Reclear) aan VCC en OE (Outpout Enable) aan GND.
+De 74HC595 schuifregister heeft drie ingangen die aan de micro-controller moeten worden aangesloten: shift-clock (SHCP = SHift Clock Pulse), data (DS), en hold-clock (STCP = STorage Clock Pulse). Verder moet je natuurlijk GND en VCC (3.3V) aansluiten, en MR (Master Reclear) aan VCC en OE (Output Enable) aan GND.
 
 ![HC595 pin diagram](../74HC595/img/595_pin_diagram.png)
 

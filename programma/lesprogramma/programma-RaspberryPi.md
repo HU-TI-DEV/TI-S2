@@ -13,4 +13,5 @@ Eduroam heeft het voordeel dat we op de 3e etage ook bereik hebben. Een nadeel i
 Ieder team is verantwoordelijk voor de hardwareonderdelen. Deze hardwareonderdelen willen wij komend semester weer opnieuw kunnen gebruiken.
 
 ## Portfolio Tip
-Maak een database aan voor voorraadbeheer. Maak een NodeRed implementatie om weer data op te vragen. 
+
+Maak een database aan om bijvoorbeeld sensor data in op te slaan. Maak een NodeRed implementatie om weer data op te vragen uit de database. 

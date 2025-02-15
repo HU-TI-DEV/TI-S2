@@ -29,4 +29,4 @@ Ruim je spullen netjes op. Stel je persoonlijke zaken veilig zoals zelf gemaakte
 
 ## Portfolio Tip
 
-Het maken van een poster en het presenteren en verdedigen van een poster is een 'professional skill'. Leg je werkzaamheden dus goed vast op je groeps- en persoonlijke repository. 
+Het maken van een poster en het presenteren en verdedigen van een poster is een 'professioneel vermogen'. Leg je werkzaamheden dus goed vast op je groeps- en persoonlijke repository. 

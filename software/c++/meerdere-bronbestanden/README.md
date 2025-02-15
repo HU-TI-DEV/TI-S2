@@ -73,7 +73,7 @@ int addTwice(int a , int b){
 int main(){
   int n1 = 8;
   int n2 = 10;
-  int r = addTwice(n1, n2)
+  int r = addTwice(n1, n2);
 
   // r now contains the integer 28
 }

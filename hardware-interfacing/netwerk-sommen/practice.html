@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oefenen Netwerksommen</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    a {
+      display: block;
+      margin-top: 20px;
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Oefenen met netwerksommen</h1>
+  <br>
+  <button onclick="generateLinks()">Generate Links</button>
+  <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink2" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink3" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
+  <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
+
+  <script>
+    function generateLinks() {
+      const number = Math.floor(Math.random() * 101); // Random number between 0 and 100
+      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice_0_";
+      
+      const formattedNumber = number.toString().padStart(5, '0');
+      const Number2 = (number + 100).toString().padStart(5, '0');
+      const Number3 = (number + 200).toString().padStart(5, '0');
+      const Number4 = (number + 300).toString().padStart(5, '0');
+      const Number5 = (number + 400).toString().padStart(5, '0');
+      const Number6 = (number + 500).toString().padStart(5, '0');
+
+      const resultLink = document.getElementById('resultLink');
+      resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
+      resultLink.textContent = `1) Bereken de stroom, simpel`;
+      resultLink.style.display = 'block';
+
+      const resultLink2 = document.getElementById('resultLink2');
+      resultLink2.href = `${baseUrl}${Number2}.jpg`;
+      resultLink2.textContent = `2) Bereken de weerstand, simpel`;
+      resultLink2.style.display = 'block';
+
+      const resultLink3 = document.getElementById('resultLink3');
+      resultLink3.href = `${baseUrl}${Number3}.jpg`;
+      resultLink3.textContent = `3) Bereken de spanning, simpel`;
+      resultLink3.style.display = 'block';
+
+      const resultLink4 = document.getElementById('resultLink4');
+      resultLink4.href = `${baseUrl}${Number4}.jpg`;
+      resultLink4.textContent = `4) Bereken de stroom`;
+      resultLink4.style.display = 'block';
+
+      const resultLink5 = document.getElementById('resultLink5');
+      resultLink5.href = `${baseUrl}${Number5}.jpg`;
+      resultLink5.textContent = `5) Bereken de stroom`;
+      resultLink5.style.display = 'block';
+
+      const resultLink6 = document.getElementById('resultLink6');
+      resultLink6.href = `${baseUrl}${Number6}.jpg`;
+      resultLink6.textContent = `6) Bereken de stroom`;
+      resultLink6.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
+

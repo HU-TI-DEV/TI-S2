@@ -40,7 +40,7 @@ Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebrui
 
 ![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 
-Download en installeer de image op een microSD kaart. Bij het configuratie symbool kan je vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
+Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je custom configuratie wil toepassen. Je kunt dan vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
 
 ### ssh verbinding
 
@@ -140,6 +140,7 @@ log_dest file /mosquitto/log/mosquitto.log
 ```
 
 ```bash
+cd ../
 docker run --name mqtt -d --restart unless-stopped -it -p 1883:1883 -p 9001:9001 -v ${PWD}/config/mosquitto.conf:/mosquitto/config/mosquitto.conf eclipse-mosquitto
 ```
 
@@ -152,18 +153,19 @@ Voor het visueel programmeren en het maken van Inernet of Things (IoT) toepassin
 
 
 ```bash
+cd ../
 mkdir node_red_data
 ```
 
 ```bash
-docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/node_red_data nodered/node-red
+docker run --name nodered -d --restart unless-stopped -it -p 1880:1880 -v node_red_data:/data nodered/node-red
 ```
 
-De grafische gebruikersinterfacekan je nu met een browser bereiken op http://<your host ip adress>:1880
+De grafische gebruikersinterface kan je nu met een browser bereiken op http://< your host ip adress >:1880
 
 ### Flask
 
-Maak een webinterface voor je IoT oplossing met Flask.
+Maak een webinterface voor je IoT oplossing met [Flask](../../../software/webserver/Flask/README.md).
 
 ## Referenties
 - Raspberry Pi OS (<https://www.raspberrypi.com/software/>)

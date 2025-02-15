@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netwerk sommen opdracht</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+      input[type="number"] {
+          padding: 10px;
+          font-size: 16px;
+          width: 200px;
+          margin-bottom: 20px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+      }
+      button {
+          padding: 10px 20px;
+          font-size: 16px;
+          color: #ffffff;
+          background-color: #007bff;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+      button:hover {
+          background-color: #0056b3;
+      }
+      .error, .result {
+          margin-top: 20px;
+          font-size: 16px;
+      }
+      .error {
+          color: red;
+      }
+      .result {
+          color: green;
+      }
+  </style>
+</head>
+<body>
+    <h1>Netwerksommen opdracht</h1>
+    <p>Type de laatste 3 cijfers van je studentennummer:</p>
+    <input type="number" id="numberInput" placeholder="Enter a number (0-1000)" />
+    <br>
+    <button onclick="generateLink()">Generate Links</button>
+    <br>
+    <div class="error" id="errorMessage"></div><br>
+    <div class="result" id="resultMessage"></div><br>
+    <a id="resultLink" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink2" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink3" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink4" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink5" href="#" target="_blank" style="display:none;"></a>
+    <a id="resultLink6" href="#" target="_blank" style="display:none;"></a>
+    <br>
+    <p>
+    Upload de uitwerkingen van de sommen (handgeschreven op papier) naar canvas. Label de sommen duidelijk met 1 t/m 6. De docenten hebben van alle sommen de uitwerkingen. <br> 
+    </p>
+  <script>
+    function generateLink() 
+    {
+      // Get input value
+      const numberInput = document.getElementById('numberInput').value;
+      const errorMessage = document.getElementById('errorMessage');
+      const resultMessage = document.getElementById('resultMessage');
+
+      // Clear previous messages
+      errorMessage.textContent = '';
+      resultMessage.textContent = '';
+
+      // Validate input
+      const number2 = parseFloat(numberInput);
+      if (isNaN(number2) || number2 < 0 || number2 > 1000) {
+          errorMessage.textContent = 'Please enter a valid number between 0 and 1000.';
+          return;}
+      
+
+      // Perform calculation
+      const baseUrl = "https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment_0_";
+
+      const number = (56+number2 ) % 83;
+      const formattedNumber = number.toString().padStart(5, '0');
+      const Number2 = (number*2 + 400).toString().padStart(5, '0');
+      const Number3 = (number + 100).toString().padStart(5, '0');
+      const Number4 = (number + 300).toString().padStart(5, '0');
+      const Number5 = (number + 250).toString().padStart(5, '0');
+      const Number6 = (number + 200).toString().padStart(5, '0');
+
+      const resultLink = document.getElementById('resultLink');
+      resultLink.href = `${baseUrl}${formattedNumber}.jpg`;
+      resultLink.textContent = `Opgave 1`;
+      resultLink.style.display = 'block';
+
+      const resultLink2 = document.getElementById('resultLink2');
+      resultLink2.href = `${baseUrl}${Number2}.jpg`;
+      resultLink2.textContent = `Opgave 2`;
+      resultLink2.style.display = 'block';
+
+      const resultLink3 = document.getElementById('resultLink3');
+      resultLink3.href = `${baseUrl}${Number3}.jpg`;
+      resultLink3.textContent = `Opgave 3`;
+      resultLink3.style.display = 'block';
+
+      const resultLink4 = document.getElementById('resultLink4');
+      resultLink4.href = `${baseUrl}${Number4}.jpg`;
+      resultLink4.textContent = `Opgave 4`;
+      resultLink4.style.display = 'block';
+
+      const resultLink5 = document.getElementById('resultLink5');
+      resultLink5.href = `${baseUrl}${Number5}.jpg`;
+      resultLink5.textContent = `Opgave 5`;
+      resultLink5.style.display = 'block';
+
+      const resultLink6 = document.getElementById('resultLink6');
+      resultLink6.href = `${baseUrl}${Number6}.jpg`;
+      resultLink6.textContent = `Opgave 6`;
+      resultLink6.style.display = 'block';
+    }
+  </script>
+</body>
+</html>

@@ -23,7 +23,7 @@
 ---
 
 ## Een introductie
-MQTT has become the standard messaging and data exchange protocol for the Internet of Things (IoT). MQTT solves next folowing problem: A sensor can only seldomly send data, because of power-usage (recharge time). If at the moment of transmission there is no client to listen the information is lost. Furthermore, sending the data to multiple clients would cost more power as well. With MQTT protocol in place the the sensor sends its data to an intermediate server (a so called “broker”). That broker than publishes the data to any subscriber that is interested.
+MQTT has become the standard messaging and data exchange protocol for the Internet of Things (IoT). MQTT solves the folowing problem: A sensor can only seldomly send data, because of power-usage (recharge time). If at the moment of transmission there is no client to listen the information is lost. Furthermore, sending the data to multiple clients would cost more power as well. With MQTT protocol in place the the sensor sends its data to an intermediate server (a so called “broker”). That broker than publishes the data to any subscriber that is interested.
 
 MQTT is a lightweight, publish-subscribe, machine to machine network protocol. The letters MQTT do not stand for anything. It is no longer a traditional 'message que'. It usually runs over a TCP/IP transport protocol. 
 

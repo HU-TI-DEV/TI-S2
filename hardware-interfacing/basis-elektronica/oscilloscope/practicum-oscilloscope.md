@@ -144,7 +144,7 @@ Interessant om te weten is dat je ook een eigen applicatie kunt maken die gebrui
 
 Download de software (Full Version) **PicoScope 6** bij de fabrikant van de oscilloscoop:
 
-<https://www.picotech.com/downloads> (kies download voor de 2200-serie)
+<https://www.picotech.com/downloads/_lightbox/picoscope-6> 
 
 Kies voor Windows de laatste versie en installeer de software op je
 laptop. Verken de software.
