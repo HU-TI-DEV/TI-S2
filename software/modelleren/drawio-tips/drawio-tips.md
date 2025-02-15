@@ -1,6 +1,7 @@
 \[draw.io, drawio\]
 
 # Drawio-tips
+
 [Video voor beginners](https://youtu.be/Rv4_nfpTFHk)
 
 ## Probleem: een class object heeft sub-velden hij wil steeds pijlen attachen aan die subvelden ipv aan de class
@@ -59,16 +60,16 @@ groupen (CTRL+G).
 
 ## Line jumps op crossing lines mogelijk maken
 
-1.  Selecteer een lijn
+1. Selecteer een lijn
 
-2.  Kies lijn type sharp of rounded, maar NIET curved
+2. Kies lijn type sharp of rounded, maar NIET curved
 
-3.  Kies bij lijn jumps in de style property in de dropdown:spacing =
-    arc
+3. Kies bij lijn jumps in de style property in de dropdown:spacing =
+   arc
 
-4.  De betreffende lijn jumped nu als het over een andere lijn gaat.  
-    (NIET als het onderdoor gaat. Gebruik arrange front/back om dat aan
-    te passen)
+4. De betreffende lijn jumped nu als het over een andere lijn gaat.  
+   (NIET als het onderdoor gaat. Gebruik arrange front/back om dat aan
+   te passen)
 
 ## Er verschijnt geen oker puntje om de text mee te draggen
 
@@ -76,12 +77,12 @@ Oplossing: in de properties, check “Movable Label”.
 
 ## Optimale manier van lijnen trekken en onderhouden:
 
--   Hover over een box en wacht tot blauwe pijlen verschijnen.
+- Hover over een box en wacht tot blauwe pijlen verschijnen.
 
--   Drag van zo’n blauwe pijl naar een andere box.
+- Drag van zo’n blauwe pijl naar een andere box.
 
--   Verleg de lijn door de zijkanten te draggen, **niet** door start of
-    eind te manipuleren.
+- Verleg de lijn door de zijkanten te draggen, **niet** door start of
+  eind te manipuleren.
 
 ## Probleem: soms zie je line jumps niet en soms zie je ze ongewenst bij een bocht van een lijn met “rounded” property
 
@@ -121,3 +122,10 @@ automatisch mee.
 ## Snel naar linkerbovenhoek van tekening
 
 Druk op ENTER.
+
+## Orthogonaal rechte pijlen houden bij kleine verschuivingen van de blokken
+Als je twee blokken met een pijl verbindt, en de pijl is recht, en je versleept een blok een beetje, dan komt er een knak in de pijl. Je kunt weliswaar een pijltype selecteren dat altijd recht is, maar dan gaat die pijl typisch scheef staan.
+**Oplossing:**
+•	Verbindt de blokken door een uitsleeppijl (blauwe connectie met hoofddeel van blokken) zoals gebruikelijk.
+•	Selecteer de uitsleeppijl in het midden (zodat hij niet knakt), houd LMB ingedrukt en verschuif hem een beetje in orthogonale richting.
+•	Klaar. In het vervolg als je een van de aangehechte blokken verschuift, blijft de pijl zonder knik en recht – tenzij het echt niet anders kan.
