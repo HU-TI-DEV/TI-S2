@@ -129,3 +129,11 @@ Als je twee blokken met een pijl verbindt, en de pijl is recht, en je versleept 
 •	Verbindt de blokken door een uitsleeppijl (blauwe connectie met hoofddeel van blokken) zoals gebruikelijk.
 •	Selecteer de uitsleeppijl in het midden (zodat hij niet knakt), houd LMB ingedrukt en verschuif hem een beetje in orthogonale richting.
 •	Klaar. In het vervolg als je een van de aangehechte blokken verschuift, blijft de pijl zonder knik en recht – tenzij het echt niet anders kan.
+
+# Handige, alternatieve manier voor object modellen en klassediagrammen
+- Gebruik als uitgangspunt een block uit SysML / Blocks. Maak die leeg, en zet er de naam van je object in, bijvoorbeeld Button. Zet het stereotype erboven, bijvoorbeeld <<boundary>>.
+- Deselecteer het object en selecteer het opnieuw. Klik CTRL+SHIFT+Y om het object automatisch te resizen naar zijn content. De marge aan de onderzijde kun je eventueel aanpassen door in de tab Teks bij afstand "onder" een negatieve waarde in te vullen. Vervolgens weer blok deselecteren, herselecteren en CTRL+SHIFT+Y.
+- Later wil je het misschien omzetten in een klassediagram. Dubbelklik dan in de tekst van het object. Je ziet dan rechts een Tekst-tab verschijnen met een sectie "Invoegen". Klik daar op de horizontale lijn. Dat voegt een horizontale lijn toe. 
+- Type onder de lijn de naam van je functie, bijvoorbeeld "+buttonPressed()", evt met 2 spaties ervoor. 
+- Selecteer die tekst en kies "Links uitlijnen".
+- Deselecteer, en herselecteer het object. Klik CTRL+SHIFT+Y, zodat het object weer netjes om de tekst heen valt.
