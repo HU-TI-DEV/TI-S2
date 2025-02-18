@@ -96,19 +96,20 @@ int main(){
   // bl, re, gr
 }
 ```
+
 *Codevoorbeeld 7.3 Een vector met strings* 
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
 
 int main(){
-  vector<vector<int> > matrix = {{3, 99},{32, 88}};
+  vector< vector<int> > matrix = { {3, 99}, {32, 88} };
   vector<int> row = {54, 28};
   matrix.push_back(row); // add row to the vector matrix
-    for(unsigned int i=0; i<matrix.size(); i++){
-      for(unsigned int j=0; j<matrix[i].size(); j++){
+    for (unsigned int i=0; i<matrix.size(); i++){
+      for (unsigned int j=0; j<matrix[i].size(); j++){
         cout << "(" << i << "," << j << "): " << matrix[i][j] << "\n";
       }
   }
@@ -122,6 +123,7 @@ int main(){
   // (2,1): 28
 }
 ```
+
 *Codevoorbeeld 7.4 Een vector met vectoren van integers* 
 
 ```c++
