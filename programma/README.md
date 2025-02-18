@@ -82,7 +82,7 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | --- | --- | --- |
 | ma  | geen les | geen les |
 | di  | Indelen van de groepen. & Team contract inleveren.      | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP & HP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP & HP**) |
-| wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met vectoren, Recursie (**MV & HP**)     |
+| wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**MV & HP**)     |
 | do  | :end: Einde sprint 0 | [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB&MV**)     |
 
 
