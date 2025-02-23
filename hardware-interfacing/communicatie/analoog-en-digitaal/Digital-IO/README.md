@@ -25,21 +25,22 @@ Deze zijn of 'aan' of 'uit'. (Tegenover digitale kunnen [analoge signalen ook tu
 
 Als je een button (knop) indrukt dan wordt een contact gesloten.
 
-De Omron B3F-4055 heeft intern een volgende configuratie:
+De Omron B3F-4055 heeft intern de volgende configuratie:
 
 ![Omron B3F-4055](./img/Omron_B3F-4055.svg)
 
 - Zoek deze informatie op in het datasheet van dit component.
 - Hoe zou je bovenstaande configuratie kunnen testen? Leg uit.
 
-Wanneer je het knopje indrukt kunnen we dit met een Digital-I/O Pin meten en omzetten in een 0 of 1.
+Wanneer je het knopje indrukt kunnen we dit met een Digital-I/O Pin meten en omzetten in een `0` of `1`.
 
 In de Arduino zijn weerstanden tegen +5V ingebouwd die we met `INPUT_PULLUP` kunnen inschakelen.
-Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen. Het betekent ook dat we deze button tussen pin en massa (GND, Ground) aansluiten om de waarde die we van de pin kunnen lezen van '1' (dat doet de `PULLUP`) naar '0' te wijzigen.
+Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen. Het betekent ook dat we deze button tussen pin en massa (GND, Ground) aansluiten om de waarde die we van de pin kunnen lezen van `1` (dat doet de `PULLUP`) naar `0` te wijzigen.
 
 ### LED
 
-Een LED ([Light Emitting Diode](../../../elektronische-componenten/LED/README.md)) kunnen we met een digitaal signaal aan- of uitzetten. Daarbij moeten we opletten dat er niet teveel stroom door de LED gaat. Als het goed is weten we dit principe nog van de Orientatie op Technische Informatica.
+Een LED ([Light Emitting Diode](../../../elektronische-componenten/LED/README.md)) kunnen we met een digitaal signaal aan- of uitzetten.
+Daarbij moeten we opletten dat er niet teveel stroom door de LED gaat. Als het goed is weten we dit principe nog van de Orientatie op Technische Informatica.
 
 - Hoe beperken we de stroom die door de weerstand loopt?
 
@@ -88,8 +89,9 @@ void loop() {
 
 ## Oefeningen
 
-- Laat de LED knipperen wanneer je knop indrukt bijvoorbeeld 1x per seconde.
-- Extra uitdagend: Wanneer je de knop indrukt is deze niet direct hoog of laag door de mechanische construcite. Dit kan je ondervangen door softwarematig een 'debounce delay' toe te voegen. Kan jij dit met software oplossen?
+- Laat de LED knipperen wanneer je de knop indrukt, bijvoorbeeld 1x per seconde.
+- Extra uitdagend: Wanneer je de knop indrukt is deze niet direct hoog of laag door de mechanische constructie.
+  Dit kan je ondervangen door softwarematig een 'debounce delay' toe te voegen. Kan jij dit met software oplossen?
 
 ## Referenties
 
@@ -97,6 +99,6 @@ LED Datasheet
 
 - [5mm-LED-Datasheet](5mm-LED-Datasheet.pdf)
 
-Tactile swich
+Tactile switch
 
 - [Omron B3F-4055](https://www.sunrom.com/download/4338.pdf)
