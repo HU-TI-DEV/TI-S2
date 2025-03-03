@@ -13,7 +13,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor HC595 IC door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor HC595 IC door HU IICT[](author-id).
 
 ---
 
@@ -59,7 +59,7 @@ We kunnen de 8 LEDs direct aansluiten op de HC595 om een 8 bit binair getal voor
 
 ## Arduino voorbeeld
 
-Dit is een software implementatie. Gebruik de SPI bibliotheek voor een hardware implementatie.
+Dit is een software implementatie: 
 
 ```arduino
 int latchPin = 8;
@@ -84,6 +84,10 @@ void loop() {
   digitalWrite(latchPin, HIGH);
 }
 ```
+
+Waar staat MSBFIRST voor? Wat doet dit? Kan je de data ook op een andere manier versturen? Probeer dit.
+
+Bovenstaand is een software implementatie. Met een engelse term noemen we dit ook wel bit-banging. Met de SPI bibliotheek kan je ook een hardware implementatie maken (Niet alle pinnen van de Arduino Uno ondersteunen hardware SPI). Wat zouden de voordelen zijn van het gebruik van SPI in plaats van `ShiftOut()`?
 
 ## Referenties
 

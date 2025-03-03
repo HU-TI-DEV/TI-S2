@@ -15,4 +15,4 @@ Maak je met behulp van de uitleg en voorbeeldcode een eerste opstelling met een 
 
 ## Portfolio-Tip
 
-Met het creatief gebruik van een schuifregister kan je een mooie uitbreiding maken voor het project. Bespreek wat je wil gaan doen met de projectdocenten. Om verder te oefenen maak bijvoorbeeld in binaire teller. Of een binaire klok? Beschrijf en documenteer alles goed, schrijf bijbehorende software. Laat je opgeleverde werk voorzien van feeback door een van de kennis docenten. 
+Met het creatief gebruik van een schuifregister kan je een mooie uitbreiding maken voor het project. Bespreek wat je wil gaan doen met de projectdocenten. Om verder te oefenen maak bijvoorbeeld in binaire teller. Of een binaire klok? Beschrijf en documenteer alles goed, schrijf bijbehorende software. Laat je opgeleverde werk voorzien van feeback door een van de kennisdocenten. 
