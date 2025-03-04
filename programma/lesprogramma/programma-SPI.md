@@ -1,6 +1,6 @@
 # Het Serial Peripheral Interface (SPI)
 
-SPI is een communicatieprotokoll waarmee een *Main*-device (bijvoorbeeld Arduino Uno) over vier verbindingen met een *Sub*-device (bv BME280 sensor) communiceert.
+SPI is een communicatieprotocol waarmee een *Main*-device (bijvoorbeeld Arduino Uno) over vier verbindingen met een *Sub*-device (bv BME280 sensor) communiceert.
 
 Als je meerdere ICs aan een Main-device wil ansluiten, dan kan je drie van deze verbindingen hergebruiken (CLK, MOSI, MISO).
 Maar iedere Sub-device heeft een eigen "Chip Select" of "Sub Select" nodig.
