@@ -20,7 +20,7 @@ de delen:
 Een deel daarvan is ook in video-vorm te beschikbaar:
 - [Electrisch Schema](https://www.youtube.com/watch?v=YDCEUy-kM9w)
 - [Weerstand](https://www.youtube.com/watch?v=tUazer9WJPY)
-- [De stroomwet van Kircoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
+- [De stroomwet van Kirchoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
 
 ## Tijdens de les
 
@@ -34,7 +34,7 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 
 ## Na de les
 
-- Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-maat ergens af
+- Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-partner ergens af
 
 ### Canvas
 - Lever het resultaat in op de Canvas entry voor deze opdracht. 
