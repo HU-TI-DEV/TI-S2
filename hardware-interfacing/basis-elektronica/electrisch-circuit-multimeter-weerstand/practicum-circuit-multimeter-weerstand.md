@@ -38,7 +38,7 @@ op.
 
 - Voor de opdrachten uit samen met een andere student.
 
-- Het is niet erg als je in overleg met andere teams komt tot eenantwoord.  
+- Het is niet erg als je in overleg met andere teams komt tot een antwoord.  
   Zorg er wel voor dat je het 100% begrijpt, anders schiet je jezelf
   in je voet: je leert door zelf te doen!
 

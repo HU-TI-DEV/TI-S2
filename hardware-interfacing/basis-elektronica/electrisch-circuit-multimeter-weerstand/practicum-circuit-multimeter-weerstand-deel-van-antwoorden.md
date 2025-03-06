@@ -41,10 +41,9 @@ op.
 - Het is niet erg als je in overleg met andere teams een antwoord
   uitvogelt.  
   Zorg er wel voor dat je het 100% begrijpt, anders schiet je jezelf
-  in je voet: op het tentamen zal worden verondersteld dat je de
-  practicum opgaven gemaakt hebt en 100% begrijpt.
+  in je voet: je leert door zelf te doen!
 
-- Maak een copie van dit word-document, en voeg daarin je antwoorden
+- Maak een copie van dit document, en voeg daarin je antwoorden
   toe. Als je iets moet invullen, wordt dat aangekondigd met
   **vetgedrukte** letters.
 
