@@ -104,15 +104,15 @@ kunnen meten?
 
 # De software
 
-De applicatie die gebruikt wordt is PicoScope 6 (huidige versie is 7.1.3). Dit programma laat live het signaal zien dat je aangesloten hebt. Alle instellingen die je doet gaan via de software, er zijn geen hardware-instellingen mogelijk.
+De applicatie die gebruikt wordt is PicoScope 7 (huidige versie is 7.1.3). Dit programma laat live het signaal zien dat je aangesloten hebt. Alle instellingen die je doet gaan via de software, er zijn geen hardware-instellingen mogelijk.
 
 Interessant om te weten is dat je ook een eigen applicatie kunt maken die gebruik maakt van de PicoScope. Zo kun je de hardware gebruiken om een speciaal meetsysteem voor een bepaalde toepassing te ontwerpen en te programmeren. Denk hierbij bijvoorbeeld aan een speciale toepassing in de medische sector of een meet- en regelsysteem.
 
-Download de software (Full Version) **PicoScope 6** bij de fabrikant van de oscilloscoop:
+Download de software (Full Version) **PicoScope 7** bij de fabrikant van de oscilloscoop:
 
-<https://www.picotech.com/downloads/_lightbox/picoscope-6> 
+<https://www.picotech.com/downloads> 
 
-Kies voor Windows de laatste versie en installeer de software op je
+Kies voor Windows of Mac de laatste stabiele versie en installeer de software op je
 laptop. Verken de software.
 
 In de onderstaande schermafdruk zie je een overzicht van enkele
