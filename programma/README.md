@@ -114,7 +114,7 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Werken aan project | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB & HS**) |
-| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP & HP**) |
+| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP & HP**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) de hele dag! inschrijven via de agenda. (**HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 1 & :runner: planning sprint 2| [Bits en bitoperatoren II](../software/c++/bits/README.md) (**HP** x 2) |
 | vr  |  |  |
