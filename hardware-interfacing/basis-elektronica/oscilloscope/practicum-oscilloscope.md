@@ -57,7 +57,7 @@ multimetermeter (een voltmeter, stroommeter en weerstandsmeter).
 
 ## De oscilloscoop in dit practicum
 
-De scoop in dit practicum is een **PicoScope 2204**. Het is een moderne en goedkope digitale oscilloscoop die direct op de PC aangesloten kan worden.
+De scoop in dit practicum is een **PicoScope 2204** (momenteel niet meer in productie). Het is een moderne en goedkope digitale oscilloscoop die direct op de PC aangesloten kan worden.
 
 Deze scoop beschikt over **2 kanalen** voor de input en tevens over een **signaalgenerator**. Hiermee kan je een test-meetsignaal genereren (bijvoorbeeld een sinus of een blokgolf). Het is ook mogelijk om een geheel eigen signaal te maken.
 
@@ -66,43 +66,9 @@ specificaties van deze oscilloscoop:
 
 ### PicoScope 2204
 
-<table style="width:100%;">
-<colgroup>
-<col style="width: 16%" />
-<col style="width: 9%" />
-<col style="width: 11%" />
-<col style="width: 15%" />
-<col style="width: 15%" />
-<col style="width: 23%" />
-<col style="width: 8%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Product</strong></th>
-<th><strong>Channels</strong></th>
-<th><strong>Bandwidth</strong></th>
-<th><strong>Sampling Rate</strong></th>
-<th><strong>Buffer Memory</strong></th>
-<th><strong>Resolution (<a
-href="http://www.picotech.com/education/oscilloscopes/resolution-enhancement.html">Enhanced</a>)</strong></th>
-<th><strong>Price</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><a
-href="http://www.picotech.com/ultracompact-oscilloscopes.html"><strong>PicoScope
-2204</strong></a></td>
-<td>2 + AWG</td>
-<td>10 MHz</td>
-<td>100 MS/s</td>
-<td>8 kS</td>
-<td>8 bits<br />
-(12 bits)</td>
-<td>€119.00</td>
-</tr>
-</tbody>
-</table>
+| Product | Channels | Bandwidth | Sampling Rate | Buffer Memory | Resolution | Price |
+| --- | --- | --- | --- | --- | --- | --- |
+| [PicoScope 2204](https://www.picotech.com/oscilloscope/2000/picoscope-2000-specifications) | 2 + AWG | 10 MHz | 100 MS/s | 8 kS | 8 bits (12 bits) | €119.00 |
 
 De fabrikant PicoTech heeft zich gespecialiseerd in het maken van
 PC-oscilloscopen. Ze verkoopt oscilloscopen uit het basissegment tot zeer geavanceerde meetinstrumenten. Het type 2204 is de middelste uitvoering van de basisreeks.
@@ -111,7 +77,7 @@ Zoek de specificaties van de **2200 serie** op en onderzoek wat de
 verschillen zijn van de 2204 ten opzichte van de **2205 en 2206**:
 
 ```
-
+ruimte om je antwoord te noteren
 ```
 
 Een belangrijk gegeven van een oscilloscoop is de **bandbreedte**. De bandbreedte is een maat voor de frequentie van het signaal dat de oscilloscoop kan meten (niet te verwarren met de frequentie waarmee de oscilloscoop meet, die moet veel hoger zijn.) De prijs van het apparaat is daar sterk van afhankelijk.
@@ -138,15 +104,15 @@ kunnen meten?
 
 # De software
 
-De applicatie die gebruikt wordt is PicoScope 6. Dit programma laat live het signaal zien dat je aangesloten hebt. Alle instellingen die je doet gaan via de software, er zijn geen hardware-instellingen mogelijk.
+De applicatie die gebruikt wordt is PicoScope 7 (huidige versie is 7.1.3). Dit programma laat live het signaal zien dat je aangesloten hebt. Alle instellingen die je doet gaan via de software, er zijn geen hardware-instellingen mogelijk.
 
 Interessant om te weten is dat je ook een eigen applicatie kunt maken die gebruik maakt van de PicoScope. Zo kun je de hardware gebruiken om een speciaal meetsysteem voor een bepaalde toepassing te ontwerpen en te programmeren. Denk hierbij bijvoorbeeld aan een speciale toepassing in de medische sector of een meet- en regelsysteem.
 
-Download de software (Full Version) **PicoScope 6** bij de fabrikant van de oscilloscoop:
+Download de software (Full Version) **PicoScope 7** bij de fabrikant van de oscilloscoop:
 
-<https://www.picotech.com/downloads/_lightbox/picoscope-6> 
+<https://www.picotech.com/downloads> 
 
-Kies voor Windows de laatste versie en installeer de software op je
+Kies voor Windows of Mac de laatste stabiele versie en installeer de software op je
 laptop. Verken de software.
 
 In de onderstaande schermafdruk zie je een overzicht van enkele

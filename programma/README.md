@@ -114,7 +114,7 @@ Week C6. Wil je een sensor aansluiten op je microcontroller dan kom je vaak in d
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Werken aan project | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**BB & HS**) |
-| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HS**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP & HP**) |
+| di  | Werken aan project | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP & HP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP & HP**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Soldeerpracticum](./lesprogramma/programma-solderen.md) de hele dag! inschrijven via de agenda. (**HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 1 & :runner: planning sprint 2| [Bits en bitoperatoren II](../software/c++/bits/README.md) (**HP** x 2) |
 | vr  |  |  |
@@ -125,8 +125,8 @@ Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & HS**) |
-| di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](../software/git/README.md) cursus (**HS**), Individuele feedback op software opdrachten (**GP**)    |
+| ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & BB**) |
+| di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](../software/git/README.md) cursus (**HS & HP**), Individuele feedback op software opdrachten (**GP & HP**)    |
 | wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**HP & GP**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP**) |
 

@@ -193,6 +193,7 @@ op.
     met een (ladings-) capaciteit van 100mAh.  
     **Hoeveel energie (in Joules) bevat de volledig opgeladen
     batterij?**
+    (Hint: P = I * V en E = P * t)
 
 12. Stel dat je een 1k weerstand tussen de plus en min van de batterij
     zet. 
