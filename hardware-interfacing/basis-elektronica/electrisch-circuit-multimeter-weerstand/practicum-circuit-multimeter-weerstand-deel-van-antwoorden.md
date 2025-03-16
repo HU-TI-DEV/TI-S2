@@ -97,7 +97,7 @@ op.
 3. Controleer de gelijkspanning die tussen je voedingslijnen staat met
    de multimeter in “dc spanning meet modus” (aangegeven met DCV of
    V=)  
-   **Welke spanning meet je (in 3 decimalen nauwkeurig)?**
+   **Welke spanning meet je (in 2 decimalen nauwkeurig)?**
 
 ### Weerstand
 
@@ -106,7 +106,7 @@ op.
 
 2. Controleer de weerstand met de multimeter in “weerstand meet modus”
    (aangegeven met Ω).  
-   **Welke weerstand meet je (in 3 decimalen nauwkeurig)?**
+   **Welke weerstand meet je (in 2 decimalen nauwkeurig)?**
 
 ### Stroom
 
