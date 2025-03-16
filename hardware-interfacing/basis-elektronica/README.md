@@ -1,29 +1,27 @@
 ![logo](../1-wire/img/../../basis-elektronica/img/Battery_and_resistor.svg) [](logo-id)
 
-# Basis elektronica[](title-id)
+# Basis elektronica[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Basis elektronica](#basis-elektronica)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Current](#current)
-  - [Voltage](#voltage)
-  - [Resistance](#resistance)
-  - [Circuit diagrams](#circuit-diagrams)
-  - [Power](#power)
-  - [Energy](#energy)
-    - [Energy density and specific energy](#energy-density-and-specific-energy)
-  - [Some circuits, components and concepts](#some-circuits-components-and-concepts)
-    - [Basic circuit](#basic-circuit)
-    - [Resistors in parallel](#resistors-in-parallel)
-    - [Resistors in series](#resistors-in-series)
-    - [Voltage divider](#voltage-divider)
-  - [Summary](#summary)
+- [Een introductie](#een-introductie)
+- [Current](#current)
+- [Voltage](#voltage)
+- [Resistance](#resistance)
+- [Circuit diagrams](#circuit-diagrams)
+- [Power](#power)
+- [Energy](#energy)
+  - [Energy density and specific energy](#energy-density-and-specific-energy)
+- [Some circuits, components and concepts](#some-circuits-components-and-concepts)
+  - [Basic circuit](#basic-circuit)
+  - [Resistors in parallel](#resistors-in-parallel)
+  - [Resistors in series](#resistors-in-series)
+  - [Voltage divider](#voltage-divider)
+- [Summary](#summary)
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor basis elektronica door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor basis elektronica door HU IICT[](author-id).
 
 ---
 
@@ -164,7 +162,8 @@ Colloquially the term battery is often used for a primary cell (or a battery of 
 
 The voltage produced by a battery or accu cell varies over time, but for practical calculation it is often assumed constant. The picture shows the discharge curve (the voltage over time when used in a certain way) of a common AA (penlight) battery, which is said to produce 1.5V, but actually produces 1.4 - 1.1V for most of its useful lifetime.
 
-[img]
+![AA Energizer](./files/AA_Energizer.png)
+from: https://data.energizer.com/pdfs/e91.pdf
 
 The voltage depends on the chemistry of the cell. Alkaline batteries used to be the most common (and still are in for instance flashlights), but are gradually being replaced by Li (Lithium). Lead-acid batteries are still found For some applications the self-discharge of a battery is important: even when it is not used, a battery will lose some of its energy over time. This rate at which this happens varies with the battery chemistry.
 
