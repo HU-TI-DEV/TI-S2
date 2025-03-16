@@ -250,13 +250,15 @@ Neem de potentiometer:
    geheel gehoorzaamt ook de wet van Ohm).**    
 
 # Pull-up
-Stel je wilt met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
+Stel je wil met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
 
 1. Stel je gebruikt daarvoor een schakelaar met **pull-up** weerstand, wat is dan het gedrag van het circuit? Waarom werkt het niet als je de pull-up weerstand weglaat?
 
 # Pull-down
 
-Stel je wilt met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
+Stel je wil met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
+
+1. Stel je gebruikt daarvoor een schakelaar met **pull-down** weerstand, wat is dan het gedrag van het circuit? Waarom werkt het niet als je de pull-down weerstand weglaat?
 
 # Uitsmijter (theorie)
 
