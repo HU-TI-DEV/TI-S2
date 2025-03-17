@@ -65,9 +65,10 @@ You can use Git integrated through your IDE or with a GUI, but this presents sev
 
 As a software developer it’s important to select the right tools for the job, but Git through command line is always a good tool to have: you can always use it, you have full control and you are not limited to a specific environment.
 
-> Example:  
-> 1st year students have learned to use Git through JetBrains IDEs, but not manually.  
-> For a project they did they had to work with the Arduino IDE, which does not have native Git integration. They said they kept copy+pasting code from Arduino IDE to Clion in order to use the Git integration.
+> **Example:**  
+> Past 1st year students learned to use Git through the JetBrains IDEs (PyCharm, CLion), but not manually.  
+> For a project they did they had to work with the Arduino IDE, which does not have native Git integration.  
+> They said they kept copy+pasting code from Arduino IDE to CLion in order to use the Git integration.
 
 ## Using Git
 
