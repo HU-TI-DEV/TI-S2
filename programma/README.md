@@ -126,7 +126,7 @@ Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & BB**) |
-| di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](../software/git/README.md) cursus (**HS & HP**), Individuele feedback op software opdrachten (**GP & HP**)    |
+| di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](./lesprogramma/programma-git-2.md) cursus (**HS & HP**), Individuele feedback op software opdrachten (**GP & HP**)    |
 | wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**HP & GP**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP**) |
 
