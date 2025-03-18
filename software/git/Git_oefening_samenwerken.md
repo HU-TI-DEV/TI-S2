@@ -16,7 +16,7 @@ Jullie werken gezamenlijk aan een simpele To-Do List applicatie geschreven in Py
 
 #### 1. Clone de Repository (Iedereen)
 
-Als het goed is heb je deze stap al gedaan van zowel de groeps repository als je prive repository! Voer eerst het commanda `git pull` uit.
+Als het goed is heb je deze stap al gedaan van zowel de groeps repository als je prive repository! Voer eerst het commando `git pull` uit.
 ```bash
 $ git clone <REPOSITORY_URL>
 $ cd <REPOSITORY_FOLDER>
