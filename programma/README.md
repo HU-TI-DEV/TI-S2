@@ -125,7 +125,7 @@ Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & BB**) |
+| ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & HS**) |
 | di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](./lesprogramma/programma-git-2.md) cursus (**HS & HP**), Individuele feedback op software opdrachten (**GP & HP**)    |
 | wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**HP & GP**) |
 | do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP**) |
@@ -137,8 +137,8 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV&BB**)  |
-| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**HP & GP**) |
+| ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV & BB**)  |
+| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS & HP**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**HP & GP**) |
 | wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
 | do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV&BB**)  |
 
@@ -159,10 +159,10 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV&BB**) Darlington, ULN2003 |
-| di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)     |
+| ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV & BB**) Darlington, ULN2003 |
+| di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS & HP**)     |
 | wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)
-| do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
+| do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS & BB**) |
 
 ### Onderwijsweek D1 (14-04-2025)
 
@@ -170,10 +170,10 @@ Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycli
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
+| ma  | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**) |
 | di  | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB & MV**) |
-| wo  | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HS**) |
-| do  | **2e Peilmoment** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV**)   |
+| wo  | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HS & BB**) |
+| do  | **2e Peilmoment** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV & BB**)   |
 
 ### Onderwijsweek D2 (21-04-2025)
 
