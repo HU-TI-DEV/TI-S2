@@ -1,4 +1,4 @@
-# GitLab Groepsproject Oefening
+# GitHub Groepsproject Oefening
 
 ## Oefening: Werken met Git in een team
 
@@ -6,7 +6,7 @@
 Leer om effectief samen te werken aan jullie groeps-repository via de command line, inclusief het maken van branches, commit messages schrijven, pull requests (merge requests) indienen, en het oplossen van merge conflicts. 
 
 ### Vereisten
-- Een bestaande groeps repository op Gitlab waar alle teamleden toegang toe hebben.
+- Een bestaande groeps repository op GitHub waar alle teamleden toegang toe hebben.
 - Git geïnstalleerd op elke computer.
 
 ### Situatie
@@ -52,16 +52,16 @@ $ git add .
 $ git commit -m "Voeg functie toe om taken toe te voegen"
 ```
 
-#### 5. Push de Branch naar GitLab (Iedereen)
+#### 5. Push de Branch naar GitHub (Iedereen)
 ```bash
 $ git push -u origin <branch-naam>
 ```
 
 #### 6. Maak een Merge Request (Iedereen)
-Maak een Merge Request aan via de GitLab interface en wijs één van je teamleden toe als reviewer.
+Maak een Merge Request aan via de GitHub interface en wijs één van je teamleden toe als reviewer.
 
 #### 7. Review en Merge (Reviewer)
-- Review de code via GitLab.
+- Review de code via GitHub.
 - Geef feedback indien nodig.
 - Merge de branch naar `main` als alles goed is.
 
@@ -84,7 +84,7 @@ $ code .
 $ git add .
 $ git commit -m "Los merge conflict op"
 ```
-- Push de opgeloste branch naar GitLab:
+- Push de opgeloste branch naar GitHub:
 ```bash
 $ git push
 ```
