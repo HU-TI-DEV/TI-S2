@@ -1,17 +1,15 @@
-# Basis
+# Basis <!-- omit in toc -->
 
 ### Inhoud[](toc-id)
 - [Basis](#basis)
-    - [Inhoud](#inhoud)
-  - [Basis](#basis-1)
-    - [Codevoorbeelden - functies](#codevoorbeelden---functies)
-    - [Datatypen functies](#datatypen-functies)
-    - [{ }](#-)
-    - [Main](#main)
-    - [Returnwaarde main](#returnwaarde-main)
-    - [Zo min mogelijk code in main](#zo-min-mogelijk-code-in-main)
-    - [Returnwaarde main in scripts](#returnwaarde-main-in-scripts)
-    - [Void](#void)
+  - [Codevoorbeelden - functies](#codevoorbeelden---functies)
+  - [Datatypen functies](#datatypen-functies)
+  - [{ }](#-)
+  - [Main](#main)
+  - [Returnwaarde main](#returnwaarde-main)
+  - [Zo min mogelijk code in main](#zo-min-mogelijk-code-in-main)
+  - [Returnwaarde main in scripts](#returnwaarde-main-in-scripts)
+  - [Void](#void)
 
 ---
 

@@ -1,9 +1,7 @@
-# Functies
+# Functies <!-- omit in toc -->
 
 ### Inhoud[](toc-id)
-- [Functies](#functies)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
+- [Onderwerpen](#onderwerpen)
 ---
 
 ## Introductie
@@ -12,3 +10,11 @@ al snel uit tienduizenden regels code. Om te zorgen dat programma’s onderhoudb
 
 *Functies* helpen ons bij het schrijven van onderhoudbare en leesbare code. Functies maken hergebruik van code mogelijk.
 In dit hoofdstuk gaan we in op functies in C++.
+
+# Onderwerpen
+
+* [basis/](./basis/README.md)
+* [constant/](./constant/README.md
+* [functienamen/](./functienamen/README.md)
+* [references/](./references/README.md)
+
