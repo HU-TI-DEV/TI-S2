@@ -16,6 +16,39 @@ betekent dat we niet de originele variabele meegeven, maar een kopie van de waar
 In codevoorbeeld 8.4 zien we dit bij de variabelen zeros en ones op de regels 69 t/m 72. Bij de functie add1() wordt de parameter v aangepast in
 de functie, maar zeros - die wordt meegegeven aan de functie - blijft onveranderd.
 
+```c++
+#include <iostream>
+#include <string> 
+#include <vector> 
+using namespace std;
+
+vector<int> add1(vector<int> v){ 
+  for(unsigned int i =0; i<v.size(); i++){ 
+    v[i] += 1;
+  } 
+  return v;
+}
+
+void printNumbers(vector<int> n){ 
+  for(unsigned int i=0; i<n.size(); i++){ 
+    cout << n[i] << ", ";
+  }
+  cout << "\n";
+}
+
+int main(){ 
+  vector<int> zeros(4,0); // a vector with 4 zero's. 
+  vector<int> ones = add1(zeros); 
+  printNumbers(zeros); 
+  printNumbers(ones);
+
+  //output
+  // 0,0,0,0,
+  // 1,1,1,1, 
+}
+
+```
+
 ### By reference
 Als we de meegegeven variabele willen kunnen aanpassen moeten we de parameter
 “by reference maken”. Dit doen we met het sleutelwoord &. 
