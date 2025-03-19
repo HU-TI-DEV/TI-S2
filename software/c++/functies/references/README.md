@@ -48,6 +48,7 @@ int main(){
 }
 
 ```
+*Codevoorbeeld 8.4 Functie’s met vectoren*
 
 ### By reference
 Als we de meegegeven variabele willen kunnen aanpassen moeten we de parameter
