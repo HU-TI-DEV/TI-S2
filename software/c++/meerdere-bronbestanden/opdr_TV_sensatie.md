@@ -24,8 +24,21 @@ Check je `tasks.json` file:
 
 `"${workspaceFolder}/*cpp"` werkt niet als je meerdere mapjes aan hebt gemaakt in je workspace folder.
 
-`"${fileDirname}\*.cpp"` is een beter alternatief als al je .cpp en .hpp files in 1 map hebt staan.
-Met dank aan [@Aimane0](https://github.com/Aimane0).
+`"${fileDirname}\\*.cpp"` is een beter alternatief als al je .cpp en .hpp files in 1 map hebt staan.
+Met dank aan [@Aimane0](https://github.com/Aimane0) en [@Radeiaan](https://github.com/Radeiaan1).
+Dus vervang in tasks.json (maak eerst een lokale backup!):
+```code
+"-g",
+"${file}",
+"-o",
+```
+door:
+```code
+"-g",
+"${fileDirname}\\*.cpp",
+"-o",
+```
+
 
 **winners.hpp**:
 ```c++
