@@ -14,7 +14,7 @@ In dit hoofdstuk gaan we in op functies in C++.
 # Onderwerpen
 
 * [basis/](./basis/README.md)
-* [constant/](./constant/README.md
+* [constant/](./constant/README.md)
 * [functienamen/](./functienamen/README.md)
 * [references/](./references/README.md)
 
