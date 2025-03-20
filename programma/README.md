@@ -128,7 +128,7 @@ Week C7. We oefenen deze week nog met een multimeter en het meten van spanningen
 | ma  | Werken aan project | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**MV & HS**) |
 | di  | Uitleg Verantwoordingsdocument van Markdown naar PDF (**HS**) | [Git](./lesprogramma/programma-git-2.md) cursus (**HS & HP**), Individuele feedback op software opdrachten (**GP & HP**)    |
 | wo  | Werken aan project |  [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**HP & GP**) |
-| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP**) |
+| do  | **[1e Peilmoment](../Verantwoordingsdocument_TI_S2.md)** | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**HP & GP & HS**) |
 
 ### Onderwijsweek C8 (24-03-2025)
 
@@ -138,9 +138,9 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Opzetten Planbord (**TM**) | [Kirchoff, Led](./lesprogramma/programma-kirchoff-led.md) (**MV & BB**)  |
-| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS & HP**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**HP & GP**) |
-| wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**)  |
-| do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV&BB**)  |
+| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS & HP**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**). **V1B** 1-wire practicum om 9.00 uur C++ om 10.30 uur**V1A** C++ om 9.00 uur practicum om 10.30 uur. Arduino mee! |
+| wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**). **V1B** PWM practicum om 9.00 uur en Project om 10.30 uur.  **V1A** Project om 9.00 uur practicum om 10.30 uur. + Vragenuurtje Elektronica (**BB**) in beide klassen.  |
+| do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV & BB**)  |
 
 ### Onderwijsweek C9 (31-03-2025)
 
@@ -148,8 +148,8 @@ Week C9. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**MV&BB**)|
-| di  | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
+| ma  | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**MV & BB**)|
+| di  | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS & HP**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [UART](./lesprogramma/programma-uart.md) (**HP & HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: Planning sprint 3 | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP & HP**) |
 
@@ -161,7 +161,7 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 | --- | --- | --- |
 | ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV & BB**) Darlington, ULN2003 |
 | di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS & HP**)     |
-| wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)
+| wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP & HS**)
 | do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS & BB**) |
 
 ### Onderwijsweek D1 (14-04-2025)
@@ -183,8 +183,8 @@ Week D2. Deze week bespreken we niet-functionele requirements een manier om kwal
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP**) |
-| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
+| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP & HS**) |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**) |
 
 ### Onderwijsweek D3 (28-04-2025)
 
@@ -205,9 +205,9 @@ Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschille
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
-| di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP** & **HP**) |
-| wo  | Werken aan project  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP**) |
-| do  | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB& MV**)  |
+| di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP** & **HP** & **HS**) |
+| wo  | Werken aan project  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP** & **HS**) |
+| do  | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB & MV**)  |
 
 ### Onderwijsweek D5 (12-05-2025)
 
@@ -216,7 +216,7 @@ Week D5. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB & MV**) support klassendiagrammen |
-| di  | Werken aan project | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP & HP**) |
+| di  | Werken aan project | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP & HP & HS**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44719), mogelijkheid voor feedback (**HP & HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 4 & :runner: Planning sprint 5 | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
 
@@ -240,7 +240,7 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | --- | --- | --- |
 | ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
 | di  | Werken aan project | PCB design (gastcollege **Joost Kouijzer**) t.b.a. |
-| wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP**)     |
+| wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP & HS**)     |
 | do  | Hemelvaartsdag |  |
 
 
@@ -252,7 +252,7 @@ Week D8.
 | Dag | Project | Kennissessie     |
 | --- | --- | --- |
 | ma  |  Werken aan project |  [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 2 (**HP & HS**) |
-| di  | Werken aan project | Het maken van een [poster](../vermogens/presenteren/poster.md) (**HS**) |
+| di  | Werken aan project | Het maken van een [poster](../vermogens/presenteren/poster.md) (**HS & TM**) |
 | wo  | Werken aan project | |
 | do  | Werken aan project | |
 
@@ -264,8 +264,8 @@ Week D9.
 | --- | --- | --- |
 | ma  | 2e Pinksterdag |  |
 | di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Fusion 360 (**HS & TM**) |
-| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback (**HP & GP**)     |
-| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 5 & :runner: Planning sprint 6  | Library en applicatie (**HP & GP**)   |
+| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback (**HP & GP & HS**)     |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 5 & :runner: Planning sprint 6  | Library en applicatie (**HP & GP &HS**)   |
 
 ### Onderwijsweek D10 (16-06-2025)
 
@@ -273,7 +273,7 @@ Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je m
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Werken aan project | [C++ feedback]() (**HP & GP**) |
+| ma  | Werken aan project | [C++ feedback]() (**HP & GP & HS**) |
 | di  | Werken aan project |  |
 | wo  | Werken aan project | Demo dag? |
 | do  | **4e Peilmoment**  | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44719/assignments/341934) bij de opdracht Eindbeslissing |
