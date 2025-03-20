@@ -15,7 +15,8 @@ De standaard is dat we parameters **const &** maken. Dit noemen we het “by con
 Codevoorbeeld 8.8 laat een functie getNext zien met een parameter letter die const & is.
 
 ## by copy
-Als we de waarde van de parameter wel willen aanpassen, dan zorgen we dat de waarde “by copy” meegegeven wordt (zonder const en zonder &). 
+Als we de waarde van de parameter in ons functie wel willen aanpassen, dan zorgen we dat de waarde “by copy” meegegeven wordt (zonder const en zonder &).
+(Dat wordt soms ook 'call-by-value' genoemd.)
 
 ```c++
 #include <iostream>
