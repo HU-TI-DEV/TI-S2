@@ -14,6 +14,9 @@ Een deel daarvan is ook in video-vorm te beschikbaar:
 
 ## Tijdens de les
 
+De volgende presentatie beginnen we mee:
+[diodes](../../hardware-interfacing/basis-elektronica/kirchoff-led/diode.pptx)
+
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
 - [Practicum Kirchoff Led](../../hardware-interfacing/basis-elektronica/kirchoff-led/practicum-kirchoff-led.md) 
