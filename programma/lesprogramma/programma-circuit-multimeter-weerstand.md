@@ -4,7 +4,7 @@ In een vorige les hebben we al wat kennis opgedaan over electrische grootheden, 
 
 ## Voorbereiding
 
-- Neem je electronica spullen (breadboard, weerstanden etc) mee.   
+- Neem je electronica spullen (breadboard, weerstanden etc) mee.
 
 Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
 
@@ -18,17 +18,18 @@ de delen:
 - Some circuits, components and concepts - Basic circuit
 
 Een deel daarvan is ook in video-vorm te beschikbaar:
+
 - [Electrisch Schema](https://www.youtube.com/watch?v=YDCEUy-kM9w)
 - [Weerstand](https://www.youtube.com/watch?v=tUazer9WJPY)
-- [De stroomwet van Kirchoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
+- [De stroomwet van Kirchhoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
 
 ## Tijdens de les
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
-- [Practicum Circuit Multimeter Weerstand](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)    
+- [Practicum Circuit Multimeter Weerstand](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)
   Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
-- [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md) 
+- [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md)
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
 
@@ -37,12 +38,15 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 - Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-partner ergens af
 
 ### Canvas
-- Lever het resultaat in op de Canvas entry voor deze opdracht. 
+
+- Lever het resultaat in op de Canvas entry voor deze opdracht.
 
 - Als dat voldoende af is (handgeschreven, niet alleen antwoorden maar ook tussenstappen en beargumenteringen) krijg je de volledige uitwerking, waarmee je jezelf kunt nakijken.
 
 ## Aanbeveling
+
 Dit practicum is relatief klein - je houdt vermoedelijk tijd over. Voor het volgende practicum (weerstandsnetwerkjes) is meer tijd nodig. Het is aan te bevelen om de les van weerstandsnetwerkjes ook voor te bereiden, zodat je aansluitend alvast met het bijbehorende practicum kunt beginnen.
 
 ## Portfolio Tip
+
 Ga na hoeveel stroom (een deel van-) je project gebruikt met behulp van een een meting via een kleine meetweerstand. Beschrijf je meting en leid er uit af hoeveel watt energie er wordt verbruikt. Vergelijk dat met het maximale vermogen dat je spanningsbron kan leveren en vraag er feedback op.

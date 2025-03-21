@@ -76,12 +76,12 @@ op.
 
 1. Zet op je breadboard een weerstand van 1k in serie met een weerstand
    van 2,2k:  
-   
+
    <img title="" src="./media/media/image4.png" alt="" width="532">
 
 2. **Geef de berekening van de de vervangingsweerstand van deze
    aaneenschakeling van weerstanden (ook wel “serieweerstand” genaamd).
-   Tip: Gebruik de spanningswet van Kirchoff (Vtotaal = VR1+VR2) en de
+   Tip: Gebruik de spanningswet van Kirchhoff (Vtotaal = VR1+VR2) en de
    wet van ohm.**
 
 3. Controleer het nu via een meting: zet de multimeter in “weerstand
@@ -89,13 +89,13 @@ op.
    **Welke weerstand meet je?**
 
 4. Bouw de volgende schakeling:  
-   
+
    <img title="" src="./media/media/image5.png" alt="" width="496">
 
 5. **Geef een berekening van de grootte van de stroom I1 (door R1) en
    van stroom I2 (door R2).**
 
-6. **Geef een berekening van knooppunts-spanning V2.**   
+6. **Geef een berekening van knooppunts-spanning V2.**
 
 7. **Leidt een formule af voor de verhouding tussen V2 en V1. (geef een
    formule van V2/V1, uitgedrukt in R1 en R2)**
@@ -136,7 +136,7 @@ Neem de potentiometer:
    **Welke weerstandswaarde(n) lees je af:  
    \* Als hij helemaal naar links staat?  
    \* Als hij in het midden staat?  
-   \* Als hij helemaal naar rechts staat?** 
+   \* Als hij helemaal naar rechts staat?**
 
 3. Meet met de multimeter de weerstand tussen pootje 2 en 3, terwijl je
    de potentiometer naar links en naar rechts draait.  
@@ -167,7 +167,7 @@ Neem de potentiometer:
 
 1. Zet op je breadboard een weerstand van 1k parallel met een weerstand
    van 2,2k:  
-   
+
    <img title="" src="./media/media/image7.png" alt="" width="232">
 
 2. **Geef de berekening van de vervangingsweerstand van deze
@@ -179,12 +179,12 @@ Neem de potentiometer:
    **Welke weerstand meet je?**
 
 4. Bouw de volgende schakeling, met Vsup=5V, R1 = 1k en R2 = 2,2k:  
-   
+
    <img title="" src="./media/media/image8.png" alt="" width="462">
 
 5. - **Geef een berekening van de grootte van de stroom I1 (door R1) en
-     van stroom I2 (door R2).**** 
-   
+     van stroom I2 (door R2).****
+
    - **Hoe groot is de verhouding tussen de stromen? (geef een formule voor I1/I2 uitgedrukt in R1 en R2)**  
 
 6. **Hoe groot is de som van I1 en I2?**
@@ -194,7 +194,7 @@ Neem de potentiometer:
    Dit keer meten we die stroom indirect, door een klein
    meetweerstandje R3=10 Ω in het stroompad te zetten:  
    <img src="./media/media/image9.png"/>  
-   
+
    **Meet de spanningsval over dat meetweerstandje R3, en leidt daaruit
    met behulp van de wet van Ohm af hoe groot stroom I3 is.**
 
@@ -227,7 +227,7 @@ Neem de potentiometer:
 ## Opdracht
 
 1. Bouw de volgende schakeling:  
-   
+
    <img title="" src="./media/media/image10.png" alt="" width="354">
 
 2. **Geef de berekening van de vervangingsweerstand van deze
@@ -240,16 +240,17 @@ Neem de potentiometer:
 
 4. Bouw de volgende schakeling, met Vsup=5V, R1 = 1k, R2 = 2,2k en R3 =
    1k:  
-   
+
    <img title="" src="./media/media/image11.png" alt="" width="667">
 
 5. **Meet de spanning over R3, bereken daaruit de stroom I3.**
 
 6. **Bereken mbv alleen I3 en V1 de vervangingsweerstand van het geheel
    dat bestaat uit R3, R1 en R2. (Tip: de vervangingsweerstand als
-   geheel gehoorzaamt ook de wet van Ohm).**    
+   geheel gehoorzaamt ook de wet van Ohm).**
 
 # Pull-up
+
 Stel je wil met een drukschakelaar een logisch signaal maken voor een ingangspin van een microcontroller.
 
 1. Stel je gebruikt daarvoor een schakelaar met **pull-up** weerstand, wat is dan het gedrag van het circuit? Waarom werkt het niet als je de pull-up weerstand weglaat?
@@ -262,22 +263,22 @@ Stel je wil met een drukschakelaar een logisch signaal maken voor een ingangspin
 
 # Uitsmijter (theorie)
 
-<img title="" src="./media/media/groter-netwerkje-1.png" alt="" width="220">   
+<img title="" src="./media/media/groter-netwerkje-1.png" alt="" width="220">
 
 1. **Bereken de vervangingsweerstand (die je tussen de klemmen meet) van het bovenstaande netwerk**
    (Tip: gebruik alleen de formules voor serie en parallelweerstand)
 
 # Bonus: Laddernetwerk
 
-<img title="" src="./media/media/ladder1.gif" alt="" width="667">   
+<img title="" src="./media/media/ladder1.gif" alt="" width="667">
 
-<img title="" src="./media/media/ladder2.gif" alt="" width="667">   
+<img title="" src="./media/media/ladder2.gif" alt="" width="667">
 
-<img title="" src="./media/media/ladder3.gif" alt="" width="667">   
+<img title="" src="./media/media/ladder3.gif" alt="" width="667">
 
 1. **Probeer uit te leggen waar de bovenstaande plaatjes over gaan.**
 
-Tips: 
+Tips:
 
 - Kijk eens naar [ladder-networks](https://www.sciencedirect.com/topics/engineering/ladder-networks)).
 - De opamp-weerstandscombinatie rechtsonder regelt zijn ingang op 0Volt, en converteert de binnenkomende stroom naar de uitgangs-spanning: -Iin * Rt.
