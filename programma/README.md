@@ -138,7 +138,7 @@ We behandelen [actieve elektronica](../hardware-interfacing/elektronische-compon
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Opzetten Planbord (**TM**) | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**MV & BB**)  |
-| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS & HP**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**). **V1B** 1-wire practicum om 9.00 uur C++ om 10.30 uur**V1A** C++ om 9.00 uur practicum om 10.30 uur. Arduino mee! |
+| di   | Werken aan project | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HS & HP**), [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP & HP & HS**). **V1B** 1-wire practicum om 9.00 uur C++ om 10.30 uur**V1A** C++ om 9.00 uur practicum om 10.30 uur. Arduino mee! |
 | wo  | Werken aan project | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP & HS**). **V1B** PWM practicum om 9.00 uur en Project om 10.30 uur.  **V1A** Project om 9.00 uur practicum om 10.30 uur. + Vragenuurtje Elektronica (**BB**) in beide klassen.  |
 | do  | Werken aan Project |   [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**MV & BB**)  |
 
