@@ -72,7 +72,8 @@ Een RC filter is een *"low pass filter"*. Dat wil zeggen dat het alleen langzame
 6) Bekijk het volgende filmpje:
 https://youtu.be/8RlM3kCG-zw
 
-7) Sluit de twee probes van je osciloscoop aan op je circuit. De ene probe (het gele kanaal) op de uitgang van je Arduino pin 5 en de andere probe tussen de weerstand en de condensator. Vergeet niet om de aarde ook aan te sluiten van je beide probes.<br>
-Wat je ziet is dat het blauwe signaal een "afgevlakte" versie is van het originele signaal.
+7) Sluit de twee probes van je osciloscoop aan op je circuit. De ene probe (het gele kanaal) op de uitgang van je Arduino pin 5 en de andere probe tussen de weerstand en de condensator. Vergeet niet om de aarde ook aan te sluiten van je beide probes.
 
-8) Verander de waarde van de weerstand van 3.3K naar 33K. Wat valt je op? We gaan het hier de komende weken nog meer over hebben!
+8) Wat je ziet is dat het blauwe signaal een "afgevlakte" versie is van het originele signaal.
+
+9) Verander de waarde van de weerstand van 3.3K naar 33K. Wat valt je op? We gaan het hier de komende weken nog meer over hebben!
