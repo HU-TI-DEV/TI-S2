@@ -107,3 +107,4 @@ void loop() {
 
 - 1-Wire (<https://en.wikipedia.org/wiki/1-Wire>)
 - DS18B20 datasheet (<https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>)
+- 1-Wire overview (<https://www.youtube.com/watch?v=lsikcaA7q-c>)
