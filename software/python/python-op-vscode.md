@@ -18,7 +18,7 @@ Om Python te gebruiken met Visual Studio Code (VSCode) op Windows, volg je deze 
 
 8. **Voer je Python-programma uit**: Je kunt je Python-programma direct vanuit VSCode uitvoeren. Klik op de groene knop "Run" bovenaan het bestand, of gebruik de sneltoets `Ctrl+Shift+P` en typ "Python: Run Python File in Terminal".
 
-## Pippen
+## Python Virtual Environment (venv)
 
 Meestal heb je voor je python project ook andere libraries nodig.
 Een manier om dat te beheren is:
@@ -40,3 +40,5 @@ Een manier om dat te beheren is:
 - Je kunt ook na activeren van je venv visual code opstarten met:
   code . &
   Dan start het in de juiste project folder en gebruikt het de zojuist geactiveerde venv.
+
+Lees meer over [Python Virtual Environment en hoe je een applicatie als service](https://github.com/HU-TI-DEV/TI-S3/tree/13e5641c75eb501078355221f2540cb2f023665c/infrastructuur/Python_Virtual_Environment/README.md) kan starten bij de lesstof van TI-S3.
