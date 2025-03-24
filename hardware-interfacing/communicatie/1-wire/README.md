@@ -26,7 +26,7 @@
 
 ## Een introductie
 
-1-Wire is een communicatieprotocol dat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensortoepassingen zoals het meten van temperatuur. Dit bussysteem is ontwikkeld door Dallas Semiconductor Corporation. Daarom spreken we ook wel van Dallas 1-Wire. 1-Wire gebruikt slechts een enkele lijn voor voeding en dataoverdracht.
+1-Wire is een communicatieprotocol dat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensortoepassingen zoals het meten van temperatuur. Dit bussysteem is ontwikkeld door Dallas Semiconductor Corporation (later overgenomen door Maxim Integrated). Daarom spreken we ook wel van Dallas 1-Wire. 1-Wire gebruikt slechts een enkele lijn voor voeding en dataoverdracht.
 
 ### Bus-systeem
 Een bus is in de computertechniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
@@ -41,7 +41,7 @@ Bij parallelle communicatie worden er zoveel mogelijk bits gelijktijdig verzonde
     PCI Express is een vorm van parallele communicatie. Daar heeft echter elke data lijn een eigen clock-signaal. Er kan dus over meerdere kabels informatie verzonden worden zonder dat er synchronisatie-issues ontstaan.
 
 ### 1-Wire
-1-Wire is een tweedraads bus-systeem. Er is een draad nodig voor de data communicatie en eventueel de voeding. Een andere draad wordt gebruikt als aarde. Elk component in een 1-Wire bus-systeem heeft een uniek 64 bit adresseerbaar adres om sensordata op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
+1-Wire is een tweedraads bus-systeem. Er is een draad nodig voor de data communicatie en eventueel de voeding. Een andere draad wordt gebruikt als aarde. Elk component in een 1-Wire bus-systeem heeft een uniek 64 bit adresseerbaar adres (ROM id) om sensordata op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
 
 Er zijn twee mogelijke manieren om sensoren aan te sluiten. In 'Parasite' mode is de data (DQ) lijn tevens de voedingsspanning van 5V+.
 
@@ -60,10 +60,9 @@ Om temperatuur te meten kan je gebruik maken van DS18B20 temperatuursensor. Dit 
 
  De DS18B20 met drie poten lijkt erg op een [transistor](../../elektronische-componenten/transistor/README.md) maar is dit niet. Let goed op wat je gebruikt.
 
-
 ## De schakeling
 
-De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel of wit. Rood is de voeding 5V, zwart naar ground (GND) en geel of wit is de data pin. Gebruik een pull-up weerstand (1000 Ohm) voor de data pin. De signaal-pin komt zo niet in een 'zwevende' staat. 
+De waterdichte DS18B20 versie heeft drie draden: rood, zwart en geel (of wit). Rood is de voeding 5V, zwart naar ground (GND) en geel (of wit) is de data pin. Gebruik een pull-up weerstand (1000 Ohm) voor de data pin. De signaal-pin komt zo niet in een 'zwevende' staat. 
 
 ![img url](../1-wire/img/Arduino_DS18B20_probe_bb.png?raw=true "Schakeling voor de DS18B20")
 
