@@ -1,6 +1,6 @@
-# Requirements watersysteem
+# Voorbeeld: Requirements watersysteem
 
-In dit document worden de user requirements en functionele requirements van het bewateringssysteem voor het planten kast project beschreven.
+In dit document worden de user requirements en functionele requirements van het bewateringssysteem voor het planten kas project beschreven.
 
 ## User requirements
 

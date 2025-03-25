@@ -1,28 +1,26 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# Introductie C++[](title-id)
+# Introductie C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Introductie C++](#introductie-c)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [Programmeren bij Technische Informatica (TI)](#programmeren-bij-technische-informatica-ti)
-    - [C++ en Technische Informatica](#c-en-technische-informatica)
-  - [Ontwikkelomgeving en tools](#ontwikkelomgeving-en-tools)
-    - [Ontwikkelomgeving](#ontwikkelomgeving)
-    - [IDE (CodeLite of VScode)](#ide-codelite-of-vscode)
-  - [Leren programmeren](#leren-programmeren)
-    - [Oefenen, fouten maken en doorzetten](#oefenen-fouten-maken-en-doorzetten)
-    - [Vereiste basiskennis](#vereiste-basiskennis)
-    - [Lesmateriaal op internet](#lesmateriaal-op-internet)
-  - [Code](#code)
-    - [Formules en algoritmes](#formules-en-algoritmes)
-    - [Oorsprong C++](#oorsprong-c)
-    - [De naam C++](#de-naam-c)
-    - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
-  - [C++ onderwerpen](#c-onderwerpen)
-  - [Referenties](#referenties)
+- [Introductie](#introductie)
+  - [Programmeren bij Technische Informatica (TI)](#programmeren-bij-technische-informatica-ti)
+  - [C++ en Technische Informatica](#c-en-technische-informatica)
+- [Ontwikkelomgeving en tools](#ontwikkelomgeving-en-tools)
+  - [Ontwikkelomgeving](#ontwikkelomgeving)
+  - [IDE (CodeLite of VScode)](#ide-codelite-of-vscode)
+- [Leren programmeren](#leren-programmeren)
+  - [Oefenen, fouten maken en doorzetten](#oefenen-fouten-maken-en-doorzetten)
+  - [Vereiste basiskennis](#vereiste-basiskennis)
+  - [Lesmateriaal op internet](#lesmateriaal-op-internet)
+- [Code](#code)
+  - [Formules en algoritmes](#formules-en-algoritmes)
+  - [Oorsprong C++](#oorsprong-c)
+  - [De naam C++](#de-naam-c)
+  - [Gebruikte versie (C++14)](#gebruikte-versie-c14)
+- [C++ onderwerpen](#c-onderwerpen)
+- [Referenties](#referenties)
 ---
 
 **v0.1.0 [](version-id)** Start document voor introductie C++ door HU IICT[](author-id).

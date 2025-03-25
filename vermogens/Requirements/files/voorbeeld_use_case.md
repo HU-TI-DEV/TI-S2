@@ -1,4 +1,4 @@
-# Use case diagram Watersysteem
+# Voorbeeld: Use case diagram Watersysteem
 ![Use case diagram](UseCaseDiagram.png)
 
 # UC01 – Watersysteem
