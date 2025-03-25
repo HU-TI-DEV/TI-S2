@@ -171,9 +171,9 @@ Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycli
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Werken aan project | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**) |
-| di  | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**BB & MV**) |
-| wo  | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HS & BB**) |
-| do  | **2e Peilmoment** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV & BB**)   |
+| di  | Werken aan project | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**MV & HP**) |
+| wo  | Werken aan project |  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HS & MV**) |
+| do  | **2e Peilmoment** | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**MV & HP**)   |
 
 ### Onderwijsweek D2 (21-04-2025)
 
