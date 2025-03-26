@@ -68,5 +68,5 @@ Een geavanceerd meet- en dataopslag systeem zorgt ervoor dat alle relevante omge
 
 - Waterverbruik en nutriëntenbeheer
 
-6. Unique Selling Point (USP)
+## 6. Unique Selling Point (USP)
 De kassenbouw is hoog competitief en vanuit marketing overweging moet ook rekening worden gehouden met het onderscheidende vermogen van ons product ten opzichte van concurrende producten. Dit is een vereiste in de POC.
