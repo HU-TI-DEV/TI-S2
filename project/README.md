@@ -9,6 +9,7 @@
     - [3. Eenvoudige communicatie](#3-eenvoudige-communicatie)
     - [4. Beheer op afstand](#4-beheer-op-afstand)
     - [5. Meten en opslaan van omgevingsparameters](#5-meten-en-opslaan-van-omgevingsparameters)
+  - [6. Unique Selling Point (USP)](#6-unique-selling-point-usp)
 
 ---
 
