@@ -150,7 +150,7 @@ Week C9. We behandelen [UART (*Universal Asynchronous Receiver Transmitter*)](..
 | --- | --- | --- |
 | ma  | Werken aan project | [Use Cases](./lesprogramma/programma-use-case.md) (**MV & BB**)|
 | di  | Werken aan project | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS & HP**) |
-| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [UART](./lesprogramma/programma-uart.md) (**HP & HS**) |
+| wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [UART](./lesprogramma/programma-uart.md) (**HP & HS**) 10.00-11.00 uur V1B en 11.00-12.00 uur V1A|
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 2 & :runner: Planning sprint 3 | [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP & HP**) |
 
 ### Onderwijsweek C10 (7-04-2025)
