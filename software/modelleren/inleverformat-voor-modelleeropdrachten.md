@@ -6,7 +6,6 @@
 - Files met plaatjes in **.png** format voor de modellen.
 Geef die files namen die beginnen met de subopdracht.
 Bijvoorbeeld **3A**_ActivityDiagramVoor3DPrinten.png.
-Exporteer de plaatjes vanuit draw.io, door export->png->**200%** te kiezen.
 
 Er **een enkele**, mooie pdf van maken (inclusief plaatjes met behoud van zoom-mogelijkheden waarbij de png niet teruggeschaald zijn),
 is in principe **ook mogelijk**. Je kunt Word zo instellen dat het van plaatjes altijd intern de originele resolutie opslaat.
@@ -15,6 +14,12 @@ Het is ook mogelijk per plaatje (via RMB) in te stellen dat je geen compressie w
 
 Beter nog is het maken van de documentatie in een markdown (.md) document. Dat is een goede oefening, omdat hetzelfde van je verwacht wordt als je in een team werkt. Het editen van zo'n document kan in VSCode, of handiger: met de applicatie MarkText (te vinden op github).
 
+Als je plantuml gebruikt (aangeraden):
+**Tip**: Hier zie je allerlei voorbeeld [diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/software/modelleren/plantuml/README.md)
+
+
+Als je Draw.io wilt gebruiken:
+**Tip**: Exporteer de plaatjes vanuit draw.io, door export->png->**200%** te kiezen.
 **Tip**: installeer de **draw.io desktop** app voor de inidividuele opdrachten (dat werkt toch iets sneller), en later de online versie voor samenwerken aan de lasergame.
 Geneste Tip: knippen en plakken tussen online versie en desktop app lijkt ook goed te werken.
 
