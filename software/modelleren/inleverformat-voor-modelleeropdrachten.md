@@ -1,4 +1,4 @@
-# Inleverformat voor modelleeropdrachten, Draw.io
+# Inleverformat voor modelleeropdrachten, plantUML
 ## Inleverformat
 **Lever voor elke opdracht in:**
 
@@ -12,7 +12,7 @@ is in principe **ook mogelijk**. Je kunt Word zo instellen dat het van plaatjes 
 Een nadeel daarvan is dat al je Word documenten een stuk groter worden. Misschien meer iets voor decadente docenten (zoals ik) als voor arme studenten :-).
 Het is ook mogelijk per plaatje (via RMB) in te stellen dat je geen compressie wilt, en ook bij het exporteren naar PDF dat in een optie uit te zetten, zoiets :-).
 
-Beter nog is het maken van de documentatie in een markdown (.md) document. Dat is een goede oefening, omdat hetzelfde van je verwacht wordt als je in een team werkt. Het editen van zo'n document kan in VSCode, of handiger: met de applicatie MarkText (te vinden op github).
+Beter nog is het maken van de documentatie in een markdown (.md) document. Dat is een goede oefening, omdat hetzelfde van je verwacht wordt als je in een team werkt. Het editen van zo'n document kan in VSCode, of handiger: met de applicatie MarkText (te vinden op github). Er is een plugin voor plantuml dat je het diagram ook in broncode kan opslaan in je md document.
 
 Als je plantuml gebruikt (aangeraden):
 **Tip**: Hier zie je allerlei voorbeeld [diagrammen](https://github.com/HU-TI-DEV/TI-S3/blob/main/software/modelleren/plantuml/README.md)
