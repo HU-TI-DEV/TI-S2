@@ -30,6 +30,13 @@
 
 UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een asynchrone seriele interface met configuratie mogelijkheden zoals het aantal stopbits en even of oneven pariteit. UART wordt gebruikt voor communicatie met randapparatuur. Een microcontroller heeft meestal een of meerdere UARTs op de chip. UARTs maken vaak gebruik van communicatiestandaarden als RS-232 en RS-422.
 
+  Pariteit is een eenvoudige vorm van foutcontrole. Stuur je data met even pariteit dan moeten alle 1-bits even zijn. Zijn de 1-bits even dan is de pariteit bit 0. Zijn de 1-bits oneven dan is de pariteit bit 1 zodat het totaal weer even is.
+
+  | Data | Aantal 1-bits | Even Pariteit (toegevoegde bit) 
+  | --- | --- | --- | 
+  | 10101100 | 4 (even) | 0	 
+  | 10101101 | 5 (oneven) | 1 
+
 # UART communicatie tussen Raspberry Pi en Arduino
 
 Wil je (sensor)data uitwisselen tussen je Arduino Uno en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je hebt maar twee (signaal-)draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
@@ -348,13 +355,13 @@ if __name__ == "__main__":
 
 ## Zenden en ontvangen met Arduino Uno
 
-De Arduino (Uno of Nano) beschikt slechts over één enkele Hardware-UART.\
-Deze Hardware-UART gebruiken we ook voor het uploaden van software op de Arduino.
+De Arduino Uno beschikt slechts over één enkele Hardware-UART.
+Deze Hardware-UART gebruiken we ook voor het uploaden van software op de Arduino (Arduino sketch).
 
-Als we een andere UART willen gebruiken, of mer dan een UART nodig hebben kunnen we een `Software-UART` gebruiken.
+Als we een andere UART willen gebruiken, of meer dan een UART nodig hebben kunnen we een `Software-UART` gebruiken.
 
-- Slimme software vervangt dan de hardware en we kunnen bijna iedere GPIO-pin met gebruiken.
-- Nadeel is dat het programma groter wordt, dat de processor bezig is ermee, en dat de Software-UART vaak niet zo snel data kan verwerken als het met een Hardware-UART kan.
+- Slimme software vervangt dan de hardware en we kunnen bijna iedere GPIO-pin gebruiken.
+- Nadeel is dat het programma groter wordt, dat de processor ermee bezig is. De Software-UART is ook vaak niet zo snel en kan daardoor minder rap data verwerken als met een Hardware-UART.
 
 ## Zenden met Arduino Uno
 
