@@ -1,6 +1,6 @@
 # Programma UART
 
-Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry Pi('s).
+Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry Pi('s). De configuratie van de Raspberry Pi en alle opdrachten rondom UART communicatie kosten best veel tijd. Er is dan ook een vervolg [UART deel 2](programma-uart-2.md) waar je een logic analyser ontvangt.
 
 ## Voorbereiding
 
@@ -8,17 +8,17 @@ Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry 
   - een Arduino Uno
   - een geinstalleerde Raspberry Pi 4
   - je elektronica spullen (breadboard, weerstanden etc.)
-  - je logic analyser (als je deze hebt)
+  - je logic analyser (deze ontvang je in [practicum UART deel 2](programma-uart-2.md))
 - Lees alvast de lesstof door: [UART](../../hardware-interfacing/communicatie/UART/README.md)
 - Kijk de volgende video: [Salae Logic Analyser Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 
 ## Tijdens de les
 
-Tijdens de les werk je aan de volgende opdracht:
+Zorg eerst dat je de configuratie hebt gedaan zoals beschreven in de [lesstof over UART](../../hardware-interfacing/communicatie/UART/README.md). Tijdens de les werk je aan de volgende opdracht(en):
 
 - [Practicum UART](../../hardware-interfacing/communicatie/UART/practicum-uart.md)
 
-Voer het zelf uit - tegelijkertijd.
+Voer het zelf uit - tegelijkertijd met je practicum partner of team.
 > Samenwerking wordt aangemoedigd, en is zelfs essentieel bij de test met communicatie tussen 2 Arduino's.
 
 ## Na de les

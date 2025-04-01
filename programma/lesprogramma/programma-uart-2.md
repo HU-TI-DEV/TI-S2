@@ -1,4 +1,4 @@
-# Programma UART (herhaling)
+# Programma UART (deel 2)
 
 Tijdens deze les zetten we seriele communicatie met PCs en USB-to-serial adapters op.
 
