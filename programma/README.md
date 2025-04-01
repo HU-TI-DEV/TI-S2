@@ -161,7 +161,7 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 | --- | --- | --- |
 | ma  | Werken aan project  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV & BB**) Darlington, ULN2003 |
 | di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS & HP**)     |
-| wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP & HS**)
+| wo  | Werken aan project | [UART deel 2, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-2.md)  (**HP & HS**)
 | do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS & BB**) |
 
 ### Onderwijsweek D1 (14-04-2025)
