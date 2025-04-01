@@ -8,7 +8,7 @@
     - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
 - [UART communicatie tussen Raspberry Pi en Arduino](#uart-communicatie-tussen-raspberry-pi-en-arduino)
-  - [Handleiding UART communicatie RPI - Arduino](#handleiding-uart-communicatie-rpi---arduino)
+  - [Handleiding UART communicatie Raspberry Pi - Arduino](#handleiding-uart-communicatie-raspberry-pi---arduino)
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
   - [Informatie opvragen over UARTs](#informatie-opvragen-over-uarts)
@@ -22,7 +22,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor UART door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor UART door HU IICT[](author-id).
 
 ---
 
@@ -36,7 +36,7 @@ Wil je (sensor)data uitwisselen tussen je Arduino Uno en een Raspberry Pi gebrui
 
 > Deze handleiding gaat uit van Raspbian OS (Debian Bookworm). Ubuntu kan ook maar vergt wat meer zelf uitzoeken.
 
-## Handleiding UART communicatie RPI - Arduino
+## Handleiding UART communicatie Raspberry Pi - Arduino
 
 Eerst installeer je op de Raspberry Pi ghostwriter om makkelijk `.md` files zoals deze te maken:  
 

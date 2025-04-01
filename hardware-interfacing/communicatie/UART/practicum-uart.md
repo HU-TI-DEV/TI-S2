@@ -3,10 +3,10 @@
 ## Voorbereiding
 
 - Neem mee:
-  - een Arduino (Uno of Nano)
-  - een geinstalleerde Raspberry Pi
-  - je elektronica spullen (breadboard, weerstanden etc)
-  - je logic analyser (als je die al hebt)
+  - een Arduino Uno
+  - een geinstalleerde Raspberry Pi 4
+  - je elektronica spullen (breadboard, weerstanden etc.)
+  - je logic analyser (als je deze hebt)
 - Lees alvast de lesstof door: [UART](./README.md)
 - Kijk de volgende video: [Salae Logic Analyser Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 - Een indruk voor de plaats van deze opdracht in het geheel vind je [in dit overzicht](./img/overzicht1.png) en [in dit overzicht](./img/overzicht2.png).
@@ -55,4 +55,4 @@ Noteer je bevindingen / persoonlijke lessen.
 
 ## Bonus Opdracht 2
 
-Zelfde als Bonus Opdracht 1, maar nu twee laptops die (zonder Arduinos) via USB-naar-Serial converters met elkaar communiceren.
+Zelfde als Bonus Opdracht 1, maar nu twee laptops die (zonder Arduino's) via USB-naar-Serial converters met elkaar communiceren.
