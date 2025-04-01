@@ -5,23 +5,20 @@
 ### Inhoud[](toc-id)
 
 - [UART](#uart)
-  - [Inhoud](#inhoud)
+    - [Inhoud](#inhoud)
   - [Een introductie](#een-introductie)
 - [UART communicatie tussen Raspberry Pi en Arduino](#uart-communicatie-tussen-raspberry-pi-en-arduino)
   - [Handleiding UART communicatie RPI - Arduino](#handleiding-uart-communicatie-rpi---arduino)
   - [Python versie controleren](#python-versie-controleren)
   - [Virtual Environments gebruiken](#virtual-environments-gebruiken)
-  - [Informatie opvragen over UARTs:](#informatie-opvragen-over-uarts)
-    - [in Debian Bookworm:](#in-debian-bookworm)
-  - [Loopback test](#loopback-test)
-  - [Zenden](#zenden)
-    - [op Debian Bullseye](#op-debian-bullseye)
-    - [op Debian Bookworm](#op-debian-bookworm)
-  - [Ontvangen](#ontvangen)
-  - [Zenden en ontvangen via extra UART op de Arduino Uno](#zenden-en-ontvangen-via-extra-uart-op-de-arduino-uno)
-  - [Zenden met de Arduino Uno](#zenden-met-de-arduino-uno)
+  - [Informatie opvragen over UARTs](#informatie-opvragen-over-uarts)
+  - [Loopback test met Raspberry Pi](#loopback-test-met-raspberry-pi)
+  - [Zenden met Raspberry Pi](#zenden-met-raspberry-pi)
+  - [Ontvangen met Raspberry Pi](#ontvangen-met-raspberry-pi)
+  - [Zenden en ontvangen met Arduino Uno](#zenden-en-ontvangen-met-arduino-uno)
+  - [Zenden met Arduino Uno](#zenden-met-arduino-uno)
   - [Ontvangen met de Arduino Uno](#ontvangen-met-de-arduino-uno)
-  - [Zenden met de Arduino Due](#zenden-met-de-arduino-due)
+  - [Zenden met Arduino Due](#zenden-met-arduino-due)
   - [Ontvangen met Arduino Due](#ontvangen-met-arduino-due)
   - [Referenties](#referenties)
 
@@ -33,17 +30,17 @@
 
 ## Een introductie
 
-UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een asynchrone seriele interface met configuratie mogelijkheden zoals het aantal stopbits en even of oneven pariteit. UART wordt gebruikt voor communicatie met randapperatuur. Een microcontroller heeft meestal een of meerdere UARTs op de chip. UARTs maken vaak gebruik van communicatiestandaarden als RS-232 en RS-422.
+UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een asynchrone seriele interface met configuratie mogelijkheden zoals het aantal stopbits en even of oneven pariteit. UART wordt gebruikt voor communicatie met randapparatuur. Een microcontroller heeft meestal een of meerdere UARTs op de chip. UARTs maken vaak gebruik van communicatiestandaarden als RS-232 en RS-422.
 
 # UART communicatie tussen Raspberry Pi en Arduino
 
-Wil je (sensor)data uitwisselen tussen je Arduino UNO en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je heb maar twee draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
+Wil je (sensor)data uitwisselen tussen je Arduino Uno en een Raspberry Pi gebruik dan bij voorkeur UART. Het is relatief eenvoudig. Je hebt maar twee (signaal-)draden nodig. Het is betrouwbaar en je hebt meerdere UARTs tot je beschikking om meerdere Arduino's te koppelen.
 
 > Deze handleiding gaat uit van Raspbian OS (Debian Bookworm). Ubuntu kan ook maar vergt wat meer zelf uitzoeken.
 
 ## Handleiding UART communicatie RPI - Arduino
 
-Eerst installeer je op de Raspberry PI ghostwriter om makkelijk .md files zoals deze te maken:  
+Eerst installeer je op de Raspberry Pi ghostwriter om makkelijk `.md` files zoals deze te maken:  
 
 ```bash
 ...$ sudo apt-get install ghostwriter
@@ -73,7 +70,7 @@ Thonny schijnt een snelle editor te zijn op Raspberry Pi die gaan we voor dit pr
 
 Als je rechtsboven aanklikt "switch to regular mode" en Thonny herstart dan krijg je de versie met alle opties te zien.
 
-vanaf de command line kun je dan bijvoorbeeld typen:  
+Vanaf de command line kun je dan bijvoorbeeld typen:  
 
 ```bash
 ...$ thonny tests/tmpTest1.py
@@ -90,6 +87,7 @@ of als de commandline parallel moet blijven werken:
 ## Virtual Environments gebruiken
 
 Je kunt met Python Virtual Environment (venv) een lichtgewicht geisoleerde Python omgeving maken.
+
 Installeer Python venv als volgt:
 
 ```bash
@@ -108,9 +106,9 @@ Activeer je venv:
 ...$ source myenv/bin/activate
 ```
 
-Je ziet dan aan (myenv) aan het begin van de command prompt dat je in die environment "zit".
+Je ziet dan aan `(myenv)` aan het begin van de command prompt dat je in die environment "zit".
 
-Nu kun je pip install gebruiken:
+Nu kun je `pip install` gebruiken:
 
 ```bash
 ...$ pip install matplotlib
@@ -138,7 +136,7 @@ Vervolgens de ingebouwde UART van de Raspberry Pi (uart0) inschakelen via:
 
 > Voor Ubuntu volg deze [video](https://www.youtube.com/watch?v=rcPYJvVVWsc)
 
-Kies vervolgens:
+Kies vervolgens:\
 -> Interfacing Options -> Serial Port aanzetten.
 
 ## Informatie opvragen over UARTs
@@ -147,7 +145,7 @@ Kies vervolgens:
 ...$ cat /boot/overlays/README
 ```
 
-levert oonder andere informatie over de UARTs , bij mijn Raspberry Pi 4:
+levert oonder andere informatie over de UARTs, bij mijn Raspberry Pi 4:
 
 ```text
 Name:   uart0
@@ -188,11 +186,12 @@ Params: ctsrts                  Enable CTS/RTS on GPIOs 14-15 (default off)
 Die BCM2711 is een communicatiechip die Raspberry Pi 4 boardjes hebben.
 
 Voorbeeld:
-- Bij uart2 staat: gpios 0-3. Dat impliceert:
-- gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
-- cts (clear to send) en rts (request to send) zijn twee signalen die je zou kunnen toevoegen om de uart comms betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen)
 
-Controleer de uart-gpio pin mapping voor je eigen boardje:  
+- Bij `uart2` staat: `gpios 0-3`. Dat impliceert:
+- gpio0 = tx, gpio1 = rx, gpio2 = cts en gpio3 = rts
+- `cts` (clear to send) en `rts` (request to send) zijn twee signalen die je zou kunnen toevoegen om de UART communicatie betrouwbaarder te maken, maar dat doen we normaal gesproken niet (het verdubbelt het aantal signaallijnen van twee tot vier)
+
+Controleer de UART-GPIO pin mapping voor je eigen boardje:  
 
 ```bash
 ...$ cat /proc/cpuinfo
@@ -200,9 +199,7 @@ Controleer de uart-gpio pin mapping voor je eigen boardje:
 
 Het kan zijn dat jouw Raspberry Pi 4 een andere versie heeft: BM2835.  
 
-backup de config file:
-
-### in Debian Bookworm
+Backup de config file (van Raspbian 'Debian Bookworm'):
 
 ```bash
 ...$ sudo cp /boot/firmware/config.txt /boot/firmware/config.txt.backup 
@@ -215,7 +212,7 @@ Zorg dat daar in staat:
 enable_uart=1
 ```
 
-En ook (bijvoorbeeld pal eronder) op basis van het bovenstaande:
+En ook (bijvoorbeeld pas eronder) op basis van het bovenstaande:
 
 ```text
 dtoverlay=uart0,txd0``_``pin=14,rxd0``_``pin=15  
@@ -226,8 +223,8 @@ dtoverlay=uart4
 dtoverlay=uart5
 ```
 
-De bovenstaande pinnen zijn zg "bcm pinnen"  
-Bijvoorbeeld "bcm pin 15" komt overeen met
+De bovenstaande pinnen zijn zogenoemde "bcm pinnen".\
+Bijvoorbeeld komt "bcm pin 15" overeen met
 "pin10 van de connector van de rpi".
 
 Bewaar de veranderingen en reboot:  
@@ -242,7 +239,7 @@ Controleer na het opstarten of het gelukt is met:
 ...$ ls /dev/ttyAMA*
 ```
 
-Als het goed is zie je nu 4 extra uart poorten: ttyAMA2 tot en met ttyAMA5 in het lijstje erbij staan.
+Als het goed is zie je nu 4 extra uart poorten: `ttyAMA2` tot en met `ttyAMA5` in het lijstje erbij staan.
 
 Welke pinnen gebruikt worden kan je zien met (welke functie op welke pin in je huidige configuratie):
 
@@ -250,9 +247,15 @@ Welke pinnen gebruikt worden kan je zien met (welke functie op welke pin in je h
 ...$ raspi-gpio get
 ```
 
-## Loopback test
+Op 'Debian Bookworm' lijken de nummers gelijk getrokken:
 
-Je kunt een loopback test uitvoeren op /dev/ttyAMA3 door pin 4 en 5 te verbinden
+- ttyAMA2 voor uart2
+- ttyAMA3 voor uart3
+- etc.
+
+## Loopback test met Raspberry Pi
+
+Je kunt een `loopback test` uitvoeren op `/dev/ttyAMA3` door pin 4 en 5 te verbinden:
 
 ```python
 import serial
@@ -283,7 +286,7 @@ if __name__ == "__main__":
     send_data_to_serial(PORT_NAME)
 ```
 
-## Zenden
+## Zenden met Raspberry Pi
 
 Met de volgende Python code kan je het verzenden testen:
 
@@ -313,34 +316,7 @@ if __name__ == "__main__":
     send_data_to_serial(PORT_NAME)
 ```
 
-### op Debian Bullseye
-
-*(als je Debian Bookworm hebt, skip dan deze alinea)*
-
-ttyAMA0 komt dus overeen met uart0 (gpio 14 en 15)
-
-Je kunt een logic analyser gebruiken om dit te testen. Dan ook proberen met ttyAMA1, 2, 3 en 4.
-
-Probleem: gpio pin 32 en 33 en evenmin 36 en 40 zijn niet aangeboden op de 40 pins connector van de Raspberry Pi 4.
-uart1 lijkt dus alleen bruikbaar als ze identiek is aan uart0.
-
-Wat blijkt verder:  
-
-ttyAMA1 blijkt overeen te komen met uart2 uit het bovenstaande, dus op gpio 0 en 1  
-
-Dat werkt.
-
-- ttyAMA2 met uart3 (dus gpio 4 en 5)
-- ttyAMA3 met uart4 (dus gpio 8 en 9)
-- ttyAMA4 met uart5 (dus gpio 12 en 13)
-
-### op Debian Bookworm
-
-Op Debian Bookworm lijken de nummers gelijk getrokken:
-
-ttyAMA2 voor uart2, ttyAMA3 voor uart3, etc.
-
-## Ontvangen
+## Ontvangen met Raspberry Pi
 
 Ook het luisteren werkt:
 
@@ -367,13 +343,13 @@ if __name__ == "__main__":
     listen_to_serial(PORT_NAME)
 ```
 
-## Zenden en ontvangen via extra UART op de Arduino Uno
+## Zenden en ontvangen met Arduino Uno
 
-Dat kan alleen via een software UART omdat de Arduino slechts beschikking heeft over één enkele hardware UART.
+Dat kan alleen via een `Software-UART`, omdat de Arduino slechts beschikking heeft over één enkele hardware UART. (En deze gebruiken we ook voor het uploaden van software op de Arduino.)
 
-## Zenden met de Arduino Uno
+## Zenden met Arduino Uno
 
-```c++
+```cpp
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX, TX
@@ -397,7 +373,7 @@ void loop() { // verstuur de cijferreeks elke 2 seconden
 
 ## Ontvangen met de Arduino Uno
 
-```c++
+```cpp
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX, TX (pas dit aan naar jouw pins)
@@ -422,9 +398,9 @@ void loop() {
 }
 ```
 
-## Zenden met de Arduino Due
+## Zenden met Arduino Due
 
-```c++
+```cpp
 void setup() {
   // Initialiseer Serial1 met een baudrate van 9600:
   Serial1.begin(9600); // Start Serial1 (hardware UART op pins 18 & 19)
@@ -439,7 +415,7 @@ void loop() {
 
 ## Ontvangen met Arduino Due
 
-```c++
+```cpp
 void setup() {
   SerialUSB.begin(9600);   // Start de standaard seriële poort (verbonden met de USB)
   Serial1.begin(9600);     // Start Serial1 (hardware UART op pins 18 & 19)
