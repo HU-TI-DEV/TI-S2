@@ -17,9 +17,7 @@
   - [Ontvangen met Raspberry Pi](#ontvangen-met-raspberry-pi)
   - [Zenden en ontvangen met Arduino Uno](#zenden-en-ontvangen-met-arduino-uno)
   - [Zenden met Arduino Uno](#zenden-met-arduino-uno)
-  - [Ontvangen met de Arduino Uno](#ontvangen-met-de-arduino-uno)
-  - [Zenden met Arduino Due](#zenden-met-arduino-due)
-  - [Ontvangen met Arduino Due](#ontvangen-met-arduino-due)
+  - [Ontvangen met Arduino Uno](#ontvangen-met-arduino-uno)
   - [Referenties](#referenties)
 
 ---
@@ -255,6 +253,11 @@ Op 'Debian Bookworm' lijken de nummers gelijk getrokken:
 
 ## Loopback test met Raspberry Pi
 
+Een test of een UART werkt kan je doen door TX met RX te verbinden dit noemen we een `loopback test`.
+
+- Wat je dan de UART laat zenden moet je ook meteen van de UART kunnen teruglezen.
+- Je hebt alleen maar een draadje daarvoor nodig.
+
 Je kunt een `loopback test` uitvoeren op `/dev/ttyAMA3` door pin 4 en 5 te verbinden:
 
 ```python
@@ -345,7 +348,13 @@ if __name__ == "__main__":
 
 ## Zenden en ontvangen met Arduino Uno
 
-Dat kan alleen via een `Software-UART`, omdat de Arduino slechts beschikking heeft over één enkele hardware UART. (En deze gebruiken we ook voor het uploaden van software op de Arduino.)
+De Arduino (Uno of Nano) beschikt slechts over één enkele Hardware-UART.\
+Deze Hardware-UART gebruiken we ook voor het uploaden van software op de Arduino.
+
+Als we een andere UART willen gebruiken, of mer dan een UART nodig hebben kunnen we een `Software-UART` gebruiken.
+
+- Slimme software vervangt dan de hardware en we kunnen bijna iedere GPIO-pin met gebruiken.
+- Nadeel is dat het programma groter wordt, dat de processor bezig is ermee, en dat de Software-UART vaak niet zo snel data kan verwerken als het met een Hardware-UART kan.
 
 ## Zenden met Arduino Uno
 
@@ -371,7 +380,7 @@ void loop() { // verstuur de cijferreeks elke 2 seconden
 }
 ```
 
-## Ontvangen met de Arduino Uno
+## Ontvangen met Arduino Uno
 
 ```cpp
 #include <SoftwareSerial.h>
@@ -394,38 +403,6 @@ void loop() {
   while (Serial.available()) {
     char c = Serial.read();
     mySerial.print(c);
-  }
-}
-```
-
-## Zenden met Arduino Due
-
-```cpp
-void setup() {
-  // Initialiseer Serial1 met een baudrate van 9600:
-  Serial1.begin(9600); // Start Serial1 (hardware UART op pins 18 & 19)
-}
-
-void loop() {
-  // Verstuur de cijferreeks elke 2 seconden via Serial1
-  Serial1.println("12345");
-  delay(2000);
-}
-```
-
-## Ontvangen met Arduino Due
-
-```cpp
-void setup() {
-  SerialUSB.begin(9600);   // Start de standaard seriële poort (verbonden met de USB)
-  Serial1.begin(9600);     // Start Serial1 (hardware UART op pins 18 & 19)
-}
-
-void loop() {
-  // Als er data beschikbaar is op Serial1, print het op de standaard seriële poort
-  while (Serial1.available()) {
-    char c = Serial1.read();
-    SerialUSB.print(c);
   }
 }
 ```
