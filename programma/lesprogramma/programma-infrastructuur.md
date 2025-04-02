@@ -9,9 +9,15 @@ Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/em
 
 ## Dit hebben we in een vorige les gedaan
 
-Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi. Zorg dat deze toegang heeft tot Eduroam en maak toegang via ssh mogelijk.
+Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi. Zorg dat deze toegang heeft tot iotroam en maak toegang via ssh mogelijk. 
 
-Gebruik dit script en de LCD opstelling van om de IP van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
+    Maak eventueel gebruik van Eduroam als iotroam problemen geeft.
+
+## Eduroam
+
+Onze voorkeur heeft dat je gebruik maakt van iotroam. Dit wifi netwerk is speciaal geschikt gemaakt voor dit soort type devices en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam.
+
+Gebruik dit script en de LCD opstelling om het IP adres van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
 
 ## Tijdens de les
 
