@@ -118,7 +118,8 @@ laptop. Verken de software.
 In de onderstaande schermafdruk zie je een overzicht van enkele
 belangrijke knoppen in de software:
 
-<img src="./media/media/image4.png" width="900px"/>
+![Scope](./media/media/image.png)
+
 
 Aangezien het een digitale oscilloscoop is wordt het (analoge)
 ingangssignaal gesampled. Dit betekent dat op verschillende momenten wordt bekeken wat de spanning is. Hoe meer samples, hoe exacter de weergave van je signaal.
