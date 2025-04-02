@@ -15,4 +15,4 @@ Tijdens de les werk je samen met een partner aan de volgende opdracht:
 
 ## Tweede helft: volgende les
 
-- Het practicum is te groot om binnen een enkele les af te ronden. Tijdens de volgende les ronden we het af.
+- Het practicum is te groot om binnen een enkele les af te ronden. Tijdens de [volgende les](./programma-oscilloscope-2.md) ronden we het af.
