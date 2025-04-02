@@ -2,7 +2,7 @@
 
 <img src="./media/media/image1.jpeg" alt="" width="500px"/>
 
-![alt text](image.png)
+![alt text](./media/image4.png)
 
 # Introductie
 
