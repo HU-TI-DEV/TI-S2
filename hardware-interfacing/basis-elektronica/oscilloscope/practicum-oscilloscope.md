@@ -164,8 +164,7 @@ De PicoScope 2204 is niet alleen een oscilloscoop maar heeft ook een **signaalge
 
 Het volgende plaatje geeft het menu van de signaalgenerator. Zoek de generator op in het menu:
 
-<img src="./media/media/image6.png"
-width="300px"/>
+![alt text](./media/image1.png)
 
 Figure : de signaalgenerator
 
@@ -222,9 +221,7 @@ Wanneer je dit goed hebt gedaan kan je een signaal gaan meten. Stel de
 PicoScope in op een **sinusvorm van 40kHz in met een amplitude van 2V**
 en zet deze aan. Als het goed is zie je nu het volgende:
 
-<img src="./media/media/image9.png"
-width="900px" />
-
+![alt text](./media/image2.png)
 De kans is heel groot dat het signaal niet stilstaat. Dat komt omdat het
 een continu-meting is en dat het periodieke signaal heel vaak op het
 scherm wordt getekend. Als je dat niet iedere keer op dezelfde plaats
@@ -264,8 +261,8 @@ bekijkt. Met de Spectrum Mode kun je zien welke frequenties er in het
 meetsignaal aanwezig zijn. Er is echter ook een erg belangrijke en
 handige mode, de Persistence Mode:
 
-<img src="./media/media/image10.png"
-width="900px" />
+![alt text](./media/image3.png)
+
 
 Zoek in de helpfile op wat deze mode doet en bedenk waarvoor een
 Persistence Mode gebruikt zou kunnen worden. Vul dat in het volgende vak
