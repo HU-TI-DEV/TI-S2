@@ -1,3 +1,18 @@
+# Platform IO[](title-id) <!-- omit in toc -->
+
+### Inhoud[](toc-id) <!-- omit in toc -->
+
+- [PlatformIO - Tips](#platformio---tips)
+  - [Installatie op VSCode](#installatie-op-vscode)
+  - [Verdere wetenswaardigheden](#verdere-wetenswaardigheden)
+  - [Praktische issues en oplossingen](#praktische-issues-en-oplossingen)
+
+---
+
+**v0.1.0 [](version-id)** Start document voor Platform IO tips door HU IICT[](author-id).
+
+---
+
 # PlatformIO - Tips
 
 ## Installatie op VSCode
@@ -14,7 +29,9 @@
 
 - Je kunt nu een project aanmaken (ik prefereer in een handmatig gekozen folder)
 
-- Zet dit (igv arduino uno) in de platformio.ini file
+- Zet dit (in geval van Arduino Uno) in de platformio.ini file
+
+```bash
   [env:uno]
   
   platform = atmelavr
@@ -28,10 +45,11 @@
   monitor_port = COM9
   
   monitor_speed = 9600
+```
 
 - Pas de COM ports en speeds aan 
 
-- Gebruik wat standaard Arduino Code (platformio is daar compatibel mee)
+- Gebruik wat standaard Arduino Code (PlatformIO is daar compatibel mee)
 
 - PlatformIO Home Button -> Upload and Monitor
 
@@ -51,13 +69,11 @@
 
 ## Praktische issues en oplossingen
 
-### PIO Home button werkt niet meer
-
-<img src="file://D:\OneDrive\OneDrive - Stichting Hogeschool Utrecht\MaveHU\Docs\Mijn Lessen\S2\OOPC-voor-S2\img\screenshot-error2.png?msec=1714984658607" title="" alt="" width="452">
+**PIO Home button werkt niet meer**
 
 Oplossing: herstarten van VSCode (?!)
 
-### Compiler geeft error bij aanroep van functies die verderop gedeclareerd worden
+**Compiler geeft error bij aanroep van functies die verderop gedeclareerd worden**
 
 De compiler van PlatformIO is daarin wat strenger dan die van de Arduino IDE.
 Je kunt dat oplossen door functie declaraties en implementaties in aparte files te zetten of bovenaan forward declaraties van de betreffende functies toe te voegen.

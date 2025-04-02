@@ -1,11 +1,10 @@
 ![logo](../Docker/img/Docker_(container_engine)_logo.svg) [](logo-id)
 
-# Docker[](title-id)
+# Docker[](title-id) 
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Docker](#docker)
-    - [Inhoud](#inhoud)
     - [Inleiding](#inleiding)
     - [Installeer Docker](#installeer-docker)
     - [Docker parameters](#docker-parameters)
