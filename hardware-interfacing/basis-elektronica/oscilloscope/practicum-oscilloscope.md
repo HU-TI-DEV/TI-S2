@@ -142,8 +142,7 @@ later de resultaten bekijken van je meting. Met het programma PicoScope is het d
 
 Bij de volgende schermafdruk is aan de ingang een blokgolf aangeboden.
 
-<img src="./media/media/image5.png"
-width="900px" />
+![alt text](./media/image.png)
 
 Figure : PicoScope 6
 
