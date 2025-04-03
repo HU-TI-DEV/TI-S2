@@ -5,9 +5,9 @@
     - [Inhoud](#inhoud)
     - [Relaties tussen klassen](#relaties-tussen-klassen)
       - [Aggregatie](#aggregatie)
-      - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
-    - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
-    - [Compositie](#compositie)
+        - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
+        - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
+      - [Compositie](#compositie)
 
 
 ## Relaties tussen klassen
@@ -64,7 +64,7 @@ attribuut w. Daardoor betekent w( w ) in een initialisatielijst dus:
 
 *initialiseer het attribuut w (de eerste w) met de waarde van de parameter w (de tweede w)*.
 
-### Voorbeeld: lijn met window object
+#### Voorbeeld: lijn met window object
 Bij het aanmaken van een window object moet je
 - de omvang in x en y richting meegeven en 
 - de schaal. Omdat pixels op een PC scherm nogal klein zijn, worden de pixels met die schaal factor ‘opgeblazen’. 
