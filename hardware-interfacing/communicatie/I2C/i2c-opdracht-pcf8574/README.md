@@ -21,7 +21,7 @@ De PCF8574 heeft een I2C interface waarmee je 8 I/0 pinnen kan uitlezen of aanst
   - INT gebruik je niet   
 
 5. Sluit LEDs (met weerstanden) aan op P0, P1, P2 en P3 (naar de VDD/power, dus actief laag).  
-6. Gebruik de hwlib I2C library om de chip aan te sturen.  
+6. Gebruik de Wire library om de chip aan te sturen.  
 Zoek in de chip datasheet op wat het I2C adres van de chip is. Let
 op: de PCF8574 en de PCF8574A zijn verschillend. Bedenk je of het genoemde
 adres in de datasheet **met of zonder het r/w bit** is. Bedenk je of Wire een adres met of zonder het r/w bit verwacht. Laat de LEDs in Kitt patroon (heen en weer) oplichten.  
