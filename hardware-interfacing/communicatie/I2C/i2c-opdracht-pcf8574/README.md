@@ -6,9 +6,7 @@ Deze opdracht is je “Hello World” oefening voor het werken met I2C. Ook voor
 
 ![schema pcf8574](./img/image2.png)
 
-De PCF8574 heeft een I2C interface waarmee je 8 I/0 pinnen kan uitlezen
-of aansturen. De 8 I/O pinnen van de chip zijn open-collector, met
-ingebouwde, zwakke pull-ups.
+De PCF8574 heeft een I2C interface waarmee je 8 I/0 pinnen kan uitlezen of aansturen. De 8 I/O pinnen van de chip zijn open-collector, met ingebouwde, zwakke pull-ups.
 
 1. Lees eerst de gehele opdracht voordat je aan de slag gaat.
 2. Gebruikt het internet: wat is een open-collector? Waarom is het handig?
@@ -17,8 +15,7 @@ ingebouwde, zwakke pull-ups.
 
   - VSS aan ground   
   - VDD aan 3.3V   
-  - De I2C-pinnen (SCL en SDA – of SCL1 en SDA1, afhankelijk van de I2c
-library) naar de Arduino   
+  - De I2C-pinnen (SCL en SDA – of SCL1 en SDA1, afhankelijk van de I2C library) naar de Arduino   
   - Verbindt die pinnen ook met <span class="mark">pull-up weerstanden</span> (van bijvoorbeeld 2.2kOhm) naar de voedingsspanning.
   - A0-A2 aan de ground   
   - INT gebruik je niet   
