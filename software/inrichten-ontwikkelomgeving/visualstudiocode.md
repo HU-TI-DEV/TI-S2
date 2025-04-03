@@ -32,3 +32,5 @@ To successfully complete this tutorial, you must do the following steps:
 
 ### VScode C++, Arduino UNO & PlatformIO
 See the instructions in the video (about 11 minutes): https://www.youtube.com/watch?v=0poh_2rBq7E 
+
+When using Platform IO see the [Platform IO tips](https://github.com/HU-TI-DEV/TI-S3/tree/main/infrastructuur/PlatformIO-Tips) on the TI-S3 repository.

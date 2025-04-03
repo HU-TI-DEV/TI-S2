@@ -10,7 +10,7 @@ Deze les is een les uit een serie van 3 lessen.
 ## Tijdens de les
 
 Werk tijdens de les individueel aan de volgende opdracht (**overleg is aanbevolen, maar doe het verder echt zelf**):
-- [Practicum PCF8574 met I2C](../../hardware-interfacing/basis-elektronica/i2c/i2c-opdracht-pcf8574/i2c-opdracht-pcf8574.md) 
+- [Practicum PCF8574 met I2C](../../hardware-interfacing/communicatie/I2C/i2c-opdracht-pcf8574/README.md) 
   
 ## De volgende les
 - Vermoedelijk lukt het afronden niet helemaal tijdens de tweede les. Rond het indien nodig tijdens de derde les af.

@@ -1,11 +1,11 @@
 # I2C aansturing van de PCF8574
 
-Deze opdracht is je “Hello World” oefening voor het werken
-met I2C. Ook voor de volgende semesters zal dat een essentiele ervaring
+Deze opdracht is je “Hello World” oefening voor het werken met I2C. Ook voor de volgende semesters zal dat een essentiele ervaring
 zijn.
 
-<img src="./media/media/image1.png" width="200px" />
-<img src="./media/media/image2.png" width="550px" />
+![Pin out pcf8574](./img/image1.png)
+
+![schema pcf8574](./img/image2.png)
 
 De PCF8574 heeft een I2C interface waarmee je 8 I/0 pinnen kan uitlezen
 of aansturen. De 8 I/O pinnen van de chip zijn open-collector, met
@@ -42,10 +42,7 @@ daarmee een of meer LEDs.
 
 # Wat lever je in?
 
--   De c++ code die je hebt gebruikt om het kitt-patroontje op de leds
-    te laten zien.
--   De c++ code die je hebt gebruikt om punt 7 en 8 hierboven uit te
-    voeren.
+-   De C++ code die je hebt gebruikt om het kitt-patroontje op de leds te laten zien.
+-   De C++ code die je hebt gebruikt om punt 7 en 8 hierboven uit te voeren.
 
-Vergeet niet de code van commentaar te voorzien, zodat duidelijk is wat
-de bedoeling is.
+Vergeet niet de code van commentaar te voorzien, zodat duidelijk is wat de bedoeling is.

@@ -11,13 +11,10 @@ Deze les is een les uit een serie van 3 lessen, met daarbinnen aansluitend een w
 ## Tijdens de les
 
 Tijdens de les werk je samen met een partner aan de volgende opdracht:
-- [I2C workshop](../../hardware-interfacing/basis-elektronica/i2c/i2c-workshop/workshop-i2c.md) 
-- Aanbevolen: gebruik alvast PlatformIO ipv Arduino IDE.
-  (Je kunt dat eventueel ook nog een les uitstellen, maar uiteindelijk willen we toch je C++ code graag in PlatformIO zien draaien).
-  [Hier zijn wat PlatformIO-Tips](../../infrastructuur/PlatformIO-Tips/README.md)
-  
+- [I2C workshop](../../hardware-interfacing/communicatie/I2C/i2c-workshop/README.md) 
+
 ## De volgende les
-- Vermoedelijk lukt het afronden niet helemaal tijdens de eerste les. Tijdens de volgende les ronden we het af, en maken we een begin met het vervolgpracticum: het aansturen van een pcf8574 via I2C.
+- Vermoedelijk lukt het afronden niet helemaal tijdens de eerste les. Tijdens de [volgende les](./programma-i2c-2-3.md) ronden we het af, en maken we een begin met het vervolgpracticum: het aansturen van een pcf8574 via I2C.
 
 ## Canvas
-Upload de resultaten van de workshop op canvas.
+Upload de resultaten van de workshop op Canvas.
