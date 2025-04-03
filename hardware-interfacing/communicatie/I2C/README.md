@@ -14,7 +14,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor I2C door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor I2C door HU IICT[](author-id).
 
 ---
 
@@ -74,7 +74,7 @@ Als voorbeeld nemen we een SSD1306 0.96 inch I2C OLED display en sluiten dit aan
 
 ![SSD1306 0.96 inch I2C OLED](./img/SSD1306_bb.png)
 
-Je dient nu alleen nog het I2C [Hexidecimal](../../../software/getalsysteem/README.md) adres vinden van de OLED en dat kan met dit [I2C_Scanner](./files/I2C_scanner/I2C_scanner.ino) script.
+Je dient nu alleen nog het I2C [Hexidecimal](../../../software/getalsysteem/README.md) adres te vinden van de OLED en dat kan met dit [I2C_Scanner](./files/I2C_scanner/I2C_scanner.ino) script.
 
 ## Arduino voorbeeld code
 
