@@ -29,14 +29,12 @@ library) naar de Arduino
 Zoek in de chip datasheet op wat het I2C adres van de chip is. Let
 op: de PCF8574 en de PCF8574A zijn verschillend. Bedenk je of het genoemde
 adres in de datasheet **met of zonder het r/w bit** is. Bedenk je of Wire een adres met of zonder het r/w bit verwacht. Laat de LEDs in Kitt patroon (heen en weer) oplichten.  
-Debug en/of controleer de I2C signalen met behulp van je logic analyser.
+Debug en/of controleer de I2C signalen met behulp van je Logic Analyzer.
 7. Sluit op P4 een drukknop aan naar de ground.  
-8. Lees via de Arduino de stand van de schakelaar uit een bestuur  
-daarmee een of meer LEDs.
+8. Lees via de Arduino de stand van de schakelaar uit en bestuur daarmee een of meer LEDs.
 
 -   NB: Door middel van de open-collector kunnen de I/O-pinnen (P1 t/m
-    P7) zichzelf  
-    verbinden met de ground. De I/O-pinnen hebben intern zwakke
+    P7) zichzelf verbinden met de ground. De I/O-pinnen hebben intern zwakke
     pull-ups. Zet ze dus in open-collector mode en schrijf er een “1”
     heen om ze als input te configureren.
 
