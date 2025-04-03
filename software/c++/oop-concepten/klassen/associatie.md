@@ -4,14 +4,20 @@
 - [Associatie ](#associatie-)
     - [Inhoud](#inhoud)
     - [Relaties tussen klassen](#relaties-tussen-klassen)
-      - [Associatie](#associatie)
+      - [Aggregatie](#aggregatie)
       - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
     - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
+    - [Compositie](#compositie)
 
 
-### Relaties tussen klassen
-#### Associatie
-In UML komt een reference tussen objecten die ieder een eigen ‘leven’ hebben (het ene object is niet een logisch deel van het andere) doorgaans overeen met een ‘gewone’ associatie. Een associatie wordt weergegeven 
+## Relaties tussen klassen
+
+In UML wordt een algemene associatie (een klasse 'kent' een andere) weergegeven met een lijn.
+
+Interessanter voor nu zijn Aggregatie en Compositie.
+
+### Aggregatie
+In UML komt een reference tussen objecten die ieder een eigen ‘leven’ hebben (het ene object is niet een logisch deel van het andere) doorgaans overeen met een ‘gewone’ associatie. Een aggregatie wordt weergegeven 
 - met een *open wiebertje* aan van de klassen die de reference bevat, 
 - en de naam van de referentie aan de kant van de klasse waar hij aan refereert. 
   
@@ -78,3 +84,7 @@ int main(int argc, char **argv){
 }
 ```
 *Codevoorbeeld 04-10 - Gebruik van een lijn die een expliciete window vereist*
+
+### Compositie
+
+Uitleg over deze vind je [hier](./compositie.md)
