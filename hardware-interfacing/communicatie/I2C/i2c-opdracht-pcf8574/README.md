@@ -1,7 +1,6 @@
 # I2C aansturing van de PCF8574
 
-Deze opdracht is je “Hello World” oefening voor het werken met I2C. Ook voor de volgende semesters zal dat een essentiele ervaring
-zijn.
+Deze opdracht is je “Hello World” oefening voor het werken met I2C. Ook voor de volgende semesters zal dat een essentiele ervaring zijn.
 
 ![Pin out pcf8574](./img/image1.png)
 
