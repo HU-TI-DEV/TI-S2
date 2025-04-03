@@ -114,7 +114,10 @@ Voor een reference moet je op het moment dat de reference wordt aangemaakt aange
 In UML komt een reference tussen objecten die ieder een eigen ‘leven’ hebben (het ene object is niet een logisch deel van het andere) doorgaans overeen met een ‘gewone’ associatie. Een associatie wordt weergegeven met een open wiebertje aan de kant van de klasse die de reference bevat, en de naam van de referentie aan de kant van de klasse waar hij aan refereert. Als we in een lijn opslaan op welk scherm hij afgebeeld moet worden krijgen we dus het volgende UML diagram:
 
 ![UML diagram voor een lijn die (een referentie naar) zijn window opslaat](lijnwindow.png)
+
 *Image - UML diagram voor een lijn die (een referentie naar) zijn window opslaat* 
+
+> (Dit is een voorbeeld van aggregatie.)
 
 Merk op dat (net als bij een compositie) de window niet apart wordt vermeld in de lijst met attributen: de associatie met de naam w geeft aan dat de lijn klasse een attribuut w van het type window heeft.
 
