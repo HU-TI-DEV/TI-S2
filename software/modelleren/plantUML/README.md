@@ -1,4 +1,17 @@
-# plantUML in MacOS
+# plantUML
+
+Er zijn verschillende software tools die je helpen om diagrammen te visualiseren. Je kunt dit doen met drawio of programatisch met plantUML. In het [volgend semester](https://github.com/HU-TI-DEV/TI-S3/tree/main/software/modelleren/plantuml) werken we veel met plantUML om ook ander type diagrammen te maken. Kijk daar ook een aantal introductie filmpjes hoe je plantUML snel kunt gebruiken.
+
+## plantUML op Windows
+
+Installeer plantUML plugin uit de extensions:marketplace. Er zijn Java SDK dependencies maar op mijn systeem werkt het direct. Mocht de rendering niet lukken dan heb je waarschijnlijk niet de juiste directories in je path variabele opgenomen. Bij staat er dit onder System Properties -> Environent Variables -> Edit Environment Variables.
+
+```bash
+C:\Program Files (x86)\Common Files\Oracle\Java\java8path
+C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+```
+
+## plantUML op MacOS
 
 Dit is een korte beschrijving voor de installatie van plantUML op MacOS. Ik gebruik **MacOS Sequoia** op een M4 with Visual Studio Code versie 1.99.
 
