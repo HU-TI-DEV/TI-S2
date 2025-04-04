@@ -4,7 +4,7 @@ Er zijn verschillende software tools die je helpen om diagrammen te visualiseren
 
 ## plantUML op Windows
 
-Installeer plantUML plugin uit de extensions:marketplace. Er zijn Java SDK dependencies maar op mijn systeem werkt het direct. Mocht de rendering niet lukken dan heb je waarschijnlijk niet de juiste directories in je path variabele opgenomen. Bij staat er dit onder System Properties -> Environent Variables -> Edit Environment Variables.
+Installeer plantUML plugin uit de extensions:marketplace. Er zijn Java SDK dependencies maar op mijn systeem werkt het direct. Mocht de rendering niet lukken dan heb je waarschijnlijk niet de juiste directories in je path variabele opgenomen. Bij mij staat er dit onder System Properties -> Environent Variables -> Edit Environment Variables.
 
 ```bash
 C:\Program Files (x86)\Common Files\Oracle\Java\java8path
