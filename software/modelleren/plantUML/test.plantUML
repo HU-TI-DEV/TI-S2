@@ -1,0 +1,14 @@
+@startuml test
+class Luchtvochtigheidssensor {
+    - luchtvochtigheid : int
+    + meet_luchtvochtigheid(luchtvochtigheid : int) : float
+}
+ 
+class Luchtbevochtiger {
+    - hoeveelheid_water : float
+    + geef_water(hoeveelheid_water: float, luchtvochtigheid : int) : void
+ 
+}
+ 
+Luchtvochtigheidssensor "1" -- "1" Luchtbevochtiger : meet en geef water
+@enduml
