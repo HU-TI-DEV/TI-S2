@@ -13,7 +13,7 @@ C:\Program Files (x86)\Common Files\Oracle\Java\javapath
 
 ## plantUML op MacOS
 
-Dit is een korte beschrijving voor de installatie van plantUML op MacOS. Ik gebruik **MacOS Sequoia** op een M4 with Visual Studio Code versie 1.99.
+Dit is een korte beschrijving voor de installatie van plantUML op MacOS. Ik gebruik **MacOS Sequoia** op een M4 met Visual Studio Code versie 1.99.
 
 Installeer plantUML plugin uit de extensions:marketplace. Mijn huidige versie is 2.18.1. De plugin maakt gebruik van de Java SDK. Extra software en configuratie is daarom nog nodig.
 
