@@ -25,7 +25,7 @@ Installeer plantUML plugin uit de extensions:marketplace. Mijn huidige versie is
 
 ![plantUML](./img/plantUML02.png)
 
-Uitpakken geef mij een folder waar de binaries staan. Ik verplaats deze folder `jdk-24.jdk` naar de volgende directory.
+Uitpakken geef mij een folder met de binaries. Ik verplaats deze folder `jdk-24.jdk` naar de volgende directory.
 
 ![plantUML](./img/plantUML03.png)
 
