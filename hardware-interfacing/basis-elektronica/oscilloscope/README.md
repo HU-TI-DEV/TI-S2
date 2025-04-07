@@ -181,23 +181,20 @@ gemaakt.
 
 **Zorg ervoor dat iedere schermafdruk wordt voorzien van een naam, zodat duidelijk is bij welk onderdeel van het practicum de afdruk behoort!**
 
-### Practicum keuze
+### Practicum meten aan hardware
 
-Er zijn twee practicum dagen. Je maakt met je team op elke dag één practicum. Er is steeds keuze twee.
+Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één practicum. Maak een verslag en plaats de uitwerking op de groeps-repository. De volgende practica zijn verplicht:
 
-### Elektrisch meten
-
-- Een meting aan een [voedingsadapter](./02_oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
-
-Of
-
-- Een meting aan een [laagdoorlaat filter](./05_oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.
-
-
-### Meten aan hardware
+- [Signaalgenerator](./01_oscilloscope_signaalgenerator.md)?
 
 - Een meting aan een [infrarood-afstandbediening](./03_oscilloscope_IR.md). Hiervan willen we de frequentie van de pulsen weten om een geschikte ontvanger te kunnen kiezen.
 
-Of
-
 - Een meting aan het signaal van de [seriële poort](./04_oscilloscope_seriele_poort.md). Hiermee maak je het digitale signaal zichtbaar om daarmee de start-, stop- en databit(s) te beoordelen en de bitsnelheid te meten.
+  
+### Optionele practica
+
+De volgende practica kan je doen voor extra verdieping.
+
+- Een meting aan een [voedingsadapter](./02_oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
+
+- Een meting aan een [laagdoorlaat filter](./05_oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.

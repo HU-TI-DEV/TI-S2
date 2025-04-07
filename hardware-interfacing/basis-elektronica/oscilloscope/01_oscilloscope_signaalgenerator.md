@@ -37,13 +37,9 @@ triggeren (= starten met schrijven op het scherm) als het signaal “door
 de nul-lijn omhoog gaat”, of iedere keer als het de hoogste waarde heeft
 bereikt.
 
-Belangrijk bij het triggeren is dat het “schrijven” naar het scherm
-consequent op hetzelfde moment start en dus alle afbeeldingen netjes
-over elkaar worden geschreven.
+Belangrijk bij het triggeren is dat het “schrijven” naar het scherm consequent op hetzelfde moment start en dus alle afbeeldingen netjes over elkaar worden geschreven.
 
-Zoek uit welke vormen van triggeren je kan doen met de scoop en
-beschrijf het verschil tussen de vier verschillende soorten is (zie
-hiervoor de helpfunctie):
+Zoek uit welke vormen van triggeren je kan doen met de scoop en beschrijf het verschil tussen de vier verschillende soorten is (zie hiervoor de helpfunctie):
 
 1:
 
@@ -53,20 +49,13 @@ hiervoor de helpfunctie):
 
 4:
 
-De software van de oscilloscoop kent drie “basis”-metingen. Dat zijn de
-drie modes die je bovenin links met iconen kunt kiezen: de Scope Mode,
-de Persistence Mode en de Spectrum Mode.
+De software van de oscilloscoop kent drie “basis”-metingen. Dat zijn de drie modes die je bovenin links met iconen kunt kiezen: de Scope Mode, de Persistence Mode en de Spectrum Mode.
 
-Normaal gesproken gebruik je de Scope Mode waarmee je een signaal
-bekijkt. Met de Spectrum Mode kun je zien welke frequenties er in het
-meetsignaal aanwezig zijn. Er is echter ook een erg belangrijke en
-handige mode, de Persistence Mode:
+Normaal gesproken gebruik je de Scope Mode waarmee je een signaal bekijkt. Met de Spectrum Mode kun je zien welke frequenties er in het meetsignaal aanwezig zijn. Er is echter ook een erg belangrijke en handige mode, de Persistence Mode:
 
 ![Persistence Mode](./img/persistence_mode.png)
 
-Zoek in de helpfile op wat deze mode doet en bedenk waarvoor een
-Persistence Mode gebruikt zou kunnen worden. Vul dat in het volgende vak
-in:
+Zoek in de helpfile op wat deze mode doet en bedenk waarvoor een Persistence Mode gebruikt zou kunnen worden. Vul dat in het volgende vak in:
 
 ```
 
