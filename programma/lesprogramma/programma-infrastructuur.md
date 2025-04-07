@@ -23,7 +23,7 @@ Gebruik dit script en de LCD opstelling om het IP adres van de Raspberry Pi te a
 
 Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
-Opdracht: Post een bericht (publish) met Mosquitto op een centrale MQQT browser die we tijdelijk configureren voor deze les.
+Opdracht: Post een bericht (publish) met Mosquitto op een centrale MQQT browser die we tijdelijk configureren voor deze les. Ieder team zorgt er **in de les** daarnaast voor dat er data van een sensor uit jullie project op een topic komt te staan. Gebruik de eerder lesstof met betrekking tot [UART](../../hardware-interfacing/communicatie/UART/README.md) om de data naar je Raspberry Pi te versturen. Maak als team een verslag en plaatst dit op jullie groeps-repository.
 
 ## Portfolio-Tip
 
