@@ -9,7 +9,7 @@ In deze les maken we kennis met een oscilloscope (de picoscope).
 
 ## Tijdens de les
 
-Tijdens de les werk je samen met een partner aan de volgende opdracht:
+Tijdens de les werk je samen met een team aan de volgende opdracht(en):
 
 - [Practicum Oscilloscope](../../hardware-interfacing/basis-elektronica/oscilloscope/README.md) 
 

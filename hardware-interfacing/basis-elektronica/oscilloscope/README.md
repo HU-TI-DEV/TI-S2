@@ -185,7 +185,7 @@ gemaakt.
 
 Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één practicum. Maak een verslag en plaats de uitwerking op de groeps-repository. De volgende practica zijn verplicht:
 
-- [Signaalgenerator](./01_oscilloscope_signaalgenerator.md)?
+- Het meten met een oscilloscoop en het maken van verschillende signalen met een [Signaalgenerator](./01_oscilloscope_signaalgenerator.md).
 
 - Een meting aan een [infrarood-afstandbediening](./03_oscilloscope_IR.md). Hiervan willen we de frequentie van de pulsen weten om een geschikte ontvanger te kunnen kiezen.
 
