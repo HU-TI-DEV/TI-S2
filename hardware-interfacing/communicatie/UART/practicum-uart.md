@@ -33,7 +33,7 @@ Laat je Arduino via seriele verbinding (rx,tx pinnen) communiceren met je Raspbe
 
 De Arduino heeft 5V logica de Raspberry Pi 3V. Het is verstandig om een voltage divider te maken om zo de elektronica niet te beschadigen. Het aansluit schema zou er dan zo uit moeten zien. De 5V is de tx pin van de Arduino en de 3,3V is verbonden met de rx pin van de Raspberry Pi.
 
-![voltage devider](./img/Diagram_of_voltage_divider_netwrok.svg)
+![voltage devider](./img/Diagram_of_voltage_divider_netwrok.png)
 
 ### Vraag A
 
