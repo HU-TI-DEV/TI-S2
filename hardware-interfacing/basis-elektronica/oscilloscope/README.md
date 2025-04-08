@@ -173,18 +173,18 @@ gemaakt.
 
 Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één practicum. Maak een verslag en plaats de uitwerking op de groeps-repository. De volgende practica zijn verplicht:
 
-- Het meten met een oscilloscoop en het maken van verschillende signalen met een [Signaalgenerator](./01_oscilloscope_signaalgenerator.md).
+- Het meten met een oscilloscoop en het maken van verschillende signalen met een [Signaalgenerator](./oscilloscope_signaalgenerator.md).
 
-- Een meting aan een [infrarood-afstandbediening](./03_oscilloscope_IR.md). Hiervan willen we de frequentie van de pulsen weten om een geschikte ontvanger te kunnen kiezen.
+- Een meting aan een [infrarood-afstandbediening](./oscilloscope_IR.md). Hiervan willen we de frequentie van de pulsen weten om een geschikte ontvanger te kunnen kiezen.
 
-- Een meting aan het signaal van de [seriële poort](./04_oscilloscope_seriele_poort.md). Hiermee maak je het digitale signaal zichtbaar om daarmee de start-, stop- en databit(s) te beoordelen en de bitsnelheid te meten.
+- Een meting aan het signaal van de [seriële poort](./oscilloscope_seriele_poort.md). Hiermee maak je het digitale signaal zichtbaar om daarmee de start-, stop- en databit(s) te beoordelen en de bitsnelheid te meten.
 
 Of
 
-- Een meting aan een [laagdoorlaat filter](./05_oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.
+- Een meting aan een [laagdoorlaat filter](./oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.
   
 ### Extra verdieping
 
 Het volgende practicum kan je doen voor extra verdieping.
 
-- Een meting aan een [voedingsadapter](./02_oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
+- Een meting aan een [voedingsadapter](./oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
