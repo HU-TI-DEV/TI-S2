@@ -33,7 +33,7 @@ Je verbind twee PCs met deze adapters:
 
 > De pinnen `3V3` en `+5V` gebruiken we niet in deze opdracht!
 
-- Op de PCs gebruiken we een 'Seriel Terminal'' programma (bv. `Putty`) om data tussen de twee PCs te zenden en te ontvangen.
+- Op de PCs gebruiken we een 'Seriel Terminal' programma (bijvoorbeeld `Putty`) om data tussen de twee PCs te zenden en te ontvangen.
 - Met de Logic Analyzer 'luister' je op RXD en TXD (vergeet GND niet aan te sluiten) naar de communicatie tussen de twee PCs.
 - Documenteer dit met omschrijving en schermafbeeldingen.
 
@@ -60,7 +60,6 @@ Optioneel:
 
 ## Portfolio-Tip
 
-Tijdens het project zul je vermoedelijk de meetgegevens van de microcontroller via uart communiceren naar een PC of Raspberry Pi.
-De resulterende code, de bijbehorende toelichting en feedback daarop kan gebruikt worden als portfolio-item.
+Tijdens het project ga je de meetgegevens van de microcontroller via uart communiceren naar een PC of Raspberry Pi. De resulterende code, de bijbehorende toelichting en feedback daarop kan gebruikt worden als portfolio-item.
 
-Je kan een UART-adapter gebruiken voor testing en om fouten te vinden, een microcontroller kan daarmee data aan een PC zenden of zelfs commando's ontvangen.
+Je kan een UART-adapter gebruiken om te testen en om fouten te vinden, een microcontroller kan daarmee data aan een PC zenden of zelfs commando's ontvangen.

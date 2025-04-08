@@ -27,6 +27,4 @@ Voer het zelf uit - tegelijkertijd met je practicum partner of team.
 
 ## Portfolio-Tip
 
-Tijdens het project wil je vermoedelijk de meetgegevens van de microcontroller (Arduino Uno) via UART communiceren naar een PC of Raspberry Pi.
-
-De resulterende *code*, de bijbehorende *toelichting* en *feedback daarop* kan gebruikt worden als portfolio-item.
+Tijdens het project ga je de meetgegevens van de microcontroller (Arduino Uno) via UART communiceren naar een PC of Raspberry Pi. De resulterende *code*, de bijbehorende *toelichting* en *feedback daarop* kan gebruikt worden als portfolio-item.

@@ -15,7 +15,7 @@
 
 Laat je Arduino via UART (rx,tx) communiceren met de Arduino van je buurman.
 
-<img src="./img/opdracht1.png" width="350px" />
+![schema opdracht 1](./img/opdracht1.png) 
 
 ### Vraag A
 
@@ -27,9 +27,13 @@ Voeg een screenshot van de logic analyser toe met daarop een gecommuniceerde byt
 
 ## Opdracht 2
 
-Laat je Arduino via seriele verbinding (rx,tx pinnen) communiceren met je Raspberry Pi.
+Laat je Arduino via seriele verbinding (rx,tx pinnen) communiceren met je Raspberry Pi. 
 
-<img src="./img/opdracht2.png" width="450px" />
+![schema opdracht 2](./img/opdracht2.png) 
+
+De Arduino heeft 5V logica de Raspberry Pi 3V. Het is verstandig om een voltage divider te maken om zo de elektronica niet te beschadigen. Het aansluit schema zou er dan zo uit moeten zien. De 5V is de tx pin van de Arduino en de 3,3V is verbonden met de rx pin van de Raspberry Pi.
+
+![voltage devider](./img/Diagram_of_voltage_divider_netwrok.svg)
 
 ### Vraag A
 
