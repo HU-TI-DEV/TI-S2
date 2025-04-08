@@ -1,4 +1,4 @@
-@startuml test
+@startuml
 class Luchtvochtigheidssensor {
     - luchtvochtigheid : int
     + meet_luchtvochtigheid(luchtvochtigheid : int) : float

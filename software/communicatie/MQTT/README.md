@@ -34,7 +34,7 @@ MQTT is a lightweight, publish-subscribe, machine to machine network protocol. T
 
 ### Publish/Subscribe
 
-In contrast to many API services you know the client-server architecture is not a request/response model. It ahers a publish/subscribe model resulting in loose coupeling.
+In contrast to many API services you know the client-server architecture is not a request/response model. It adhers a publish/subscribe model resulting in loose coupeling.
 
 ![Broker](../MQTT/img/broker.png)
 
