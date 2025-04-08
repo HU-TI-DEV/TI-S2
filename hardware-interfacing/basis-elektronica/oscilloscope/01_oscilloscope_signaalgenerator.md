@@ -6,16 +6,7 @@ je zelf genereert wordt dus het meetsignaal.
 
 Sluit een probe aan op **channel A** op de PicoScope (draai de connector een kwart slag om vast te zetten). Controleer dat de schakelaar op de probe op de stand "1x" staat. Sluit een tweede kabel aan op de **Signaal OUT**.
 
-Als je met je vingers de rode draad van de ingang A vastpakt moet het
-signaal op je scherm groter worden. Je lichaam is een antenne voor
-signalen en die worden zichtbaar gemaakt. Het sterkste “lichaamssignaal”
-is een signaal van 50 Hertz. Dat is het (brom)signaal dat je draadloos
-ontvangt van de draden van het elektriciteitsnet die overal om ons heen
-aanwezig zijn.
-
-Prik op het experimenteerbordje de twee zwarte draden (de massa of “min”
-aansluiting) zo dat ze met elkaar verbinding maken. Sluit ook de beide
-rode draden via het experimenteerbordje aan op elkaar.
+Verbind de probe van het signaal met je meet probe en vergeet ook niet de aarde te verbinden.
 
 Wanneer je dit goed hebt gedaan kan je een signaal gaan meten. Stel de
 PicoScope in op een **sinusvorm van 40kHz in met een amplitude van 2V**
@@ -39,15 +30,10 @@ bereikt.
 
 Belangrijk bij het triggeren is dat het “schrijven” naar het scherm consequent op hetzelfde moment start en dus alle afbeeldingen netjes over elkaar worden geschreven.
 
-Zoek uit welke vormen van triggeren je kan doen met de scoop en beschrijf het verschil tussen de vier verschillende soorten is (zie hiervoor de helpfunctie):
+Wat is het verschil tussen falling and rising edge? en wat pas je aan als je de treshold aanpast?
 
-1:
-
-2:
-
-3:
-
-4:
+```
+```
 
 De software van de oscilloscoop kent drie “basis”-metingen. Dat zijn de drie modes die je bovenin links met iconen kunt kiezen: de Scope Mode, de Persistence Mode en de Spectrum Mode.
 
@@ -56,31 +42,6 @@ Normaal gesproken gebruik je de Scope Mode waarmee je een signaal bekijkt. Met d
 ![Persistence Mode](./img/persistence_mode.png)
 
 Zoek in de helpfile op wat deze mode doet en bedenk waarvoor een Persistence Mode gebruikt zou kunnen worden. Vul dat in het volgende vak in:
-
-```
-
-```
-
-## Verkennen van de software
-
-Nu je de basismetingen onder de knie hebt, is het tijd om wat verder de
-software in te duiken. De resterende tijd van het practicum ga je aan de
-slag met de helpfuntie van de software. Daar wordt gedegen uitgelegd hoe
-deze werkt.
-
-### Opdracht
-
-Ga naar menukeuze “Help” en je komt op de volgende pagina: PicoScope Knowledge Base
-
-Interessant voor onderzoek op een databus is de “**serial decoding**”.
-
-Voor welke **veldbus** is het protocol al aanwezig?
-
-```
-
-```
-
-Nu je een idee hebt hoe de scope werkt zou je een aantal toepassingen kunnen bedenken voor het gebruik van de scoop. Bedenk een 3 aantal toepassingen die je de komende jaren in je studie zou kunnen gebruiken:
 
 ```
 

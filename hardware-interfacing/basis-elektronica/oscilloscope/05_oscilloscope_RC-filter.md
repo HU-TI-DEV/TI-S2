@@ -64,4 +64,29 @@ naar de rode sinus. Bij welke frequentie is het signaal op de uitgang
 van het filter (kanaal B) nog de helft van het oorspronkelijke signaal?
 Maak een schermafdruk van de meting.
 
+### Berekenen van de kantelfrequentie
+
+Bereken de tijdsconstante van het filter door:
+
+$\tau=R.C$
+
+```
+
+```
+
+Bereken de kantelfrequentie met:
+$F_c=\frac{1}{(2\pi*\tau)}$
+
+```
+
+```
+
+Klopt dit met je meting?
+
+```
+
+```
+
+Controleer je antworoden op deze site [https://www.omnicalculator.com/physics/rc-circuit](https://www.omnicalculator.com/physics/rc-circuit)
+
 **Plaats het ingevulde meetrapport met de gemaakte schermafdrukken in de GitHub-repository van je team.**

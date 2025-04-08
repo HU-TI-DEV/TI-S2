@@ -38,17 +38,11 @@ meetkabels bij.
 
 ### Doel van een oscilloscoop
 
-De oscilloscoop is een universeel inzetbaar meetinstrument voor het
-zichtbaar maken van elektrische signalen als functie van de tijd.
-Hiermee kan snel een kwalitatieve en kwantitatieve indruk worden
-verkregen van een elektrisch signaal. Uit het beeld is direct de
-**periodetijd (frequentie) en de amplitude** af te lezen. Ook de
-aanwezigheid van een gelijkspanningscomponent (samengesteld signaal) kan snel worden vastgesteld.
+De oscilloscoop is een universeel inzetbaar meetinstrument voor het zichtbaar maken van elektrische signalen als functie van de tijd. Hiermee kan snel een kwalitatieve en kwantitatieve indruk worden verkregen van een elektrisch signaal. Uit het beeld is direct de **periodetijd (frequentie) en de amplitude** af te lezen. Ook de aanwezigheid van een gelijkspanningscomponent (samengesteld signaal) kan snel worden vastgesteld.
 
-Het voordeel van de oscilloscoop ten opzichte van de volt- en
-ampèremeter is dat deze vrijwel zonder vertraging werkt en de
-spanningsvorm zichtbaar wordt. Het nadeel is dat de nauwkeurigheid van een oscilloscoop beperkter is dan bijvoorbeeld een eenvoudige
-multimetermeter (een voltmeter, stroommeter en weerstandsmeter).
+![periodetijd, aplitude en gelijksspanningscomponent](./img/Amplitude.png)
+
+Het voordeel van de oscilloscoop ten opzichte van de volt- en ampèremeter is dat deze vrijwel zonder vertraging werkt en de spanningsvorm zichtbaar wordt. Het nadeel is dat de nauwkeurigheid van een oscilloscoop beperkter is dan bijvoorbeeld een eenvoudige multimetermeter (een voltmeter, stroommeter en weerstandsmeter).
 
 ### De oscilloscoop in dit practicum
 
@@ -153,12 +147,6 @@ Onderzoek de instellingen. Welke **type** golfvormen kan je genereren vanuit de 
 
 ```
 
-In de keuze voor het type signaal is er ook het type “arbitrary” zoek uit wat je hiermee kan doen.
-
-```
-
-```
-
 ## Bekijken van een signaal
 
 Voor het bekijken van een signaal wordt over het algemeen een probe gebruikt. Een probe is een speciale meetpen en heeft een hoge ingangsimpedantie (ingangsweerstand). Daarmee wordt het signaal minimaal belast en vervormd.
@@ -190,11 +178,13 @@ Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één pr
 - Een meting aan een [infrarood-afstandbediening](./03_oscilloscope_IR.md). Hiervan willen we de frequentie van de pulsen weten om een geschikte ontvanger te kunnen kiezen.
 
 - Een meting aan het signaal van de [seriële poort](./04_oscilloscope_seriele_poort.md). Hiermee maak je het digitale signaal zichtbaar om daarmee de start-, stop- en databit(s) te beoordelen en de bitsnelheid te meten.
-  
-### Optionele practica
 
-De volgende practica kan je doen voor extra verdieping.
-
-- Een meting aan een [voedingsadapter](./02_oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
+Of
 
 - Een meting aan een [laagdoorlaat filter](./05_oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.
+  
+### Extra verdieping
+
+Het volgende practicum kan je doen voor extra verdieping.
+
+- Een meting aan een [voedingsadapter](./02_oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
