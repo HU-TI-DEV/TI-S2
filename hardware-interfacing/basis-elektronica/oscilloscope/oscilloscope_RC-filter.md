@@ -55,7 +55,7 @@ Stel de frequentie van de toongenerator in op een **Sinus**, frequentie
 **100 Hertz**, amplitude van **1V**.
 
 Stel de oscilloscoop (voor beide kanalen **A en B**) in op **DC**,
-resolutie voor beide kanalen op 8 bit, gevoeligheid op **+/- 1 V**,
+ gevoeligheid op **+/- 1 V**,
 tijdbasis op **1 ms/div** en de triggering op **Auto**.
 
 Als het goed is kun je nu de blauwe lijn van kanaal A en de rode lijn
