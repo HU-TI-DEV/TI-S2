@@ -13,9 +13,13 @@ Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/R
 
     Maak eventueel gebruik van Eduroam als iotroam problemen geeft.
 
-## Eduroam
+## Iotroam
 
 Onze voorkeur heeft dat je gebruik maakt van iotroam. Dit wifi netwerk is speciaal geschikt gemaakt voor dit soort type devices en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam.
+
+Tip! Vanaf Windows 11 is het mogelijk om gebruik te maken van Random Hardware Addresses. Dan werkt uiteraard de MAC filtering op het wifi netwerk niet. Zie onderstaand hoe je deze functionaliteit uit kunt zetten.
+
+![Random Hardware Addresses](./images/random_hardware_adresses.png)
 
 Gebruik dit script en de LCD opstelling om het IP adres van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
 
