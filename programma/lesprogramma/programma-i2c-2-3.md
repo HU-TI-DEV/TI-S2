@@ -5,7 +5,7 @@ Deze les is een les uit een serie van 3 lessen.
 - Na afronding van die workshop werk je oefen je dat zelf op een andere chip (de pcf8574).
 
 ## Voorbereiding
-- Neem je electronica spullen (**logic analyser**, breadboard, weerstanden etc) mee.
+- Neem je electronica spullen (**logic analyzer**, breadboard, weerstanden etc) mee.
 
 ## Tijdens de les
 

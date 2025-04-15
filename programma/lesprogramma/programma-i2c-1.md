@@ -5,7 +5,7 @@ Deze les is een les uit een serie van 3 lessen, met daarbinnen aansluitend een w
 - In het practicum oefen je dat zelf op een andere chip (de pcf8574).
 
 ## Voorbereiding
-- Neem je electronica spullen (**logic analyser**, breadboard, weerstanden etc) mee.
+- Neem je electronica spullen (**logic analyzer**, breadboard, weerstanden etc) mee.
 - Bestudeer [deze webpagina over het gebruik van Wire (een I2C-library)](https://www.circuitbasics.com/how-to-set-up-i2c-communication-for-arduino/).
 
 ## Tijdens de les
