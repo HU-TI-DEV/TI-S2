@@ -101,10 +101,13 @@ Als je van een van deze dingen niet weet wat het is, Google er dan even op.
 
     **Beschrijf wat er in dat geval zal gebeuren als je P1 van helemaal links naar helemaal rechts draait.  
       Leg uit waarom!**  
-      
+   
     Als dit nog wat lastig voor je is om te doorgronden, discussieer
     er dan over met andere studenten of stel het beantwoorden van deze
     vraag uit tot na de metingen met de oscilloscope/picoscope.
+
+```
+```
 
 3.  Werkings-modus 2:  
     Potentiometer P1 is zodanig ingesteld dat zijn slider (onderste
@@ -118,8 +121,14 @@ Als je van een van deze dingen niet weet wat het is, Google er dan even op.
     dan over met andere studenten of stel het beantwoorden van deze
     vraag uit tot na de metingen met de oscilloscope/picoscope.
 
+```
+```
+
 4.  **Welke frequentie schat je dat het uitgangssignaal zal hebben?  
       Geef een gefundeerde schatting!**
+
+```
+```
 
 5.  Bouw de schakeling op je breadboard.
    
@@ -128,6 +137,9 @@ Als je van een van deze dingen niet weet wat het is, Google er dan even op.
     1 staat, en P1 in het midden staat ingesteld.**  
       
     **Welke frequentie heeft het uitgangssignaal?**
+    
+```
+```
 
 6.  **Demonstreer aan de docent de goede werking van de schakeling.**
 
