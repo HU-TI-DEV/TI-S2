@@ -6,18 +6,16 @@
 
 # Servo Aansturing
 
-Servos zijn motoren waarvan je de as op een bepaalde vaste hoek kunt instellen.
-Een servo heeft 3 pinnen: een ground pin, een voedingspin, en een stuuringangs-pin.
-De servo wordt aangestuurd door op zijn stuuringangs-pin een PWM (pulse width modulated) signaal van een vaste
-frequentie zet zetten.
+Servos zijn motoren waarvan je de as op een bepaalde vaste hoek kunt instellen. Een servo heeft 3 pinnen: een ground pin, een voedingspin, en een stuuringangs-pin. De servo wordt aangestuurd door op zijn stuuringangs-pin een PWM (pulse width modulated) signaal van een vaste frequentie zet zetten.
+
 De breedte van de puls wordt gebruikt om de hoek van de servo in te stellen:
 
-<img src="./media/media/image4.png" width="700px" />
+![Pulse width servo](./images/pulse_width.png)
 
 Het circuit in dit practicum is multi-functioneel: het kan als
 servo-controller gebruikt worden, maar ook als “gewone” multi-purpose
 pwm controller met een groot instelbaar pulsbreedte modulatie bereik.
-Eenhandig circuitje om in de kast te hebben liggen.
+Een handig circuitje om in de kast te hebben liggen.
 
 ## Voorbereiding
 
@@ -40,17 +38,17 @@ Voor deze practica heb je (als team) nodig:
 -   Wat breadboard wires
 -   Een striptang
 -   Een spanningsbron van rond de 5V.  
-    Mogelijkheden: een adapter van 5V, een USB-adapter, een Arduino-Nano, een 4,5V batterij.
+    Mogelijkheden: een adapter van 5V, een USB-adapter, een Arduino Uno.
 -   Nog wat meer electronica-onderdelen – zie de “Benodigd” kopjes onder elke opdracht.
 
-Als je van een van deze dingen niet weet wat het is, google er dan even op.
+Als je van een van deze dingen niet weet wat het is, Google er dan even op.
 
 # Wat wordt er van je verwacht?
 
 -   Voor de opdrachten uit samen met een andere student.
--   Het is niet erg als je in overleg met andere teams een antwoord uitvogelt.\
+-   Het is niet erg als je in overleg met andere teams een antwoord uitvogelt.
     Zorg er wel voor dat je het 100% begrijpt, anders schiet je jezelf in je voet.
--   Maak een copie van dit document, en voeg daarin je antwoorden toe.\
+-   Maak een kopie van dit document, en voeg daarin je antwoorden toe.
     Als je iets moet invullen, wordt dat aangekondigd met **vetgedrukte** letters.
 -   Vermeld bij het inleveren helemaal bovenaan zowel je eigen naam als
     die van je teamgenoot.
@@ -66,12 +64,12 @@ Als je van een van deze dingen niet weet wat het is, google er dan even op.
     -   Twee diodes 1N4007 (of een andere type van Si-diode)
     -   Een capaciteit van 47nF
     -   Een capaciteit van 470uF
-    -   Een 5V voeding. Bijvoorbeeld een arduino.
+    -   Een 5V voeding. Bijvoorbeeld een Arduino.
     -   Een 470 Ohm weerstand
     -   Een 50 KOhm potmeter
     -   Een 500 KOhm potmeter
 
-<img src="./media/media/image1.png" width="800px" />
+![NE555 schema](./images/NE555_schema.png)
 
 ## Opdracht
 
@@ -79,8 +77,7 @@ Als je van een van deze dingen niet weet wat het is, google er dan even op.
 
 2.  In zijn datasheet vind je het bijbehorende “Simplified Schematic”:
 
-<img src="./media/media/image2.png"
-width="800px" />
+![Simplified Schematic NE555](./images/Simplified_Schematic_NE555.png)
 
 > De driehoekjes aan de linkerkant zijn comparators Comp1 en Comp2. Hun
 > ingangen met circeltje zijn hun negatieve ingangen. Het driehoekje aan
@@ -133,3 +130,7 @@ width="800px" />
     **Welke frequentie heeft het uitgangssignaal?**
 
 6.  **Demonstreer aan de docent de goede werking van de schakeling.**
+
+## Referenties
+
+- [NE555 Datasheet](./files/ne555.pdf)
