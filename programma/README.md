@@ -183,8 +183,8 @@ Week D2. Deze week bespreken we niet-functionele requirements een manier om kwal
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
 | di  | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP & HS**) |
-| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**) |
+| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**)  |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP & HS**) |
 
 ### Onderwijsweek D3 (28-04-2025)
 
