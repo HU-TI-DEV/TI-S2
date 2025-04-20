@@ -182,7 +182,7 @@ Week D2. Deze week bespreken we niet-functionele requirements een manier om kwal
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
-| di  | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
+| di  | Werken aan project | **Let Op! college in een ander gebouw** vanaf 9.30 uur tot 11.00 uur Heidelberglaan 7 collegezaal HL7-2.058 voor klas A en B samen [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 | wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**)  |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP & HS**) |
 
