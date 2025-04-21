@@ -129,3 +129,4 @@ Dit is hoe het dan uitziet:
 ## SFML voorbeelden
 
 - Gebruik de [code uit de tutorial](https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.
+- [SFML auto test en classes oefening](../inrichten-ontwikkelomgeving/sfml_auto_test/README.md)
