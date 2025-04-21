@@ -44,6 +44,7 @@ In semester 2 van Technische Informatica staat het klimaatmonitor project centra
 ### Organisatie
 
 De contacturen zijn (subject to change):
+
 |dag|van|tot| lokaal |
 |---|---|---| --- |
 |ma|13:00|17:00| HL15-1.096 & HL15-5.034 |
@@ -53,12 +54,12 @@ De contacturen zijn (subject to change):
 
 ### De docenten
 
-* (**TM**) Teun Pieter Moddermann
-* (**HS**) Harm Snippe
-* (**GP**) Gera Pronk
-* (**HP**) Hagen Patzke
-* (**MV**) Marius Versteegen
-* (**BB**) Bart Bozon
+- (**TM**) Teun Pieter Moddermann
+- (**HS**) Harm Snippe
+- (**GP**) Gera Pronk
+- (**HP**) Hagen Patzke
+- (**MV**) Marius Versteegen
+- (**BB**) Bart Bozon
 
 ## Programma
 
@@ -85,7 +86,6 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 | wo  | [Uitleg retrospective en sprint review](../vermogens/Scrum/README.md) | [Rekenkundige expressies](../software/c++/expressies/README.md) , C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**MV & HP**)     |
 | do  | :end: Einde sprint 0 | [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**BB&MV**)     |
 
-
 ### Onderwijsweek C4 (24-02-2025)
 
 | Dag | |
@@ -98,7 +98,7 @@ Week A2. We leren werken met vectoren in C++. We gebruiken een digitale pin om t
 
 ### Onderwijsweek C5 (3-03-2025)
 
-Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver. We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller. 
+Week C5. Sluit een bme280 sensor aan om temperatuur en relatieve luchtvochtigheid uit te lezen en leer het gebruik van een driver. We leren het gebruik van een (output) [schuifregister](../hardware-interfacing/elektronische-componenten/ic/74HC595/README.md). Bi-directionele communicatie met [SPI](../hardware-interfacing/communicatie/SPI/README.md) is een veel gebruikte bus in seriele communicatie. Zo kan je gegevens uitwisselen tussen sensoren en je microcontroller.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -161,7 +161,7 @@ Week C10. We communiceren sensor-data met [MQTT (*Message Queuing Telemetry Tran
 | --- | --- | --- |
 | ma  | Werken aan project | C++ Classes herhaling (**MV**) van 9.30 uur tot 12.00 uur HL15-3.060 [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**MV & BB**) Darlington, ULN2003 |
 | di  | Werken aan project | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS & HP**)     |
-| wo  | Werken aan project | [UART deel 2, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-2.md)  (**HP & HS**)
+| wo  | Werken aan project | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**) |
 | do  | Werken aan project | [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HS & BB**) |
 
 ### Onderwijsweek D1 (14-04-2025)
@@ -177,14 +177,14 @@ Week D1. We leren het gebruik van een oscilloscoop, een meetinstrument dat cycli
 
 ### Onderwijsweek D2 (21-04-2025)
 
-Week D2. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren. Bij deze manier van programmeren wordt een systeem opgebouwd uit objecten. 
+Week D2. Deze week bespreken we niet-functionele requirements een manier om kwaliteitseisen en kenmerken van het systeem vast te leggen. We beginnen ook met een introductie objectgeoriënteerd programmeren. Bij deze manier van programmeren wordt een systeem opgebouwd uit objecten.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | 2de Paasdag |  |
-| di  | Werken aan project | **Let Op! college in een ander gebouw** vanaf 9.30 uur tot 11.00 uur Heidelberglaan 7 collegezaal HL7-2.058 voor klas A en B samen [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
-| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS & HP**)  |
-| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP & HS**) |
+| di  | Werken aan project |  [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
+| wo  | [show & tell](../vermogens/Scrum/files/Sprint-verslag.md)  | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](https://www.sfml-dev.org/index.php) en [sf::Shape](https://www.sfml-dev.org/documentation/2.6.1/classsf_1_1Shape.php) (**GP & HP**) |
+| do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 3 & :runner: Planning sprint 4 | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 
 ### Onderwijsweek D3 (28-04-2025)
 
@@ -200,7 +200,7 @@ Week D3.
 
 ### Onderwijsweek D4 (5-05-2025)
 
-Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. We gaan ook verder met het onderdeel servo controller. Er staan ook weer lessen OO op het programma. 
+Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschillende praktica werken we met een I2C sensormodule. We gaan ook verder met het onderdeel servo controller. Er staan ook weer lessen OO op het programma.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -220,14 +220,13 @@ Week D5. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44719), mogelijkheid voor feedback (**HP & HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 4 & :runner: Planning sprint 5 | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
 
-
 ### Onderwijsweek D6 (19-05-2025)
 
 Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het 3e Peilmoment. Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) | 
+| ma  | Werken aan project | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
 | di  | SDG workshop | [SDG's (.md)](../SDG.md) en [SDGs slides](../slides/SDG-les_HBO_voor_TI.pptx) (**HS & GP**)  |
 | wo  | Werken aan project | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**) werken aan verantwoordingsdocument (**HS**)  |
 | do  | **3e Peilmoment** |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
@@ -242,8 +241,6 @@ Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tus
 | di  | Werken aan project | PCB design (gastcollege **Joost Kouijzer**) t.b.a. |
 | wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP & HS**)     |
 | do  | Hemelvaartsdag |  |
-
-
 
 ### Onderwijsweek D8 (2-06-2025)
 
@@ -273,7 +270,7 @@ Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je m
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
-| ma  | Werken aan project | [C++ feedback]() (**HP & GP & HS**) |
+| ma  | Werken aan project | C++ feedback (**HP & GP**) |
 | di  | Werken aan project |  |
 | wo  | Werken aan project | Demo dag? |
 | do  | **4e Peilmoment**  | Werken aan Verantwoordingsdocument. Lever het bijgewerkte Verantwoordingsdocument in als PDF op [Canvas](https://canvas.hu.nl/courses/44719/assignments/341934) bij de opdracht Eindbeslissing |
@@ -282,29 +279,29 @@ Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je m
 
 Week D11. De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-| Dag | Thema     | 
-| --- | --- | 
+| Dag | Thema     |
+| --- | --- |
 | ma  | **Eindbeoordeling** |  
-| di  | **Eindbeoordeling** |    
-| wo  | **Eindbeoordeling** |    
-| do  | **Eindbeoordeling** |   
+| di  | **Eindbeoordeling** |
+| wo  | **Eindbeoordeling** |
+| do  | **Eindbeoordeling** |
 
 ### Onderwijsweek D12 (30-06-2025)
 
 Week D12 en D13 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
-| Dag | Thema     | 
-| --- | --- | 
-| ma  | **Verbeterperiode** | 
+| Dag | Thema     |
+| --- | --- |
+| ma  | **Verbeterperiode** |
 | di  | **Verbeterperiode** |  
 | wo  | **Verbeterperiode** |  
-| do  | **Verbeterperiode** | 
+| do  | **Verbeterperiode** |
 
 ### Onderwijsweek D13 (7-7-2025)
 
-| Dag | Thema     
+| Dag | Thema     |
 | --- | --- |
 | ma  | **Verbeterperiode** |  
 | di  | **Verbeterperiode** |  
-| wo  | **Verbeterperiode** |   
+| wo  | **Verbeterperiode** |
 | do  | **Verbeterperiode** |  
