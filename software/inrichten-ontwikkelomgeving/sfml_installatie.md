@@ -118,8 +118,7 @@ Dit is hoe het dan uitziet:
 }
 ```
 
-*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)*  
-*Bron: Lia Engelchor en Tobias Bosch*
+*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window). De *.cpp wildcard lijkt niet altijd te werken voeg in dat geval de bestandsnamen toe bijvoorbeeld main.cpp*
 
 ![Uitleg van Tobias](./img/uitleg_toob01.png)
 > *Toelichting door Tobias:*
