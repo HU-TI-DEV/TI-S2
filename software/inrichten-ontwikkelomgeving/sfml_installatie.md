@@ -1,26 +1,30 @@
-# SFML installatie[](title-id)
+# SFML installatie[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [SFML installatie](#sfml-installatie)
-    - [Inhoud](#inhoud)
-  - [Installatie SFML](#installatie-sfml)
-  - [Test SFML Installatie](#test-sfml-installatie)
-  - [Voorbeeld tasks.json](#voorbeeld-tasksjson)
-  - [SFML voorbeelden](#sfml-voorbeelden)
+- [Vooraf](#vooraf)
+- [Installatie SFML](#installatie-sfml)
+- [Test SFML Installatie](#test-sfml-installatie)
+- [Voorbeeld tasks.json](#voorbeeld-tasksjson)
+- [SFML voorbeelden](#sfml-voorbeelden)
+
+## Vooraf
+
+We gaan er van uit dat je een geinstalleerde MinGW-w64 toolchain hebt. Installeer onder de MSYS2 UCRT64 terminal!
+[VScode + MinGW en GCC](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## Installatie SFML
 
 Installeer SFML met de packetmanager (dankzij Lia E.):
 
-- Open een **MSYS2 MSYS terminal** (dus niet een CMD terminal!)
+- Open een **MSYS2 MSYS UCRT64 terminal** (dus niet een CMD terminal!)
 - Voer het volgende commando uit (wacht tot het klaar is!):
 
 ```bash
 pacman -Syu
 ```
-
-- Voer daarna het volgende commando uit:
+- De MSYS2 MSYS UCRT64 moet na afloop sluiten. Start dan de juiste terminal weer op en vervolg je stappen.
+- Voer het volgende commando uit:
 
 ```bash
 pacman -S mingw-w64-ucrt-x86_64-sfml
@@ -33,11 +37,10 @@ Zie voorbeeld onder.
 Zelf installeren:
 
 - Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de juiste gcc mingw versie.
-- Check evt. de installatie: [VScode + MinGW en GCC](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## Test SFML Installatie
 
-Deze voorbeeldcode toont een venster met een cirkel en een kwadraat.
+Deze voorbeeldcode toont een venster met een cirkel en een vierkant.
 
 ```c++
 /// @file main.c -- SFML install test
@@ -115,8 +118,7 @@ Dit is hoe het dan uitziet:
 }
 ```
 
-*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window)*  
-*Bron: Lia Engelchor en Tobias Bosch*
+*Voorbeeld tasks.json file voor VScode, bij gebruik van SFML. Let op de -l flags (-lsfml-system en -lsfml-window). De \*.cpp wildcard lijkt niet altijd te werken voeg in dat geval de bestandsnamen toe bijvoorbeeld main.cpp*
 
 ![Uitleg van Tobias](./img/uitleg_toob01.png)
 > *Toelichting door Tobias:*

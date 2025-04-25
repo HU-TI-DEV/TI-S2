@@ -16,4 +16,4 @@ SFML is een 'Simple and Fast Multimedia Library'.
 
 ## Portfolio-Tip
 
-- Maak een spel of een eigen applicatie met FSML
+- Maak een spel of een eigen applicatie met SFML
