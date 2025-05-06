@@ -1,6 +1,6 @@
-#include <ostream>
 #ifndef RATIONAL_HPP
 #define RATIONAL_HPP
+#include <ostream>
 
 /// @file
 
