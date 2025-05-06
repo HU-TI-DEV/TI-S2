@@ -199,7 +199,7 @@ sell( a ); // OK: animal required, animal provided
 fly( a ); // ERROR: duck required, animal provided
 ```
 *Codevoorbeeld 12-05 - een subklasse object is acceptabel als een superklasse object wordt gevraagd*
-![uml_animal_duck](image.png)
+![uml_animal_duck](uml_animal_duck.png)
 
 #### Pointers en references
 De regel dat een subklasse object overal gebruikt kan worden waar een superklasse vereist is geldt ook voor pointers en references. **Een superklasse pointer of superklasse reference kan ook naar een subklasse object wijzen**, maar andersom kan niet.
