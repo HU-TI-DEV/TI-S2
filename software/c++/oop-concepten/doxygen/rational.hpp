@@ -110,4 +110,4 @@ public:
    
 };
 
-#endif
+#endif // RATIONAL_HPP
