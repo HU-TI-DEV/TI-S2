@@ -216,7 +216,7 @@ Week D5. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | Werken aan project | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**BB & MV**) support klassendiagrammen |
-| di  | Werken aan project | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP & HP & HS**) |
+| di  | Werken aan project | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP & HP**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Inleveren Plan van Aanpak](https://canvas.hu.nl/courses/44719), mogelijkheid voor feedback (**HP & HS**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 4 & :runner: Planning sprint 5 | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
 
