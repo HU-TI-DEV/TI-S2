@@ -205,7 +205,7 @@ Week D4. We beginnen deze week met een workshop Datasheet lezen en in verschille
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Bevrijdingsdag |  |
-| di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), Unit tests, C++ (**GP** & **HP** & **HS**) |
+| di  | Werken aan project | [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), [Unit tests](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/oop-concepten/unit-tests/README.md), C++ (**GP** & **HP** & **HS**) |
 | wo  | Werken aan project  | [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP** & **HP** & **HS**) |
 | do  | Werken aan project | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**BB & MV**)  |
 
