@@ -14,13 +14,9 @@
 - In "het echt" zet je vaak een condensator parallel aan een voeding, om diens spanning (extra) te ontstoren/vlak te maken.
 - In (LtSpice-) simulaties kun je die condensators parallel aan voedingen (voorlopig) beter weglaten. Dat zorgt ervoor dat de simulatie trager wordt en moeilijker (of zelfs helemaal niet) convergeert.
 
--   In plaats van de PMOS-FET NDP6020P kun je in LtSpice: kiezen:  
-    “pmos” met als type “FDC638P” (plaats eerst de “pmos”. Vervolgens
-    rechter muisknop er op en “Pick new mosfet” -\> “FDC638P”
-
 -   In plaats van een opamp van de chip LM324 kun je in LtSpice
     kiezen:  
-    “UniversalOpamp2”, met “Level3b” (te selecteren met rechtermuisknop
+    “UniversalOpamp2” (te selecteren met rechtermuisknop
     op de geplaatste opamp).
 
 -   Je mag ervan uitgaan dat een LED goed zichtbaar brandt als er 1mA of
@@ -53,7 +49,7 @@ Gebruik daarbij:
   NB: deze standaard (te eenvoudige) flipflop heeft altijd uitgangsspanningsniveaus tussen de 0 en 1V
 - dat is niet realistisch. normaalgesproken hoort het tussen 0V en de voedingsspanning, in dit geval 5V te zijn.
   om dat te repareren voegen we een spanningsversterker 
-  (symbool E toe met versterkingsfactor 5).
+  (zoek op symbool e in de componenten lijst, pas aan met versterkingsfactor 5).
 - een testspanningsbron met pwl (PieceWiseLinear) testsignaal dat
   binnen 1 seconde van 0 tot 5 volt gaat en binnen de seconde erna weer terug naar 0V.
 - gebruik labels voor de knooppuntsspanningen om te veel spaghetti van draden te voorkomen en 
