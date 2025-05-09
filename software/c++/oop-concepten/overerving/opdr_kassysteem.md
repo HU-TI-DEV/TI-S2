@@ -1,18 +1,16 @@
-# Opdracht OO Programming concepten [](title-id)
+# Opdracht OO Programming concepten [](title-id)<!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht OO Programming concepten ](#opdracht-oo-programming-concepten-)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO3.6 Kassysteem](#opdracht-oo36-kassysteem)
-      - [Ontwerp klassen](#ontwerp-klassen)
-      - [Ontwerp relaties](#ontwerp-relaties)
-      - [Maak een klassediagram](#maak-een-klassediagram)
-      - [Review](#review)
-      - [Implementatie](#implementatie)
-      - [Documenteer](#documenteer)
-      - [Test](#test)
-    - [Extra uitdaging - hardware](#extra-uitdaging---hardware)
-    - [Extra uitdaging - interfaces](#extra-uitdaging---interfaces)
+### Inhoud[](toc-id)<!-- omit in toc -->
+- [Opdracht OO3.6 Kassysteem](#opdracht-oo36-kassysteem)
+  - [Ontwerp klassen](#ontwerp-klassen)
+  - [Ontwerp relaties](#ontwerp-relaties)
+  - [Maak een klassediagram](#maak-een-klassediagram)
+  - [Review](#review)
+  - [Implementatie](#implementatie)
+  - [Documenteer](#documenteer)
+  - [Test](#test)
+- [Extra uitdaging - hardware](#extra-uitdaging---hardware)
+- [Extra uitdaging - interfaces](#extra-uitdaging---interfaces)
 
 ### Opdracht OO3.6 Kassysteem
 *Dit is een grote opdracht! Doe deze opdracht alleen als je niet achterloopt met de andere C++ opdrachten en OO1.2 t/m OO1.6 al gemaakt hebt.*

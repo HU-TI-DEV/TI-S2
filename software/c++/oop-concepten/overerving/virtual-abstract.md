@@ -1,16 +1,14 @@
-# Virtual en abstract [](title-id)
+# Virtual en abstract [](title-id)<!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Virtual en abstract ](#virtual-en-abstract-)
-    - [Inhoud](#inhoud)
-    - [Superklassen en pointers](#superklassen-en-pointers)
-      - [Generaliseren](#generaliseren)
-      - [Virtual en abstract voor draw()](#virtual-en-abstract-voor-draw)
-      - [Virtual en abstract voor update()](#virtual-en-abstract-voor-update)
-      - [Virtual en abstract in UML](#virtual-en-abstract-in-uml)
-      - [Virtual en abstract in andere programmeertalen](#virtual-en-abstract-in-andere-programmeertalen)
-      - [Virtual en abstract in C++](#virtual-en-abstract-in-c)
-    - [Abstracte klassen](#abstracte-klassen)
+### Inhoud[](toc-id)<!-- omit in toc -->
+- [Superklassen en pointers](#superklassen-en-pointers)
+  - [Generaliseren](#generaliseren)
+  - [Virtual en abstract voor draw()](#virtual-en-abstract-voor-draw)
+  - [Virtual en abstract voor update()](#virtual-en-abstract-voor-update)
+  - [Virtual en abstract in UML](#virtual-en-abstract-in-uml)
+  - [Virtual en abstract in andere programmeertalen](#virtual-en-abstract-in-andere-programmeertalen)
+  - [Virtual en abstract in C++](#virtual-en-abstract-in-c)
+- [Abstracte klassen](#abstracte-klassen)
 
 
 Zie ook: [Overerving](./README.md)
@@ -50,7 +48,7 @@ f( d ); // I am an animal <======== !!
 ```
 *Codevoorbeeld 12-06 - Welke functie wordt aangeroepen?*
 
-![UML print animal](uml-print-animal.png)
+![UML print animal](./img/uml-print-animal.png)
 Het gebruiken van de superklasse functie is niet altijd gewenst: het is bijvoorbeeld handig als een verzameling objecten (bijvoorbeeld figuren die we op het scherm afbeelden) allemaal eenzelfde functie hebben die we kunnen aanroepen, maar dat wat ze dan in die functie doen verschillend is.
 
 Naast de bewegende bal zouden we ook muren op het scherm willen afbeelden, die niet bewegen, maar op een andere manier reageren op het verstrijken van tijd. Vervolgens willen we deze schermobjecten onthouden in een array, zodat we ze in een loop kunnen bijwerken en afbeelden.
@@ -81,7 +79,7 @@ De `update()` functie is wel virtual, want als je een object (waar je verder nie
 - In UML wordt abstract aangegeven door de naam in *italic* te schrijven. 
 - Virtual zie je niet in UML, omdat het een implementatie detail is (dat in de meeste talen niet speelt).
 
-![Schermobjecten met een gemeenschappelijk superklasse](uml_schermobjecten.png)
+![Schermobjecten met een gemeenschappelijk superklasse](./img/uml_schermobjecten.png)
 
 #### Virtual en abstract in andere programmeertalen
 In talen die meer op gemak voor de programmeur en minder op snelheid gefocust zijn wordt dit onderscheid doorgaans niet gemaakt en zijn alle klasse functies (methoden) `virtual`. Dit geldt bijvoorbeeld voor Python en Java.

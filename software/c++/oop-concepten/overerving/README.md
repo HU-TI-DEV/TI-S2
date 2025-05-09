@@ -1,19 +1,17 @@
-# Overerving - classes [](title-id)
+# Overerving - classes [](title-id)<!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Overerving - classes ](#overerving---classes-)
-    - [Inhoud](#inhoud)
-    - [Een bewegende bal](#een-bewegende-bal)
-      - [Dilemma's](#dilemmas)
-    - [Overerving](#overerving)
-      - [UML notatie (open pijl)](#uml-notatie-open-pijl)
-      - [Constructor van afgeleide klasse](#constructor-van-afgeleide-klasse)
-      - [Private, public of protected variabelen](#private-public-of-protected-variabelen)
-      - [Samenvatting](#samenvatting)
-      - [Een bijna lege main](#een-bijna-lege-main)
-    - [Functies en parameters: statische typering](#functies-en-parameters-statische-typering)
-      - [Supertype als parameter in functies](#supertype-als-parameter-in-functies)
-      - [Pointers en references](#pointers-en-references)
+### Inhoud[](toc-id)<!-- omit in toc -->
+- [Een bewegende bal](#een-bewegende-bal)
+  - [Dilemma's](#dilemmas)
+- [Overerving](#overerving)
+  - [UML notatie (open pijl)](#uml-notatie-open-pijl)
+  - [Constructor van afgeleide klasse](#constructor-van-afgeleide-klasse)
+  - [Private, public of protected variabelen](#private-public-of-protected-variabelen)
+  - [Samenvatting](#samenvatting)
+  - [Een bijna lege main](#een-bijna-lege-main)
+- [Functies en parameters: statische typering](#functies-en-parameters-statische-typering)
+  - [Supertype als parameter in functies](#supertype-als-parameter-in-functies)
+  - [Pointers en references](#pointers-en-references)
 
 
 ### Een bewegende bal
@@ -24,7 +22,7 @@ We kunnen natuurlijk code schrijven die buiten de bal om onthoudt welke snelheid
 
 We kunnen een bal klasse schrijven met alle gegevens en functies van een cirkel er in, plus de gegevens en functies voor bewegen, maar dan hebben we die cirkel aspecten (`middelpunt`, `diameter`, `draw()` functie) op twee plekken in ons programma staan: in cirkel en in bal. Dat is een slecht teken voor de kwaliteit van je code, en het is **dubbel werk** voor jou.
 
-![UML diagram voor aparte cirkel en bal klassen](aparte_cirkel_bal.png)
+![UML diagram voor aparte cirkel en bal klassen](./img/aparte_cirkel_bal.png)
 
 En, nog erger: dubbel leeswerk voor iemand die jouw code moet lezen, en de mogelijkheid dat een verbetering (bug fix, of een nieuwe feature) maar op 1 van de 2 plekken wordt doorgevoerd. **Code duplicatie is een teken van ‘code smell’: de geur van slechte code**.
 
@@ -64,7 +62,7 @@ b.draw();
 ```
 *Codevoorbeeld 12-01 - Een ‘bewegende’ bal.*
 
-![Uitvoer van een ‘bewegende’ bal](bewegende_bal.png)
+![Uitvoer van een ‘bewegende’ bal](./img/bewegende_bal.png)
 
 ### Overerving
 Wat we voor de bal nodig hebben is het OO principe van overerving: 
@@ -77,7 +75,7 @@ Voor de richting van de pijl kun je als ezelsbruggetje gebruiken dat de wijdere 
 
 *Niet echt alles: constructors worden nooit geërfd. Dat zou ook raar zijn: een bal heeft meer attributen, en heeft dus ook een uitgebreidere constructor nodig. Er zijn nog andere dingen die niet geërfd worden, die worden later besproken.
 
-![UML diagram voor aparte cirkel en bal klassen](uml_cirkel_bal.png)
+![UML diagram voor aparte cirkel en bal klassen](./img/uml_cirkel_bal.png)
 
 ```c++
 class circle {
@@ -172,7 +170,7 @@ int main(){
 ```
 *Codevoorbeeld 12-04 - een bewegende bal*
 
-![Uitvoer van een bewegende bal](notresp_bal.png)
+![Uitvoer van een bewegende bal](./img/notresp_bal.png)
 
 ### Functies en parameters: statische typering
 C++ is in principe een statisch (compile-time) getypeerde taal: bij een functie parameter moet je aangeven van welk *type* die parameter is, en je kunt die functie alleen aanroepen met een parameter van dát type, anders compileert je code niet. 
@@ -199,7 +197,7 @@ sell( a ); // OK: animal required, animal provided
 fly( a ); // ERROR: duck required, animal provided
 ```
 *Codevoorbeeld 12-05 - een subklasse object is acceptabel als een superklasse object wordt gevraagd*
-![uml_animal_duck](uml_animal_duck.png)
+![uml_animal_duck](./img/uml_animal_duck.png)
 
 #### Pointers en references
 De regel dat een subklasse object overal gebruikt kan worden waar een superklasse vereist is geldt ook voor pointers en references. **Een superklasse pointer of superklasse reference kan ook naar een subklasse object wijzen**, maar andersom kan niet.
@@ -234,3 +232,5 @@ duck & dr1 = d; // OK: duck reference refers to a duck
 duck & dr2 = a; // ERROR: rerence can’t refer to a plain animal
 ```
 *Codevoorbeeld 12-05 - een superklasse reference kan ook aan een subklasse object refereren*
+
+Lees verder over [virtual en abstract](./virtual-abstract.md).
