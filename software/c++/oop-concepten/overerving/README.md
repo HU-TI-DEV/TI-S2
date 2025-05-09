@@ -233,4 +233,4 @@ duck & dr2 = a; // ERROR: rerence can’t refer to a plain animal
 ```
 *Codevoorbeeld 12-05 - een superklasse reference kan ook aan een subklasse object refereren*
 
-Lees verder over [virtual en abstract](./virtual-abstract.md).
+Er is een uitgewerkt [overerving voorbeeld](./voorbeeld/README.md) en lees verder over [virtual en abstract](./virtual-abstract.md).
