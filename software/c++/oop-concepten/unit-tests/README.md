@@ -1,25 +1,13 @@
-# Unit tests [](title-id)
+# Unit tests [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Unit tests ](#unit-tests-)
-    - [Inhoud](#inhoud)
-    - [Waarom testen?](#waarom-testen)
-      - [Fouten vroeg opsporen](#fouten-vroeg-opsporen)
-      - [Test Driven Development](#test-driven-development)
-    - [Unit tests](#unit-tests)
-      - [Voorbeeld: operator+](#voorbeeld-operator)
-      - [Assert()](#assert)
-      - [Tips](#tips)
-      - [Voorbeeldcode operator+](#voorbeeldcode-operator)
-      - [Voorbeeld operator==](#voorbeeld-operator-1)
-      - [Nadeel eenvoudig testen](#nadeel-eenvoudig-testen)
-  - [Unit Test Frameworks](#unit-test-frameworks)
-    - [Catch2](#catch2)
-      - [Geen main](#geen-main)
-      - [TEST\_CASE](#test_case)
-      - [Voorbeeld Catch2](#voorbeeld-catch2)
-      - [Uitvoer Catch](#uitvoer-catch)
-      - [Tip: Operator\<\< en stringstream](#tip-operator-en-stringstream)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Unit Test Frameworks](#unit-test-frameworks)
+  - [Catch2](#catch2)
+    - [Geen main](#geen-main)
+    - [TEST\_CASE](#test_case)
+    - [Voorbeeld Catch2](#voorbeeld-catch2)
+    - [Uitvoer Catch](#uitvoer-catch)
+    - [Tip: Operator\<\< en stringstream](#tip-operator-en-stringstream)
 
 
 Behandelde onderwerpen

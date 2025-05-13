@@ -1,16 +1,14 @@
-# Operatoren (title-id)
+# Operatoren[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Operatoren (title-id)](#operatoren-title-id)
-    - [Inhoud](#inhoud)
-  - [Operatoren](#operatoren)
-      - [Operator+ en Right Hand Side (rhs)](#operator-en-right-hand-side-rhs)
-      - [Operator+ en Left Hand Side (lhs)](#operator-en-left-hand-side-lhs)
-      - [Body van operator](#body-van-operator)
-      - [Eenzijdige operator (monadic)](#eenzijdige-operator-monadic)
-    - [Overloading optel-operatoren](#overloading-optel-operatoren)
-    - [Overloading (C++)](#overloading-c)
-      - [Geen functie overloading in C](#geen-functie-overloading-in-c)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Operatoren](#operatoren)
+    - [Operator+ en Right Hand Side (rhs)](#operator-en-right-hand-side-rhs)
+    - [Operator+ en Left Hand Side (lhs)](#operator-en-left-hand-side-lhs)
+    - [Body van operator](#body-van-operator)
+    - [Eenzijdige operator (monadic)](#eenzijdige-operator-monadic)
+  - [Overloading optel-operatoren](#overloading-optel-operatoren)
+  - [Overloading (C++)](#overloading-c)
+    - [Geen functie overloading in C](#geen-functie-overloading-in-c)
 
 Verder lezen:
 - [Constructor](./constructor.md)
