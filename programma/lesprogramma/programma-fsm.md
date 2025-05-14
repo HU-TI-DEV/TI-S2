@@ -20,12 +20,12 @@ Wat hebben we nodig:
 - 2 pull up weerstanden voor de knopjes<br>
 
 ### We gaan een stoplicht nabouwen. <br>
-Het stoplicht zal normaal op groen staan. Het heeft drie kleuren: groen – oranje/geel – rood. 
+Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – geel – rood. 
 - 	Knopje A is verbonden met de knop van het voetgangerspad op de straat die er loodrecht op staat/loopt.
 - 	Knopje B is verbonden met de knop van het voetgangerspad van de straat waar het stoplicht staat.
-- 	Het stoplicht staat normaal op groen. Als op knopje A wordt gedrukt moet het stoplicht van groen -> oranje/geel (3 seconden) -> rood gaan. Dan moet hij op rood blijven staan.
-- 	Als knopje B wordt ingedrukt moet hij (het is een duits stoplicht) van rood -> knipperend rood/geel gaan. Dus 5 x oranje/geel (0.5 s) -> rood (0.5 s) -> en weer terug naar oranje.
-- 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan.  
+- 	Het verkeerslicht staat normaal op groen. Als op knopje A wordt gedrukt moet het verkeerslicht van groen -> geel (3 seconden) -> rood gaan. Dan moet hij op rood blijven staan.
+- 	Als knopje B wordt ingedrukt moet hij (het is een duits verkeerslicht) van rood -> knipperend rood/geel gaan. Dus 5 x (geel (0.5 s) -> rood (0.5 s) -> en weer terug naar geel).
+- 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
 <br>
 
 
