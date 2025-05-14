@@ -32,11 +32,13 @@ Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – 
 - 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
 <br>
 
+**Voorwaarde: JE MAG GEEN DELAY IN JE CODE GEBRUIKEN!!!**
+
 Stappenplan:
 
 1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen in plantum).
 2) Maak de opstelling.
-3) Maak je code, gebruik dit : [template](./files/template.ino)
+3) Download het [template](./files/template.ino). Pas het template aan zodat het verkeerslicht werkt zoals het moet!
 4) Check met je diagram.
 5) Testen!  
 
