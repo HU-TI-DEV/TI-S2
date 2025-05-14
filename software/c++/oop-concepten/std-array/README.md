@@ -1,15 +1,13 @@
-# std::array<> [](title-id)
+# std::array<> [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [std::array\<\> ](#stdarray-)
-    - [Inhoud](#inhoud)
-    - [std::array\<\>](#stdarray)
-      - [Best practices gebruik std::array\<\>](#best-practices-gebruik-stdarray)
-      - [std::array als parameter](#stdarray-als-parameter)
-      - [Best practices std::array parameter](#best-practices-stdarray-parameter)
-      - [Sentinel](#sentinel)
-        - [ASCII sentinel](#ascii-sentinel)
+- [std::array\<\>](#stdarray)
+  - [Best practices gebruik std::array\<\>](#best-practices-gebruik-stdarray)
+  - [std::array als parameter](#stdarray-als-parameter)
+  - [Best practices std::array parameter](#best-practices-stdarray-parameter)
+  - [Sentinel](#sentinel)
+    - [ASCII sentinel](#ascii-sentinel)
 
 ### std::array<>
 Een `std::array<>` bevat een aantal waarden van hetzelfde type. Anders dan bij een `std::vector<>` moet je aangeven wat het *aantal* is, en dit aantal kan gedurende de levensduur van het array niet veranderen. Dit is een flinke beperking, maar daar staat tegenover dat het alloceren en benaderen van een `std::array<>` sneller gaat dan een `std::vector<>`. 

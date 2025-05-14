@@ -1,17 +1,14 @@
-# Objecten en waarden (title-id)
+# Objecten en waarden (title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Objecten en waarden (title-id)](#objecten-en-waarden-title-id)
-    - [Inhoud](#inhoud)
-  - [Objecten en waarden](#objecten-en-waarden)
-  - [Klassen: objecten en waarden](#klassen-objecten-en-waarden)
-    - [Objecten](#objecten)
-      - [Objecten vergelijken](#objecten-vergelijken)
-    - [Waarden](#waarden)
-      - [Kenmerken van een waarde](#kenmerken-van-een-waarde)
-      - [Waarden vergelijken](#waarden-vergelijken)
-      - [ADTs: waarden als klassen](#adts-waarden-als-klassen)
-    - [Objecten vs. ADTs](#objecten-vs-adts)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Klassen: objecten en waarden](#klassen-objecten-en-waarden)
+  - [Objecten](#objecten)
+    - [Objecten vergelijken](#objecten-vergelijken)
+  - [Waarden](#waarden)
+    - [Kenmerken van een waarde](#kenmerken-van-een-waarde)
+    - [Waarden vergelijken](#waarden-vergelijken)
+    - [ADTs: waarden als klassen](#adts-waarden-als-klassen)
+  - [Objecten vs. ADTs](#objecten-vs-adts)
 
 
 ## Klassen: objecten en waarden

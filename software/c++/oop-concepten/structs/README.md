@@ -1,19 +1,17 @@
-# Compositie - structs[](title-id)
+# Compositie - structs[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Compositie - structs](#compositie---structs)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [Voorkennis en leeswijzer](#voorkennis-en-leeswijzer)
-    - [Teken een lijn](#teken-een-lijn)
-      - [Naamgeving functie](#naamgeving-functie)
-      - [Grafisch scherm en coördinaten](#grafisch-scherm-en-coördinaten)
-    - [Struct datatype voor lijn](#struct-datatype-voor-lijn)
-      - [Let op accolades { en } en puntkommma's](#let-op-accolades--en--en-puntkommmas)
-      - [Overloading van functies](#overloading-van-functies)
-    - [Memberfuncties](#memberfuncties)
-    - [Constructors (memberfuncties)](#constructors-memberfuncties)
-    - [Afscherming (private en public)](#afscherming-private-en-public)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [Voorkennis en leeswijzer](#voorkennis-en-leeswijzer)
+  - [Teken een lijn](#teken-een-lijn)
+    - [Naamgeving functie](#naamgeving-functie)
+    - [Grafisch scherm en coördinaten](#grafisch-scherm-en-coördinaten)
+  - [Struct datatype voor lijn](#struct-datatype-voor-lijn)
+    - [Let op accolades { en } en puntkommma's](#let-op-accolades--en--en-puntkommmas)
+    - [Overloading van functies](#overloading-van-functies)
+  - [Memberfuncties](#memberfuncties)
+  - [Constructors (memberfuncties)](#constructors-memberfuncties)
+  - [Afscherming (private en public)](#afscherming-private-en-public)
 
 ---
 
