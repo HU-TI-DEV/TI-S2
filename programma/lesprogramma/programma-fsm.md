@@ -6,7 +6,11 @@ In deze les gaan we ontdekken dat we door toepassing van het FSM-paradigma op ee
 
 - Neem je electronica spullen (breadboard, weerstanden etc) mee.   
 
-- Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf) blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
+Bekijk de volgende 2 video's:  
+- [Wat is een state machine? Hoe maak je hem in plantuml?](https://www.youtube.com/watch?v=Irhl5QKDWZE)  
+- [Hoe werkt de template?](https://www.youtube.com/watch?v=zFO99KqmScI)  
+
+Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf) blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video finite state machine paradigm](https://www.youtube.com/watch?v=xMtzhGA3vIc)
 
 ## Tijdens de les
@@ -28,10 +32,11 @@ Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – 
 - 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
 <br>
 
+Stappenplan:
 
-1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen.
+1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen in plantum).
 2) Maak de opstelling.
-3) Maak de Class(es).
+3) Maak je code, gebruik dit : [template](./files/template.ino)
 4) Check met je diagram.
 5) Testen!  
 
