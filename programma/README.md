@@ -222,24 +222,24 @@ Week D5. Stapsgewijs leer je aan de hand van een Datasheet code te schrijven voo
 
 ### Onderwijsweek D6 (19-05-2025)
 
-Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het 3e Peilmoment. Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is.
+Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Input Output (IO) expander workshop. Aan het eind van deze week is het al weer tijd voor de inlevering van het 3e Peilmoment. Dit is de laatste inlevering voor de eindbeoordeling zorg dus dat al je feedback is verwerkt en je verantwoordingsdocument helemaal up-to-date is. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
-| di  |  [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) C++ feedback moment  |
-| wo  | Werken aan project | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**) werken aan verantwoordingsdocument (**HS**)  |
-| do  | **3e Peilmoment** |  [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
+| di  |  [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
+| wo  | Werken aan project | Voorbeelden van (hardware) libraries in C++ (**HP & GP**)  |
+| do  | **3e Peilmoment** | [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
 
 ### Onderwijsweek D7 (26-05-2025)
 
-Week D7. Vul deze week de **Evalytics vragenlijst** in zodat je dit semester tussentijds kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen. We leren hoe we data kunnen lezen en schrijven met RFID.
+Week D7.  We leren hoe we data kunnen lezen en schrijven met RFID.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
-| di  | Werken aan project |  Voorbeelden van een (hardware) libraries in C++ (**HP & GP**) |
-| wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP & HS**)     |
+| ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
+| di  | Werken aan project | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**)  |
+| wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**HP & GP & HS**) |
 | do  | Hemelvaartsdag |  |
 
 ### Onderwijsweek D8 (2-06-2025)
