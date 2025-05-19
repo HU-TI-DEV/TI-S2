@@ -10,7 +10,7 @@ Bekijk de volgende 2 video's:
 - [Wat is een state machine? Hoe maak je hem in plantuml?](https://www.youtube.com/watch?v=Irhl5QKDWZE)  
 - [Hoe werkt de template?](https://www.youtube.com/watch?v=m5SEEAU5Yzw)  
 
-Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf) blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
+Optioneel: Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/2017-2018-VDEIN-micro-controllers-reader.pdf) blz 13 tm 21 goed door. Bestudeer met name de delen die gaan over FSM.
 - Wat highlights daarvan kun je ook in video-vorm bestuderen: [video finite state machine paradigm](https://www.youtube.com/watch?v=xMtzhGA3vIc)
 
 ## Tijdens de les
