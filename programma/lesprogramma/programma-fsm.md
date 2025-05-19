@@ -15,6 +15,9 @@ Lees van [VDEIN microcontrollers reader](https://github.com/HU-TI-DEV/TI-S2/blob
 
 ## Tijdens de les
 
+De powerpoint : [uitleg template](./files/uitleg%20template.pptx)
+
+
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:<br>
 Wat hebben we nodig:
 - breadboard & jumper wires <br>
@@ -38,7 +41,7 @@ Stappenplan:
 
 1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen in plantum).
 2) Maak de opstelling.
-3) Download het [template](./files/template.ino). Pas het template aan zodat het verkeerslicht werkt zoals het moet!
+3) Download het [template](./files/traffic_template/traffic_template.ino). Pas het template aan zodat het verkeerslicht werkt zoals het moet!
 4) Check met je diagram.
 5) Testen!  
 
