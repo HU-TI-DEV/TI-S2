@@ -35,8 +35,10 @@ Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – 
 - 	Uiteindelijk na die 5 keer knipperen moet hij naar groen gaan. 
 <br>
 
-**Voorwaarde: JE MAG GEEN DELAY IN JE CODE GEBRUIKEN!!!**
-
+**Voorwaarde:** 
+- **JE MAG GEEN DELAY IN JE CODE GEBRUIKEN!!!**
+- **Een state mag niet "blocking" zijn (dus dat hij blijft wachten in de state).**
+ 
 Stappenplan:
 
 1) Maak eerst een State diagram (hier zijn UML standaarden voor, we gaan nu even iets simpels edoch duidelijk schetsen in plantum).
