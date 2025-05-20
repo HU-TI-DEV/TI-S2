@@ -228,7 +228,7 @@ Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 | --- | --- | --- |
 | ma  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
 | di  |  [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | [Finite state machine](./lesprogramma/programma-fsm.md) (**BB & HS**) |
-| wo  | Werken aan project | Voorbeelden van (hardware) libraries in C++ (**HP & GP**)  |
+| wo  | Werken aan project | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**HP & GP**)  |
 | do  | **3e Peilmoment** | [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**BB & MV**) |
 
 ### Onderwijsweek D7 (26-05-2025)
