@@ -26,6 +26,7 @@ public:
     : currentState(GREEN), lastUpdate(0) {
     pinMode(greenPin, OUTPUT);
     pinMode(yellowPin, OUTPUT);
+    pinMode(buttonA,INPUT_PULLUP);
     setGreen();
   }
 
@@ -35,12 +36,14 @@ public:
       case GREEN:
         if (buttonAPressed) {
           currentState = YELLOW_COMING_FROM_GREEN;
+          setYellow();
           lastUpdate = now;
         }
         break;
       case YELLOW_COMING_FROM_GREEN:
         if (now - lastUpdate >= 2000) {
           currentState = GREEN;
+          setGreen();
         }
         break;
     }
