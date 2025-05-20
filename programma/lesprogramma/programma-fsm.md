@@ -24,7 +24,7 @@ Wat hebben we nodig:
 - 3 verschillende kleuren ledjes<br>
 - 3 voorschakelweerstanden voor de ledjes (kun je zelf de waarde berekenen?)<br>
 - 2 knopjes<br>
-- 2 pull up weerstanden voor de knopjes<br>
+
 
 ### We gaan een stoplicht nabouwen. <br>
 Het verkeerslicht zal normaal op groen staan. Het heeft drie kleuren: groen – geel – rood. 
