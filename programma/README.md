@@ -250,7 +250,7 @@ Week D8.
 | --- | --- | --- |
 | ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 2 (**HP & HS**) |
 | di  | Werken aan project | Het maken van een [poster](../vermogens/presenteren/poster.md) (**HS & TM**) |
-| wo  | Werken aan project | Tijd om aan je library te werken |
+| wo  | Werken aan project | PCB ontwerp alle studenten naar HL15-1.096 (**Gast college door Ashraf van R.**) daarna Tijd om aan je library te werken |
 | do  | Werken aan project | Tijd om aan je library te werken |
 
 ### Onderwijsweek D9 (9-06-2025)
