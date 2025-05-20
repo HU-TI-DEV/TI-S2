@@ -22,6 +22,8 @@
     - [Compositie](#compositie)
     - [Unit tests \& Catch2](#unit-tests--catch2)
     - [Decorator en adapter](#decorator-en-adapter)
+    - Je eigen library en applicatie (zie de opdracht op Canvas). \
+    [Lijst met library repositories](library-voorbeelden.md)
 
 Dit bestand bevat links naar C++ opdrachten.
 
