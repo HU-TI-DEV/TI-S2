@@ -237,9 +237,9 @@ Week D7.  We leren hoe we data kunnen lezen en schrijven met RFID.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
-| di  | Werken aan project | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**)  |
-| wo  | Werken aan project | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**MV & GP & HS**) |
+| ma  | Werken aan project & Feedback C++ en/of Elektronica | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
+| di  | Werken aan project & Feedback C++ en/of Elektronica | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**)  |
+| wo  | Werken aan project & Feedback C++ en/of Elektronica | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**MV & GP & HS**) |
 | do  | Hemelvaartsdag |  |
 
 ### Onderwijsweek D8 (2-06-2025)
