@@ -237,7 +237,7 @@ Week D7.  We leren hoe we data kunnen lezen en schrijven met RFID.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project & Feedback C++ en/of Elektronica | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
+| ma  | Werken aan project & Feedback C++ en/of Elektronica | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HP & HS**)  |
 | di  | Werken aan project & Feedback C++ en/of Elektronica | C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**HP & GP**)  |
 | wo  | Werken aan project & Feedback C++ en/of Elektronica | C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**MV & GP & HS**) |
 | do  | Hemelvaartsdag |  |
@@ -248,7 +248,7 @@ Week D8.
 
 | Dag | Project | Kennissessie     |
 | --- | --- | --- |
-| ma  | Werken aan project | [RFID](./lesprogramma/) Lezen en schrijven van data met RFID deel 2 (**HP & HS**) |
+| ma  | Werken aan project | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 2 (**HP & HS**) |
 | di  | Werken aan project | Het maken van een [poster](../vermogens/presenteren/poster.md) (**HS & TM**) |
 | wo  | Werken aan project | PCB ontwerp alle studenten naar HL15-1.096 (**Gast college door Ashraf van R.**) daarna Tijd om aan je library te werken |
 | do  | Werken aan project | Tijd om aan je library te werken |
