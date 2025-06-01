@@ -260,7 +260,7 @@ Week D9.
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
 | ma  | 2e Pinksterdag |  |
-| di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Fusion 360 **alle studenten in HL15-1.096** (**HS & TM**) |
+| di  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Fusion 360 **V1A om 10.00 uur en V1B om 11.00 uur** (**TM**) |
 | wo  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) | Library en applicatie feedback (**HP & GP & MV**) |
 | do  | [Show & Tell](../vermogens/Scrum/files/Sprint-verslag.md) :end: Einde sprint 5 & :runner: Planning sprint 6  | Library en applicatie (**HP & GP & MV**)   |
 
