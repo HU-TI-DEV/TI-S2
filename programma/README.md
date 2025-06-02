@@ -233,7 +233,7 @@ Week D6. We gaan deze week verder met de I2C workshop en we beginnen met het Inp
 
 ### Onderwijsweek D7 (26-05-2025)
 
-Week D7.  We leren hoe we data kunnen lezen en schrijven met RFID.
+Week D7.  We leren hoe we data kunnen lezen (en schrijven) met RFID.
 
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
@@ -266,7 +266,7 @@ Week D9.
 
 ### Onderwijsweek D10 (16-06-2025)
 
-Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../vermogens/presenteren/poster.md). We sluiten dit vrijdag gezamenlijk af met een openbare presentatie van de klimaatmonitoren. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. Eind van de week lever je voor de laatste keer je Verantwoordingsdocument in. Op dit document basseren de docenten de eindbeslissing. Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
+Week D10. Deze week presenteren jullie als team het klimaatmonitor project. Je maakt als team een A4 [poster](../vermogens/presenteren/poster.md). We sluiten deze week gezamenlijk af met een openbare presentatie van de kassen. Zorg dat je de library en applicatie deze week aan de docenten laat zien en dat je de feedback verwerkt. Eind van de week lever je voor de laatste keer je Verantwoordingsdocument in. Op dit document basseren de docenten de eindbeslissing. Vul deze week de Evalytics vragenlijst in zodat je dit semester kan beoordelen en wij met de feedback verbeteringen kunnen aanbrengen.
 
 | Dag | Project | Kennissessie |
 | --- | --- | --- |
