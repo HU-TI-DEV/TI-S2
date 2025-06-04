@@ -17,13 +17,13 @@ We gaan er van uit dat je een geinstalleerde MinGW-w64 toolchain hebt. Installee
 
 Installeer SFML met de packetmanager (dankzij Lia E.):
 
-- Open een **MSYS2 MSYS UCRT64 terminal** (dus niet een CMD terminal!)
+- Open een **MSYS2 UCRT64 terminal** (dus niet een CMD terminal!)
 - Voer het volgende commando uit (wacht tot het klaar is!):
 
 ```bash
 pacman -Syu
 ```
-- De MSYS2 MSYS UCRT64 moet na afloop sluiten. Start dan de juiste terminal weer op en vervolg je stappen.
+- De MSYS2 UCRT64 moet na afloop sluiten. Start dan de juiste terminal weer op en vervolg je stappen.
 - Voer het volgende commando uit:
 
 ```bash
