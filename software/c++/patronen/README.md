@@ -319,7 +319,7 @@ using namespace std;
 int max(vector<vector<int>> m){
   int max = m[0][0]; // variable to save the result
   for(unsigned int i=0; i<m.size(); i++){
-    for(unsigned int j=0; j<m[0].size(); j++){
+    for(unsigned int j=0; j<m[i].size(); j++){
       if(max < m[i][j]){ // when to update the result-variable
         max = m[i][j]; // update the result-variable
       }
