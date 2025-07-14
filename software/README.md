@@ -1,5 +1,7 @@
 # software
 
+[Todo: modelleren mist een README.md]: #
+
 * [c++/](../software/c++/README.md)
   * [basisconcepten/](../software/c++/basisconcepten/README.md)
   * [bits/](../software/c++/bits/README.md)
@@ -28,14 +30,21 @@
     * [references/](../software/c++/functies/references/README.md)
   * [geschiedenis/](../software/c++/geschiedenis/README.md)
   * [inlezen-gegevens/](../software/c++/inlezen-gegevens/README.md)
+  * [literatuur/](../software/c++/literatuur/README.md)
   * [meerdere-bronbestanden/](../software/c++/meerdere-bronbestanden/README.md)
+  * [oefeningen/](../software/c++/oefeningen/README.md)
   * [oop-concepten/](../software/c++/oop-concepten/README.md)
+    * [ADTs/](../software/c++/oop-concepten/ADTs/README.md)
     * [const/](../software/c++/oop-concepten/const/README.md)
+    * [doxygen/](../software/c++/oop-concepten/doxygen/README.md)
     * [header-sourcefiles/](../software/c++/oop-concepten/header-sourcefiles/README.md)
     * [klassen/](../software/c++/oop-concepten/klassen/README.md)
     * [macros/](../software/c++/oop-concepten/macros/README.md)
+    * [objecten-en-waarden/](../software/c++/oop-concepten/objecten-en-waarden/README.md)  
     * [std-array/](../software/c++/oop-concepten/std-array/README.md)
     * [structs/](../software/c++/oop-concepten/structs/README.md)
+    * [unit-tests](../software/c++/oop-concepten/unit-tests/)
+    * [units-en-waarden](../software/c++/oop-concepten/units-en-waarden/)
   * [opdrachten/](../software/c++/opdrachten/README.md)
   * [patronen/](../software/c++/patronen/README.md)
     * [recursie/](../software/c++/patronen/recursie/README.md)
@@ -46,6 +55,11 @@
 * [getalsysteem/](../software/getalsysteem/README.md)
 * [git/](../software/git/README.md)
 * [inrichten-ontwikkelomgeving/](../software/inrichten-ontwikkelomgeving/README.md)
+* [modelleren](../software/modelleren/inleverformat-voor-modelleeropdrachten.md)
+  
+[Todo: modelleren mist een README.md]: #
+
+* [python](../software/python/python-op-vscode.md)
 * [visueel-programmeren/](../software/visueel-programmeren/README.md)
   * [Node-RED/](../software/visueel-programmeren/Node-RED/README.md)
 * [webserver/](../software/webserver/README.md)
