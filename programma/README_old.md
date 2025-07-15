@@ -70,8 +70,8 @@ Week C2. We leren een ADC te gebruiken. Aan het eind van deze week kun je een te
 | Dag | Project     | Kennissessie     |
 | --- | --- | --- |
 | ma  | Project introductie. Curriculum toelichting semester 2 TI. Wat gaan we doen en wat kan je van de richting TI verwachten? | ***Warm welkom*** met koffie en thee (iedereen in lokaal HL15-1.096). De docenten vertellen over het Semester 2 en wat je kan verwachten van de vervolgsemesters bij de richting Technische Informatica  (**TM**, **HS**, **MV**)     |
-| di  | Opzetten persoonlijke repository en Arduino IDE   | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**HP & GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md) (**HP & GP**) [Git introductie en opzetten](./lesprogramma/programma-git.md). (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**HP & GP**) en op Git plaatsen.  |
-| wo  | Afmaken opzet IDE | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**HP & GP**), [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP & HS**) lees de [samenvatting](./lesprogramma/programma-ADC.md) |
+| di  | Opzetten persoonlijke repository en Arduino IDE   |  (**HP & GP**) [Git introductie en opzetten](./lesprogramma/programma-git.md). (**HP & HS**) Eerste project ["Hello climate monitor" aanpassen](../software/c++/basisconcepten/opdr_basisconcepten.md) (**HP & GP**) en op Git plaatsen.  |
+| wo  | Afmaken opzet IDE | |
 | do  | Afmaken opzet IDE| [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP & HS**)     |
 | vr  | 9.00 uur aanwezig aan de achterkant van HL15  | Bedrijfsbezoek Maurice Kassenbouw B.V. |
 
