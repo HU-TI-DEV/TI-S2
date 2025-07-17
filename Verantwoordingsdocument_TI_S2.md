@@ -1,3 +1,4 @@
+<!-- markdown-link-check-disable -->
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
 # Verantwoordingsdocument[](title-id)
@@ -400,3 +401,4 @@ Onderbouwing hoe deze portfolio-items hebben bijgedragen aan het aantonen van de
 Beschrijving van de feedback die ik heb ontvangen op de portfolio-items.
 
 --
+<!-- markdown-link-check-enable -->
