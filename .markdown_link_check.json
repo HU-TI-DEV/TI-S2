@@ -1,0 +1,28 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": ".*logo-id.*"
+    },
+    {
+      "pattern": ".*title-id.*"
+    },
+    {
+      "pattern": ".*toc-id.*"
+    },
+    {
+      "pattern": ".*version-id.*"
+    },
+    {
+      "pattern": ".*author-id.*"
+    }
+  ],
+  "ignoreFiles": [
+    {
+      "pattern": ".*_slidev.*"
+    }
+  ],
+  "aliveStatusCodes": [200, 206],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 3
+}

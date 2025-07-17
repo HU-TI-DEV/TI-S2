@@ -1,0 +1,29 @@
+# Source: https://github.com/tcort/github-action-markdown-link-check
+# Actions documentation: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+
+name: Check Markdown links
+
+on:
+  push: # Check modified files on push
+    paths-ignore:
+      - '_slidev/**'
+  schedule: # Check all files monthly (temporarily set for testing)
+    - cron: '0 0 1 * *' # At 00:00 on day-of-month 1 (monthly)
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        # Fetch full history for proper diff comparison
+        fetch-depth: 0
+        
+    - name: Run markdown link check
+      uses: tcort/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: ${{ github.event_name == 'push' && 'yes' || 'no' }}
+        config-file: '.markdown-link-check.json'
+        base-branch: 'main'
+        max-depth: -1
+        # check-modified-files-only: ${{ github.event_name == 'push' && 'yes' || 'no' }}
