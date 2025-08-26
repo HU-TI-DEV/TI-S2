@@ -32,7 +32,7 @@
 
 ---
 
-**v2.0 [](version-id)** Semester 3 TI programma door HU IICT[](author-id).
+**v2.1 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
 
 ---
 
@@ -44,6 +44,10 @@ De contacturen zijn (subject to change):
 
 |dag|van|tot| lokaal |
 |---|---|---| --- |
+| ma | 13.00 | 16.00 | HL15-4.056 
+| di | 9.00 | 12.00 | HL15-4.056
+| wo | 9.00 | 12.00 | HL15-4.056
+| do | 9.00 | 12.00 | HL15-4.056
 
 De docenten zijn:
 
@@ -58,8 +62,8 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Startbijeenkomst (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual studio code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md)|
 | do  |  [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**) [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**) |
 
@@ -67,47 +71,47 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**)   |
 | do  | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
 
 ### Onderwijsweek A3 (15-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |  [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**).Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
 | do  |  [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) [SPI](./lesprogramma/programma-SPI.md) (**HP**)[Electronica basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**HP**)  |
 
 ### Onderwijsweek A4 (22-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
-| wo  |[Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**)  [Soldeerpracticum](./lesprogramma/programma-solderen.md) de hele dag! inschrijven via de agenda. (**HP**)  |
+| ma  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| wo  |[Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**)   |
 | do  |  Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md)(**GP**)|
 
 ### Onderwijsweek A5 (29-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**)|
 | do  | **1e Peilmoment**  |
 
 ### Onderwijsweek A6 (06-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
 | do  |  [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 ### Onderwijsweek A7 (13-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  |  [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
@@ -117,8 +121,8 @@ Herfstvakantie
 ### Onderwijsweek A9 (27-10-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**)  |
 
@@ -126,7 +130,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**)|
-| di  ||
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Use Cases](./lesprogramma/programma-use-case.md) (**HP**) [UART](./lesprogramma/programma-uart.md) (**HP**)|
 | do  | **2de Peilmoment** [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
@@ -134,7 +138,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |[Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)   |
-| di  ||
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003|
 | do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 
@@ -142,7 +146,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**)|
-| di  ||
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
 
@@ -151,23 +155,23 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |[PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
-| di  ||
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |[Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 
 ### Onderwijsweek B4 (01-12-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  |Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), [Unit tests](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/oop-concepten/unit-tests/README.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek B5 (08-12-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
-| di  ||
+| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen|
 | do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
@@ -185,15 +189,14 @@ vakantie
 vakantie
 ### Onderwijsweek B9 (05-01-2026)
 
-HIER MOETEN ALLE DEMO'S IN. ZOWEL VAN DE GAME ALS VAN HET PROJECT...
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | |
+| ma  ||
 | di  ||
 | wo  ||
 | do  | **4e Peilmoment**  |
 
-50 studenten x 20 minuten = 17 uur
+
 
 ### Onderwijsweek B10 (12-01-2026)
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
