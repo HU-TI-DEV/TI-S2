@@ -1,8 +1,8 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Verantwoordingsdocument Tips[](title-id)
+# Verantwoordingsdocument Tips
 
-### Inhoud[](toc-id)
+### Inhoud
 
 - [Verantwoordingsdocument Tips](#verantwoordingsdocument-tips)
     - [Inhoud](#inhoud)
@@ -13,13 +13,13 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor verantwoordingsdocument tips door HU IICT[](author-id).
+**v0.1.0** Start document voor verantwoordingsdocument tips door HU IICT.
 
 ---
 
 ## Portfolio Technische Informatica (TI) Semester 2 (S2)
 
-Een aantal tips voor het schrijven van een goed en leesbaar verantwoordingsdocument. 
+Een aantal tips voor het schrijven van een goed en leesbaar verantwoordingsdocument.
 
 ### Verantwoordingsdocument
 
