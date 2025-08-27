@@ -16,7 +16,7 @@
 
 -   In plaats van een opamp van de chip LM324 kun je in LtSpice
     kiezen:  
-    “UniversalOpamp2” (te selecteren met rechtermuisknop
+    "UniversalOpamp2" (te selecteren met rechtermuisknop
     op de geplaatste opamp).
 
 -   Je mag ervan uitgaan dat een LED goed zichtbaar brandt als er 1mA of
