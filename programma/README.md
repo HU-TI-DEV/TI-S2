@@ -164,7 +164,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  |Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), [Unit tests](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/oop-concepten/unit-tests/README.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
+| wo  |[Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), [Unit tests](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/oop-concepten/unit-tests/README.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek B5 (08-12-2025)
