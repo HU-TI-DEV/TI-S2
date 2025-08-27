@@ -65,7 +65,7 @@ De docenten zijn:
 | ma  | Startbijeenkomst (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Introductie en geschiedenis C, C++](../software/c++/README.md) (**GP**) Inrichten ontwikkelomgeving en opzetten. Visual Studio Code & Arduino IDE & Arduino UNO. ["Hello world" voorbeeld code.](../software/c++/basisconcepten/README.md)|
-| do  |  [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**) [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**) |
+| do  |  [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**) [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**) Aftekenen opdracht 'Werkende ontwikkelomgeving' (**GP**)|
 
 ### Onderwijsweek A2 (08-09-2025)
 
@@ -79,10 +79,10 @@ De docenten zijn:
 ### Onderwijsweek A3 (15-09-2025)
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Voorbereiden lesstof van wo. en do. (HS) |
+| ma  | Voorbereiden lesstof van wo. en do. (HS) plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**HS**) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**).Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
-| do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) [SPI](./lesprogramma/programma-SPI.md) (**HP**)[Electronica basis deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)  plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**HP**)  |
+| do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) [SPI](./lesprogramma/programma-SPI.md) (**HP**)[Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)    |
 
 ### Onderwijsweek A4 (22-09-2025)
 | Dag | Project & Kennissessie |
