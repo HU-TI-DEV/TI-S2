@@ -1,6 +1,7 @@
 # Patronen[](title-id)
 
 ## Inhoud[](toc-id)
+
 - [Patronen](#patronen)
   - [Inhoud](#inhoud)
   - [Introductie](#introductie)
@@ -27,36 +28,41 @@
 ---
 
 ## Introductie
+
 Als we programmeren zien we vaak dezelfde situaties. De variabelenamen, de context
 en de waarden zijn meestal wel anders, maar **veel problemen die we willen oplossen lijken op elkaar**. Als we een probleem herkennen als iets wat we al eerder hebben
 opgelost wordt het programmeren een stuk makkelijker. We kunnen dan dezelfde
-oplossing gebruiken. Deze oplossingen noemen we patronen. 
+oplossing gebruiken. Deze oplossingen noemen we patronen.
 
 ## Design Patterns
+
 Als je in de praktijk met grotere
-problemen aan de slag gaat kun je meestal het grote probleem opsplitsen in kleinere problemen waarvan je de oplossingen (de patronen) weet. 
+problemen aan de slag gaat kun je meestal het grote probleem opsplitsen in kleinere problemen waarvan je de oplossingen (de patronen) weet.
 In dit hoofdstuk behandelen we enkele patronen die je als programmeur veel tegenkomt. Zulke patronen (design patterns) overstijgen de taal C++. Zulke patronen zijn ook toepasbaar als je programmeert in Python, Java of een andere procedurele of object georiënteerde taal.
 
 ## Informatie uit en over één rij
+
 In veel programma’s en/of functies is het doel om informatie uit een rij (in C++ een
-vector of string) te halen of om informatie te berekenen over een rij heen. 
+vector of string) te halen of om informatie te berekenen over een rij heen.
 In deze gevallen weet je zeker dat je een for-loop nodig hebt. Afhankelijk van of je de
 informatie uit een rij wilt of over een rij wilt berekenen is het patroon net iets anders.
 
 ### Informatie uit een rij
-Bij problemen in deze categorie ben je : 
-- op zoek naar een bepaalde waarde in een rij, 
-- op zoek naar naar de index van een bepaalde waarde in een rij of 
-- aan het controleren of alle elementen in een rij voldoen aan een bepaalde voorwaarde. 
 
+Bij problemen in deze categorie ben je :
+
+- op zoek naar een bepaalde waarde in een rij,
+- op zoek naar naar de index van een bepaalde waarde in een rij of
+- aan het controleren of alle elementen in een rij voldoen aan een bepaalde voorwaarde.
 
 Enkele voorbeelden hiervan zijn:
-  - controleren of een rij getallen enkel uit positieve getallen bestaat
-  - het vinden van de index van de eerste keer dat de character ‘a’ in een string voorkomt
-  - het vinden van het eerste getal dat groter is dan 10, maar kleiner is dan 15.
+
+- controleren of een rij getallen enkel uit positieve getallen bestaat
+- het vinden van de index van de eerste keer dat de character ‘a’ in een string voorkomt
+- het vinden van het eerste getal dat groter is dan 10, maar kleiner is dan 15.
 
 Het patroon bestaat uit een for-loop over de gehele rij, een if-statement (of if/elsestatements)
-en het teruggeven van de gezochte informatie. 
+en het teruggeven van de gezochte informatie.
 In codevoorbeeld 9.1 zien we deze structuur toegepast om de index van het eerste getal te vinden dat groter is dan 5.
 
 ```c++
@@ -86,19 +92,22 @@ int main(){
   // The first index with a number larger than 5 is at: 3
 }
 ```
+
 *Codevoorbeeld 9.1 - Informatie uit een rij 1*
 
 ### Break
+
 Als we een getal hebben gevonden dat groter is dan 5 is het niet meer nodig om de rest van de getallen te bekijken. We waren immers op zoek naar de index van het eerste getal groter dan 5. We stoppen daarom de for-loop met een break.
 
 ### De gezochte informatie
-We willen de gezochte informatie buiten de for-loop kunnen gebruiken. Hiervoor maken we voor de for-loop een variabele aan waarin we de informatie kunnen opslaan als we die gevonden hebben. 
-In codevoorbeeld 9.1 is dat de variabele *index*. We geven deze variabele als startwaarde een gekke waarde (een index van -1 kan niet in C++). 
-Deze gekke waarde geeft ons de mogelijkheid om makkelijk te herkennen dat de informatie die we zoeken niet in de rij staat. 
+
+We willen de gezochte informatie buiten de for-loop kunnen gebruiken. Hiervoor maken we voor de for-loop een variabele aan waarin we de informatie kunnen opslaan als we die gevonden hebben.
+In codevoorbeeld 9.1 is dat de variabele *index*. We geven deze variabele als startwaarde een gekke waarde (een index van -1 kan niet in C++).
+Deze gekke waarde geeft ons de mogelijkheid om makkelijk te herkennen dat de informatie die we zoeken niet in de rij staat.
 Stel dat er in de rij geen getal groter dan 5 zit. In dat geval gaan we met de for-loop de gehele
 rij af, maar veranderen we de variabele index niet. Na de for-loop bevat de variabele index dan nog steeds zijn gekke startwaarde -1.
 
-Als we deze for-loop in een functie zetten, dan hebben we geen variabele nodig om de gevonden waarde in op te slaan. 
+Als we deze for-loop in een functie zetten, dan hebben we geen variabele nodig om de gevonden waarde in op te slaan.
 Dit zien we in codevoorbeeld 9.2.
 
 ```c++
@@ -131,29 +140,33 @@ int main(){
   // The first index with a number larger than 5 is at: 3
 }
 ```
+
 *Codevoorbeeld 9.2 - Informatie uit een rij 2*
 
 ### Return i
+
 Met return i geven we de gezochte informatie terug. Als een return wordt aangeroepen,
 dan stopt de functie gelijk en wordt de waarde teruggeven. Aangezien de functie gelijk
 stopt, stopt ook de for-loop direct.
 
 ### Return -1
+
 Wederom kan het zijn dat in de rij geen getal zit dat groter is dan 5. In dat geval wordt de hele for-loop doorlopen zonder dat er iets wordt gereturnd. Om aan de gebruiker duidelijk te maken dat we de gezochte informatie niet hebben gevonden geven we een gekke waarde terug: -1.
 
 ## Informatie over een rij
-Een andere situatie die we met programmeren tegenkomen als we één rij hebben is dat we informatie over de gehele rij willen hebben. 
+
+Een andere situatie die we met programmeren tegenkomen als we één rij hebben is dat we informatie over de gehele rij willen hebben.
 
 Voorbeelden hiervan zijn:
+
 - het bepalen van het maximum van een rij getallen
 - het bereken van het gemiddelde van een rij getallen;
 - het verzamelen van alle negatieve getallen van de rij;
 - het tellen van het aantal ’b’-tjes in een string.
 
-De oplossing voor dergelijke vragen bestaat altijd uit een for-loop. We beginnen met het definiëren van een resultaat-variabele waarin we de uitkomst opslaan. Deze moeten we een zinnige startwaarde geven. Daarna start een for-loop over de gehele rij. Binnen in de for-loop moeten we aangeven hoe we de resultaat variabele updaten. Afhankelijk van het probleem gebeurt het updaten elke keer of alleen als er wordt voldaan aan de conditie van een if-statement. 
+De oplossing voor dergelijke vragen bestaat altijd uit een for-loop. We beginnen met het definiëren van een resultaat-variabele waarin we de uitkomst opslaan. Deze moeten we een zinnige startwaarde geven. Daarna start een for-loop over de gehele rij. Binnen in de for-loop moeten we aangeven hoe we de resultaat variabele updaten. Afhankelijk van het probleem gebeurt het updaten elke keer of alleen als er wordt voldaan aan de conditie van een if-statement.
 
 In *codevoorbeeld 9.3* zien we dit uitgewerkt voor het bepalen van de maximale waarde uit een vector\<int\>. In *codevoorbeeld 9.4* zien we het bepalen van de frequentie van een letter in een string.
-
 
 ```c++
 #include <iostream>
@@ -180,6 +193,7 @@ int main(){
   // m: 9
 }
 ```
+
 *Codevoorbeeld 9.3 - Een max-functie*
 
 ```c++
@@ -206,17 +220,20 @@ int main(){
   // count_e: 5
 }
 ```
+
 *Codevoorbeeld 9.4 - Een tel-functie*
 
 ### Zinnige beginwaarde
+
 Het is belangrijk dat je de resultaat-variabele op een zinnige waarde laat starten. Bij de functie `count()` in *codevoorbeeld 9.4* zouden we het verkeerde resultaat krijgen als we de variabele count op regel 5 initialiseren met een waarde anders dan 0.
 
 Wat minder overduidelijk is de startwaarde van resultaat-variabele max in de functie `max()` in *codevoorbeeld 9.3*. Als we max zouden initialiseren op de waarde 0, dan zou de functie nog in veel gevallen het goede resultaat geven. Als een rij echter met enkel negatieve getallen aan de functie wordt meegegeven zal de functie
 een 0 teruggeven in plaats van het hoogste negatieve getal uit de rij.
 
 ## Waarden omwisselen
+
 Als we in een programma twee variabelen van waarden willen omwisselen, dan moeten we voordat we één van de variabelen de nieuwe waarde geven de oude waarde opslaan.
-Doen we dit niet dan gaat één van de waarden verloren. 
+Doen we dit niet dan gaat één van de waarden verloren.
 In *codevoorbeeld 9.5* zien we hoe je correct twee variabelen van waarde laat wisselen.
 
 ```c++
@@ -246,23 +263,28 @@ int main(){
 *Codevoorbeeld 9.5 - Swappen*
 
 ### tmp
+
 De variabele tmp staat voor temporary. Dit is de gebruikelijke naamgeving voor een variabele die enkel dient als tussenvariabele.
 
 ## Informatie uit en over een rij van rijen
+
 Gegevens worden vaak opgeslagen in een rij van rijen. In deze sectie bespreken we hoe je uit een rij van rijen informatie haalt of er informatie uit onttrekt.
 
 ### Informatie uit een rij van rijen
+
 Voorbeelden van informatie uit een rij van rijen zijn:
+
 - Het controleren van het voorkomen van een letter in een lijst woorden.
 - Het vinden van een locatie van een object in een 2D-spel.
 - Het vinden van alle witte pixels in een zwart-wit afbeelding.
 
 De aanpak bij een rij van rijen is niet veel anders dan als bij een enkele rij. Het grootste
-verschil is dat we nu twee for-loops nodig hebben. 
+verschil is dat we nu twee for-loops nodig hebben.
 
 In *codevoorbeeld 9.6* zien we een functie die informatie zoekt in een rij van rijen.
 
-```c++
+```cpp
+{% raw %}
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -280,8 +302,12 @@ vector<int> findIndexNumberBiggerThan5(vector<vector<int>> m){
 
 int main(){
   vector<vector<int>> numbers =
-  {{1, 2, 2}, {1,2,4,7,9},
-  {3}, {4,2,4,2,9,3,2}};
+  {
+   {1, 2, 2}, 
+   {1, 2, 4, 7, 9},
+   {3},
+   {4, 2, 4, 2, 9, 3, 2}
+   };
 
   vector<int> index = findIndexNumberBiggerThan5(numbers);
 
@@ -293,17 +319,22 @@ int main(){
     cout << "All number are smaller than 5." << "\n";
   }
 }
+{% endraw %}
 ```
+
 *Codevoorbeeld 9.6 - Informatie uit een rij van rijen*
 
 ### Size()
+
 In *codevoorbeeld 9.6* zien we dat in een rij van rijen, de rijen verschillende lengte kunnen
 hebben. Het is dus belangrijk dat we in de tweede for-loop echt de size opvragen van de juiste rij. In *codevoorbeeld 9.6* gebeurt dat met de code:
 `m[i].size()`.
 
 ### Informatie over een rij van rijen
+
 Het kan ook voorkomen dat we informatie willen hebben over een rij van rijen.
 Voorbeelden hiervan zijn:
+
 - Het gemiddelde van een matrix.
 - Het aantal gele pixels in een afbeelding van Spongebob.
 
@@ -356,9 +387,11 @@ int main(){
 }
 
 ```
+
 *Codevoorbeeld 9.7 - Informatie over een rij van rijen.*
 
 ## Andere design patterns
+
 ### [Reductie](../patronen/reductie/README.md)
 <!-- Er is een apart md-bestand met informatie over reductie -->
 
