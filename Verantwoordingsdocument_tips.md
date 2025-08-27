@@ -1,19 +1,17 @@
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Verantwoordingsdocument Tips
+# Verantwoordingsdocument Tips[](title-id) <!-- omit in toc -->
 
-### Inhoud
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Verantwoordingsdocument Tips](#verantwoordingsdocument-tips)
-    - [Inhoud](#inhoud)
-  - [Portfolio Technische Informatica (TI) Semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
-    - [Verantwoordingsdocument](#verantwoordingsdocument)
-    - [Portfolio en Portfolio-Items](#portfolio-en-portfolio-items)
-    - [Structuur van jouw repositories](#structuur-van-jouw-repositories)
+- [Portfolio Technische Informatica (TI) Semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
+  - [Verantwoordingsdocument](#verantwoordingsdocument)
+  - [Portfolio en Portfolio-Items](#portfolio-en-portfolio-items)
+  - [Structuur van jouw repositories](#structuur-van-jouw-repositories)
 
 ---
 
-**v0.1.0** Start document voor verantwoordingsdocument tips door HU IICT.
+**v0.1.0[](version-id)** Start document voor verantwoordingsdocument tips door HU IICT[](author-id).
 
 ---
 

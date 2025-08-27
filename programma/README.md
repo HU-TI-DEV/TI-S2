@@ -44,17 +44,17 @@ De contacturen zijn:
 
 |dag|van|tot| lokaal |
 |---|---|---| --- |
-| ma | 13.00 | 16.00 | HL15-4.056 
-| di | 9.00 | 12.00 | HL15-4.056
-| wo | 9.00 | 12.00 | HL15-4.056
-| do | 9.00 | 12.00 | HL15-4.056
+| ma | 13.00 | 16.00 | HL15-4.056 |
+| di | 09.00 | 12.00 | HL15-4.056 |
+| wo | 09.00 | 12.00 | HL15-4.056 |
+| do | 09.00 | 12.00 | HL15-4.056 |
 
 De docenten zijn:
 
-* (**TM**) Teun Pieter Moddermann
-* (**GP**) Gera Pronk
-* (**HP**) Hagen Patzke
-* (**HS**) Harm Snippe
+- (**TM**) Teun Pieter Moddermann
+- (**GP**) Gera Pronk
+- (**HP**) Hagen Patzke
+- (**HS**) Harm Snippe
 
 ## Programma
 
@@ -77,14 +77,16 @@ De docenten zijn:
 | do  | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
 
 ### Onderwijsweek A3 (15-09-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**HS**) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**).Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin.|
+| wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) [SPI](./lesprogramma/programma-SPI.md) (**HP**)[Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)    |
 
 ### Onderwijsweek A4 (22-09-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
@@ -93,6 +95,7 @@ De docenten zijn:
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md)(**GP**)|
 
 ### Onderwijsweek A5 (29-09-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
@@ -101,13 +104,16 @@ De docenten zijn:
 | do  | **1e Peilmoment**  |
 
 ### Onderwijsweek A6 (06-10-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
+
 ### Onderwijsweek A7 (13-10-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
@@ -116,9 +122,11 @@ De docenten zijn:
 | do  | [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
 ### Onderwijsweek A8 (20-10-2025)
+
 Herfstvakantie
 
 ### Onderwijsweek A9 (27-10-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
@@ -127,6 +135,7 @@ Herfstvakantie
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**)  |
 
 ### Onderwijsweek A10 (03-11-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**)|
@@ -135,6 +144,7 @@ Herfstvakantie
 | do  | **2de Peilmoment** [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
 ### Onderwijsweek B1 (10-11-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)   |
@@ -143,6 +153,7 @@ Herfstvakantie
 | do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 
 ### Onderwijsweek B2 (17-11-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**)|
@@ -150,8 +161,8 @@ Herfstvakantie
 | wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
 
-
 ### Onderwijsweek B3 (24-11-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
@@ -160,6 +171,7 @@ Herfstvakantie
 | do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 
 ### Onderwijsweek B4 (01-12-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
@@ -168,6 +180,7 @@ Herfstvakantie
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek B5 (08-12-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
@@ -176,6 +189,7 @@ Herfstvakantie
 | do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
 ### Onderwijsweek B6 (15-12-2025)
+
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HS**) |
@@ -184,27 +198,34 @@ Herfstvakantie
 | do  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 
 ### Onderwijsweek B7 (22-12-2025)
+
 vakantie
+
 ### Onderwijsweek B8 (29-12-2025)
+
 vakantie
+
 ### Onderwijsweek B9 (05-01-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  ||
 | di  ||
-| wo  || 
+| wo  ||
 | do  | **4e Peilmoment**  |
 
 ### Onderwijsweek B10 (12-01-2026)
+
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
 ### Onderwijsweek B11 (19-01-2026)
+
 Verbeterweek 1
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
 ### Onderwijsweek B12 (26-01-2026)
+
 Verbeterweek 2
 
 Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
