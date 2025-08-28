@@ -1,6 +1,4 @@
-# software
-
-[Todo: modelleren mist een README.md]: #
+# Software
 
 * [c++/](../software/c++/README.md)
   * [basisconcepten/](../software/c++/basisconcepten/README.md)
@@ -50,17 +48,14 @@
     * [recursie/](../software/c++/patronen/recursie/README.md)
     * [reductie/](../software/c++/patronen/reductie/README.md)
   * [programmastroom/](../software/c++/programmastroom/README.md)
-* [communicatie/](../software/communicatie/README.md)
+* [communicatie/](../software/communicatie/)
   * [MQTT/](../software/communicatie/MQTT/README.md)
 * [getalsysteem/](../software/getalsysteem/README.md)
 * [git/](../software/git/README.md)
 * [inrichten-ontwikkelomgeving/](../software/inrichten-ontwikkelomgeving/README.md)
 * [modelleren](../software/modelleren/inleverformat-voor-modelleeropdrachten.md)
-  
-[Todo: modelleren mist een README.md]: #
-
 * [python](../software/python/python-op-vscode.md)
-* [visueel-programmeren/](../software/visueel-programmeren/README.md)
+* [visueel-programmeren/](../software/visueel-programmeren/)
   * [Node-RED/](../software/visueel-programmeren/Node-RED/README.md)
-* [webserver/](../software/webserver/README.md)
+* [webserver/](../software/webserver/)
   * [Flask/](../software/webserver/Flask/README.md)
