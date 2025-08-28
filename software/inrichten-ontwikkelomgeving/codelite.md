@@ -1,9 +1,8 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# CodeLite ontwikkelomgeving[](title-id)
+# CodeLite ontwikkelomgeving[](title-id) <!-- omit in toc -->
 
-- [CodeLite ontwikkelomgeving](#codelite-ontwikkelomgeving)
-  - [CodeLite](#codelite)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Uitgebreide software ontwikelomgeving](#uitgebreide-software-ontwikelomgeving)
   - [Vooraf](#vooraf)
   - [Software-ontwikkelomgeving](#software-ontwikkelomgeving)
@@ -31,7 +30,7 @@ De procedure duurt in totaal ongeveer 15-20 minuten.
 
 Installeer de onderstaande programma’s in de standaard directories. Dus geef geen alternatieve locaties aan.
 
-- Python 3: https://www.python.org/downloads/release/
+- Python 3: <https://www.python.org/downloads/release/>
 - 7-Zip: https://www.7-zip.org/
 Gewoon heb je de ‘*.exe’-type van de ‘64-bit Windows x64’ versie nodig.
 Dit is de versie waarmee de procedure is getest.

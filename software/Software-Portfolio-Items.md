@@ -1,11 +1,9 @@
-# Portfolio items voor Software[](title-id)
+# Portfolio items voor Software[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Portfolio items voor Software](#portfolio-items-voor-software)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Portfolio items voor software](#portfolio-items-voor-software-1)
+- [Een introductie](#een-introductie)
+- [Portfolio items voor software](#portfolio-items-voor-software)
 
 ---
 
@@ -16,13 +14,13 @@
 ## Een introductie
 
 Hieronder staat een vertaling van (een deel van de)  [Portfolio items](../Portfolio-items.md) naar de software die je krijgt aangeleerd in dit semester.
-Of, misschien beter gezegd, hieronder kun je vinden welke rol het C++ onderwijs speelt in jouw portfolio. 
+Of, misschien beter gezegd, hieronder kun je vinden welke rol het C++ onderwijs speelt in jouw portfolio.
 *Let op: leidend is de informatie op de pagina met de volledige lijst met [Portfolio items](../Portfolio-items.md).*
 
 ## Portfolio items voor software
 
 Portfolio item | Beschrijving & Meer info
---- | --- | 
+--- | --- |
 Repository | Link naar repository met alle branches, commits en merges. Meer info: [git & github](../software/git/README.md).
 Commits. Review **Feedback** op Commits | Feedback van een reviewer; steekproef.
 Commits. Gefilterde Commit Reports | Gefilterde commit-reports van de student zelf.
@@ -36,6 +34,6 @@ Activity Diagrammen | ...| [Criteria](../Portfolio-items.md#activity-diagrammen)
 Adviesrapport | Document met aanbevelingen voor verbeteringen: goed beargumenteerd; bevatten minimaal performance, kwaliteit en toepasbaarheid. [Criteria](../Portfolio-items.md#adviesrapport).
 Journaal / Logboek | Een (levend) document. [Criteria](../Portfolio-items.md#journaal--logboek)
 Uitleg video | Demonstratie of illustratie van product. [Criteria](../Portfolio-items.md#uitleg-video)
-Oefenopgave Git gebruik | Een repository voor het oefenen met Git inclusief oefencommits en merges. 
+Oefenopgave Git gebruik | Een repository voor het oefenen met Git inclusief oefencommits en merges.
 Modellen voor het gemeenschappelijke deel | Modellen behorende bij het volledige project. [Criteria](../Portfolio-items.md#modellen-voor-het-gemeenschappelijke-deel)
 Oefenopdrachten Software | Je laat met oefenopdrachten zien dat je de aangeboden stof begrijpt en eigen hebt gemaakt. Oefenopdrachten worden (wekelijks) aangereikt. [C++ Oefenopdrachten](../software/c++/opdrachten/README.md).

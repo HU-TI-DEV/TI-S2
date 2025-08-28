@@ -23,6 +23,7 @@ Installeer SFML met de packetmanager (dankzij Lia E.):
 ```bash
 pacman -Syu
 ```
+
 - De MSYS2 UCRT64 moet na afloop sluiten. Start dan de juiste terminal weer op en vervolg je stappen.
 - Voer het volgende commando uit:
 
@@ -42,7 +43,7 @@ Zelf installeren:
 
 Deze voorbeeldcode toont een venster met een cirkel en een vierkant.
 
-```c++
+```cpp
 /// @file main.c -- SFML install test
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -78,7 +79,6 @@ Je kan deze bestand ook [hier downloaden](./test_sfml_installatie.cpp).
 Dit is hoe het dan uitziet:
 
 ![test_sfml_installatie](./img/test_sfml_installatie.png)
-
 
 ## Voorbeeld tasks.json
 

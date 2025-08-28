@@ -43,7 +43,7 @@ Remedie: gebruik daarvoor de shortcut keys
 
 ## Shortcut keys
 
-<https://defkey.com/draw-io-shortcuts>
+<https://defkey.com/draw-io-shortcuts> <!-- markdown-link-check-disable-line -->
 
 <img src="./media/media/image3.png"
 width="1500px"

@@ -1,13 +1,11 @@
-# Doxygen installeren[](title-id)
+# Doxygen installeren[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Doxygen installeren](#doxygen-installeren)
-  - [Inhoud](#inhoud)
-    - [Wat is Doxygen?](#wat-is-doxygen)
-    - [Installatie Doxygen algemeen](#installatie-doxygen-algemeen)
-      - [Optie 1: Windows + VSCode](#optie-1-windows--vscode)
-      - [Optie 2: Windows + elke IDE](#optie-2-windows--elke-ide)
-      - [Meer informatie](#meer-informatie)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Wat is Doxygen?](#wat-is-doxygen)
+- [Installatie Doxygen algemeen](#installatie-doxygen-algemeen)
+  - [Optie 1: Windows + VSCode](#optie-1-windows--vscode)
+  - [Optie 2: Windows + elke IDE](#optie-2-windows--elke-ide)
+  - [Meer informatie](#meer-informatie)
 
 
 ### Wat is Doxygen?
