@@ -90,7 +90,7 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Bezoek Electronica & Applications beurs Jaarbeurs Utrecht. [Schrijf je zelf in als student.](https://fhi.nl/eabeurs/) (HS) |
 | wo  | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**)   |
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md)(**GP**)|
 
