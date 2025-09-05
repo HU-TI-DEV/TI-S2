@@ -80,7 +80,7 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Voorbereiden lesstof van wo. en do. (HS) plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**HS**) |
+| ma  | Voorbereiden lesstof van wo. en do. (TM) plus [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) |
 | di  | Presentatie van de opdrachtgever (**JvG & HS**) |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) [SPI](./lesprogramma/programma-SPI.md) (**HP**)[Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii)    |
