@@ -4,7 +4,7 @@ Kennismaking met het solderen van pinnen, headers en elektronische-componenten.
 
 ## Voorbereiding
 
-Lees de introductie [solderen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/prototyping/solderen/), onderdeel van prototyping. En bekijk deze video vooraf: [https://www.youtube.com/watch?v=jz67KgHzXVw]()
+Lees de introductie [solderen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/prototyping/solderen/), onderdeel van prototyping. En bekijk deze video vooraf: [https://www.youtube.com/watch?v=jz67KgHzXVw](https://www.youtube.com/watch?v=jz67KgHzXVw)
 
 Schrijf je in voor een tijdslot op de Canvas pagina (zie de agenda). De lessen zijn in het Turing Lab (HL15-4.060). 
 
