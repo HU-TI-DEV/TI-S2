@@ -48,7 +48,7 @@ public:
 *main.cpp*
 
 
-```c++
+```cpp
 #include "ostream"
 #include "xy.hpp"
 

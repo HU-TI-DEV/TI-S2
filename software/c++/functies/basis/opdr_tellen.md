@@ -9,7 +9,7 @@
 Schrijf een functie die berekent hoe vaak een geheel getal x in een integer-vector voorkomt. 
 
 De functie heeft de vorm:
-```c++
+```cpp
 int count(const vector<int> & numbers, const int x) {
     ...
     ...
@@ -17,7 +17,7 @@ int count(const vector<int> & numbers, const int x) {
 ```
 
 Een `main` functie kan deze `count`-functie aanroepen. Bijvoorbeeld:
-```c++
+```cpp
 int main(){
     vector<int> n = {37,4,9,4,9,37,3,5,0,4,1};
     int number_of_fours = count(n, 4);

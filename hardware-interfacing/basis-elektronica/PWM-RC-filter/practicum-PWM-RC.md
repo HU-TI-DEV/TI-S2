@@ -21,7 +21,7 @@ Een PWM signaal heeft een zogenaamde *"duty cyle"*. Een duty cycle geeft aan hoe
 We gaan dit testen aan de hand van de analoge outputs van de Arduino. De Arduino heeft een aantal digitale pinnen die ook PWM signalen kunnen uitsturen (pin 3,5,6,9,10,11). Je kan dit zien aan het tilde  (~) naast het pin nummer. 
 We gebruiken hier analogWrite voor: 
 
-```c++
+```cpp
 void setup() {
   pinMode(5, OUTPUT);
 }
@@ -41,7 +41,7 @@ Wat valt je op aan het scope beeld? Wat je in feite aan het doen bent is het ins
 
 3) We gaan nu een sweep introduceren. Met een sweep variër je de waarde van de uitgang afwisselend van laag naar hoog. Upload het volgende programma op je Arduino:
 
-```c++
+```cpp
 void setup() {
   pinMode(5, OUTPUT);
 }

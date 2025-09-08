@@ -69,7 +69,7 @@ public:
 
 #### Default parameter waarden
 We hebben nu twee constructors, maar dat is niet nodig als we een andere C++ feature gebruiken. We kunnen in de declaratie van een functie voor een parameter een default waarde aangeven. Bij het aanroepen van zo’n functie mogen de parameters die een default waarde hebben weggelaten worden. Dan worden van links naar rechts de parameters die wél worden meegegeven gebruikt, en voor de overige parameters worden de default waarden gebruikt.
-```c++
+```cpp
 class vector {
 public:
 int x;

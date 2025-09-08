@@ -39,7 +39,7 @@ door:
 
 
 **winners.hpp**:
-```c++
+```cpp
 #ifndef WINNERS_HPP
 #define WINNERS_HPP
 
@@ -54,7 +54,7 @@ float furthestScoreFromWinner(const vector<float>& scores);
 #endif /* WINNERS_HPP */
 ```
 **main.cpp**:
-```c++
+```cpp
 #include "winners.hpp"
 
 int main(){
@@ -71,7 +71,7 @@ int main(){
 ```
 
 **winners.cpp**:
-```c++
+```cpp
 #include "winners.hpp"
 
 float nearestScore2Average(const vector<float>& scores) { return 0.0; }

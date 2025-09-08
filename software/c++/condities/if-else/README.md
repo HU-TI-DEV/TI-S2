@@ -19,7 +19,7 @@ zien.
 
 ### if statement
 
-```c++
+```cpp
 #include <iostream> 
 using namespace std;
 
@@ -59,7 +59,7 @@ int main(){
 
 Codevoorbeeld met if-else-statements:
 
-```c++
+```cpp
 #include <iostream> 
 using namespace std;
 
@@ -102,7 +102,7 @@ in *codevoorbeeld 5.2*.
 ### Geneste if-statements
 Een conditie kan gelden binnen een andere conditie: een if-statement kan voorkomen binnen een ander if-statement. Dit noemen we een genest if-statement of *nested if-statement*.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

@@ -10,7 +10,7 @@
  
 - Wat zijn de waarden van de attributen `*pianocat*, *ceilingcat* en *happycat* na het uitvoeren van de code?
 
-```c++
+```cpp
 #include "cat.hpp"
 
 int main(int argc, char** argv) {
@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
 *main.cpp*
 
 
-```c++
+```cpp
 #ifndef CAT_HPP
 #define CAT_HPP
 

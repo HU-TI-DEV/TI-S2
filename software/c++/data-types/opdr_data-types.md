@@ -10,7 +10,7 @@
 - **Lees** de code uit *Codevoorbeeld 1.3.1 data-types simpel* (dus NIET uitvoeren!).
 - Schrijf van elke variabele (x, y, etc..) de waarde op die de variabele heeft na het uitvoeren. Doe dit zonder de code uit te voeren op een computer.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <string>
 using namespace std;
 
@@ -48,7 +48,7 @@ Je wilt natuurlijk weten of je het goed hebt gedaan.
 - **Lees** de code uit *Codevoorbeeld 1.3.3 data-types complex* (dus NIET uitvoeren!).
 - Schrijf van elke variabele (x, y, etc..) de waarde op die de variabele heeft na het uitvoeren. Doe dit zonder de code uit te voeren op een computer.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <string>
 using namespace std;
 

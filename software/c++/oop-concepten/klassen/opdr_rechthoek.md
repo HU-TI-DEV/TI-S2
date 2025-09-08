@@ -21,7 +21,7 @@
 ## Tips
 Hieronder staat voorbeeldcode die misschien behulpzaam is.
 
-```c++
+```cpp
 /// @file  main.cpp - incomplete code 
 /// exercise: draw a SFML rectangle
 #include <SFML/Graphics.hpp>

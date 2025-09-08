@@ -23,7 +23,7 @@ C++ kent ook een [do-while-loop](#do-while). Deze behandelen we niet in de les, 
 ### While - codevoorbeelden 
 Codevoorbeelden 5.4, 5.5 en 5.6 laten while-loops zien.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -72,7 +72,7 @@ int main(){
 ```
 *Codevoorbeeld 5.5 - while-loop 2*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

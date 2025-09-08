@@ -20,7 +20,7 @@ In het datatype integer kunnen we gehele getallen opslaan. De code in onderstaan
 
 In onderstaand codevoorbeeld zie je hoe de variabele number een type krijgt (declaratie) en een waarde krijgt (initialisatie).
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 int main(){
@@ -36,7 +36,7 @@ int main(){
 ```
 *Codevoorbeeld 3.1 Integers*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 int main(){

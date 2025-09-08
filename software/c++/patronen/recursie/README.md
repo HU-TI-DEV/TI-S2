@@ -102,7 +102,7 @@ De faculteit van het getal 0 heeft een bijzondere waarde: 0! is 1, volgens de de
 4! is gelijk aan 4 * 3 * 2 * 1 (=24).
 Als we dit combineren kunnen we zeggen dat 5! = 5 * (4!).
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -208,7 +208,7 @@ getal van de vector optellen bij de som van de rest van de vector. Om de som van
 steeds één stapje kleiner te maken: We tellen het laatste element uit numbers op bij de
 som van dezelfde rij waarvan we zeggen dat de lengte (size) nu eentje kleiner is.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -243,7 +243,7 @@ functie `sum()` uit *codevoorbeeld 14.3* heeft één basisgeval minder, maar wer
 De functie `sum()` in *codevoorbeeld 14.3* is **mooier en leesbaarder**. Bovendien is de functie **sneller**, omdat hij één if-statement per getal minder in de vector hoeft te doorlopen. Dit zou bij een kleine
 vector weinig verschil maken, maar aangezien we in de praktijk vaak met gigantische datasets of met kleinere langzamere computers werken kan dit veel tijd schelen. Als je een recursieve functie schrijft, sla dan stap 4 niet over: controleer je code. Misschien kun je je functie wel verbeteren.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;

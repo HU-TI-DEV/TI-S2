@@ -20,7 +20,7 @@ Bijvoorbeeld als we 5 keer “Hello, world” willen printen of als we alle char
 ## For - codevoorbeelden
 In codevoorbeelden 5.7 en 5.8 zien we de for-loop uitgewerkt.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 using namespace std;
 
@@ -39,7 +39,7 @@ int main(){
 *Codevoorbeeld 5.7 for-loop*
 
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 

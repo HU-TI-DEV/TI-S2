@@ -15,7 +15,7 @@
 - Pas de code aan zodat het programma iets over je project print. Bijvoorbeeld:
 `"Hello, greenhouse!"` of `"Hello, climate monitor!"`.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream> 
 using namespace std;
 

@@ -50,7 +50,7 @@ Door twee operational amplifiers te gebruiken kunnen we het circuit als donker- 
 
 ## Arduino example
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 int inPin = 7;    // Operational amplifier output connected to digital pin 7
 int val = 0;      // variable to store the read value
 

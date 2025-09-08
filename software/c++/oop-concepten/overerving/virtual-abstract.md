@@ -16,7 +16,7 @@ Zie ook: [Overerving](./README.md)
 ### Superklassen en pointers
 Als je in C++ een object van een afgeleide klasse gebruikt via een pointer of reference naar zijn superklasse, dan kan je alleen bij de eigenschappen van de superklasse. Het subklasse deel is er nog wel, maar het is voor jouw code onzichtbaar. Dit gaat zo ver dat als je in de superklasse en de subklasse een functie hebt met dezelfde naam, je dan toch de superklasse functie gebruikt.
 
-```c++
+```cpp
 class animal {
 public:
     void print(){
@@ -89,7 +89,7 @@ In talen die meer op gemak voor de programmeur en minder op snelheid gefocust zi
 - `abstract` met `= 0` op de plaats van de functie body. 
 - Als je in een afgeleide klasse een functie implementeert die in de superklasse virtual is, dan geef je dan aan met `‘override’` achter de parameter lijst.
   
-```c++
+```cpp
 class drawable {
 protected:
   window & w;
@@ -125,7 +125,7 @@ Als een klasse een of meer abstracte functies heeft (in het besproken geval geld
   *Dit is in de taal C++ niet verplicht, maar het is wel sterk aan te raden. De compiler kan dan namelijk checken of je wel echt een virtual functie uit de superklasse (her)definieert, zo niet dan krijg je een foutmelding. Daarnaast is het ook informatief voor iemand die je code leest.*
   *Zoals eerder gezegd: een superklasse pointer of reference kan naar een subklasse object verwijzen.*
 
-```c++
+```cpp
 class abstract {
 public:
   virtual void draw() = 0;

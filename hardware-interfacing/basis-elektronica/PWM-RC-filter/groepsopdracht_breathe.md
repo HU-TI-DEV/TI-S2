@@ -6,7 +6,7 @@ Tegenwoordig hebben veel apparaten een 'Breathe LED animatie' (ademhalingseffect
 
 ### Breathe template
 
-```c++
+```cpp
 // Practicum: PWM Breathe LED Animatie
 // Hardware: RGB LED met gemeenschappelijke kathode (4 pin LED)
 // Common kathode is de langste pin! Vergeet de weerstandjes niet.

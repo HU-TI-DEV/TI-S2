@@ -65,7 +65,7 @@ Het patroon bestaat uit een for-loop over de gehele rij, een if-statement (of if
 en het teruggeven van de gezochte informatie.
 In codevoorbeeld 9.1 zien we deze structuur toegepast om de index van het eerste getal te vinden dat groter is dan 5.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -110,7 +110,7 @@ rij af, maar veranderen we de variabele index niet. Na de for-loop bevat de vari
 Als we deze for-loop in een functie zetten, dan hebben we geen variabele nodig om de gevonden waarde in op te slaan.
 Dit zien we in codevoorbeeld 9.2.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -168,7 +168,7 @@ De oplossing voor dergelijke vragen bestaat altijd uit een for-loop. We beginnen
 
 In *codevoorbeeld 9.3* zien we dit uitgewerkt voor het bepalen van de maximale waarde uit een vector\<int\>. In *codevoorbeeld 9.4* zien we het bepalen van de frequentie van een letter in een string.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -196,7 +196,7 @@ int main(){
 
 *Codevoorbeeld 9.3 - Een max-functie*
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -236,7 +236,7 @@ Als we in een programma twee variabelen van waarden willen omwisselen, dan moete
 Doen we dit niet dan gaat één van de waarden verloren.
 In *codevoorbeeld 9.5* zien we hoe je correct twee variabelen van waarde laat wisselen.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -341,7 +341,7 @@ Voorbeelden hiervan zijn:
 De aanpak hiervoor is vergelijkbaar met die van het verkrijgen van informatie over
 een rij. Het grootste verschil is dat we nu twee for-loops nodig hebben.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>

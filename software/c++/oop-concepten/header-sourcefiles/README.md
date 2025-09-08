@@ -24,7 +24,7 @@ Over header files:
 - De header file wordt ge-#include door alle andere files die gebruik maken van de services die in de header file zijn gedeclareerd.
 - In code voorbeelden worden de #include regels vaak weggelaten; in code zijn ze natuurlijk wél nodig.
 
-```c++
+```cpp
 #ifndef LINE_HPP
 #define LINE_HPP
 
@@ -38,7 +38,7 @@ class line {
 Een functie of methode is meestal onderdeel van een bepaalde klasse. Voor de lijn klasse (`class line`) staat de implementatie van de print functie in de `line.cpp` file. Buiten deze klasse declaratie moet je aangeven bij welke klasse de functie behoort: voor de naam van de functie zet je zijn klasse-naam en `::` zetten, anders heb je het over een losse functie die niets met een klasse te maken heeft. Bínnen de klasse definitie zelf hoeft dat niet.
 De scope waarbinnen een functie geldig is, heet *namespace*.
 
-```c++
+```cpp
 #include ”line.hpp”
 
 void line::print(){

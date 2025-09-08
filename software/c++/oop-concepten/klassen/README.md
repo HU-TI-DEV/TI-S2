@@ -63,7 +63,7 @@ In de line class zijn de attributen (variabelen) private, en de methoden (functi
 ![UML diagram van de lijn klasse](uml_lijnklasse.png)
 *Image 1 - UML diagram van de lijn klasse*
 
-```c++
+```cpp
 class line {
 private:
   int start_x;

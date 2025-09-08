@@ -11,7 +11,7 @@ In C was het lang de gewoonte om vaste getallen als `#define` macro te declarere
 - en houden zich niet aan de normale zichtbaarheidsregels: je kunt in een functie geen lokale macro definiëren. 
 
 In onderstaande code gaat dit (daardoor) mis.
-```c++
+```cpp
 #define ARRAY_SIZE 100
 int array[ ARRAY_SIZE ];
 
@@ -33,7 +33,7 @@ Om het wat afwijkende karakter van macro’s aan te geven is het een gewoonte ma
 In C++ wordt in zo’n geval een `const declaratie` gebruikt: een variabele die bij zijn declaratie een waarde krijgt, die daarna niet meer veranderd kan worden. Zo’n const variabele houdt zich wel aan de zichtbaarheidsregels, net als iedere andere variabele.
 *N.B. C kent tegenwoordig ook const, maar het gebruik van #define voor dit doel is nooit helemaal verdwenen.*
 
-```c++
+```cpp
 const unsigned int array_size = 1000; 
 
 int array[ array_size ];

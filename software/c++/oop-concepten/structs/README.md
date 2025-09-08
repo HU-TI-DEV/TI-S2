@@ -32,7 +32,7 @@ Met de code in voorbeeld 04-01 (en natuurlijk de bijbehorende implementatie van 
 #### Naamgeving functie
 De naam van de functie (`line_print`) geeft aan wat de functie doet. Beide naamdelen zijn nuttig: als je ‘print’ weglaat weet je niet wat er met de lijn moet gebeuren (opslaan? uitwissen? roteren? ...); als je ‘line’ weglaat weet je niet wat de 4 parameters (getallen) betekenen (punten van een rechthoek? gemiddelde temperaturen van 4 dagen? …).
 
-```c++
+```cpp
 void line_print( int start_x, int start_y, int end_x, int end_y );
 
 . . . // hier is code weggelaten
@@ -67,7 +67,7 @@ Lees ook de [basisinformatie over het datatype struct](../data-types/struct/READ
 Het volgende code fragment laat zien hoe een line struct wordt gedefinieerd en gebruikt. Je ziet dat de print functie nog maar 1 parameter heeft. Het ‘lijn’ deel van de functienaam kunnen we nu ook weglaten, want de parameter *is* een lijn.
 Let op: onderstaande code kan nog verbeterd worden.
 
-```c++
+```cpp
 struct line {
   int start_x;
   int start_y;
@@ -93,7 +93,7 @@ Er zijn interessante discussies over het gebruik van overloading, sommigen (met 
 ### Memberfuncties
 De functie `print` hoort echt bij de lijn struct. Dit kunnen we uitdrukken door de lijn struct en de print functie te combineren. We declareren dan de print functie in de struct in plaats van er buiten. Zo’n functie wordt een *member functie* of *methode* genoemd. Zo’n member functie wordt aangeroepen met de syntax `object.functie(…)`, waarbij het object impliciet wordt doorgegeven, in het volgende voorbeeld dus `diagonal_line.print()`. In de parameterlijst van print komt line dus niet meer voor. [^1]
 
-```c++
+```cpp
 struct line {
   int start_x;
   int start_y;
@@ -120,7 +120,7 @@ Een constructor heeft **geen return type** (zelfs niet void).
 Bij het aanmaken van de lijn wordt nu een iets andere syntax gebruikt: de constructor parameters worden meegegeven bij het creëren van de variabele.
 Deze syntax wordt door de compiler afgedwongen: bij het creëren van een variabele die een of meer constructors heeft moet een van die constructors worden aangeroepen.
 
-```c++
+```cpp
 struct line {
   int start_x;
   int start_y;
@@ -153,7 +153,7 @@ Dat is eigenlijk alles wat een gebruiker moet weten: dat er in de lijn vier inte
 **Private vs public**:
 Code buiten de struct kan nu niet meer bij de attributen, maar de methoden van de struct kunnen nog wel gebruik maken van de attributen.
 
-```c++
+```cpp
 struct line {
 private:
   int start_x;

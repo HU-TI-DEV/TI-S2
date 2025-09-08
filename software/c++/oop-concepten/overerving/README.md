@@ -26,7 +26,7 @@ We kunnen een bal klasse schrijven met alle gegevens en functies van een cirkel 
 
 En, nog erger: dubbel leeswerk voor iemand die jouw code moet lezen, en de mogelijkheid dat een verbetering (bug fix, of een nieuwe feature) maar op 1 van de 2 plekken wordt doorgevoerd. **Code duplicatie is een teken van ‘code smell’: de geur van slechte code**.
 
-```c++
+```cpp
 class circle {
 private:
     vector midpoint;
@@ -53,7 +53,7 @@ void ball::update(){
 *Codevoorbeeld 12-01 - C++ code voor aparte cirkel en bal klassen, met een update functie (dit kan beter met overerving)*
 
 We kunnen nu een bal aanmaken, tekenen, zichzelf laten updaten, en dan weer tekenen.
-```c++
+```cpp
 window w( 128, 64, 2 );
 ball b( w, vector( 30, 30 ), 20, vector( 10, 20 ) );
 b.draw();
@@ -77,7 +77,7 @@ Voor de richting van de pijl kun je als ezelsbruggetje gebruiken dat de wijdere 
 
 ![UML diagram voor aparte cirkel en bal klassen](./img/uml_cirkel_bal.png)
 
-```c++
+```cpp
 class circle {
 private:
   window & w;
@@ -101,7 +101,7 @@ public:
 #### Constructor van afgeleide klasse
 In de constructor van bal moeten we de constructor van cirkel aanroepen, en de juiste parameters doorgeven.
 
-```c++
+```cpp
 ball::ball( window & w, const vector & midpoint, int radius, const vector & speed ):
   circle( w, midpoint, radius ),
   speed( speed )
@@ -111,7 +111,7 @@ ball::ball( window & w, const vector & midpoint, int radius, const vector & spee
 
 Er is nu wel een probleem met de *update functie*: dat is een functie van bal, maar hij probeert de positie, die een variabele van cirkel is, te wijzigen. Die variabele is privé, dus dat zal de compiler niet toestaan.
 
-```c++
+```cpp
 void ball::update(){
   midpoint += speed; // compiler error
 }
@@ -121,7 +121,7 @@ void ball::update(){
 #### Private, public of protected variabelen
 We kunnen die variabele natuurlijk publiek maken, maar dat is misschien wat te veel van het goede. Een tussenoplossing is om de variabele protected te maken: **dan is hij wel bereikbaar voor de klasse zelf en voor afgeleide klassen, maar niet voor andere code.**
 
-```c++
+```cpp
 class circle {
 protected:
   vector midpoint;
@@ -154,7 +154,7 @@ Merk op hoe weinig details er in de main staan:
 
 Zelfs het detail dat de bal beweegt is niet zichtbaar: de bal kan op de update reageren zoals hij wil, hij zou ook bijvoorbeeld van kleur of omvang kunnen veranderen.
 
-```c++
+```cpp
 int main(){
   window w( 128, 64, 2 );
   bal b( w, vector( 10, 10 ), 8, vector( 2, 2 ));
@@ -180,7 +180,7 @@ C++ is in principe een statisch (compile-time) getypeerde taal: bij een functie 
 #### Supertype als parameter in functies
 Dit kan in C++ als die verschillende typen een gemeenschappelijk supertype hebben: je kunt dan het *supertype* als parameter type gebruiken. Alle subtypen van dat supertype zijn dan toegestaan als parameter.
 
-```c++
+```cpp
 class animal { . . . };
 void sell( animal & a );
 
@@ -202,7 +202,7 @@ fly( a ); // ERROR: duck required, animal provided
 #### Pointers en references
 De regel dat een subklasse object overal gebruikt kan worden waar een superklasse vereist is geldt ook voor pointers en references. **Een superklasse pointer of superklasse reference kan ook naar een subklasse object wijzen**, maar andersom kan niet.
 
-```c++
+```cpp
 class animal { . . . };
 class duck : public animal { . . . };
 
@@ -218,7 +218,7 @@ dp = & a; // ERROR: duck pointer required, animal pointer provided
 ```
 *Codevoorbeeld 12-05 - een superklasse pointer kan ook naar een subklasse object wijzen*
 
-```c++
+```cpp
 class animal { . . . };
 class duck : public animal { . . . };
 

@@ -40,7 +40,7 @@ Behalve het veranderen van de parameters (de boolean waarde moet vervangen worde
 
 **Dit is typisch voor een adapter: de interface van de adapter is anders dan van het onderliggende object, maar de functie (wat er eigenlijk gebeurt) is meestal hetzelfde.**
 
-```c++
+```cpp
 void window_window::draw( const vector & pixel, bool v ){
   for( int dx = 0; dx < scale; dx++ ){
     for( int dy = 0; dy < scale; dy++ ){
@@ -59,7 +59,7 @@ void window_window::draw( const vector & pixel, bool v ){
 ## Decorator voorbeeld: window
 Een window is trouwens ook een goede kandidaat voor decorators. De mirror decorator splitst de window in twee sub-windows, en print naar beide windows, maar *geïnverteerd*.
 
-```c++
+```cpp
 class window_mirror : public window {
 private:
   window & w;
@@ -80,7 +80,7 @@ public:
 ```
 *Codevoorbeeld 17-05 - Een mirror decorator*
 
-```c++
+```cpp
 int main(){
 
   window_window w1( vector( 128, 64 ), 2 );

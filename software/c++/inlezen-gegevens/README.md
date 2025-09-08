@@ -21,7 +21,7 @@ Voor *cin* hebben we net als
 voor *cout* de library *iostream* nodig. In codevoorbeeld 6.1 wordt de gebruiker om
 input gevraagd.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -47,7 +47,7 @@ dubbele punthaken `>>`.
 In codevoorbeeld 6.2 is hier een voorbeeld van gegeven. Als er meer waarden worden ingevoerd dan er variabelen zijn, wordt wat “over” is
 genegeerd.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -69,7 +69,7 @@ Het scheiden van inputwaarden met spaties kan fijn zijn, maar is meestal niet wa
 gebruiker verwacht. Zeker niet als de gebruiker wordt gevraagd om een string in te
 voeren. Met de functie `getline()` kunnen we een hele regel inlezen als één invoer.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;

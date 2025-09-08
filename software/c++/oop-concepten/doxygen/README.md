@@ -52,7 +52,7 @@ Helaas zie je, vooral in een-persoons open-source projecten, nogal eens ‘excuu
 - De mogelijke Doxygen kommando's vind je [in het Doxygen manual](https://www.doxygen.nl/manual/commands.html).
 - De Doxygen commands staan altijd in een C/C++ commentaar. Zij mogen beginnen met '@' of '\'.
 
-```c++
+```cpp
 /** @file
  *  @brief 2D integer vector ADT
  *  @details

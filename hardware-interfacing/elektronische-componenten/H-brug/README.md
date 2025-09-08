@@ -57,7 +57,7 @@ Met een H-brug kunnen we het potentiaal omdraaien en met PWM kunnen we de stroom
 
 ## Arduino example
 
-```c++
+```cpp
 //L298N driver motor B connected, setup Arduino Pins
 const int IN3 = 5;
 const int IN4 = 4;

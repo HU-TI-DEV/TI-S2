@@ -15,7 +15,7 @@
 
 *Beschrijf* in één zin wat de onderstaande functie doet. Probeer de code alleen te *lezen* en niet uit te voeren.
 
-```c++
+```cpp
 int ears(int n_rabbits){
     if(n_rabbits <= 1){
         return n_rabbits * 2;
@@ -29,7 +29,7 @@ int ears(int n_rabbits){
 
 Hoe vaak wordt de onderstaande code uitgevoerd als `a=900` en `b=280`?
 
-```c++
+```cpp
 int findGCD(int a,int b){
     if(a == b){
         return a;
@@ -92,7 +92,7 @@ zijn.
 Tip: Kijk naar het uiteindelijke resultaat; de volgorde in instructies mag 'gehusseld' worden (bv. north en daarna south is gelijk aan south en daarna north).
 
 De instructies naar de schat zijn:
-```c++
+```cpp
 Vector<string> map = 
   {"west", "west", "south", "south", "south", "west",
   "west", "west", "north", "north", "north", "north", "north", "west",

@@ -19,7 +19,7 @@ of vector aanmaken en
 - Zorg dat de functie werkt in de onderstaande functie `isPalindroom()`. 
 - Test de functie met de volgende woorden: stekkerdoos, Halloween, lepel, flesje en bommelding*.
 
-```c++
+```cpp
 bool isPalindroom(const string& word){
   string orginalWord = word;
   reverse(orginalWord);

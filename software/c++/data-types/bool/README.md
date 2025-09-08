@@ -11,7 +11,7 @@ In codevoorbeeld 3.6 zien we hoe we met de boolean omgaan in C++.
 ### bool
 Met het sleutelwoord bool geven we aan dat een variabele van het datatype boolean is.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

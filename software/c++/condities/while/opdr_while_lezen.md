@@ -11,7 +11,7 @@ In de onderstaande code krijgt de variabele *number* verschillende waarden.
 Schrijf deze waarden in goede volgorde op.
 Doe dit **zonder** de code uit te voeren.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 using namespace std;
 

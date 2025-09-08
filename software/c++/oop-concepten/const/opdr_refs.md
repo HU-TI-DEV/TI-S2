@@ -9,7 +9,7 @@ Geef van de onderstaande code aan
 - en waarom (niet).
 
 
-```c++
+```cpp
 class vehicle {
   ...
 };

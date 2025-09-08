@@ -10,7 +10,7 @@ Voer onderstaande opdracht uit door de code alleen te **lézen**.
 Gegeven de klasse definitions (zie onder). 
 - Geef aan wat de typen zijn van de variabelen `a` t/m `i`.
 
-```c++
+```cpp
 class course {
 public:
     const std::vector<char> name;
@@ -39,7 +39,7 @@ public:
 ```
 *class definitions*
 
-```c++
+```cpp
 ...
 klas v1a;
 auto a = v1a;

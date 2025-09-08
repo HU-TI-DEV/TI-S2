@@ -56,7 +56,7 @@ De C++ code voor een *inverter decorator* is een klasse die
 
 In plaats van **'master'** kun je ook 'controller', parent, leader of primary tegenkomen.
 
-```c++
+```cpp
 class pin_in_out_invert : public hwlib::pin_in_out {
 private:
   hwlib::pin_in_out & minion;
@@ -84,7 +84,7 @@ public:
 
 In een eerder programma kopieerden we een schakelaar naar een LED. Dat kopiëren kunnen we onderbrengen in een functie.
 
-```c++
+```cpp
 void copy_pins(
   hwlib::pin_in_out & destination,
   hwlib::pin_in_out & source
@@ -105,7 +105,7 @@ Maar nu hebben we een probleem:
 
 Dit kunnen we oplossen door aan de `copy_pins` functie niet de ‘originele’ LED en schakelaar pinnen mee te gaven, maar een van beiden te *inverteren*.
 
-```c++
+```cpp
 int main( void ){
   . . .
   auto led = target::pin_in_out( target::pins::led );
@@ -127,7 +127,7 @@ Het is lastig om in C++ een variabel aantal parameters mee te geven, maar voor e
 
 Het is in C++ niet mogelijk een array van references te maken, dus worden de adressen van de ‘minion’ pin_out’s opgeslagen in een array.
 
-```c++
+```cpp
 class pin_out_all : public hwlib::pin_out {
 private:
   hwlib::pin_out * list[ 4 ];
@@ -152,7 +152,7 @@ public:
 
 Met deze decorator kunnen we `hwlib::blink` gebruiken om meer dan 1 pin tegelijk te laten blinken.
 
-```c++
+```cpp
 int main( void ){
   . . .
   auto led0 = target::pin_out( target::pins::d7 );
@@ -168,7 +168,7 @@ int main( void ){
 Met deze twee decorators (`pin_out_all` en `pin_out_invert`, een variatie op `pin_in_out_invert`), kunnen we allerlei combinaties maken, bijvoorbeeld het patroon:
 ` xx--/--xx/xx--/--xx `.
 
-```c++
+```cpp
 int main( void ){
   . . .
   auto led0 = target::pin_out( target::pins::d7 );

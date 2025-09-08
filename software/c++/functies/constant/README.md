@@ -21,7 +21,7 @@ Codevoorbeeld 8.8 laat een functie getNext zien met een parameter letter die con
 Als we de waarde van de parameter in ons functie wel willen aanpassen, dan zorgen we dat de waarde “by copy” meegegeven wordt (zonder const en zonder &).
 (Dat wordt soms ook 'call-by-value' genoemd.)
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

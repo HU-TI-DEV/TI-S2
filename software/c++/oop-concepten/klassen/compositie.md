@@ -36,7 +36,7 @@ Net als bij attributen geeft een + of – voor de naam van het deelobject aan of
 Zie het UML diagram hierboven:
 In C++ zijn de vier compositie relaties zichtbaar als attributen van de rechthoek, van het type lijn. Om dit te kunnen doen moet de declaratie van lijn (line.hpp) opgenomen worden in de definitie van rechthoek.
 
-```c++
+```cpp
 #include ”line.hpp”
 
 class rectangle {
@@ -57,7 +57,7 @@ In de declaratie van lijn is een constructor gedeclareerd. Dat betekent dat we b
 #### Initialisatie van variabelen (in constructor)
 Vaak kun je kiezen of je klasse variabelen hun initiële waarden geeft in de initialisatie-lijst, of in de body (via assignments). Over het algemeen heeft het de voorkeur dit te doen in de initialisatielijst, omdat dat *effectiever* is (anders wordt de variabele eerst default-geconstrueerd en daarna ge-assigned). Ook komt het voor dat een datatype wél een constructor heeft maar géén assignment, zodat de initialisatielijst de enige optie is. (Andersom, dus wel assignment maar geen constructor die een specifieke waarde geeft, komt eigenlijk niet voor.)
 
-```c++
+```cpp
 #include ”rectangle.hpp”
 
 rectangle::rectangle( int start_x, int start_y, int end_x, int end_y ):
@@ -73,7 +73,7 @@ Ad. codevoorbeeld 04-10: Merk op dat er in de coördinaten soms +1 staat. Kun je
 
 Omdat de lijnen al geconstrueerd zijn in de constructor van rechthoek hoeft er in de print functie maar weinig gedaan te worden: het printen van de rechthoek wordt gedaan door het printen van de vier lijnen. Zie codevoorbeeld 04-11.
 
-```c++
+```cpp
 void rectangle::print(){
   left.print();
   right.print();
@@ -123,7 +123,7 @@ In de C++ code is een window reference attribuut toegevoegd die in de initialisa
 
 *Een reference lijkt op een pointer, maar een reference kun je niet naar een ander object laten wijzen, je kunt er niet mee rekenen, en je hoeft geen adres-van (&) en pointer-dereference (\*) operatoren te gebruiken.*
 
-```c++
+```cpp
 #include “window.hpp”
 
 class line {
@@ -154,7 +154,7 @@ Bij het aanmaken van een window object moet je de omvang in x en y richting meeg
 
 In het UML diagram zijn de lokale variabelen van window weggelaten omdat we daar even geen nadruk op willen leggen. In de praktijk zal een window op een PC in ieder geval zijn x_size, y_size en scale moeten opslaan, en ook een manier om bij zijn (door het Operating System beheerde) window te komen.
 
-```c++
+```cpp
 #include "window.hpp"
 #include "line.hpp"
 

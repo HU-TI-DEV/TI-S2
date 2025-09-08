@@ -34,7 +34,7 @@ Many linear actuators have a duty cycle. To limit wear an tear you should obey t
 
 ## Arduino example
 
-```c++
+```cpp
 //assign relay INx pin to arduino pin
 const int forwards = 7;
 const int backwards = 6;

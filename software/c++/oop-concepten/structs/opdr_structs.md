@@ -7,7 +7,7 @@
 ### Opdracht 4.3 Voorwerpen
 Gegeven is de struct-definitie:
 
-```c++
+```cpp
 struct furniture {
     int number = 0;
     string name = "";

@@ -11,7 +11,7 @@ Schrijf een compress-programma, dat uit een gegeven bestand een nieuwe bestand m
 door spaties en tabs(`\t`)). 
 
 De compress-functie heeft de volgende definitie:
-```c++
+```cpp
 void compress(string src_filename, string dest_filename){
   ...
   ...

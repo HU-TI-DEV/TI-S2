@@ -17,7 +17,7 @@ Een rekenkundige expressie is opgebouwd uit operanden (waarden, variabelen) en o
 
 Codevoorbeelden 4.1, 4.2 en 4.3 laten meerdere rekenkundige expressies zien.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -38,7 +38,7 @@ int main() {
 ```
 *Codevoorbeeld 4.1 Rekenkundige expressies*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -65,7 +65,7 @@ Voor het bewerkstelligen
 van een andere berekeningsvolgorde worden ronde haakjes ( ( en ) ) gebruikt. Dit zien
 we in *codevoorbeeld 4.1* bij variabele result2. Haakjes worden ook gebruikt om de leesbaarheid te verhogen.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -109,7 +109,7 @@ vallen:
 
 Een logische expressie levert als waarde *false* of *true* op. Codevoorbeelden 4.4, 4.5, 4.6 en 4.7 laten een aantal logische expressies zien.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -125,7 +125,7 @@ int main(){
 ```
 *Codevoorbeeld 4.4 Logische expressies > en <=*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -142,7 +142,7 @@ int main(){
 ```
 *Codevoorbeeld 4.5 Logische expressies && en ||*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -158,7 +158,7 @@ int main(){
 ```
 *Codevoorbeeld 4.6 Logische expressies !operator*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

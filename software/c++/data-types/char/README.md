@@ -14,7 +14,7 @@ Voor losse karakters heeft C++ een apart datatype: character. Dit geven we aan m
 
 *Codevoorbeeld 3.5* geeft voorbeeldcode voor het werken met characters.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

@@ -16,7 +16,7 @@ lezen van bestanden.
 Schrijven naar een bestand kan op verschillende manieren. In *codevoorbeeld 11.1* staat voorbeeldcode voor het schrijven van een bestand. Hierbij wordt het oorspronkelijke bestand in zijn geheel overschreven. Willen we niet de oorspronkelijke inhoud
 verwijderen, maar iets toevoegen aan het einde, dan moeten we aan de open functie de parameter `ofstream::app` (append) toevoegen. Dit zien we in *codevoorbeeld 11.2*.
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -31,7 +31,7 @@ int main () {
 *Codevoorbeeld 11.1 - Het overschrijven van een bestand*
 
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -66,7 +66,7 @@ In *codevoorbeeld 11.3* zien we een voorbeeld van code waarbij een bestand wordt
 wordt afgedrukt.
 
 
-```c++
+```cpp
 #include <iostream>
 #include <fstream>
 #include <string>

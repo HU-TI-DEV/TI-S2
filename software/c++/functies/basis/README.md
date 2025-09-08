@@ -26,7 +26,7 @@ De datatypes van zowel de return-waarde als de parameters moeten worden gespecif
 
 In codevoorbeelden 8.1, 8.2, 8.3 en 8.4 zien we enkele C++ functies en hoe deze functies worden aangeroepen.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -58,7 +58,7 @@ int main(){
 
 *Codevoorbeeld 8.1 Functies add en power met integers en floats* 
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -86,7 +86,7 @@ int main(){
 
 *Codevoorbeeld 8.2 Functies met bool en void*
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -115,7 +115,7 @@ int main(){
 
 *Codevoorbeeld 8.3 Functies met string en char*
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>

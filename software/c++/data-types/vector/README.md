@@ -36,7 +36,7 @@ Mocht het gebruik van een vector in je programma zorgen voor een compile error, 
 dan of bij je project de “C++ compiler options” op C++11 of hoger staat.
 
 ### Vector codevoorbeelden
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -56,7 +56,7 @@ int main(){
 ```
 *Codevoorbeeld 7.1 Een vector met floats* 
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -76,7 +76,7 @@ int main(){
 ```
 *Codevoorbeeld 7.2 Een vector met integers*
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>
@@ -125,7 +125,7 @@ int main(){
 
 *Codevoorbeeld 7.4 Een vector met vectoren van integers* 
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;

@@ -8,7 +8,7 @@
 In de onderstaande code staan drie functies, *postive1()*, *positive2()* en *positive3()*. 
 Wat de functies doen lijkt erg op elkaar.
 
-```c++
+```cpp
 #include <vector>
 using namespace std;
 

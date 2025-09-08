@@ -9,7 +9,7 @@
 In onderstaande code heeft de variabele `b` steeds een andere byte-waarde. Schrijf elke
 keer dat de waarde van b verandert zijn nieuwe byte-waarde op.
 
-```c++
+```cpp
 int main(){
     uint8_t mask = 0x6b;
     uint8_t b = 15;
@@ -27,7 +27,7 @@ Beschrijf in maximaal twee zinnen wat de onderstaande functie `upperAndLower()` 
 **Probeer dit te doen zonder de code op een computer uit te voeren.** 
 Je mag aannemen in je beschrijving dat de parameter van de functie enkel letters bevat.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>

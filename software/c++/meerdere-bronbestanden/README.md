@@ -45,12 +45,12 @@ Een headerfile (.hpp) bevat de interface. Het vertelt:
 
 *Codevoorbeelden 13.1* (`func.hpp`), *13.2* (`func.cpp`) en *13.3* (`main.cpp`) geven voorbeelden van het gebruik van meerdere bronbestanden.
 
-```c++
+```cpp
 int addTwice(int a, int b);
 ```
 *Codevoorbeeld 13.1 - Headerfile func.hpp*
 
-```c++
+```cpp
 #include "func.hpp"
 
 int add(int x, int y){
@@ -65,7 +65,7 @@ int addTwice(int a , int b){
 ```
 *Codevoorbeeld 13.2 - Sourcefile func.cpp*
 
-```c++
+```cpp
 #include "func.hpp"
 
 int main(){
@@ -104,7 +104,7 @@ Het bestand `func.hpp` uit *codevoorbeeld 13.1* is in *codevoorbeeld 13.5* uitge
 ### _FILE_NAME_HPP
 Merk op dat `FILE_NAME` in `_FILE_NAME_HPP` wordt vervangen door de naam van de betreffende file (in voorbeeld 13.5 is dit: `FUNC`).
 
-```c++
+```cpp
 #ifndef _FILE_NAME_HPP
 #define _FILE_NAME_HPP
 ... // content of the header file
@@ -112,7 +112,7 @@ Merk op dat `FILE_NAME` in `_FILE_NAME_HPP` wordt vervangen door de naam van de 
 ```
 *Codevoorbeeld 13.4 - Header-file opbouw*
 
-```c++
+```cpp
 #ifndef _FUNC_HPP
 #define _FUNC_HPP
 int addTwice(int a, int b);

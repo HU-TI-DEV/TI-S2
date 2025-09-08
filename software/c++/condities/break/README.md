@@ -11,7 +11,7 @@ gebruiken.
 Codevoorbeeld 5.9 laat het gebruik van een break zien. Let op dat de code voor de break nog wordt uitgevoerd. De code erna niet meer. De hoofdregel is dat je breaks niet gebruikt. **Code met breaks is bijna altijd minder leesbaar en foutgevoeliger.**
 Gebruik breaks dus enkel als het alternatief resulteert in minder leesbare code.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
