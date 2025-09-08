@@ -27,22 +27,16 @@ De basis van de projectorgansiatie van S2 is agile werken. We gebruiken hiervoor
 
 ## Feedback geven en ontvangen
 
-Voor het aantonen van de leeruitkomsten heb je naast het maken van werk feedback van anderen nodig en geef je ook zelf feedback. Ook als je later in het bedrijfsleven aan de slag gaat heb je deze vermogens hard nodig aangezien het de basis vormt voor zakkelijke communciatie. Je kan meer informatie over goed feedback geven hier vinden: [Feedback](../vermogens/Feedback/README.md). 
+Voor het aantonen van de leeruitkomsten heb je naast het maken van werk feedback van anderen nodig en geef je ook zelf feedback. Ook als je later in het bedrijfsleven aan de slag gaat heb je deze vermogens hard nodig aangezien het de basis vormt voor zakkelijke communciatie. Je kan meer informatie over goed feedback geven hier vinden: [Feedback](../vermogens/Feedback/README.md).
 
-## reflecteren vs evalueren 
+## reflecteren vs evalueren
 
 Naast anderen van constructieve feedback te voorzien ga je ook veel feedback ontvangen. Dit kan van je medestudenten zijn, van de docenten en later eventueel externe opdrachtgevers. Deze feedback moet je gebruiken om te reflecteren op jezelf en op de voortgang van je studie en het project. In dit topic geven we inzichten in de basis van [reflecteren](../vermogens/Reflecteren_en_evalueren/README.md) en geven we handvatten hoe je dit kan verwerken tot een evaluatiedocument.  
 
 ## Gesprekstechniek
 
-Mondelinge communicatie is een belangrijk kenmerk van het agile werken. Het vormt een van de basis ingredienten van het manifest. In het topic [Gesprekstechniek](../vermogens/Gesprekstechniek/README.md) vind je informatie over hoe je in gesrpekken de juiste toon kan vinden. 
+Mondelinge communicatie is een belangrijk kenmerk van het agile werken. Het vormt een van de basis ingredienten van het manifest. In het topic [Gesprekstechniek](../vermogens/Gesprekstechniek/README.md) vind je informatie over hoe je in gesrpekken de juiste toon kan vinden.
 
 ## Documenteren
 
-Je zou denken dat bij onderwijs het aantonen van de eigen kennis het belangrijkst is, maar het is minstens zo belangrijk om aan te kunnen tonen waar jouw kennis vandaan komt. Correcte bronvermelding is hierbij cruciaal. Uit welke data sheet komt jouw basis? Waarom maak je deze keuze? Dit zijn allemaal vragen die je eigenlijk alleen goed kan beantwoorden met de kennis van anderen. 
-
-
-
-
-
-
+Je zou denken dat bij onderwijs het aantonen van de eigen kennis het belangrijkst is, maar het is minstens zo belangrijk om aan te kunnen tonen waar jouw kennis vandaan komt. Correcte bronvermelding is hierbij cruciaal. Uit welke data sheet komt jouw basis? Waarom maak je deze keuze? Dit zijn allemaal vragen die je eigenlijk alleen goed kan beantwoorden met de kennis van anderen.

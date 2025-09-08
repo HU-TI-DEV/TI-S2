@@ -30,9 +30,11 @@ I<sup>2</sup>C gebruikt dus twee lijnen: SDA (Serial DAta) en SCL (Serial CLock)
 
 > De I<sup>2</sup>C standaard staat ‘clock stretching’ toe: een slave verlengt een klokpuls door de SCL-lijn laag te houden totdat de slave het bitje klaar heeft. Deze mogelijkheid wordt in de praktijk niet vaak gebruikt.
 
-## I<sup>2</sup>C Communicatie protocol
+## I2C Communicatie protocol
 
-![De SDA mag alleen veranderen als SCL laag is.](../I2C/img/SDA_SCL.png)
+(Ook geschreven: I<sup>2</sup>C of IIC.)
+
+![SDA mag alleen veranderen als SCL laag is.](../I2C/img/SDA_SCL.png)
 
 In de overdracht van databits gebruikt I2C een puls op de kloklijn (SCL) om één bit via de SDA-lijn over te dragen. Het protocol eist dat tijdens het verzenden van databits de SDA-lijn stabiel is (niet verandert) terwijl SCL verandert of hoog is (zie bovenstaand figuur). Als er meer dan één bit moet worden verstuurd, dan worden de bits één voor één overgedragen, het hoogste (meest significante) bit eerst. De SCL wordt altijd aangestuurd door de master (meestal een micro-controller), de SDA wordt aangestuurd door het device dat de data verzendt. Dit kan dus zowel de master als een slave zijn.
 
@@ -40,7 +42,7 @@ In de overdracht van databits gebruikt I2C een puls op de kloklijn (SCL) om éé
 
 Omdat I2C maar twee lijnen heeft moeten we buiten de data die we willen verzenden ook informatie verzenden om het proces van het dataverzenden in goede banen te leiden. Hiervoor heeft I2C twee paar speciale signalen, ook wel condities genoemd: S (start) en P (stoP). De S-conditie wordt verzonden door de SDA laag te maken terwijl SCL hoog is. De P-conditie wordt verzonden door de SDA hoog te maken terwijl SCL hoog is. S geeft het begin van een I2C transactie aan (je kan het zien als een soort reset), P geeft het einde van een transactie aan. Bovenstaand figuur laat de S- en P-conditie zien.
 
-Bij SPI zijn er selectielijnen om aan te geven welke slave mocht communiceren over de bus. Bij I<sup>2</sup>C hebben we geen selectielijnen, dus het communiceren over welke slave mag communiceren moet over de bus gaan. Bij I<sup>2</sup>C begint daarom elke transactie van data met een commando-byte die wordt verstuurd door de master. De commando-byte bevat een 7-bit adres, en één R/W-bit dat aangeeft of de transactie een write (de master gaat data naar de slave zenden) of een read (de slave gaat data naar de master zenden) is. De R/W-bit is 1 voor een read, 0 voor een write. 
+Bij SPI zijn er selectielijnen om aan te geven welke slave mocht communiceren over de bus. Bij I<sup>2</sup>C hebben we geen selectielijnen, dus het communiceren over welke slave mag communiceren moet over de bus gaan. Bij I<sup>2</sup>C begint daarom elke transactie van data met een commando-byte die wordt verstuurd door de master. De commando-byte bevat een 7-bit adres, en één R/W-bit dat aangeeft of de transactie een write (de master gaat data naar de slave zenden) of een read (de slave gaat data naar de master zenden) is. De R/W-bit is 1 voor een read, 0 voor een write.
 
 ![De opbouw van de commando-byte.](../I2C/img/commando_byte.png)
 
@@ -65,10 +67,11 @@ Merk op dat er in een read transactie geen gelegenheid is voor de master.
 ## De schakeling
 
 Als voorbeeld nemen we een SSD1306 0.96 inch I2C OLED display en sluiten dit aan op een Arduino Uno. Maak de volgende verbinding:
-* Vcc – 5V
-* Gnd – Gnd
-* SDA – A4
-* SCK – A5
+
+- Vcc – 5V
+- Gnd – Gnd
+- SDA – A4
+- SCK – A5
 
 ![SSD1306 0.96 inch I2C OLED](./img/SSD1306_bb.png)
 
@@ -76,7 +79,7 @@ Je dient nu alleen nog het I2C [Hexidecimal](../../../software/getalsysteem/READ
 
 ## Arduino voorbeeld code
 
-Installeer in de Arduino IDE de volgende libraries Adafruit GFX Library en Adafruit SSD1306.
+Installeer in de Arduino IDE de volgende libraries `Adafruit GFX Library` en `Adafruit SSD1306`.
 
 Upload de demo ssd1306_128x32_i2c en controleer of je het juiste adres gebruikt.
 

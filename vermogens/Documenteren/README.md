@@ -61,4 +61,4 @@ De SR04 Sonic Ranging Module 5V nodig heeft om te werken[3].
 
 [3]  E. F. Autheur, "Sparkfun Datasheets" Sparkfun, [URL naar bron](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf), accessed on: 04 02 2024.
 
-[4]  Ron Lach, "Documenteren" Pexels, [URL naar bron](https://www.pexels.com/nl-nl/foto/typen-schrijfmachine-retro-document-9757562/), accessed on: 04 02 2024.
+[4]  Ron Lach, "Documenteren" Pexels, [URL naar bron](https://www.pexels.com/nl-nl/foto/typen-schrijfmachine-retro-document-9757562/), accessed on: 04 02 2024. <!-- markdown-link-check-disable-line -->

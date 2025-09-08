@@ -4,18 +4,22 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
+- [Basis principe](#basis-principe)
+- [Button](#button)
+- [LED](#led)
+- [De schakeling](#de-schakeling)
 - [Arduino voorbeeld code](#arduino-voorbeeld-code)
 - [Oefeningen](#oefeningen)
 - [Referenties](#referenties)
 
 ---
 
-### Basis principe
+## Basis principe
 
 Als een deur schakelaar sluit, of als we een lampje willen aan/uitzetten, dan hebben we met digitale signalen te maken.
 Deze zijn of 'aan' of 'uit'. (Tegenover digitale kunnen [analoge signalen ook tussenstanden](../ADC/README.md) innemen.)
 
-### Button
+## Button
 
 Als je een button (knop) indrukt dan wordt een contact gesloten.
 
@@ -31,7 +35,7 @@ Wanneer je het knopje indrukt kunnen we dit met een Digital-I/O Pin meten en omz
 In de Arduino zijn weerstanden tegen +5V ingebouwd die we met `INPUT_PULLUP` kunnen inschakelen.
 Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen. Het betekent ook dat we deze button tussen pin en massa (GND, Ground) aansluiten om de waarde die we van de pin kunnen lezen van `1` (dat doet de `PULLUP`) naar `0` te wijzigen.
 
-### LED
+## LED
 
 Een LED ([Light Emitting Diode](../../../elektronische-componenten/LED/README.md)) kunnen we met een digitaal signaal aan- of uitzetten.
 Daarbij moeten we opletten dat er niet teveel stroom door de LED gaat. Als het goed is weten we dit principe nog van de Orientatie op Technische Informatica.
@@ -40,7 +44,7 @@ Daarbij moeten we opletten dat er niet teveel stroom door de LED gaat. Als het g
 
 In deze schakeling zijn LED en weerstand tussen +5V en de pin aangesloten. Daardoor licht de LED op als de spanning aan de pin 'laag' is - de LED licht op als we deze pin op '0' zetten, ze gaat uit als we de pin op '1' zetten.
 
-### De schakeling
+## De schakeling
 
 We tonen in dit voorbeeld een LED en een Button.
 
@@ -79,12 +83,12 @@ void loop() {
 // EOF
 ```
 
-[Arduino bestand](LED-Button/LED-Button.ino) 
+[Arduino bestand](LED-Button/LED-Button.ino)
 
 ## Oefeningen
 
 - Laat de LED knipperen wanneer je de knop indrukt, bijvoorbeeld 1x per seconde.
-- Extra uitdagend: Wanneer je de knop indrukt is deze niet direct hoog of laag door de mechanische constructie.
+- Extra uitdagend: Wanneer je de knop indrukt is deze niet direct hoog of laag door de mechanische constructie.\
   Dit kan je ondervangen door softwarematig een 'debounce delay' toe te voegen. Kan jij dit met software oplossen?
 
 ## Referenties
@@ -95,4 +99,4 @@ LED Datasheet
 
 Tactile switch
 
-- [Omron B3F-4055](https://www.sunrom.com/download/4338.pdf)
+- [Omron B3F-4055](https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf)

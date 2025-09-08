@@ -110,7 +110,6 @@ void loop() {
 
 Waarom is er geen MISO verbinding? Wat zou de DC (DATA/COMMAND) verbinding voor zijn? Uitdagend: Wat is in de code een F() macro en waarom zouden we het gebruiken?
 
-
 ## De schakeling met je team
 
 De volgende schakeling maak je **samen met je team**. Er is één  BME280 per team aanwezig.
@@ -144,4 +143,4 @@ BME280
 BMP280
 
 - [BMP280 Datasheet (PDF)](./files/bst-bmp280-ds001.pdf)
-- [Bosch Sensortec BMP280 page](https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/)
+- Bosch Sensortec BMP280 page: removed, see Archive.org for a copy: <https://web.archive.org/web/20250615055645/https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/>

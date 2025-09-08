@@ -27,7 +27,7 @@
 
 ## Een introductie
 
-This chapter provides information for dealing with electronic aspects of small intelligent devices. It is definitely not intended to educate the reader to the level of an electronic designer, but it aims to give a common language for communication with a (micro-) electronics specialist, and enough information to make rough calculations of the viability and functional properties of a design. More background and tips on using formulas refer to [calculations with units](./rekenen-met-eenheden/rekenen-met-eenheden.md).
+This chapter provides information for dealing with electronic aspects of small intelligent devices. It is definitely not intended to educate the reader to the level of an electronic designer, but it aims to give a common language for communication with a (micro-) electronics specialist, and enough information to make rough calculations of the viability and functional properties of a design. More background and tips on using formulas refer to [calculations with units](/programma/lesprogramma/programma-rekenen-met-eenheden.md).
 
 ## Current
 
@@ -69,50 +69,48 @@ A wire is never ideal, hence the amount of current that a wire can handle is lim
 
 | Phenomenon | Current |
 | -------- | --------- |
-| Lightning  | 30’000 A = 30kA | 
+| Lightning  | 30’000 A = 30kA |
 | Welding, car starter motor | 100A |
-| Domestic home section fuse | 16A | 
-| PC mains | 1A | 
-| Electric eel | 1A | 
-| Fatal to a human | 0.05A . . . 0.2A = 50mA . . . 200mA | 
-| Low-cost LED | 0.02A = 20mA | 
-| Barely detectable for a human | 0.001A = 1mA | 
-| Switch connected to a micro-controller pin | 10µA | 
+| Domestic home section fuse | 16A |
+| PC mains | 1A |
+| Electric eel | 1A |
+| Fatal to a human | 0.05A . . . 0.2A = 50mA . . . 200mA |
+| Low-cost LED | 0.02A = 20mA |
+| Barely detectable for a human | 0.001A = 1mA |
+| Switch connected to a micro-controller pin | 10µA |
 
 ## Voltage
 
 When an electrical source maintains a fixed surplus of charge on its one terminal (compared to its other terminal) it is called a voltage source. You can imagine voltage (depicted by the letter U) as the pressure difference on the charged particles that will cause them to flow from a place with a high pressure to a place with a lower pressure. The unit of voltage is the Volt, abbreviated as V. In most cases our electrical sources provide a more-or-less constant voltage, hence we often speak about a voltage source when we in fact mean a source of electrical energy (because the source must deliver both voltage and a current).
 
-To measure a voltage, a suitable instrument (which is unsurprisingly called a Volt meter) must be placed between the two terminals. Note that in this case the instrument does not replace anything. 
+To measure a voltage, a suitable instrument (which is unsurprisingly called a Volt meter) must be placed between the two terminals. Note that in this case the instrument does not replace anything.
 
 ![Putting a voltage measuring instrument in a circuit](../basis-elektronica/img/Voltage_measuring.svg)
 
 Some voltage levels that occur in nature and engineering are shown in the table below.
 
-
 | Phenomenon | Voltage |
 | -------- | --------- |
-| Lightning |	100’000 V |
-| Power grid |	400’000 V |
-| Electric eel |	800 V |
-| Domestic mains |	110 – 230 V |
-| Maximum considered safe for humans |	48 V |
-| Lead-acid car battery |	12, 24 V |
-| Electrical circuits |	1 - 30 V |
-| Radio battery |	9 V |
-| Li battery |	3 V |
-| Alkaline battery |	1.5 V |
-| Chips internally |	0.001 - 30 V |
+| Lightning | 100’000 V |
+| Power grid | 400’000 V |
+| Electric eel | 800 V |
+| Domestic mains | 110 – 230 V |
+| Maximum considered safe for humans | 48 V |
+| Lead-acid car battery | 12, 24 V |
+| Electrical circuits | 1 - 30 V |
+| Radio battery | 9 V |
+| Li battery | 3 V |
+| Alkaline battery | 1.5 V |
+| Chips internally | 0.001 - 30 V |
 
 Electrical energy is produced by converting another form of energy to electrical energy. The table below gives some examples.
 
 | Form of energy | Device that converts | |
 | -------- | --------- | --------- |
-| Kinetic (rotational) |	Dynamo |	Most common for generation |
-| Chemical |	Battery or accu |	Most common for storage |
-| Light |	Solar cell |	 |
-| Heat |	Thermocouple, Peltier element	 | |
-
+| Kinetic (rotational) | Dynamo | Most common for generation |
+| Chemical | Battery or accu | Most common for storage |
+| Light | Solar cell |  |
+| Heat | Thermocouple, Peltier element  | |
 
 Strictly speaking, a voltage is a difference between two points in a circuit. But it is very convenient to able to talk about the voltage at (one) point. To do this, we must define what the other (reference) point is. In most cases this is the so-called ground point, often depicted by an (open) or closed bar. In most cases this is the most negative point in the circuit. When multiple bars are shown in a circuit, they are understood to be connected.
 
@@ -150,7 +148,7 @@ A circuit diagram is a symbolic representation of an electronic circuit. It cons
 
 ![These circuit diagrams are equivalent](../basis-elektronica/img/Circuit_diagrams.svg)
 
-Formally, an electrochemical cell is something that converts chemical energy into electrical energy. 
+Formally, an electrochemical cell is something that converts chemical energy into electrical energy.
 
     Or, in fact, the other way round: a device that uses electrical current to split a chemical substance is called an electrolytic cell.
 
@@ -163,15 +161,15 @@ Colloquially the term battery is often used for a primary cell (or a battery of 
 The voltage produced by a battery or accu cell varies over time, but for practical calculation it is often assumed constant. The picture shows the discharge curve (the voltage over time when used in a certain way) of a common AA (penlight) battery, which is said to produce 1.5V, but actually produces 1.4 - 1.1V for most of its useful lifetime.
 
 ![AA Energizer](./files/AA_Energizer.png)
-from: https://data.energizer.com/pdfs/e91.pdf
+from: <https://data.energizer.com/pdfs/e91.pdf>
 
 The voltage depends on the chemistry of the cell. Alkaline batteries used to be the most common (and still are in for instance flashlights), but are gradually being replaced by Li (Lithium). Lead-acid batteries are still found For some applications the self-discharge of a battery is important: even when it is not used, a battery will lose some of its energy over time. This rate at which this happens varies with the battery chemistry.
 
 | Chemistry | Primary or secondary | Voltage |
 | -------- | --------- | --------- |
-| alkaline | Primary	| 1.2V |
-| Lead-acid	| Secondary	| 2.0V |
-| Li	| Primary or secondary	| 3.0V |
+| alkaline | Primary | 1.2V |
+| Lead-acid | Secondary | 2.0V |
+| Li | Primary or secondary | 3.0V |
 
 A rechargeable battery (accu) will ‘wear out’ in use: for each charge- discharge cycle its capacity will be reduced a little bit. When the capacity is reduced to for instance 50.
 
@@ -179,11 +177,11 @@ The capacity of a battery or accu is often expressed in the (unofficial) current
 
 | Battery or accu type | Voltage | Capacity |
 | -------- | --------- | --------- |
-| AA alkaline	| 1.5V	| 2700 mAh |
-| AAA alkaline-acid	| 1.5V	| 1200 mAh |
-| 9V radio	| 9V	| 500 mAh |
-| CR2032 lithium coin cell	| 3.6V	| 225 mAh |
-| Car accu	| 12V	| 50 Ah |
+| AA alkaline | 1.5V | 2700 mAh |
+| AAA alkaline-acid | 1.5V | 1200 mAh |
+| 9V radio | 9V | 500 mAh |
+| CR2032 lithium coin cell | 3.6V | 225 mAh |
+| Car accu | 12V | 50 Ah |
 
 ## Power
 
@@ -213,15 +211,15 @@ When electrical current generates energy this will have an effect on the compone
 
 | Process | Power |
 | -------- | --------- |
-| Sun	| 3.8 ∗ 10<sup>26</sup>W |
-| Electrical power plant	| 800 MW (thermal) |
-| Heater, cooker	| 1 kW |
-| Electric eel	| 800 W (for 2 ms) |
-| Desktop PC	| 100 W |
-| Human	| 100 W (thermal) |
-| Electrical component, hot when touched	| 1 W |
-| LED	| 50 mW |
-| Wi-Fi signal	| 10 µW |
+| Sun | 3.8 ∗ 10<sup>26</sup>W |
+| Electrical power plant | 800 MW (thermal) |
+| Heater, cooker | 1 kW |
+| Electric eel | 800 W (for 2 ms) |
+| Desktop PC | 100 W |
+| Human | 100 W (thermal) |
+| Electrical component, hot when touched | 1 W |
+| LED | 50 mW |
+| Wi-Fi signal | 10 µW |
 
 ## Energy
 
@@ -237,9 +235,9 @@ The price of energy from various sources varies widely. Note that the comparison
 
 | Source | price (2018)|
 | -------- | --------- |
-| Car fuel	 | € 1.60/l, € 34 MJ/l	€ 0.17 / kWh |
-| Mains	 | € 0.22/kWh	€ 0.22 / kWh |
-| AA battery (1.2V, 2000mAh)	 | € 0.25	€ 104 / kWh |
+| Car fuel  | € 1.60/l, € 34 MJ/l € 0.17 / kWh |
+| Mains  | € 0.22/kWh € 0.22 / kWh |
+| AA battery (1.2V, 2000mAh)  | € 0.25 € 104 / kWh |
 
 ### Energy density and specific energy
 
@@ -247,18 +245,18 @@ Energy density is the amount of energy stored per volume, and specific energy is
 
 | Source | Specific energy (MJ/kg)|
 | -------- | --------- |
-| D-He3 fusion	| 384’000’000 |
-| Uranium fission	| 80’620’000 |
-| Diesel fuel burning	| 48 |
-| TNT explosion	| 4.6 |
-| Li battery	| 1.8 |
-| Li accu	| 0.6 |
-| Alkaline battery	| 0.5 |
-| Lead-acid battery	| 0.17 |
+| D-He3 fusion | 384’000’000 |
+| Uranium fission | 80’620’000 |
+| Diesel fuel burning | 48 |
+| TNT explosion | 4.6 |
+| Li battery | 1.8 |
+| Li accu | 0.6 |
+| Alkaline battery | 0.5 |
+| Lead-acid battery | 0.17 |
 
 The specific energy of a modern (Li) accu compared to that of (diesel) fuel explains it all: with a kilogram of diesel fuel a car will be able to travel 80 times as far as with the same weight of Lithium accu. The comparison is somewhat unfair because burning diesel requires oxygen (air), which is not accounted for in the table because a car doesn’t need to store it.
 
-##	Some circuits, components and concepts
+## Some circuits, components and concepts
 
 ### Basic circuit
 
@@ -274,7 +272,7 @@ A voltage source feeding those common symbols can be shown, or it can be omitted
 
 ![A resistor connected to 5V. The power source can be omitted](../basis-elektronica/img/Resistor_5V.svg)
 
-###	Resistors in parallel
+### Resistors in parallel
 
 The circuit in the figure below is like the previous one, but with one extra 200 Ω resistor in parallel to the first resistor. The voltage source now determines the voltage across *both* resistors, hence the current through each resistor is 50 mA. The total current delivered by the voltage source is the sum of these two currents: 100 mA.
 
@@ -296,7 +294,7 @@ $$
 1/R_{Equivalent} = 1/R_1 + 1/R_2 + 1/R_3 + . . .
 $$
 
-###	Resistors in series
+### Resistors in series
 
 The circuit below shows a 3V voltage source, and two resistors in series, of 100Ω and 50Ω.
 
@@ -330,7 +328,6 @@ $$
 3V/0.02A = 150Ω
 $$
 
-
 ![Equivalent of two resistors in series](../basis-elektronica/img/Equivalent_two_resistors_in_series.svg)
 
 For resistors in series, the equivalent resistor value is the sum (addition) of the resistor values:
@@ -339,8 +336,8 @@ $$
 R_{Equivalent} = R_1 + R_2 + R_3 + . . .
 $$
 
-###	Voltage divider
- 
+### Voltage divider
+
 Apart from creating a new resistor with a higher resistance, you can also use two resistors in series to create a voltage divider.
 
 ![A voltage divider](../basis-elektronica/img/Two_resistors_in_series.svg)
@@ -352,7 +349,6 @@ att = V_{out}/V_i = R_2/R_1+R_2
 $$
 
 For instance, if you want to connect the output of an Arduino Nano mi- crocontroller (which can have values from 0 to 5V) to the input of an ESP microcontroller (that should not get values higher than 3.3V), you could use the voltage divider to make them match:
- 
 
 $$
 att = 3.3V/5V = 0.66
@@ -392,16 +388,14 @@ So if you select R1 = 1.2kOhm and R2 =2.2 kOhm, you’ll be close enough.
 
 | Quantity | Unit | Symbol| Formula | | |
 | -------- | --------- | -------- | --------- | --------- | --------- |
-| Voltage	| Volt (V)	| V or U	| U = I * R	|	|
-| Current	| Ampere (A) | I | I = U / R ||
-| Resistance | Ohm (Ω) |R	| R = U / I |||
-| Power	Watt | (W)	| P	| P = I * U	| P = R ∗ I<sup>2</sup>	| P = U<sup>2</sup>/R |
-| Energy |Joule (J)	| E |	E = P * T	|||	
+| Voltage | Volt (V) | V or U | U = I * R | |
+| Current | Ampere (A) | I | I = U / R ||
+| Resistance | Ohm (Ω) |R | R = U / I |||
+| Power Watt | (W) | P | P = I * U | P = R ∗ I<sup>2</sup> | P = U<sup>2</sup>/R |
+| Energy |Joule (J) | E | E = P * T |||
 
 Resistors in series: R<sub>S</sub> = R<sub>1</sub> + R<sub>2</sub> + R<sub>3</sub> · · ·
 
 Resistors in parallel: 1/R<sub>P</sub> = 1/R<sub>1</sub> + 1 /R<sub>2</sub> + 1/R<sub>3</sub> + · · ·
- 
-Voltage divider: V<sub>out</sub> = V<sub>in</sub> ∗ R<sub>bottom</sub>/( R<sub>bottom</sub> + R<sub>top</sub>)	
 
-
+Voltage divider: V<sub>out</sub> = V<sub>in</sub> ∗ R<sub>bottom</sub>/( R<sub>bottom</sub> + R<sub>top</sub>)

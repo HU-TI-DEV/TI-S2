@@ -2,18 +2,14 @@
 
 *NTC temperatuur-weerstand curve*
 
-# LDR-NTC: analoog naar digitaal met passieve sensoren [](title-id) <!-- omit in toc -->
+# LDR-NTC: analoog naar digitaal met passieve sensoren[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [LDR-NTC: analoog naar digitaal met passieve sensoren ](#ldr-ntc-analoog-naar-digitaal-met-passieve-sensoren-)
-    - [Basis principe](#basis-principe)
-    - [LDR](#ldr)
-    - [NTC](#ntc)
-    - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
-
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Pull up configuratie](#pull-up-configuratie)
+- [Vragen](#vragen)
+- [Referenties](#referenties)
 
 ---
 
@@ -99,7 +95,8 @@ void loop() {
 
 //EOF
 ```
-[Arduino bestand](../ADC/files/LDR-NTC/LDR-NTC.ino) 
+
+[Arduino bestand](../ADC/files/LDR-NTC/LDR-NTC.ino)
 
 ## Pull up configuratie
 
@@ -110,14 +107,12 @@ Door eerst de variable weerstand te plaatsen en dan de vaste weerstand in serie 
 - Wat zijn de nadelen wanneer je de vaste weerstand te groot of te klein kiest?
 - Waarom denk je dat we dit geval kiezen voor een 10kOhm weerstand?
 
-
-
-
 ## Referenties
 
 LDR Datasheets
 
-- [NTE Electronics, Inc. - LDR Photoresistors Datasheet](https://www.nteinc.com/resistor_web/pdf/LDR-Series.pdf)
+- [NTE Electronics, Inc. - LDR Photoresistors Datasheet](https://web.archive.org/web/20240224094252/https://www.nteinc.com/resistor_web/pdf/LDR-Series.pdf)\
+  (Link to Archive.org - NTE Electronics has gone out of business, ceasing operations around 2024.)
 - [Alldatasheet.com GL5528 (GL55 series)](https://www.alldatasheet.com/datasheet-pdf/pdf/1131893/ETC2/GL5528.html)
 - [TME overzicht LDRs van NTE](https://www.tme.eu/en/news/about-product/page/54933/ldr-series-of-photoresistors-from-nte/)
 

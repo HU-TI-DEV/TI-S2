@@ -27,7 +27,7 @@
 
 Bij PWM is de output niet direct een analoog signaal. Iets wat andere DAC wel produceren In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad.
 
-## PWM frequency ##
+## PWM frequency
 
 Dit geeft aan hoeveel PWM pulse per seconde worden verstuurd/ontvangen.
 
@@ -52,14 +52,21 @@ Om voor koeling te zorgen maken we gebruik van de Titan Fan. Deze werkt op 12V m
 
 ![Four-pin connector](../DAC/img/connector.svg)
 
-De Titan Silent Fan heeft een Four-pin Molex aansluiting met de volgende aansluitingen:
+De Titan Silent Fan heeft een 4-pin Molex aansluiting met de volgende aansluitingen:
 
 1) **Blauw** voor PWM signaal 5V, 25kHz
 2) **Geel** voor Sense (het meten van het aantal RPM)
 3) **Rood** voor 12V
 4) **Zwart** voor GND
 
-> Draden kunnen van kleur verschillen. Zo zijn er ook 4 pin aansluitingen met de kleuren blauw(PWM)-groen(sense)-geel(+5V, +12V or +24V afhankelijk van het model)-zwart(GND).
+> Draden kunnen van kleur verschillen!
+>
+> Zo zijn er ook 4-pin aansluitingen met de kleuren
+>
+> - blauw (PWM)
+> - groen (Sense)
+> - geel (VDD +5V, +12V of +24V, afhankelijk van het model)
+> - zwart (GND).
 
 ![Titan Fan](../DAC/img/PWM_bb.png)
 
@@ -124,5 +131,5 @@ void loop() {
 - Pulse-width modulation (<https://en.wikipedia.org/wiki/Pulse-width_modulation>)
 - Arduino PWM (<https://docs.arduino.cc/tutorials/generic/secrets-of-arduino-pwm>)
 - [Titan TFD-8015HH12ZP_W1 page](https://www.titan-cd.com/en/product/TFD-8015HH12ZP_W1.html)
-- [Arduino analogWrite() function](https://www.arduino.cc/reference/en/language/functions/analog-io/analogwrite/)
-- [Arduino PWM pins](https://support.arduino.cc/hc/en-us/articles/9350537961500-Use-PWM-output-with-Arduino)
+- [Arduino analogWrite() function](https://docs.arduino.cc/language-reference/en/functions/analog-io/analogWrite/)
+- [Arduino PWM pins](https://support.arduino.cc/hc/en-us/articles/9350537961500-Use-PWM-output-with-Arduino) <!-- markdown-link-check-disable-line -->
