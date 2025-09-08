@@ -1,6 +1,6 @@
 # Functies <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Onderwerpen](#onderwerpen)
 ---
 

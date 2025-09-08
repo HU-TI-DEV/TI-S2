@@ -1,12 +1,10 @@
-# Inlezen van gegevens[](title-id)
+# Inlezen van gegevens[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Inlezen van gegevens](#inlezen-van-gegevens)
-    - [Inhoud](#inhoud)
-  - [cin](#cin)
-    - [iostream library](#iostream-library)
-    - [Spaties](#spaties)
-  - [Getline](#getline)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [cin](#cin)
+  - [iostream library](#iostream-library)
+  - [Spaties](#spaties)
+- [Getline](#getline)
 
 
 Programma’s worden meestal een stuk praktischer als ze input kunnen krijgen van een

@@ -1,12 +1,10 @@
 ![logo](../microcontroller/Arduino-UNO/img/ArdurinoUno.jpg)) [](logo-id)
 
-# Microcontroller[](title-id)
+# Microcontroller[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Microcontroller](#microcontroller)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
+- [Een introductie](#een-introductie)
 
 ---
 

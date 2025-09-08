@@ -1,15 +1,13 @@
-# Abstracte Data Typen (ADTs)(title-id)
+# Abstracte Data Typen (ADTs)(title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Abstracte Data Typen (ADTs)(title-id)](#abstracte-data-typen-adtstitle-id)
-    - [Inhoud](#inhoud)
-  - [Abstracte Data Typen (ADTs)](#abstracte-data-typen-adts)
-    - [Wat is een ADT?](#wat-is-een-adt)
-    - [Getters en setters](#getters-en-setters)
-    - [Getters en setters](#getters-en-setters-1)
-    - [Public attributes vs. getters en setters](#public-attributes-vs-getters-en-setters)
-      - [Best practices attributen](#best-practices-attributen)
-      - [Vector-klasse met publieke attributen](#vector-klasse-met-publieke-attributen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Abstracte Data Typen (ADTs)](#abstracte-data-typen-adts)
+  - [Wat is een ADT?](#wat-is-een-adt)
+  - [Getters en setters](#getters-en-setters)
+  - [Getters en setters](#getters-en-setters-1)
+  - [Public attributes vs. getters en setters](#public-attributes-vs-getters-en-setters)
+    - [Best practices attributen](#best-practices-attributen)
+    - [Vector-klasse met publieke attributen](#vector-klasse-met-publieke-attributen)
 
 
 ## Abstracte Data Typen (ADTs)

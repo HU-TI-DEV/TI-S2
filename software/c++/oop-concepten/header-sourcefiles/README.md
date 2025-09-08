@@ -1,21 +1,11 @@
-# Compositie - header en source files [](title-id)
+# Compositie - header en source files [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Compositie - header en source files ](#compositie---header-en-source-files-)
-    - [Inhoud](#inhoud)
-    - [Verdeling over header en source files](#verdeling-over-header-en-source-files)
-      - [Header files](#header-files)
-      - [Source files](#source-files)
-      - [Namespace](#namespace)
-    - [Relaties tussen klassen](#relaties-tussen-klassen)
-      - [Compositie](#compositie)
-      - [Constructor en initialisatielijst voor compositie](#constructor-en-initialisatielijst-voor-compositie)
-      - [Initialisatie van variabelen (in constructor)](#initialisatie-van-variabelen-in-constructor)
-    - [Schermobjecten](#schermobjecten)
-      - [Gebruik schermobject](#gebruik-schermobject)
-    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen)
-    - [Relaties tussen klassen: associatie](#relaties-tussen-klassen-associatie)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
+- [Verdeling over header en source files](#verdeling-over-header-en-source-files)
+  - [Header files](#header-files)
+  - [Source files](#source-files)
+  - [Namespace](#namespace)
 
 ### Verdeling over header en source files
 Vaak wordt C++ code opgesplitst in twee soorten files:

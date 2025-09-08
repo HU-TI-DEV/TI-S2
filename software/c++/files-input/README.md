@@ -1,15 +1,13 @@
-# Files input/output[](title-id)
+# Files input/output[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Files input/output](#files-inputoutput)
-  - [Inhoud](#inhoud)
-  - [Bestand schrijven](#bestand-schrijven)
-    - [Fstream](#fstream)
-    - [Ofstream](#ofstream)
-    - [\<\<](#)
-  - [Bestand lezen](#bestand-lezen)
-    - [Ifstream](#ifstream)
-    - [Meer informatie:](#meer-informatie)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Bestand schrijven](#bestand-schrijven)
+  - [Fstream](#fstream)
+  - [Ofstream](#ofstream)
+  - [\<\<](#)
+- [Bestand lezen](#bestand-lezen)
+  - [Ifstream](#ifstream)
+  - [Meer informatie:](#meer-informatie)
 
 Programma’s interacteren niet enkel met gebruikers voor input en output, maar kunnen ook interactie met bestanden hebben. In dit hoofdstuk gaan we in op het schrijven en
 lezen van bestanden.

@@ -1,6 +1,6 @@
-# Reductie[](title-id)
+# Reductie[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Reductie](#reductie)
   - [Inhoud](#inhoud)
   - [Reductie](#reductie-1)

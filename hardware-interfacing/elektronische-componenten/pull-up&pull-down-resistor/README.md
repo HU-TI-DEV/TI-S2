@@ -1,13 +1,11 @@
 ![logo](./img/Pull-upp-resistor.svg) [](logo-id)
 
-# Pul-up & Pull-down resistor[](title-id)
+# Pul-up & Pull-down resistor[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Pul-up \& Pull-down resistor](#pul-up--pull-down-resistor)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

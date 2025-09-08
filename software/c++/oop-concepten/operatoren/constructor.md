@@ -1,16 +1,14 @@
-# Constructor (title-id)
+# Constructor (title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Constructor (title-id)](#constructor-title-id)
-    - [Inhoud](#inhoud)
-      - [Default constructor](#default-constructor)
-        - [Een constructor zonder parameters](#een-constructor-zonder-parameters)
-        - [Undefined behaviour](#undefined-behaviour)
-      - [Default parameter waarden](#default-parameter-waarden)
-      - [Let op de parametervolgorde](#let-op-de-parametervolgorde)
-      - [Keuzes](#keuzes)
-      - [Foutmeldingen van de compiler](#foutmeldingen-van-de-compiler)
-      - [Declaratie vs. implementatie](#declaratie-vs-implementatie)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Default constructor](#default-constructor)
+  - [Een constructor zonder parameters](#een-constructor-zonder-parameters)
+  - [Undefined behaviour](#undefined-behaviour)
+- [Default parameter waarden](#default-parameter-waarden)
+- [Let op de parametervolgorde](#let-op-de-parametervolgorde)
+- [Keuzes](#keuzes)
+- [Foutmeldingen van de compiler](#foutmeldingen-van-de-compiler)
+- [Declaratie vs. implementatie](#declaratie-vs-implementatie)
 
 
 #### Default constructor

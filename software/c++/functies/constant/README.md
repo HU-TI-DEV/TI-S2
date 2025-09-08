@@ -1,6 +1,9 @@
-# Constant
+# Constant [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [const](#const)
+- [const ref](#const-ref)
+- [by copy](#by-copy)
 
 ## const
 “By reference” meegeven is meestal sneller. Dus eigenlijk willen we dit altijd doen, maar dit is eng voor de gebruiker van de functies. Hoe weet de gebruiker, zonder de code in detail te bekijken, of de functie de meegegeven variabele aanpast?

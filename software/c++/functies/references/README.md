@@ -1,7 +1,6 @@
 # References <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Inhoud](#inhoud)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [By copy](#by-copy)
 - [By reference](#by-reference)
 - [Snelheid](#snelheid)

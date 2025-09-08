@@ -1,18 +1,16 @@
-# Doxygen [](title-id)
+# Doxygen [](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Doxygen ](#doxygen-)
-  - [Inhoud](#inhoud)
-    - [Doxygen](#doxygen)
-    - [Werkwijze voor luie documenteurs](#werkwijze-voor-luie-documenteurs)
-    - [Werkwijze Doxygen](#werkwijze-doxygen)
-      - [Doxyfile](#doxyfile)
-      - [Runnen en uitvoer](#runnen-en-uitvoer)
-      - [Excuus-documentatie](#excuus-documentatie)
-      - [Tips](#tips)
-      - [Beschrijving per parameter](#beschrijving-per-parameter)
-    - [Meer mogelijkheden](#meer-mogelijkheden)
-    - [Installatie van Doxygen](#installatie-van-doxygen)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Doxygen](#doxygen)
+- [Werkwijze voor luie documenteurs](#werkwijze-voor-luie-documenteurs)
+- [Werkwijze Doxygen](#werkwijze-doxygen)
+  - [Doxyfile](#doxyfile)
+  - [Runnen en uitvoer](#runnen-en-uitvoer)
+  - [Excuus-documentatie](#excuus-documentatie)
+  - [Tips](#tips)
+  - [Beschrijving per parameter](#beschrijving-per-parameter)
+- [Meer mogelijkheden](#meer-mogelijkheden)
+- [Installatie van Doxygen](#installatie-van-doxygen)
 
 
 ### Doxygen

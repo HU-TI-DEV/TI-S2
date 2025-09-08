@@ -1,19 +1,17 @@
 ![logo]() [](logo-id)
 
-# PCB[](title-id)
+# PCB[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [PCB](#pcb)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Printplaat](#printplaat)
-  - [Een licht/donker sensor](#een-lichtdonker-sensor)
-  - [LDR Arduino lichtsensor](#ldr-arduino-lichtsensor)
-  - [Arduino example](#arduino-example)
-  - [Elektrisch schema](#elektrisch-schema)
-  - [PCB Ontwerp](#pcb-ontwerp)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Printplaat](#printplaat)
+- [Een licht/donker sensor](#een-lichtdonker-sensor)
+- [LDR Arduino lichtsensor](#ldr-arduino-lichtsensor)
+- [Arduino example](#arduino-example)
+- [Elektrisch schema](#elektrisch-schema)
+- [PCB Ontwerp](#pcb-ontwerp)
+- [Referenties](#referenties)
 
 ---
 

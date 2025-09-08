@@ -1,12 +1,10 @@
 ![logo](.svg) [](logo-id)
 
-# Data-types[](title-id)
+# Data-types[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Data-types](#data-types)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
+- [Een introductie](#een-introductie)
 
 ---
 

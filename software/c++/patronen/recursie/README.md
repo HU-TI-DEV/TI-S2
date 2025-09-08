@@ -1,6 +1,6 @@
-# Recursie[](title-id)
+# Recursie[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Recursie](#recursie)
   - [Inhoud](#inhoud)
   - [Recursie](#recursie-1)

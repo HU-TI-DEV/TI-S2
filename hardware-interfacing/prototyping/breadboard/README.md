@@ -1,14 +1,12 @@
 ![logo](./img/bbsmall.png) [](logo-id)
 
-# Breadboard[](title-id)
+# Breadboard[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Breadboard](#breadboard)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-    - [Elektronische schakeling](#elektronische-schakeling)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+  - [Elektronische schakeling](#elektronische-schakeling)
+- [Referenties](#referenties)
 
 ---
 

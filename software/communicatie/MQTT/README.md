@@ -1,8 +1,8 @@
 ![logo](../MQTT/img/Mqtt-hor.svg) [](logo-id)
 
-# MQTT[](title-id)
+# MQTT[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [MQTT](#mqtt)
     - [Inhoud](#inhoud)

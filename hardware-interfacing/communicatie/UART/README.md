@@ -1,12 +1,9 @@
 ![logo](../UART/img/UART_block_diagram.svg) [](logo-id)
 
-# UART[](title-id)
+# UART[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [UART](#uart)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
 - [UART communicatie tussen Raspberry Pi en Arduino](#uart-communicatie-tussen-raspberry-pi-en-arduino)
   - [Handleiding UART communicatie Raspberry Pi - Arduino](#handleiding-uart-communicatie-raspberry-pi---arduino)
   - [Python versie controleren](#python-versie-controleren)

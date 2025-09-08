@@ -1,23 +1,15 @@
 ![logo](../Raspberry-Pi-OS/img/Raspberry_Pi_Logo.svg) [](logo-id)
 
-# Raspberry Pi OS[](title-id)
+# Raspberry Pi OS[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Raspberry Pi OS](#raspberry-pi-os)
-    - [Inhoud](#inhoud)
-    - [Inleiding](#inleiding)
-    - [ssh verbinding](#ssh-verbinding)
-    - [Update systeem](#update-systeem)
-    - [Datum en tijd](#datum-en-tijd)
-    - [Sudo](#sudo)
-    - [IP adres opvragen](#ip-adres-opvragen)
-  - [Docker containers](#docker-containers)
-    - [Data opslag](#data-opslag)
-    - [Berichten service](#berichten-service)
-    - [Visual coding](#visual-coding)
-    - [Flask](#flask)
-  - [Referenties](#referenties)
+- [Docker containers](#docker-containers)
+  - [Data opslag](#data-opslag)
+  - [Berichten service](#berichten-service)
+  - [Visual coding](#visual-coding)
+  - [Flask](#flask)
+- [Referenties](#referenties)
 
 ---
 

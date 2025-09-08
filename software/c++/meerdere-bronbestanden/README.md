@@ -1,21 +1,19 @@
-# Meerdere bronbestanden[](title-id)
+# Meerdere bronbestanden[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Meerdere bronbestanden](#meerdere-bronbestanden)
-  - [Inhoud](#inhoud)
-  - [Include](#include)
-    - [Include en compilatietijd](#include-en-compilatietijd)
-    - [Interface vs. implementatie](#interface-vs-implementatie)
-  - [Header-files](#header-files)
-    - [ad. 13.3 includeren van de headerfile .hpp](#ad-133-includeren-van-de-headerfile-hpp)
-    - [ad. 13.3 addTwice()](#ad-133-addtwice)
-    - [ad. 13.3 add()](#ad-133-add)
-  - [Dubbele invoeging header-files](#dubbele-invoeging-header-files)
-    - [Voorwaardelijke compilatie](#voorwaardelijke-compilatie)
-    - [\_FILE\_NAME\_HPP](#_file_name_hpp)
-    - [Compile time](#compile-time)
-    - [#ifndef en #endif](#ifndef-en-endif)
-    - [define en macro](#define-en-macro)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Include](#include)
+  - [Include en compilatietijd](#include-en-compilatietijd)
+  - [Interface vs. implementatie](#interface-vs-implementatie)
+- [Header-files](#header-files)
+  - [ad. 13.3 includeren van de headerfile .hpp](#ad-133-includeren-van-de-headerfile-hpp)
+  - [ad. 13.3 addTwice()](#ad-133-addtwice)
+  - [ad. 13.3 add()](#ad-133-add)
+- [Dubbele invoeging header-files](#dubbele-invoeging-header-files)
+  - [Voorwaardelijke compilatie](#voorwaardelijke-compilatie)
+  - [\_FILE\_NAME\_HPP](#_file_name_hpp)
+  - [Compile time](#compile-time)
+  - [#ifndef en #endif](#ifndef-en-endif)
+  - [define en macro](#define-en-macro)
 
 
 Grotere C++ programma’s worden door goede programmeurs tekstueel opgesplitst over meerdere tekstfiles. Dit zorgt ervoor dat onze code overzichtelijk blijft en dat het compileren sneller gaat.

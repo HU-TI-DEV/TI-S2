@@ -1,8 +1,7 @@
 # Vector
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Vector](#vector)
-    - [Inhoud](#inhoud)
   - [Vector](#vector-1)
     - [vector library](#vector-library)
     - [C++11 of hoger](#c11-of-hoger)

@@ -1,13 +1,11 @@
-# Char [](title-id)
+# Char [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Char ](#char-)
-    - [Inhoud](#inhoud)
-  - [Character](#character)
-    - [Char](#char)
-    - [Aanhalingstekens](#aanhalingstekens)
-    - [Rekenen met char](#rekenen-met-char)
-  - [Referenties](#referenties)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Character](#character)
+  - [Char](#char)
+  - [Aanhalingstekens](#aanhalingstekens)
+  - [Rekenen met char](#rekenen-met-char)
+- [Referenties](#referenties)
 
 ---
 

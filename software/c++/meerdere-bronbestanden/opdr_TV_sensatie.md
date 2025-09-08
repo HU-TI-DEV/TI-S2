@@ -1,10 +1,8 @@
-# Opdrachten Meerdere bronbestanden C++[](title-id)
+# Opdrachten Meerdere bronbestanden C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Meerdere bronbestanden C++](#opdrachten-meerdere-bronbestanden-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 4.2 TV sensatie](#opdracht-42-tv-sensatie)
-      - [Tips voor VS code gebruikers](#tips-voor-vs-code-gebruikers)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 4.2 TV sensatie](#opdracht-42-tv-sensatie)
+  - [Tips voor VS code gebruikers](#tips-voor-vs-code-gebruikers)
 
 
 ### Opdracht 4.2 TV sensatie

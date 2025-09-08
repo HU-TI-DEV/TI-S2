@@ -1,10 +1,8 @@
-# Opdrachten Bits C++[](title-id)
+# Opdrachten Bits C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Bits C++](#opdrachten-bits-c)
-    - [Inhoud](#inhoud)
-  - [Opdracht 3.1 Bytewaarde](#opdracht-31-bytewaarde)
-  - [Opdracht 3.2 Hoger en lager](#opdracht-32-hoger-en-lager)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 3.1 Bytewaarde](#opdracht-31-bytewaarde)
+- [Opdracht 3.2 Hoger en lager](#opdracht-32-hoger-en-lager)
 
 
 ## Opdracht 3.1 Bytewaarde

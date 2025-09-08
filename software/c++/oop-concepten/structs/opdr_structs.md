@@ -1,9 +1,7 @@
-# Opdrachten Structs C++[](title-id)
+# Opdrachten Structs C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Structs C++](#opdrachten-structs-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 4.3 Voorwerpen](#opdracht-43-voorwerpen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 4.3 Voorwerpen](#opdracht-43-voorwerpen)
 
 
 ### Opdracht 4.3 Voorwerpen

@@ -1,11 +1,9 @@
-# Opdrachten Functies, basis [](title-id)
+# Opdrachten Functies, basis [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Functies, basis ](#opdrachten-functies-basis-)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.12 Palindroom](#opdracht-212-palindroom)
-      - [2.12 A:](#212-a)
-      - [2.12 B:](#212-b)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.12 Palindroom](#opdracht-212-palindroom)
+  - [2.12 A:](#212-a)
+  - [2.12 B:](#212-b)
 
 ### Opdracht 2.12 Palindroom
 De onderstaande functie controleert of een string een palindroom is. 

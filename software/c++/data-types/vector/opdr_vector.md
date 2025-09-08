@@ -1,9 +1,7 @@
-# Opdrachten Vector C++[](title-id)
+# Opdrachten Vector C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Vector C++](#opdrachten-vector-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.3 Positief](#opdracht-23-positief)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.3 Positief](#opdracht-23-positief)
 
 
 ### Opdracht 2.3 Positief

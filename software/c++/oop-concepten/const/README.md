@@ -1,14 +1,12 @@
-# Const [](title-id)
+# Const [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Const ](#const-)
-    - [Inhoud](#inhoud)
-    - [Const variabelen](#const-variabelen)
-    - [Const parameters](#const-parameters)
-      - [By copy](#by-copy)
-      - [By reference](#by-reference)
-      - [By const reference](#by-const-reference)
-    - [Samenvatting](#samenvatting)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Const variabelen](#const-variabelen)
+- [Const parameters](#const-parameters)
+  - [By copy](#by-copy)
+  - [By reference](#by-reference)
+  - [By const reference](#by-const-reference)
+- [Samenvatting](#samenvatting)
 
 
 ### Const variabelen

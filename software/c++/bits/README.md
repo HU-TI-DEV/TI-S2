@@ -1,22 +1,18 @@
-# Bits[](title-id)
+# Bits[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Bits](#bits)
-  - [Inhoud](#inhoud)
-    - [bitstring, byte](#bitstring-byte)
-    - [tellen](#tellen)
-  - [Bitoperatoren](#bitoperatoren)
-    - [Bitsgewijs ‘and’](#bitsgewijs-and)
-    - [Bitsgewijs ‘or’](#bitsgewijs-or)
-    - [Bitsgewijs ‘xor’ (exclusive or)](#bitsgewijs-xor-exclusive-or)
-    - [Bitsgewijs Inversie (‘not’)](#bitsgewijs-inversie-not)
-    - [Bit shiften](#bit-shiften)
-    - [Vrijgekomen plaatsen](#vrijgekomen-plaatsen)
-  - [Bit statements](#bit-statements)
-    - [Bit setten](#bit-setten)
-    - [Bit resetten](#bit-resetten)
-    - [Bit inverteren](#bit-inverteren)
-    - [Bit ophalen](#bit-ophalen)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Bitoperatoren](#bitoperatoren)
+  - [Bitsgewijs ‘and’](#bitsgewijs-and)
+  - [Bitsgewijs ‘or’](#bitsgewijs-or)
+  - [Bitsgewijs ‘xor’ (exclusive or)](#bitsgewijs-xor-exclusive-or)
+  - [Bitsgewijs Inversie (‘not’)](#bitsgewijs-inversie-not)
+  - [Bit shiften](#bit-shiften)
+  - [Vrijgekomen plaatsen](#vrijgekomen-plaatsen)
+- [Bit statements](#bit-statements)
+  - [Bit setten](#bit-setten)
+  - [Bit resetten](#bit-resetten)
+  - [Bit inverteren](#bit-inverteren)
+  - [Bit ophalen](#bit-ophalen)
 
 
 Gegevens worden in het geheugen opslagen als bitjes. In C++ is het mogelijk om

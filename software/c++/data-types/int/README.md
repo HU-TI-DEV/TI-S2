@@ -1,14 +1,12 @@
 ![logo](.svg) [](logo-id)
 
-# Integer[](title-id)
+# Integer[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Integer](#integer)
-    - [Inhoud](#inhoud)
-  - [Integer (int)](#integer-int)
-  - [Gebroken getallen](#gebroken-getallen)
-  - [Referenties](#referenties)
+- [Integer (int)](#integer-int)
+- [Gebroken getallen](#gebroken-getallen)
+- [Referenties](#referenties)
 
 ---
 

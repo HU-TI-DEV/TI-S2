@@ -1,6 +1,6 @@
-# Programmastroom[](title-id)
+# Programmastroom[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Programmastroom](#programmastroom)
     - [Inhoud](#inhoud)
 

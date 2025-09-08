@@ -1,18 +1,17 @@
 ![logo](../img/Original_message.jpg) [](logo-id)
 
-# DAC: digitaal naar analoog[](title-id)
+# DAC: digitaal naar analoog[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [DAC: digitaal naar analoog](#dac-digitaal-naar-analoog)
-  - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [PWM](#pwm)
-  - [Dyty cycle](#dyty-cycle)
-  - [Titan Silent Fan TFD-8015HH12ZP/W1](#titan-silent-fan-tfd-8015hh12zpw1)
-  - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [PWM](#pwm)
+- [PWM frequency](#pwm-frequency)
+- [Duty cycle](#duty-cycle)
+- [Titan Silent Fan TFD-8015HH12ZP/W1](#titan-silent-fan-tfd-8015hh12zpw1)
+- [De schakeling](#de-schakeling)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Referenties](#referenties)
 
 ---
 

@@ -1,13 +1,11 @@
 ![logo](../Requirements/img/system_testing_cartoon.png) [](logo-id)
 
-# Requirements analyse[](title-id)
+# Requirements analyse[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Requirements analyse](#requirements-analyse)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [bronnen](#bronnen)
 
 ---
 

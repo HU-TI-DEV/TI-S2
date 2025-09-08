@@ -1,6 +1,6 @@
-# Opdrachten Recursie C++[](title-id)
+# Opdrachten Recursie C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdrachten Recursie C++](#opdrachten-recursie-c)
     - [Inhoud](#inhoud)
   - [Opdracht 5.1 — Konijnen](#opdracht-51--konijnen)

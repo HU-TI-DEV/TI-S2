@@ -1,7 +1,7 @@
 # Je eigen library en applicatie
 Zodra je plan van aanpak door een vakdocent is goedgekeurd, kun je die in deze opdracht uitvoeren en uploaden.
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Je eigen library en applicatie](#je-eigen-library-en-applicatie)
     - [Inhoud](#inhoud)
     - [Eisen oplevering](#eisen-oplevering)

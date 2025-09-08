@@ -1,6 +1,6 @@
-# Decorator[](title-id)
+# Decorator[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Decorator](#decorator)
   - [Inhoud](#inhoud)
   - [Design patterns](#design-patterns)

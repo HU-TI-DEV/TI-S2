@@ -1,10 +1,8 @@
-# Opdrachten Functies, basis [](title-id)
+# Opdrachten Functies, basis [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Functies, basis ](#opdrachten-functies-basis-)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.5 Tellen](#opdracht-25-tellen)
-    - [Opdracht 2.10 Vector controle](#opdracht-210-vector-controle)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.5 Tellen](#opdracht-25-tellen)
+- [Opdracht 2.10 Vector controle](#opdracht-210-vector-controle)
 
 
 ### Opdracht 2.5 Tellen

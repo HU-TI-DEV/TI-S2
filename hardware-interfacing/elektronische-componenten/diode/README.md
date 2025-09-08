@@ -1,16 +1,14 @@
 ![logo](./img/diode.svg) [](logo-id)
 
-# Diode[](title-id)
+# Diode[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Diode](#diode)
-  - [Inhoud](#inhoud)
-  - [The diode (EN)](#the-diode-en)
-  - [De diode (NL)](#de-diode-nl)
-      - [Ventiel](#ventiel)
-      - [Diode karakteristiek](#diode-karakteristiek)
-  - [Referenties](#referenties)
+- [The diode (EN)](#the-diode-en)
+- [De diode (NL)](#de-diode-nl)
+  - [Ventiel](#ventiel)
+  - [Diode karakteristiek](#diode-karakteristiek)
+- [Referenties](#referenties)
 
 ---
 

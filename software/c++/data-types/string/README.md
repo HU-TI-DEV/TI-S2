@@ -1,6 +1,6 @@
-# Strings [](title-id)
+# Strings [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Strings ](#strings-)
     - [Inhoud](#inhoud)
     - [String](#string)

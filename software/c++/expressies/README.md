@@ -1,13 +1,11 @@
-# Expressies[](title-id)
+# Expressies[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Expressies](#expressies)
-    - [Inhoud](#inhoud)
-  - [Rekenkundige expressies](#rekenkundige-expressies)
-    - [Bewerkingsvolgorde](#bewerkingsvolgorde)
-    - [++ en --](#-en---)
-  - [Logische expressies](#logische-expressies)
-    - [Bewerkingsvolgorde](#bewerkingsvolgorde-1)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Rekenkundige expressies](#rekenkundige-expressies)
+  - [Bewerkingsvolgorde](#bewerkingsvolgorde)
+  - [++ en --](#-en---)
+- [Logische expressies](#logische-expressies)
+  - [Bewerkingsvolgorde](#bewerkingsvolgorde-1)
 
 
 C++ kent meerdere expressies om de data te bewerken en de stroom door het programma

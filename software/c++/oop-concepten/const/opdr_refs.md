@@ -1,9 +1,7 @@
-# Opdracht Refs C++[](title-id)
+# Opdracht Refs C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht Refs C++](#opdracht-refs-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO3.2 References en overerving](#opdracht-oo32-references-en-overerving)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO3.2 References en overerving](#opdracht-oo32-references-en-overerving)
 
 ### Opdracht OO3.2 References en overerving
 Geef van de onderstaande code aan 

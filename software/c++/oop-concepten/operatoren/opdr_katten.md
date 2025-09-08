@@ -1,9 +1,7 @@
-# Opdrachten Operatoren C++[](title-id)
+# Opdrachten Operatoren C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Operatoren C++](#opdrachten-operatoren-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO2.1 Katten](#opdracht-oo21-katten)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO2.1 Katten](#opdracht-oo21-katten)
 
 
 *Deze opdracht kan nog veranderen!*

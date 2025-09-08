@@ -1,13 +1,11 @@
 
-# Float [](title-id)
+# Float [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Float ](#float-)
-    - [Inhoud](#inhoud)
-    - [float](#float)
-    - [Float](#float-1)
-    - [Output](#output)
-    - [Delen](#delen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [float](#float)
+- [Float](#float-1)
+- [Output](#output)
+- [Delen](#delen)
 
 
 ### float

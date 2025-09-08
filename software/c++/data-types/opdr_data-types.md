@@ -1,13 +1,9 @@
-# Opdrachten Data-types C++[](title-id)
+# Opdrachten Data-types C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Data-types C++](#opdrachten-data-types-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 1.3A Int, Float, Char, Bool](#opdracht-13a-int-float-char-bool)
-    - [Opdracht 1.3B Int, Float, Char, Bool](#opdracht-13b-int-float-char-bool)
-  - [BONUS opdrachten](#bonus-opdrachten)
-    - [Opdracht 1.3C Int, Float, Char, Bool](#opdracht-13c-int-float-char-bool)
-    - [Opdracht 1.3D Int, Float, Char, Bool](#opdracht-13d-int-float-char-bool)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [BONUS opdrachten](#bonus-opdrachten)
+  - [Opdracht 1.3C Int, Float, Char, Bool](#opdracht-13c-int-float-char-bool)
+  - [Opdracht 1.3D Int, Float, Char, Bool](#opdracht-13d-int-float-char-bool)
 
 
 ### Opdracht 1.3A Int, Float, Char, Bool

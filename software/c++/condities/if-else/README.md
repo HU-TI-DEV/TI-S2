@@ -1,16 +1,14 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# if-else[](title-id)
+# if-else[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [if-else](#if-else)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [if statement](#if-statement)
-    - [if-else statement](#if-else-statement)
-    - [Haakjes](#haakjes)
-    - [else-if](#else-if)
-    - [Geneste if-statements](#geneste-if-statements)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [if statement](#if-statement)
+  - [if-else statement](#if-else-statement)
+  - [Haakjes](#haakjes)
+  - [else-if](#else-if)
+  - [Geneste if-statements](#geneste-if-statements)
 
 
 ## Introductie

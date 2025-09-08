@@ -2,16 +2,14 @@
 
 [1]
 
-# Feedback geven en ontvangen[](title-id)
+# Feedback geven en ontvangen[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Feedback geven en ontvangen](#feedback-geven-en-ontvangen)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Basis vaardigheden](#basis-vaardigheden)
-  - [Toepassen](#toepassen)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [Basis vaardigheden](#basis-vaardigheden)
+- [Toepassen](#toepassen)
+- [bronnen](#bronnen)
 
 ---
 

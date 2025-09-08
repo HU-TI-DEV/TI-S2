@@ -1,6 +1,12 @@
-# Geschiedenis C++[](title-id)
+# Geschiedenis C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Grondlegger C++](#grondlegger-c)
+- [C en C++](#c-en-c)
+  - [C++ standaard](#c-standaard)
+    - [C++11, C++14 en C++17](#c11-c14-en-c17)
+    - [C++20 en C++23 en verder](#c20-en-c23-en-verder)
+  - [Resource constrained](#resource-constrained)
 
 **v0.1.0 [](version-id)** Start document voor geschiedenis C++ door HU IICT[](author-id).
 

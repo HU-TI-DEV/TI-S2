@@ -1,6 +1,6 @@
-# Patronen[](title-id)
+# Patronen[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Patronen](#patronen)
   - [Inhoud](#inhoud)

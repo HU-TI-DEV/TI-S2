@@ -1,11 +1,9 @@
-# Opdracht Catch2 Unit Test[](title-id)
+# Opdracht Catch2 Unit Test[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht Catch2 Unit Test](#opdracht-catch2-unit-test)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO2.3 Catch2](#opdracht-oo23-catch2)
-      - [Opdracht OO2.3A Installeer Catch2](#opdracht-oo23a-installeer-catch2)
-      - [Opdracht OO2.3B Test Catch2](#opdracht-oo23b-test-catch2)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO2.3 Catch2](#opdracht-oo23-catch2)
+  - [Opdracht OO2.3A Installeer Catch2](#opdracht-oo23a-installeer-catch2)
+  - [Opdracht OO2.3B Test Catch2](#opdracht-oo23b-test-catch2)
 
 
 ### Opdracht OO2.3 Catch2

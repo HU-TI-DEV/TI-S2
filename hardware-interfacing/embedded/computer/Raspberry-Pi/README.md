@@ -1,14 +1,12 @@
 ![logo](../Raspberry-Pi/img/Raspberry_Pi_4_Model_B_-_Top.jpg) [](logo-id)
 
-# Raspberry Pi[](title-id)
+# Raspberry Pi[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Raspberry Pi](#raspberry-pi)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-    - [General Purpose Input/Output (GPIO)](#general-purpose-inputoutput-gpio)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+  - [General Purpose Input/Output (GPIO)](#general-purpose-inputoutput-gpio)
+- [Referenties](#referenties)
 
 ---
 

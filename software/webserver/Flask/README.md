@@ -1,8 +1,8 @@
 ![logo](../Flask/img/Flask_logo.svg) [](logo-id)
 
-# Flask[](title-id)
+# Flask[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Flask](#flask)
     - [Inhoud](#inhoud)

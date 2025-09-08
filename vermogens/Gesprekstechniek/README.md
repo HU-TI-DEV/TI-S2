@@ -1,15 +1,13 @@
 ![logo](../Gesprekstechniek/img/gesprek.jpg) [](logo-id)
 
-# Gesprekstechniek[](title-id)
+# Gesprekstechniek[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Gesprekstechniek](#gesprekstechniek)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Voorbereiding](#voorbereiding)
-  - [Soorten vragen](#soorten-vragen)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [Voorbereiding](#voorbereiding)
+- [Soorten vragen](#soorten-vragen)
+- [bronnen](#bronnen)
 
 ---
 

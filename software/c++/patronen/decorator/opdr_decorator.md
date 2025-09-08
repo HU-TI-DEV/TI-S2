@@ -1,6 +1,6 @@
-# Opdrachten decorator C++[](title-id)
+# Opdrachten decorator C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdrachten decorator C++](#opdrachten-decorator-c)
     - [Inhoud](#inhoud)
   - [Opdracht OO5.3 — AND decorator](#opdracht-oo53--and-decorator)

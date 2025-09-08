@@ -1,6 +1,6 @@
-# Opdrachten Reductie - rijen C++[](title-id)
+# Opdrachten Reductie - rijen C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdrachten Reductie - rijen C++](#opdrachten-reductie---rijen-c)
     - [Inhoud](#inhoud)
   - [Opdracht 3.3 Print doolhof](#opdracht-33-print-doolhof)

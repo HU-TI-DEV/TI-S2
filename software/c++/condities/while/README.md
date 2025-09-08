@@ -1,14 +1,12 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# while[](title-id)
+# while[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [while](#while)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [while](#while-1)
-    - [do-while](#do-while)
-    - [While - codevoorbeelden](#while---codevoorbeelden)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [while](#while)
+  - [do-while](#do-while)
+  - [While - codevoorbeelden](#while---codevoorbeelden)
 
 
 ## Introductie

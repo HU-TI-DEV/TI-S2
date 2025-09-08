@@ -1,17 +1,15 @@
 ![logo](./img/vermogens.png) [](logo-id)
 
-# Professionele vermogens[](title-id)
+# Professionele vermogens[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Professionele vermogens](#professionele-vermogens)
-    - [Inhoud](#inhoud)
-  - [Presenteren](#presenteren)
-  - [Scrum](#scrum)
-  - [Feedback geven en ontvangen](#feedback-geven-en-ontvangen)
-  - [reflecteren vs evalueren](#reflecteren-vs-evalueren)
-  - [Gesprekstechniek](#gesprekstechniek)
-  - [Documenteren](#documenteren)
+- [Presenteren](#presenteren)
+- [Scrum](#scrum)
+- [Feedback geven en ontvangen](#feedback-geven-en-ontvangen)
+- [reflecteren vs evalueren](#reflecteren-vs-evalueren)
+- [Gesprekstechniek](#gesprekstechniek)
+- [Documenteren](#documenteren)
 
 ---
 

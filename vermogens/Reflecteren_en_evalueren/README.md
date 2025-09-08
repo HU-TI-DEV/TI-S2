@@ -1,17 +1,15 @@
 ![logo](../Presenteren/img/presenting.jpg) [](logo-id)
 
-# Reflecteren en evalueren[](title-id)
+# Reflecteren en evalueren[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Reflecteren en evalueren](#reflecteren-en-evalueren)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Uitleg](#uitleg)
-    - [Evalueren](#evalueren)
-    - [Reflecteren](#reflecteren)
-  - [Toepassen](#toepassen)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [Uitleg](#uitleg)
+  - [Evalueren](#evalueren)
+  - [Reflecteren](#reflecteren)
+- [Toepassen](#toepassen)
+- [bronnen](#bronnen)
 
 ---
 

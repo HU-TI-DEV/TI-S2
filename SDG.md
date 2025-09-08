@@ -1,13 +1,11 @@
 ![logo](./img/SustainableDevelopmentGoalsLogo.svg) [](logo-id)
 
-# Sustainable Development Goals[](title-id)
+# Sustainable Development Goals[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Sustainable Development Goals](#sustainable-development-goals)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

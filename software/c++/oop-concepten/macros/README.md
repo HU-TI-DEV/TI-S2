@@ -1,10 +1,8 @@
-# Macro’s [](title-id)
+# Macro’s [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Macro’s ](#macros-)
-    - [Inhoud](#inhoud)
-    - [Macro’s](#macros)
-      - [Best practices Macro's](#best-practices-macros)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Macro’s](#macros)
+  - [Best practices Macro's](#best-practices-macros)
 
 
 ### Macro’s

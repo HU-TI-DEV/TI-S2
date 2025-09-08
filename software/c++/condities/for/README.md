@@ -1,14 +1,12 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# for[](title-id)
+# for[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [for](#for)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [For](#for-1)
-  - [For - codevoorbeelden](#for---codevoorbeelden)
-    - [Unsigned int](#unsigned-int)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [For](#for)
+- [For - codevoorbeelden](#for---codevoorbeelden)
+  - [Unsigned int](#unsigned-int)
 
 
 ## Introductie

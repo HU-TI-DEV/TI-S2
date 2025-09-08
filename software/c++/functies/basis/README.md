@@ -1,6 +1,6 @@
 # Basis <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Basis](#basis)
   - [Codevoorbeelden - functies](#codevoorbeelden---functies)
   - [Datatypen functies](#datatypen-functies)

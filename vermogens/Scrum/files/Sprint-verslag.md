@@ -1,7 +1,7 @@
 # Sprint verslag sprint X [](title-id) <!-- omit in toc -->
 # teamnaam <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Sprint doel](#sprint-doel)
 - [Sprint planning](#sprint-planning)
   - [Feedback teambegeleider](#feedback-teambegeleider)

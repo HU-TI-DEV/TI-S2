@@ -1,18 +1,12 @@
 ![logo](../img/Kennline_NTC.png) [](logo-id)
 
-# Digital I/O [](title-id)
+# Digital I/O [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Digital I/O ](#digital-io-)
-    - [Inhoud](#inhoud)
-    - [Basis principe](#basis-principe)
-    - [Button](#button)
-    - [LED](#led)
-    - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Oefeningen](#oefeningen)
-  - [Referenties](#referenties)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Oefeningen](#oefeningen)
+- [Referenties](#referenties)
 
 ---
 

@@ -1,9 +1,7 @@
-# Opdrachten Classes C++[](title-id)
+# Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Classes C++](#opdrachten-classes-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO1.6 Samengesteld object](#opdracht-oo16-samengesteld-object)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO1.6 Samengesteld object](#opdracht-oo16-samengesteld-object)
 
 
 ### Opdracht OO1.6 Samengesteld object

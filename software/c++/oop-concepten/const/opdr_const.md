@@ -1,9 +1,7 @@
-# Opdracht Const C++[](title-id)
+# Opdracht Const C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht Const C++](#opdracht-const-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO3.1 Auto](#opdracht-oo31-auto)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO3.1 Auto](#opdracht-oo31-auto)
 
 ### Opdracht OO3.1 Auto
 Voor variabelen geeft **`auto`** aan dat het type van de variabele automatisch wordt afgeleid bij initialisatie.

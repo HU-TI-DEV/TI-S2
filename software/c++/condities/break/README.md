@@ -1,10 +1,8 @@
-# break[](title-id)
+# break[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [break](#break)
-    - [Inhoud](#inhoud)
-    - [break](#break-1)
-    - [continue](#continue)
+- [continue](#continue)
 
 
 ### break

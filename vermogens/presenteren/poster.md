@@ -1,16 +1,14 @@
 ![logo](./img/presenting.png) [](logo-id)
 
-# Posterpresentatie [](title-id)
+# Posterpresentatie [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Posterpresentatie ](#posterpresentatie-)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Ontwerp](#ontwerp)
-  - [Inhoud](#inhoud-1)
-  - [Technische tips](#technische-tips)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Ontwerp](#ontwerp)
+- [Inhoud](#inhoud)
+- [Technische tips](#technische-tips)
+- [Referenties](#referenties)
 
 ---
 

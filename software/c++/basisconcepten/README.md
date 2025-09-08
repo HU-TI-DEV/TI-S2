@@ -1,15 +1,13 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# Basisconcepten C++[](title-id)
+# Basisconcepten C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Basisconcepten C++](#basisconcepten-c)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [Main](#main)
-    - [Layout en puntkomma’s](#layout-en-puntkommas)
-  - [Commentaar](#commentaar)
+- [Introductie](#introductie)
+  - [Main](#main)
+  - [Layout en puntkomma’s](#layout-en-puntkommas)
+- [Commentaar](#commentaar)
 
 ---
 

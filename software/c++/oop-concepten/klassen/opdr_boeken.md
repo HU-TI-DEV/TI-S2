@@ -1,10 +1,8 @@
-# Opdrachten Classes C++[](title-id)
+# Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Classes C++](#opdrachten-classes-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO1.2 Boeken](#opdracht-oo12-boeken)
-    - [Opdracht OO1.3 Boeken Main](#opdracht-oo13-boeken-main)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO1.2 Boeken](#opdracht-oo12-boeken)
+- [Opdracht OO1.3 Boeken Main](#opdracht-oo13-boeken-main)
 
 
 ### Opdracht OO1.2 Boeken

@@ -1,17 +1,15 @@
-# Compositie - classes [](title-id)
+# Compositie - classes [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Compositie - classes ](#compositie---classes-)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [Voorkennis en leeswijzer](#voorkennis-en-leeswijzer)
-  - [Class vs. struct](#class-vs-struct)
-    - [Private vs. public](#private-vs-public)
-  - [OO programmeren](#oo-programmeren)
-    - [Public en private (class)](#public-en-private-class)
-      - [Voordelen afscherming (private)](#voordelen-afscherming-private)
-    - [UML](#uml)
-      - [Voorbeeld: line class](#voorbeeld-line-class)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [Voorkennis en leeswijzer](#voorkennis-en-leeswijzer)
+- [Class vs. struct](#class-vs-struct)
+  - [Private vs. public](#private-vs-public)
+- [OO programmeren](#oo-programmeren)
+  - [Public en private (class)](#public-en-private-class)
+    - [Voordelen afscherming (private)](#voordelen-afscherming-private)
+  - [UML](#uml)
+    - [Voorbeeld: line class](#voorbeeld-line-class)
 
 
 ---

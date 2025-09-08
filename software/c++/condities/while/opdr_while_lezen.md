@@ -1,10 +1,8 @@
-# Opdrachten While C++[](title-id)
+# Opdrachten While C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten While C++](#opdrachten-while-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 1.4 While-loop - code lezen](#opdracht-14-while-loop---code-lezen)
-    - [Controle](#controle)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 1.4 While-loop - code lezen](#opdracht-14-while-loop---code-lezen)
+- [Controle](#controle)
 
 
 ### Opdracht 1.4 While-loop - code lezen

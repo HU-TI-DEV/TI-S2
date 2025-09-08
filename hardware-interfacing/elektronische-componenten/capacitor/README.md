@@ -1,13 +1,11 @@
 ![logo](./img/Capacitor.svg) [](logo-id)
 
-# Capacitor[](title-id)
+# Capacitor[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Capacitor](#capacitor)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

@@ -1,6 +1,6 @@
-# Adapter[](title-id)
+# Adapter[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Adapter](#adapter)
   - [Inhoud](#inhoud)
   - [Adapter vs. decorator](#adapter-vs-decorator)

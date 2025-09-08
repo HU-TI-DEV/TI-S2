@@ -1,10 +1,8 @@
-# Opdrachten Doxygen C++[](title-id)
+# Opdrachten Doxygen C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Doxygen C++](#opdrachten-doxygen-c)
-    - [Inhoud](#inhoud)
-    - [Achtergrondinformatie](#achtergrondinformatie)
-    - [Opdracht OO2.2 Doxygen](#opdracht-oo22-doxygen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Achtergrondinformatie](#achtergrondinformatie)
+- [Opdracht OO2.2 Doxygen](#opdracht-oo22-doxygen)
 
 
 ### Achtergrondinformatie

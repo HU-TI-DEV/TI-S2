@@ -1,19 +1,17 @@
 ![logo](../Presenteren/img/../../Scrum/img/Scrumproces.jpg) [](logo-id)
 
-# Scrum[](title-id)
+# Scrum[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Scrum](#scrum)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Onderdelen van Scrum](#onderdelen-van-scrum)
-    - [De rollen binnen scrum](#de-rollen-binnen-scrum)
-    - [Ondersteunende documenten](#ondersteunende-documenten)
-    - [De scrum ceremonies](#de-scrum-ceremonies)
-  - [Hoe gaan we scrum toepassen](#hoe-gaan-we-scrum-toepassen)
-  - [Ondersteunende documenten](#ondersteunende-documenten-1)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [Onderdelen van Scrum](#onderdelen-van-scrum)
+  - [De rollen binnen scrum](#de-rollen-binnen-scrum)
+  - [Ondersteunende documenten](#ondersteunende-documenten)
+  - [De scrum ceremonies](#de-scrum-ceremonies)
+- [Hoe gaan we scrum toepassen](#hoe-gaan-we-scrum-toepassen)
+- [Ondersteunende documenten](#ondersteunende-documenten-1)
+- [bronnen](#bronnen)
 
 ---
 

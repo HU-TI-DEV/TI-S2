@@ -1,13 +1,11 @@
-# Associatie [](title-id)
+# Associatie [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Associatie ](#associatie-)
-    - [Inhoud](#inhoud)
-    - [Relaties tussen klassen](#relaties-tussen-klassen)
-      - [Aggregatie](#aggregatie)
-        - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
-        - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
-      - [Compositie](#compositie)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Relaties tussen klassen](#relaties-tussen-klassen)
+  - [Aggregatie](#aggregatie)
+    - [Initialisatie en initialisatielijst](#initialisatie-en-initialisatielijst)
+    - [Voorbeeld: lijn met window object](#voorbeeld-lijn-met-window-object)
+  - [Compositie](#compositie)
 
 
 ## Relaties tussen klassen

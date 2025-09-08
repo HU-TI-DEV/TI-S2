@@ -1,19 +1,17 @@
 ![logo](./img/presenting.png) [](logo-id)
 
-# Presenteren[](title-id)
+# Presenteren[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Presenteren](#presenteren)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Voorbereiding](#voorbereiding)
-    - [Wat wil het publiek?](#wat-wil-het-publiek)
-    - [Wat wil jij?](#wat-wil-jij)
-    - [Know, Believe, Do](#know-believe-do)
-  - [Tijdens de presentatie](#tijdens-de-presentatie)
-  - [Gebruik van visuele ondersteuning](#gebruik-van-visuele-ondersteuning)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Voorbereiding](#voorbereiding)
+  - [Wat wil het publiek?](#wat-wil-het-publiek)
+  - [Wat wil jij?](#wat-wil-jij)
+  - [Know, Believe, Do](#know-believe-do)
+- [Tijdens de presentatie](#tijdens-de-presentatie)
+- [Gebruik van visuele ondersteuning](#gebruik-van-visuele-ondersteuning)
+- [Referenties](#referenties)
 
 ---
 

@@ -1,13 +1,11 @@
 ![logo](./img/Kennline_NTC.png) [](logo-id)
 
-# Analoog en digitaal[](title-id)
+# Analoog en digitaal[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Analoog en digitaal](#analoog-en-digitaal)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

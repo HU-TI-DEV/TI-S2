@@ -1,8 +1,8 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# Visual Studio Code ontwikkelomgeving[](title-id)
+# Visual Studio Code ontwikkelomgeving[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 
 ### Platforms
 Visual Studio Code (VSC) is een lichtgewicht ontwikkelomgeving die draait op je desktop. VSC is beschikbaar voor **Windows, macOS en Linux**. 

@@ -1,16 +1,14 @@
 ![logo](../I2C/img/I²C_bus_logo.svg) [](logo-id)
 
-# I2C: Inter Integrated Circuit[](title-id)
+# I2C: Inter Integrated Circuit[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [I2C: Inter Integrated Circuit](#i2c-inter-integrated-circuit)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [I2C Communicatie protocol](#i2c-communicatie-protocol)
-  - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [I2C Communicatie protocol](#i2c-communicatie-protocol)
+- [De schakeling](#de-schakeling)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Referenties](#referenties)
 
 ---
 

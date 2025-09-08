@@ -1,16 +1,14 @@
 ![logo](./img/ [](logo-id)
 
-# Piëzo element[](title-id)
+# Piëzo element[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
+- [Een introductie](#een-introductie)
 - [Piëzo element](#piëzo-element)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Piëzo element](#piëzo-element-1)
-  - [De schakeling](#de-schakeling)
-  - [De schakeling](#de-schakeling-1)
-  - [Referenties](#referenties)
+- [De schakeling](#de-schakeling)
+- [De schakeling](#de-schakeling-1)
+- [Referenties](#referenties)
 
 ---
 

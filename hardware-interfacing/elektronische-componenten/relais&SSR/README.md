@@ -1,13 +1,11 @@
 ![logo](./img/Relais.svg) [](logo-id)
 
-# Relais and Solid-state relais[](title-id)
+# Relais and Solid-state relais[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Relais and Solid-state relais](#relais-and-solid-state-relais)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

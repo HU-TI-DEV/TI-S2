@@ -1,6 +1,6 @@
-# Opdrachten Char C++[](title-id)
+# Opdrachten Char C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 ### Opdracht 1.6 — char plus int
 Schrijf een programma dat:
