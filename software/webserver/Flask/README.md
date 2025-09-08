@@ -4,13 +4,10 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Flask](#flask)
-    - [Inhoud](#inhoud)
-    - [Inleiding](#inleiding)
-  - [Een eenvoudige applicatie](#een-eenvoudige-applicatie)
-  - [Docker image](#docker-image)
-  - [Flask voorbeeld](#flask-voorbeeld)
-  - [Referenties](#referenties)
+- [Een eenvoudige applicatie](#een-eenvoudige-applicatie)
+- [Docker image](#docker-image)
+- [Flask voorbeeld](#flask-voorbeeld)
+- [Referenties](#referenties)
 
 ---
 
@@ -34,6 +31,7 @@ source ./venv/bin/activate
 ```
 
 Nu kan je flask installeren en je eerste Python Flask applicatie maken.
+
 ```bash
 (venv)$ pip install flask
 (venv)$ pip install wheel
@@ -42,6 +40,7 @@ Nu kan je flask installeren en je eerste Python Flask applicatie maken.
 ```
 
 Maak een 'Hello World' serverapplicatie in Flask.
+
 ```python
 #flaskApp.py
 from flask import Flask
@@ -56,6 +55,7 @@ if __name__ == "__main__":
 ```
 
 Controleer of je applicatie werkt.
+
 ```bash
 (venv)$ python flaskApp.py 
 ```
@@ -67,6 +67,7 @@ Als alles werkt kunnen we de venv verlaten met `deactivate`.
 ## Docker image
 
 Maak een [Docker](../../../infrastructuur/Docker/README.md) image aan voor je applicatie. Voeg onderstaand toe aan een Dockerfile een bestand met de naam `Dockerfile` zonder extensie (gebruik nano of vi om het bestand te maken).
+
 ```bash
 FROM python:3.9.2
 WORKDIR /code
@@ -77,6 +78,7 @@ CMD python flaskApp.py
 ```
 
 Maak een Docker image.
+
 ```bash
 docker build -t flaskapp . 
 ```
@@ -105,17 +107,18 @@ GPIO.setup(10, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
 @app.route("/")
 def index():
-	# Read Sensors Status
-	button = GPIO.input(10)
-	templateData = {
+ # Read Sensors Status
+ button = GPIO.input(10)
+ templateData = {
       'title' : 'GPIO input',
       'button'  : button
       }
-	return render_template('index.html', **templateData)
+ return render_template('index.html', **templateData)
 if __name__ == "__main__":
    app.run(host='0.0.0.0', port=80, debug=True)
 ```
 
 ## Referenties
+
 - Flask (<https://flask.palletsprojects.com/en/3.0.x/>)
 - Flask logo (<https://commons.wikimedia.org/wiki/File:Flask_logo.svg>)

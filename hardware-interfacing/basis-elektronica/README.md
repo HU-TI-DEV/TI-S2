@@ -27,7 +27,7 @@
 
 ## Een introductie
 
-This chapter provides information for dealing with electronic aspects of small intelligent devices. It is definitely not intended to educate the reader to the level of an electronic designer, but it aims to give a common language for communication with a (micro-) electronics specialist, and enough information to make rough calculations of the viability and functional properties of a design. More background and tips on using formulas refer to [calculations with units](/programma/lesprogramma/programma-rekenen-met-eenheden.md).
+This chapter provides information for dealing with electronic aspects of small intelligent devices. It is definitely not intended to educate the reader to the level of an electronic designer, but it aims to give a common language for communication with a (micro-) electronics specialist, and enough information to make rough calculations of the viability and functional properties of a design. More background and tips on using formulas refer to [calculations with units](../../programma/lesprogramma/programma-rekenen-met-eenheden.md).
 
 ## Current
 

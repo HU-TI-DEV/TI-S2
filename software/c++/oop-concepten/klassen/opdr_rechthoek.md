@@ -1,24 +1,27 @@
 # Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
+
 - [Opdracht OO1.52 Rechthoek](#opdracht-oo152-rechthoek)
 - [Tips](#tips)
 
-
 *Deze opdracht kan nog veranderen!*
+
 ### Opdracht OO1.51 SFML window
+
 - Bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Voor het installeren zijn verschillende mogelijkheden maar onderstaande werkt op Windows, voor Visual Studio Code:
 
 [Installeer SFML met de packetmanager](../../../inrichten-ontwikkelomgeving/sfml_installatie.md)
 (dankzij Lia E.):
 
-
 ## Opdracht OO1.52 Rechthoek
+
 - Bestudeer de [SFML shapes library](https://www.sfml-dev.org/tutorials/2.6/graphics-shape.php).
 
 - Schrijf een programma dat een rechthoek in een window afbeeldt.
 
 ## Tips
+
 Hieronder staat voorbeeldcode die misschien behulpzaam is.
 
 ```cpp
@@ -38,27 +41,28 @@ int main ()
 
     // run the program as long as the window is open
     while (window.isOpen ())
-	{
-	    // check all the window's events that were triggered since the last iteration of the loop
-	    sf::Event event;
-	    // window.display ();
-	    while (window.pollEvent (event))
-		{
-		    // "close requested" event: we close the window
-		    if (event.type == sf::Event::Closed)
-			window.close ();
-		}
+ {
+     // check all the window's events that were triggered since the last iteration of the loop
+     sf::Event event;
+     // window.display ();
+     while (window.pollEvent (event))
+  {
+      // "close requested" event: we close the window
+      if (event.type == sf::Event::Closed)
+   window.close ();
+  }
 
-	    // clear the window
-	    window.clear ();
-	    // Todo: draw the sfml rectangle - uncomment the next line
-	    // window.draw (rshape);
+     // clear the window
+     window.clear ();
+     // Todo: draw the sfml rectangle - uncomment the next line
+     // window.draw (rshape);
 
-	    window.display ();
-	    // voorkom gebibber op het scherm
-	    sf::sleep (sf::milliseconds (20));
-	}
+     window.display ();
+     // voorkom gebibber op het scherm
+     sf::sleep (sf::milliseconds (20));
+ }
     return 0;
 }
 ```
+
 *main.cpp*

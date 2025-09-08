@@ -1,4 +1,4 @@
-![logo](/hardware-interfacing/communicatie/SPI/img/SPI_timing_diagram_CS.svg) [](logo-id)
+![logo](../../hardware-interfacing/communicatie/SPI/img/SPI_timing_diagram_CS.svg) [](logo-id)
 
 # Communicatie[](title-id) <!-- omit in toc -->
 

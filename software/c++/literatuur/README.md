@@ -54,4 +54,4 @@ Aansluitend is <https://www.codingame.com/home> leuk
 
 * Websites voor het leren (door voorbeelden te maken)
 
-  * [LeetCode](https://leetcode.com/)
+  * [LeetCode](https://leetcode.com/)<!-- markdown-link-check-disable-line -->

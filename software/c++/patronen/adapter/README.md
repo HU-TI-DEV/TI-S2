@@ -1,41 +1,45 @@
 # Adapter[](title-id) <!-- omit in toc -->
 
 ## Inhoud[](toc-id) <!-- omit in toc -->
-- [Adapter](#adapter)
-  - [Inhoud](#inhoud)
-  - [Adapter vs. decorator](#adapter-vs-decorator)
-    - [Decorator: gedrag anders, interface gelijk](#decorator-gedrag-anders-interface-gelijk)
-  - [Adapter: gedrag gelijk, interface verschillend](#adapter-gedrag-gelijk-interface-verschillend)
-    - [Voorbeeld van adapter: window](#voorbeeld-van-adapter-window)
-    - [Functioneel geen veranderingen](#functioneel-geen-veranderingen)
-  - [Decorator voorbeeld: window](#decorator-voorbeeld-window)
 
+- [Adapter vs. decorator](#adapter-vs-decorator)
+  - [Decorator: gedrag anders, interface gelijk](#decorator-gedrag-anders-interface-gelijk)
+  - [Adapter: gedrag gelijk, interface verschillend](#adapter-gedrag-gelijk-interface-verschillend)
+- [Adapter voorbeeld: window](#adapter-voorbeeld-window)
+  - [Functioneel geen veranderingen](#functioneel-geen-veranderingen)
+- [Decorator voorbeeld: window](#decorator-voorbeeld-window)
 
 ## Adapter vs. decorator
+
 Het adapter en het decorator patroon zijn elkaars tegengestelden.
 Lees ook alles over het [Decorator pattern](../decorator/README.md).
 
 ### Decorator: gedrag anders, interface gelijk
+
 Een [decorator](../decorator/README.md) biedt een ‘laagje’ over een object, zodat het zich iets anders gaat gedragen, maar *de interface van de decorator en het ‘minion’ object is dezelfde*.
 
-## Adapter: gedrag gelijk, interface verschillend
-Bij het adapter pattern zijn *het gedrag van het ‘minion’ object en de adapter hetzelfde*, maar *de interface is anders*. 
+### Adapter: gedrag gelijk, interface verschillend
+
+Bij het adapter pattern zijn *het gedrag van het ‘minion’ object en de adapter hetzelfde*, maar *de interface is anders*.
 Bijvoorbeeld de naam van de functies, de types en volgorde van de parameters zijn anders.
 
-### Voorbeeld van adapter: window
-Een voorbeeld van een adapter is de implementatie van een (abstract) *grafisch scherm* op bijvoorbeeld windows. 
+## Adapter voorbeeld: window
 
-De `window_window` klasse is een implementatie van de abstracte `window` klasse. De `window` klasse hoeft maar 2 functies te implementeren: 
-- een window maken, en 
-- een pixel schrijven. 
+Een voorbeeld van een adapter is de implementatie van een (abstract) *grafisch scherm* op bijvoorbeeld windows.
 
-Het *wissen* (`clear`) van de window kunnen we in de abstracte window klasse oplossen door alle pixels uit te zetten. 
+De `window_window` klasse is een implementatie van de abstracte `window` klasse. De `window` klasse hoeft maar 2 functies te implementeren:
+
+- een window maken, en
+- een pixel schrijven.
+
+Het *wissen* (`clear`) van de window kunnen we in de abstracte window klasse oplossen door alle pixels uit te zetten.
 De `window_window::draw` functie maakt gebruik van de `SetPixel` functie in de Microsoft Windows library die hetzelfde doet, maar met heel andere parameters.
 
 ![alt text](windows_adapter.png)
 *Figuur - Een adapter: een abstracte window, en een implementatie daarvan op Microsoft Windows*
 
 ### Functioneel geen veranderingen
+
 Behalve het veranderen van de parameters (de boolean waarde moet vervangen worden door twee RGB waarden) hoeft bv. de `window_window::draw` functie eigenlijk niets te doen. (De code bevat nog twee for loops omdat we op windows de pixels wat groter willen maken.)
 
 **Dit is typisch voor een adapter: de interface van de adapter is anders dan van het onderliggende object, maar de functie (wat er eigenlijk gebeurt) is meestal hetzelfde.**
@@ -54,9 +58,11 @@ void window_window::draw( const vector & pixel, bool v ){
   }
 }
 ```
+
 *Codevoorbeeld 17-04 - `window_window::draw` implementatie*
 
 ## Decorator voorbeeld: window
+
 Een window is trouwens ook een goede kandidaat voor decorators. De mirror decorator splitst de window in twee sub-windows, en print naar beide windows, maar *geïnverteerd*.
 
 ```cpp
@@ -78,6 +84,7 @@ public:
 
 };
 ```
+
 *Codevoorbeeld 17-05 - Een mirror decorator*
 
 ```cpp
@@ -96,6 +103,7 @@ int main(){
   }
 }
 ```
+
 *Codevoorbeeld 21-05 - Gebruik van de mirror decorator*
 
 ![alt text](mirror_decorator.png)

@@ -3,22 +3,24 @@
 # CodeLite ontwikkelomgeving[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
-- [Uitgebreide software ontwikelomgeving](#uitgebreide-software-ontwikelomgeving)
-  - [Vooraf](#vooraf)
-  - [Software-ontwikkelomgeving](#software-ontwikkelomgeving)
-  - [Omgevingsvariabelen](#omgevingsvariabelen)
-    - [Testen of alles goed werkt](#testen-of-alles-goed-werkt)
-    - [Oké, en wat nu?](#oké-en-wat-nu)
-  - [Wat als het niet goed is gegaan?](#wat-als-het-niet-goed-is-gegaan)
-  - [Referenties](#referenties)
 
+- [CodeLite](#codelite)
+- [Uitgebreide software ontwikelomgeving](#uitgebreide-software-ontwikelomgeving)
+- [Vooraf](#vooraf)
+- [Software-ontwikkelomgeving](#software-ontwikkelomgeving)
+- [Omgevingsvariabelen](#omgevingsvariabelen)
+  - [Testen of alles goed werkt](#testen-of-alles-goed-werkt)
+  - [Oké, en wat nu?](#oké-en-wat-nu)
+- [Wat als het niet goed is gegaan?](#wat-als-het-niet-goed-is-gegaan)
+- [Referenties](#referenties)
 
 ## CodeLite
-CodeLite is een editor/IDE die je kunt vinden op: https://codelite.org.
+
+CodeLite is een editor/IDE die je kunt vinden op: <https://codelite.org>.
 
 CodeLite heeft de vervelende eigenschap bij het opstarten te checken of er een nieuwe versie is, en als die er niet is lukt het niet om die te installeren. Dit kan je uitzetten via Settings -> Preferences -> Misc -> Check for new version at startup.
 
-# Uitgebreide software ontwikelomgeving
+## Uitgebreide software ontwikelomgeving
 
 Deze uitgebreide handleiding heb je pas nodig na de tweede helft van semester 2 van Technische Informatica.
 
@@ -30,30 +32,37 @@ De procedure duurt in totaal ongeveer 15-20 minuten.
 
 Installeer de onderstaande programma’s in de standaard directories. Dus geef geen alternatieve locaties aan.
 
-- Python 3: <https://www.python.org/downloads/release/>
-- 7-Zip: https://www.7-zip.org/
+- Python 3: <https://www.python.org/downloads/>
+- 7-Zip: <https://www.7-zip.org/>
+
 Gewoon heb je de ‘*.exe’-type van de ‘64-bit Windows x64’ versie nodig.
 Dit is de versie waarmee de procedure is getest.
-- Git: https://git-scm.com/download/win
+
+- Git: <https://git-scm.com/download/win>
+
 Kies de ‘Standalone Installer’ voor ‘64-bit Git for Windows Setup.’
+
 Let op: installeer deze ‘voor alle gebruikers’.
-- CodeLite: https://codelite.org/  
 
-Python moet je in de gewone Windows ‘Command Prompt’ kunnen opstarten. Als bij het intoetsen van ‘python’ de Windows Store opstart, dan moet je dit uitschakelen: https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python
+- CodeLite: <https://codelite.org/>  
 
-    Als het installatie programma 7-Zip en Git niet in de PATH kan vinden, dan zoekt het op bepaalde standaard plaatsen in de Windows ‘Program Files’ folders en verwacht ze daar ook te vinden.
+Python moet je in de gewone Windows ‘Command Prompt’ kunnen opstarten.
+
+Als bij het intoetsen van ‘python’ de Windows Store opstart, dan moet je dit uitschakelen: <https://stackoverflow.com/questions/58754860/cmd-opens-windows-store-when-i-type-python>
+
+> Als het installatie programma 7-Zip en Git niet in de PATH kan vinden, dan zoekt het op bepaalde standaard plaatsen in de Windows ‘Program Files’ folders en verwacht ze daar ook te vinden.
 
 ## Software-ontwikkelomgeving
 
-1.	Maak een folder waar de omgeving in moet komen. Zorg wel dat het een folder is zonder spaties in de naamgeving. Dus “D:\TI_SOFTWARE” gaat goed. Echter “D:\TI SOFTWARE” gaat fout. Dat komt door de spatie tussen de I en de S.
-2.	Zet het python programma ([InstallSoftware.py](https://github.com/HU-TI-DEV/installers)) in die folder
-3.	Ga met CMD (‘Command Prompt’) naar die folder
-4.	Tik in: python InstallSoftware.py <Return>
-5.	Neem een bak koffie
-6.	Als het programma klaar is zonder fout dan toont het een melding met aan het einde ‘Installation complete.’
-7.	Je kan op de command line set_env.bat uitvoeren om bepaalde omgevingsvariabelen te zetten. Daarna kan je met _run in een project map programma’s bouwen en te runnen. 
+1. Maak een folder waar de omgeving in moet komen. Zorg wel dat het een folder is zonder spaties in de naamgeving. Dus “D:\TI_SOFTWARE” gaat goed. Echter “D:\TI SOFTWARE” gaat fout. Dat komt door de spatie tussen de I en de S.
+2. Zet het python programma ([InstallSoftware.py](https://github.com/HU-TI-DEV/installers)) in die folder
+3. Ga met CMD (‘Command Prompt’) naar die folder
+4. Tik in: python InstallSoftware.py <Return>
+5. Neem een bak koffie
+6. Als het programma klaar is zonder fout dan toont het een melding met aan het einde ‘Installation complete.’
+7. Je kan op de command line set_env.bat uitvoeren om bepaalde omgevingsvariabelen te zetten. Daarna kan je met_run in een project map programma’s bouwen en te runnen.
 Dat uitvoeren van set_env.bat moet je altijd na het opstarten van CMD doen.
-8.	Je kan de instellingen in set_env.bat ook tot jouw ‘Omgevingsvariabelen’ (Environment Variables) toevoegen. Let op: deze wijziging werkt pas in een nieuwe CMD instantie.
+8. Je kan de instellingen in set_env.bat ook tot jouw ‘Omgevingsvariabelen’ (Environment Variables) toevoegen. Let op: deze wijziging werkt pas in een nieuwe CMD instantie.
 
 In de folder staan nu de volgende bestanden en folders.
 
@@ -89,7 +98,6 @@ D:\HU\TI_SOFTWARE>dir
               15 Dir(s)  100,542,179,328 bytes free
 
 D:\HU\TI_SOFTWARE>
-
 ```
 
 - Install.log – hoe alles is verlopen
@@ -109,13 +117,13 @@ D:\HU\TI_SOFTWARE>
 
 De ZIP bestanden zijn de juiste compilers voor native (i686), Atmel (Arduino DUE (GCC) en de 8 bit Arduino’s (AVR-GCC)) en SFML (graphics).
 
-Verder zijn er een aantal folders ‘gecloned’ uit de GitHub omgeving. 
+Verder zijn er een aantal folders ‘gecloned’ uit de GitHub omgeving.
 
 In semester 2 gebruiken we de folder v1oopc-examples. De folders v2cpse1-examples, v2cpse2-examples en v2thde-examples komen in het 2e jaar aan bod.
 
 In de respectievelijke folders zijn ook CodeLite workspaces gemaakt zodat je gelijk toegang hebt tot alle voorbeelden en stukken code die je nodig hebt voor de opgaven.
 
-Verder heeft het installatie programma een bestand “Install.log” en “set_env.bat” aangemaakt. 
+Verder heeft het installatie programma een bestand “Install.log” en “set_env.bat” aangemaakt.
 
 De eerste (“Install.log”) is een verslag van alle stappen die zijn doorlopen. De tweede (“set_env.bat”) is nodig om de omgevingsvariabelen juist op te zetten om bmptk-make en de compilers goed te kunnen gebruiken.
 
@@ -124,12 +132,14 @@ De eerste (“Install.log”) is een verslag van alle stappen die zijn doorlopen
 Om CodeLite goed te kunnen gebruiken (door klik op het CodeLite symbool en niet door opstarten vanuit de CMD command line), moeten we nu nog een aantal omgevingsvariabele (environment variables) toevoegen en een bewerken.
 
 Windows kent twee soorten omgevingsvariabelen (environment variables):
--	System environment variables (systeem omgevingsvariabelen)
--	User environment variables (gebruikersomgeving)
+
+- System environment variables (systeem omgevingsvariabelen)
+- User environment variables (gebruikersomgeving)
 
 Het is voldoende, de gebruikersomgeving te bewerken. Dus heb je daarvoor geen admin-rechten nodig. We moeten twee onderdeken toevoegen:
--	De omgevingsvariabele HCT
--	Uitbreidingen van de variabele PATH
+
+- De omgevingsvariabele HCT
+- Uitbreidingen van de variabele PATH
 
 Eerdere versies van InstallSoftware.py maakten een ’registry import file’ aan om dat niet handmatig te moeten doen, maar daar waren risico’s aan gehecht. Met Windows 11 is het ook niet meer zo makkelijk deze *.reg bestanden te gebruiken.
 
@@ -147,7 +157,7 @@ In Figuur 2 heb ik PATH gekozen en ‘Edit’, om iets toe te voegen.
 
 ***Figuur 2: PATH moeten we alleen bewerken, dus 'Edit' kiezen***
 
-En in Figuur 3 zie je dat ik de pad naar de map D:\HU\TI_SOFTWARE\bmptk\tools toevoeg. 
+En in Figuur 3 zie je dat ik de pad naar de map D:\HU\TI_SOFTWARE\bmptk\tools toevoeg.
 
 ![Figuur 3: Een element aan de PATH toevoegen, hier …\bmptk\tools](../inrichten-ontwikkelomgeving/img/Figuur03.png)
 

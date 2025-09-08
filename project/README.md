@@ -27,7 +27,7 @@ In de snel veranderende wereld van de glastuinbouw is innovatie essentieel om co
 
 Ons kasbouwsysteem is ontworpen met een brede toepasbaarheid in gedachten. Dit staat haaks op het huidige aanbod van hyper gespecialiseerde kassen. Of het nu gaat om de teelt van tomaten, komkommers of exotische planten, het systeem kan worden aangepast aan de specifieke behoeften van de kweker. Dit wordt bereikt door een configurabele software-interface waarmee gebruikers parameters kunnen instellen, zoals temperatuur, luchtvochtigheid en lichtintensiteit, afhankelijk van hun gewas. Hoewel het systeem flexibel is, zorgt de ingebouwde configuratie ervoor dat instellingen altijd geoptimaliseerd worden voor de specifieke teelt.
 
-### 2. Modulaire opbouw 
+### 2. Modulaire opbouw
 
 Het systeem bestaat uit afzonderlijke modules die eenvoudig te vervangen of uit te breiden zijn. Denk hierbij aan:
 
@@ -70,4 +70,5 @@ Een geavanceerd meet- en dataopslag systeem zorgt ervoor dat alle relevante omge
 - Waterverbruik en nutriëntenbeheer
 
 ## 6. Unique Selling Point (USP)
+
 De kassenbouw is hoog competitief en vanuit marketing overweging moet ook rekening worden gehouden met het onderscheidende vermogen van ons product ten opzichte van concurrende producten. Dit is een vereiste in de POC.

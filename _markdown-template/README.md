@@ -109,10 +109,10 @@ adding additional levels of `>`:
 Blockquotes can contain other Markdown elements, including headers, lists,
 and code blocks:
 
-> ## This is a header.
+> ## This is a header
 >
-> 1.  This is the first list item.
-> 2.  This is the second list item.
+> 1. This is the first list item.
+> 2. This is the second list item.
 >
 > Here's some example code:
 >
@@ -129,27 +129,27 @@ Markdown supports ordered (numbered) and unordered (bulleted) lists.
 Unordered lists use asterisks, pluses, and hyphens -- interchangably
 -- as list markers:
 
--   Red
--   Green
--   Blue
+- Red
+- Green
+- Blue
 
 is equivalent to:
 
--   Red
--   Green
--   Blue
+- Red
+- Green
+- Blue
 
 and:
 
--   Red
--   Green
--   Blue
+- Red
+- Green
+- Blue
 
 Ordered lists use numbers followed by periods:
 
-1.  Bird
-2.  McHale
-3.  Parish
+1. Bird
+2. McHale
+3. Parish
 
 It's important to note that the actual numbers you use to mark the
 list have no effect on the HTML output Markdown produces. The HTML
@@ -157,9 +157,9 @@ Markdown produces from the above list is:
 
 If you instead wrote the list in Markdown like this:
 
-1.  Bird
-1.  McHale
-1.  Parish
+1. Bird
+1. McHale
+1. Parish
 
 or even:
 
@@ -174,25 +174,25 @@ But if you want to be lazy, you don't have to.
 
 To make lists look nice, you can wrap items with hanging indents:
 
--   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
     viverra nec, fringilla in, laoreet vitae, risus.
--   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
     Suspendisse id sem consectetuer libero luctus adipiscing.
 
 But if you want to be lazy, you don't have to:
 
--   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+- Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
     Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
     viverra nec, fringilla in, laoreet vitae, risus.
--   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+- Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
     Suspendisse id sem consectetuer libero luctus adipiscing.
 
 List items may consist of multiple paragraphs. Each subsequent
 paragraph in a list item must be indented by either 4 spaces
 or one tab:
 
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
+1. This is a list item with two paragraphs. Lorem ipsum dolor
     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
     mi posuere lectus.
 
@@ -200,25 +200,25 @@ or one tab:
     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
     sit amet velit.
 
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+2. Suspendisse id sem consectetuer libero luctus adipiscing.
 
 It looks nice if you indent every line of the subsequent
 paragraphs, but here again, Markdown will allow you to be
 lazy:
 
--   This is a list item with two paragraphs.
+- This is a list item with two paragraphs.
 
         This is the second paragraph in the list item. You're
 
     only required to indent the first line. Lorem ipsum dolor
     sit amet, consectetuer adipiscing elit.
 
--   Another item in the same list.
+- Another item in the same list.
 
 To put a blockquote within a list item, the blockquote's `>`
 delimiters need to be indented:
 
--   A list item with a blockquote:
+- A list item with a blockquote:
 
     > This is a blockquote
     > inside a list item.
@@ -226,7 +226,7 @@ delimiters need to be indented:
 To put a code block within a list item, the code block needs
 to be indented _twice_ -- 8 spaces or two tabs:
 
--   A list item with a code block:
+- A list item with a code block:
 
         <code goes here>
 
@@ -297,13 +297,13 @@ emphasis. Text wrapped with one `*` or `_` will be wrapped with an
 HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
 `<strong>` tag. E.g., this input:
 
-*single asterisks*
+_single asterisks_
 
 _single underscores_
 
 **double asterisks**
 
-__double underscores__
+**double underscores**
 
 ### Code
 
@@ -314,6 +314,8 @@ normal paragraph. For example:
 Use the `printf()` function.
 
 ## Links
+
+<!-- markdown-link-check-disable -->
 
     - [I'm an inline-style wiki-page link](Markdown Test Page)
     - [I'm an inline-style link](https://www.google.com)
@@ -330,18 +332,18 @@ Use the `printf()` function.
 
     [arbitrary case-insensitive reference text]: https://www.mozilla.org
     [1]: http://slashdot.org
-    [link text itself]: http://www.reddit.com
+    [link text itself]: http://www.reddit.com 
 
--   [I'm an inline-style wiki-page link](Markdown Test Page)
--   [I'm an inline-style external link](https://www.google.com)
+- [I'm an inline-style wiki-page link](Markdown Test Page)
+- [I'm an inline-style external link](https://www.google.com)
 
--   [I'm a reference-style link][arbitrary case-insensitive reference text]
--   [You can use numbers for reference-style link definitions][1]
+- [I'm a reference-style link][arbitrary case-insensitive reference text]
+- [You can use numbers for reference-style link definitions][1]
 
 Or leave it empty and use the [link text itself]
 
 URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
+<http://www.example.com> or <http://www.example.com> and sometimes
 example.com (but not on Github, for example).
 
 Some text to show that the reference links can follow later. Reference links only support full URL's, not internal wiki pagenames.
@@ -349,6 +351,8 @@ Some text to show that the reference links can follow later. Reference links onl
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 [1]: http://slashdot.org
 [link text itself]: http://www.reddit.com
+
+<!-- markdown-link-check-enble -->
 
 ## Images
 
@@ -427,14 +431,13 @@ Markdown | Less | Pretty
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-
 ## Style bold
 
 Use double astrics for **bold text** `**bold text**`
 
 ## Style italic
 
-Use triple astrics for ***italic text*** `***italic text***`
+Use triple astrics for _**italic text**_ `***italic text***`
 
 ## Style strikethrough
 

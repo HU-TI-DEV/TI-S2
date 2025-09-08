@@ -107,7 +107,7 @@ Er zijn verschillende methoden die je kunnen helpen met reflecteren. Een handige
 > Beschrijf zo precies mogelijk de verschillende stappen vanaf het begin van de situatie,
 > tot aan het eind (=resultaat) van de situatie
 
-![starr][img/Starr.png](1)
+![starr](img/Starr.png)
 
 ## Bronnen
 

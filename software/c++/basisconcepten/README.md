@@ -1,4 +1,4 @@
-![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
+![logo](../img/ISO_C++_Logo.svg) [](logo-id)
 
 # Basisconcepten C++[](title-id) <!-- omit in toc -->
 

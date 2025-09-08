@@ -1,55 +1,60 @@
 # Reductie[](title-id) <!-- omit in toc -->
 
 ## Inhoud[](toc-id) <!-- omit in toc -->
-- [Reductie](#reductie)
-  - [Inhoud](#inhoud)
-  - [Reductie](#reductie-1)
-    - [Reductie in ons leven](#reductie-in-ons-leven)
-      - [Reductie in programmeren](#reductie-in-programmeren)
 
+- [Reductie](#reductie)
+  - [Reductie in ons leven](#reductie-in-ons-leven)
+  - [Reductie in programmeren](#reductie-in-programmeren)
 
 In de kunst van het programmeren gebruiken we meerdere patronen. Deze patronen helpen om (deel)oplossingen te herkennen, om structuur te brengen in grote lappen
 code en in nadenken over onze oplossingen. In [Patronen](#patronen) hebben we patronen
-besproken voor het werken met vectoren. 
+besproken voor het werken met vectoren.
 
 In dit hoofdstuk gaan we het hebben over
 een patroon dat kan helpen in het nadenken over oplossingen: reductie.
 
 ## Reductie
+
 Programmeren is niet altijd makkelijk. Vooral niet als het einddoel heel groot is. We
 maken het onszelf makkelijker **als we grote problemen splitsen in kleinere deelproblemen**.
-Dit noemen we reductie. 
+Dit noemen we reductie.
 
 In deze sectie behandelen we reductie en hoe het ons
 kan helpen om bij een oplossing te komen.
 
 ### Reductie in ons leven
+
 Reductie is een tactiek die we in ons leven dagelijks toepassen. Als we boodschappen willen gaan doen dan verwerken we niet in één keer het gehele probleem, maar splitsen het op in deelproblemen:
+
 - Van huis naar een supermarkt reizen
 - Boodschappen in winkelwagen stoppen
 - Afrekenen
 - Van de supermarkt naar huis reizen.
 
-Het opsplitsen van een probleem in deelproblemen geeft ons drie voordelen. 
-- Het eerste voordeel is dat als we nadenken over het oplossen van een deelprobleem **ons probleemgebied kleiner en duidelijker afgebakend is**. Dit maakt het makkelijker om er over na te denken: we weten nu dat het reizen naar een supermarkt los staat van het afrekenen. Tijdens het
+Het opsplitsen van een probleem in deelproblemen geeft ons drie voordelen.
+
+1. Het eerste voordeel is dat als we nadenken over het oplossen van een deelprobleem **ons probleemgebied kleiner en duidelijker afgebakend is**. Dit maakt het makkelijker om er over na te denken: we weten nu dat het reizen naar een supermarkt los staat van het afrekenen. Tijdens het
 reizen houden we ons dus niet bezig met hoe we onze pinpas gaan gebruiken.
-- Het tweede voordeel is dat het nu makkelijker is om over het grote probleem na te denken. Voor het uiteindelijke grote probleem van boodschappen doen maakt de implementatie van de functie `reisNaarSupermarkt()` niet uit. Zolang het zijn doel
+
+2. Het tweede voordeel is dat het nu makkelijker is om over het grote probleem na te denken. Voor het uiteindelijke grote probleem van boodschappen doen maakt de implementatie van de functie `reisNaarSupermarkt()` niet uit. Zolang het zijn doel
 (het naar een supermarkt gaan) maar bereikt. We kunnen hierdoor over het grotere probleem denken in grotere stappen, **zonder ons zorgen te maken over de details**. Ook betekent dit dat we de implementatie van `reisNaarSupermarkt()` **aan iemand anders
 over kunnen laten**; bijvoorbeeld aan een taxi-chauffeur.
-- Het laatste voordeel is dat als we de functie slim schrijven, we de functie kunnen
+
+3. Het laatste voordeel is dat als we de functie slim schrijven, we de functie kunnen
 **hergebruiken voor andere problemen**. We kunnen de functie `reisNaarSupermarkt()` herformuleren zodat het de locatie mee krijgt als parameter: `reisNaar(supermarkt)`.
 We kunnen de functie dan misschien ook gebruiken voor als we gaan sporten:
 `reisNaar(sportschool)`.
 
+### Reductie in programmeren
 
-#### Reductie in programmeren
 Met programmeren splitsen we onze problemen op in kleinere deelproblemen. Dit heb je al meerdere keren gedaan. Zo gebruiken we als we werken met vectoren de
-functie `.size()`(zie sectie Vector [Functies](#functies)). 
-Met het gebruik van de size functie passen we reductie toe. 
-- In de oplossing die we aan het maken zijn hebben we de lengte van de vector nodig (deelprobleem). 
+functie `.size()`(zie sectie Vector [Functies](#functies)).
+Met het gebruik van de size functie passen we reductie toe.
+
+- In de oplossing die we aan het maken zijn hebben we de lengte van de vector nodig (deelprobleem).
 - We weten dat we die kunnen krijgen door middel van de
-`.size()`-functie. 
-- We denken niet na over de implementatie van de `.size()`-functie; enkel over wat hij teruggeeft. 
+`.size()`-functie.
+- We denken niet na over de implementatie van de `.size()`-functie; enkel over wat hij teruggeeft.
 - We nemen aan dat de functie goed werkt!
 
 De `.size()`-functie is een functie gegeven bij een library in C++, maar we kunnen natuurlijk ook zelf functies schrijven.
@@ -58,15 +63,15 @@ voor het grote probleem van **het tellen van hoe vaak het hoogste cijfer voor ee
 
 De functie `maxValue()` kunnen we bijvoorbeeld hergebruiken voor het berekenen van
 hoeveel goedkoper onze winkel een product aanbiedt dan de duurste concurrent. Dit heeft als deelproblemen:
-- vind de prijzen van de concurrenten, 
+
+- vind de prijzen van de concurrenten,
 - bepaal de hoogste prijs bij de
-concurrenten, 
-- vind de winkelprijs, 
-- bepaal het verschil tussen winkelprijs en hoogste prijs bij de concurrenten. 
+concurrenten,
+- vind de winkelprijs,
+- bepaal het verschil tussen winkelprijs en hoogste prijs bij de concurrenten.
 Voor het bepalen van de hoogste prijs zou de functie maxValue() hergebruikt kunnen worden.
 
 Programmeren wordt wel eens de kunst van het reduceren genoemd.
-
 
 ```cpp
 #include <iostream>
@@ -112,4 +117,5 @@ int main(){
   // freqMax: 3
 }
 ```
+
 *Codevoorbeeld 14.1.1 - Reductie bij tellen van het hoogste cijfer*

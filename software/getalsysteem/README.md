@@ -4,13 +4,12 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Numeral system](#numeral-system)
-    - [Inhoud](#inhoud)
-  - [Bases](#bases)
-  - [Where do we use this?](#where-do-we-use-this)
-  - [Numbers from 0 to 16 in four different bases](#numbers-from-0-to-16-in-four-different-bases)
-  - [Larger bases - are they actually used?](#larger-bases---are-they-actually-used)
-  - [Referenties](#referenties)
+- [Bases](#bases)
+- [Where do we use this?](#where-do-we-use-this)
+- [Numbers from 0 to 16 in four different bases](#numbers-from-0-to-16-in-four-different-bases)
+- [Larger bases - are they actually used?](#larger-bases---are-they-actually-used)
+- [Fun Fact](#fun-fact)
+- [Referenties](#referenties)
 
 ---
 
@@ -29,17 +28,17 @@ write numbers in other bases.
 
 The most relevant number bases for programming are:
 
--   decimal - the default base for numbers, a single digit is from 0
+- decimal - the default base for numbers, a single digit is from 0
     to 9
 
--   hexadecimal or sexagesimal, a convenient abbreviation for binary
+- hexadecimal or sexagesimal, a convenient abbreviation for binary
     numbers, because each hexadecimal digit (0..F) represents four bits
 
--   octal - this was used in early computers and one octal digit
+- octal - this was used in early computers and one octal digit
     (0..7) represents three bits, we see it when Unix file access rights
     are printed or entered, e.g. `chmod 644 myfile.txt` for `rw-r–r–`
 
--   binary - the base in which all conventional digital computer
+- binary - the base in which all conventional digital computer
     circuits work, a bit or binary digit (0..1) represents 'no current'
     and 'current'
 
@@ -103,7 +102,8 @@ Hexadecimal dump of the input data (`od -Ax -t x1`):
 ```
 
 ## Fun Fact
-Many early civilizations (and some current civilizations, too) used to count in a base 12 (duodecimal) system, by using their thumb to count their phalanges. For further reading, see: https://en.wikipedia.org/wiki/Duodecimal
+
+Many early civilizations (and some current civilizations, too) used to count in a base 12 (duodecimal) system, by using their thumb to count their phalanges. For further reading, see: <https://en.wikipedia.org/wiki/Duodecimal>
 
 ## Referenties
 

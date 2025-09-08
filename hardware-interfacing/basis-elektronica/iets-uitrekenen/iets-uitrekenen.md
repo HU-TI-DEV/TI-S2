@@ -1,5 +1,7 @@
 # Iets Uitrekenen
 
+## TODO - add two images for "Min teken"
+
 Er zijn momenten in het leven dat je het nodig hebt om “gewoon even iets
 te kunnen uitrekenen”.  
 Na het bestuderen van dit materiaal – en het stellen van vragen waar
@@ -15,23 +17,23 @@ Dat kan een beetje zijn weggezakt. Daarom refreshen we eerst dat deel.
 
 # Vermenigvuldigen
 
-Vermenigvuldigen is **herhaald optellen**.   
+Vermenigvuldigen is **herhaald optellen**.
 Dus 5 • 3 kun je lezen als 5 + 5 + 5, of als 3 + 3 + 3 + 3 + 3.
 
 Een vermenigvuldiging noemen wel ook wel een **product**. Op de lagere school schreven we dat als X, maar dat teken gebruiken we nu om een variabele mee aan te duiden. We schrijven het nu als ” • ” of “\* ”. In veel gevallen schrijven we hem zelfs niet op: 5x betekent hetzelfde als 5•x.
 
 # Factoren
 
-De argumenten van een vermenigvuldiging, van een product, noemen we factoren.   
-Voorbeeld:   
+De argumenten van een vermenigvuldiging, van een product, noemen we factoren.
+Voorbeeld:
 5•3 + 2•7•3 - 2•9  
 In bovenstaande voorbeeld zien we vermenigvuldigingen en optellingen. De getallen die deelnemen aan de vermenigvuldigingen, zoals 2, 7 en 3 bij de tweede vermenigvuldiging, noemen we **factoren**.
 
 ## Haakjes en Termen
 
-Rond factoren staan in onze gedachten altijd haakjes. Dus eigenlijk betekent bovenstaande voorbeeld:   
+Rond factoren staan in onze gedachten altijd haakjes. Dus eigenlijk betekent bovenstaande voorbeeld:
 (5•3) + (2•7•3) - (2•9)  
-De operaties binnen haakjes hebben voorrang, dus eerst moeten de factoren worden uitvermenigvuldigd. Daarna pas mogen ze worden opgeteld of afgetrokken.   
+De operaties binnen haakjes hebben voorrang, dus eerst moeten de factoren worden uitvermenigvuldigd. Daarna pas mogen ze worden opgeteld of afgetrokken.
 Dingen die je bij elkaar optelt of aftrekt, heten **termen**.
 In het bovenstaande voorbeeld vormen de producten 5•3, 2•7•3 en 2•9 de termen die bij elkaar opgeteld of afgetrokken worden.
 
@@ -40,7 +42,7 @@ In het bovenstaande voorbeeld vormen de producten 5•3, 2•7•3 en 2•9 de t
 Delen is **herhaald aftrekken**.
 We schreven dat op de lagere school vaak als :, in software vaak als / , maar bij voorkeur (handgeschreven) als horizontale deelstreep (zie breuken hieronder).
 
-**Voorbeeld**: 15/3 kun je herschrijven als 5, omdat je 5 keer 3 van 15 kunt aftrekken.    
+**Voorbeeld**: 15/3 kun je herschrijven als 5, omdat je 5 keer 3 van 15 kunt aftrekken.
 Soms past het niet: 17/3 zou je kunnen herschrijven als 5 rest 2 derde, oftewel 5 2/3. Het getal 3 kan immers vijf keer compleet van 17 afgetrokken worden. Vervolgens nog een restje ter grootte van 2 van de laatste 3. Maar deze moeite nemen we normaal gesproken **niet**. 17/3 laten staan is makkelijker en veel flexibeler als je nog verder wilt rekenen.
 
 ## Wat is een breuk?
@@ -55,7 +57,7 @@ breuk = $\Large \frac{teller}{noemer}\normalsize $
 $\frac{2}{5} \bullet  \frac{3}{4}  = \frac{6}{20} $
 
 NB: een geheel getal is ook te schrijven als een breuk:
-$2 = \Large \frac{2}{1}\normalsize $    
+$2 = \Large \frac{2}{1}\normalsize $
 [video breuken vermenigvuldigen](https://www.youtube.com/watch?v=mZfSS5SoomY)
 
 ## Hoe deel je twee breuken?
@@ -66,7 +68,7 @@ $\Large \frac{\Large \frac{2}{5}\normalsize \ }{\Large \frac{3}{4}\normalsize } 
 
 ## Wat is **herleiden**?
 
-**Herleiden** is het herschrijven van een wiskundige formule of breuk naar een **eenvoudigere** vorm, die equivalent is. 
+**Herleiden** is het herschrijven van een wiskundige formule of breuk naar een **eenvoudigere** vorm, die equivalent is.
 Een voorbeeld van herleiden is het **vereenvoudigen** van een breuk. Bijvoorbeeld $\frac{1}{2}$ is equivalent met $\frac{2}{4}$, maar eenvoudiger.
 
 ## Hoe vereenvoudig je een breuk?
@@ -75,15 +77,15 @@ Het kan voorkomen dat **teller en noemer** van een breuk **deelbaar** zijn
 **door hetzelfde hele getal**.  
 In dat geval kun je die deling uitvoeren om de breuk eenvoudiger te
 schrijven.  
-$\Large \frac{20}{25}\normalsize  = \Large \frac{20 \small \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \small \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize 
-$   
+$\Large \frac{20}{25}\normalsize  = \Large \frac{20 \small \bullet \normalsize \Large \frac{1}{5}\normalsize \ }{25 \small \bullet \normalsize \Large \frac{1}{5}\normalsize } = \Large \frac{4}{5}\normalsize
+$
 Bovenstaand is zowel teller als noemer deelbaar door 5.  
-NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.   
+NB: als je teller en noemer van een breuk vermenigvuldigt met hetzelfde getal, herschrijf je de breuk zonder zijn waarde te veranderen.
 $\Large \frac{10}{5}\normalsize  = \Large \frac{20}{10}\normalsize  = \Large \frac{\Large \frac{20}{5}\normalsize \ }{\Large \frac{10}{5}\normalsize } = \Large \frac{4}{2}\normalsize  = \Large \frac{2}{1}\normalsize  = 2$  
 
-[video breuken vereenvoudigen](https://www.youtube.com/watch?v=0TErQIXxuvQ)   
-[ext video breuken met cijfers vereenvoudigen](https://www.youtube.com/watch?v=BCj-1swFimo)   
-[ext video breuken met variabelen vereenvoudigen (eerste 3 minuten)](https://www.youtube.com/watch?v=yrW3Qof3vbE)   
+[video breuken vereenvoudigen](https://www.youtube.com/watch?v=0TErQIXxuvQ)
+[ext video breuken met cijfers vereenvoudigen](https://www.youtube.com/watch?v=BCj-1swFimo)
+[ext video breuken met variabelen vereenvoudigen (eerste 3 minuten)](https://www.youtube.com/watch?v=yrW3Qof3vbE)
 
 ## Hoe tel je breuken bij elkaar op?
 
@@ -107,12 +109,12 @@ Je weet misschien wel dat je een combinatie van 2 getallen een
 “2-dimensionale vector” kunt noemen. Dat is een pijl in een 2d-plaatje.
 In het onderstaande plaatje is het getal 2 afgebeeld: een pijl vanuit 0
 met lengte 2 die naar rechts wijst.
-![image1.png](./media/media/image1.png)
+![image1.png](./media/media/image1.png)<!-- markdown-link-check-disable-line -->
 
 Een min-teken voor een getal betekent dat de pijl van richting omklapt.
 Onderstaande plaatje beeldt het getal -2 af:  
-![image1.png](./media/media/image2.png)   
-**Er moet dus gelden:**   
+![image1.png](./media/media/image2.png)<!-- markdown-link-check-disable-line -->
+**Er moet dus gelden:**
 \- - 2 = 2  
 \- - - - 2 = 2  
 (richting klapt een even aantal keren om, en blijft gelijk)
@@ -142,26 +144,26 @@ $(3)\  - \left( - \Large \frac{4}{3}\normalsize  + 2 - 3 \right) = - 1 \small \b
 
 Vermenigvuldig elk van de termen links met elk van de termen rechts en
 tel ze op.
-${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \small \bullet \normalsize 6 + 2 \small \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize \small \bullet \normalsize 7 
-}$   
+${\left( 2 - \Large \frac{2}{5}\normalsize  \right) \small \bullet \normalsize \left( - \Large \frac{4}{3}\normalsize  + 6 + 7 \right) = 2 \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + 2 \small \bullet \normalsize 6 + 2 \small \bullet \normalsize 7 + \  - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize - \Large \frac{4}{3}\normalsize  + - \Large \frac{2}{5}\normalsize  \small \bullet \normalsize 6 + - \Large \frac{2}{5}\normalsize \small \bullet \normalsize 7
+}$
 
 Je kunt dit eventueel nog verder vereenvoudigen door gelijknamig te maken en op te tellen:
 $- \Large \frac{8}{3}\normalsize  + 12 + 14 + \Large \frac{8}{15}\normalsize  - \Large \frac{12}{5}\normalsize  - \Large \frac{14}{5}\normalsize  = - \Large \frac{8}{3}\normalsize  + 26 + \Large \frac{8}{15}\normalsize  + - \Large \frac{26}{5}\normalsize  = \ 26 - \Large \frac{8}{3}\normalsize  \small \bullet \normalsize \Large \frac{5}{5}\normalsize  + \Large \frac{8}{15}\normalsize  - \Large \frac{26}{5}\normalsize  \small \bullet \normalsize \Large \frac{3}{3}\normalsize $
 
 $= 26 - \Large \frac{40}{15}\normalsize  + \Large \frac{8}{15}\normalsize  + \Large \frac{78}{15}\normalsize  = 26 + \Large \frac{- 40 + 8 + 78}{15}\normalsize  = 26 + \Large \frac{46}{15}\normalsize  = 26 + 3\Large \frac{1}{15}\normalsize  = 29\Large \frac{1}{15}\normalsize $  
 
-[video haakjes uitvermenigvuldigen](https://www.youtube.com/watch?v=q9qyBaqCxSg)   
-[ext video haakjes wegwerken (eerste 4 minuten)](https://www.youtube.com/watch?v=VRVchiXKDW4)   
-[ext video haakjes wegwerken (eerste 3 minuten)](https://www.youtube.com/watch?v=2i2SwjiovX4)   
+[video haakjes uitvermenigvuldigen](https://www.youtube.com/watch?v=q9qyBaqCxSg)
+[ext video haakjes wegwerken (eerste 4 minuten)](https://www.youtube.com/watch?v=VRVchiXKDW4)
+[ext video haakjes wegwerken (eerste 3 minuten)](https://www.youtube.com/watch?v=2i2SwjiovX4)
 
 # Buiten haakjes halen
 
 De bovenstaande stappen kun je ook de andere kant op uitvoeren.  
 Je kunt een gemeenschappelijke factor buiten haakjes halen.  
-$\Large \frac{20}{3}\normalsize  - 10 + 15 = 5 \small \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \small \bullet \normalsize 2 + 5 \small \bullet \normalsize 3 = 5 \small \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right)$   
+$\Large \frac{20}{3}\normalsize  - 10 + 15 = 5 \small \bullet \normalsize \Large \frac{4}{3}\normalsize  + 5 \small \bullet \normalsize 2 + 5 \small \bullet \normalsize 3 = 5 \small \bullet \normalsize \left( \Large \frac{4}{3}\normalsize  + 2 + 3 \right)$
 
-[video buiten haakjes halen](https://www.youtube.com/watch?v=IWIWTU5WXXw)   
-[ext video buiten haakjes halen](https://www.youtube.com/watch?v=_hi4oi6VxLk)   
+[video buiten haakjes halen](https://www.youtube.com/watch?v=IWIWTU5WXXw)
+[ext video buiten haakjes halen](https://www.youtube.com/watch?v=_hi4oi6VxLk)
 
 # Vergelijking oplossen
 
@@ -234,7 +236,7 @@ $- \Large \frac{4}{- 3 \small \bullet \normalsize x + - 3 \small \bullet \normal
 $- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  + c = - 5$
 
 **Stap 2 toepassen: Verkas alle termen met x naar een kant, en de rest
-naar de andere kant.**   
+naar de andere kant.**
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; (door links en rechts c aftrekken)  
 $- \Large \frac{4}{- 3 \small \bullet \normalsize x - 2}\normalsize  + c - c = - 5 - c$
 
@@ -269,7 +271,7 @@ naar de andere kant.**
 
  − 14 − 2 • *c* = 15 • *x*+ 3 • *c* • *x*
 
-**Stap 3 hoeft niet (omdat x niet meer in een noemer voorkomt).**   
+**Stap 3 hoeft niet (omdat x niet meer in een noemer voorkomt).**
 **Stap 4 toepassen: Haal x buiten haakjes**  
  − 14 − 2 • *c* = *x* • (15+ 3•*c*)
 
@@ -283,10 +285,10 @@ ${\Large \frac{- 14 - 2 \small \bullet \normalsize c}{15 + \ 3 \small \bullet \n
 x staat nu in zijn eentje aan een kant van de vergelijking geschreven.
 Daarmee is x geen onbekende meer. Je weet nu voor elke
 keus van de bekende constante c voor welke waarde van x de vergelijking
-geldig is.   
+geldig is.
 
-[video eenvoudige vergelijking met 1 onbekende oplossen](https://www.youtube.com/watch?v=Jcq5FBnVsSo)   
-[video lastiger vergelijking met 1 onbekende oplossen](https://www.youtube.com/watch?v=naBssCoG64o)   
+[video eenvoudige vergelijking met 1 onbekende oplossen](https://www.youtube.com/watch?v=Jcq5FBnVsSo)
+[video lastiger vergelijking met 1 onbekende oplossen](https://www.youtube.com/watch?v=naBssCoG64o)
 
 # Een stelsel van meerdere vergelijkingen oplossen
 
@@ -302,7 +304,7 @@ Voor de volledigheid is hier een lijst met de stappen. Die stappen
 klinken voor de eerste keer nog wat vaag. Na het lezen van de
 voorbeelden zullen ze als het goed is duidelijk voor je zijn.
 
-## Stappen voor het oplossen van een stelsel van n vergelijkingen.
+## Stappen voor het oplossen van een stelsel van n vergelijkingen
 
 1.&nbsp;&nbsp;  **Kies 1** van de vergelijkingen en kies daarvan 1 van de onbekenden.
 
@@ -391,7 +393,7 @@ en 2’.
 **Stap 3.** Dit keer kies ik onbekende x uit, in vergelijking 1. Eerst
 moet die vergelijking herschreven worden, zodanig dat x aan een kant
 staat.  
-1*&nbsp;&nbsp; x = $\Large \frac{c}{a}\normalsize $ 
+1*&nbsp;&nbsp; x = $\Large \frac{c}{a}\normalsize $
 
 Met deze substitutievergelijking vervangen we alle x in de resterende
 vergelijkingen. In dit geval is dat alleen nog vergelijking 2’.  
@@ -446,7 +448,7 @@ $\Large \frac{c}{a}\normalsize \ (b + \ a)$
   “kluitje” van alleen bekenden voorkomt, mag je ook in plaats van die
   onbekende dat complete kluitje substitueren.
 
-## Voorbeeld:
+## Voorbeeld
 
 3 vergelijkingen met 3 onbekenden: x, y en z. a, b, c en d zijn bekende
 constanten.  
@@ -484,8 +486,8 @@ We zien dat y nog voorkomt in een top-level noemer:
 $d = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }$.  
 We vermenigvuldigen dus de volledige linkerkant en rechterkant met die
 noemer:  
-3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $ 
-&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;    
+3’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \frac{y}{a}\normalsize }\Large \frac{y}{a}\normalsize $
+&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;
 vermenigvuldigen en delen door hetzelfde heffen elkaar op:
 
 3’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  = \Large \frac{y - c}{\Large \textcolor{orange}{\frac{y}{a}} \normalsize }\Large \textcolor{orange}{\frac{y}{a}}\normalsize $&nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
@@ -493,12 +495,12 @@ vermenigvuldigen en delen door hetzelfde heffen elkaar op:
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; Alle termen met y naar een kant, de rest naar de andere kant,  
 door links en rechts y ervan af te trekken:  
-3’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = y - y - c$ 
+3’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = y - y - c$
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp;  
 3’’’’’’&nbsp;&nbsp; $d\Large \frac{y}{a}\normalsize  - y = - c$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; y buiten haakjes halen:  
-3’’’’’’’&nbsp;&nbsp; $y(\Large \frac{d}{a}\normalsize  - 1) = - c$ 
+3’’’’’’’&nbsp;&nbsp; $y(\Large \frac{d}{a}\normalsize  - 1) = - c$
 
 &nbsp;&nbsp;&nbsp;&nbsp;<->&nbsp;&nbsp;&nbsp;&nbsp; links en rechts delen door wat tussen de haakjes staat:  
 3’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- c}{\Large \frac{d}{a}\normalsize  - 1}$
@@ -506,13 +508,13 @@ door links en rechts y ervan af te trekken:
 Nu is y geschreven in termen van bekenden, en dus ook uitgerekend.  
 Desgewenst kun je het nog wat mooier schrijven. Bijvoorbeeld door teller
 en noemer met a te vermenigvuldigen:  
-3’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- ac}{d - a}\normalsize $ 
+3’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{- ac}{d - a}\normalsize $
 en het aantal mintekens verminderen door teller en noemer te
 vermenigvuldigen met -1:  
 3’’’’’’’’’&nbsp;&nbsp; $y = \Large \frac{ac}{a - d}\normalsize $
 
-[video twee vergelijkingen met twee onbekenden oplossen](https://www.youtube.com/watch?v=QcJxVLUMOSw)    
-[video drie vergelijkingen met drie onbekenden oplossen](https://www.youtube.com/watch?v=VZ2I1o1hl_8)    
+[video twee vergelijkingen met twee onbekenden oplossen](https://www.youtube.com/watch?v=QcJxVLUMOSw)
+[video drie vergelijkingen met drie onbekenden oplossen](https://www.youtube.com/watch?v=VZ2I1o1hl_8)
 
 # Appendix (optioneel)
 

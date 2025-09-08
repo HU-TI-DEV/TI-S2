@@ -11,6 +11,7 @@
 ## Vooraf
 
 We gaan er van uit dat je een geinstalleerde MinGW-w64 toolchain hebt. Installeer onder de MSYS2 UCRT64 terminal!
+
 [VScode + MinGW en GCC](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## Installatie SFML
@@ -37,7 +38,7 @@ Zie voorbeeld onder.
 
 Zelf installeren:
 
-- Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de juiste gcc mingw versie.
+- Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de juiste gcc mingw versie. <!-- markdown-link-check-disable-line -->
 
 ## Test SFML Installatie
 
@@ -130,5 +131,5 @@ Dit is hoe het dan uitziet:
 
 ## SFML voorbeelden
 
-- Gebruik de [code uit de tutorial](https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.
+- Gebruik de [code uit de tutorial](https://www.sfml-dev.org/tutorials/2.6/window-window.php) en open een window.<!-- markdown-link-check-disable-line -->
 - [SFML auto test en classes oefening](../inrichten-ontwikkelomgeving/sfml_auto_test/README.md)

@@ -1,23 +1,23 @@
-![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
+![logo](../../img/ISO_C++_Logo.svg) [](logo-id)
 
 # if-else[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
-- [Introductie](#introductie)
-  - [if statement](#if-statement)
-  - [if-else statement](#if-else-statement)
-  - [Haakjes](#haakjes)
-  - [else-if](#else-if)
-  - [Geneste if-statements](#geneste-if-statements)
 
+- [Introductie](#introductie)
+- [if statement](#if-statement)
+- [if-else statement](#if-else-statement)
+- [Haakjes](#haakjes)
+- [else-if](#else-if)
+- [Geneste if-statements](#geneste-if-statements)
 
 ## Introductie
 
-Met if/else statements kunnen we sturen welke delen van ons programma worden uitgevoerd. 
+Met if/else statements kunnen we sturen welke delen van ons programma worden uitgevoerd.
 Codevoorbeelden 5.1, 5.2 en 5.3 laten de werking van if/else statements
 zien.
 
-### if statement
+## if statement
 
 ```cpp
 #include <iostream> 
@@ -53,9 +53,10 @@ int main(){
     // a: 9
 }
 ```
+
 *Codevoorbeeld 5.1 - if-statements*
 
-### if-else statement
+## if-else statement
 
 Codevoorbeeld met if-else-statements:
 
@@ -87,19 +88,22 @@ int main(){
 
 }
 ```
+
 *Codevoorbeeld 5.2 - if/else statements*
 
-### Haakjes
+## Haakjes
 
 In C++ staat bij de if-statement de conditie altijd tussen ronde haakjes. Het weglaten van deze haakjes resulteert in een compile-error.
 
-### else-if
+## else-if
+
 Het combineren van een else en een if statement doen we in C++ door deze twee
 statements op één lijn te zetten. Bijvoorbeeld:
-`else if(c < 15) {` 
+`else if(c < 15) {`
 in *codevoorbeeld 5.2*.
 
-### Geneste if-statements
+## Geneste if-statements
+
 Een conditie kan gelden binnen een andere conditie: een if-statement kan voorkomen binnen een ander if-statement. Dit noemen we een genest if-statement of *nested if-statement*.
 
 ```cpp
@@ -118,4 +122,5 @@ int main(){
     // d: 124
 }
 ```
+
 *Codevoorbeeld 5.3 - genest if-statement (if in if)*

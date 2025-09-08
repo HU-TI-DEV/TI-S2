@@ -1,5 +1,3 @@
-![logo](.svg) [](logo-id)
-
 # Integer[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
@@ -34,6 +32,7 @@ int main(){
    // x: 4
 }
 ```
+
 *Codevoorbeeld 3.1 Integers*
 
 ```cpp
@@ -53,9 +52,11 @@ int main(){
    // result2: 3
 }
 ```
+
 *Codevoorbeeld 3.2 Integers en gebroken getallen*
 
 ## Gebroken getallen
+
 Kijk naar codevoorbeeld 3.2:
 Als de variabele y wordt afgedrukt zien we dat het de waarde 4 heeft. Dit terwijl y wordt geïnitialiseerd met de waarde 4,9. Dit komt omdat y van het type integer is en dus enkel gehele getallen kan bevatten. Als oplossing gooit C++ alles achter de komma weg en stopt enkel de waarde 4 in y.
 

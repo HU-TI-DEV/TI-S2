@@ -28,7 +28,7 @@ Voor deze installatie is gebruik gemaakt van de volgende hardware en software ve
 - Windows 10 Enterprise
 - Raspberry Pi OS (32-bit), released: 2023-05-03
 
-Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: https://www.raspberrypi.com/software/
+Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: https://www.raspberrypi.com/software/ <!-- markdown-link-check-disable-line -->
 
 ![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 

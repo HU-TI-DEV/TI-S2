@@ -1,4 +1,4 @@
-# Samenvatting ["Analoge pin uitlezen."](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md)
+# Samenvatting ["Analoge pin uitlezen."](../../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md)
 
 ## Na deze les
 
@@ -13,4 +13,5 @@
 ### Serial monitor
 
 De Arduino IDE heeft een serial monitor ingebouwd. Deze kan je openen met het menu `Tools` > `Serial Monitor`.
+
 Let op dat de ingestelde snelheid (bv 9600 baud) dezelfde is als met `Serial.begin()` ingesteld in jouw programma.

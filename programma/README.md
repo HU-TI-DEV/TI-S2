@@ -74,7 +74,7 @@ De docenten zijn:
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**)   |
-| do  | Inlezen van gegevens [Cin](/software/c++/inlezen-gegevens/README.md#cin) & [Getline](/software/c++/inlezen-gegevens/README.md#getline) (**GP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
+| do  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP**), Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
 
 ### Onderwijsweek A3 (15-09-2025)
 
@@ -150,7 +150,7 @@ Herfstvakantie
 | ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)   |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003|
-| do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart-herhaling.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
+| do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 
 ### Onderwijsweek B2 (17-11-2025)
 
@@ -167,7 +167,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | [Doxygen](/software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](/software/c++/oop-concepten/klassen/README.md); [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
+| wo  | [Doxygen](../software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](../software/c++/oop-concepten/klassen/README.md); [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 
 ### Onderwijsweek B4 (01-12-2025)

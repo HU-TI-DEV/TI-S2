@@ -1,5 +1,5 @@
 # infrastructuur
 
-* [Docker/](./infrastructuur/Docker/README.md)
+* [Docker/](Docker/README.md)
 * [OS/]
-  * [Raspberry-Pi-OS/](./infrastructuur/OS/Raspberry-Pi-OS/README.md)
+  * [Raspberry-Pi-OS/](os/Raspberry-Pi-OS/README.md)
