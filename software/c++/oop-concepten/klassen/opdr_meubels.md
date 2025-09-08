@@ -1,10 +1,8 @@
-# Opdrachten Classes C++[](title-id)
+# Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Classes C++](#opdrachten-classes-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO1.4A Meubels code](#opdracht-oo14a-meubels-code)
-    - [Opdracht OO1.4B Meubels klassendiagram](#opdracht-oo14b-meubels-klassendiagram)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO1.4A Meubels code](#opdracht-oo14a-meubels-code)
+- [Opdracht OO1.4B Meubels klassendiagram](#opdracht-oo14b-meubels-klassendiagram)
 
 
 ### Opdracht OO1.4A Meubels code

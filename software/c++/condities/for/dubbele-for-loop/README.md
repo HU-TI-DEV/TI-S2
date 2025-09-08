@@ -2,7 +2,7 @@
 
 Uiteraard kan je for-loops ook in elkaar plaatsen ('nesting loops'). 
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 using namespace std;
 
@@ -20,7 +20,7 @@ int main(){
 <details>
   <summary>Output</summary>
 
-  ```c++ {.line-numbers}
+  ```cpp {.line-numbers}
 #
 ##
 ###

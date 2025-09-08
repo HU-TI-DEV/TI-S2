@@ -1,21 +1,11 @@
-# Compositie - header en source files [](title-id)
+# Compositie - header en source files [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Compositie - header en source files ](#compositie---header-en-source-files-)
-    - [Inhoud](#inhoud)
-    - [Verdeling over header en source files](#verdeling-over-header-en-source-files)
-      - [Header files](#header-files)
-      - [Source files](#source-files)
-      - [Namespace](#namespace)
-    - [Relaties tussen klassen](#relaties-tussen-klassen)
-      - [Compositie](#compositie)
-      - [Constructor en initialisatielijst voor compositie](#constructor-en-initialisatielijst-voor-compositie)
-      - [Initialisatie van variabelen (in constructor)](#initialisatie-van-variabelen-in-constructor)
-    - [Schermobjecten](#schermobjecten)
-      - [Gebruik schermobject](#gebruik-schermobject)
-    - [Reference parameters en reference variabelen](#reference-parameters-en-reference-variabelen)
-    - [Relaties tussen klassen: associatie](#relaties-tussen-klassen-associatie)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
+- [Verdeling over header en source files](#verdeling-over-header-en-source-files)
+  - [Header files](#header-files)
+  - [Source files](#source-files)
+  - [Namespace](#namespace)
 
 ### Verdeling over header en source files
 Vaak wordt C++ code opgesplitst in twee soorten files:
@@ -34,7 +24,7 @@ Over header files:
 - De header file wordt ge-#include door alle andere files die gebruik maken van de services die in de header file zijn gedeclareerd.
 - In code voorbeelden worden de #include regels vaak weggelaten; in code zijn ze natuurlijk wél nodig.
 
-```c++
+```cpp
 #ifndef LINE_HPP
 #define LINE_HPP
 
@@ -48,7 +38,7 @@ class line {
 Een functie of methode is meestal onderdeel van een bepaalde klasse. Voor de lijn klasse (`class line`) staat de implementatie van de print functie in de `line.cpp` file. Buiten deze klasse declaratie moet je aangeven bij welke klasse de functie behoort: voor de naam van de functie zet je zijn klasse-naam en `::` zetten, anders heb je het over een losse functie die niets met een klasse te maken heeft. Bínnen de klasse definitie zelf hoeft dat niet.
 De scope waarbinnen een functie geldig is, heet *namespace*.
 
-```c++
+```cpp
 #include ”line.hpp”
 
 void line::print(){

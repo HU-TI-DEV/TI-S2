@@ -14,7 +14,7 @@ Een `std::array<>` bevat een aantal waarden van hetzelfde type. Anders dan bij e
 
 Op een klein embedded systeem is het vaak niet mogelijk een `std::vector<>` te gebruiken omdat die gebruik maakt van de **heap**, en die is op zo’n systeem vaak niet aanwezig. `std::array<>` is dan dus het enige alternatief.
 
-```c++
+```cpp
 #include <array>
 
 int main(){
@@ -38,7 +38,7 @@ De omvang (aantal elementen) van een std::array<> moet je expliciet aangeven. Da
 
 *N.B. In plaats van een constante te gebruiken kun je (in dit geval) nog beter de size() van het array opvragen, dan kun je je ook niet vergissen in de naam van de constante.*
 
-```c++
+```cpp
 const unsigned int squares_table_size = 10;
 
 int main(){
@@ -57,7 +57,7 @@ int main(){
 #### std::array als parameter
 Als je een `std::array<>` als parameter wilt gebruiken, dan moet wat je meegeeft, precies hetzelfde zijn als de parameter, dus zowel het type van de elementen als het aantal elementen. Als dat niet zo is krijg je een compiler error.
 
-```c++
+```cpp
 const unsigned int word_size = 8;
 
 void print( const std::array< char, word_size > & word ){
@@ -81,7 +81,7 @@ Als je een `std::array<>` doorgeeft, maar niet alle elementen zijn geldig, dan m
 - bv. met een extra parameter, 
 - of door speciale waarden te gebruiken om ongeldige elementen te markeren.
 
-```c++
+```cpp
 const unsigned int word_size = 8;
 
 void print(
@@ -109,7 +109,7 @@ Soms is het mogelijk een speciale waarde te gebruiken om aan te geven dat een el
 ##### ASCII sentinel
 Voor ASCII characters is het ASCII nul character ( `\0` ) een veel gebruikte sentinel. Dit is zelfs in de taal ingebouwd: een string literal tussen dubbel-quotes is de reeks characters tussen de quotes, met een ASCII nul er achter. De string ”hello” neemt dus 6 bytes in beslag: de 5 letters plus de nul.
 
-```c++
+```cpp
 void print( const std::array< char, word_size > & word ){
   for( unsigned int i = 0; i < word.size(); i++ ) {
     if( word[ i ] == '\0' ){

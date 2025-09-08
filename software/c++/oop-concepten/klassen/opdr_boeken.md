@@ -1,10 +1,8 @@
-# Opdrachten Classes C++[](title-id)
+# Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Classes C++](#opdrachten-classes-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO1.2 Boeken](#opdracht-oo12-boeken)
-    - [Opdracht OO1.3 Boeken Main](#opdracht-oo13-boeken-main)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO1.2 Boeken](#opdracht-oo12-boeken)
+- [Opdracht OO1.3 Boeken Main](#opdracht-oo13-boeken-main)
 
 
 ### Opdracht OO1.2 Boeken
@@ -17,7 +15,7 @@ Lees de code en beantwoord de volgende vragen:
 - 4 Waarom denk je dat de schrijver van deze code ervoor heeft gekozen sommige functies private te maken?
 - 5 Waarom staat er in de .cpp voor elke functie “`book::`”?
 
-```c++
+```cpp
 #ifndef BOOK_HPP
 #define BOOK_HPP
 
@@ -44,7 +42,7 @@ public:
 ```
 *book.hpp*
 
-```c++
+```cpp
 #include <iostream>
 #include "book.hpp"
 

@@ -1,4 +1,4 @@
-# Opdrachten S2 [](title-id)
+# Opdrachten S2 [](title-id) <!-- omit in toc -->
 Dit bestand bevat links naar C++ opdrachten. 
 Todo: de opdrachten kunnen nog veranderen!
 
@@ -9,7 +9,7 @@ Vanaf schooljaar 2025-2026 maken we onderscheid naar opdrachten en oefeningen.
 - Opdrachten zijn uitgebreider dan oefeningen.
 - Met opdrachten kun je je leeruitkomsten goed aantonen.
   
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdrachten S2 ](#opdrachten-s2-)
   - [Opdrachten vs. oefeningen](#opdrachten-vs-oefeningen)
   - [Inhoud](#inhoud)

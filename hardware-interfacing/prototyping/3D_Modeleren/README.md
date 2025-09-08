@@ -1,17 +1,15 @@
 ![picture1](../3D_Modeleren/img/Fusion360.png) [](logo-id)
 
-# 3D Modelleren[](title-id)
+# 3D Modelleren[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [3D Modelleren](#3d-modelleren)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [De basis van Fusion 360](#de-basis-van-fusion-360)
-  - [Gebruik van bestaande modellen](#gebruik-van-bestaande-modellen)
-    - [Bekende dimensies](#bekende-dimensies)
-    - [Onbekende dimensies](#onbekende-dimensies)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [De basis van Fusion 360](#de-basis-van-fusion-360)
+- [Gebruik van bestaande modellen](#gebruik-van-bestaande-modellen)
+  - [Bekende dimensies](#bekende-dimensies)
+  - [Onbekende dimensies](#onbekende-dimensies)
+- [bronnen](#bronnen)
 
 ---
 

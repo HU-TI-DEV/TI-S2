@@ -1,16 +1,14 @@
 ![logo](../linear-actuator/img/Linear_actuator_basic.gif) [](logo-id)
 
-# Linear actuator[](title-id)
+# Linear actuator[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Linear actuator](#linear-actuator)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [5V relais to drive 12V Linear actuator](#5v-relais-to-drive-12v-linear-actuator)
-  - [Duty Cycle](#duty-cycle)
-  - [Arduino example](#arduino-example)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [5V relais to drive 12V Linear actuator](#5v-relais-to-drive-12v-linear-actuator)
+- [Duty Cycle](#duty-cycle)
+- [Arduino example](#arduino-example)
+- [Referenties](#referenties)
 
 ---
 
@@ -36,7 +34,7 @@ Many linear actuators have a duty cycle. To limit wear an tear you should obey t
 
 ## Arduino example
 
-```c++
+```cpp
 //assign relay INx pin to arduino pin
 const int forwards = 7;
 const int backwards = 6;

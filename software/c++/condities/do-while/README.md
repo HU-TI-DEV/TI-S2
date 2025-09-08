@@ -1,11 +1,9 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# do-while[](title-id)
+# do-while[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [do-while](#do-while)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
 
 
 ## Introductie

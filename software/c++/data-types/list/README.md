@@ -1,5 +1,5 @@
 
-# List[](title-id)
+# List[](title-id) <!-- omit in toc -->
 
 ## List (std::list)
 

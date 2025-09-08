@@ -1,9 +1,7 @@
-# Opdrachten For C++[](title-id)
+# Opdrachten For C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten For C++](#opdrachten-for-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 1.12 Piramide met opvulling](#opdracht-112-piramide-met-opvulling)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 1.12 Piramide met opvulling](#opdracht-112-piramide-met-opvulling)
 
 ### Opdracht 1.12 Piramide met opvulling
 

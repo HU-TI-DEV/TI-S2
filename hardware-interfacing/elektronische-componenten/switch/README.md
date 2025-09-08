@@ -1,13 +1,11 @@
 ![logo](./img/Switch.svg) [](logo-id)
 
-# Switch[](title-id)
+# Switch[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Switch](#switch)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

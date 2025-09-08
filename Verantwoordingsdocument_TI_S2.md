@@ -1,26 +1,24 @@
 <!-- markdown-link-check-disable -->
 ![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
 
-# Verantwoordingsdocument[](title-id)
+# Verantwoordingsdocument[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Verantwoordingsdocument](#verantwoordingsdocument)
-    - [Inhoud](#inhoud)
-  - [Portfolio Technische Informatica (TI) semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
-    - [Deel 1 Algemeen.](#deel-1-algemeen)
-    - [Deel 2 Leeruitkomsten.](#deel-2-leeruitkomsten)
-  - [Algemeen](#algemeen)
-  - [Leeruitkomsten](#leeruitkomsten)
-    - [Leeruitkomst 1 Analyseren](#leeruitkomst-1-analyseren)
-    - [Leeruitkomst 2 Ontwerpen](#leeruitkomst-2-ontwerpen)
-    - [Leeruitkomst 3 Realisatie](#leeruitkomst-3-realisatie)
-    - [Leeruitkomst 4 Samenwerken](#leeruitkomst-4-samenwerken)
-    - [Leeruitkomst 5 Communiceren](#leeruitkomst-5-communiceren)
-    - [Leeruitkomst 6 Reflecteren / Verbeteren / Evalueren](#leeruitkomst-6-reflecteren--verbeteren--evalueren)
-    - [Leeruitkomst 7 Testen / Evalueren](#leeruitkomst-7-testen--evalueren)
-    - [Leeruitkomst 8 Plannen](#leeruitkomst-8-plannen)
-    - [Leeruitkomst 9 Opleveren / Documenteren](#leeruitkomst-9-opleveren--documenteren)
+- [Portfolio Technische Informatica (TI) semester 2 (S2)](#portfolio-technische-informatica-ti-semester-2-s2)
+  - [Deel 1 Algemeen.](#deel-1-algemeen)
+  - [Deel 2 Leeruitkomsten.](#deel-2-leeruitkomsten)
+- [Algemeen](#algemeen)
+- [Leeruitkomsten](#leeruitkomsten)
+  - [Leeruitkomst 1 Analyseren](#leeruitkomst-1-analyseren)
+  - [Leeruitkomst 2 Ontwerpen](#leeruitkomst-2-ontwerpen)
+  - [Leeruitkomst 3 Realisatie](#leeruitkomst-3-realisatie)
+  - [Leeruitkomst 4 Samenwerken](#leeruitkomst-4-samenwerken)
+  - [Leeruitkomst 5 Communiceren](#leeruitkomst-5-communiceren)
+  - [Leeruitkomst 6 Reflecteren / Verbeteren / Evalueren](#leeruitkomst-6-reflecteren--verbeteren--evalueren)
+  - [Leeruitkomst 7 Testen / Evalueren](#leeruitkomst-7-testen--evalueren)
+  - [Leeruitkomst 8 Plannen](#leeruitkomst-8-plannen)
+  - [Leeruitkomst 9 Opleveren / Documenteren](#leeruitkomst-9-opleveren--documenteren)
 
 ---
 

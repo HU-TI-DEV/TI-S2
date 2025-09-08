@@ -1,22 +1,20 @@
 ![logo](../1-wire/img/1-Wire-Protocol.png) [](logo-id)
 
-# Communicatieprotocol: 1-Wire[](title-id)
+# Communicatieprotocol: 1-Wire[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Communicatieprotocol: 1-Wire](#communicatieprotocol-1-wire)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-    - [Bus-systeem](#bus-systeem)
-    - [Serieel protocol](#serieel-protocol)
-    - [Parallel protocol](#parallel-protocol)
-    - [1-Wire](#1-wire)
-    - [Daisy chain topologie](#daisy-chain-topologie)
-    - [Ster topologie](#ster-topologie)
-    - [DS18B20 temperatuursensor](#ds18b20-temperatuursensor)
-  - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+  - [Bus-systeem](#bus-systeem)
+  - [Serieel protocol](#serieel-protocol)
+  - [Parallel protocol](#parallel-protocol)
+  - [1-Wire](#1-wire)
+  - [Daisy chain topologie](#daisy-chain-topologie)
+  - [Ster topologie](#ster-topologie)
+  - [DS18B20 temperatuursensor](#ds18b20-temperatuursensor)
+- [De schakeling](#de-schakeling)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Referenties](#referenties)
 
 ---
 

@@ -1,13 +1,11 @@
 ![logo](/hardware-interfacing/communicatie/SPI/img/SPI_timing_diagram_CS.svg) [](logo-id)
 
-# Communicatie[](title-id)
+# Communicatie[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Communicatie](#communicatie)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

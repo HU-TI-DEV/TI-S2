@@ -1,11 +1,8 @@
-# Opdrachten Classes C++[](title-id)
+# Opdrachten Classes C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Classes C++](#opdrachten-classes-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO1.51 SFML window](#opdracht-oo151-sfml-window)
-  - [Opdracht OO1.52 Rechthoek](#opdracht-oo152-rechthoek)
-  - [Tips](#tips)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO1.52 Rechthoek](#opdracht-oo152-rechthoek)
+- [Tips](#tips)
 
 
 *Deze opdracht kan nog veranderen!*
@@ -24,7 +21,7 @@
 ## Tips
 Hieronder staat voorbeeldcode die misschien behulpzaam is.
 
-```c++
+```cpp
 /// @file  main.cpp - incomplete code 
 /// exercise: draw a SFML rectangle
 #include <SFML/Graphics.hpp>

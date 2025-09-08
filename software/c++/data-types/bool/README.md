@@ -1,10 +1,8 @@
-# Booleans [](title-id)
+# Booleans [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Booleans ](#booleans-)
-    - [Inhoud](#inhoud)
-    - [bool](#bool)
-    - [Cout](#cout)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [bool](#bool)
+- [Cout](#cout)
 
 
 Het boolean datatype kan maar twee verschillende waardes hebben: *true* of *false*. 
@@ -13,7 +11,7 @@ In codevoorbeeld 3.6 zien we hoe we met de boolean omgaan in C++.
 ### bool
 Met het sleutelwoord bool geven we aan dat een variabele van het datatype boolean is.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

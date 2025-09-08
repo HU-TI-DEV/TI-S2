@@ -2,19 +2,17 @@
 
 [4]
 
-# Documenteren[](title-id)
+# Documenteren[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Documenteren](#documenteren)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Toepassen](#toepassen)
-  - [Voorbeelden in IEEE-stijl:](#voorbeelden-in-ieee-stijl)
-    - [Boekreferentie:](#boekreferentie)
-    - [Artikel in een tijdschrift:](#artikel-in-een-tijdschrift)
-    - [Website:](#website)
-  - [bronnen](#bronnen)
+- [Een introductie](#een-introductie)
+- [Toepassen](#toepassen)
+- [Voorbeelden in IEEE-stijl:](#voorbeelden-in-ieee-stijl)
+  - [Boekreferentie:](#boekreferentie)
+  - [Artikel in een tijdschrift:](#artikel-in-een-tijdschrift)
+  - [Website:](#website)
+- [bronnen](#bronnen)
 
 ---
 

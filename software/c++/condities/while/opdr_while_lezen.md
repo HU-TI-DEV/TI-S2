@@ -1,10 +1,8 @@
-# Opdrachten While C++[](title-id)
+# Opdrachten While C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten While C++](#opdrachten-while-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 1.4 While-loop - code lezen](#opdracht-14-while-loop---code-lezen)
-    - [Controle](#controle)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 1.4 While-loop - code lezen](#opdracht-14-while-loop---code-lezen)
+- [Controle](#controle)
 
 
 ### Opdracht 1.4 While-loop - code lezen
@@ -13,7 +11,7 @@ In de onderstaande code krijgt de variabele *number* verschillende waarden.
 Schrijf deze waarden in goede volgorde op.
 Doe dit **zonder** de code uit te voeren.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 using namespace std;
 

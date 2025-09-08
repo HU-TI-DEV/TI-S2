@@ -1,17 +1,15 @@
-# Opdrachten Functies, basis [](title-id)
+# Opdrachten Functies, basis [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Functies, basis ](#opdrachten-functies-basis-)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.5 Tellen](#opdracht-25-tellen)
-    - [Opdracht 2.10 Vector controle](#opdracht-210-vector-controle)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.5 Tellen](#opdracht-25-tellen)
+- [Opdracht 2.10 Vector controle](#opdracht-210-vector-controle)
 
 
 ### Opdracht 2.5 Tellen
 Schrijf een functie die berekent hoe vaak een geheel getal x in een integer-vector voorkomt. 
 
 De functie heeft de vorm:
-```c++
+```cpp
 int count(const vector<int> & numbers, const int x) {
     ...
     ...
@@ -19,7 +17,7 @@ int count(const vector<int> & numbers, const int x) {
 ```
 
 Een `main` functie kan deze `count`-functie aanroepen. Bijvoorbeeld:
-```c++
+```cpp
 int main(){
     vector<int> n = {37,4,9,4,9,37,3,5,0,4,1};
     int number_of_fours = count(n, 4);

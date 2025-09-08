@@ -1,27 +1,25 @@
 ![logo](../solderen/img/iron_hotspot.png) [](logo-id)
 
-# Solderen[](title-id)
+# Solderen[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Solderen](#solderen)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Tools](#tools)
-      - [Soldeerbout](#soldeerbout)
-      - [Tin](#tin)
-      - [Flux](#flux)
-      - [Afzuiging](#afzuiging)
-  - [Extra tools](#extra-tools)
-      - [Solder wick \& Soldeerzuiger](#solder-wick--soldeerzuiger)
-      - [Sponsjes](#sponsjes)
-      - [3e hand \& Loep](#3e-hand--loep)
-  - [Tips](#tips)
-      - [Soldeer tips](#soldeer-tips)
-      - [Soldeerverbinding](#soldeerverbinding)
-      - [Sweetspot](#sweetspot)
-  - [Instructies](#instructies)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Tools](#tools)
+    - [Soldeerbout](#soldeerbout)
+    - [Tin](#tin)
+    - [Flux](#flux)
+    - [Afzuiging](#afzuiging)
+- [Extra tools](#extra-tools)
+    - [Solder wick \& Soldeerzuiger](#solder-wick--soldeerzuiger)
+    - [Sponsjes](#sponsjes)
+    - [3e hand \& Loep](#3e-hand--loep)
+- [Tips](#tips)
+    - [Soldeer tips](#soldeer-tips)
+    - [Soldeerverbinding](#soldeerverbinding)
+    - [Sweetspot](#sweetspot)
+- [Instructies](#instructies)
+- [Referenties](#referenties)
 
 ---
 

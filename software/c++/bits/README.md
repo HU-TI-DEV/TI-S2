@@ -1,22 +1,18 @@
-# Bits[](title-id)
+# Bits[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Bits](#bits)
-  - [Inhoud](#inhoud)
-    - [bitstring, byte](#bitstring-byte)
-    - [tellen](#tellen)
-  - [Bitoperatoren](#bitoperatoren)
-    - [Bitsgewijs ‘and’](#bitsgewijs-and)
-    - [Bitsgewijs ‘or’](#bitsgewijs-or)
-    - [Bitsgewijs ‘xor’ (exclusive or)](#bitsgewijs-xor-exclusive-or)
-    - [Bitsgewijs Inversie (‘not’)](#bitsgewijs-inversie-not)
-    - [Bit shiften](#bit-shiften)
-    - [Vrijgekomen plaatsen](#vrijgekomen-plaatsen)
-  - [Bit statements](#bit-statements)
-    - [Bit setten](#bit-setten)
-    - [Bit resetten](#bit-resetten)
-    - [Bit inverteren](#bit-inverteren)
-    - [Bit ophalen](#bit-ophalen)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Bitoperatoren](#bitoperatoren)
+  - [Bitsgewijs ‘and’](#bitsgewijs-and)
+  - [Bitsgewijs ‘or’](#bitsgewijs-or)
+  - [Bitsgewijs ‘xor’ (exclusive or)](#bitsgewijs-xor-exclusive-or)
+  - [Bitsgewijs Inversie (‘not’)](#bitsgewijs-inversie-not)
+  - [Bit shiften](#bit-shiften)
+  - [Vrijgekomen plaatsen](#vrijgekomen-plaatsen)
+- [Bit statements](#bit-statements)
+  - [Bit setten](#bit-setten)
+  - [Bit resetten](#bit-resetten)
+  - [Bit inverteren](#bit-inverteren)
+  - [Bit ophalen](#bit-ophalen)
 
 
 Gegevens worden in het geheugen opslagen als bitjes. In C++ is het mogelijk om
@@ -54,7 +50,7 @@ In deze sectie behandelen we bitsgewijs ‘and’, bitsgewijs ‘or’, bitsgewi
 Voor de bitoperatie ‘and’ gebruiken we in C++ een enkele ampersand ( & ). 
 In *codevoorbeeld 10.1* zien we het gebruik hiervan.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -80,7 +76,7 @@ int main(){
 ### Bitsgewijs ‘or’
 Voor de bitoperatie ‘or’ gebruiken we in C++ een enkele verticale balk ( | ). In *codevoorbeeld 10.2* zien we het gebruik hiervan.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -105,7 +101,7 @@ int main(){
 ### Bitsgewijs ‘xor’ (exclusive or)
 Voor de bitoperatie ‘exor’ gebruiken we in C++ een enkele dakje ( ˆ ). In *codevoorbeeld 10.3* zien we het gebruik hiervan.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -131,7 +127,7 @@ int main(){
 Voor de inversie van alle bits gebruiken we in C++ een enkele tilde ( ˜ ). In codevoorbeeld
 10.4 zien we het gebruik hiervan.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -156,7 +152,7 @@ we een bitpatroon naar links schuiven en met >> kunnen we een bitpatroon naar re
 schuiven. 
 *Let op: bij cout en cin hebben << en >> een andere betekenis.*
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -193,7 +189,7 @@ Bepaalde combinaties van bitoperatoren zul je vaker tegenkomen en gebruiken. In 
 In *codevoorbeeld 10.6* zien we drie manieren hoe we één enkele bit (het tweede bitje) in een bitstring kunnen setten. Een bit setten is de waarde van een bit op 1 zetten
 ongeacht de huidige waarde.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -222,7 +218,7 @@ int main(){
 ### Bit resetten
 In *codevoorbeeld 10.7* zien we drie manieren hoe we één enkele bit (het derde bitje) in een bitstring kunnen resetten. Een bit resetten is een bit op 0 zetten ongeacht de huidige waarde.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -251,7 +247,7 @@ int main(){
 ### Bit inverteren
 In *codevoorbeeld 10.8* zien we drie manieren hoe we één enkele bit (het derde bitje) in een bitstring kunnen inverteren.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;
@@ -283,7 +279,7 @@ int main(){
 ### Bit ophalen
 In *codevoorbeeld 10.9* zien we twee manieren hoe we de waarde van één enkele bit (het derde bitje) uit een bitstring kunnen ophalen en in een variabele kunnen stoppen.
 
-```c++
+```cpp
 #include <iostream>
 #include <bitset>
 using namespace std;

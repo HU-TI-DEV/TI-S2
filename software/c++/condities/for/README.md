@@ -1,14 +1,12 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# for[](title-id)
+# for[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [for](#for)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [For](#for-1)
-  - [For - codevoorbeelden](#for---codevoorbeelden)
-    - [Unsigned int](#unsigned-int)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [For](#for)
+- [For - codevoorbeelden](#for---codevoorbeelden)
+  - [Unsigned int](#unsigned-int)
 
 
 ## Introductie
@@ -22,7 +20,7 @@ Bijvoorbeeld als we 5 keer “Hello, world” willen printen of als we alle char
 ## For - codevoorbeelden
 In codevoorbeelden 5.7 en 5.8 zien we de for-loop uitgewerkt.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream>
 using namespace std;
 
@@ -41,7 +39,7 @@ int main(){
 *Codevoorbeeld 5.7 for-loop*
 
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 

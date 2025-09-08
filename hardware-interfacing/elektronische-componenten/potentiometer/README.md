@@ -1,13 +1,11 @@
 ![logo](./img/12_board_mounted_potentiometers.jpg) [](logo-id)
 
-# Potentiometer[](title-id)
+# Potentiometer[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Potentiometer](#potentiometer)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

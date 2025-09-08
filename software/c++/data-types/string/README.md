@@ -1,6 +1,6 @@
-# Strings [](title-id)
+# Strings [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Strings ](#strings-)
     - [Inhoud](#inhoud)
     - [String](#string)
@@ -17,7 +17,7 @@ datatype *string* gebruiken.
 Hiervoor moet wel de library string toegevoegd worden.
 Codevoorbeelden 3.7 en 3.8 laten zien hoe er in C++ met de string gewerkt kan worden.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -70,7 +70,7 @@ Let bij het gebruik van (literal) strings en chars (zie [char](../data-types/cha
 string is.
 
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -113,7 +113,7 @@ en *.replace()*.
 Voor een compleet overzicht van stringfuncties, zie: http://www.cplusplus.com/reference/string/string/
 
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;

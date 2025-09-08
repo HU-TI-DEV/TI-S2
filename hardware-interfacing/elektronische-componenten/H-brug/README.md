@@ -1,15 +1,13 @@
 ![logo](./img/) [](logo-id)
 
-# H-brug[](title-id)
+# H-brug[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [H-brug](#h-brug)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-    - [PWM en Servo motoren](#pwm-en-servo-motoren)
-    - [L298N Driver](#l298n-driver)
-  - [Arduino example](#arduino-example)
+- [Een introductie](#een-introductie)
+  - [PWM en Servo motoren](#pwm-en-servo-motoren)
+  - [L298N Driver](#l298n-driver)
+- [Arduino example](#arduino-example)
 
 ---
 
@@ -59,7 +57,7 @@ Met een H-brug kunnen we het potentiaal omdraaien en met PWM kunnen we de stroom
 
 ## Arduino example
 
-```c++
+```cpp
 //L298N driver motor B connected, setup Arduino Pins
 const int IN3 = 5;
 const int IN4 = 4;

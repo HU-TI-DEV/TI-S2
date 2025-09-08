@@ -1,25 +1,23 @@
-# Meer operatoren (title-id)
+# Meer operatoren (title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Meer operatoren (title-id)](#meer-operatoren-title-id)
-    - [Inhoud](#inhoud)
-  - [Meer operatoren](#meer-operatoren)
-    - [Gebruik references in operatoren](#gebruik-references-in-operatoren)
-      - [Implementatie operator+=](#implementatie-operator)
-      - [Pointers](#pointers)
-      - [Verschil operator+ en operator+=](#verschil-operator-en-operator)
-      - [Don't Repeat Yourself](#dont-repeat-yourself)
-      - [Operator: methode of 'vrije' functie?](#operator-methode-of-vrije-functie)
-  - [Vaste lijst operatoren en prio's](#vaste-lijst-operatoren-en-prios)
-  - [Tabel belangrijkste operatoren](#tabel-belangrijkste-operatoren)
-    - [Monadic operator](#monadic-operator)
-    - [Naamgeving en verwachtingsmanagement](#naamgeving-en-verwachtingsmanagement)
-      - [`<<` en `>>` operatoren](#-en--operatoren)
-      - [`&&` en `||` operatoren](#-en--operatoren-1)
-    - [Tips: zelf operatoren schrijven](#tips-zelf-operatoren-schrijven)
-      - [Tekst operatoren](#tekst-operatoren)
-      - [Reken operatoren](#reken-operatoren)
-      - [Advies: definieer niet alles zelf](#advies-definieer-niet-alles-zelf)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Meer operatoren](#meer-operatoren)
+  - [Gebruik references in operatoren](#gebruik-references-in-operatoren)
+    - [Implementatie operator+=](#implementatie-operator)
+    - [Pointers](#pointers)
+    - [Verschil operator+ en operator+=](#verschil-operator-en-operator)
+    - [Don't Repeat Yourself](#dont-repeat-yourself)
+    - [Operator: methode of 'vrije' functie?](#operator-methode-of-vrije-functie)
+- [Vaste lijst operatoren en prio's](#vaste-lijst-operatoren-en-prios)
+- [Tabel belangrijkste operatoren](#tabel-belangrijkste-operatoren)
+  - [Monadic operator](#monadic-operator)
+  - [Naamgeving en verwachtingsmanagement](#naamgeving-en-verwachtingsmanagement)
+    - [`<<` en `>>` operatoren](#-en--operatoren)
+    - [`&&` en `||` operatoren](#-en--operatoren-1)
+  - [Tips: zelf operatoren schrijven](#tips-zelf-operatoren-schrijven)
+    - [Tekst operatoren](#tekst-operatoren)
+    - [Reken operatoren](#reken-operatoren)
+    - [Advies: definieer niet alles zelf](#advies-definieer-niet-alles-zelf)
 
 
 ## Meer operatoren
@@ -30,7 +28,7 @@ Van een echte [ADT](../ADTs/README.md) verwacht de gebruiker veel meer operatore
 ### Gebruik references in operatoren
 De C++ gewoonte is dat het resultaat van een assignment-achtige operator (=, +=, -=, etc.) een reference is naar het object zelf. Anders dus dan bij de operator+, daar is het resultaat een waarde. Het rechter argument (rhs: right hand side) wordt voor beide operatoren op de zelfde wijze doorgegeven: by const reference.
 
-```c++
+```cpp
 class vector {
 public:
     int x;
@@ -50,7 +48,7 @@ De implementatie van de operator+= is simpel:
 #### Pointers
 *Pointers worden later uitgebreider besproken. Je kunt een pointer zien als een soort reference waarbij je met een `*` expliciet moet aangeven dat je het aangewezen object bedoelt, en niet de pointer zelf. Bij een reference gaat dat automatisch.*
 
-```c++
+```cpp
   vector & vector::operator+=( const
     vector & rhs ){ 
         x += rhs.x; 
@@ -71,7 +69,7 @@ Als wat zo’n koppel operatoren doet wat minder triviaal is dan is het een goed
  
 De eenvoudigste manier is om de `operator+=` te implementeren zoals we al zagen, en dan de `operator+` te implementeren door een kopie te maken van onze eigen waarde, daar de operatror+= op los te laten, en dan die kopie te returnen. Dit lijkt misschien wat omslachtig, maar de winst is dat deze drie regels helemaal onafhankelijk zijn van wat ‘optellen’ voor de klasse precies inhoudt: deze drie regels vind je dus in vrijwel alle operator+ implementaties.
 
-```c++
+```cpp
 vector vector::operator+( const vector & rhs ) const { 
     vector temp = *this;
     temp += rhs;

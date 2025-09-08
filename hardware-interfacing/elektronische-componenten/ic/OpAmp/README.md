@@ -1,18 +1,16 @@
 ![logo](./img/OpAmp.svg) [](logo-id)
 
-# OpAmp[](title-id)
+# OpAmp[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [OpAmp](#opamp)
-  - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-    - [Buffer (spanningsvolger)](#buffer-spanningsvolger)
-    - [Geïnverteerde Buffer (Geinverteerde spanningsvolger)](#geïnverteerde-buffer-geinverteerde-spanningsvolger)
-    - [Geïnverteerde versterker](#geïnverteerde-versterker)
-    - [Versterker](#versterker)
-    - [Comparator](#comparator)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+  - [Buffer (spanningsvolger)](#buffer-spanningsvolger)
+  - [Geïnverteerde Buffer (Geinverteerde spanningsvolger)](#geïnverteerde-buffer-geinverteerde-spanningsvolger)
+  - [Geïnverteerde versterker](#geïnverteerde-versterker)
+  - [Versterker](#versterker)
+  - [Comparator](#comparator)
+- [Referenties](#referenties)
 
 ---
 

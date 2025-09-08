@@ -1,15 +1,13 @@
 ![logo](./img/595_pin_diagram.png) [](logo-id)
 
-# HC595 Integrated Circuit (IC)[](title-id)
+# HC595 Integrated Circuit (IC)[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [HC595 Integrated Circuit (IC)](#hc595-integrated-circuit-ic)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [De schakeling](#de-schakeling)
-  - [Arduino voorbeeld](#arduino-voorbeeld)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [De schakeling](#de-schakeling)
+- [Arduino voorbeeld](#arduino-voorbeeld)
+- [Referenties](#referenties)
 
 ---
 

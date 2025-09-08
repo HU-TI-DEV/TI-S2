@@ -1,6 +1,6 @@
-# Opdrachten Reductie - rijen C++[](title-id)
+# Opdrachten Reductie - rijen C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdrachten Reductie - rijen C++](#opdrachten-reductie---rijen-c)
     - [Inhoud](#inhoud)
   - [Opdracht 3.3 Print doolhof](#opdracht-33-print-doolhof)
@@ -19,7 +19,7 @@ Schrijf een **functie** die de matrix met de waarden 1, 0 en -1 afdrukt. Waarbij
 afgedrukt als een ’x’. 
 
 Voorbeeld van een matrix mat:
-```c++
+```cpp
 vector<vector<int>> mat = {
      {-1, 0,-1,-1,-1,-1,-1,-1,-1,-1,-1},
      {-1, 0,-1, 0, 0, 0,-1,-1, 0,-1,-1},
@@ -57,7 +57,7 @@ woorden, de functie moet van matrix m het element `m[i][ j]` verwisselen met het
 afdrukken.
 
 Voorbeeld. Gegeven de matrix *team*:
-```c++
+```cpp
 vector<vector<int>> team = { 
     {1,2,3},
     {4,5,6},
@@ -75,7 +75,7 @@ Eisen:
 - De aanpak is vergelijkbaar met de functie van [**opdracht 2.12 Palindroom**](../../functies/basis/opdr_palindroom.md).
 - Je mag geen gebruik maken van de `std::swap` functie. 
 - De handtekening van de functie is:
-```c++
+```cpp
 void transpose(vector<vector<int>> & matrix){
   ...
   ...

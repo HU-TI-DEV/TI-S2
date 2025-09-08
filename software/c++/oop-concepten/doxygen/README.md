@@ -1,18 +1,16 @@
-# Doxygen [](title-id)
+# Doxygen [](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Doxygen ](#doxygen-)
-  - [Inhoud](#inhoud)
-    - [Doxygen](#doxygen)
-    - [Werkwijze voor luie documenteurs](#werkwijze-voor-luie-documenteurs)
-    - [Werkwijze Doxygen](#werkwijze-doxygen)
-      - [Doxyfile](#doxyfile)
-      - [Runnen en uitvoer](#runnen-en-uitvoer)
-      - [Excuus-documentatie](#excuus-documentatie)
-      - [Tips](#tips)
-      - [Beschrijving per parameter](#beschrijving-per-parameter)
-    - [Meer mogelijkheden](#meer-mogelijkheden)
-    - [Installatie van Doxygen](#installatie-van-doxygen)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Doxygen](#doxygen)
+- [Werkwijze voor luie documenteurs](#werkwijze-voor-luie-documenteurs)
+- [Werkwijze Doxygen](#werkwijze-doxygen)
+  - [Doxyfile](#doxyfile)
+  - [Runnen en uitvoer](#runnen-en-uitvoer)
+  - [Excuus-documentatie](#excuus-documentatie)
+  - [Tips](#tips)
+  - [Beschrijving per parameter](#beschrijving-per-parameter)
+- [Meer mogelijkheden](#meer-mogelijkheden)
+- [Installatie van Doxygen](#installatie-van-doxygen)
 
 
 ### Doxygen
@@ -54,7 +52,7 @@ Helaas zie je, vooral in een-persoons open-source projecten, nogal eens ‘excuu
 - De mogelijke Doxygen kommando's vind je [in het Doxygen manual](https://www.doxygen.nl/manual/commands.html).
 - De Doxygen commands staan altijd in een C/C++ commentaar. Zij mogen beginnen met '@' of '\'.
 
-```c++
+```cpp
 /** @file
  *  @brief 2D integer vector ADT
  *  @details

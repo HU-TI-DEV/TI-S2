@@ -1,11 +1,9 @@
-# Struct datatype[](title-id)
+# Struct datatype[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Struct datatype](#struct-datatype)
-  - [Inhoud](#inhoud)
-  - [Basis](#basis)
-  - [Structs en vector](#structs-en-vector)
-  - [Structs en functies](#structs-en-functies)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Basis](#basis)
+- [Structs en vector](#structs-en-vector)
+- [Structs en functies](#structs-en-functies)
 
 
 Een struct combineert een aantal verschillende waarden tot één geheel. Bij een vector moeten de elementen van hetzelfde type zijn: een vector noemen we daarom een *homogeen datatype*.
@@ -18,7 +16,7 @@ Een struct maken we met het sleutelwoord `struct`. Daarna geven we het een naam 
 af met een puntkomma (;). 
 In *codevoorbeeld 12.1* staat een voorbeeld van een struct.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
@@ -54,7 +52,7 @@ int main(void){
 ## Structs en vector
 Een zelfgemaakte struct kan ook worden opgenomen in een vector. *Codevoorbeeld 12.2* laat dit zien.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>
@@ -90,7 +88,7 @@ int main(void){
 ## Structs en functies
 Structs kunnen, net als andere datatypes, als parameter worden meegeven aan een functie en terggegeven worden door een functie. Dit wordt zichtbaar gemaakt in *codevoorbeeld 12.3*.
 
-```c++
+```cpp
 #include <iostream>
 #include <string>
 #include <vector>

@@ -1,21 +1,19 @@
-# Const [](title-id)
+# Const [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Const ](#const-)
-    - [Inhoud](#inhoud)
-    - [Const variabelen](#const-variabelen)
-    - [Const parameters](#const-parameters)
-      - [By copy](#by-copy)
-      - [By reference](#by-reference)
-      - [By const reference](#by-const-reference)
-    - [Samenvatting](#samenvatting)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Const variabelen](#const-variabelen)
+- [Const parameters](#const-parameters)
+  - [By copy](#by-copy)
+  - [By reference](#by-reference)
+  - [By const reference](#by-const-reference)
+- [Samenvatting](#samenvatting)
 
 
 ### Const variabelen
 Je kunt een variabele of parameter const declareren om aan te geven dat de waarde van dit object (na de initiële initialisatie) niet meer zal veranderen. Dit maakt lezen van de code makkelijker, omdat de lezer zich bij het lezen van een expressie waarin de variabele wordt gebruikt niet hoeft af te vragen of de waarde in de tussentijd veranderd is. Daarnaast helpt het de compiler efficiëntere code te genereren.
 *De term variabele is wat vreemd voor iets wat niet variabel (wijzigbaar is), maar zo is de terminologie.*
 
-```c++
+```cpp
 int main(){
 const int answer = 42;
 // Imaginge a long and very complex piece of code
@@ -28,7 +26,7 @@ std::cout << "The answer is " << answer << "\n";
 ### Const parameters
 Je kunt `const` ook gebruiken om aan te geven dat een parameter van een functie binnen die functie niet veranderd zal worden. Het wijzigen van een gewone (niet-reference) parameter kan in een functie geen gevolgen hebben voor de meegegeven variabele zelf, omdat er een *kopie* van wordt doorgegeven. Maar de functie kan die kopie wél wijzigen, wat voor verwarring kan zorgen als je de code leest.
 
-```c++
+```cpp
 void f( int x ){
     . . .
     x = x + 5; // did the author realize that he is modifying a copy?
@@ -44,7 +42,7 @@ f( i );
 
 N.B. Als je een functie parameter als const declareert dwing je af dat die parameter in de functie niet gewijzigd wordt. Dit maakt het lezen van je code makkelijker.
 
-```c++
+```cpp
 void f( const int x ){
 . .
 x = x + 5; // compilation error
@@ -62,7 +60,7 @@ Maar dat heeft twee nadelen:
 - De functie kan nu niet meer worden aangeroepen met een const object of met een expressie.
 - De aangeroepen functie kan het object nu wél wijzigen.
 
-```c++
+```cpp
 void f( int & x ){}
 
 const int x = 10;
@@ -79,7 +77,7 @@ Beide problemen worden ondervangen door de parameter ‘by const reference’ ov
 
 *Tip: Er wordt algemeen aangenomen dat code veel vaker gelezen wordt dan geschreven. Het is dus een goed principe om code te optimaliseren voor leesbaarheid, dus niet noodzakelijk voor ‘schrijfbaarheid’.*
 
-```c++
+```cpp
 void f( const int & x ){}
 
 void g( const int & x ){

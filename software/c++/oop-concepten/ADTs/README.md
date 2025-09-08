@@ -1,15 +1,13 @@
-# Abstracte Data Typen (ADTs)(title-id)
+# Abstracte Data Typen (ADTs)(title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Abstracte Data Typen (ADTs)(title-id)](#abstracte-data-typen-adtstitle-id)
-    - [Inhoud](#inhoud)
-  - [Abstracte Data Typen (ADTs)](#abstracte-data-typen-adts)
-    - [Wat is een ADT?](#wat-is-een-adt)
-    - [Getters en setters](#getters-en-setters)
-    - [Getters en setters](#getters-en-setters-1)
-    - [Public attributes vs. getters en setters](#public-attributes-vs-getters-en-setters)
-      - [Best practices attributen](#best-practices-attributen)
-      - [Vector-klasse met publieke attributen](#vector-klasse-met-publieke-attributen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Abstracte Data Typen (ADTs)](#abstracte-data-typen-adts)
+  - [Wat is een ADT?](#wat-is-een-adt)
+  - [Getters en setters](#getters-en-setters)
+  - [Getters en setters](#getters-en-setters-1)
+  - [Public attributes vs. getters en setters](#public-attributes-vs-getters-en-setters)
+    - [Best practices attributen](#best-practices-attributen)
+    - [Vector-klasse met publieke attributen](#vector-klasse-met-publieke-attributen)
 
 
 ## Abstracte Data Typen (ADTs)
@@ -36,7 +34,7 @@ Een **Abstract Data Type (ADT)** is:
 ### Getters en setters
 Tot nu toe hebben we, om een plaats op een scherm aan te geven, steeds twee integer waarden gebruikt. Dit leidt tot lange parameter- en attribuutlijsten, en als we willen rekenen met zulke coördinaten (bv. twee coördinaten bij elkaar optellen) dan moeten we aparte bewerkingen doen op de x en y elementen.
 
-```c++
+```cpp
 class line {
 private:
   int start_x;
@@ -65,7 +63,7 @@ Om een plaats op een scherm aan te geven is het handig om een *vector klasse* te
 ![UML voor een lijn klasse die twee vectoren bevat](UMLlijnmetvectoren.png)
 *Image: UML voor een lijn klasse die twee vectoren bevat* 
 
-```c++
+```cpp
 class vector {
 private:
   int x;
@@ -88,7 +86,7 @@ private:
 ### Getters en setters
 Omdat de x en y *private* zijn moeten we nog wat aanpassingen maken om er nuttig gebruik van te kunnen maken. Een manier is om zogenaamde getter en setter methoden toe te voegen: klasse functies die als enige taak hebben de waarde van een privé attribuut op te halen of te wijzigen.
 
-```c++
+```cpp
 class vector {
 private:
   int x;
@@ -133,7 +131,7 @@ Voor de vector klasse is besloten om de x en y attributen publiek te maken, omda
 
 *N.B. Helemaal sluitend is dit argument niet, want op een kleine processor en met een klein scherm is het wellicht beter om ruimte te besparen door 8-bit waarden op te slaan in plaats van integers die minimaal 16 bit zijn. En op grotere systemen is het soms juist handiger om doubles te gebruiken voor schermcoördinaten, omdat je dan met meer dan pixel-nauwkeurigheid kan rekenen voor de plaats van een object.*
 
-```c++
+```cpp
 class vector {
 public:
   int x;

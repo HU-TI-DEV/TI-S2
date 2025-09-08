@@ -1,14 +1,12 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# while[](title-id)
+# while[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [while](#while)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [while](#while-1)
-    - [do-while](#do-while)
-    - [While - codevoorbeelden](#while---codevoorbeelden)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Introductie](#introductie)
+  - [while](#while)
+  - [do-while](#do-while)
+  - [While - codevoorbeelden](#while---codevoorbeelden)
 
 
 ## Introductie
@@ -25,7 +23,7 @@ C++ kent ook een [do-while-loop](#do-while). Deze behandelen we niet in de les, 
 ### While - codevoorbeelden 
 Codevoorbeelden 5.4, 5.5 en 5.6 laten while-loops zien.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -74,7 +72,7 @@ int main(){
 ```
 *Codevoorbeeld 5.5 - while-loop 2*
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

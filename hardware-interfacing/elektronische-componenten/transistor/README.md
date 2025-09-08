@@ -1,13 +1,11 @@
 ![logo](./img/Transistor.svg) [](logo-id)
 
-# Transistor[](title-id)
+# Transistor[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Transistor](#transistor)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

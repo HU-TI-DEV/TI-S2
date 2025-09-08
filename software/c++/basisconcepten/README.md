@@ -1,15 +1,13 @@
 ![logo](../c++/img/ISO_C++_Logo.svg) [](logo-id)
 
-# Basisconcepten C++[](title-id)
+# Basisconcepten C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Basisconcepten C++](#basisconcepten-c)
-    - [Inhoud](#inhoud)
-  - [Introductie](#introductie)
-    - [Main](#main)
-    - [Layout en puntkomma’s](#layout-en-puntkommas)
-  - [Commentaar](#commentaar)
+- [Introductie](#introductie)
+  - [Main](#main)
+  - [Layout en puntkomma’s](#layout-en-puntkommas)
+- [Commentaar](#commentaar)
 
 ---
 
@@ -23,7 +21,7 @@
 
 Het startpunt van elk C++ programma is de functie main(). Als het programma start wordt deze functie aangeroepen. In onderstaand codevoorbeeld staat een simpel C++ programma dat “hello, world” op het scherm print. Hier staan veel nieuwe dingen, dus we gaan het regel voor regel langs, maar we beginnen met een opmerking over de layout.
 
-```c++ {.line-numbers}
+```cpp {.line-numbers}
 #include <iostream> 
 using namespace std;
 
@@ -38,27 +36,27 @@ int main(){
 Belangrijk om te weten voordat je naar C++ code kijkt is dat de compiler in C++ niks geeft om de layout. Dit in tegenstelling tot bijvoorbeeld Python. Inspringen, enters en andere zaken die de layout beïnvloeden maken het voor ons mensen makkelijk om te lezen, maar voor de compiler had het net zo goed op één regel geschreven kunnen staan. In C++ sluiten we instructies af met een ; (puntkomma)(zie regel 2, 6 en 7). Met accolades ({ en }) geven we aan wat bij groepering hoort (zie regel 5 en 8).
 
 Regel 0:
-```c++
+```cpp
 #include <iostream> 
 ```
 
 Net als in andere programmeertalen kun je in C++ gebruik maken van libraries. Sommige zijn al standaard geïnstalleerd. Om makkelijk dingen te printen op het scherm wordt in C++ de library iostream gebruikt . Op regel 0 vertellen we de compiler dat we gebruik willen maken van deze library. Dit doen we met de commando #include en de naam van de library tussen punthaken (< en >). Het object cout op regel 4 komt uit deze library. Later zullen we ook nog andere libraries gebruiken. Het includeren van een library is geen instructie, dus er is geen puntkomma (;) nodig om de regel af te sluiten.
 
 Regel 1 (namespace):
-```c++
+```cpp
 using namespace std;
 ```
 Deze regel zegt dat de functies en operatoren in iostream gebruikt moeten worden op de “standaard manier” (std is een afkorting voor standard). Dit zorgt ervoor dat we op regel 4 enkel cout hoeven te typen en niet std::cout om iets te printen op de console.
 
 Regel 3 en 5 (main-functie):
-```c++
+```cpp
 int main(){ ...
     }
 ```
 We definiëren de main functie. In hoofdstuk 8 gaan we dieper in op functies. In C++ hebben inspringingen geen effect op de uitvoer van de code (in tegenstelling met Python). De accolades ({ en }) geven aan wat behoort tot de inhoud  van de main-functie. Regel 4 behoort dus tot de inhoud van de functie. In onze code hebben we wel een inspringing. Dit is enkel om de code leesbaarder te maken.
 
 Regel 4 (cout):
-```c++
+```cpp
 cout << "hello, world\n"; 
 ```
 Op deze regel printen we de string “hello, world\n”. Als je het woord cout ziet als je beeldscherm, dan kan je de punthaken << zien als dat de string naar het scherm wordt gestuurd.
@@ -66,7 +64,7 @@ Op deze regel printen we de string “hello, world\n”. Als je het woord cout z
 ## Commentaar
 In C++ kan commentaar toegevoegd worden aan de code met het gebruik van twee schuine strepen (//). Alles wat achter de twee schuine strepen staat zal worden genegeerd door de compiler. Onderstaand codevoorbeeld laat code zien met commentaar.
 
-```c++
+```cpp
 #include <iostream> 
 using namespace std;
 

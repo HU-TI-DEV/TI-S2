@@ -1,21 +1,19 @@
-# Meerdere bronbestanden[](title-id)
+# Meerdere bronbestanden[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Meerdere bronbestanden](#meerdere-bronbestanden)
-  - [Inhoud](#inhoud)
-  - [Include](#include)
-    - [Include en compilatietijd](#include-en-compilatietijd)
-    - [Interface vs. implementatie](#interface-vs-implementatie)
-  - [Header-files](#header-files)
-    - [ad. 13.3 includeren van de headerfile .hpp](#ad-133-includeren-van-de-headerfile-hpp)
-    - [ad. 13.3 addTwice()](#ad-133-addtwice)
-    - [ad. 13.3 add()](#ad-133-add)
-  - [Dubbele invoeging header-files](#dubbele-invoeging-header-files)
-    - [Voorwaardelijke compilatie](#voorwaardelijke-compilatie)
-    - [\_FILE\_NAME\_HPP](#_file_name_hpp)
-    - [Compile time](#compile-time)
-    - [#ifndef en #endif](#ifndef-en-endif)
-    - [define en macro](#define-en-macro)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Include](#include)
+  - [Include en compilatietijd](#include-en-compilatietijd)
+  - [Interface vs. implementatie](#interface-vs-implementatie)
+- [Header-files](#header-files)
+  - [ad. 13.3 includeren van de headerfile .hpp](#ad-133-includeren-van-de-headerfile-hpp)
+  - [ad. 13.3 addTwice()](#ad-133-addtwice)
+  - [ad. 13.3 add()](#ad-133-add)
+- [Dubbele invoeging header-files](#dubbele-invoeging-header-files)
+  - [Voorwaardelijke compilatie](#voorwaardelijke-compilatie)
+  - [\_FILE\_NAME\_HPP](#_file_name_hpp)
+  - [Compile time](#compile-time)
+  - [#ifndef en #endif](#ifndef-en-endif)
+  - [define en macro](#define-en-macro)
 
 
 Grotere C++ programma’s worden door goede programmeurs tekstueel opgesplitst over meerdere tekstfiles. Dit zorgt ervoor dat onze code overzichtelijk blijft en dat het compileren sneller gaat.
@@ -47,12 +45,12 @@ Een headerfile (.hpp) bevat de interface. Het vertelt:
 
 *Codevoorbeelden 13.1* (`func.hpp`), *13.2* (`func.cpp`) en *13.3* (`main.cpp`) geven voorbeelden van het gebruik van meerdere bronbestanden.
 
-```c++
+```cpp
 int addTwice(int a, int b);
 ```
 *Codevoorbeeld 13.1 - Headerfile func.hpp*
 
-```c++
+```cpp
 #include "func.hpp"
 
 int add(int x, int y){
@@ -67,7 +65,7 @@ int addTwice(int a , int b){
 ```
 *Codevoorbeeld 13.2 - Sourcefile func.cpp*
 
-```c++
+```cpp
 #include "func.hpp"
 
 int main(){
@@ -106,7 +104,7 @@ Het bestand `func.hpp` uit *codevoorbeeld 13.1* is in *codevoorbeeld 13.5* uitge
 ### _FILE_NAME_HPP
 Merk op dat `FILE_NAME` in `_FILE_NAME_HPP` wordt vervangen door de naam van de betreffende file (in voorbeeld 13.5 is dit: `FUNC`).
 
-```c++
+```cpp
 #ifndef _FILE_NAME_HPP
 #define _FILE_NAME_HPP
 ... // content of the header file
@@ -114,7 +112,7 @@ Merk op dat `FILE_NAME` in `_FILE_NAME_HPP` wordt vervangen door de naam van de 
 ```
 *Codevoorbeeld 13.4 - Header-file opbouw*
 
-```c++
+```cpp
 #ifndef _FUNC_HPP
 #define _FUNC_HPP
 int addTwice(int a, int b);

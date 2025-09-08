@@ -1,6 +1,9 @@
-# Constant
+# Constant [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [const](#const)
+- [const ref](#const-ref)
+- [by copy](#by-copy)
 
 ## const
 “By reference” meegeven is meestal sneller. Dus eigenlijk willen we dit altijd doen, maar dit is eng voor de gebruiker van de functies. Hoe weet de gebruiker, zonder de code in detail te bekijken, of de functie de meegegeven variabele aanpast?
@@ -18,7 +21,7 @@ Codevoorbeeld 8.8 laat een functie getNext zien met een parameter letter die con
 Als we de waarde van de parameter in ons functie wel willen aanpassen, dan zorgen we dat de waarde “by copy” meegegeven wordt (zonder const en zonder &).
 (Dat wordt soms ook 'call-by-value' genoemd.)
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

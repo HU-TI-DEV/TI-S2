@@ -1,8 +1,8 @@
 ![logo](../getalsysteem/img/Numeral_Systems_of_the_World.svg) [](logo-id)
 
-# Numeral system[](title-id)
+# Numeral system[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Numeral system](#numeral-system)
     - [Inhoud](#inhoud)

@@ -1,11 +1,9 @@
-# Opdracht ADT:vector[](title-id)
+# Opdracht ADT:vector[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht ADT:vector](#opdracht-adtvector)
-    - [Inhoud](#inhoud)
-      - [Opdracht 2.4A Klasse en operatoren](#opdracht-24a-klasse-en-operatoren)
-      - [Opdracht 2.4B - Doxygen (deze opdracht volgt nog)](#opdracht-24b---doxygen-deze-opdracht-volgt-nog)
-      - [Opdracht 2.4C en 2.4D - Catch2 (deze opdrachten volgen nog)](#opdracht-24c-en-24d---catch2-deze-opdrachten-volgen-nog)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.4A Klasse en operatoren](#opdracht-24a-klasse-en-operatoren)
+- [Opdracht 2.4B - Doxygen (deze opdracht volgt nog)](#opdracht-24b---doxygen-deze-opdracht-volgt-nog)
+- [Opdracht 2.4C en 2.4D - Catch2 (deze opdrachten volgen nog)](#opdracht-24c-en-24d---catch2-deze-opdrachten-volgen-nog)
 
 
 #### Opdracht 2.4A Klasse en operatoren

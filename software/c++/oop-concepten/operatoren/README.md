@@ -18,7 +18,7 @@ Verder lezen:
 ## Operatoren
 In codevoorbeeld 06-04 moeten we voor het optellen van twee locaties twee statements gebruiken, één voor de x en één voor de y. 
 
-```c++
+```cpp
 class vector {
 public:
   int x;
@@ -34,13 +34,13 @@ a.y += b.y;
 *Codevoorbeeld 06-04 (herhaald)- Vectoren bij elkaar optellen via publieke attributen*
 
 We kunnen dit makkelijker maken, want in C++ zijn operatoren zoals `+` eigenlijk gewoon methoden (klasse functies). Als een passende `operator+` is gedeclareerd zijn de volgende twee expressies legaal in C++ en betekenen exact hetzelfde:
-```c++
+```cpp
 a + b a.operator+( b )
 ```
 *Codevoorbeeld 06-05 - Twee manieren om dezelfde operator+ methode aan te roepen*
 
 Als we twee locaties bij elkaar op willen kunnen tellen dan moeten we daar de passende `operator+` voor schrijven.
-```c++
+```cpp
 class vector {
 public:
     int x;
@@ -70,7 +70,7 @@ De body van de operator is bijna triviaal: het resultaat van de functie is een w
 #### Eenzijdige operator (monadic)
 Behalve de tweezijdige (diadic) + is er ook een eenzijdige (monadic) +. Dit is een veel minder nuttige operator, die er eigenlijk alleen is omdat de eenzijdige - wél een nuttige operator is. De eenzijdige operatoren hebben geen rhs (de enige parameter is het object zelf, dat impliciet wordt doorgegeven), dus hun parameterlijst is leeg.
 
-```c++
+```cpp
 class vector {
 public:
   int x;
@@ -94,7 +94,7 @@ In het volgende stukje code worden drie + operatoren aangeroepen.
 - De tweede aanroep heeft twee parameters van het type `int`, dus de aangeroepen functie is de ingebouwde ( `int + int` ) operator. 
 - De derde aanroep heeft parameters van het type `vector` en `int`. Tenzij iemand een dergelijke functie gemaakt heeft zal de compiler hier een foutmelding geven omdat hij geen passende operator+ kan vinden.
 
-```c++
+```cpp
 vector a( 1, 2 ), b( 3, 4 ), c( 5, 6 ); 
 int x = 1, y = 2, z;
 

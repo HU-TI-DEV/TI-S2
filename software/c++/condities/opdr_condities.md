@@ -1,11 +1,9 @@
-# Opdrachten Condities C++[](title-id)
+# Opdrachten Condities C++[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
-- [Opdrachten Condities C++](#opdrachten-condities-c)
-  - [Inhoud](#inhoud)
-  - [Opdracht 1.8a — Vierkant](#opdracht-18a--vierkant)
-  - [Opdracht 1.8b — Rechthoek, klimaat](#opdracht-18b--rechthoek-klimaat)
-  - [Opdracht 1.11 - Piramide (for, while)](#opdracht-111---piramide-for-while)
+## Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 1.8a — Vierkant](#opdracht-18a--vierkant)
+- [Opdracht 1.8b — Rechthoek, klimaat](#opdracht-18b--rechthoek-klimaat)
+- [Opdracht 1.11 - Piramide (for, while)](#opdracht-111---piramide-for-while)
 
 Maak na deze opdrachten:
 - [Opdracht 1.12 piramide met opvulling](../condities/for/opdr_piramide.md)

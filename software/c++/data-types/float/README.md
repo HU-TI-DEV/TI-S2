@@ -1,13 +1,11 @@
 
-# Float [](title-id)
+# Float [](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Float ](#float-)
-    - [Inhoud](#inhoud)
-    - [float](#float)
-    - [Float](#float-1)
-    - [Output](#output)
-    - [Delen](#delen)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [float](#float)
+- [Float](#float-1)
+- [Output](#output)
+- [Delen](#delen)
 
 
 ### float
@@ -15,7 +13,7 @@ Om gebroken getallen op te slaan kunnen we het datatype float gebruiken. In code
 3.3 en 3.4 zien we het declareren (de variabelen aanmaken)en initialiseren, 
 (de variabelen een waarde geven) en het bewerken van float variabelen.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -39,7 +37,7 @@ Met het sleutelwoord float geven we aan dat een variabele van het datatype float
 We zien dat variabelen met het float datatype wel gebroken getallen kunnen bevatten.
 In *codevoorbeeld 3.3* krijgt variabele y nu wel de waarde 4,9.
 
-```c++
+```cpp
 #include <iostream>
 using namespace std;
 

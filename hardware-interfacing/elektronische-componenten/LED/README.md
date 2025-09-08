@@ -1,13 +1,11 @@
 ![logo](./img/LED.svg) [](logo-id)
 
-# Diode[](title-id)
+# Diode[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Diode](#diode)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

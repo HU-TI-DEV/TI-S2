@@ -1,13 +1,11 @@
 ![logo](./img/Signetics_NE555N.jfif) [](logo-id)
 
-# Integrated Circuit[](title-id)
+# Integrated Circuit[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Integrated Circuit](#integrated-circuit)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Referenties](#referenties)
 
 ---
 

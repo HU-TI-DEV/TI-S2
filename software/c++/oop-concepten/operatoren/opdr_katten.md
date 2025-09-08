@@ -1,9 +1,7 @@
-# Opdrachten Operatoren C++[](title-id)
+# Opdrachten Operatoren C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Operatoren C++](#opdrachten-operatoren-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO2.1 Katten](#opdracht-oo21-katten)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO2.1 Katten](#opdracht-oo21-katten)
 
 
 *Deze opdracht kan nog veranderen!*
@@ -12,7 +10,7 @@
  
 - Wat zijn de waarden van de attributen `*pianocat*, *ceilingcat* en *happycat* na het uitvoeren van de code?
 
-```c++
+```cpp
 #include "cat.hpp"
 
 int main(int argc, char** argv) {
@@ -25,7 +23,7 @@ int main(int argc, char** argv) {
 *main.cpp*
 
 
-```c++
+```cpp
 #ifndef CAT_HPP
 #define CAT_HPP
 

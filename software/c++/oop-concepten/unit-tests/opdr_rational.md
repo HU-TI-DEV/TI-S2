@@ -1,10 +1,8 @@
-# Opdracht Rational Unit Test[](title-id)
+# Opdracht Rational Unit Test[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdracht Rational Unit Test](#opdracht-rational-unit-test)
-    - [Inhoud](#inhoud)
-    - [Opdracht OO2.3 Catch2](#opdracht-oo23-catch2)
-      - [Opdracht OO2.3C Test rational.hpp](#opdracht-oo23c-test-rationalhpp)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht OO2.3 Catch2](#opdracht-oo23-catch2)
+  - [Opdracht OO2.3C Test rational.hpp](#opdracht-oo23c-test-rationalhpp)
 
 
 ### Opdracht OO2.3 Catch2

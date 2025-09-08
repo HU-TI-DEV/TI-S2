@@ -1,10 +1,8 @@
-# Opdrachten Vector C++[](title-id)
+# Opdrachten Vector C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Vector C++](#opdrachten-vector-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.13 Gesorteerde vector](#opdracht-213-gesorteerde-vector)
-    - [Opdracht 2.14 Vector Input.](#opdracht-214-vector-input)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.13 Gesorteerde vector](#opdracht-213-gesorteerde-vector)
+- [Opdracht 2.14 Vector Input.](#opdracht-214-vector-input)
 
 
 ### Opdracht 2.13 Gesorteerde vector

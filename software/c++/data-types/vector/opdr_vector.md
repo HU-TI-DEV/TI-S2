@@ -1,16 +1,14 @@
-# Opdrachten Vector C++[](title-id)
+# Opdrachten Vector C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Vector C++](#opdrachten-vector-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 2.3 Positief](#opdracht-23-positief)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 2.3 Positief](#opdracht-23-positief)
 
 
 ### Opdracht 2.3 Positief
 In de onderstaande code staan drie functies, *postive1()*, *positive2()* en *positive3()*. 
 Wat de functies doen lijkt erg op elkaar.
 
-```c++
+```cpp
 #include <vector>
 using namespace std;
 

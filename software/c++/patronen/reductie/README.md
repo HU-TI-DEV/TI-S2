@@ -1,6 +1,6 @@
-# Reductie[](title-id)
+# Reductie[](title-id) <!-- omit in toc -->
 
-## Inhoud[](toc-id)
+## Inhoud[](toc-id) <!-- omit in toc -->
 - [Reductie](#reductie)
   - [Inhoud](#inhoud)
   - [Reductie](#reductie-1)
@@ -68,7 +68,7 @@ Voor het bepalen van de hoogste prijs zou de functie maxValue() hergebruikt kunn
 Programmeren wordt wel eens de kunst van het reduceren genoemd.
 
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;

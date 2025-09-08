@@ -1,17 +1,15 @@
 ![logo](../SPI/img/SPI_basic_operation,_single_Main_&_Sub.svg) [](logo-id)
 
-# SPI: Serial Peripheral Interface[](title-id)
+# SPI: Serial Peripheral Interface[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [SPI: Serial Peripheral Interface](#spi-serial-peripheral-interface)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [SPI protocol](#spi-protocol)
-  - [De schakeling om individueel te oefenen](#de-schakeling-om-individueel-te-oefenen)
-  - [De schakeling met je team](#de-schakeling-met-je-team)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [SPI protocol](#spi-protocol)
+- [De schakeling om individueel te oefenen](#de-schakeling-om-individueel-te-oefenen)
+- [De schakeling met je team](#de-schakeling-met-je-team)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Referenties](#referenties)
 
 ---
 

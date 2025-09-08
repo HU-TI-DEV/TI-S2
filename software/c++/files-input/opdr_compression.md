@@ -1,9 +1,7 @@
-# Opdrachten Files input/output C++[](title-id)
+# Opdrachten Files input/output C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Files input/output C++](#opdrachten-files-inputoutput-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 4.5 Compression](#opdracht-45-compression)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 4.5 Compression](#opdracht-45-compression)
 
 
 ### Opdracht 4.5 Compression
@@ -13,7 +11,7 @@ Schrijf een compress-programma, dat uit een gegeven bestand een nieuwe bestand m
 door spaties en tabs(`\t`)). 
 
 De compress-functie heeft de volgende definitie:
-```c++
+```cpp
 void compress(string src_filename, string dest_filename){
   ...
   ...

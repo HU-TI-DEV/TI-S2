@@ -1,18 +1,16 @@
 ![logo](../Arduino-UNO/img/ArdurinoUno.jpg) [](logo-id)
 
-# Microcontroller: Arduino UNO[](title-id)
+# Microcontroller: Arduino UNO[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Microcontroller: Arduino UNO](#microcontroller-arduino-uno)
-    - [Inhoud](#inhoud)
-  - [Een introductie](#een-introductie)
-  - [Arduino IDE](#arduino-ide)
-  - [Arduino UNO](#arduino-uno)
-  - [Digitale en Analoge pinnen](#digitale-en-analoge-pinnen)
-  - [Analoog naar Digitaal Converter](#analoog-naar-digitaal-converter)
-  - [Arduino voorbeeld code](#arduino-voorbeeld-code)
-  - [Referenties](#referenties)
+- [Een introductie](#een-introductie)
+- [Arduino IDE](#arduino-ide)
+- [Arduino UNO](#arduino-uno)
+- [Digitale en Analoge pinnen](#digitale-en-analoge-pinnen)
+- [Analoog naar Digitaal Converter](#analoog-naar-digitaal-converter)
+- [Arduino voorbeeld code](#arduino-voorbeeld-code)
+- [Referenties](#referenties)
 
 ---
 

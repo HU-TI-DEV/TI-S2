@@ -2,10 +2,9 @@
 
 # Condities
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Condities](#condities)
-    - [Inhoud](#inhoud)
   - [Introductie](#introductie)
 
 ---

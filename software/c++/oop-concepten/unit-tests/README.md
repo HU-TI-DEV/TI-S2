@@ -54,7 +54,7 @@ Richt je test zo in dat het waarschijnlijk is dat realistische fouten in de te t
 #### Voorbeeldcode operator+
 De onderstaande test is al wat beter, maar wat zou deze test niet ontdekken en wat zou jij er aan veranderen om dat wel te ontdekken?
 
-```c++
+```cpp
 #include <assert.h>
 
 vector a( 1, 2 );
@@ -70,7 +70,7 @@ assert( c.x == 5 ); assert( c.y == 5 );
 #### Voorbeeld operator==
 De `operator+` test bevat een reeks asserts op de *attributen* van een vector. Je kunt het jezelf (en je lezer) wat makkelijker maken door een `operator==` te definiëren voor vector en die te gebruiken. Maar dan moet je die `operator==` natuurlijk wel testen!
 
-```c++
+```cpp
 bool operator==( const vector &lhs, const vector &rhs ){
   return ( lhs.x == rhs.x ) && ( lhs.y == rhs.y );
 }
@@ -110,7 +110,7 @@ Een `TEST_CASE` leest als een soort functie definitie, maar op de plaats van de 
 
 #### Voorbeeld Catch2
 
-```c++
+```cpp
 #include "ostream"
 #include "vector.hpp"
 #define CATCH_CONFIG_MAIN
@@ -142,7 +142,7 @@ De uitvoer van Catch voor een run waarin geen fouten zijn gevonden vermeldt het 
 ![all_tests_passed](all_tests_passed.png)
 
 Als een assertion faalt dan wordt dit gemeld.
-```c++
+```cpp
 TEST_CASE( "constructors, default" ){
   vector v;
   REQUIRE( v == vector( 1, 7 ) );
@@ -155,7 +155,7 @@ Een test case die een fout zal opleveren*
 
 Er wordt nu gemeld dat er een fout is opgetreden en waar, maar het zou nog handiger zijn als we ook zouden zien *welke waarden* er aan beide kanten van de `operator==` staan. Dit kan Catch2 voor je doen, maar dan moet er voor die waarden wel een `operator<<` bestaan.
 
-```c++
+```cpp
 std::ostream & operator<<( std::ostream & lhs, vector pos ){
     lhs << "(" << pos.x << "," << pos.y << ")";
     return lhs;
@@ -174,7 +174,7 @@ TEST_CASE( "constructors, default" ){
 Tot nu toe hebben we `operator<<` alleen gebruikt om te schrijven naar de *standaard uitvoer*. 
 Om een `operator<<` te testen is het handig om te weten dat je die via een omweg ook kunt gebruiken om naar een `string` te schrijven, *want dan kun je na afloop de inhoud van die string checken*. Dit doe je door naar een (lege) `std::stringstream` te printen, en daarna de waarde van die `stringstream` op te vragen met de `s.str()` methode.
 
-```c++
+```cpp
 TEST_CASE( "operator<<" ){
     std::stringstream s;
     vector v( 1, 2 );

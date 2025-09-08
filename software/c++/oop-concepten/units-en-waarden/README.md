@@ -85,7 +85,7 @@ Een enumerate type (enumeratie, opsomming) is een C++ type dat een reeks waarden
 #### Voorbeeld: windrichting
 De vier windrichtingen kun je definiëren in een enum type.
 
-```c++
+```cpp
 enum wind { north, east, south, west };
 wind w = north;
 ```
@@ -101,7 +101,7 @@ Dit betekent
 - je er mee kan rekenen, en 
 - dat je een probleem krijgt als je dezelfde naam wilt gebruiken voor waarden van verschillende enumeraties.
 
-```c++
+```cpp
 enum wind { north, east, south, west };
 wind x = 2; // geen foutmelding
 x++; // geen foutmelding
@@ -121,7 +121,7 @@ In C++ is er naast de bovenstaande C-style enum een nieuwe versie, de enum class
 
 In nieuwe code is het sterk aangeraden enum class te gebruiken in plaats van de gewone enum.
 
-```c++
+```cpp
 enum class wind { north, east, south, west };
 wind x = 2; // error
 x++; // error
@@ -135,7 +135,7 @@ pole y = pole::south;
 Enum class waarden zijn *lokaal* binnen de enum.
 Enumeraties zijn geschikt om nominale en ordinale schalen te implementeren, maar de waarden zijn *geordend* (je kunt ze vergelijken met <, >, <=, >=) dus voor een nominale schaal zijn ze eigenlijk minder handig. Je zou zelf een soort enumerate kunnen maken die als vergelijkingen alleen == en != ondersteunt, maar dat is veel werk en wordt dus niet vaak gedaan.
 
-```c++
+```cpp
 class language {
 private:
   int x;

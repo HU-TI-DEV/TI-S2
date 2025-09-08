@@ -1,7 +1,6 @@
 # References <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Inhoud](#inhoud)
+### Inhoud[](toc-id) <!-- omit in toc -->
 - [By copy](#by-copy)
 - [By reference](#by-reference)
 - [Snelheid](#snelheid)
@@ -16,7 +15,7 @@ betekent dat we niet de originele variabele meegeven, maar een kopie van de waar
 In codevoorbeeld 8.4 zien we dit bij de variabelen zeros en ones op de regels 69 t/m 72. Bij de functie add1() wordt de parameter v aangepast in
 de functie, maar zeros - die wordt meegegeven aan de functie - blijft onveranderd.
 
-```c++
+```cpp
 #include <iostream>
 #include <string> 
 #include <vector> 
@@ -55,7 +54,7 @@ Als we de meegegeven variabele willen kunnen aanpassen moeten we de parameter
 “by reference maken”. Dit doen we met het sleutelwoord &. 
 In codevoorbeeld 8.6 en 8.7 zien we de functies *add1()* , *changeTo8* en *getAndSetNext()* met een reference parameter.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -88,7 +87,7 @@ int main(){
 *Codevoorbeeld 8.6 Functies met references - 1*
 
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 using namespace std;

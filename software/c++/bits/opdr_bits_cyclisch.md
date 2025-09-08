@@ -1,11 +1,9 @@
-# Opdrachten Bits C++[](title-id)
+# Opdrachten Bits C++[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
-- [Opdrachten Bits C++](#opdrachten-bits-c)
-    - [Inhoud](#inhoud)
-    - [Opdracht 4.6 Verschuif Cyclisch](#opdracht-46-verschuif-cyclisch)
-      - [Voorbeeld 1 - cyclisch links](#voorbeeld-1---cyclisch-links)
-      - [Voorbeeld 2 - cyclisch rechts](#voorbeeld-2---cyclisch-rechts)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Opdracht 4.6 Verschuif Cyclisch](#opdracht-46-verschuif-cyclisch)
+  - [Voorbeeld 1 - cyclisch links](#voorbeeld-1---cyclisch-links)
+  - [Voorbeeld 2 - cyclisch rechts](#voorbeeld-2---cyclisch-rechts)
 
 
 ## Opdracht 4.6 Verschuif Cyclisch

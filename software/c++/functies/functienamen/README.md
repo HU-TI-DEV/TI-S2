@@ -1,6 +1,7 @@
-# Functienamen
+# Functienamen[](title-id) <!-- omit in toc -->
 
-### Inhoud[](toc-id)
+### Inhoud[](toc-id) <!-- omit in toc -->
+- [Functienamen en overloading](#functienamen-en-overloading)
 
 ## Functienamen en overloading
 Functies mogen dezelfde naam hebben, maar enkel als de compiler op basis van de datatypes
@@ -8,7 +9,7 @@ van de parameters kan bepalen welke functie wordt bedoeld. Dit heet *function ov
 
 In codevoorbeeld 8.5 zien we 4 functies met dezelfde naam.
 
-```c++
+```cpp
 #include <iostream>
 #include <vector>
 #include <string>
