@@ -47,7 +47,6 @@
   * [patronen/](../software/c++/patronen/README.md)
     * [recursie/](../software/c++/patronen/recursie/README.md)
     * [reductie/](../software/c++/patronen/reductie/README.md)
-  * [programmastroom/](../software/c++/programmastroom/README.md)
 * [communicatie/](../software/communicatie/)
   * [MQTT/](../software/communicatie/MQTT/README.md)
 * [getalsysteem/](../software/getalsysteem/README.md)

@@ -5,23 +5,20 @@
 - [Introductie](#introductie)
 - [Design Patterns](#design-patterns)
 - [Informatie uit en over één rij](#informatie-uit-en-over-één-rij)
-  - [Informatie uit een rij](#informatie-uit-een-rij)
-  - [Break](#break)
-  - [De gezochte informatie](#de-gezochte-informatie)
-  - [Return i](#return-i)
-  - [Return -1](#return--1)
+- [Informatie uit een rij](#informatie-uit-een-rij)
+- [Break](#break)
+- [De gezochte informatie](#de-gezochte-informatie)
+- [Return i](#return-i)
+- [Return -1](#return--1)
 - [Informatie over een rij](#informatie-over-een-rij)
-  - [Zinnige beginwaarde](#zinnige-beginwaarde)
+- [Zinnige beginwaarde](#zinnige-beginwaarde)
 - [Waarden omwisselen](#waarden-omwisselen)
-  - [tmp](#tmp)
+- [tmp](#tmp)
 - [Informatie uit en over een rij van rijen](#informatie-uit-en-over-een-rij-van-rijen)
-  - [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
-  - [Size()](#size)
-  - [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
+- [Informatie uit een rij van rijen](#informatie-uit-een-rij-van-rijen)
+- [Size()](#size)
+- [Informatie over een rij van rijen](#informatie-over-een-rij-van-rijen)
 - [Andere design patterns](#andere-design-patterns)
-  - [Reductie](#reductie)
-  - [Recursie](#recursie)
-  - [Decorator pattern](#decorator-pattern)
 
 ---
 
@@ -45,7 +42,7 @@ vector of string) te halen of om informatie te berekenen over een rij heen.
 In deze gevallen weet je zeker dat je een for-loop nodig hebt. Afhankelijk van of je de
 informatie uit een rij wilt of over een rij wilt berekenen is het patroon net iets anders.
 
-### Informatie uit een rij
+## Informatie uit een rij
 
 Bij problemen in deze categorie ben je :
 
@@ -93,11 +90,11 @@ int main(){
 
 *Codevoorbeeld 9.1 - Informatie uit een rij 1*
 
-### Break
+## Break
 
 Als we een getal hebben gevonden dat groter is dan 5 is het niet meer nodig om de rest van de getallen te bekijken. We waren immers op zoek naar de index van het eerste getal groter dan 5. We stoppen daarom de for-loop met een break.
 
-### De gezochte informatie
+## De gezochte informatie
 
 We willen de gezochte informatie buiten de for-loop kunnen gebruiken. Hiervoor maken we voor de for-loop een variabele aan waarin we de informatie kunnen opslaan als we die gevonden hebben.
 In codevoorbeeld 9.1 is dat de variabele *index*. We geven deze variabele als startwaarde een gekke waarde (een index van -1 kan niet in C++).
@@ -141,13 +138,13 @@ int main(){
 
 *Codevoorbeeld 9.2 - Informatie uit een rij 2*
 
-### Return i
+## Return i
 
 Met return i geven we de gezochte informatie terug. Als een return wordt aangeroepen,
 dan stopt de functie gelijk en wordt de waarde teruggeven. Aangezien de functie gelijk
 stopt, stopt ook de for-loop direct.
 
-### Return -1
+## Return -1
 
 Wederom kan het zijn dat in de rij geen getal zit dat groter is dan 5. In dat geval wordt de hele for-loop doorlopen zonder dat er iets wordt gereturnd. Om aan de gebruiker duidelijk te maken dat we de gezochte informatie niet hebben gevonden geven we een gekke waarde terug: -1.
 
@@ -221,7 +218,7 @@ int main(){
 
 *Codevoorbeeld 9.4 - Een tel-functie*
 
-### Zinnige beginwaarde
+## Zinnige beginwaarde
 
 Het is belangrijk dat je de resultaat-variabele op een zinnige waarde laat starten. Bij de functie `count()` in *codevoorbeeld 9.4* zouden we het verkeerde resultaat krijgen als we de variabele count op regel 5 initialiseren met een waarde anders dan 0.
 
@@ -260,7 +257,7 @@ int main(){
 
 *Codevoorbeeld 9.5 - Swappen*
 
-### tmp
+## tmp
 
 De variabele tmp staat voor temporary. Dit is de gebruikelijke naamgeving voor een variabele die enkel dient als tussenvariabele.
 
@@ -268,7 +265,7 @@ De variabele tmp staat voor temporary. Dit is de gebruikelijke naamgeving voor e
 
 Gegevens worden vaak opgeslagen in een rij van rijen. In deze sectie bespreken we hoe je uit een rij van rijen informatie haalt of er informatie uit onttrekt.
 
-### Informatie uit een rij van rijen
+## Informatie uit een rij van rijen
 
 Voorbeelden van informatie uit een rij van rijen zijn:
 
@@ -322,13 +319,13 @@ int main(){
 
 *Codevoorbeeld 9.6 - Informatie uit een rij van rijen*
 
-### Size()
+## Size()
 
 In *codevoorbeeld 9.6* zien we dat in een rij van rijen, de rijen verschillende lengte kunnen
 hebben. Het is dus belangrijk dat we in de tweede for-loop echt de size opvragen van de juiste rij. In *codevoorbeeld 9.6* gebeurt dat met de code:
 `m[i].size()`.
 
-### Informatie over een rij van rijen
+## Informatie over een rij van rijen
 
 Het kan ook voorkomen dat we informatie willen hebben over een rij van rijen.
 Voorbeelden hiervan zijn:
@@ -392,11 +389,6 @@ int main(){
 
 ## Andere design patterns
 
-### [Reductie](../patronen/reductie/README.md)
-<!-- Er is een apart md-bestand met informatie over reductie -->
-
-### [Recursie](../patronen/recursie/README.md)
-<!-- Er is een apart md-bestand met informatie over recursie -->
-
-### [Decorator pattern](../patronen/decorator/README.md)
-<!-- Er is een apart md-bestand met informatie over het decorator pattern -->
+- [Reductie](reductie/README.md)
+- [Recursie](recursie/README.md)
+- [Decorator pattern](decorator/README.md)

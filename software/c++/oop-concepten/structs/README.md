@@ -69,7 +69,7 @@ Met een struct kun je:
   
 Een struct datatype is vrijwel gelijkwaardig aan de ingebouwde datatypen (int, float, etc.).
 
-Lees ook de [basisinformatie over het datatype struct](../data-types/struct/README.md).
+Lees ook de [basisinformatie over het datatype struct](../../data-types/struct/README.md).
 
 Het volgende code fragment laat zien hoe een line struct wordt gedefinieerd en gebruikt. Je ziet dat de print functie nog maar 1 parameter heeft. Het ‘lijn’ deel van de functienaam kunnen we nu ook weglaten, want de parameter *is* een lijn.
 Let op: onderstaande code kan nog verbeterd worden.

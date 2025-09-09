@@ -5,13 +5,13 @@
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Een introductie](#een-introductie)
-  - [Bus-systeem](#bus-systeem)
-  - [Serieel protocol](#serieel-protocol)
-  - [Parallel protocol](#parallel-protocol)
-  - [1-Wire](#1-wire)
-  - [Daisy chain topologie](#daisy-chain-topologie)
-  - [Ster topologie](#ster-topologie)
-  - [DS18B20 temperatuursensor](#ds18b20-temperatuursensor)
+- [Bus-systeem](#bus-systeem)
+- [Serieel protocol](#serieel-protocol)
+- [Parallel protocol](#parallel-protocol)
+- [1-Wire](#1-wire)
+- [Daisy chain topologie](#daisy-chain-topologie)
+- [Ster topologie](#ster-topologie)
+- [DS18B20 temperatuursensor](#ds18b20-temperatuursensor)
 - [De schakeling](#de-schakeling)
 - [Arduino voorbeeld code](#arduino-voorbeeld-code)
 - [Referenties](#referenties)
@@ -26,22 +26,22 @@
 
 1-Wire is een communicatieprotocol dat sterk lijkt op [I<sup>2</sup>C](../I2C/README.md) datacommunicatie. Er is echter minder dataoverdracht mogelijk bij een lagere snelheid. De afstand die overbrugt kan worden is echter wel groter. Deze vorm van communicatie zie je vaak terug in goedkope sensortoepassingen zoals het meten van temperatuur. Dit bussysteem is ontwikkeld door Dallas Semiconductor Corporation (later overgenomen door Maxim Integrated). Daarom spreken we ook wel van Dallas 1-Wire. 1-Wire gebruikt slechts een enkele lijn voor voeding en dataoverdracht.
 
-### Bus-systeem
+## Bus-systeem
 
 Een bus is in de computertechniek een manier om verschillende componenten in een computer of tussen computers op een standaard manier te verbinden. Een bus voldoet vaak aan een standaard.
 
-### Serieel protocol
+## Serieel protocol
 
 Een serieel protocol voor gegevensoverdracht stuurt alle bits aan informatie één voor één door. Omdat er minder signalen gelijktijdig worden verzonden is een goedkopere kabel mogelijk. Voor de komst van USB (universal serial bus) waren de meeste computers uitgerust met een seriele interface voor het aansluiten van randapparatuur zoals muis en toetsenbord.
 
-### Parallel protocol
+## Parallel protocol
 
 Bij parallelle communicatie worden er zoveel mogelijk bits gelijktijdig verzonden over een verzameling van kabels. Gegevensoverdracht is hoger, en complexer omdat data die over verschillende kabels gaan synchroon moeten blijven. Seriële communicatie is daardoor zeer populair gebleven. Ook omdat daar geen grote connectoren voor nodig zijn die ook nog eens makkelijk kunnen beschadigen.
 
     PCI-E
     PCI Express is een vorm van parallele communicatie. Daar heeft echter elke data lijn een eigen clock-signaal. Er kan dus over meerdere kabels informatie verzonden worden zonder dat er synchronisatie-issues ontstaan.
 
-### 1-Wire
+## 1-Wire
 
 1-Wire is een tweedraads bus-systeem. Er is een draad nodig voor de data communicatie en eventueel de voeding. Een andere draad wordt gebruikt als aarde. Elk component in een 1-Wire bus-systeem heeft een uniek 64 bit adresseerbaar adres (ROM id) om sensordata op te halen. In theorie kan je aan een 1-Wire netwerk meer dan honderd sensoren koppelen.
 
@@ -51,15 +51,15 @@ Er zijn twee mogelijke manieren om sensoren aan te sluiten. In 'Parasite' mode i
 
 Bij grote netwerken wordt een derde draad gebruikt voor het leveren van de voedingsspanning. Dit is de 'regular' of non-parasatic mode.
 
-### Daisy chain topologie
+## Daisy chain topologie
 
 Als je sensoren steeds aan elkaar doorverbindt, heb je een Daisy chain topologie. De sensoren staan als het ware in serie met elkaar.
 
-### Ster topologie
+## Ster topologie
 
 Zoals de naam al aangeeft zijn de sensoren bij een ster topologie met 1 centraal punt gekoppeld. De sensoren in het netwerk staan parallel verbonden met de centrale 1-Wire controller.
 
-### DS18B20 temperatuursensor
+## DS18B20 temperatuursensor
 
 Om temperatuur te meten kan je gebruik maken van DS18B20 temperatuursensor. Dit is een digitale sensor met een 1-Wire interface. De sensor komt in verschillende vormen. In dit voorbeeld maken we gebruik van een waterdichte variant.
 
@@ -111,5 +111,5 @@ void loop() {
 
 - 1-Wire (<https://en.wikipedia.org/wiki/1-Wire>)
 - DS18B20 datasheet van Analog Devices (<https://www.analog.com/en/products/ds18b20.html>), 
-  direct link to datasheet <https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>. (Link checked 09-08-2025.)
+  direct link to datasheet <https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>. (Link checked 09-08-2025.) <!-- markdown-link-check-disable-line -->
 - 1-Wire overview (<https://www.youtube.com/watch?v=lsikcaA7q-c>)

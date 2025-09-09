@@ -29,6 +29,6 @@
 
    Om dit te kunnen doen moet je print functies toevoegen aan alle klassen.
 
-   ### Opdracht OO1.4B Meubels klassendiagram
+### Opdracht OO1.4B Meubels klassendiagram
 
 5. Teken een **UML-diagram** met *stool*, *table* en *furniture*.

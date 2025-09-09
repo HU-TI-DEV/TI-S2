@@ -22,8 +22,9 @@ Het handige van de patterns is (behalve dat ze goed blijken te werken) dat je me
 
 [^59]: Voor de meeste professionals zijn dit de ’oer’ patterns die beschreven zijn in het boek “Design Patterns: Elements of Reusable Object-Oriented Software”.
 
-## [Introductie patterns](../README.md)
-<!-- Er is een apart md-bestand met informatie over patronen (patterns) -->
+## Introductie patterns
+
+[Zie graag hier.](../README.md)
 
 ## Decorator
 

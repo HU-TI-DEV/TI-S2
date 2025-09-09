@@ -273,4 +273,4 @@ int main(){
 #### Het uitvoeren van recursieve code
 
 Wat doet de computer eigenlijk als we onze code met recursie van codevoorbeeld 14.3 draaien?
-Wil je meer lezen over recursie lees dan sectie [Recursie](#recursie).
+Wil je meer lezen over recursie lees dan sectie [Recursie](../recursie/README.md).

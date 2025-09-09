@@ -3,15 +3,16 @@
 ## Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Reductie](#reductie)
-  - [Reductie in ons leven](#reductie-in-ons-leven)
-  - [Reductie in programmeren](#reductie-in-programmeren)
+- [Reductie in ons leven](#reductie-in-ons-leven)
+- [Reductie in programmeren](#reductie-in-programmeren)
 
-In de kunst van het programmeren gebruiken we meerdere patronen. Deze patronen helpen om (deel)oplossingen te herkennen, om structuur te brengen in grote lappen
-code en in nadenken over onze oplossingen. In [Patronen](#patronen) hebben we patronen
+In de kunst van het programmeren gebruiken we meerdere patronen. 
+
+Deze patronen helpen om (deel)oplossingen te herkennen, om structuur te brengen in grote lappen
+code en in nadenken over onze oplossingen. In [Patronen](../README.md) hebben we patronen
 besproken voor het werken met vectoren.
 
-In dit hoofdstuk gaan we het hebben over
-een patroon dat kan helpen in het nadenken over oplossingen: reductie.
+In dit hoofdstuk gaan we het hebben over een patroon dat kan helpen in het nadenken over oplossingen: reductie.
 
 ## Reductie
 
@@ -19,10 +20,9 @@ Programmeren is niet altijd makkelijk. Vooral niet als het einddoel heel groot i
 maken het onszelf makkelijker **als we grote problemen splitsen in kleinere deelproblemen**.
 Dit noemen we reductie.
 
-In deze sectie behandelen we reductie en hoe het ons
-kan helpen om bij een oplossing te komen.
+In deze sectie behandelen we reductie en hoe het ons kan helpen om bij een oplossing te komen.
 
-### Reductie in ons leven
+## Reductie in ons leven
 
 Reductie is een tactiek die we in ons leven dagelijks toepassen. Als we boodschappen willen gaan doen dan verwerken we niet in één keer het gehele probleem, maar splitsen het op in deelproblemen:
 
@@ -45,7 +45,7 @@ over kunnen laten**; bijvoorbeeld aan een taxi-chauffeur.
 We kunnen de functie dan misschien ook gebruiken voor als we gaan sporten:
 `reisNaar(sportschool)`.
 
-### Reductie in programmeren
+## Reductie in programmeren
 
 Met programmeren splitsen we onze problemen op in kleinere deelproblemen. Dit heb je al meerdere keren gedaan. Zo gebruiken we als we werken met vectoren de
 functie `.size()`(zie sectie Vector [Functies](#functies)).

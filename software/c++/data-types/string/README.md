@@ -2,14 +2,12 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Strings](#strings-)
-  - [Inhoud](#inhoud)
-  - [String](#string)
-  - [\[ \]](#-)
-  - [Literal string](#literal-string)
-  - [Aanhalingstekens](#aanhalingstekens)
-  - [Functies](#functies)
-    - [+](#)
+- [String](#string)
+- [Array en String index \[ \]](#array-en-string-index--)
+- [Literal string](#literal-string)
+- [Aanhalingstekens](#aanhalingstekens)
+- [Functies](#functies)
+- [operator+](#operator)
 
 Het datatype character, *char*, kan één karakter bevatten. Als we
 meerdere characters in één variabele willen opslaan kunnen we hiervoor in C++ het
@@ -37,11 +35,11 @@ int main() {
 
 *Codevoorbeeld 3.7 Strings*
 
-### String
+## String
 
 Met het sleutelwoord string geven we aan dat een variabele van het datatype string is.
 
-### [ ]
+## Array en String index [ ]
 
 Een string bestaat uit meerdere characters. Met vierkante haken ([ en ]) kunnen we een
 character van een bepaalde positie ophalen of aanpassen. Dit zien we in *codevoorbeeld
@@ -58,7 +56,7 @@ In C++ gebruik je enkel positieve indexen. Bij het gebruik van negatieve indexen
 krijg je geen error. Het programma zal de byte die toevallig op dat geheugenplekje
 staat, vertaald naar een character, gebruiken. Je programma zal dan onverwacht gedrag vertonen!
 
-### Literal string
+## Literal string
 
 Een variabele van het datatype string noemen we een string. Als we meerdere
 characters tegelijk in een string willen stoppen gebruiken we hiervoor dubbele aanhalingstekens
@@ -67,7 +65,7 @@ We noemen dit een *literal string*.
 In codevoorbeeld 3.7 zien we de
 string *building* en de literal string “Bank”.
 
-### Aanhalingstekens
+## Aanhalingstekens
 
 Let bij het gebruik van (literal) strings en chars (zie [char](../char/README.md)) goed op de aanhalingstekens.
 
@@ -138,9 +136,12 @@ int main() {
 
 *Codevoorbeeld 3.9 String +operator*
 
-### +
+## operator+
 
-De +operator kan in C++ worden gebruikt om twee strings aan elkaar te koppelen. Dit kunnen we zien in codevoorbeeld 3.9 bij de variabele *result1* (text + x).
+De +operator kan in C++ worden gebruikt om twee strings aan elkaar te koppelen.
+
+Dit kunnen we zien in codevoorbeeld 3.9 bij de variabele *result1* (text + x).
+
 Dit werkt echter niet als we twee literal strings tussen dubbele aanhalingstekens bij elkaar willen
 voegen. Hiervoor is de +operator niet gedefinieerd. Een oplossing hiervoor vinden we
 in codevoorbeeld 3.9 bij de variabele *result2* (en in codevoorbeeld 3.8, bij de variabele v).
