@@ -5,7 +5,7 @@
 # Voorbereiding
 
 - Zorg dat je **ruim te voren** LtSpice hebt **geinstalleerd** (het kan uren duren (misschien, althans een update zeker)):
-    <https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html>
+    <https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html><!-- markdown-link-check-disable-line -->
     
 - Zorg dat je een of meerdere **tutorials ervan hebt doorgenomen**  
     ( bijvoorbeeld: <https://www.youtube.com/watch?v=JRcyHuyb1V0> )

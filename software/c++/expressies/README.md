@@ -179,7 +179,7 @@ Net als rekenkundige expressies kennen logische expressies een berekeningsvolgor
 Vergelijkingsoperatoren ( `<` , `<=` , `>`, `>=`, `==` , `!=` ) gaan vóór combineeroperatoren
 (`&&`, `||` en `!`).
 
-De complete lijst van bewerkingsvolgorden staat op: http://en.cppreference.com/w/cpp/language/operator_precedence.
+De complete lijst van bewerkingsvolgorden staat op: <http://en.cppreference.com/w/cpp/language/operator_precedence.html>.
 
 Voor het bewerkstelligen van een andere berekeningsvolgorde kun je ronde haakjes ( ( en ) ) gebruiken.
 

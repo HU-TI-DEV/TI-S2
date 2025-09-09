@@ -46,4 +46,4 @@ Deze wordt hier niet behandeld, omdat gebruik ervan bijna altijd leidt tot minde
 > (Docent Hagen heeft daar een andere mening over. Als je die wil weten, vraag hem gerust.)
 
 Desondanks kunnen geïnteresseerden informatie hierover vinden op: 
-<http://en.cppreference.com/w/cpp/language/continue>.
+<http://en.cppreference.com/w/cpp/language/continue.html>.
