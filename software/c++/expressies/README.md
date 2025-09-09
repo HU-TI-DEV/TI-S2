@@ -1,19 +1,20 @@
 # Expressies[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
+
 - [Rekenkundige expressies](#rekenkundige-expressies)
   - [Bewerkingsvolgorde](#bewerkingsvolgorde)
   - [++ en --](#-en---)
 - [Logische expressies](#logische-expressies)
   - [Bewerkingsvolgorde](#bewerkingsvolgorde-1)
 
-
 C++ kent meerdere expressies om de data te bewerken en de stroom door het programma
 te sturen. In dit hoofdstuk kijken we naar rekenkundige expressies, logische
 expressies en de bewerkingsvolgorde van operatoren.
 
 ## Rekenkundige expressies
-Een rekenkundige expressie is opgebouwd uit operanden (waarden, variabelen) en operatoren (+;-;*;/). Een rekenkundige expressie berekent een getalswaarde. 
+
+Een rekenkundige expressie is opgebouwd uit operanden (waarden, variabelen) en operatoren (+;-;*;/). Een rekenkundige expressie berekent een getalswaarde.
 
 Codevoorbeelden 4.1, 4.2 en 4.3 laten meerdere rekenkundige expressies zien.
 
@@ -36,6 +37,7 @@ int main() {
     // c: G
 }
 ```
+
 *Codevoorbeeld 4.1 Rekenkundige expressies*
 
 ```cpp
@@ -55,11 +57,14 @@ int main() {
     // result2: 75
 }
 ```
+
 *Codevoorbeeld 4.2 Gecombineerde rekenkundige expressies*
 
 ### Bewerkingsvolgorde
-De berekening van een rekenkundige expressie is gebaseerd op de bewerkingsvolgorde van de operatoren. Zo gaat vermenigvuldigen vóór optellen. 
-De complete lijst van bewerkingsvolgorden kun je vinden op: http://en.cppreference.com/w/cpp/language/operator_precedence.
+
+De berekening van een rekenkundige expressie is gebaseerd op de bewerkingsvolgorde van de operatoren. Zo gaat vermenigvuldigen vóór optellen.
+De complete lijst van bewerkingsvolgorden kun je vinden op:
+<http://en.cppreference.com/w/cpp/language/operator_precedence.html>. <!-- markdown-link-check-disable-line -->
 
 Voor het bewerkstelligen
 van een andere berekeningsvolgorde worden ronde haakjes ( ( en ) ) gebruikt. Dit zien
@@ -81,9 +86,11 @@ int main() {
     // w: 2.5
 }
 ```
+
 *Codevoorbeeld 4.3 Rekenkundige expressies ++ en --*
 
 ### ++ en --
+
 In C++ is het mogelijk om een variabele met 1 te verhogen door middel van de operator ++. In codevoorbeeld 4.2 zien we dit bij variabele z.
 
 `z++;` betekent hetzelfde als `z += 1;`, wat weer gelijk is aan `z = z + 1;`. Een variabele met
@@ -97,15 +104,16 @@ variabele w.
 Logische expressies bevatten logische operatoren. Deze gebruiken we om condities
 en/of booleans met elkaar te combineren of te vergelijken. Onder logische operatoren
 vallen:
-- `&&` (en), 
-- `||` (of), 
-- `!` (niet), 
-- `<`(kleiner dan), 
-- `>` (groter dan), 
-- `<=` (kleiner of gelijk aan), 
-- `>=` (groter of gelijk aan), 
-- `==` (gelijk aan) en 
-- `!=` (niet gelijk aan). 
+
+- `&&` (en),
+- `||` (of),
+- `!` (niet),
+- `<`(kleiner dan),
+- `>` (groter dan),
+- `<=` (kleiner of gelijk aan),
+- `>=` (groter of gelijk aan),
+- `==` (gelijk aan) en
+- `!=` (niet gelijk aan).
 
 Een logische expressie levert als waarde *false* of *true* op. Codevoorbeelden 4.4, 4.5, 4.6 en 4.7 laten een aantal logische expressies zien.
 
@@ -123,6 +131,7 @@ int main(){
   // b: 0
 }
 ```
+
 *Codevoorbeeld 4.4 Logische expressies > en <=*
 
 ```cpp
@@ -140,6 +149,7 @@ int main(){
   // com2: 1
 }
 ```
+
 *Codevoorbeeld 4.5 Logische expressies && en ||*
 
 ```cpp
@@ -156,6 +166,7 @@ int main(){
   // z: 1
 }
 ```
+
 *Codevoorbeeld 4.6 Logische expressies !operator*
 
 ```cpp
@@ -172,14 +183,16 @@ int main(){
   // l: 0
 }
 ```
+
 *Codevoorbeeld 4.7 Logische expressies != en ==*
 
 ### Bewerkingsvolgorde
+
 Net als rekenkundige expressies kennen logische expressies een berekeningsvolgorde.
 Vergelijkingsoperatoren ( `<` , `<=` , `>`, `>=`, `==` , `!=` ) gaan vóór combineeroperatoren
 (`&&`, `||` en `!`).
 
-De complete lijst van bewerkingsvolgorden staat op: <http://en.cppreference.com/w/cpp/language/operator_precedence.html>.
+De complete lijst van bewerkingsvolgorden staat op:
+<http://en.cppreference.com/w/cpp/language/operator_precedence.html>. <!-- markdown-link-check-disable-line -->
 
 Voor het bewerkstelligen van een andere berekeningsvolgorde kun je ronde haakjes ( ( en ) ) gebruiken.
-

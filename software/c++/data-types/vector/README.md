@@ -161,7 +161,8 @@ we `size()`, `push_back()` en `pop_back()`. De functie `size()` geeft de lengte 
 vector terug. De functie `push_back()` voegt een element toe aan het einde van de
 vector. De functie `pop_back()` verwijdert het laatste element.
 
-De complete lijst met vector-functies staat op: <http://en.cppreference.com/w/cpp/container/vector.html>.
+De complete lijst met vector-functies staat op:
+<http://en.cppreference.com/w/cpp/container/vector.html>. <!-- markdown-link-check-disable-line -->
 
 ### Unsigned int
 
