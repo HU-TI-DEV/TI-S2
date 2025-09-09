@@ -110,6 +110,8 @@ void loop() {
 ## Referenties
 
 - 1-Wire (<https://en.wikipedia.org/wiki/1-Wire>)
-- DS18B20 datasheet van Analog Devices (<https://www.analog.com/en/products/ds18b20.html>), 
-  direct link to datasheet <https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>. (Link checked 09-08-2025.) <!-- markdown-link-check-disable-line -->
+- DS18B20 datasheet van Analog Devices
+  (<https://www.analog.com/en/products/ds18b20.html>), <!-- markdown-link-check-disable-line -->
+  direct link to datasheet
+  <https://www.analog.com/media/en/technical-documentation/data-sheets/DS18B20.pdf>. (Link checked 09-08-2025.) <!-- markdown-link-check-disable-line -->
 - 1-Wire overview (<https://www.youtube.com/watch?v=lsikcaA7q-c>)
