@@ -11,8 +11,7 @@
 - [Terminologie](#terminologie)
   - [Decorator voorbeeld: inverter](#decorator-voorbeeld-inverter)
   - [Decorator voorbeeld: pin\_out\_all](#decorator-voorbeeld-pin_out_all)
-- [Adapter pattern](#adapter-pattern)
-  - [Mirror decorator](#mirror-decorator)
+- [Zie ook](#zie-ook)
 
 ## Design patterns
 
@@ -203,6 +202,7 @@ int main( void ){
 
 *Codevoorbeeld 17-03 - Blink 4 LEDs in twee clusters*
 
-## [Adapter pattern](../adapter/README.md)
+## Zie ook
 
-### [Mirror decorator](../adapter/README.md#decorator-voorbeeld-window)
+- [Adapter pattern](../adapter/README.md)
+- [Mirror decorator](../adapter/README.md#decorator-voorbeeld-window)

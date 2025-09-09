@@ -19,7 +19,7 @@
 
 ### Inleiding
 
-Dit is een algmene instructie voor het installeren van Raspberry Pi OS op een Raspberry Pi 3 of hoger. 
+Dit is een algmene instructie voor het installeren van Raspberry Pi OS op een Raspberry Pi 3 of hoger.
 
 Voor deze installatie is gebruik gemaakt van de volgende hardware en software versies:
 
@@ -28,7 +28,7 @@ Voor deze installatie is gebruik gemaakt van de volgende hardware en software ve
 - Windows 10 Enterprise
 - Raspberry Pi OS (32-bit), released: 2023-05-03
 
-Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: https://www.raspberrypi.com/software/ <!-- markdown-link-check-disable-line -->
+Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: <https://www.raspberrypi.com/software/> <!-- markdown-link-check-disable-line -->
 
 ![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 
@@ -69,6 +69,7 @@ De Raspberry Pi 4 heeft geen hardware clock. Is er geen internet verbinding? Dan
 ### Sudo
 
 Je hebt voor de meeste configuratie en executie momenten sudo toegang nodig.
+
 ```bash
 sudo su
 ```
@@ -76,6 +77,7 @@ sudo su
 ### IP adres opvragen
 
 Om te controleren hoe je Raspberry Pi is verbonden gebruik het volgende commando.
+
 ```bash
 ip a
 ```
@@ -117,12 +119,14 @@ mkdir log
 ```
 
 Maak een bestand **mosquitto.conf** aan in de config directory.
+
 ```bash
 cd config
 nano mosquitto.conf
 ```
 
 Voeg de volgende inhoud toe.
+
 ```bash
 allow_anonymous true
 listener 1883
@@ -138,11 +142,9 @@ docker run --name mqtt -d --restart unless-stopped -it -p 1883:1883 -p 9001:9001
 
 Controleer de MQTT broker bijvoorbeeld met [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer).
 
-
 ### Visual coding
 
 Voor het visueel programmeren en het maken van Inernet of Things (IoT) toepassingen kan je gebruik maken van [NodeRed](../../../software/visueel-programmeren/Node-RED/README.md).
-
 
 ```bash
 cd ../
@@ -160,7 +162,8 @@ De grafische gebruikersinterface kan je nu met een browser bereiken op http://< 
 Maak een webinterface voor je IoT oplossing met [Flask](../../../software/webserver/Flask/README.md).
 
 ## Referenties
-- Raspberry Pi OS (<https://www.raspberrypi.com/software/>)
+
+- Raspberry Pi OS (<https://www.raspberrypi.com/software/>) <!-- markdown-link-check-disable-line -->
 - Raspberry Pi Foundation (<https://en.wikipedia.org/wiki/Raspberry_Pi_Foundation>)
 - Docker (<https://www.docker.com/>)
 - Postgres (<https://www.postgresql.org/>)

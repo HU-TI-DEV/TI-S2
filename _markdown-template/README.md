@@ -1,5 +1,7 @@
 ![logo](img/logo.svg) [](logo-id)
 
+<!-- markdown-link-check-disable -->
+
 # Markdown: Syntax [](title-id) <!-- omit in toc -->
 
 ### Table of contents [](toc-id) <!-- omit in toc -->
@@ -20,8 +22,9 @@
 - [Images](#images)
 - [Code and syntax highlighting](#code-and-syntax-highlighting)
 - [Tables](#tables)
-- [Style bold](#style-bold)
 - [Style italic](#style-italic)
+- [Style bold](#style-bold)
+- [Style bold italic](#style-bold-italic)
 - [Style strikethrough](#style-strikethrough)
 - [References](#references)
 
@@ -315,8 +318,6 @@ Use the `printf()` function.
 
 ## Links
 
-<!-- markdown-link-check-disable -->
-
     - [I'm an inline-style wiki-page link](Markdown Test Page)
     - [I'm an inline-style link](https://www.google.com)
     - [I'm a reference-style link][Arbitrary case-insensitive reference text]
@@ -431,13 +432,19 @@ Markdown | Less | Pretty
 | _Still_  | `renders` | **nicely** |
 | 1        | 2         | 3          |
 
-## Style bold
-
-Use double astrics for **bold text** `**bold text**`
-
 ## Style italic
 
-Use triple astrics for _**italic text**_ `***italic text***`
+Use single asterisks for *italic text* `*italic text*`
+
+Underscores work the same for _italic text_ `_italic text_`
+
+## Style bold
+
+Use double asterisks for **bold text** `**bold text**`
+
+## Style bold italic
+
+Use triple asterisks for ***bold italic text*** `***bold italic text***`
 
 ## Style strikethrough
 
@@ -445,6 +452,6 @@ Use double tilde for ~~strikethrough~~ `~~strikethrough~~`
 
 ## References
 
-- Markdown example taken from (<https://github.com/PavelLaptev/markdown-theme-shell/tree/master>)
-- Markdown cheat-sheet (<https://www.markdownguide.org/cheat-sheet/>)
-- Extended syntax (<https://www.markdownguide.org/extended-syntax/>)
+- Markdown example taken from <https://github.com/PavelLaptev/markdown-theme-shell/tree/master>
+- Markdown cheat-sheet <https://www.markdownguide.org/cheat-sheet/>
+- Extended syntax <https://www.markdownguide.org/extended-syntax/>

@@ -168,4 +168,4 @@ Via deze opdracht toon je een aantal capaciteiten aan. De onderstaande checklist
 
 ## Ter inspiratie
 
-[Arduino library repositories en aantekeningen](../library-voorbeelden.md).
+[Arduino library repositories en aantekeningen](./library-voorbeelden.md).

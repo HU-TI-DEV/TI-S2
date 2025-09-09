@@ -9,14 +9,15 @@
 
 ### Opdracht OO1.51 SFML window
 
-- Bestudeer de [SFML graphics library](https://www.sfml-dev.org/). Voor het installeren zijn verschillende mogelijkheden maar onderstaande werkt op Windows, voor Visual Studio Code:
+- Bestudeer de [SFML graphics library](https://www.sfml-dev.org/). <!-- markdown-link-check-disable-line -->
+  Voor het installeren zijn verschillende mogelijkheden maar onderstaande werkt op Windows, voor Visual Studio Code:
 
 [Installeer SFML met de packetmanager](../../../inrichten-ontwikkelomgeving/sfml_installatie.md)
 (dankzij Lia E.):
 
 ## Opdracht OO1.52 Rechthoek
 
-- Bestudeer de [SFML shapes library](https://www.sfml-dev.org/tutorials/2.6/graphics-shape.php).
+- Bestudeer de [SFML shapes library](https://www.sfml-dev.org/tutorials/2.6/graphics-shape.php). <!-- markdown-link-check-disable-line -->
 
 - Schrijf een programma dat een rechthoek in een window afbeeldt.
 

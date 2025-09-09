@@ -2,11 +2,11 @@
 
 ## Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Reductie](#reductie)
+- [Begrip](#begrip)
 - [Reductie in ons leven](#reductie-in-ons-leven)
 - [Reductie in programmeren](#reductie-in-programmeren)
 
-In de kunst van het programmeren gebruiken we meerdere patronen. 
+In de kunst van het programmeren gebruiken we meerdere patronen.
 
 Deze patronen helpen om (deel)oplossingen te herkennen, om structuur te brengen in grote lappen
 code en in nadenken over onze oplossingen. In [Patronen](../README.md) hebben we patronen
@@ -14,11 +14,12 @@ besproken voor het werken met vectoren.
 
 In dit hoofdstuk gaan we het hebben over een patroon dat kan helpen in het nadenken over oplossingen: reductie.
 
-## Reductie
+## Begrip
 
-Programmeren is niet altijd makkelijk. Vooral niet als het einddoel heel groot is. We
-maken het onszelf makkelijker **als we grote problemen splitsen in kleinere deelproblemen**.
-Dit noemen we reductie.
+Programmeren is niet altijd makkelijk. Vooral niet als het einddoel heel groot is.
+We maken het onszelf makkelijker **als we grote problemen splitsen in kleinere deelproblemen**.
+
+Dit noemen we *reductie*.
 
 In deze sectie behandelen we reductie en hoe het ons kan helpen om bij een oplossing te komen.
 
@@ -48,28 +49,30 @@ We kunnen de functie dan misschien ook gebruiken voor als we gaan sporten:
 ## Reductie in programmeren
 
 Met programmeren splitsen we onze problemen op in kleinere deelproblemen. Dit heb je al meerdere keren gedaan. Zo gebruiken we als we werken met vectoren de
-functie `.size()`(zie sectie Vector [Functies](#functies)).
+functie `.size()` (zie sectie [Vector > Functies](../../data-types/vector/README.md)).
 Met het gebruik van de size functie passen we reductie toe.
 
 - In de oplossing die we aan het maken zijn hebben we de lengte van de vector nodig (deelprobleem).
-- We weten dat we die kunnen krijgen door middel van de
-`.size()`-functie.
+- We weten dat we die kunnen krijgen door middel van de `.size()`-functie.
 - We denken niet na over de implementatie van de `.size()`-functie; enkel over wat hij teruggeeft.
 - We nemen aan dat de functie goed werkt!
 
 De `.size()`-functie is een functie gegeven bij een library in C++, maar we kunnen natuurlijk ook zelf functies schrijven.
+
 In *codevoorbeeld 14.1.1* zien we een oplossing
 voor het grote probleem van **het tellen van hoe vaak het hoogste cijfer voor een tentamen gehaald is**. Hierbij is het probleem gesplitst in meerdere deelproblemen/oplossingen/functies. Dit maakt het makkelijker om over de oplossing na te denken. Daarnaast is het voordeel dat we nieuwe functies `maxValue()` en `countValue()` kunnen hergebruiken voor andere problemen.
 
 De functie `maxValue()` kunnen we bijvoorbeeld hergebruiken voor het berekenen van
-hoeveel goedkoper onze winkel een product aanbiedt dan de duurste concurrent. Dit heeft als deelproblemen:
+hoeveel goedkoper onze winkel een product aanbiedt dan de duurste concurrent.
+
+Dit heeft als deelproblemen:
 
 - vind de prijzen van de concurrenten,
-- bepaal de hoogste prijs bij de
-concurrenten,
+- bepaal de hoogste prijs bij de concurrenten,
 - vind de winkelprijs,
 - bepaal het verschil tussen winkelprijs en hoogste prijs bij de concurrenten.
-Voor het bepalen van de hoogste prijs zou de functie maxValue() hergebruikt kunnen worden.
+
+Voor het bepalen van de hoogste prijs zou de functie `maxValue()` hergebruikt kunnen worden.
 
 Programmeren wordt wel eens de kunst van het reduceren genoemd.
 
