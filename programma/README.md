@@ -99,16 +99,16 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**)|
-| do  | **1e Peilmoment**  |
+| di  | Project & Voorbereiden lesstof van wo. en do. (HS & TM) |
+| wo  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**BB**)|
+| do  | C++ Feedback (**GP**) en vanaf 11.00 uur Peilmoment check (**TM**) **1e Peilmoment**  |
 
 ### Onderwijsweek A6 (06-10-2025)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Project & Voorbereiden lesstof van wo. en do. (HS & TM) |
 | wo  | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 
