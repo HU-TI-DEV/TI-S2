@@ -176,7 +176,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | geen les |
+| wo  | geen les & zelfstandige werken aan opdrachten |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek B5 (08-12-2025)
