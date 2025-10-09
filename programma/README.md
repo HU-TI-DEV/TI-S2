@@ -116,8 +116,8 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| ma  | project werk & Voorbereiden lesstof van wo. en do. (HS) |
+| di  | project werk & Voorbereiden lesstof van wo. en do. (HS) |
 | wo  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
