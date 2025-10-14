@@ -129,8 +129,8 @@ Herfstvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| ma  | Voorbereiden lesstof van wo. en do. (TM & HS) |
+| di  | Project (TM)|
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**)  |
 
