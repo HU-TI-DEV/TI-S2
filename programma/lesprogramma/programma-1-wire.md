@@ -9,6 +9,8 @@
 
 Lees over [communicatie](../../hardware-interfacing/communicatie/README.md) het onderdeel [1-Wire](../../hardware-interfacing/communicatie/1-wire/README.md).
 
+Kijk deze video van Maxim: [1-Wire® Technology Overview - Part 1](https://www.youtube.com/watch?v=lsikcaA7q-c)
+
 ## Tijdens en na de les
 
 Maak je met behulp van de DS18B20 temperatuur sensor een 1-Wire verbinding met je Arduino Uno. Tip: Soldeer pinnen op de draad van de sonsor zodat je deze makkelijk kunt gebruiken (waarschijnlijk al gedaan door de docent). We gebruiken in het [voorbeeld](../../hardware-interfacing/communicatie/1-wire/README.md#de-schakeling) een opstelling met drie draden. Het kan ook met twee. Wat is het nadeel daarvan?
