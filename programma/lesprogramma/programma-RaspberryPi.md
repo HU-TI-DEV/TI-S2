@@ -6,7 +6,7 @@ Kennismaking met het installeren van een besturingssysteem.
 
 De komende periode maken we gebruik van een Raspberry Pi singleboardcomputer om een aantal IoT sofwarecomponenten te hosten. Ter voorbereiding kan je [Raspberry Pi OS installeren](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) met de Raspberry Pi imager. Voeg tijdens de installatie ssh toe en iotroam WiFi.
 
-Op basis van de MAC-adressen hebben alle Raspberry Pi 4 devices een mogelijkheid om van het iotroam WiFi netwerk gebruik te kunnen maken. Voor ieder team is er één Raspberry Pi 4 beschikbaar voor het project. Jullie zijn zelf verantwoordelijk voor deze hardware [https://canvas.hu.nl/courses/44719/pages/raspberry-pi](https://canvas.hu.nl/courses/44719/pages/raspberry-pi).
+Op basis van de MAC-adressen hebben alle Raspberry Pi 4 devices een mogelijkheid om van het iotroam WiFi netwerk gebruik te kunnen maken. Voor ieder team is er één Raspberry Pi 4 beschikbaar voor het project. Jullie zijn zelf verantwoordelijk voor deze hardware.
 
 ## Na de les
 
