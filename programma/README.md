@@ -157,7 +157,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**)|
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Project (TM) |
 | wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
 
