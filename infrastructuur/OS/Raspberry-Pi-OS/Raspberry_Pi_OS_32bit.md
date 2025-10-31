@@ -13,26 +13,26 @@
 
 ---
 
-**v0.1.1 [](version-id)** Start document voor Raspberry Pi en installatie instructies door HU IICT[](author-id). Switched to 64 bit OS.
+**v0.1.0 [](version-id)** Start document voor Raspberry Pi en installatie instructies door HU IICT[](author-id).
 
 ---
 
 ### Inleiding
 
-Dit is een algmene instructie voor het installeren van Raspberry Pi OS op een Raspberry Pi 4. De installatie van de [32-bit versie is ook nog beschikbaar](Raspberry_Pi_OS_32bit.md) bijvoorbeeld als je een oudere versie van de Raspberry Pi hebt.
+Dit is een algmene instructie voor het installeren van Raspberry Pi OS op een Raspberry Pi 3 of hoger.
 
 Voor deze installatie is gebruik gemaakt van de volgende hardware en software versies:
 
 - Raspberry Pi 4 Model B
-- Raspberry Pi Imager 1.9.6
-- Windows 11 Enterprise
-- Raspberry Pi OS (64-bit), released: 
+- Raspberry Pi Imager 1.7.5
+- Windows 10 Enterprise
+- Raspberry Pi OS (32-bit), released: 2023-05-03
 
 Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: <https://www.raspberrypi.com/software/> <!-- markdown-link-check-disable-line -->
 
-![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager_v196.png)
+![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
 
-Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je een custom configuratie wil toepassen. Je kunt dan vooraf wifi gegeven, gebruiksnaam/wachtwoord (tabblad Algemeen) en ssh activeren (tabblad Services). Wifi credentials voor Iotroam voor je specifieke device ontvang je van je docent (toegang gaat op basis van MAC filtering). Kies na het instellen op opslaan. Antwoord JA op de vraag "Wilt u uw eigen instellingen op het OS toepassen?".
+Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je custom configuratie wil toepassen. Je kunt dan vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
 
 ### ssh verbinding
 
@@ -41,33 +41,6 @@ Maak met ssh verbinding met je Raspberry Pi.
 **ssh < user >@< hostname or ip >**
 
 ![ssh](../Raspberry-Pi-OS/img/ssh.png)
-
-### Aanpassen locale
-
-Ik ontvang een waarschuwing over een `invalid locale`. Daarom voer ik uit: `sudo dpkg-reconfigure locales`. En selecteer en_GB.UTF-8, en_US.UTF-8, nl_NL.UTF-8 en zet de default locale op nl_NL.UTF-8. Ik herlaad de locales met `sudo update-locale LANG=nl_NL.UTF-8` en reboot.
-
-Ik krijg nog de volgende waarschuwing bij het inloggen. "-bash: waarschuwing: setlocale(): LC_CTYPE: kan niet van taalregio veranderen (UTF-8): Bestand of map bestaat niet".
-
-Ik zet de systeem defaults (alle gebruikers):
-
-```bash
-sudo update-locale LANG=nl_NL.UTF-8 LC_CTYPE=nl_NL.UTF-8
-cat /etc/default/locale
-```
-
-Ik stop de ssh verbinding.
-
-```bash
-exit
-```
-
-Maak een nieuwe verbinding.
-
-```
-locale
-```
-
-Nu lijkt het goed te staan en krijg ook geen waarschuwing bij het opstarten van de shell.
 
 ### Update systeem
 
