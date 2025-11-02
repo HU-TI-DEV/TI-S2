@@ -30,11 +30,13 @@ With Docker you can compartmentalise an individual application based on their de
 curl -sSL https://get.docker.com | sh
 ```
 
+Dat is alles. Na de installatie ben je klaar om je eerste Docker container op te starten.
+
 ## Docker parameters
 
 Je kunt een docker opstarten met verschillende parameters. Onderstaand een voorbeeld van een opstart-configuratie van een Docker voor een PostgreSQL database.
 
-Voorbeeld:
+Onderstaand een voorbeeld voor het opstarten van een Postgres SQL database dat je eerder hebt gezien tijdens de [Raspberry Pi OS installatie](../OS/Raspberry-Pi-OS/README.md).
 
 ```bash
 sudo docker run --name postgres -d --restart unless-stopped -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v ${PWD}/data:/var/lib/postgresql/data postgres:16
