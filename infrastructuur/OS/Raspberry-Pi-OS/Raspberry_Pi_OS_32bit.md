@@ -30,7 +30,7 @@ Voor deze installatie is gebruik gemaakt van de volgende hardware en software ve
 
 Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: <https://www.raspberrypi.com/software/> <!-- markdown-link-check-disable-line -->
 
-![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager.png)
+![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry_Pi_Imager.png)
 
 Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je custom configuratie wil toepassen. Je kunt dan vooraf ssh activeren, een gebruiker aanmaken en wifi credentials opgeven.
 

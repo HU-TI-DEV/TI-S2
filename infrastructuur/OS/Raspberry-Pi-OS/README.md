@@ -30,7 +30,7 @@ Voor deze installatie is gebruik gemaakt van de volgende hardware en software ve
 
 Voor een nieuwe installatie van Raspberry Pi OS op je Raspberry Pi kan je gebruik maken van de Windows Raspberry Pi Imager: <https://www.raspberrypi.com/software/> <!-- markdown-link-check-disable-line -->
 
-![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry%20Pi%20Imager_v196.png)
+![Raspberry Pi Imager](../Raspberry-Pi-OS/img/Raspberry_Pi_Imager_v196.png)
 
 Download en installeer de image op een microSD kaart. Voor het schrijven vraag de software nog of je een custom configuratie wil toepassen. Je kunt dan vooraf wifi gegeven, gebruiksnaam/wachtwoord (tabblad Algemeen) en ssh activeren (tabblad Services). Wifi credentials voor Iotroam voor je specifieke device ontvang je van je docent (toegang gaat op basis van MAC filtering). Kies na het instellen op opslaan. Antwoord JA op de vraag "Wilt u uw eigen instellingen op het OS toepassen?".
 
@@ -40,7 +40,7 @@ Maak met ssh verbinding met je Raspberry Pi.
 
 **ssh < user >@< hostname or ip >**
 
-![ssh](../Raspberry-Pi-OS/img/ssh.png)
+![ssh](../Raspberry-Pi-OS/img/ssh32bit.png)
 
 ### Aanpassen locale
 
@@ -63,11 +63,19 @@ exit
 
 Maak een nieuwe verbinding.
 
-```
+```bash
 locale
 ```
 
 Nu lijkt het goed te staan en krijg ook geen waarschuwing bij het opstarten van de shell.
+
+Ik controleer de instellingen met:
+
+```bash
+timedatectl status
+```
+
+![timedatectl](./img/timedatectl.png)
 
 ### Update systeem
 
@@ -111,7 +119,7 @@ ip a
 
 ## Docker containers
 
-De Raspberry Pi 4 is de centrale hub voor het verwerken van sensor gegevens. Om efficient verschillende applicaties te installeren en te beheren gaan we gebruik maken van [Docker containers](../../Docker/README.md). Installeer Docker en Docker Compose om de volgende applicaties te installeren.
+De Raspberry Pi 4 is de centrale hub voor het verwerken van sensor gegevens. Om efficient verschillende applicaties te installeren en te beheren gaan we gebruik maken van [Docker containers](../../Docker/README.md). Installeer eerst Docker en Docker Compose om vervolgens de volgende applicaties te installeren.
 
 ### Data opslag
 
