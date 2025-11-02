@@ -69,14 +69,6 @@ locale
 
 Nu lijkt het goed te staan en krijg ook geen waarschuwing bij het opstarten van de shell.
 
-Ik controleer de instellingen met:
-
-```bash
-timedatectl status
-```
-
-![timedatectl](./img/timedatectl.png)
-
 ### Update systeem
 
 Voordat je verder gaat. Zorg dat je systeem up-to-date is:
@@ -98,6 +90,8 @@ Contreel datum, tijd en tijdzone.
 ```bash
 timedatectl status
 ```
+
+![timedatectl](./img/timedatectl.png)
 
 De Raspberry Pi 4 heeft geen hardware clock. Is er geen internet verbinding? Dan kan er geen tijdsynchronisatie plaatsvinden. Overweeg de installatie van een Real Time Clock (RTC).
 
@@ -126,14 +120,25 @@ De Raspberry Pi 4 is de centrale hub voor het verwerken van sensor gegevens. Om 
 Sensor data wil je opslaan om historische gegevens te kunnen opvragen en trends te kunnen ontdekken. Voor data opslag maken we gebruik van PostgreSQL. Maak eerst een folder voor dataopslag.
 
 ```bash
+cd Documents
 mkdir data
 ```
 
 Start een docker container. Uiteraard niet met de volgende parameters. Pas de [parameters](../../Docker/README.md) aan voor je eigen project.
 
 ```bash
+sudo su
 docker run --name postgres -d --restart unless-stopped -p 5432:5432 -e POSTGRES_PASSWORD=123456 -v ${PWD}/data:/var/lib/postgresql/data postgres:16
 ```
+
+Controleer of het proces is gestart.
+
+```bash
+docker ps
+```
+
+De container is gestrart.
+![container](./img/container.png)
 
 Controlleer de database verbinding bijvoorbeeld met SQL shell (psql) of pgAdmin.
 
@@ -143,14 +148,12 @@ Controlleer de database verbinding bijvoorbeeld met SQL shell (psql) of pgAdmin.
 
 Om berichten uit te wisselen maken we gebruik van [MQTT](../../../software/communicatie/MQTT/README.md). Mosquitto is daar een veel gebruikte broker voor.
 
-Maak eerst de volgende folders aan.
+Maak eerst de volgende folders aan (in je Documents root).
 
 ```bash
 mkdir mosquitto
 cd mosquitto
-mkdir config
-mkdir data
-mkdir log
+mkdir config data log
 ```
 
 Maak een bestand **mosquitto.conf** aan in de config directory.
@@ -169,6 +172,8 @@ persistence true
 persistence_location /mosquitto/data/
 log_dest file /mosquitto/log/mosquitto.log
 ```
+
+Type cntrl-Q en dan J (Ja) en dan enter.
 
 ```bash
 cd ../
