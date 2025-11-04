@@ -2,20 +2,19 @@
 
 - Docker & Docker containers
 - Operating Systems & Raspberry Pi OS
+- Postgres SQL en Node-Red
 
 ## Voorbereiding
 
-Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) en de inleiding van [Docker containers](../../infrastructuur/Docker/README.md).
+In de vorige les hebben wen een OS op de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) geinstalleerd en heb je kennis gemaakt met [Docker containers](../../infrastructuur/Docker/README.md). Per team is er een centrale Raspberry Pi voor het ontvangen, opslaan en visualiseren van sensor-data.
 
 ## Dit hebben we in een vorige les gedaan
 
-Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi. Zorg dat deze toegang heeft tot iotroam en maak toegang via ssh mogelijk. 
+Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi. Zorg dat de Raspberry Pi toegang heeft tot iotroam en benaderbaar is met ssh. 
 
-    Maak eventueel gebruik van Eduroam als iotroam problemen geeft.
+Iotroam
 
-## Iotroam
-
-Onze voorkeur heeft dat je gebruik maakt van iotroam. Dit wifi netwerk is speciaal geschikt gemaakt voor dit soort type devices en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam.
+Iotroam is een wifi netwerk is speciaal geschikt voor dit type apparaten en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam of een eigen hotspot.
 
 Tip! Vanaf Windows 11 is het mogelijk om gebruik te maken van Random Hardware Addresses. Dan werkt uiteraard de MAC filtering op het wifi netwerk niet. Zie onderstaand hoe je deze functionaliteit uit kunt zetten.
 
@@ -27,12 +26,8 @@ Gebruik dit script en de LCD opstelling om het IP adres van de Raspberry Pi te a
 
 Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
-Opdracht: Post een bericht (publish) met Mosquitto op een centrale MQQT browser die we tijdelijk configureren voor deze les. Ieder team zorgt er **in de les** daarnaast voor dat er data van een sensor uit jullie project op een topic komt te staan. Gebruik de eerder lesstof met betrekking tot [UART](../../hardware-interfacing/communicatie/UART/README.md) om de data naar je Raspberry Pi te versturen. Maak als team een verslag en plaatst dit op jullie groeps-repository.
+Opdracht: Configureer Meshtastic zodat deze werkt met de door jullie gehoste MQTT server. Visualseer met Node-RED data van de BME280 sensor die is aangesloten op een van jullie nodes.
 
 ## Portfolio-Tip
 
-De komende dagen verzinnen en maken jullie zelf een oplossing met behulp van bovenstaande software paketten. Bijvoorbeeld:
-- Het opslaan van weergegevens uit een weer API in een database.
-- Meten van temperatuur en opslag van deze data in een database.
-- Het tonen van metingen in je project op een Flask webpagina.
-- Het publiceren van temperatuur-, rv- (relatieve luchtvochtigheid), CO2 of fijnstof metingen op een MQTT server. 
+Maak een verslag van de werkzaamheden. Vergeet geen beeldmateriaal te maken. Denk vast na over een data format voor de nog te configureren sensoren die jullie gaan aansluiten.
