@@ -6,7 +6,7 @@
 
 ## Voorbereiding
 
-In de vorige les hebben wen een OS op de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) geinstalleerd en heb je kennis gemaakt met [Docker containers](../../infrastructuur/Docker/README.md). Per team is er een centrale Raspberry Pi voor het ontvangen, opslaan en visualiseren van sensor-data.
+In de vorige les hebben we een OS op de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) geinstalleerd en hebben jullie kennis gemaakt met [Docker containers](../../infrastructuur/Docker/README.md). Per team is er een centrale Raspberry Pi voor het ontvangen, opslaan en visualiseren van sensor-data.
 
 ## Dit hebben we in een vorige les gedaan
 
@@ -20,7 +20,7 @@ Tip! Vanaf Windows 11 is het mogelijk om gebruik te maken van Random Hardware Ad
 
 ![Random Hardware Addresses](./images/random_hardware_adresses.png)
 
-Gebruik dit script en de LCD opstelling om het IP adres van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
+Gebruik eventueel dit script en de LCD opstelling om het IP adres van de Raspberry Pi te achterhalen [RaspberryPI - Show IP and Time on LCD on startup](https://github.com/RickMageddon/RaspberryPI-LCD-IPonStartup). Je kunt ook verbinding maken met de hostnaam van je device mits deze uniek is. 
 
 ## Tijdens de les
 
