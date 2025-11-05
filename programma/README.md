@@ -148,7 +148,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**)   |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Voorbereiden lesstof (TM) |
 | wo  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003|
 | do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 
