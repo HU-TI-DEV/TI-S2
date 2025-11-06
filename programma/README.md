@@ -167,7 +167,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | [Doxygen](../software/c++/oop-concepten/doxygen/README.md),  Herhaling [klassen](../software/c++/oop-concepten/klassen/README.md); [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
+| wo  | Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 
 ### Onderwijsweek B4 (01-12-2025)
@@ -185,7 +185,7 @@ Herfstvakantie
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
 | di  | Voorbereiden lesstof van wo. en do. (HS) |
-| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), [Unit tests](https://github.com/HU-TI-DEV/TI-S2/blob/main/software/c%2B%2B/oop-concepten/unit-tests/README.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
+| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
 ### Onderwijsweek B6 (15-12-2025)
