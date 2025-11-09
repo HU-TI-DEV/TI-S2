@@ -26,8 +26,8 @@ Gebruik eventueel dit script en de LCD opstelling om het IP adres van de Raspber
 
 Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
-Opdracht: Configureer Meshtastic zodat deze werkt met de door jullie gehoste MQTT server. Visualseer met Node-RED data van de BME280 sensor die is aangesloten op een van jullie nodes.
+Opdracht: Configureer Meshtastic zodat deze werkt met de door jullie gehoste MQTT server. Visualseer met Node-RED data van de BME280 sensor die is aangesloten op één van jullie nodes.
 
 ## Portfolio-Tip
 
-Maak een verslag van de werkzaamheden. Vergeet geen beeldmateriaal te maken. Denk vast na over een data format voor de nog te configureren sensoren die jullie gaan aansluiten.
+Maak een verslag van de werkzaamheden. Vergeet geen beeldmateriaal te maken. Laat MQTT dataverkeer zien met bijvoorbeeld MQTT Explorer. Laat een actuele grafiek zien van temperatuur en luchtvochtigheid. Denk vast na over een data format voor de nog te configureren sensoren die jullie gaan aansluiten.
