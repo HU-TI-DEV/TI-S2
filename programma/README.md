@@ -168,14 +168,14 @@ Herfstvakantie
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Project (TM) |
 | wo  | Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
-| do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
+| do  | **3de Peilmoment**  Werken aan het project |
 
 ### Onderwijsweek B4 (01-12-2025)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Project (TM) |
+| di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (TM) |
 | wo  | geen les & zelfstandige werken aan opdrachten |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
