@@ -175,7 +175,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Project (TM) |
 | wo  | geen les & zelfstandige werken aan opdrachten |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
@@ -184,7 +184,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Voorbereiden lesstof van wo. en do. (HS) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Project (TM) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
