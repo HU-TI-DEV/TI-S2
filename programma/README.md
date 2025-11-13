@@ -166,7 +166,7 @@ Herfstvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
-| di  | Voorbereiden lesstof van wo. en do. (HS) |
+| di  | Project (TM) |
 | wo  | Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment** [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**MV**) |
 
