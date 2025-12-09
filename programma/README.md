@@ -211,8 +211,8 @@ vakantie
 | --- |  --- |
 | ma  ||
 | di  ||
-| wo  ||
-| do  | **4e Peilmoment**  |
+| wo  | Library Assessments (**GP**, **HP**) |
+| do  | Demo-ochtend, **4e Peilmoment**  |
 
 ### Onderwijsweek B10 (12-01-2026)
 
