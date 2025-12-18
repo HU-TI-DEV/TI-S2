@@ -209,8 +209,8 @@ vakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  ||
-| di  ||
+| ma  | Zelfstandig werken aan project |
+| di  | Zelfstandig werken aan project |
 | wo  | Library Assessments (**GP**, **HP**) |
 | do  | Demo-ochtend, **4e Peilmoment**  |
 
