@@ -211,12 +211,16 @@ vakantie
 | --- |  --- |
 | ma  | Zelfstandig werken aan project |
 | di  | Zelfstandig werken aan project |
-| wo  | Library Assessments (**GP**, **HP**) |
+| wo  | Gewijzigd! Zelfstandig werken aan project |
 | do  | Demo-ochtend, **4e Peilmoment**  |
 
 ### Onderwijsweek B10 (12-01-2026)
 
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| wo  | Gewijzigd! Library Assessments (**GP**, **HP**)  |
+
 
 ### Onderwijsweek B11 (19-01-2026)
 
