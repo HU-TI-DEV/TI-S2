@@ -211,7 +211,7 @@ vakantie
 | --- |  --- |
 | ma  | Zelfstandig werken aan project |
 | di  | Zelfstandig werken aan project |
-| wo  | Gewijzigd! Zelfstandig werken aan project |
+| wo  | Gewijzigd! Zelfstandig werken aan project, online begeleiding (**GP**) |
 | do  | Demo-ochtend, **4e Peilmoment**  |
 
 ### Onderwijsweek B10 (12-01-2026)
