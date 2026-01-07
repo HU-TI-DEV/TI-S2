@@ -212,7 +212,7 @@ vakantie
 | ma  | Zelfstandig werken aan project |
 | di  | Zelfstandig werken aan project |
 | wo  | Gewijzigd! Zelfstandig werken aan project, online begeleiding (**GP**) |
-| do  | Demo-ochtend, **4e Peilmoment**  |
+| do  | **4e Peilmoment**  |
 
 ### Onderwijsweek B10 (12-01-2026)
 
@@ -220,6 +220,7 @@ De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | wo  | Gewijzigd! Library Assessments (**GP**, **HP**)  |
+| do  | 14.00 - 15.00 uur Project Demonstratie HL15-4.060 |
 
 
 ### Onderwijsweek B11 (19-01-2026)
