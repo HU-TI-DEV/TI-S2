@@ -22,7 +22,6 @@ Het schema van deze dag is als volgt <nog in ontwerp>:
 - 9.00 – 11.00 uur genodigde en andere belangstellende 
 - 11.00 – 12.00 uur opruimen en afbouwen
 
-
 ## Na de les
 
 Ruim je spullen netjes op. Stel je persoonlijke zaken veilig zoals zelf gemaakte 3D prints. Demonteer jullie project zo goed mogelijk. Alles wat niet stuk is willen we weer voor het volgende semester gebruiken.
