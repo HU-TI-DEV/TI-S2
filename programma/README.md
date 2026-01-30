@@ -106,7 +106,7 @@ Krokusvakantie
 | ma  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) |
 | di  | Peilmoment check (**TM & HS**)|
 | wo  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**)|
-| do  | **1e Peilmoment** & C++ Feedback (**GP & NG**)    |
+| do  | **1e Peilmoment** & C++ Feedback (**GP & NG**) |
 
 ### Onderwijsweek C8 (23-03-2026)
 
@@ -122,7 +122,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | LoRa. Device configuratie. (**HS**) |
-| di  | |
+| di  | LoRa. Data verzenden en ontvangen. (**HS**) |
 | wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | [C++ structs](../software/c++/data-types/struct/README.md) en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
@@ -140,7 +140,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**)|
-| di  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
+| di  | LoRa. Data verzenden en ontvangen. (**HS**) |
 | wo  | [UART](./lesprogramma/programma-uart.md) (**HP**)|
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
@@ -148,10 +148,10 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Data verzenden en ontvangen. (**HS**) |
-| di  | LoRa. Data verzenden en ontvangen. (**HS**) |
-| wo  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003|
-| do  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
+| ma  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**)|
+| di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
+| wo  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
+| do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**)|
 
 ### Onderwijsweek D3 (27-04-2026)
 
@@ -172,7 +172,7 @@ Meivakantie
 | --- |  --- |
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Werken aan project (**TM**) |
-| wo  | Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
+| wo  | C++ Feedback (**GP & NG**) & Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment**  & Werken aan het project (**TM**) |
 
 ### Onderwijsweek D6 (18-05-2026)
@@ -181,7 +181,7 @@ Meivakantie
 | --- |  --- |
 | ma  | LoRa. Data van een sensor verzenden en ontvangen. (**HS**) |
 | di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) |
-| wo  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
+| wo  | C++ Feedback (**GP & NG**) & [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek D7 (25-05-2026)
@@ -191,7 +191,7 @@ Meivakantie
 | ma  | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
 | di  | Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
-| do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
+| do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
 ### Onderwijsweek D8 (1-06-2026)
 
