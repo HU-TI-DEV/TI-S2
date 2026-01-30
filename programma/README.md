@@ -26,8 +26,8 @@
   - [Onderwijsweek D8 (1-06-2026)](#onderwijsweek-d8-1-06-2026)
   - [Onderwijsweek D9 (8-06-2026)](#onderwijsweek-d9-8-06-2026)
   - [Afrondingsweek D11 (22-06-2026)](#afrondingsweek-d11-22-06-2026)
-  - [Onderwijsweek E1 (29-06-2026)](#onderwijsweek-e1-29-06-2026)
-  - [Onderwijsweek E2 (6-07-2026)](#onderwijsweek-e2-6-07-2026)
+  - [Verbeterweek E1 (29-06-2026)](#verbeterweek-e1-29-06-2026)
+  - [Verbeterweek E2 (6-07-2026)](#verbeterweek-e2-6-07-2026)
 
 ---
 
@@ -114,7 +114,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
 | di  | |
-| wo  | [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
+| wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 
 ### Onderwijsweek C9 (30-03-2026)
@@ -124,7 +124,7 @@ Krokusvakantie
 | ma  | LoRa. Device configuratie. (**HS**) |
 | di  | |
 | wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
-| do  | [C++ structs (1)](../software/c++/data-types/struct/README.md), [structs (2)](../software/c++/oop-concepten/structs/README.md)  en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
+| do  | [C++ structs](../software/c++/data-types/struct/README.md) en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
 ### Onderwijsweek C10 (6-04-2026)
 
@@ -180,7 +180,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | LoRa. Data van een sensor verzenden en ontvangen. (**HS**) |
-| di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (TM) |
+| di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) |
 | wo  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
@@ -189,7 +189,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| di  | Werken aan project (TM) |
+| di  | Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
 
@@ -198,7 +198,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
-| di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)  [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 2 (**HS**)|
+| di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
 | do  | Werken aan eigen library (**GP & NG**)|
 
@@ -215,14 +215,10 @@ Meivakantie
 
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-### Onderwijsweek E1 (29-06-2026)
+### Verbeterweek E1 (29-06-2026)
 
-Verbeterweek 1
+De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
-Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+### Verbeterweek E2 (6-07-2026)
 
-### Onderwijsweek E2 (6-07-2026)
-
-Verbeterweek 2
-
-Week B11 en B12 zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
