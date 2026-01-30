@@ -50,7 +50,7 @@ De contacturen zijn:
 
 De docenten zijn:
 
-- (**TM**) Teun Pieter Moddermann
+- (**TM**) Teun Pieter Modderman
 - (**GP**) Gera Pronk
 - (**NG**) Nick Goris
 - (**HP**) Hagen Patzke
