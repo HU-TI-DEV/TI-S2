@@ -88,7 +88,7 @@ Krokusvakantie
 | di  | Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**)     |
-| vr | 9.00 - 16.00 uur Excursie, bedrijfsbezoek ? |
+| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) ? |
 
 ### Onderwijsweek C6 (9-03-2026)
 
@@ -209,7 +209,7 @@ Meivakantie
 | ma  | Werken aan project (**HS & TM**) |
 | di  | Werken aan project (**HS & TM**) |
 | wo  | Werken aan project (**HS & TM**) |
-| do  | **4e Peilmoment** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) |
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) |
 
 ### Afrondingsweek D11 (22-06-2026)
 
