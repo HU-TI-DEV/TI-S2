@@ -1,6 +1,6 @@
 # Bedrijfsbezoek
 
-Het project is wellicht nog wat abstract. Met een bedrijfsbezoek willen we jullie meer inzicht geven wat de klant doet en wil. We gaan met alle studenten en docenten een bezoek brengen aan de HAS. Dit is een Hogeschool in Den Bosch ook wel HAS green academy. Een hogeschool voor agro food en leefomgeving. Aan het eind van dit semester komen er twee meetsystemen te hangen die door jullie zijn gemaakt.
+Het project is wellicht nog wat abstract. Met een bedrijfsbezoek willen we jullie meer inzicht geven wat de klant doet en wil. We gaan met alle studenten en docenten een bezoek brengen aan de [HAS](https://www.has.nl). Dit is een Hogeschool in Den Bosch ook wel HAS green academy. Een hogeschool voor agro food en leefomgeving. Aan het eind van dit semester komen er twee meetsystemen op locatie te hangen die door jullie zijn gemaakt.
 
 ## Voorbereiding
 

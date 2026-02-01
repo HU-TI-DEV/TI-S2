@@ -25,6 +25,7 @@
   - [Onderwijsweek D7 (25-05-2026)](#onderwijsweek-d7-25-05-2026)
   - [Onderwijsweek D8 (1-06-2026)](#onderwijsweek-d8-1-06-2026)
   - [Onderwijsweek D9 (8-06-2026)](#onderwijsweek-d9-8-06-2026)
+  - [Onderwijsweek D10 (15-06-2026)](#onderwijsweek-d10-15-06-2026)
   - [Afrondingsweek D11 (22-06-2026)](#afrondingsweek-d11-22-06-2026)
   - [Verbeterweek E1 (29-06-2026)](#verbeterweek-e1-29-06-2026)
   - [Verbeterweek E2 (6-07-2026)](#verbeterweek-e2-6-07-2026)
@@ -203,6 +204,15 @@ Meivakantie
 | do  | Werken aan eigen library (**GP & NG**)|
 
 ### Onderwijsweek D9 (8-06-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Werken aan eigen library (**NG**) & Inlevering eigen library |
+| di  | Werken aan project (**HS & TM**) |
+| wo  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
+| do  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
+
+### Onderwijsweek D10 (15-06-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
