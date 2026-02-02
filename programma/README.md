@@ -85,8 +85,8 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) |
-| di  | Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
+| ma  | [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) &  Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
+| di  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**)  |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**)     |
 | vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) ? |
@@ -114,9 +114,9 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
-| di  | |
-| wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**)|
-| do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
+| di  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
+| wo  | |
+| do  | |
 
 ### Onderwijsweek C9 (30-03-2026)
 
