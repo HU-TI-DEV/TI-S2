@@ -105,9 +105,9 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) |
-| di  | Peilmoment check (**TM & HS**)|
-| wo  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**)|
-| do  | **1e Peilmoment** & C++ Feedback (**GP & NG**) |
+| di  |  [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**)|
+| wo  | C++ Feedback (**GP & NG**) |
+| do  | **1e Peilmoment** & C++ Feedback (**GP**) |
 
 ### Onderwijsweek C8 (23-03-2026)
 
