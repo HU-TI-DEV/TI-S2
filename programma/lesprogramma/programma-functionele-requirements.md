@@ -9,7 +9,7 @@ Een gestructureerde manier om vast te leggen **wat** het systeem moet gaan doen.
 
 ## Tijdens en na de les
 
-Bedenk en documenteer ieder enkele goede, relevante functionele requirements voor het klimaat-monitor-project. Dat kan zowel van je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver) als van het gemeenschappelijke deel (de 'team-cockpit' van waaruit alles wordt beheerd) zijn. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. 
+Bedenk en documenteer ieder enkele goede, relevante functionele requirements voor het agri-monitor-project. Dat kan zowel van je individuele taartpunt (de aparte test-applicatie van je eigen sensor-driver) als van het gemeenschappelijke deel (de 'team-cockpit' van waaruit alles wordt beheerd) zijn. Geef er binnen het team elkaar kritische feedback op. Vraag feedback aan een begeleider of ander team als je ergens onderling niet uit komt. 
 
 ### Canvas
 
