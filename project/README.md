@@ -63,7 +63,7 @@ Belangrijk is dat teams rekening houden met:
 - payload-grootte en verzendinterval (duty-cycle)
 - foutafhandeling (missed packets, CRC, retries)
 - identificatie van nodes (node-id) en meetkanalen
-- energieverbruik vs. meetfrequentie
+- energieverbruik versus meetfrequentie
 
 ### 4. Beheer op afstand
 
@@ -76,7 +76,7 @@ De oplossing ondersteunt (minimaal conceptueel, bij voorkeur ook technisch):
 
 De kern is het verzamelen en bruikbaar maken van data. Elk team beschrijft:
 - welke parameters worden gemeten en waarom (link met groei/bloei)
-- meetfrequentie (bijv. elke 5 minuten is vaak geschikt, maar motiveer dit)
+- meetfrequentie (bijvoorbeeld elke 5 minuten is vaak geschikt, maar motiveer dit)
 - opslag (time-series database, of eenvoudige cloud/local opslag)
 - visualisatie (grafiek, trends, grenzen/alerts)
 
@@ -127,7 +127,7 @@ Niet verplicht (wel waardevol als uitbreiding):
    - werkende meetketen of aantoonbaar deel daarvan
    - demo met minimaal één realistische meetcyclus
 4. **Testplan**
-   - wat ga je op locatie testen, hoe, en welke “succes”-criteria
+   - wat ga je op locatie testen, hoe, en welke succes-criteria
 5. **Reflectie**
    - beperkingen, verbeterpunten, volgende iteratie
 
@@ -155,7 +155,7 @@ Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combin
 - CO2 (optioneel, afhankelijk van context)
 - PAR/licht (indicatie van fotosynthese-condities)
 
-**LoRa:** periodiek (bijv. 5 min) microklimaatpayload.
+**LoRa:** periodiek (bijvoorbeeld 5 min) microklimaatpayload.
 
 **Nice-to-have:** stralingsschild + ventilatie voor betere luchtmeting.
 
@@ -169,7 +169,7 @@ Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combin
 - regen (ja/nee of tipping bucket)
 - straling / zoninstraling (indien beschikbaar)
 
-**LoRa:** meetinterval bijv. 5 min; extra event bij regen-start.
+**LoRa:** meetinterval bijvoorbeeld 5 min; extra event bij regen-start.
 
 **Nice-to-have:** autonoom (solar + accu).
 
@@ -193,13 +193,13 @@ Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combin
 
 **Sensoren (kies 2–4):**
 - plant-/bladtemperatuur (IR-thermometer)
-- luchttemperatuur (referentie voor ΔT blad-lucht)
+- luchttemperatuur (referentie voor delta T blad-lucht)
 - luchtvochtigheid (voor verdamping/comfort)
 - (optioneel) licht/PAR
 
-**LoRa:** interval bijv. 5 min; dashboard toont ΔT en trend.
+**LoRa:** interval bijvoorbeeld 5 min; dashboard toont delta T en trend.
 
-**Nice-to-have:** eenvoudige “stress-index” (team definieert en motiveert).
+**Nice-to-have:** eenvoudige stress-index (team definieert en motiveert).
 
 ## Systeem E — Watergift & Drain (indicatief)
 
@@ -213,4 +213,4 @@ Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combin
 
 **LoRa:** combineer langzame trends (gewicht/vocht) met status-events.
 
-**Nice-to-have:** edge-detectie van “watergiftmoment” op basis van trendbreuk.
+**Nice-to-have:** edge-detectie van watergiftmoment op basis van trendbreuk.
