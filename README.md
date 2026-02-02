@@ -61,7 +61,6 @@ In semester 2 van de richting Technische Informatica zijn de volgende leeruitkom
 ## Referenties
 
 * [Waarom SDG's in het onderwijs?](<https://husite.nl/duurzaam/duurzame-hu-onderwijs-onderzoek-sdgs-in-het-onderwijs/waarom-sdgs-in-het-onderwijs/>)
-* [Het lectoraat Smart Systems for Healthy Living](<https://www.hu.nl/onderzoek/smart-systems-for-healthy-living>)
 
 ## Licentie informatie
 
