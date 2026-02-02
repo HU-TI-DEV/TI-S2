@@ -98,7 +98,7 @@ Krokusvakantie
 | ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | di  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | wo  | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
-| do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md)(**GP**) |
+| do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md) (**GP**) |
 
 ### Onderwijsweek C7 (16-03-2026)
 
@@ -151,7 +151,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**)|
 | di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
-| wo  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md)  (**HP**)[Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
+| wo  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**)|
 
 ### Onderwijsweek D3 (27-04-2026)
