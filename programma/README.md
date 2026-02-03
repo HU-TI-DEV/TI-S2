@@ -2,7 +2,7 @@
 
 # Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
 
-Halfjaar 2 - februari t/m juli
+2<sup>e</sup> Halfjaar - februari t/m juli
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
