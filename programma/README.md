@@ -2,6 +2,8 @@
 
 # Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
 
+Halfjaar 2 - februari t/m juli
+
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Een introductie](#een-introductie)
@@ -76,7 +78,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| ma  | ***CONFLICT --*** [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**)  |
 | di  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**)|
 | wo  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP**) |
 | do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
@@ -97,14 +99,14 @@ Krokusvakantie
 | --- |  --- |
 | ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | di  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
-| wo  | [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
+| wo  | ***CONFLICT --*** [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md) (**GP**) |
 
 ### Onderwijsweek C7 (16-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) |
+| ma  | ***CONFLICT --*** [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) |
 | di  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**)|
 | wo  | C++ Feedback (**GP & NG**) |
 | do  | **1e Peilmoment** & C++ Feedback (**GP**) |
@@ -142,7 +144,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**)|
 | di  | LoRa. Data verzenden en ontvangen. (**HS**) |
-| wo  | [UART](./lesprogramma/programma-uart.md) (**HP**)|
+| wo  | ***CONFLICT --*** [UART](./lesprogramma/programma-uart.md) (**HP**)|
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
 ### Onderwijsweek D2 (20-04-2026)
@@ -189,7 +191,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
+| ma  | ***CONFLICT --*** [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
 | di  | Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
@@ -198,7 +200,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
+| ma  | ***CONFLICT --*** [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
 | di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
 | do  | Werken aan eigen library (**GP & NG**)|
