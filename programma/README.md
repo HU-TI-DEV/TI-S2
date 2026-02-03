@@ -51,6 +51,8 @@ De contacturen zijn:
 | wo | 09.00 | 12.00 | HL15-1.096 |
 | do | 09.00 | 12.00 | HL15-1.096 |
 
+Breakout rooms: HL15-1.093, HL15-1.094, HL15-1.095 en HL15-1.098
+
 De docenten zijn:
 
 - (**TM**) Teun Pieter Modderman
