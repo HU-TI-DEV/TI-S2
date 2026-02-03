@@ -8,7 +8,8 @@
 - [Beroepstaak](#beroepstaak)
 - [Context](#context)
 - [Sustainable Development Goals](#sustainable-development-goals)
-- [Leeruitkomsten](#leeruitkomsten)
+- [Semesterleeruitkomst](#semesterleeruitkomst)
+  - [Leeruitkomsten](#leeruitkomsten)
 - [Referenties](#referenties)
 - [Licentie informatie](#licentie-informatie)
 
@@ -20,7 +21,9 @@
 
 ## Een introductie
 
-Na het gemeenschappelijke deel (Semester 1) van de opleiding HBO-ICT kies je een richting. Als je gekozen hebt voor Technische Informatica (TI) dan begin je met semester 2 met als thema *Internet of Things* (IoT). Aansluitend volgen nog twee semesters in het tweede leerjaar: semester 3 *Control Technology* en semester 4 *Complex Systems Engineering*​. In dit repository staat alle inhoud van het *Internet of Things* semester. Het project staat centraal en de inhoud zoals [hardware-interfacing](./hardware-interfacing/README.md), [software](./software/README.md) en [infrastructuur](./infrastructuur/README.md) pas je toe in het project. Er zijn [vier pijlmomenten](./Portfolio-items.md) waar we kijken naar je voortgang aan de hand van het door jouw opgestelde [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md). Het semester 2 heeft een eigen [beroepstaak](#beroepstaak) en daarnaast zijn er negen [leeruitkomsten](#leeruitkomsten) gedefineerd. Deze komen gedurende dit semester stapsgewijs aan bod.
+Na het gemeenschappelijke deel (Semester 1) van de opleiding HBO-ICT kies je een richting. Als je gekozen hebt voor Technische Informatica (TI) dan begin je met semester 2 met als thema *Internet of Things* (IoT). Aansluitend volgen nog twee semesters in het tweede leerjaar: semester 3 *Control Technology* en semester 4 *Complex Systems Engineering*​. 
+In deze repository staat alle inhoud van het *Internet of Things* semester. Het project staat centraal. De vakinhoud zoals [hardware-interfacing](./hardware-interfacing/README.md), [software](./software/README.md) en [infrastructuur](./infrastructuur/README.md) pas je toe in het project. Er zijn [vier pijlmomenten](./Portfolio-items.md) waarop we kijken naar je voortgang aan de hand van het door jouw opgestelde [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md). 
+Semester 2 heeft een eigen [beroepstaak](#beroepstaak). Daarnaast is er één [semesterleeruitkomst](#semesterleeruitkomst) gedefinieerd met negen onderliggende [leeruitkomsten](#leeruitkomsten). Deze komen gedurende dit semester stapsgewijs aan bod.
 
 Onderwijs in semester 2 is projectgestuurd. Dat betekent dat het project centraal staat in ons onderwijs. Je werkt samen in een ontwikkelteam en je bent daarnaast verantwoordelijk voor je eigen leerprestaties. Er zijn 4 dagen in de week contactmomenten. De belasting van een voltijds studie is 42 uur per week, deels moet je dus ook buiten de ingeroosterde uren (met je team) aan het werk. Kijk hier voor het volledige [programma van semester 2](./programma/README.md)
 
@@ -42,8 +45,10 @@ Economisch is er een grens bereikt. De 'groei economie' houdt geen stand. Dat be
 
 Om deze ambitie waar te maken zijn er door de Verenigde Naties 17 duurzame ontwikkelingsdoelen opgesteld. In het project stel je van deze minimaal één [Sustainable Development Goal](./SDG.md) (SDG) centraal zodat je leert om vanuit jouw professie een bijdrage te kunnen gaan leveren aan de noodzakelijke transities op economisch, sociaal en ecologisch gebied.
 
-## Leeruitkomsten
+## Semesterleeruitkomst
+De student ontwerpt en realiseert samen met het team een (extern-) connected embedded systeem door bestaande componenten te integreren via software en deze op basis van gespecificeerde testcases te testen. Hiertoe analyseert de student samen met het team de wenselijke functionaliteit en de hoofdlijnen van het (extern-) connected embedded systeem en stemt deze af met de opdrachtgever, rekening houdend met minimaal één relevante SDG. De student levert, samen met het team, het embedded systeem en alles wat daarbij hoort op aan de opdrachtgever en diens potentiële doorontwikkelteam. 
 
+### Leeruitkomsten
 In semester 2 van de richting Technische Informatica zijn de volgende leeruitkomsten gedefineerd:
 
 | Nummer | Leeruitkomst | Competentie |
