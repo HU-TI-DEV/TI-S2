@@ -18,8 +18,3 @@ De installatie omvat de volgende stappen:
 - Installeer Visual Studio Code
 - Installeer de C/C++ extension for VS Code
 - Installeer MSYS2 (Windows)
-
-### Arduino IDE
-Om programma's te maken voor de Arduino Uno of de Raspberry Pi Pico W maken we gebruik van de Arduino IDE. De Arduino IDE (Integrated Development Environment) is gratis, open-source software voor Windows, Mac en Linux waarmee je code (sketches) schrijft, compileert en uploadt naar een Arduino-bord. 
-
-De software kan je downloaden en installeren van [Arduino.cc](https://www.arduino.cc/).

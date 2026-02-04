@@ -13,7 +13,6 @@
 - [Project](#project)
 - [Alternatieven](#alternatieven)
   - [Online C++ editor/compiler](#online-c-editorcompiler)
-  - [CodeLite](#codelite)
 
 ## Installeren
 
@@ -26,11 +25,15 @@ In dit semester wordt onder andere gebruik gemaakt van de volgende, vrij verkrij
 
 ### Arduino IDE
 
-Om C++ code te draaien, gebruiken we in eerste instantie een [Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/).
+Om programma's te maken voor de Arduino Uno of de Raspberry Pi Pico W maken we gebruik van de Arduino IDE. De Arduino IDE (Integrated Development Environment) is gratis, open-source software voor Windows, Mac en Linux waarmee je code (sketches) schrijft, compileert en uploadt naar een Arduino-bord. 
+
+De software kan je downloaden en installeren van [Arduino.cc](https://www.arduino.cc/).
+
+Voor meer uitleg over de [Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/) is dit een mooi startpunt.
 
 ### MinGW
 
-MinGW is een GCC compiler voor Windows. Je kunt MinGW installeren via de link op: <http://tdm-gcc.tdragon.net/download>. Neem de 32 bits versie.
+MinGW is een runtime voor het installeren van de GCC compiler voor Windows. Voor meer informatie over [MinGW is dit een startpunt](https://www.mingw-w64.org/).
 
 ### Visual Studio Code
 
@@ -67,8 +70,4 @@ In het project staat nu een bestand genaamd `main.cpp`. Hierin schrijf je je C++
 
 ### Online C++ editor/compiler
 
-Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor/compiler (bv <https://onecompiler.com/cpp>).
-
-### CodeLite
-
-Of stap over op een andere IDE: bijvoorbeeld [CodeLite](codelite.md).
+Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor/compiler (bijvoorbeeld <https://onecompiler.com/cpp>).
