@@ -27,10 +27,12 @@ De docent stelt zich voor (5 min).
 Doe dit samen met een collega student. 
 De uitleg en instructie vind je op: [visual studio code](/software/inrichten-ontwikkelomgeving/visualstudiocode.md).
 
-Na succesvolle installatie van VScode:
+Na succesvolle installatie van VScode.
+
 4. Start VScode en maak een [single workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces). 
 
 Codeer!
+
 5. Maak expres fouten in de oefening [Basisconcepten](../../software/c++/basisconcepten/opdr_basisconcepten.md).
 
 ### Canvas
