@@ -40,7 +40,7 @@ Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen. Het betekent
 Een LED ([Light Emitting Diode](../../../elektronische-componenten/LED/README.md)) kunnen we met een digitaal signaal aan- of uitzetten.
 Daarbij moeten we opletten dat er niet teveel stroom door de LED gaat. Als het goed is weten we dit principe nog van de Orientatie op Technische Informatica.
 
-- Hoe beperken we de stroom die door de weerstand loopt?
+- Hoe beperken we de stroom die door de LED loopt? (Spoiler: met een weerstand!)
 
 In deze schakeling zijn LED en weerstand tussen +5V en de pin aangesloten. Daardoor licht de LED op als de spanning aan de pin 'laag' is - de LED licht op als we deze pin op '0' zetten, ze gaat uit als we de pin op '1' zetten.
 

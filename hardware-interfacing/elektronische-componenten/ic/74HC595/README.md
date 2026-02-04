@@ -23,10 +23,6 @@ Een (output) schuifregister is een chip waar je stap voor stap bitjes in kan sch
 
 Alle stages zijn verbonden met een gemeenschappelijk klok signaal. Als dit kloksignaal verandert van laag naar hoog neemt iedere stage de waarde van de voorgaande over, en de eerste neemt de waarde op zijn ingang over. Hiermee kan je (in 4 stappen) de 4 stages ieder in een door jou gewenste toestand (hoog of laag) brengen. De uitgangen van de schuifregister stages (Q1 t/m Q4) kan je gebruiken als uitgangspinnen, bv. om LEDs aan te sturen. Met een schuifregister van 4 stages kan je zo 4 LEDs aansturen. Om een schuifregister op deze wijze aan te sturen zijn maar 2 GPIO pinnen nodig, ongeacht het aantal stages. Dit is handig als je meer uitgangen wil hebben dan je GPIOs ter beschikking hebt, of als je LEDs op afstand van je microcontroller zitten, en je het aantal draadjes naar de LEDs wil beperken.
 
-
-    74HC595 schuifregister is geen SPI device we gebruiken SPI alleen om een 'bitstream' te genereren
-
-
 ## De schakeling
 
 De 74HC595 chip is een veelgebruikt 8-stage (output) schuifregister. We gaan deze chip gebruiken om 8 LEDs aan te sturen.
@@ -37,12 +33,12 @@ Deze chip heeft behalve 8 schuifregister stages ook nog een opslag (â€˜holdingâ€
 
 Om 8 waarden op de uitgangspinnen van een 74HC595 chip te krijgen moeten we dus het volgende doen:
 
-    1) Doe dit 8 keer:
-    - Maak de data (shift) ingang van de HC595 gelijk aan de waarde van het hoogste (achtste) bitje van de value (want het eerste bitje dat je aanbiedt wordt het verst doorgeschoven)
-    - Maak de shift clock ingang van de HC595 hoog, en daarna meteen weer laag
-    - Schuif de bitjes in de value 1 stapje naar links (dit kan je doen door te vermeningvuldigen met een geschikte waarde)
-    2) Maak de de holding / latch clock ingang hoog en meteen weer laag 
-    3) (om het effect te laten zien moet je nu wachten)
+1. Doe dit 8 keer:
+   - Maak de data (shift) ingang van de HC595 gelijk aan de waarde van het hoogste (achtste) bitje van de value (want het eerste bitje dat je aanbiedt wordt het verst doorgeschoven)
+   - Maak de shift clock ingang van de HC595 hoog, en daarna meteen weer laag
+   - Schuif de bitjes in de value 1 stapje naar links (dit kan je doen door te vermeningvuldigen met een geschikte waarde)
+2. Maak de de holding / latch clock ingang hoog en meteen weer laag 
+3. (om het effect te laten zien moet je nu wachten)
 
 
 ![Tijdsvolgorde van wat er gebeurt in een 74HC595](../74HC595/img/HC595_tijdsvolgorde.png)
@@ -85,7 +81,13 @@ void loop() {
 
 Waar staat MSBFIRST voor? Wat doet dit? Kan je de data ook op een andere manier versturen? Probeer dit.
 
-Bovenstaand is een software implementatie. Met een engelse term noemen we dit ook wel bit-banging. Met de SPI bibliotheek kan je ook een hardware implementatie maken (Niet alle pinnen van de Arduino Uno ondersteunen hardware SPI). Wat zouden de voordelen zijn van het gebruik van SPI in plaats van `ShiftOut()`?
+Bovenstaand is een software implementatie. Met een engelse term noemen we dit ook wel bit-banging.
+
+Met de `SPI` bibliotheek kan je ook een hardware implementatie maken.
+(Niet alle pinnen van de Arduino Uno ondersteunen hardware SPI.) 
+Wat zouden de voordelen zijn van het gebruik van SPI in plaats van `ShiftOut()`?
+
+> NB: Het 74HC595 schuifregister is geen SPI device. We kunnen SPI gebruiken om een 'bitstream' te genereren.
 
 ## Referenties
 
