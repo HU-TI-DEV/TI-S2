@@ -6,11 +6,8 @@
 
 - [Installeren](#installeren)
   - [Arduino IDE](#arduino-ide)
-  - [MinGW](#mingw)
   - [Visual Studio Code](#visual-studio-code)
   - [Doxygen](#doxygen)
-- [Een C++programma uitvoeren](#een-cprogramma-uitvoeren)
-- [Project](#project)
 - [Alternatieven](#alternatieven)
   - [Online C++ editor/compiler](#online-c-editorcompiler)
 
@@ -27,44 +24,29 @@ In dit semester wordt onder andere gebruik gemaakt van de volgende, vrij verkrij
 
 Om programma's te maken voor de Arduino Uno of de Raspberry Pi Pico W maken we gebruik van de Arduino IDE. De Arduino IDE (Integrated Development Environment) is gratis, open-source software voor Windows, Mac en Linux waarmee je code (sketches) schrijft, compileert en uploadt naar een Arduino-bord. 
 
-De software kan je downloaden en installeren van [Arduino.cc](https://www.arduino.cc/).
+De software kun je downloaden en installeren van [Arduino.cc](https://www.arduino.cc/en/software/#ide). 
+
+N.B. Tijdens het installeren van de Arduino IDE zal ook om toestemming worden gevraagd voor het installeren van enkele noodzakelijke drivers.
 
 Voor meer uitleg over de [Arduino IDE](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/) is dit een mooi startpunt.
 
-### MinGW
-
-MinGW is een runtime voor het installeren van de GCC compiler voor Windows. Voor meer informatie over [MinGW is dit een startpunt](https://www.mingw-w64.org/).
 
 ### Visual Studio Code
 
 Visual Studio Code (VSC) is een lichtgewicht ontwikkelomgeving die draait op je desktop. VSC is beschikbaar voor Windows, macOS en Linux.
 - [Installatie VScode](visualstudiocode.md)
 - [Configuratietips](vscode_tips.md)
+Bij de installatie van VScode maken we gebruik van MinGW en MSYS2.
+
+- [MinGW](https://www.mingw-w64.org/) is een 'runtime' voor het installeren van de GCC compiler voor Windows.
+- [MSYS2](https://www.msys2.org/) levert een omgeving en pakketbeheer voor het installeren van een goede ontwikkelomgeving op Windows.
+
 
 ### Doxygen
 
 Doxygen is een tool die helpt bij het genereren van commentaar of documentatie.
 - [Installatie Doxygen](./doxygen.md)
 
-## Een C++programma uitvoeren
-
-Om een C++programma uit te voeren moet je eerst een **workspace** hebben. In een workspace kunnen meerdere C++ programma’s staan.
-Een workspace maak je automatisch aan met: `File` -> `Open Folder`.
-
-[Meer uitleg over workspaces staat op deze site.](https://code.visualstudio.com/docs/editor/workspaces/workspaces)
-
-## Project
-
-(NB: oudere versies van VS Code en sommige plug-ins/extensies bieden deze aparte optie.)
-
-Voor elk C++programma moet je een **project** aanmaken in je workspace. Een project maak je aan met:
-
-- File -> new -> project.
-- Kies "Simple executable (g++)" -> next.
-- Geef je project een naam.
-- next -> Finish.
-  
-In het project staat nu een bestand genaamd `main.cpp`. Hierin schrijf je je C++ code.
 
 ## Alternatieven
 
