@@ -37,12 +37,12 @@ Deze chip heeft behalve 8 schuifregister stages ook nog een opslag (â€˜holdingâ€
 
 Om 8 waarden op de uitgangspinnen van een 74HC595 chip te krijgen moeten we dus het volgende doen:
 
-    1) Doe dit 8 keer:
-    - Maak de data (shift) ingang van de HC595 gelijk aan de waarde van het hoogste (achtste) bitje van de value (want het eerste bitje dat je aanbiedt wordt het verst doorgeschoven)
-    - Maak de shift clock ingang van de HC595 hoog, en daarna meteen weer laag
-    - Schuif de bitjes in de value 1 stapje naar links (dit kan je doen door te vermeningvuldigen met een geschikte waarde)
-    2) Maak de de holding / latch clock ingang hoog en meteen weer laag 
-    3) (om het effect te laten zien moet je nu wachten)
+1. Doe dit 8 keer:
+   - Maak de data (shift) ingang van de HC595 gelijk aan de waarde van het hoogste (achtste) bitje van de value (want het eerste bitje dat je aanbiedt wordt het verst doorgeschoven)
+   - Maak de shift clock ingang van de HC595 hoog, en daarna meteen weer laag
+   - Schuif de bitjes in de value 1 stapje naar links (dit kan je doen door te vermeningvuldigen met een geschikte waarde)
+2. Maak de de holding / latch clock ingang hoog en meteen weer laag 
+3. (om het effect te laten zien moet je nu wachten)
 
 
 ![Tijdsvolgorde van wat er gebeurt in een 74HC595](../74HC595/img/HC595_tijdsvolgorde.png)
