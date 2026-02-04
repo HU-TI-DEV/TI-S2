@@ -68,8 +68,8 @@ De docenten zijn:
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee |
-| di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Introductie en geschiedenis C, C++](../software/c++/README.md) (**HP**) [Inrichten ontwikkelomgeving](./lesprogramma/programma-ontwikkelomgeving.md) (**GP & HS & TM**) en opzetten Visual Studio Code IDE & Arduino IDE & Arduino UNO. |
-| wo  | [Data types](../software/c++/data-types/README.md), [int](../software/c++/data-types/int/README.md), [float](../software/c++/data-types/float/README.md), [bool](../software/c++/data-types/bool/README.md) (**GP**) |
+| di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Les introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**HP** en **HS**) |
+| wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) |
 | do  | [C++ for loop](../software/c++/condities/for/README.md) en [C++ vector](../software/c++/data-types/vector/README.md) (**GP**) Aftekenen opdracht 'Werkende ontwikkelomgeving' (**GP**)|
 
 ### Onderwijsweek C3 (16-02-2026)
