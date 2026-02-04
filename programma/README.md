@@ -81,7 +81,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**) |
-| di  | Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| di  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
 | wo  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP**) |
 | do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
 
@@ -101,7 +101,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | di  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
-| wo  | ***CONFLICT --*** [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
+| wo  | Werken aan project ? (**TM**) ***CONFLICT --*** [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md) (**GP**) |
 
 ### Onderwijsweek C7 (16-03-2026)
@@ -120,7 +120,7 @@ Krokusvakantie
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
 | di  | [SPI](./lesprogramma/programma-SPI.md) (**HP**)  |
 | wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
-| do  | |
+| do  | Werken aan Project (**TM**)|
 
 ### Onderwijsweek C9 (30-03-2026)
 
