@@ -69,8 +69,8 @@ De docenten zijn:
 | --- |  --- |
 | ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee |
 | di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Les introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**HP** en **HS**) |
-| wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) |
-| do  | [Les loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**GP**) |
+| wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP** en **NG**) |
+| do  | [Les loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**NG** en **GP**) |
 
 ### Onderwijsweek C3 (16-02-2026)
 
@@ -82,8 +82,8 @@ Krokusvakantie
 | --- |  --- |
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**) |
 | di  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
-| wo  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP**) |
-| do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**GP**)  |
+| wo  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP** en **NG**) |
+| do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**NG** en **GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**NG** en **GP**)  |
 
 ### Onderwijsweek C5 (2-03-2026)
 
