@@ -11,17 +11,17 @@
 
 ---
 
-**v0.1.0[](version-id)** Start document voor verantwoordingsdocument tips door HU IICT[](author-id).
+**v0.1.1[](version-id)** Start document voor verantwoordingsdocument tips door HU IICT[](author-id).
 
 ---
 
 ## Portfolio Technische Informatica (TI) Semester 2 (S2)
 
-Een aantal tips voor het schrijven van een goed en leesbaar verantwoordingsdocument.
+Een aantal tips voor het schrijven van een goed en leesbaar verantwoordingsdocument. Een kopie van het verantwoordingsdocument kan je vinden in je eigen persoonlijke repo.
 
 ### Verantwoordingsdocument
 
-- Maak gebruik van het [template](./Verantwoordingsdocument_TI_S2.md)
+- Maak gebruik van het template. Deze staat in je persoonlijke repo.
 - Vul alleen aan of vervang placeholder tekst dat staat tussen code blocks of span of code.
 - Gebruik de Visual Studio Code *Markdown PDF plugin* om van jouw Markdown-bestand een PDF te genereren.
 - Upload alleen dat PDF bestand bij de inlevering op Canvas.

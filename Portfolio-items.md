@@ -11,7 +11,7 @@ Voor dit semester van Technische Informatica dragen we een aantal voorgedefineer
 ![Portfolio toetsing](./img/portfolio_toetsing.png)
 Verschillende portfolio items kunnen bijdragen aan verschillende leeruitkomsten.
 
-Wanneer je een portfolio item gebruikt in je [verantwoordingsdocument](./Verantwoordingsdocument_TI_S2.md) zorg dan dat voor elk portfolio item er altijd is aangeven wat de eigen bijdrage is, welke feedback op dit portfolio item is verkregen (en van wie) en wat er met die feedback is gedaan (uptake van de feedback).
+Wanneer je een portfolio item gebruikt in je verantwoordingsdocument zorg dan dat voor elk portfolio item er altijd is aangeven wat de eigen bijdrage is, welke feedback op dit portfolio item is verkregen (en van wie) en wat er met die feedback is gedaan (uptake van de feedback).
 
 ## Portfolio items
 
