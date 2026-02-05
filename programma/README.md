@@ -70,7 +70,7 @@ De docenten zijn:
 | ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee |
 | di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Les introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**HP** en **HS**) |
 | wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) |
-| do  | [Les loops en vector](../lesprogramma/programma-cpp-loops-vector.md) (**GP**) |
+| do  | [Les loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**GP**) |
 
 ### Onderwijsweek C3 (16-02-2026)
 
