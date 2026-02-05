@@ -14,7 +14,7 @@ We schrijven in dit semester onze software in C++.
 - Lees de tips over [leren programmeren](../../software/c++/README.md#leren-programmeren).
 - In [code](../../software/c++/README.md#code) vind je wat een formule en algoritme zijn, hoe oud C++ is en waarom het zo heet.
   
-### Sneak peak
+### Sneak peek
 - Wil je weten wat je dit semester allemaal leert over C++? Kijk dan naar: [C++ onderwerpen](../../software/c++/README.md#c-onderwerpen).
 - Alle opdrachten voor het eerste kwartaal vind je in: [Opdrachten C++](../../software/c++/opdrachten/README.md).
 
