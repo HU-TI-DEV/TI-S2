@@ -67,7 +67,7 @@ De docenten zijn:
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee |
+| ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee **Start Sprint 0**|
 | di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Les introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**HP** en **HS**) |
 | wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP** en **NG**) |
 | do  | [Les loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**NG** en **GP**) |
@@ -93,13 +93,13 @@ Krokusvakantie
 | di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**)  |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
-| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) ? |
+| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) ? **Einde Sprint 0**|
 
 ### Onderwijsweek C6 (9-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
+| ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) **Start Sprint 1**|
 | di  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | wo  | Werken aan project ? (**TM**) ***CONFLICT --*** [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md) (**GP**) |
@@ -120,31 +120,31 @@ Krokusvakantie
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
 | di  | [SPI](./lesprogramma/programma-SPI.md) (**HP**)  |
 | wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
-| do  | Werken aan Project (**TM**)|
+| do  | Werken aan Project (**TM**) **Einde Sprint 1**|
 
 ### Onderwijsweek C9 (30-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Device configuratie. (**HS**) |
+| ma  | LoRa. Device configuratie. (**HS**) **Start Sprint 2**|
 | di  | LoRa. Data verzenden en ontvangen. (**HS**) |
 | wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | [C++ structs](../software/c++/data-types/struct/README.md) en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
-### Onderwijsweek C10 (6-04-2026)
+### Onderwijsweek C10 (06-04-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 2e Paasdag |
 | di  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**) |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
-| do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**)  |
+| do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) **Einde sprint 2** |
 
 ### Onderwijsweek D1 (13-04-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**)|
+| ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) **Start Sprint 3**|
 | di  | LoRa. Data verzenden en ontvangen. (**HS**) |
 | wo  | ***CONFLICT --*** [UART](./lesprogramma/programma-uart.md) (**HP**)|
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
@@ -156,7 +156,7 @@ Krokusvakantie
 | ma  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**)|
 | di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
 | wo  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
-| do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**)|
+| do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**) **Einde Sprint 3**|
 
 ### Onderwijsweek D3 (27-04-2026)
 
@@ -166,7 +166,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**)|
+| ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) **Start sprint 4**|
 | di  | Bevrijdingsdag |
 | wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
@@ -178,13 +178,13 @@ Meivakantie
 | ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
 | di  | Werken aan project (**TM**) |
 | wo  | C++ Feedback (**GP & NG**) & Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
-| do  | **3de Peilmoment**  & Werken aan het project (**TM**) |
+| do  | **3de Peilmoment**  & Werken aan het project (**TM**) **Einde Sprint 4**|
 
 ### Onderwijsweek D6 (18-05-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Data van een sensor verzenden en ontvangen. (**HS**) |
+| ma  | LoRa. Data van een sensor verzenden en ontvangen. (**HS**) **Start Sprint 5**|
 | di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) |
 | wo  | C++ Feedback (**GP & NG**) & [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
@@ -196,13 +196,13 @@ Meivakantie
 | ma  | ***CONFLICT --*** [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
 | di  | Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
-| do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) |
+| do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) **Einde Sprint 6**|
 
 ### Onderwijsweek D8 (1-06-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ***CONFLICT --*** [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
+| ma  | ***CONFLICT --*** [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 7**|
 | di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
 | do  | Werken aan eigen library (**GP & NG**)|
@@ -223,7 +223,7 @@ Meivakantie
 | ma  | Werken aan project (**HS & TM**) |
 | di  | Werken aan project (**HS & TM**) |
 | wo  | Werken aan project (**HS & TM**) |
-| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) |
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 7**|
 
 ### Afrondingsweek D11 (22-06-2026)
 
