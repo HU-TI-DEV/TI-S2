@@ -196,13 +196,13 @@ Meivakantie
 | ma  | ***CONFLICT --*** [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
 | di  | Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
-| do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) **Einde Sprint 6**|
+| do  | C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) **Einde Sprint 5**|
 
 ### Onderwijsweek D8 (1-06-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ***CONFLICT --*** [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 7**|
+| ma  | ***CONFLICT --*** [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 6**|
 | di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
 | do  | Werken aan eigen library (**GP & NG**)|
@@ -223,7 +223,7 @@ Meivakantie
 | ma  | Werken aan project (**HS & TM**) |
 | di  | Werken aan project (**HS & TM**) |
 | wo  | Werken aan project (**HS & TM**) |
-| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 7**|
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 6**|
 
 ### Afrondingsweek D11 (22-06-2026)
 
