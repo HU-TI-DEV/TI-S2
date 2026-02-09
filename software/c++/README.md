@@ -53,12 +53,12 @@ C++ is een taal die snel is en dicht bij de hardware staat. Dat zijn eigenschapp
 
 ### Ontwikkelomgeving
 
-Bij TI willen we software vaak 'draaien' op een microcomputer (bv Raspberry Pi) of microcontroller (bv Arduino, ESP32).
+Bij TI willen we software vaak 'draaien' op een microcomputer (bijvoorbeeld een Raspberry Pi) of microcontroller (bijvoorbeeld een Arduino of een ESP32).
 In het begin schrijven we code op een Personal Computer (PC); bijvoorbeeld een laptop of desktop.
 
 ### IDE (CodeLite of VScode)
 
-Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we *CodeLite* of [Visual Studio code](../inrichten-ontwikkelomgeving/visualstudiocode.md) voor C++ code (en PyCharm voor Python code.)
+Een zogenaamde Integrated Development Environment (IDE) is een handige software tool om code te kunnen schrijven. Zoals je documenten in MS Word schrijft of in Google Docs, zo gebruiken we [Visual Studio code](../inrichten-ontwikkelomgeving/visualstudiocode.md) voor C++ code.
 
 ## Leren programmeren
 
@@ -68,7 +68,7 @@ Goed programmeren vraagt veel oefening. Je kunt geen goed programmeur worden zon
 
 ### Vereiste basiskennis
 
-Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat je al basiskennis hebt van programmeren (door het volgen van de eerstejaars programmeercursus in Python).
+Deze cursus biedt een inleiding in de taal C++. Er wordt vanuit gegaan dat je al basiskennis hebt van programmeren (door het volgen van de S1 programmeerlessen in Python).
 
 ### Lesmateriaal op internet
 
@@ -78,12 +78,12 @@ Er is onnoemelijk veel les- en cursusmateriaal op internet te vinden. Kijk bijvo
 
 ### Formules en algoritmes
 
-Een reeks instructies in een bepaalde volgorde (een stuk programmacode) noemen we een *algoritme*.  In zekere zin is een recept voor een gerecht ook een algoritme. Hoe je berekent of een jaar een schrikkeljaar is, is ook een algoritme. Eigenlijk is een algoritme een formule, maar meestal wordt een algoritme vertaald naar programmacode.
+Een reeks instructies in een bepaalde volgorde (een stuk programmacode) noemen we een *algoritme*. In zekere zin is een recept voor een gerecht ook een algoritme. Hoe je berekent of een jaar een schrikkeljaar is, is ook een algoritme. Eigenlijk is een algoritme een formule, maar meestal wordt een algoritme vertaald naar programmacode.
 Voor het schrijven van algoritmes gebruiken we bij TI vaak de programmeertaal C++.
 
 ### Oorsprong C++
 
-De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.edu/3e/docs/chistory.html). C++ is bedacht door de Deen Bjarne Stroustrup in 1979. C++ combineert de voordelen van C (o.a. de snelheid en de mate van controle over hardware)  met structuren uit andere talen. C++ wordt nog steeds geüpdatet. De laatste versie is C++23. Er wordt inmiddels gewerkt aan versie C++26.
+De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.edu/3e/docs/chistory.html). C++ is bedacht door de Deen Bjarne Stroustrup in 1979. C++ combineert de voordelen van C (onder andere de snelheid en de mate van controle over hardware) met structuren uit andere talen. C++ wordt nog steeds geüpdatet. De laatste versie is C++23. Er wordt inmiddels gewerkt aan versie C++26.
 
 ![isocpp timeline](https://isocpp.org/files/img/timeline-2022-07.png).
 
