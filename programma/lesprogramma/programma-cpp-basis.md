@@ -10,7 +10,7 @@ We schrijven in dit semester onze software in C++.
 - Je schrijft je eerste helloworld programma in C++.
 
 ## Voorbereiding
-- Lees de [Introductie C++](../../software/c++/README.md) over [programmeren bij Technische Informatica (TI)](../../software/c++/README.md#programmeren-bij-technische-informatica-ti) en [C++ en Technische Informatica](#c-en-technische-informatica).
+- Lees de [Introductie C++](../../software/c++/README.md) over programmeren bij Technische Informatica (TI).
 - Lees de tips over [leren programmeren](../../software/c++/README.md#leren-programmeren).
 - In [code](../../software/c++/README.md#code) vind je wat een formule en algoritme zijn, hoe oud C++ is en waarom het zo heet.
   
