@@ -89,7 +89,7 @@ De taal C++ is een programmeertaal gebaseerd op de taal [C](http://csapp.cs.cmu.
 
 ### De naam C++
 
-    De naam C++ is een toespeling op het met één verhogen van een integer in de taal. Dit kan namelijk door twee plusjes achter de variabele te zetten.
+>De naam C++ is een toespeling op het met één verhogen van een integer in de taal. Dit kan namelijk door twee plusjes achter de variabele te zetten.
 
 ### Gebruikte versie (C++14)
 
