@@ -23,13 +23,13 @@ De docent stelt zich voor (5 min).
 1. De docent licht de [basisconcepten](../../software/c++/basisconcepten/README.md) van C++ toe.
 2. De docent laat zien wat we dit half jaar aan tools gaan gebruiken: [Inrichten ontwikkelomgeving](../../software/inrichten-ontwikkelomgeving/README.md).
 
-3. Daarna gaan we aan de slag met het opzetten van de VScode ontwikkelomgeving.
+3. Daarna gaan we aan de slag met het opzetten van de Visual Studio Code (we schrijven ook vaak VScode) ontwikkelomgeving.
 Doe dit samen met een collega student. 
-De uitleg en instructie vind je op: [visual studio code](/software/inrichten-ontwikkelomgeving/visualstudiocode.md).
+De uitleg en instructie vind je op: [Visual Studio Code](/software/inrichten-ontwikkelomgeving/visualstudiocode.md).
 
 Na succesvolle installatie van VScode.
 
-4. Start VScode en maak een [single workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces). 
+4. Start VScode en maak een [single workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces) (externe link met uitleg over worspaces). 
 
 Codeer!
 
