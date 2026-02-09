@@ -93,7 +93,7 @@ Krokusvakantie
 | di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**)  |
 | wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
-| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) ? **Einde Sprint 0**|
+| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md)  **Einde Sprint 0**|
 
 ### Onderwijsweek C6 (9-03-2026)
 
