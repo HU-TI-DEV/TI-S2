@@ -44,8 +44,8 @@
 
 De contacturen zijn:
 
-|dag|van|tot| lokaal |
-|---|---|---| --- |
+|dag |van    |tot    | lokaal     |
+|--- |---    |---    | ---        |
 | ma | 13.00 | 16.00 | HL15-1.096 |
 | di | 09.00 | 12.00 | HL15-1.096 |
 | wo | 09.00 | 12.00 | HL15-1.096 |
@@ -81,7 +81,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**) |
-| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md)  & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Lees graag de [samenvatting](./lesprogramma/programma-ADC.md) en [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md)  & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Lees graag de [samenvatting](./lesprogramma/programma-ADC.md) en maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md). |
 | wo  | Inlezen van gegevens [std::cin](../software/c++/inlezen-gegevens/README.md#cin) & [getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP** en **NG**) |
 | do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**NG** en **GP**), C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**NG** en **GP**)  |
 
@@ -90,8 +90,8 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) &  Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
-| di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) en [SPI](./lesprogramma/programma-SPI.md) (**HP**) |
-| wo  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
+| di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) & [SPI](./lesprogramma/programma-SPI.md), optioneel: [I2C](./lesprogramma/programma-i2c-1.md) (**HP**) |
+| wo  | [Electronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**). |
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 | vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md)  **Einde Sprint 0**|
 
@@ -99,17 +99,17 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) **Start Sprint 1**|
-| di  | [Electronica (basis, deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
-| wo  | Werken aan project ? (**TM**) ***CONFLICT --*** [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) |
+| ma  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) **Start Sprint 1**|
+| di  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
+| wo  | Werken aan project ? (**TM**) |
 | do  | Introductie datatype [struct](../software/c++/data-types/struct/README.md) (**GP**) [Bits en bitoperatoren I](../software/c++/bits/README.md) (**GP**)  [Bits en bitoperatoren II](../software/c++/bits/README.md) (**GP**) |
 
 ### Onderwijsweek C7 (16-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | ***CONFLICT --*** [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**) |
-| di  | [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**)|
+| ma  | ***TO BE DEFINED***  Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). |
+| di  |  [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**) |
 | wo  | C++ Feedback (**GP & NG**) |
 | do  | **1e Peilmoment** & C++ Feedback (**GP**) |
 
@@ -118,7 +118,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
-| di  |   |
+| di  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
 | wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
 | do  | Werken aan Project (**TM**) **Einde Sprint 1**|
 
