@@ -17,7 +17,7 @@
   - [Onderwijsweek C7 (16-03-2026)](#onderwijsweek-c7-16-03-2026)
   - [Onderwijsweek C8 (23-03-2026)](#onderwijsweek-c8-23-03-2026)
   - [Onderwijsweek C9 (30-03-2026)](#onderwijsweek-c9-30-03-2026)
-  - [Onderwijsweek C10 (6-04-2026)](#onderwijsweek-c10-6-04-2026)
+  - [Onderwijsweek C10 (06-04-2026)](#onderwijsweek-c10-06-04-2026)
   - [Onderwijsweek D1 (13-04-2026)](#onderwijsweek-d1-13-04-2026)
   - [Onderwijsweek D2 (20-04-2026)](#onderwijsweek-d2-20-04-2026)
   - [Onderwijsweek D3 (27-04-2026)](#onderwijsweek-d3-27-04-2026)
@@ -81,17 +81,17 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**) |
-| di  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md). (**HP**) lees de [samenvatting](./lesprogramma/programma-ADC.md) [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
-| wo  | Inlezen van gegevens [Cin](../software/c++/inlezen-gegevens/README.md#cin) & [Getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP** en **NG**) |
-| do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**NG** en **GP**) C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**NG** en **GP**)  |
+| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md)  & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Lees graag de [samenvatting](./lesprogramma/programma-ADC.md) en [Electronica (basis)](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| wo  | Inlezen van gegevens [std::cin](../software/c++/inlezen-gegevens/README.md#cin) & [getline](../software/c++/inlezen-gegevens/README.md#getline) (**GP** en **NG**) |
+| do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**NG** en **GP**), C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**NG** en **GP**)  |
 
 ### Onderwijsweek C5 (2-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) &  Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
-| di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**)  |
-| wo  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) (**HP**) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
+| di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) en [SPI](./lesprogramma/programma-SPI.md) (**HP**) |
+| wo  | [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP**). Maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md) voor Analoge Pin. |
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
 | vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md)  **Einde Sprint 0**|
 
@@ -118,7 +118,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
-| di  | [SPI](./lesprogramma/programma-SPI.md) (**HP**)  |
+| di  |   |
 | wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
 | do  | Werken aan Project (**TM**) **Einde Sprint 1**|
 
