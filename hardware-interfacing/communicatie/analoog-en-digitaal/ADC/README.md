@@ -61,3 +61,4 @@ Heb je extra uitdaging nodig? Maak dan een eigen [UV monitor](YML8511_UV_sensor.
 ## Referenties
 
 - [Analoog en digitaal (Wikipedia)](<https://en.wikipedia.org/wiki/Analogue_electronics#Analogue_vs_digital_electronics>)
+- [Analog-to-Digital-Converter (Wikipedia)](https://en.wikipedia.org/wiki/Analog-to-digital_converter)
