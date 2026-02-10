@@ -43,9 +43,11 @@ Als je slim bent, laat je je opdracht en oefening tijdens de les aftekenen.
 ## Na de les
 Heb je een werkende ontwikkelomgeving opgezet en je eerste C++ programma draaiend gekregen?
 Gefeliciteerd: neem een pauze.
-Ga naar de [Vlinderkas](https://www.uu.nl/botanischetuinen/de-tuinen/tuindelen/vlinderkas) in de [Hortus Botanicus](https://www.uu.nl/botanischetuinen). 
 
-Je hebt gratis toegang met je HU studentenpas.
+> Als het tussen 1 maart en 1 december is:
+> Ga naar de [Vlinderkas](https://www.uu.nl/botanischetuinen/de-tuinen/tuindelen/vlinderkas) in de > > [Hortus Botanicus](https://www.uu.nl/botanischetuinen). 
+>
+> Je hebt gratis toegang met je HU studentenpas.
 
 ## Portfolio-Tip
 
