@@ -35,7 +35,7 @@ Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf b
 
 ## Na de les
 
-- Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-partner ergens af
+- Als je het practicum niet tijdens de les hebt afgekregen, maak het dan na de les samen met je practicum-partner ergens af.
 
 ### Canvas
 
