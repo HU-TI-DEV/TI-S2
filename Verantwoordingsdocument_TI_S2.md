@@ -29,15 +29,15 @@ Nr. | Item | link | Feedback
 
 Leeruitkomst | Beschrijving
 --|--
-LU1| In item 1 staat X daarmee toon ik Y aan. Met item 2 en 3 toon ik aan etc. 
-LU2|
-LU3| Met item 1 toon ik aan dat ik X kan. 
-LU4|
-LU5|
-LU6|
-LU7|
-LU8|
-LU9|
+LU1 Onderzoekend vermogen| In item 1 staat X daarmee toon ik Y aan. Met item 2 en 3 toon ik aan etc. 
+LU2 Organiserend vermogen|
+LU3 Interactief vermogen| Met item 1 toon ik aan dat ik X kan. 
+LU4 Zelflerend Vermogen|
+LU5 Analyseren|
+LU6 Adviseren|
+LU7 Ontwerpen|
+LU8 Realiseren|
+LU9 Beheren|
 
 ### Algemeen
 
@@ -61,15 +61,15 @@ Portfolio | [GithubLink](https://github.com/HU-TI-DEV/TI-S3/Leeruitkomsten.md) |
 
 Leeruitkomst | Beschrijving
 --|--
-LU1| 
-LU2|
-LU3|
-LU4|
-LU5|
-LU6|
-LU7|
-LU8|
-LU9|
+LU1 Onderzoekend vermogen| 
+LU2 Organiserend vermogen|
+LU3 Interactief vermogen|
+LU4 Zelflerend Vermogen|
+LU5 Analyseren|
+LU6 Adviseren|
+LU7 Ontwerpen|
+LU8 Realiseren|
+LU9 Beheren|
 
 ### Algemeen
 
@@ -93,15 +93,15 @@ Portfolio | [GithubLink](https://github.com/HU-TI-DEV/TI-S3/Leeruitkomsten.md) |
 
 Leeruitkomst | Beschrijving
 --|--
-LU1| 
-LU2|
-LU3|
-LU4|
-LU5|
-LU6|
-LU7|
-LU8|
-LU9|
+LU1 Onderzoekend vermogen| 
+LU2 Organiserend vermogen|
+LU3 Interactief vermogen|
+LU4 Zelflerend Vermogen|
+LU5 Analyseren|
+LU6 Adviseren|
+LU7 Ontwerpen|
+LU8 Realiseren|
+LU9 Beheren|
 
 ### Algemeen
 
@@ -125,15 +125,15 @@ Portfolio | [GithubLink](https://github.com/HU-TI-DEV/TI-S3/Leeruitkomsten.md) |
 
 Leeruitkomst | Beschrijving
 --|--
-LU1| 
-LU2|
-LU3|
-LU4|
-LU5|
-LU6|
-LU7|
-LU8|
-LU9|
+LU1 Onderzoekend vermogen| 
+LU2 Organiserend vermogen|
+LU3 Interactief vermogen|
+LU4 Zelflerend Vermogen|
+LU5 Analyseren|
+LU6 Adviseren|
+LU7 Ontwerpen|
+LU8 Realiseren|
+LU9 Beheren|
 
 ### Algemeen
 
