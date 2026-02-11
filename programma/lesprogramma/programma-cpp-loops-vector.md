@@ -22,9 +22,9 @@ Verveel je je? Kijk dan eens of je een [matrix](https://nl.wikipedia.org/wiki/Ma
 2. De docent licht het datatype [vector](../../software/c++/data-types/README.md) toe.
 
 Codeer!
-3. Maak de oefening [while lezen](../../software/c++/condities/while/opdr_while_lezen.md).
-4. Maak de oefening [piramide](../../software/c++/condities/for/opdr_piramide.md).
-5. Maak de oefening [vector](../../software/c++/data-types/vector/opdr_vector.md).
+3. Maak de oefening [while lezen](../../software/c++/condities/while/opdr_while_lezen.md).<br>
+4. Maak de oefening [piramide](../../software/c++/condities/for/opdr_piramide.md).<br>
+5. Maak de oefening [vector](../../software/c++/data-types/vector/opdr_vector.md).<br>
 6. Maak de oefening [vector sorteren](../../software/c++/data-types/vector/opdr_v_sorteren.md).
 
 ### Canvas
