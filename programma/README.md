@@ -89,7 +89,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) &  Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) |
+| ma  | Team vorming Project [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) & [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**)|
 | di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) & [SPI](./lesprogramma/programma-SPI.md), optioneel: [I2C](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | wo  | [Electronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**). |
 | do  | [Functies](../software/c++/functies/README.md), [references](../software/c++/functies/references/README.md) en [const](../software/c++/functies/constant/README.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**GP**) |
