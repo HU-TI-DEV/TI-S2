@@ -1,8 +1,8 @@
 # C++ inlezen van gegevens
 
 ## Wat leer je vandaag?
-- Je leert hoe je gegevens kunt inlezen vanuit een console (cin).
-- Je leert hoe je gegevens kunt inlezen vanuit een bestand (getline).
+- Je leert hoe je getallen kunt inlezen vanuit de console (cin).
+- Je leert hoe je hele regels kunt inlezen vanuit de console (getline).
 - Je leert werken met hulpfuncties van cin voor foutafhandeling.
 
 ## Voorbereiding
@@ -29,7 +29,9 @@ We lopen door de lesstof aan de hand van slides:
 Vergeet niet om feedback te vragen.
 
 ## Na de les
-Neem een kijkje op:
+- Meer informatie over het in- en uitlezen van gegevens kun je vinden in:
+[files-input](../../software/c++/files-input/README.md)
+- Neem een kijkje op:
 [Berlin Code of Conduct](https://berlincodeofconduct.org/en).
 
 ## Portfolio-Tip
