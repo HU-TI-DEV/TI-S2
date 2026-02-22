@@ -33,6 +33,7 @@ Verveel je je? Kijk dan eens of je een [matrix](https://nl.wikipedia.org/wiki/Ma
 Als je slim bent, vraag je de studentassistent of docent om feedback op je code.
 
 ## Na de les
+- De [slides vind je hier terug](../../slides/S2_LoopsVectors.pptx)
 - Voor droge stof, zie [cplusplus over vector](https://cplusplus.com/reference/vector/vector/?kw=vector).
 - Toe aan iets smeuïgs? Een C++ uitje? Kijk dan eens naar [Wereldwijde C++ uitjes](https://isocpp.org/wiki/faq/conferences-worldwide). 
 
