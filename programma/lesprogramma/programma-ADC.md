@@ -1,5 +1,17 @@
 # Samenvatting ["Analoge pin uitlezen."](../../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md)
 
+## Hardware
+
+* 1 x Arduino UNO setje met
+  * 1 x Arduino UNO
+  * 1 x USB-kabel USB-A tot USB-B (krijg je met het Arduino UNO)
+* 1 x Adapter USB-C tot USB-A (als jouw laptop geen USB-A-aansluitingen heeft)
+* 1 x Breadboard
+* 1 x LDR (bijvoorbeeld GL5537-1 LDR lichtgevoelige weerstand)
+* 1 x NTC (bijvoorbeeld NTC-MF52-103 3435 thermistor)
+* 1 x weerstand 10 kOhm
+* 5 x draadjes (male-male)
+
 ## Na deze les
 
 * heb je een werkend Arduino IDE op jouw laptop
