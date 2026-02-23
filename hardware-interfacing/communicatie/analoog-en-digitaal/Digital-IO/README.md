@@ -1,4 +1,4 @@
-![logo](../img/Kennline_NTC.png) [](logo-id)
+![logo](../img/Original_message.jpg) [](logo-id)
 
 # Digital I/O [](title-id) <!-- omit in toc -->
 
@@ -33,7 +33,8 @@ De Omron B3F-4055 heeft intern de volgende configuratie:
 Wanneer je het knopje indrukt kunnen we dit met een Digital-I/O Pin meten en omzetten in een `0` of `1`.
 
 In de Arduino zijn weerstanden tegen +5V ingebouwd die we met `INPUT_PULLUP` kunnen inschakelen.
-Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen. Het betekent ook dat we deze button tussen pin en massa (GND, Ground) aansluiten om de waarde die we van de pin kunnen lezen van `1` (dat doet de `PULLUP`) naar `0` te wijzigen.
+Dat bespaart ons de moeite, zelf een weerstand te moeten toevoegen.
+Het betekent ook dat we deze button tussen pin en massa (GND, Ground) aansluiten om de waarde die we van de pin kunnen lezen van `1` (dat doet de `PULLUP`) naar `0` te wijzigen.
 
 ## LED
 
