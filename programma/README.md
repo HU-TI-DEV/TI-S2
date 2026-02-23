@@ -81,7 +81,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM & HS**) |
-| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP & HS**). Lees graag de [samenvatting](./lesprogramma/programma-ADC.md) en maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md). |
+| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP & HS**). Lees graag de [samenvatting Digital-I/O](./lesprogramma/programma-digital-io.md) en [samenvatting ADC](./lesprogramma/programma-ADC.md) en maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md). |
 | wo  | [Les - Inlezen van gegevens: cin & getline](../programma/lesprogramma/programma-cpp-inlezen-gegevens.md) (**GP** en **NG**) |
 | do  | Herhaling [C++ vector](../software/c++/data-types/vector/README.md), Condities [if else](../software/c++/condities/if-else/README.md), [functies (basis)](../software/c++/functies/basis/README.md) (**NG** en **GP**), C++ oefenen met [vectoren](../software/c++/data-types/vector/README.md), [Recursie](../software/c++/patronen/recursie/README.md) (**NG** en **GP**)  |
 
