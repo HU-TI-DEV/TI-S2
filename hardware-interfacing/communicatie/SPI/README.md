@@ -12,6 +12,7 @@
 - [De schakeling (met je team)](#de-schakeling-met-je-team)
 - [Arduino voorbeeld code](#arduino-voorbeeld-code)
 - [Referenties](#referenties)
+- [Overzicht Animatie](#overzicht-animatie)
 
 ---
 
@@ -180,3 +181,8 @@ BMP280
 
 - [BMP280 Datasheet (PDF)](./files/bst-bmp280-ds001.pdf)
 - Bosch Sensortec BMP280 page: removed, see Archive.org for a copy: <https://web.archive.org/web/20250615055645/https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/>
+
+## Overzicht Animatie
+
+![Animation of I2C, SPI and UART communication](../../images/overview-i2c-spi-uart-communication.gif)\
+***Animation by Samba Ndome - ParlezVousTech***

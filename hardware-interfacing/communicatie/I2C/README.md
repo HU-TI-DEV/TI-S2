@@ -9,6 +9,7 @@
 - [De schakeling](#de-schakeling)
 - [Arduino voorbeeld code](#arduino-voorbeeld-code)
 - [Referenties](#referenties)
+- [Overzicht Animatie](#overzicht-animatie)
 
 ---
 
@@ -86,3 +87,8 @@ Upload de demo ssd1306_128x32_i2c en controleer of je het juiste adres gebruikt.
 ## Referenties
 
 - I2C (<https://en.wikipedia.org/wiki/I%C2%B2C>)
+
+## Overzicht Animatie
+
+![Animation of I2C, SPI and UART communication](../../images/overview-i2c-spi-uart-communication.gif)\
+***Animation by Samba Ndome - ParlezVousTech***
