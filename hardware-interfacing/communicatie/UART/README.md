@@ -16,7 +16,7 @@
   - [Zenden met Arduino Uno](#zenden-met-arduino-uno)
   - [Ontvangen met Arduino Uno](#ontvangen-met-arduino-uno)
   - [Referenties](#referenties)
-  - [Overzicht Animatie](#overzicht-animatie)
+  - [Overzicht I2C, SPI en UART](#overzicht-i2c-spi-en-uart)
 
 ---
 
@@ -417,7 +417,8 @@ void loop() {
 - UART (<https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter>)
 - Thonny (<https://thonny.org/>)
 
-## Overzicht Animatie
+## Overzicht I2C, SPI en UART
 
+*(Klik op het beeld om de animatie te tonen als deze niet automatisch start.)*\
 ![Animation of I2C, SPI and UART communication](../../images/overview-i2c-spi-uart-communication.gif)\
 ***Animation by Samba Ndome - ParlezVousTech***

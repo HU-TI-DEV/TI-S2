@@ -36,7 +36,8 @@ Embedded & IoT Engineer
 www.parlezvoustech.com
 ```
 
-## Usage example
+## Overzicht I2C, SPI en UART
 
+*(Klik op het beeld om de animatie te tonen als deze niet automatisch start.)*\
 ![Animation of I2C, SPI and UART communication](./overview-i2c-spi-uart-communication.gif)\
 ***Animation by Samba Ndome - ParlezVousTech***
