@@ -83,7 +83,7 @@ Krokusvakantie
 | ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM & HS**) |
 | di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP & HS**). Lees graag de [samenvatting Digital-I/O](./lesprogramma/programma-digital-io.md) en [samenvatting ADC](./lesprogramma/programma-ADC.md) en maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md). |
 | wo  | [Les - Inlezen van gegevens: cin & getline](../programma/lesprogramma/programma-cpp-inlezen-gegevens.md) (**GP** en **NG**) |
-| do  | [Les - Herhaling loops en vectoren, uitleg recursie](../programma/lesprogramma/programma-cpp-herhaling-vectoren-recursie.md) (**NG** en **GP**)  |
+| do  | [Les - Functies](../programma/lesprogramma/programma-cpp-functions.md) (**NG** en **GP**)  |
 
 ### Onderwijsweek C5 (2-03-2026)
 
