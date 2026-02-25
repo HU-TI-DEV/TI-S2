@@ -136,7 +136,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 2e Paasdag |
-| di  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**) |
+| di  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**) |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) **Einde sprint 2** |
 
@@ -144,9 +144,9 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) **Start Sprint 3**|
+| ma  | Geen les wel: **Start Sprint 3** |
 | di  | LoRa. Data verzenden en ontvangen. (**HS**) |
-| wo  | ***CONFLICT --*** [UART](./lesprogramma/programma-uart.md) (**HP**)|
+| wo  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
 ### Onderwijsweek D2 (20-04-2026)
@@ -155,7 +155,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**)|
 | di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
-| wo  | [Herhaling UART, gebruik van Logic Analyzer, optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) [Oscilloscoop deel 1 (picoscope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
+| wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
 | do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**) **Einde Sprint 3**|
 
 ### Onderwijsweek D3 (27-04-2026)
