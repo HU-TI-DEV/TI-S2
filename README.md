@@ -15,7 +15,7 @@
 
 ---
 
-**v0.1.1 [](version-id)** Semester 2 TI door HU IICT[](author-id).
+**v0.1.2 [](version-id)** Semester 2 TI door HU IICT[](author-id).
 
 ---
 
@@ -35,7 +35,7 @@ Het ontwikkelteam stemt met elkaar en een opdrachtgever af wat de wenselijke fun
 
 ## Context
 
-In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een meetstation. In de aankomende jaren zullen er verschillende verandering komen op het Utrecht Science Park. Nieuwe gebouwen worden gebouwd en indelingen van natuur en infrastuctuur zullen waarschijnlijk veranderen. Dit zorgt voor de nodige overlast en veranderingen van het klimaat op het Science Park. Denk bijvoorbeeld aan de impact op windrichting of geluid. Veranderingen die impact hebben op de natuur en mensen die zich op of rondom het Science Park bevinden. Daarnaast kan door deze veranderingen ook een extra stofbelasting in de luchtkwaliteit mogelijk zijn. Om te monitoren of en in hoe verre deze aspecten aan verandering onderhevig zijn, wordt een meetstation ontworpen die verschillende elementen en waardes meet.  
+In dit semester van Technische Informatica is het onderwijs projectgestuurd. Het project omvat dit jaar een monitoring-systeem. In de agro- en food-sector is inzicht in groei en bloei sterk afhankelijk van betrouwbare metingen in en rond het gewas en het wortelmilieu. In het project ontwikkelen studentgroepen verschillende monitoring-systemen die op locatie bij HAS Green Academy getest kunnen worden.
 
 ## Sustainable Development Goals
 

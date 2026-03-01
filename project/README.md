@@ -15,7 +15,7 @@
   - [Randvoorwaarden](#randvoorwaarden)
   - [Deliverables](#deliverables)
   - [Testen op locatie](#testen-op-locatie)
-- [Inspiratie: 4–5 mogelijke systemen](#inspiratie-45-mogelijke-systemen)
+- [Inspiratie](#inspiratie)
   - [Systeem A — Canopy Microclimate Node](#systeem-a--canopy-microclimate-node)
   - [Systeem B — Weerstation / Microklimaat Referentie](#systeem-b--weerstation--microklimaat-referentie)
   - [Systeem C — Wortelmilieu / Substraat Monitoring](#systeem-c--wortelmilieu--substraat-monitoring)
@@ -32,7 +32,7 @@
 
 ## Een Modulaire en Slimme Meetoplossing
 
-In de agro- en food-sector is inzicht in **groei en bloei** sterk afhankelijk van betrouwbare metingen in en rond het gewas en het wortelmilieu. In deze opdracht ontwikkelen studentgroepen **verschillende monitoring-systemen** die op locatie bij HAS Green Academy getest kunnen worden.
+In de agro- en food-sector is inzicht in **groei en bloei** sterk afhankelijk van betrouwbare metingen in en rond het gewas en het wortelmilieu. In het project ontwikkelen studentgroepen **verschillende monitoring-systemen** die op locatie bij HAS Green Academy getest kunnen worden.
 
 De oplossingen worden **hoog over** beschreven: er is bewust ruimte voor teams om eigen requirements op te stellen, keuzes te onderbouwen en iteratief te verbeteren.
 
@@ -141,7 +141,7 @@ Bij het testen op locatie is belangrijk:
 
 ---
 
-# Inspiratie: 4–5 mogelijke systemen
+# Inspiratie
 
 Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combineren of eigen concepten voorstellen, zolang randvoorwaarden gehaald worden.
 
