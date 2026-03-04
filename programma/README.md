@@ -92,7 +92,7 @@ Krokusvakantie
 | ma  | [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**HS**) Projectteams samenstellen en [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) & [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**)|
 | di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) & [SPI](./lesprogramma/programma-SPI.md), optioneel: [I2C](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | wo  | [Electronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**). |
-| do  | [Herhaling functies](../programma/lesprogramma/programma-cpp-functions.md), [functienamen](../software/c++/functies/functienamen/README.md), [files i/o, fstream](../software/c++/files-input/README.md) (**NG en GP**) |
+| do  | [Les - File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**NG en GP**) |
 | vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md)  **Einde Sprint 0**|
 
 ### Onderwijsweek C6 (9-03-2026)
