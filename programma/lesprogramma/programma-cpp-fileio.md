@@ -25,6 +25,7 @@ Het is verstandig een studentassistent of docent om feedback te vragen.
 
 ## Na de les
 - De [slides vind je hier terug](../../slides/S2_FileIO.pptx)
+- Zie ook [deze tekst](../../slides/S2_Files_input.md)
 
 ## Portfolio-Tip
 
