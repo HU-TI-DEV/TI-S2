@@ -23,7 +23,7 @@ Heb je de smaak van datatypes te pakken? Kijk dan alvast naar [string](../../sof
 ### Canvas
 1. Lever de oefening "Datatypes" in.
 2. Lever de oefening Char in.
-Als je slim bent, vraag je *feedback* op je code tijdens de les.
+3. Vraag *feedback* op je code tijdens de les.
 
 ## Na de les
 Je kunt nu spelen met verschillende datatypes. Er zijn er nog veel meer. 

@@ -30,7 +30,7 @@ Verveel je je? Kijk dan eens of je een [matrix](https://nl.wikipedia.org/wiki/Ma
 ### Canvas
 1. Lever de oefeningen "For", "Condities (while)" en "Vector" in.
 2. Lever de **opdracht Vector sorteren** in.
-Als je slim bent, vraag je de studentassistent of docent om feedback op je code.
+3. Vraag de studentassistent of docent om feedback op je code.
 
 ## Na de les
 - De [slides vind je hier terug](../../slides/S2_LoopsVectors.pptx)

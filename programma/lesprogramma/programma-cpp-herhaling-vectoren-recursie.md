@@ -24,7 +24,7 @@ Verveel je je? Kijk dan eens of je alle vorige opdrachten met loops op een recur
 
 ### Canvas
 1. Lever de oefeningen "Recursie" opdrachten in.
-Als je slim bent, vraag je de studentassistent of docent om feedback op je code.
+2. Vraag de studentassistent of docent om feedback op je code.
 
 ## Na de les
 - De [slides vind je hier terug](../../slides/PLACEHOLDER)

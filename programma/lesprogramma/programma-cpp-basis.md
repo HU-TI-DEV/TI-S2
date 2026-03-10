@@ -43,9 +43,7 @@ Na succesvolle installatie van VScode.
 
 - Lever de opdracht "Werkende ontwikkelomgeving" in.
 - Lever de oefening "Basisconcepten" in.
-
-   > Als je slim bent, laat je je opdracht en oefening tijdens de les aftekenen\
-   > (van een student-assistent of een docent).
+- Laat je opdracht(en) en oefening(en) tijdens de les aftekenen door een student-assistent of een docent.
 
 ## Na de les
 
