@@ -24,7 +24,9 @@ Zie ook: [Binair talstelsel](https://nl.wikipedia.org/wiki/Binair_talstelsel)
 3. Vraag *feedback* op je code tijdens de les.
 
 ## Na de les
-Wat dacht je van een achttallig stelsel? Zie [octaal talstelsel](https://nl.wikipedia.org/wiki/Octaal_talstelsel).
+- [Slides](../../slides/S2_bits_slides.md)
+- Wat dacht je van een achttallig stelsel? Zie [octaal talstelsel](https://nl.wikipedia.org/wiki/Octaal_talstelsel).
+- Bits en structs combineren? Zie: [cppreference: bit_field](https://en.cppreference.com/w/c/language/bit_field.html).
 
 ## Portfolio-Tip
 Binair rekenen komt uitstekend van pas bij een aantal hardware interfacing practica.

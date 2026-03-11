@@ -26,6 +26,7 @@ Heb je de smaak van **structs** te pakken? Kijk dan alvast naar [classes](../../
 3. Vraag *feedback* op je code tijdens de les.
 
 ## Na de les
+- [Slides](../../slides/S2_structs_slides.md)
 - Meer over structs vind je op de site van [cppreference](https://en.cppreference.com/w/c/language/struct.html).
 - We behandelen niet alle datatypes in de klas:
 - - [union](https://en.cppreference.com/w/cpp/language/union.html). 
