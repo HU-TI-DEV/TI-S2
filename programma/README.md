@@ -102,7 +102,7 @@ Krokusvakantie
 | ma  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) **Start Sprint 1**|
 | di  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | wo  | Werken aan project - requirements (**TM**) |
-| do  | [Les - datatype struct](../programma/lesprogramma/programma-cpp-structs.md) (**GP**) & [Les - Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
+| do  | [Les - datatype struct](../programma/lesprogramma/programma-cpp-structs.md) (**GP en NG**) & [Les - Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP en NG**) |
 
 ### Onderwijsweek C7 (16-03-2026)
 
