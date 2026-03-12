@@ -9,10 +9,12 @@ Bronnen:
 - Content laten mixen tot ruwe slides: CoPilot
 
 ---
+
 # 🧩 Introductie
 - Structs: je eigen datatypes bouwen
 
 ---
+
 # 🏗️ C++ Structs — Wat is een struct?
 - Een struct groepeert meerdere variabelen tot één logisch geheel
 - Je kunt complexere datatypen maken
@@ -20,6 +22,7 @@ Bronnen:
 - Voor ons is het ook de voorbereiding op het werken met klassen
 
 ---
+
 Voor de Python liefhebbers - let niet op grammatica en spelling 
 | Eigenschap              | C++ struct                           | Python class                         | Python dataclass                               | Python namedtuple                       |
 |-------------------------|---------------------------------------|---------------------------------------|------------------------------------------------|-------------------------------------------|
@@ -33,6 +36,7 @@ Voor de Python liefhebbers - let niet op grammatica en spelling
 | Use case                | Compact modelleren van data           | Objecten met veel gedrag              | Struct-achtige objecten zonder boilerplate     | Kleine, read‑only records                 |
 | Meest vergelijkbaar met C++ struct | -                          | Lijkt erop maar meer OOP-achtig       | **Beste Python‑equivalent**                    | Alternatief maar immutable                |
 ---
+
 ### Voorbeeld van een struct voor het uitlezen van een sensor
 
 ```cpp
@@ -45,6 +49,7 @@ struct SensorData {
 ## struct - members
 temperature, humidity en valid worden *members* genoemd
 ---
+
 # 📦 Structs gebruiken
 ```cpp
 SensorData s1;
@@ -95,6 +100,7 @@ int main(){
 ```
 
 ---
+
 # 🔄 Structs doorgeven
 ```cpp
 void update(SensorData& d) {
@@ -103,7 +109,9 @@ void update(SensorData& d) {
 ```
 
 ---
+
 # 🧪 Oefening Structs
+
 Maak een struct `Student` met:
 - string name
 - int age

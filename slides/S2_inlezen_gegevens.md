@@ -72,10 +72,12 @@ int main() {
 }
 ```
 ---
+
 ## Oefening
 - Wat gebeurt er als je bovenstaande code runt en 5,3 invoert?
 - Idem voor 5.36?
 - Is er verschil tussen het invoeren van: 7 3,78 en 7 3.78?
+
 ---
 
 ## Wanneer `cin` onhandig wordt
@@ -129,6 +131,7 @@ Negeer álle karakters in de stream.
 cin.ignore(numeric_limits<std::streamsize>::max());
 ```
 ---
+
 ## cin.fail() en cin.clear()
 - Je kunt na een inleesactie `cin.fail()` gebruiken om te controleren of de invoer 'goed' was.
 - Als een inleesactie verkeerd is gegaan, wordt er een foutstatus gezet.
