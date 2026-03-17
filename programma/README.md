@@ -117,7 +117,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Arduino IDE en de Raspberry Pi Pico W. (**HS**) |
+| ma  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 | di  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
 | wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
 | do  | Werken aan Project (**TM**) **Einde Sprint 1**|
