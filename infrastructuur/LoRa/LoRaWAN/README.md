@@ -66,20 +66,20 @@ We maken nu een uitstapje naar The Things Network(TTN). Je kunt bij TTN gratis e
 
 Ga naar https://eu1.cloud.thethings.network/ en login met je TTN login en wachtwoord (maak deze aan als je dit nog niet hebt gedaan).
 
-1) Kies 'Create application'. Maak een applicatie aan. (Ik heb al een applicatie met de naam hu-iot-project)
+1) Kies 'Create application'. Maak een applicatie aan.
 2) Kies 'Add end device' en klik daarna op je eerder aangemaakte applicatie
 3) Selecteer End device type
-Kies “Enter end device specifics manually”
-Frequency plan: Europe 868.1 MHz
-LoRaWAN version: 1.1.0
-Regional Parameters version: RP001 1.1 revision A
+Kies “Enter end device specifics manually”  
+Frequency plan: Europe 868.1 MHz  
+LoRaWAN version: 1.1.0  
+Regional Parameters version: RP001 1.1 revision A  
 
-The joinEUI for custom devices is JoinEUI = 0000000000000000
+The joinEUI for custom devices is JoinEUI = 0000000000000000  
 
-De volgende keys kan je laten genereren (ik laat in verband om veiligheidsredenen de keys hier niet zien)
-DevEUI: generate one in TTN (70xxxxxxxxxxxxxx)
-AppKey: generate one in TTN (ABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
-NwkKey: generate one in TTN (CAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
+De volgende keys kan je laten genereren (ik laat in verband om veiligheidsredenen de keys hier niet zien)  
+DevEUI: generate one in TTN (70xxxxxxxxxxxxxx)  
+AppKey: generate one in TTN (ABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)  
+NwkKey: generate one in TTN (CAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)  
 
 Noteer deze keys. **Sla ze niet op in je repo**. Plaats ze eventueel in een bestand en voeg een .gitignore regel toe voor dat bestand (oefen dit eerst een keer).
 
