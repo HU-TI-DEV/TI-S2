@@ -94,11 +94,11 @@ Selecteer je board onder Tools->Board->Raspberry Pi (…)->Raspberry Pi Pico W
 
 ![Pico W](./img/Pico_W.png)
 
-2) De DevEUI key, AppKey en NwKey moet je toevoegen aan de voorbeeld sketch
-
-3) Kies board Pico W onder Tools->Board
-4) Kies UFL board onder Tools->Port
-5) Kies Upload
+2) De sketch die je moet gebruiken staat bij het volgende kopje in deze manual (hieronder bij "Arduino voorbeeld sketch").    
+De DevEUI key, AppKey en NwKey moet je toevoegen aan de voorbeeld sketch. 
+4) Kies board Pico W onder Tools->Board
+5) Kies UFL board onder Tools->Port
+6) Kies Upload
 
 ## Arduino voorbeeld sketch
 
