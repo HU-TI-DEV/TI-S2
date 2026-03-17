@@ -37,7 +37,7 @@ Je hebt nodig:
 
 ## End device configuratie
 
-Bevestig eerst de antenne aan de Waveshare head (dit is een SMA naar I-PEX MHF I antennekabel zodat je het weet). Installeer dan pas de Waveshare head op de Raspberry Pi Pico W. **Op de PCB van de Waveshare head staat de richting van de USB aansluiting aangeven** zo weet je hoe je deze module moet orienteren. 
+Bevestig eerst de antenne aan de Waveshare head (dit is een SMA naar I-PEX MHF I antennekabel). Installeer dan pas de Waveshare head op de Raspberry Pi Pico W. **Op de PCB van de Waveshare head staat de richting van de USB aansluiting aangeven** zo weet je hoe je deze module moet orienteren. 
 
 ## Arduino IDE geschikt maken
 
@@ -45,9 +45,9 @@ We gaan nu de Arduino IDE geschikt maken om softare op de Raspberry Pi Pico te f
 
 1) Installeer als je dit nog niet hebt gedaan de Arduino IDE. Ik heb gebruik gemaakt van Arduino IDE versie 2.3.8.
 2) Open Arduino IDE
-3) Ga naar File->Preferences (op een Mac Arduino IDE -> Preferences)
+3) Ga naar File->Preferences (op een Mac Arduino IDE -> Preferences)  
 Voeg bij “Additional Boards Manager URLs” de volgende URL toe: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json en klik op OK
-4) Ga naar Tools->Boards->Board Manager
+4) Ga naar Tools->Boards->Board Manager.  
 Type “pico”
 Installeer “Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III” (mijn versie is 5.5.1)
 
