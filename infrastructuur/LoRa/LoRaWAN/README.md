@@ -12,7 +12,7 @@
   - [Voorbeeld Applicatie](#voorbeeld-applicatie)
   - [Arduino voorbeeld sketch](#arduino-voorbeeld-sketch)
   - [Payload formatteren](#payload-formatteren)
-  - [JavaScipt voorbeeld data formatter](#javascipt-voorbeeld-data-formatter)
+  - [JavaScript voorbeeld data formatter](#javascript-voorbeeld-data-formatter)
 - [Referenties](#referenties)
 
 ---
@@ -277,7 +277,7 @@ We versturen een temperatuur meting van de interne temperatuur sensor. Dit doen 
 
 Op het TTN moeten we voor deze end node nog laten weten hoe onze payload is geformateerd. Daarvoor voegen we een Payload formatter toe. Ga terug naar [https://eu1.cloud.thethings.network/](https://eu1.cloud.thethings.network/) en kies je project. Selecteer dan je end node. Onder het tabblad 'Payload formatters' voeg je een Custom Javascript formatter toe. De javascript behorende bij de Arduino voorbeeld sketch is de volgende:
 
-## JavaScipt voorbeeld data formatter
+## JavaScript voorbeeld data formatter
 
 ```javascript
 function decodeUplink(input) {
