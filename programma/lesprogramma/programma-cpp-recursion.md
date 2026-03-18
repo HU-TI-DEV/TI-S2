@@ -7,13 +7,13 @@
 
 ## Voorbereiding
 - Herhaal de theorie over [File I/O](../../software/c++/files-input/README.md) en [bit operaties](../../software/c++/inlezen-gegevens/README.md).
-- Lees de theorie over [recursie](../../software/c++/recursie/README.md).
+- Lees de theorie over [recursie](../../software/c++/patronen/recursie/README.md).
 
 
 ## Tijdens de les
 1. De docent herhaalt het [File I/O](../../software/c++/files-input/README.md) concept.
 2. De docent herhaalt de werking van [bit operaties](../../software/c++/functies/README.md).
-3. De docent licht het concept [recursie](../../software/c++/recursie/README.md) toe.
+3. De docent licht het concept [recursie](../../software/c++/patronen/recursie/README.md) toe.
 
 ## Codeer!
 1. Maak de [recursie](../../software/c++/patronen/recursie/opdr_recursie.md) oefeningen.
