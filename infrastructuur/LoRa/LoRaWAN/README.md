@@ -104,9 +104,14 @@ De DevEUI key, AppKey en NwKey moet je toevoegen aan de voorbeeld sketch.
 
 ```c++
 // LoRaWAN example code for the Raspberry Pi Pico W and the Waveshare LoRa head
+// Version 2 with EEPROM persistent LoRA join information
 #include <Arduino.h>
+#include <SPI.h>
+#include <EEPROM.h>
 #include <RadioLib.h>
 #include <math.h>
+#include <stddef.h>
+#include <string.h>
 
 // Waveshare Pico-LoRa-SX1262-868M pin mapping
 constexpr uint8_t LORA_SCK   = 10;
@@ -117,9 +122,11 @@ constexpr uint8_t LORA_DIO1  = 20;
 constexpr uint8_t LORA_RST   = 15;
 constexpr uint8_t LORA_BUSY  = 2;
 
-// LoRaWAN region, Europe 868 MHz
+// TTN / LoRaWAN configuration
 const LoRaWANBand_t region = EU868;
 constexpr uint8_t subBand = 0;
+constexpr uint8_t UPLINK_FPORT = 1;
+constexpr unsigned long UPLINK_INTERVAL_MS = 5UL * 60UL * 1000UL; // 5 minutes
 
 // TTN OTAA credentials
 // Replace these with your own values from TTN, devEUI, appKey and nwkKey can be auto-generated
@@ -154,11 +161,97 @@ SX1262 radio = new Module(
 
 LoRaWANNode node(&radio, &region, subBand);
 
-// Uplink settings
-constexpr uint8_t UPLINK_FPORT = 1;
-constexpr unsigned long UPLINK_INTERVAL_MS = 5UL * 60UL * 1000UL; // 5 minutes
+// Persistent storage layout in RP2040 simulated EEPROM
+constexpr uint32_t EEPROM_MAGIC = 0x4C575031UL;   // "LWP1"
+constexpr uint16_t EEPROM_VERSION = 1;
+
+struct PersistedLoRaState {
+  uint32_t magic;
+  uint16_t version;
+  uint8_t hasNonces;
+  uint8_t hasSession;
+  uint8_t nonces[RADIOLIB_LORAWAN_NONCES_BUF_SIZE];
+  uint8_t session[RADIOLIB_LORAWAN_SESSION_BUF_SIZE];
+  uint32_t checksum;
+};
+
+static_assert(sizeof(PersistedLoRaState) <= 4096, "Persistent state does not fit in RP2040 EEPROM emulation");
+
+PersistedLoRaState g_state{};
 
 // Helpers
+uint32_t fnv1a32(const uint8_t* data, size_t len) {
+  uint32_t hash = 2166136261UL;
+  for (size_t i = 0; i < len; ++i) {
+    hash ^= data[i];
+    hash *= 16777619UL;
+  }
+  return hash;
+}
+
+uint32_t calculateStateChecksum(const PersistedLoRaState& state) {
+  return fnv1a32(reinterpret_cast<const uint8_t*>(&state), offsetof(PersistedLoRaState, checksum));
+}
+
+void initEmptyState(PersistedLoRaState& state) {
+  memset(&state, 0, sizeof(state));
+  state.magic = EEPROM_MAGIC;
+  state.version = EEPROM_VERSION;
+  state.checksum = calculateStateChecksum(state);
+}
+
+bool loadPersistedState(PersistedLoRaState& state) {
+  EEPROM.get(0, state);
+
+  if (state.magic != EEPROM_MAGIC) {
+    return false;
+  }
+
+  if (state.version != EEPROM_VERSION) {
+    return false;
+  }
+
+  const uint32_t expected = calculateStateChecksum(state);
+  if (state.checksum != expected) {
+    return false;
+  }
+
+  return true;
+}
+
+void savePersistedState(PersistedLoRaState& state) {
+  state.magic = EEPROM_MAGIC;
+  state.version = EEPROM_VERSION;
+  state.checksum = calculateStateChecksum(state);
+
+  PersistedLoRaState current{};
+  EEPROM.get(0, current);
+
+  if (memcmp(&current, &state, sizeof(state)) == 0) {
+    return;
+  }
+
+  EEPROM.put(0, state);
+  EEPROM.commit();
+}
+
+void copyNoncesFromNode(PersistedLoRaState& state) {
+  const uint8_t* buffer = node.getBufferNonces();
+  memcpy(state.nonces, buffer, RADIOLIB_LORAWAN_NONCES_BUF_SIZE);
+  state.hasNonces = 1;
+}
+
+void copySessionFromNode(PersistedLoRaState& state) {
+  const uint8_t* buffer = node.getBufferSession();
+  memcpy(state.session, buffer, RADIOLIB_LORAWAN_SESSION_BUF_SIZE);
+  state.hasSession = 1;
+}
+
+void clearSessionInState(PersistedLoRaState& state) {
+  memset(state.session, 0, sizeof(state.session));
+  state.hasSession = 0;
+}
+
 String decodeState(int16_t state) {
   switch (state) {
     case RADIOLIB_ERR_NONE: return "RADIOLIB_ERR_NONE";
@@ -167,6 +260,7 @@ String decodeState(int16_t state) {
     case RADIOLIB_ERR_NO_RX_WINDOW: return "RADIOLIB_ERR_NO_RX_WINDOW";
     case RADIOLIB_ERR_NO_JOIN_ACCEPT: return "RADIOLIB_ERR_NO_JOIN_ACCEPT";
     case RADIOLIB_ERR_UPLINK_UNAVAILABLE: return "RADIOLIB_ERR_UPLINK_UNAVAILABLE";
+    case RADIOLIB_ERR_CHECKSUM_MISMATCH: return "RADIOLIB_ERR_CHECKSUM_MISMATCH";
     case RADIOLIB_LORAWAN_NEW_SESSION: return "RADIOLIB_LORAWAN_NEW_SESSION";
     case RADIOLIB_LORAWAN_SESSION_RESTORED: return "RADIOLIB_LORAWAN_SESSION_RESTORED";
     default: return "UNKNOWN";
@@ -182,9 +276,7 @@ void printState(const char* label, int16_t state) {
   Serial.println(")");
 }
 
-bool joinNetwork() {
-  Serial.println("Initialising radio...");
-
+void configureSpi() {
   SPI1.setSCK(LORA_SCK);
   SPI1.setTX(LORA_MOSI);
   SPI1.setRX(LORA_MISO);
@@ -193,26 +285,95 @@ bool joinNetwork() {
   digitalWrite(LORA_CS, HIGH);
 
   SPI1.begin();
+}
 
-  int16_t state = radio.begin();
-  printState("radio.begin", state);
-  if (state != RADIOLIB_ERR_NONE) {
+bool restoreBuffersIfPresent() {
+  bool loaded = loadPersistedState(g_state);
+
+  if (!loaded) {
+    Serial.println("No valid persisted LoRaWAN state found.");
+    initEmptyState(g_state);
     return false;
   }
 
-  Serial.println("Configuring OTAA credentials...");
-  state = node.beginOTAA(joinEUI, devEUI, nwkKey, appKey);
+  Serial.println("Found persisted LoRaWAN state.");
+
+  if (g_state.hasNonces) {
+    const int16_t nonceState = node.setBufferNonces(g_state.nonces);
+    printState("node.setBufferNonces", nonceState);
+
+    if (nonceState != RADIOLIB_ERR_NONE) {
+      Serial.println("Stored nonces buffer is invalid for current credentials. Starting fresh.");
+      initEmptyState(g_state);
+      savePersistedState(g_state);
+      return false;
+    }
+  }
+
+  if (g_state.hasSession) {
+    const int16_t sessionState = node.setBufferSession(g_state.session);
+    printState("node.setBufferSession", sessionState);
+
+    if (sessionState != RADIOLIB_ERR_NONE) {
+      Serial.println("Stored session buffer is invalid. Keeping nonces, discarding session.");
+      clearSessionInState(g_state);
+      savePersistedState(g_state);
+      return false;
+    }
+  }
+
+  return g_state.hasNonces || g_state.hasSession;
+}
+
+bool activateNode() {
+  int16_t state = node.beginOTAA(joinEUI, devEUI, nwkKey, appKey);
   printState("node.beginOTAA", state);
   if (state != RADIOLIB_ERR_NONE) {
     return false;
   }
 
-  Serial.println("Joining TTN...");
-  state = node.activateOTAA();
-  printState("node.activateOTAA", state);
+  restoreBuffersIfPresent();
 
-  return (state == RADIOLIB_LORAWAN_NEW_SESSION) ||
-         (state == RADIOLIB_LORAWAN_SESSION_RESTORED);
+  uint32_t failedJoinCount = 0;
+
+  while (true) {
+    Serial.println("Calling node.activateOTAA()...");
+    state = node.activateOTAA();
+    printState("node.activateOTAA", state);
+
+    // Always save current nonces after every OTAA attempt.
+    // This prevents DevNonce rollback after power loss/reset.
+    initEmptyState(g_state);
+    copyNoncesFromNode(g_state);
+
+    if ((state == RADIOLIB_LORAWAN_NEW_SESSION) ||
+        (state == RADIOLIB_LORAWAN_SESSION_RESTORED)) {
+      copySessionFromNode(g_state);
+      savePersistedState(g_state);
+      return true;
+    }
+
+    clearSessionInState(g_state);
+    savePersistedState(g_state);
+
+    failedJoinCount++;
+    const unsigned long retryDelayMs = min(180000UL, failedJoinCount * 60000UL);
+
+    Serial.print("Join failed, retrying in ");
+    Serial.print(retryDelayMs / 1000UL);
+    Serial.println(" seconds.");
+    delay(retryDelayMs);
+  }
+}
+
+void saveCurrentSession() {
+  if (!g_state.hasNonces) {
+    initEmptyState(g_state);
+    copyNoncesFromNode(g_state);
+  }
+
+  copySessionFromNode(g_state);
+  savePersistedState(g_state);
 }
 
 void setup() {
@@ -225,25 +386,32 @@ void setup() {
 
   delay(1000);
   Serial.println();
-  Serial.println("Pico W + Waveshare SX1262 LoRaWAN test");
+  Serial.println("Pico W + Waveshare SX1262 + TTN persistent OTAA example");
 
-  if (!joinNetwork()) {
-    Serial.println("Join failed. Check keys, TTN region, gateway coverage, and wiring.");
+  EEPROM.begin(sizeof(PersistedLoRaState));
+  configureSpi();
+
+  int16_t radioState = radio.begin();
+  printState("radio.begin", radioState);
+  if (radioState != RADIOLIB_ERR_NONE) {
     while (true) {
       delay(1000);
     }
   }
 
-  Serial.println("Join successful.");
+  if (!activateNode()) {
+    Serial.println("Activation failed.");
+    while (true) {
+      delay(1000);
+    }
+  }
+
+  Serial.println("Activation successful.");
 }
 
 void loop() {
-  // Read RP2040 internal temperature in Celsius
-  float tempC = analogReadTemp();
-
-  // Encode as signed int16 in centi-degrees Celsius
-  // Example: 23,45 C -> 2345
-  int16_t tempCenti = static_cast<int16_t>(lroundf(tempC * 100.0f));
+  const float tempC = analogReadTemp();
+  const int16_t tempCenti = static_cast<int16_t>(lroundf(tempC * 100.0f));
 
   uint8_t payload[2];
   payload[0] = static_cast<uint8_t>((tempCenti >> 8) & 0xFF);
@@ -253,15 +421,14 @@ void loop() {
   Serial.print(tempC, 2);
   Serial.println(" C");
 
-  int16_t state = node.sendReceive(payload, sizeof(payload), UPLINK_FPORT);
+  const int16_t state = node.sendReceive(payload, sizeof(payload), UPLINK_FPORT);
   printState("node.sendReceive", state);
 
-  if (state > 0) {
-    Serial.println("Downlink received.");
-  } else if (state == 0) {
-    Serial.println("No downlink received.");
+  if (state >= 0) {
+    saveCurrentSession();
+    Serial.println("Session saved to EEPROM.");
   } else {
-    Serial.println("Uplink failed.");
+    Serial.println("Uplink failed. Session not updated.");
   }
 
   Serial.print("Waiting ");
