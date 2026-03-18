@@ -111,7 +111,7 @@ Krokusvakantie
 | ma  | Opzetten .md to .pdf & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). |
 | di  |  [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**) |
 | wo  | [Les - datatype struct](../programma/lesprogramma/programma-cpp-structs.md) (**GP en NG**) & C++ Feedback (**GP & NG**) |
-| do  | **1e Peilmoment** & [Patronen - recursie](../software/c++/patronen/recursie/README.md) (**NG en GP**) |
+| do  | **1e Peilmoment** & [Les - recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**NG en GP**) |
 
 ### Onderwijsweek C8 (23-03-2026)
 
