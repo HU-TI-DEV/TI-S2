@@ -8,7 +8,7 @@
   - [End device configuratie](#end-device-configuratie)
   - [Arduino IDE geschikt maken](#arduino-ide-geschikt-maken)
   - [RadioLib installeren](#radiolib-installeren)
-- [End Node aanmaken in TTN](#end-node-aanmaken-in-ttn)
+- [End Node aanmaken in The Things Network (TTN)](#end-node-aanmaken-in-the-things-network-ttn)
   - [Voorbeeld Applicatie](#voorbeeld-applicatie)
   - [Arduino voorbeeld sketch](#arduino-voorbeeld-sketch)
   - [Payload formatteren](#payload-formatteren)
@@ -23,86 +23,92 @@
 
 ## LoRaWAN
 
-LoRaWAN (Long Range Wide Area Network) is een specificatie voor een telecommunicatienetwerk geschikt voor langeafstandscommunicatie met weinig vermogen. Deze techniek gaan we dit semester gebruiken om sensor data over lange afstand te versturen. De hardware componenten bestaan uit een Raspberry Pi Pico W uit Semester 1 in combinatie met een Pico-LoRa-SX1262-868M Waveshare HAT. Als software backbone gebruiken we netwerkinfrastructuur van [The Things Network](https://www.thethingsnetwork.org).
+LoRaWAN (Long Range Wide Area Network) is een specificatie voor een telecommunicatienetwerk geschikt voor langeafstandscommunicatie met weinig vermogen. Deze techniek gaan we dit semester gebruiken om sensor data over lange afstand te versturen. De hardware componenten bestaan uit een Raspberry Pi Pico W uit Semester 1 in combinatie met een Pico-LoRa-SX1262-868M Waveshare HAT. Als software backbone gebruiken we netwerkinfrastructuur van [The Things Network (TTN)](https://www.thethingsnetwork.org).
 
 Iedere student kan het onderstaande stappenplan doorlopen om een werkende verbinding te laten zien. Je gaat daarna met je team verder om de hardwareintegratie met jullie sensor-node verder vorm te geven.
 
 # Hardware voorbereiden
 
 Je hebt nodig:
-- Raspberry Pi Pico W
+
+- Raspberry Pi Pico W (deze heb je van semester 1)
 - een USB kabel (moet ook geschikt zijn voor data)
-- een Waveshare HAT
-- Een antenne
+- een Waveshare SX1262 LoRaWAN HAT voor de Pico
+- een antenne met kabel en SMA connector
 
 ## End device configuratie
 
-Bevestig eerst de antenne aan de Waveshare HAT (dit is een SMA naar I-PEX MHF I antennekabel). Installeer dan pas de Waveshare HAT op de Raspberry Pi Pico W. **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangeven** zo weet je hoe je deze module moet orienteren. 
+- **Bevestig eerst de antenne aan de Waveshare HAT** (dit is een SMA naar I-PEX MHF I antennekabel, de kleine connector moet je voorzichtig in de kleine bus drukken).
+- Installeer dan pas de Waveshare HAT op de Raspberry Pi Pico W.
+  **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangegeven**, zo weet je hoe je deze module moet orienteren.
 
 ## Arduino IDE geschikt maken
 
 We gaan nu de Arduino IDE geschikt maken om softare op de Raspberry Pi Pico te flashen.
 
-1) Installeer als je dit nog niet hebt gedaan de Arduino IDE. Ik heb gebruik gemaakt van Arduino IDE versie 2.3.8.
-2) Open Arduino IDE
-3) Ga naar File->Preferences (op een Mac Arduino IDE -> Preferences)  
-Voeg bij “Additional Boards Manager URLs” de volgende URL toe: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json en klik op OK
-4) Ga naar Tools->Boards->Board Manager.  
-Type “pico”
-Installeer “Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III” (mijn versie is 5.5.1)
+1) Installeer als je dit nog niet hebt gedaan de Arduino IDE.\
+   Ik heb gebruik gemaakt van Arduino IDE versie 2.3.8.
+2) Open de Arduino IDE.
+3) Ga naar `File` -> `Preferences` (op een Mac `Arduino IDE` -> `Preferences`)\
+   Voeg bij “Additional Boards Manager URLs” de volgende URL toe: <https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json> en klik op `[OK]`
+4) Ga naar `Tools` -> `Boards` -> `Board Manager`.\
+   Type “pico”.\
+   Installeer “Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III” (mijn versie is 5.5.1).
 
 ## RadioLib installeren
 
 RadioLib geeft ons de SX1262 radio driver dat is de chip waarmee we data draadloos kunnen versturen.
 
-1) Ga naar Tools->Manage Libraries en zoek op “RadioLib”
+1) Ga naar `Tools` -> `Manage Libraries` en zoek op “RadioLib”
 2) Installeer “RadioLib by Jan Gromes” (mijn versie is 7.6.0)
 
 Je ben nu klaar met de voorbereidingen.
 
-# End Node aanmaken in TTN
+# End Node aanmaken in The Things Network (TTN)
 
-We maken nu een uitstapje naar The Things Network(TTN). Je kunt bij TTN gratis een account aanmaken en tot 50 devices registeren. Op de HU hebben we een aantal LoRaWAN gateways staan dus het bereik moet voldoende zijn. Nieuwe end-nodes maar ook gateways moet je op het TTN platform registeren.
+We maken nu een uitstapje naar `The Things Network (TTN)`. Je kunt bij TTN gratis een account aanmaken en tot 50 devices registeren. Op de HU hebben we een aantal LoRaWAN gateways staan dus het bereik moet voldoende zijn. Nieuwe end-nodes maar ook gateways moet je op het TTN platform registeren.
 
-Ga naar https://eu1.cloud.thethings.network/ en login met je TTN login en wachtwoord (maak deze aan als je dit nog niet hebt gedaan).
+Ga naar <https://eu1.cloud.thethings.network/> en log in met je TTN login en wachtwoord (maak deze aan als je dit nog niet hebt gedaan).
 
 1) Kies 'Create application'. Maak een applicatie aan.
 2) Kies 'Add end device' en klik daarna op je eerder aangemaakte applicatie
 3) Selecteer End device type
-Kies “Enter end device specifics manually”  
-Frequency plan: Europe 868.1 MHz  
-LoRaWAN version: 1.1.0  
-Regional Parameters version: RP001 1.1 revision A  
 
-The joinEUI for custom devices is JoinEUI = 0000000000000000  
+- Kies “Enter end device specifics manually”
+- Frequency plan: Europe 868.1 MHz
+- LoRaWAN version: 1.1.0
+- Regional Parameters version: RP001 1.1 revision A
+
+The `joinEUI` for custom devices is `joinEUI = 0000000000000000`
 
 De volgende keys kan je laten genereren (ik laat in verband om veiligheidsredenen de keys hier niet zien)  
-DevEUI: generate one in TTN (70xxxxxxxxxxxxxx)  
-AppKey: generate one in TTN (ABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)  
-NwkKey: generate one in TTN (CAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)  
+
+- `DevEUI`: generate one in TTN (70xxxxxxxxxxxxxx)
+- `AppKey`: generate one in TTN (ABxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
+- `NwkKey`: generate one in TTN (CAxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx)
 
 Noteer deze keys. **Sla ze niet op in je repo**. Plaats ze eventueel in een bestand en voeg een .gitignore regel toe voor dat bestand (oefen dit eerst een keer).
 
 ## Voorbeeld Applicatie
 
-We gaan nu een voorbeeld sketch uploaden naar de Raspberry Pi Pico W. Sluit de USB kabel aan op je computer. Daarna kan je de Raspberry Pi Pico W aansluiten en gelijktijdig de BOOTSEL button inhouden. De Pico komt zo in boot mode zodat we nieuwe firmware kunnen flashen. 
+We gaan nu een voorbeeld sketch uploaden naar de Raspberry Pi Pico W. Sluit de USB kabel aan op je computer. Daarna kan je de Raspberry Pi Pico W aansluiten en gelijktijdig de `[BOOTSEL]` button inhouden. De Pico komt zo in boot mode zodat we nieuwe firmware kunnen flashen.
 
 In de Arduino IDE:
 
-1) Selecteer jouw developement board
-Selecteer je board onder Tools->Board->Raspberry Pi (…)->Raspberry Pi Pico W
+1) Selecteer jouw developement board onder `Tools` -> `Board` -> `Raspberry Pi (…)` -> `Raspberry Pi Pico W`
 
-![Pico W](./img/Pico_W.png)
+   ![Pico W](./img/Pico_W.png)
 
-2) De sketch die je moet gebruiken staat bij het volgende kopje in deze manual (hieronder bij "Arduino voorbeeld sketch").    
-De DevEUI key, AppKey en NwKey moet je toevoegen aan de voorbeeld sketch. 
-4) Kies board Pico W onder Tools->Board
-5) Kies UFL board onder Tools->Port
-6) Kies Upload
+2) De sketch die je moet gebruiken staat bij het volgende kopje in deze manual
+   (hieronder bij "Arduino voorbeeld sketch").\
+   De `DevEUI` key, `AppKey` en `NwKey` moet je toevoegen aan de voorbeeld sketch.
+3) Onder `Tools` -> `Board` kies board `Pico W`
+4) Onder `Tools` -> `Port` kies `UFL board`
+5) Kies `Upload`
 
 ## Arduino voorbeeld sketch
 
-```c++
+```cpp
 // LoRaWAN example code for the Raspberry Pi Pico W and the Waveshare LoRa HAT
 // Version 2 with EEPROM persistent LoRA join information
 #include <Arduino.h>
@@ -438,11 +444,11 @@ void loop() {
 }
 ```
 
-We versturen een temperatuur meting van de interne temperatuur sensor. Dit doen we alleen als een test. Dit is geen betrouwbare manier om de omgevingstemperatuur te meten.
+We versturen een temperatuur meting van de Pico-interne temperatuur sensor. Dit is geen betrouwbare manier om de omgevingstemperatuur te meten, we doen dit alleen als een test.
 
 ## Payload formatteren
 
-Op het TTN moeten we voor deze end node nog laten weten hoe onze payload is geformateerd. Daarvoor voegen we een Payload formatter toe. Ga terug naar [https://eu1.cloud.thethings.network/](https://eu1.cloud.thethings.network/) en kies je project. Selecteer dan je end node. Onder het tabblad 'Payload formatters' voeg je een Custom Javascript formatter toe. De javascript behorende bij de Arduino voorbeeld sketch is de volgende:
+Op het TTN moeten we voor deze end node nog laten weten hoe onze payload is geformateerd. Daarvoor voegen we een Payload formatter toe. Ga terug naar [https://eu1.cloud.thethings.network/](https://eu1.cloud.thethings.network/) en kies je project. Selecteer dan je end node. Onder het tabblad 'Payload formatters' voeg je een `Custom Javascript formatter` toe. De javascript behorende bij de Arduino voorbeeld sketch is de volgende:
 
 ## JavaScript voorbeeld data formatter
 
@@ -470,7 +476,7 @@ function decodeUplink(input) {
 }
 ```
 
-Kies het tabblad Live data. Zie je de data binnenkomen?
+Kies het tabblad `Live data`. Zie je de data binnenkomen?
 
 # Referenties
 
