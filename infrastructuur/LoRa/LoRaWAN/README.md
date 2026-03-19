@@ -23,7 +23,7 @@
 
 ## LoRaWAN
 
-LoRaWAN (Long Range Wide Area Network) is een specificatie voor een telecommunicatienetwerk geschikt voor langeafstandscommunicatie met weinig vermogen. Deze techniek gaan we dit semester gebruiken om sensor data over lange afstand te versturen. De hardware componenten bestaan uit een Raspberry Pi Pico W uit Semester 1 in combinatie met een Pico-LoRa-SX1262-868M Waveshare head. Als software backbone gebruiken we netwerkinfrastructuur van [The Things Network](https://www.thethingsnetwork.org).
+LoRaWAN (Long Range Wide Area Network) is een specificatie voor een telecommunicatienetwerk geschikt voor langeafstandscommunicatie met weinig vermogen. Deze techniek gaan we dit semester gebruiken om sensor data over lange afstand te versturen. De hardware componenten bestaan uit een Raspberry Pi Pico W uit Semester 1 in combinatie met een Pico-LoRa-SX1262-868M Waveshare HAT. Als software backbone gebruiken we netwerkinfrastructuur van [The Things Network](https://www.thethingsnetwork.org).
 
 Iedere student kan het onderstaande stappenplan doorlopen om een werkende verbinding te laten zien. Je gaat daarna met je team verder om de hardwareintegratie met jullie sensor-node verder vorm te geven.
 
@@ -32,12 +32,12 @@ Iedere student kan het onderstaande stappenplan doorlopen om een werkende verbin
 Je hebt nodig:
 - Raspberry Pi Pico W
 - een USB kabel (moet ook geschikt zijn voor data)
-- een Waveshare head
+- een Waveshare HAT
 - Een antenne
 
 ## End device configuratie
 
-Bevestig eerst de antenne aan de Waveshare head (dit is een SMA naar I-PEX MHF I antennekabel). Installeer dan pas de Waveshare head op de Raspberry Pi Pico W. **Op de PCB van de Waveshare head staat de richting van de USB aansluiting aangeven** zo weet je hoe je deze module moet orienteren. 
+Bevestig eerst de antenne aan de Waveshare HAT (dit is een SMA naar I-PEX MHF I antennekabel). Installeer dan pas de Waveshare HAT op de Raspberry Pi Pico W. **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangeven** zo weet je hoe je deze module moet orienteren. 
 
 ## Arduino IDE geschikt maken
 
@@ -103,7 +103,7 @@ De DevEUI key, AppKey en NwKey moet je toevoegen aan de voorbeeld sketch.
 ## Arduino voorbeeld sketch
 
 ```c++
-// LoRaWAN example code for the Raspberry Pi Pico W and the Waveshare LoRa head
+// LoRaWAN example code for the Raspberry Pi Pico W and the Waveshare LoRa HAT
 // Version 2 with EEPROM persistent LoRA join information
 #include <Arduino.h>
 #include <SPI.h>
