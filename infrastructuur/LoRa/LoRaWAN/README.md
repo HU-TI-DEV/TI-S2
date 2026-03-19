@@ -38,7 +38,7 @@ Je hebt nodig:
 
 ## End device configuratie
 
-- **Bevestig eerst de antenne aan de Waveshare HAT** (dit is een SMA naar I-PEX MHF I antennekabel, de kleine connector moet je voorzichtig in de kleine bus drukken).
+- **Bevestig eerst de antenne aan de Waveshare HAT** (dit is een SMA naar I-PEX MHF I antennekabel, de kleine SMA-connector moet je voorzichtig in de kleine SMA-bus drukken).
 - Installeer dan pas de Waveshare HAT op de Raspberry Pi Pico W.
   **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangegeven**, zo weet je hoe je deze module moet orienteren.
 
@@ -57,7 +57,7 @@ We gaan nu de Arduino IDE geschikt maken om softare op de Raspberry Pi Pico te f
 
 ## RadioLib installeren
 
-RadioLib geeft ons de SX1262 radio driver dat is de chip waarmee we data draadloos kunnen versturen.
+RadioLib geeft ons de SX1262 radio driver. (De SX1262 is de chip waarmee we data draadloos kunnen versturen.)
 
 1) Ga naar `Tools` -> `Manage Libraries` en zoek op “RadioLib”
 2) Installeer “RadioLib by Jan Gromes” (mijn versie is 7.6.0)
@@ -482,3 +482,4 @@ Kies het tabblad `Live data`. Zie je de data binnenkomen?
 
 - LoRaWAN (<https://nl.wikipedia.org/wiki/LoRaWAN>)
 - The Things Network (<https://www.thethingsnetwork.org>)
+- Waveshare HAT (<https://www.waveshare.com/wiki/SX1262_868M_LoRa_HAT>)
