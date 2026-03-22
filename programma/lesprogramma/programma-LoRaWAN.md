@@ -1,8 +1,10 @@
 # LoRaWAN
 
-Om data te versturen zijn er verschillend mogelijkheden. Je hebt al kennis gemaakt met I2C en SPI dat zijn protocollen om data bedraad te versturen. Om draadloos data te versturen zijn er ook verschillende technieken die je kunt gebruiken zoals WiFi of Bluetooth. Voor Ineternet of Things (IoT) devices (ook wel end nodes) zijn er technieken ontwikkeld om met weinig energie data berichtjes te versturen. Met één van deze echnieken LoRaWAN ga je deze les kennis maken.
+Om data te versturen zijn er verschillend mogelijkheden. Je hebt al kennis gemaakt met I2C en SPI dat zijn protocollen om data bedraad te versturen. Om draadloos data te versturen zijn er ook verschillende technieken die je kunt gebruiken zoals WiFi of Bluetooth. Voor Ineternet of Things (IoT) devices (ook wel end nodes) zijn er technieken ontwikkeld om met weinig energie data berichtjes te versturen. Met één van deze technieken LoRaWAN ga je deze les kennismaken.
 
 Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN/README.md) zelfstandig uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN is een eis van de opdrachtgever.
+
+Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voro leeruitkomst 7, 8 en 9.
 
 ## Voorbereiding
 
@@ -15,6 +17,6 @@ Zorg dat je de Raspberry Pi Pico uit Semester 1 weer van zolder meeneemt. Je heb
 
 ## Portfolio-Tip
 
-Je hoeft geen herhaling te publiceren van de stappen die je hebt gedaan. Maar laat wel zien dat je data kunt versturen. Voeg bijvoorbeeld dummy data toe aan de payload en documenteer bijvoorbeeld je Custum Javascript formatter. 
+Je hoeft geen herhaling te publiceren van de stappen die je hebt gedaan. Maar laat wel zien dat je data kunt versturen. Voeg bijvoorbeeld dummy data toe aan de payload en documenteer bijvoorbeeld je Custum Javascript formatter. Documenteer en plaats je bevindingen op je repository.
 
-Beantwoord ook de volgende vraag: Noem twee voor- en twee nadelen van het versturen van data met LoRaWAN?
+Beantwoord ook de volgende vraag: Noem twee voor- en twee nadelen van het versturen van data met LoRaWAN? 
