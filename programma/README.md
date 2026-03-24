@@ -119,7 +119,7 @@ Krokusvakantie
 | --- |  --- |
 | ma  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 | di  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
-| wo  | C++ meerdere bronbestanden [.cpp en .hpp files, includes, namespace](../software/c++/meerdere-bronbestanden/README.md) (**GP**) |
+| wo  | [Les - C++ meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP en NG**) |
 | do  | Werken aan Project (**TM**) **Einde Sprint 1**|
 
 ### Onderwijsweek C9 (30-03-2026)
