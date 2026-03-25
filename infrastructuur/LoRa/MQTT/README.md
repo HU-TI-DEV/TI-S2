@@ -53,7 +53,7 @@ Voor nu maken een eenvoudige koppeling met TTN MQTT uplink topic in Python. Met 
 
 # Installeer de Python MQTT library
 ```bash
-python3 -m pip install paho-mqtt
+py -m pip install paho-mqtt
 ```
 
 Ik moest mijn installatie van de MQTT library eerst updaten met:
