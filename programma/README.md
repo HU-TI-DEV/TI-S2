@@ -120,13 +120,13 @@ Krokusvakantie
 | ma  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 | di  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
 | wo  | [Les - C++ meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP en NG**) |
-| do  | Planning voorbereiden Sprint 2 (**TM**) **Einde Sprint 1**|
+| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) **Einde Sprint 1**|
 
 ### Onderwijsweek C9 (30-03-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) **Start Sprint 2**|
+| ma  | Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
 | di  | LoRa. Data verzenden en ontvangen. (**HS**) |
 | wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | [C++ structs](../software/c++/data-types/struct/README.md) en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
