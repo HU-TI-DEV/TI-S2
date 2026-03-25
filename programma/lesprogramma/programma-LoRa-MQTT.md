@@ -1,8 +1,8 @@
 # LoRaWAN en TTN MQTT integratie
 
-Nu we data draadloos kunnen versturen met LoRaWAN is het tijd om iets met deze data te doen. We gaan in in dit prakticum een MQTT integratie opzetten met het tThe Things Network(TTN) platform. MQTT (Message Queuing Telemetry Transport) is een lichtgewicht netwerkprotocol dat berichten tussen apparaten transporteert. 
+Nu we data draadloos kunnen versturen met LoRaWAN is het tijd om iets met deze data te doen. We gaan in in dit prakticum een MQTT integratie opzetten met het The Things Network(TTN) platform. MQTT (Message Queuing Telemetry Transport) is een lichtgewicht netwerkprotocol dat berichten tussen apparaten transporteert. 
 
-Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN/README.md) zelfstandig uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN en een vorm van data integratie is een eis van de opdrachtgever.
+Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/MQTT/README.md) zelfstandig uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN en een vorm van data integratie is een eis van de opdrachtgever.
 
 Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voro leeruitkomst 7, 8 en 9.
 
