@@ -17,4 +17,4 @@ Zorg dat je de Raspberry Pi Pico uit Semester 1 weer van zolder meeneemt. Je heb
 
 ## Portfolio-Tip
 
-Je hoeft geen herhaling te publiceren van de stappen die je hebt gedaan. Maar laat wel zien dat je data kunt ontvangen. Documenteer en plaats je bevindingen op je repositor 
+Je hoeft geen herhaling te publiceren van de stappen die je hebt gedaan. Maar laat wel zien dat je data kunt ontvangen. Documenteer en plaats je bevindingen op je repository. 
