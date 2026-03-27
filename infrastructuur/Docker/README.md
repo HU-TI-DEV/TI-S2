@@ -64,10 +64,11 @@ Laat de actieve containers zien.
 docker ps
 ```
 
-Verwijder een container
+Verwijder een container. Een actieve container moet je eerst stoppen. 
 
 ```bash
-docker remove <container>
+docker container stop <container>
+docker container rm <container>
 ```
 
 ## Referenties
