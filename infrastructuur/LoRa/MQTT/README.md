@@ -5,8 +5,11 @@
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [MQTT Integratie met TTN](#mqtt-integratie-met-ttn)
-- [Testen van de MQTT verbinding](#testen-van-de-mqtt-verbinding)
-
+  - [Testen van de MQTT verbinding](#testen-van-de-mqtt-verbinding)
+  - [Programmatisch een koppeling maken](#programmatisch-een-koppeling-maken)
+- [Installeer de Python MQTT library](#installeer-de-python-mqtt-library)
+  - [Pas het voorbeeld script aan](#pas-het-voorbeeld-script-aan)
+- [Referenties](#referenties)
 
 ---
 
@@ -14,7 +17,7 @@
 
 ---
 
-## MQTT Integratie met TTN
+# MQTT Integratie met TTN
 
 Login in op The Things Stack sandbox [eu1.cloud.thethings.network](https://eu1.cloud.thethings.network/console/)
 
@@ -70,7 +73,7 @@ py -m pip --version
 py -m pip install --upgrade pip
 ```
 
-# Pas het voorbeeld script aan
+## Pas het voorbeeld script aan
 
 Voeg de ontbrekende verbindingsgegevens aan in het volgende voorbeeldscript.
 

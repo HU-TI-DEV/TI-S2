@@ -127,7 +127,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
-| di  | LoRa. Data verzenden en ontvangen. (**HS**) |
+| di  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) |
 | wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | [C++ structs](../software/c++/data-types/struct/README.md) en [classes](../software/c++/oop-concepten/klassen/README.md) (**GP**) |
 
