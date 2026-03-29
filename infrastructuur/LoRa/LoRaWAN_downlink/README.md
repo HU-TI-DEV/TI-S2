@@ -69,9 +69,9 @@ De stoplicht moet extra functionaliteit krijgen. Documenteer alles wat je doet e
      geel = 00000010 = hex 02
      groen = 00000100 = hex 04
 
-Wat stuur je als downlink bericht als je zowel geel als groen aan wilt hebben? Stuur en downlink bericht vanuit TTN en controleer of het werkt.
-
 De opvolgende bytes zijn instructies voor het laten knipperen van een led. Laat de gele led 5 keer knipperen. Wat moet je sturen als downlink?
+
+Wat stuur je als downlink bericht als je zowel geel als groen aan wilt hebben? Stuur en downlink bericht vanuit TTN en controleer of het werkt.
 
 Waarom zou in de praktijk een Class A end node geen verstandige keus zijn voor een stoplicht?
 
