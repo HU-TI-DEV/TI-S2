@@ -14,9 +14,9 @@ Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/R
 
 Iotroam
 
-Iotroam is een wifi netwerk is speciaal geschikt voor dit type apparaten en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam of een eigen hotspot.
+Iotroam is een WiFi netwerk is speciaal geschikt voor dit type apparaten en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam of een eigen hotspot.
 
-Tip! Vanaf Windows 11 is het mogelijk om gebruik te maken van Random Hardware Addresses. Dan werkt uiteraard de MAC filtering op het wifi netwerk niet. Zie onderstaand hoe je deze functionaliteit uit kunt zetten.
+Tip! Vanaf Windows 11 is het mogelijk om gebruik te maken van Random Hardware Addresses. Dan werkt uiteraard de MAC filtering op het WiFi netwerk niet. Zie onderstaand hoe je deze functionaliteit uit kunt zetten.
 
 ![Random Hardware Addresses](./images/random_hardware_adresses.png)
 
@@ -24,10 +24,10 @@ Gebruik eventueel dit script en de LCD opstelling om het IP adres van de Raspber
 
 ## Tijdens de les
 
-Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
+Uitvoeren van deze opdrachten doe je samen als team. Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
-Opdracht: Configureer Meshtastic zodat deze werkt met de door jullie gehoste MQTT server. Visualseer met Node-RED data van de BME280 sensor die is aangesloten op één van jullie nodes.
+Visualseer met Node-RED data van de 1-Wire sensor die is aangesloten op één van jullie nodes. Je mag ook een andere sensor gebruiken bijvoorbeeld een BME280.
 
 ## Portfolio-Tip
 
-Maak een verslag van de werkzaamheden. Vergeet geen beeldmateriaal te maken. Laat MQTT dataverkeer zien met bijvoorbeeld MQTT Explorer. Laat een actuele grafiek zien van temperatuur en luchtvochtigheid. Denk vast na over een data format voor de nog te configureren sensoren die jullie gaan aansluiten.
+Maak een verslag van de werkzaamheden. Vergeet geen beeldmateriaal te maken. Laat MQTT dataverkeer zien met bijvoorbeeld MQTT Explorer. Laat een actuele grafiek zien van temperatuur (en luchtvochtigheid). Denk vast na over een data format voor de nog te configureren sensoren die jullie gaan aansluiten.

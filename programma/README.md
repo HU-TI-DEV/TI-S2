@@ -136,7 +136,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 2e Paasdag |
-| di  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) (**HS**) |
+| di  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) **Einde sprint 2** |
 
@@ -144,7 +144,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Data verzenden en ontvangen. (**HS**) & **Start Sprint 3** |
+| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) Node-RED (**HS**) & **Start Sprint 3** |
 | di  | Geen Les! |
 | wo  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
