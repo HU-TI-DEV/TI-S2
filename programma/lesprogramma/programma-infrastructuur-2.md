@@ -12,18 +12,12 @@ Lees de introductie van de [Raspberry Pi computer](../../hardware-interfacing/em
 Jullie hebben een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi geinstalleerd. 
 Daarnaast hebben jullie nu een werkende [Docker](../../infrastructuur/Docker/README.md) met de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
+Jullie hebben een Python applicatie gemaakt die als bridge werkt tussen The Things Network MQTT integratie en jullie eigen MQTT Broker.
+
 ## Tijdens de les
 
-Opdracht: Sluit een temperatuur-sensor aan op een Arduino Uno. Zet een UART communicatie op via de Raspberry Pi en sla de data op in een database. Post de laatste sensor uitlezing op MQTT. Maak eventueel een eenvoudige website met Flask of een dashboard via Node-Red. 
-
-UML Daigram
-
-![Diagram](./files/Flask_workshop.drawio.svg)
+Opdracht: Visualseer met Node-RED data van de 1-Wire sensor die is aangesloten op één van jullie nodes. Je mag ook een andere sensor gebruiken bijvoorbeeld een BME280. Post de laatste sensor uitlezing op MQTT. Maak eventueel een eenvoudige website met Flask of een dashboard via Node-Red. 
 
 ## Portfolio-Tip
 
-De komende dagen verzinnen en maken jullie zelf een oplossing met behulp van bovenstaande software paketten. Bijvoorbeeld:
-- Het opslaan van weergegevens uit een weer API in een database.
-- Meten van temperatuur en opslag van deze data in een database.
-- Het tonen van metingen in je project op een Flask webpagina.
-- Het publiceren van temperatuur-, rv- (relatieve luchtvochtigheid), CO2 of fijnstof metingen op een MQTT server. 
+Dit zijn complexe team-opdrachten. Verdeel de taken en maak eventueel extra items aan voor jullie scrumboard. Hoe jullie met elkaar samenwerken welke oplossingen worden gekozen zijn onderdelen die bijdragen aan Leeruitkomst 1: Onderzoekend vermogen, Leeruitkomst 2: Organiserend vermogen en Leeruitkomst 3: Interactief vermogen. 

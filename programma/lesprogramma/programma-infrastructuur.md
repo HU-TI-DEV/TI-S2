@@ -6,13 +6,13 @@
 
 ## Voorbereiding
 
-In de vorige les hebben we een OS op de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) geinstalleerd en hebben jullie kennis gemaakt met [Docker containers](../../infrastructuur/Docker/README.md). Per team is er een centrale Raspberry Pi voor het ontvangen, opslaan en visualiseren van sensor-data.
+In de vorige les hebben we een OS op de [Raspberry Pi computer](../../hardware-interfacing/embedded/computer/Raspberry-Pi/README.md) geinstalleerd en hebben jullie kennis gemaakt met [Docker containers](../../infrastructuur/Docker/README.md). Het kan ook zijn dat jullie als team gekozen hebben voor een VM op Azure. Per team is er een in ieder geval een centrale server voor het ontvangen, opslaan en visualiseren van sensor-data.
 
 ## Dit hebben we in een vorige les gedaan
 
 Installeer een [Operating System (OS)](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) op de Raspberry Pi. Zorg dat de Raspberry Pi toegang heeft tot iotroam en benaderbaar is met ssh. 
 
-Iotroam
+# Iotroam
 
 Iotroam is een WiFi netwerk is speciaal geschikt voor dit type apparaten en toepassingen. Mocht je veel problemen ondervinden zou je kunnen terugvallen op Eduroam of een eigen hotspot.
 
@@ -26,7 +26,7 @@ Gebruik eventueel dit script en de LCD opstelling om het IP adres van de Raspber
 
 Uitvoeren van deze opdrachten doe je samen als team. Installeer [Docker](../../infrastructuur/Docker/README.md) en start en configureer de volgende Docker containers: Postgres, [MQTT](../../software/communicatie/MQTT/README.md), [Node-RED](../../software/visueel-programmeren/Node-RED/README.md) en [Flask](../../software/webserver/Flask/README.md). De installatie instructies kan je [hier](../../infrastructuur/OS/Raspberry-Pi-OS/README.md) vinden.
 
-Visualseer met Node-RED data van de 1-Wire sensor die is aangesloten op één van jullie nodes. Je mag ook een andere sensor gebruiken bijvoorbeeld een BME280.
+Je krijgt niet zomaar data op je lokale MQTT broker. De [Python voorbeeldcode voor MQTT integratie](../../infrastructuur/LoRa/MQTT/README.md) moeten jullie ombouwen tot een Python MQTT bridge. Dus je leest het binnenkomende bericht op TTN en publiceert dan weer op een topic op je eigen MQTT broker.
 
 ## Portfolio-Tip
 

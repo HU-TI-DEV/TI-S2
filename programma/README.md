@@ -136,7 +136,7 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 2e Paasdag |
-| di  | [Kennismaking met het installeren van een besturingssysteem](./lesprogramma/programma-RaspberryPi.md) (**HS**) |
+| di  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
 | do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) **Einde sprint 2** |
 
@@ -144,7 +144,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) Node-RED, Flask (**HS**) & **Start Sprint 3** |
+| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Start Sprint 3** |
 | di  | Geen Les! |
 | wo  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
@@ -166,7 +166,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Flask](./lesprogramma/programma-infrastructuur-2.md) (**HS**) **Start sprint 4**|
+| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HS**) **Start sprint 4**|
 | di  | Bevrijdingsdag |
 | wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
@@ -175,7 +175,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [PostgreSQL & Node-Red](./lesprogramma/programma-infrastructuur-2.md) (**HS**) |
+| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HS**) |
 | di  | Werken aan project (**TM**) |
 | wo  | C++ Feedback (**GP & NG**) & Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | **3de Peilmoment**  & Werken aan het project (**TM**) **Einde Sprint 4**|
@@ -184,7 +184,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | LoRa. Data van een sensor verzenden en ontvangen. (**HS**) **Start Sprint 5**|
+| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en Grafana 3/3 (**HS**) **Start Sprint 5**|
 | di  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) |
 | wo  | C++ Feedback (**GP & NG**) & [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
