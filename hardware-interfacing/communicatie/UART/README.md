@@ -28,12 +28,12 @@
 
 UART staat voor “Universal Asynchronous Receiver/Transmitter”. UART is een asynchrone seriele interface met configuratie mogelijkheden zoals het aantal stopbits en even of oneven pariteit. UART wordt gebruikt voor communicatie met randapparatuur. Een microcontroller heeft meestal een of meerdere UARTs op de chip. UARTs maken vaak gebruik van communicatiestandaarden als RS-232 en RS-422.
 
-  Pariteit is een eenvoudige vorm van foutcontrole. Stuur je data met even pariteit dan moeten alle 1-bits even zijn. Zijn de 1-bits even dan is de pariteit bit 0. Zijn de 1-bits oneven dan is de pariteit bit 1 zodat het totaal weer even is.
+> Pariteit is een eenvoudige vorm van foutcontrole. Stuur je data met even pariteit dan moeten alle 1-bits even zijn. Zijn de 1-bits even dan is de pariteit bit 0. Zijn de 1-bits oneven dan is de pariteit bit 1 zodat het totaal weer even is.
 
-  | Data | Aantal 1-bits | Even Pariteit (toegevoegde bit) 
-  | --- | --- | --- | 
-  | 10101100 | 4 (even) | 0	 
-  | 10101101 | 5 (oneven) | 1 
+| Data     | Aantal 1-bits | Even Pariteit (toegevoegde bit) |
+| ---      | ---        | --- |
+| 10101100 | 4 (even)   | 0 |
+| 10101101 | 5 (oneven) | 1 |
 
 # UART communicatie tussen Raspberry Pi en Arduino
 
@@ -266,6 +266,7 @@ Een test of een UART werkt kan je doen door TX met RX te verbinden dit noemen we
 Je kunt een `loopback test` uitvoeren op `/dev/ttyAMA3` door pin 4 en 5 te verbinden:
 
 ```python
+# Raspberry Pi - Python - UART Loopback Test
 import serial
 import time
 
@@ -299,6 +300,7 @@ if __name__ == "__main__":
 Met de volgende Python code kan je het verzenden testen:
 
 ```python
+# Raspberry Pi - Python - UART Send Test
 import serial
 import time
 
@@ -329,6 +331,7 @@ if __name__ == "__main__":
 Ook het luisteren werkt:
 
 ```python
+# Raspberry Pi - Python - UART Receive Test
 import serial
 
 def listen_to_serial(port_name, baudrate=9600):
@@ -364,6 +367,7 @@ Als we een andere UART willen gebruiken, of meer dan een UART nodig hebben kunne
 ## Zenden met Arduino Uno
 
 ```cpp
+// Arduino Uno - C++ - UART Send Test
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(10, 11); // RX, TX
@@ -388,7 +392,11 @@ void loop() { // verstuur de cijferreeks elke 2 seconden
 ## Ontvangen met Arduino Uno
 
 ```cpp
+// Arduino Uno - C++ - UART Receive Test
 #include <SoftwareSerial.h>
+
+// Verwijder commentaartekens '//' om te activeren:
+// #define SEND_FROM_HW_TO_SW_UART
 
 SoftwareSerial mySerial(10, 11); // RX, TX (pas dit aan naar jouw pins)
 
@@ -404,12 +412,15 @@ void loop() {
     Serial.print(c);
   }
 
-  // Als je ook data van de standaard UART naar de extra UART wilt sturen:
+#ifdef SEND_FROM_HW_TO_SW_UART
+  // Als je ook data van de standaard UART naar de Software-UART wilt sturen:
   while (Serial.available()) {
     char c = Serial.read();
     mySerial.print(c);
   }
-}
+#endif
+
+} // end loop
 ```
 
 ## Referenties
