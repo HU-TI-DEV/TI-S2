@@ -4,7 +4,7 @@ We kunnen data versturen en met MQTT verder verwerken. Kan je ook een bericht te
 
 Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN_downlink/README.md) zelfstandig en deels samen met je team uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN en een vorm van data integratie is een eis van de opdrachtgever. 
 
-    Downlink berichten is geen eis van het eindproduct. Het gaat er deze les vooral over of en hoe je tot een handige payload (eigenlijk data protocol) kunt komen.
+Downlink berichten is geen eis van het eindproduct. Het gaat er deze les vooral over of en hoe je tot een handige payload (eigenlijk data protocol) kunt komen.
 
 Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voro leeruitkomst 7, 8 en 9.
 

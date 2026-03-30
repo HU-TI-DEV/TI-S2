@@ -88,3 +88,4 @@ Optioneel:
 - MQTT (<https://en.wikipedia.org/wiki/MQTT>)
 - LoRa (<https://en.wikipedia.org/wiki/LoRa>)
 - The Things Network (<https://www.thethingsnetwork.org>)
+- Hexadecimal in 60 seconds (<https://www.youtube.com/shorts/ZYIdA0gUNss>)
