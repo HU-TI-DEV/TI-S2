@@ -144,7 +144,7 @@ Krokusvakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) Node-RED (**HS**) & **Start Sprint 3** |
+| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) Node-RED, Flask (**HS**) & **Start Sprint 3** |
 | di  | Geen Les! |
 | wo  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
