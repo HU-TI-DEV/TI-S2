@@ -1,3 +1,12 @@
+---
+title: "C++ Files input - slides"
+course: "TI-S2 • Software (C++)"
+author: Gera Pronk
+sources:
+  - text: "Files input"
+    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_Files_input.md"
+  - "Content laten mixen tot ruwe slides: CoPilot"
+---
 
 # Files input/output C++
 

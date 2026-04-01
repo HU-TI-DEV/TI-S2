@@ -1,11 +1,18 @@
 ---
+title: "C++ Bits — slides"
+course: "TI-S2 • Software (C++)"
+author: Gera Pronk
+sources:
+  - text: "bits"
+    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_bits_slides.md"
+  - "Content laten mixen tot ruwe slides: CoPilot"
+---
 
 # C++ Bits — Slides
 
 TI-S2 • Software (C++)
 Gera Pronk
 
-Bronnen:
 - [bits](https://github.com/HU-TI-DEV/TI-S2/blob/main/programma/lesprogramma/programma-cpp-bits.md)
 - Content laten mixen tot ruwe slides: CoPilot
 
@@ -18,9 +25,10 @@ Bronnen:
 ---
 
 # 📦 Bits en datatype
-- We gebruiken vaak het type: `uint8_t`.
+- We gebruiken vaak het type: "`uint8_t`."
 - Dit type bestaat uit slechts één byte (8 bits).
-Bijvoorbeeld:
+
+- Bijvoorbeeld:
 ```cpp
 uint8_t val_zeroes = 0x00;   // 00000000
 uint8_t val_ones =   0xFF;   // 11111111

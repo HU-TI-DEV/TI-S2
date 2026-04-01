@@ -1,4 +1,12 @@
-
+---
+title: "C++ Structs — slides"
+course: "TI-S2 • Software (C++)"
+author: Gera Pronk
+sources:
+  - text: "structs"
+    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_structs_slides.md"
+  - "Content laten mixen tot ruwe slides: CoPilot"
+---
 # C++ Structs — Slides
 
 **TI-S2 • Software (C++)**  
@@ -122,4 +130,4 @@ Schrijf een functie die de grade met +0.5 verhoogt.
 
 # 📝 Samenvatting
 - Structs → logische datatypes
-- 
+- Structs → opmaat naar classes

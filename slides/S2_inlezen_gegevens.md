@@ -1,4 +1,12 @@
-
+---
+title: "C++ Inlezen gegevens - slides"
+course: "TI-S2 • Software (C++)"
+author: Gera Pronk
+sources:
+  - text: "inlezen gegevens"
+    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_inlezen_gegevens.md"
+  - "Content laten mixen tot ruwe slides: CoPilot"
+---
 # Inlezen van gegevens in C++
 
 **TI-S2 • Software (C++)**  

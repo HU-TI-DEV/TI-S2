@@ -1,4 +1,12 @@
-
+---
+title: "C++ Meerdere bestanden — slides"
+course: "TI-S2 • Software (C++)"
+author: Gera Pronk
+sources:
+  - text: "meerdere bestanden"
+    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_meerdere_bestanden.md"
+  - "Content laten mixen tot ruwe slides: CoPilot"
+---
 # C++ – Programmeren met meerdere bestanden
 
 C++ - Interface, implementatie & header files
