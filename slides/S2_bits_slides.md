@@ -2,7 +2,7 @@
 
 # C++ Bits — Slides
 
-**TI-S2 • Software (C++)**  
+TI-S2 • Software (C++)
 Gera Pronk
 
 Bronnen:
