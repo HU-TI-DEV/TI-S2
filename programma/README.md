@@ -136,24 +136,24 @@ Krokusvakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | 2e Paasdag |
-| di  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) |
-| wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**).|
-| do  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) **Einde sprint 2** |
+| di  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
+| wo  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
+| do  |  [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) **Einde sprint 2** |
 
 ### Onderwijsweek D1 (13-04-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Start Sprint 3** |
+| ma  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**)  & **Start Sprint 3** |
 | di  | Geen Les! |
-| wo  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) |
+| wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
 ### Onderwijsweek D2 (20-04-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**)|
+| ma  | [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
 | di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
 | wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
 | do  | C++ Feedback (**GP & NG**) & Werken aan project (**TM**) **Einde Sprint 3**|
