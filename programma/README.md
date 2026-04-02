@@ -138,7 +138,7 @@ Krokusvakantie
 | ma  | 2e Paasdag |
 | di  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
 | wo  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
-| do  | Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Einde sprint 2** |
+| do  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Einde sprint 2** |
 
 ### Onderwijsweek D1 (13-04-2026)
 
