@@ -2,8 +2,6 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 - [Opdracht 2.4A Klasse en operatoren](#opdracht-24a-klasse-en-operatoren)
-- [Opdracht 2.4B - Doxygen (deze opdracht volgt nog)](#opdracht-24b---doxygen-deze-opdracht-volgt-nog)
-- [Opdracht 2.4C en 2.4D - Catch2 (deze opdrachten volgen nog)](#opdracht-24c-en-24d---catch2-deze-opdrachten-volgen-nog)
 
 
 #### Opdracht 2.4A Klasse en operatoren
@@ -18,7 +16,3 @@ NB: `v` is in deze tabel gelijk aan een instance van `vector`
 
 ![alt text](vector_functionaliteiten.png)
 *Figuur: Functionaliteiten voor een vector of coördinatenpaar*
-
-#### Opdracht 2.4B - Doxygen (deze opdracht volgt nog)
-
-#### Opdracht 2.4C en 2.4D - Catch2 (deze opdrachten volgen nog)
