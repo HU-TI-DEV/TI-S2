@@ -16,6 +16,12 @@ We herhalen structs.
   
 ### Sneak peak
 - Kijk alvast naar de opdracht **OO - Compositie** op Canvas.
+- Voor de Pasen: [flappy bird](https://terminalroot.com/how-to-make-flappy-bird-with-cpp/).
+  
+## Tip van Wouter
+Als je het leuk vindt om de game 'Factorio' van binnen te zien, kijk dan naar:
+[Factorio wiki](https://wiki.factorio.com/Tutorial:Modding_tutorial).
+Begin bovenaan met de 'simple modding tutorial'.
 
 ## Tijdens de les
 1. De docent licht het datatype classes toe.
@@ -30,7 +36,7 @@ We herhalen structs.
 2. Je maakt de opdracht **OO Classes & operatoren** op Canvas.
 
 ## Na de les
-- Slides volgen na de les.
+- Geen slides dit keer.
 - Meer over classes vind je op de site van [cppreference](https://en.cppreference.com/w/cpp/language/classes.html).
 
 
