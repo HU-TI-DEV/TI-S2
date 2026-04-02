@@ -138,13 +138,13 @@ Krokusvakantie
 | ma  | 2e Paasdag |
 | di  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
 | wo  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
-| do  |  [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) **Einde sprint 2** |
+| do  | Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Einde sprint 2** |
 
 ### Onderwijsweek D1 (13-04-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Start Sprint 3** |
+| ma  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**)[& **Start Sprint 3** |
 | di  | Geen Les! |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
