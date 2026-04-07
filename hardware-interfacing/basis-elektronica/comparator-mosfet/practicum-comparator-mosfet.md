@@ -1,32 +1,35 @@
 # Practicum Comparator - MOSFET
 
 ## Tip: Datasheet opdrachten het laatst
-Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdrachten klaar te hebben, en daarna pas te beginnen aan de datasheet gerelateerde opdrachten (die kunnen makkelijker na de les worden afgemaakt).
+
+Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdrachten
+klaar te hebben, en daarna pas te beginnen aan de datasheet gerelateerde opdrachten
+(die kunnen makkelijker na de les worden afgemaakt).
 
 ## Benodigd
 
 - Een breadboard
+- Breadboard wires (of draad en striptang)
 - Een multimeter
-- Een LM324 (chip met 4x opamp)
-- Een 10k potmeter (potentiometer of regelbare weerstand)
-- Een 2 weerstanden van 1k
-- Een weerstand van 2,2k
-- Breadboard wires of draad+striptang
-- Een PMOS-FET NDP6020P
-- Een weerstand van 10k
+- Een LM324 (4x OpAmp IC)
+- Een PMOS-FET NDP6020P (alternatief 1) **of** een NMOS-FET 2N7000 (alternatief 2)
+- Een 10kΩ potentiometer (potmeter of regelbare weerstand)
+- Twee weerstanden van 1 kΩ
+- Een weerstand van 10 kΩ
 - Een weerstand van 100 Ω
+- Een weerstand van 2,2 kΩ
 
 # Comparator
 
 ## Benodigd
 
 - Een breadboard
+- Breadboard wires (of draad en striptang)
 - Een multimeter
-- Een LM324 (chip met 4x opamp)
-- Een 10k potmeter (potentiometer of regelbare weerstand)
-- Een 2 weerstanden van 1k
-- Een weerstand van 2,2k
-- Breadboard wires of draad+striptang
+- Een LM324 (4x OpAmp IC)
+- Een 10kΩ potentiometer (potmeter of regelbare weerstand)
+- Twee weerstanden van 1 kΩ
+- Een weerstand van 2,2 kΩ
 
 ## Opdracht
 
@@ -47,9 +50,9 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
 
 2. Stel nu dat je de ingangen andersom aansluit:  
    <img title="" src="./media/media/image6.png" alt="" width="461">  
-   
+
    **Hoe gedraagt de schakeling zich dan? Verklaar!****  
-   
+
    **Zoek op in de datasheet van de opamp:****
 
 3. **Wat is zijn typische versterkingsfactor? (de versterking van de
@@ -57,10 +60,10 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
    zijn uitgang)**
 
 4. **Wat is zijn maximale input offset spanning?
-   Wat heeft dat tot gevolg in bovenstaande schakeling? ** 
+   Wat heeft dat tot gevolg in bovenstaande schakeling?**
 
-5. **Wat is zijn maximale input instel stroom?   
-   Wat heeft dat tot gevolg in bovenstaande schakeling?** 
+5. **Wat is zijn maximale input instel stroom?
+   Wat heeft dat tot gevolg in bovenstaande schakeling?**
 
 6. **Wat is zijn maximale input offset stroom?  
    Wat heeft dat tot gevolg in bovenstaande schakeling?**
@@ -75,13 +78,11 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
    stroom nodig heeft, zou die motor dan met deze schakeling aan een
    uitgezet kunnen worden? Waarom wel/niet?**
 
-10. **Wat is de kleinste voedingsspanning waarvoor de opamp nog goed
-    werkt?**
+10. **Wat is de kleinste voedingsspanning waarvoor de opamp nog goed werkt?**
 
 11. **Wat is de maximale voedingsspanning?**
 
-12. **Wat is zijn maximale stroomverbruik (als je niets aan de uitgangen
-    hangt)?**
+12. **Wat is zijn maximale stroomverbruik (als je niets aan de uitgangen hangt)?**
 
 13. **Wat is de maximale uitsturing (uitgangsspanning) naar beneden (bij
     5V voedingsspanning en een 10k weerstand als belasting naar de
@@ -91,17 +92,17 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
     5V voedingsspanning en een 2k weerstand als belasting naar
     ground)?**
 
-# PMOS transistor
+# PMOS transistor (alternatief 1)
 
 ## Benodigd
 
 - Een breadboard
+- Breadboard wires (of draad en striptang)
 - Een multimeter
 - Een PMOS-FET NDP6020P
-- Een 10k potmeter (potentiometer of regelbare weerstand)
-- Een weerstand van 10k
+- Een 10kΩ potentiometer (potmeter of regelbare weerstand)
+- Een weerstand van 10 kΩ
 - Een weerstand van 100 Ω
-- Breadboard wires of draad+striptang
 
 ## Opdracht
 
@@ -110,7 +111,7 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
    Zoek in de datasheet van de PMOS zijn pinnen op. Zijn source is met
    de voedingsspanning verbonden, zijn drain met belastingsweerstand R1
    en zijn gate met (stroom-) meetweerstand R2.  
-   
+
    <img title="" src="./media/media/image7.png" alt="" width="435">
 
 2. Met P1 kun je V1 regelen. D.m.v. een spanningsmeting over R2 en de
@@ -126,7 +127,64 @@ Het is een goed idee om te proberen tijdens de les de praktijk-gerelateerde opdr
 4. **Maak nu een grafiek met V1 op de horizontale as (van 0V tot 5V, in
    stappen van 0,25V) en I1 langs de verticale as (I1 bepaal je door de
    spanning over R1 te meten en de wet van Ohm te gebruiken).**  
-   
+
+   **Zoek in de datasheet van de PMOS op:**
+
+5. **Wat de maximale drain-stroom is die hij kan leveren.**
+
+6. **Wat de maximale source-drain spanning is waarbij hij nog kan
+   werken.**
+
+7. **Wat de maximaal toegestane source-gate spanning is.**
+
+8. Bij de eerste schakeling in de comparator opdracht zagen we dat de
+   comparator niet al te veel stroom kan “sourcen”.  
+   Stel nu dat we met de comparator (in plaats van een led+R1) een 5V
+   motor willen aanschakelen (die 1A stroom verbruikt als hij aan
+   staat).  
+   **Bedenk een aanpassing van die schakeling waardoor dat mogelijk
+   wordt (hint: gebruik de PMOS). Leg uit hoe het werkt.**
+
+9. Je kunt ook sterke stromen schakelen met een NMOS transistor.**  
+   **In wat voor situaties zijn NMOS transistors handiger?**  
+   **In wat voor situaties zijn PMOS transistors handiger?**  
+
+# NMOS transistor (alternatief 2)
+
+## Benodigd
+
+- Een breadboard
+- Breadboard wires (of draad en striptang)
+- Een multimeter
+- Een NMOS-FET 2N7000
+- Een 10kΩ potentiometer (potmeter of regelbare weerstand)
+- Een weerstand van 10 kΩ
+- Een weerstand van 100 Ω
+
+## Opdracht
+
+1. Bouw de onderstaande schakeling, met Vsup=5V, P1=10kΩ, R2=10kΩ en R1=100Ω.  
+   Zoek in de datasheet van de NMOS zijn pinnen op.
+   Zijn source is met minus van de voedingsspanning verbonden,
+   zijn drain met belastingsweerstand R1
+   en zijn gate met (stroom-) meetweerstand R2.  
+
+   <img title="" src="./media/media/n-mos-practicum.png" alt="" width="435">
+
+2. Met P1 kun je V1 regelen. D.m.v. een spanningsmeting over R2 en de
+   wet van Ohm kun je de stroom bepalen die in de gate van de PMOS
+   transistor loopt.  
+   Varieer V1 langzaam van 0V tot 5V, terwijl je de spanning VR2 over
+   R2 meet.  
+   **Wat is de hoogste spanning VR2 die je hebt gemeten?**
+
+3. **Wat is de hoogste stroom die in de gate van de PMOS transistor
+   loopt?**
+
+4. **Maak nu een grafiek met V1 op de horizontale as (van 0V tot 5V, in
+   stappen van 0,25V) en I1 langs de verticale as (I1 bepaal je door de
+   spanning over R1 te meten en de wet van Ohm te gebruiken).**  
+
    **Zoek in de datasheet van de PMOS op:**
 
 5. **Wat de maximale drain-stroom is die hij kan leveren.**
