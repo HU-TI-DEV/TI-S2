@@ -83,6 +83,8 @@ Maak een Docker image.
 docker build -t flaskapp . 
 ```
 
+Eerder heb je een lijst met packages opgeslagen met `(venv)$ pip freeze > requirements.txt`. Als je nu tijdens het bouwen van de Docker image foutmedlingen krijgt gerelateerd aan `pip`, kan je met `cat requirements.txt` dit bestand aanpassen. Pas alle `==` aan naar `>=`, en pas eventueel de versienummers aan naar een lagere versie. Dan zou het moeten werken.
+
 Voer je Flask applicatie uit als een Docker container
 
 ```bash
