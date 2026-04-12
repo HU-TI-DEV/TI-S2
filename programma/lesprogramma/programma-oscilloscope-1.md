@@ -12,7 +12,3 @@ In deze les maken we kennis met een oscilloscope (de picoscope).
 Tijdens de les werk je samen met een team aan de volgende opdracht(en):
 
 - [Practicum Oscilloscope](../../hardware-interfacing/basis-elektronica/oscilloscope/README.md) 
-
-## Tweede helft: volgende les
-
-- Het practicum is te groot om binnen een enkele les af te ronden. Tijdens de [volgende les](./programma-oscilloscope-2.md) ronden we het af.

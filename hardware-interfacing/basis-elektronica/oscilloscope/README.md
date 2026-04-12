@@ -25,7 +25,7 @@ Het is belangrijk dat je met een oscilloscoop kunt omgaan als je programmeert vo
 
 Dit practicum wordt uitgevoerd door een **team** studenten die samen de proeven uitvoeren en samen het meetrapport invullen. Bij het eerste deel van dit practicum doe je een onderzoek naar de hardware. Daarna maak je kennis met de software. Vervolgens ga je de oscilloscoop gebruiken voor een aantal interessante metingen.
 
-Er zijn twee practicum dagen. Je maakt als groep steeds 1 van de twee mogelijke practica. Het eerste deel 'kennismaken met de oscilloscoop' doen we gezamenlijk in de klas.
+Er zijn twee practicum dagen. Het eerste deel 'kennismaken met de oscilloscoop' doen we gezamenlijk in de klas.
 
 ## Benodigdheden voor dit practicum
 
@@ -171,7 +171,11 @@ gemaakt.
 
 ### Practicum meten aan hardware
 
-Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één practicum. Maak een verslag en plaats de uitwerking op de groeps-repository. De volgende practica zijn verplicht:
+Er zijn verschileende meetstations waarnaar jullie een signaal onderzoek moeten doen. Vul samen met je groep (2 tot maximaal 3 sudenten) het Werkblad signaalonderzoek Arduino Uno en PicoScope in. Kijk naar minimaal drie verschillende signalen. Er is ook een verdiepingsopdracht. Na het inleveren van de ingevulde documenten krijgen jullie de resultaten en kunnen jullie zelf de antwoorden controleren.
+
+### Extra verdieping
+
+Het volgende practicum kan je doen voor extra verdieping.
 
 - Het meten met een oscilloscoop en het maken van verschillende signalen met een [Signaalgenerator](./oscilloscope_signaalgenerator.md).
 
@@ -179,12 +183,6 @@ Er zijn twee practicum dagen. Je maakt met je team op elke dag minimaal één pr
 
 - Een meting aan het signaal van de [seriële poort](./oscilloscope_seriele_poort.md). Hiermee maak je het digitale signaal zichtbaar om daarmee de start-, stop- en databit(s) te beoordelen en de bitsnelheid te meten.
 
-Of
-
 - Een meting aan een [laagdoorlaat filter](./oscilloscope_RC-filter.md). Zo’n filter wordt gebruikt om stoorsignalen met een hoge frequentie tegen te houden.
   
-### Extra verdieping
-
-Het volgende practicum kan je doen voor extra verdieping.
-
 - Een meting aan een [voedingsadapter](./oscilloscope_voedingsspanning.md) die gevoed wordt door het lichtnet (wisselspanning) en een <u>gelijk</u>spanning aan de uitgang geeft. Met de meting onderzoek je hoe “mooi” de gelijkspanning op de uitgang is.
