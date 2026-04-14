@@ -6,7 +6,7 @@ Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN_downlink/
 
 Downlink berichten is geen eis van het eindproduct. Het gaat er deze les vooral over of en hoe je tot een handige payload (eigenlijk data protocol) kunt komen.
 
-Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voro leeruitkomst 7, 8 en 9.
+Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voor leeruitkomst 7, 8 en 9.
 
 ## Voorbereiding
 
