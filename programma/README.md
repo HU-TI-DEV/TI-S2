@@ -156,7 +156,7 @@ Krokusvakantie
 | ma  |  Werken aan project (**TM**) |
 | di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
 | wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
-| do  | Operatoren en C++ Feedback (**GP & NG**) & **Einde Sprint 3**|
+| do  | [Operatoren](./lesprogramma/programma-cpp-operatoren.md) en C++ Feedback (**GP & NG**) & **Einde Sprint 3**|
 
 ### Onderwijsweek D3 (27-04-2026)
 
