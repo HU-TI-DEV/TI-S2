@@ -168,7 +168,7 @@ Meivakantie
 | --- |  --- |
 | ma  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**)  **Start sprint 4**|
 | di  | Bevrijdingsdag |
-| wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
+| wo  | Korte uitleg Plan van Aanpak - Canvas (**GP**), [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
 
 ### Onderwijsweek D5 (11-05-2026)
