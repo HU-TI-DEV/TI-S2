@@ -38,35 +38,60 @@ Zie voorbeeld onder.
 
 Zelf installeren:
 
-- Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/2.5.1/): gebruik de juiste gcc mingw versie. <!-- markdown-link-check-disable-line -->
+- Let op de versie die je [downloadt](https://www.sfml-dev.org/download/sfml/): gebruik de juiste gcc mingw versie. <!-- markdown-link-check-disable-line -->
 
 ## Test SFML Installatie
 
 Deze voorbeeldcode toont een venster met een cirkel en een vierkant.
+De code wordt momenteel uitgebreid voor meerdere SFML versies.
 
 ```cpp
-/// @file main.c -- SFML install test
+/// @file test_sfml_installatie.cpp -- SFML install test
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include <SFML/Config.hpp> // for SFML version
 #include <iostream>
 
-int main ()
+// print SFML version
+void print_SFML_version()
 {
-    sf::RenderWindow window (sf::VideoMode(800,600), "SFMLtest", sf::Style::Default, sf::ContextSettings(0, 0, 2));
-    sf::RectangleShape square(sf::Vector2f(200.0,200.0));
+    std::cout
+        << "Current SFML version: " << std::endl
+        << SFML_VERSION_MAJOR << "."
+        << SFML_VERSION_MINOR << "."
+        << SFML_VERSION_PATCH << std::endl;
+}
+
+// currently only checking on major version number
+bool issupported_SFML_version()
+{
+    std::cout << "This program only supports SFML 2.x.x. Your version is:" << std::endl;
+    print_SFML_version();
+    return (SFML_VERSION_MAJOR == 2);
+}
+
+int main()
+{
+    if (!issupported_SFML_version())
+        return -1;
+    // else
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFMLtest", sf::Style::Default, sf::ContextSettings(0, 0, 2));
+    sf::RectangleShape square(sf::Vector2f(200.0, 200.0));
     sf::CircleShape circle(100.0);
-    square.setPosition(sf::Vector2f(150.0,200.0));
-    circle.setPosition(sf::Vector2f(450.0,200.0));
-    while (window.isOpen()) {
+    square.setPosition(sf::Vector2f(150.0, 200.0));
+    circle.setPosition(sf::Vector2f(450.0, 200.0));
+    while (window.isOpen())
+    {
         sf::Event event;
-        while (window.pollEvent(event)) {
+        while (window.pollEvent(event))
+        {
             if (event.type == sf::Event::Closed)
                 window.close();
         }
         window.clear();
         window.draw(square);
         window.draw(circle);
-        window.display ();
+        window.display();
         sf::sleep(sf::milliseconds(20));
     }
     return 0;
@@ -77,7 +102,7 @@ int main ()
 
 Je kan deze bestand ook [hier downloaden](./test_sfml_installatie.cpp).
 
-Dit is hoe het dan uitziet:
+Dit is hoe het er dan uitziet:
 
 ![test_sfml_installatie](./img/test_sfml_installatie.png)
 
