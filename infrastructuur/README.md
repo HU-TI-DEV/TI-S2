@@ -1,8 +1,8 @@
 # infrastructuur
 
-* [Docker/](./infrastructuur/Docker)
-* [LoRa/](./infrastructuur/LoRa)
-  * [LoRaWAN/](./infrastructuur/LoRa/LoRaWAN)
-  * [MQTT/](./infrastructuur/LoRa/MQTT)
-* [OS/](./infrastructuur/OS)
-  * [Raspberry-Pi-OS/](./infrastructuur/OS/Raspberry-Pi-OS)
+* [Docker/](./infrastructuur/Docker/README.md)
+* [LoRa/](./infrastructuur/LoRa/README.md)
+  * [LoRaWAN/](./infrastructuur/LoRa/LoRaWAN/README.md)
+  * [MQTT/](./infrastructuur/LoRa/MQTT/README.md)
+* [OS/](./infrastructuur/OS/README.md)
+  * [Raspberry-Pi-OS/](./infrastructuur/OS/Raspberry-Pi-OS/README.md)
