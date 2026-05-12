@@ -184,7 +184,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en Grafana 3/3 (**HS**) **Start Sprint 5**|
+| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en presenteer je team-oplossing (**HS**) **Start Sprint 5**|
 | di  | Werken aan project (**TM**) |
 | wo  | C++ Feedback (**GP & NG**) & [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
@@ -203,7 +203,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 6**|
-| di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID deel 1 (**HS**)|
+| di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
 | do  | Werken aan eigen library (**GP & NG**)|
 
