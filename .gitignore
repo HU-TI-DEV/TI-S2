@@ -1,6 +1,11 @@
 .idea
 *.autosave
-_slidev\*.md
+.vscode/
+package-lock.json
+*.code-workspace
+*.exe
+.json
+
 _slidev
 **/tripleminus.py
 software/c++/oop-concepten/klassen/04-07-rectangle/line.cpp
@@ -12,6 +17,3 @@ software/c++/oop-concepten/klassen/04-07-rectangle/rectangle.hpp
 software/c++/oop-concepten/overerving/virtual-abstract.md
 *.workspace
 *.DS_Store
-.vscode
-package-lock.json
-*.code-workspace
