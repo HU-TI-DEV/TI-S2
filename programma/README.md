@@ -177,7 +177,7 @@ Meivakantie
 | --- |  --- |
 | ma  | Project Pitch (**TP**) & [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HS**)  |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HS**) |
-| wo  | C++ Feedback (**GP & NG**) & Surprise; [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
+| wo  | C++ Feedback (**GP**) & [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 | do  | Hemelvaart **Einde Sprint 4**|
 
 ### Onderwijsweek D6 (18-05-2026)
