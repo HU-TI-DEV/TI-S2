@@ -185,8 +185,8 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en presenteer je team-oplossing (**HS**) **Start Sprint 5**|
-| di  | Werken aan project (**TM**) |
-| wo  | C++ Feedback (**GP & NG**) & [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md) (**GP**)  C++ [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
+| di  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**NG**) & Werken aan project (**TM**) |
+| wo  | C++ Feedback (**GP & NG**) & C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md),  [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 | do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 
 ### Onderwijsweek D7 (25-05-2026)
@@ -195,8 +195,8 @@ Meivakantie
 | --- |  --- |
 | ma  | Vrij - Pinksteren |
 | di |  [Afronding I2C (ADC YL-40/PCF8591), I/O expander (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**), Werken aan project (**TM**) |
-| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
-| do  | **3de Peilmoment**  & C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) **Einde Sprint 5**|
+| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) & C++ [Overerving](../software/c++/oop-concepten/overerving/README.md) (**NG & GP**)|
+| do  | **3de Peilmoment**,  C++ Library testen en documenteren: [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2), [Doxygen](../software/c++/oop-concepten/doxygen/README.md) (**GP**), C++ Feedback (**GP & NG**), **Einde Sprint 5**|
 
 ### Onderwijsweek D8 (1-06-2026)
 
