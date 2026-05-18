@@ -194,8 +194,7 @@ Meivakantie
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | Vrij - Pinksteren |
-| tbd |  [Afronding workshop I2C, Start IO expander practicum](./lesprogramma/programma-i2c-2-3.md) (**HP**) [Practicum IO Expander I2C afronden](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| di  | Werken aan project (**TM**) |
+| di |  [Afronding I2C (ADC YL-40/PCF8591), I/O expander (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**), Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) support klassendiagrammen, [Doxygen opdracht](../software/c++/oop-concepten/doxygen/opdr_doxygen.md), C++ (**GP**) [Overerving](../software/c++/oop-concepten/overerving/README.md) C++ (**GP**)|
 | do  | **3de Peilmoment**  & C++ Feedback (**GP & NG**) & C++ [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) (**GP**) **Einde Sprint 5**|
 
