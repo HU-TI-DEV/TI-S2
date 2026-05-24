@@ -205,7 +205,7 @@ Meivakantie
 | ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 6**|
 | di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**)|
 | wo  | Werken aan eigen library (**GP & NG**)|
-| do  | Werken aan eigen library (**GP & NG**)|
+| do  | Werken aan eigen library (**NG & GP**)|
 
 ### Onderwijsweek D9 (8-06-2026)
 
