@@ -195,7 +195,7 @@ Meivakantie
 | --- |  --- |
 | ma  | Vrij - Pinksteren |
 | di |  [Afronding I2C (ADC YL-40/PCF8591), I/O expander (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**), Werken aan project (**TM**) |
-| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) & C++ [Overerving](../software/c++/oop-concepten/overerving/README.md) (**NG & GP**)|
+| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) & C++ [Les Overerving](../programma/lesprogramma/programma-cpp-inheritance.md) (**NG & GP**)|
 | do  | **3de Peilmoment**,  C++ Library testen en documenteren: [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2), [Doxygen](../software/c++/oop-concepten/doxygen/README.md) (**GP**), C++ Feedback (**GP & NG**), **Einde Sprint 5**|
 
 ### Onderwijsweek D8 (1-06-2026)
