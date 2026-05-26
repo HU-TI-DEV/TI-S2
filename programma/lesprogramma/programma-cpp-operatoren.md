@@ -1,4 +1,4 @@
-# Recursie
+# Operatoren
 
 ## Wat leer je vandaag?
 - We herhalen wat je in de vorige lessen geleerd hebt; OO, composition/aggregation
