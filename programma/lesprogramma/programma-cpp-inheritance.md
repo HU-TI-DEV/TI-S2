@@ -1,6 +1,6 @@
 # C++ overerving
 We gaan werken met een belangrijk OOP-concept: overerving.
-We bouwen verder op classes en herhalen kort de rol van structs.
+We bouwen verder op classes.
 
 ## Wat leer je vandaag?
 - Je leert meer over Object Oriented Programmeren, [OOP](../../software/c++/oop-concepten/klassen/README.md#oo-programmeren).
