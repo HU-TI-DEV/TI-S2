@@ -220,7 +220,7 @@ Meivakantie
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Werken aan project (**HS & TM**) |
+| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**HS**) & Werken aan project (**HS & TM**) |
 | di  | Werken aan project (**HS & TM**) |
 | wo  | Werken aan project (**HS & TM**) |
 | do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 6**|

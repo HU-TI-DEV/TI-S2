@@ -16,10 +16,9 @@ De poster bevat minimaal het volgende:
 - SDG met toelichting
 
 Het schema van deze dag is als volgt <nog in ontwerp>:
-- 8.00 uur opbouw door studenten bij de entree
-- 8.30 uur projecten zijn presentatie gereed
-- 8.30 – 9.00 uur inloop van collega studenten en docenten
-- 9.00 – 11.00 uur genodigde en andere belangstellende 
+- 9.00 uur opbouw door studenten bij de entree
+- 9.30 uur projecten zijn presentatie gereed
+- 9.30 – 11.00 uur inloop van collega studenten, genodigde en docenten
 - 11.00 – 12.00 uur opruimen en afbouwen
 
 ## Na de les
