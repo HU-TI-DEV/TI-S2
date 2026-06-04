@@ -21,28 +21,45 @@
 
 ## Een introductie
 
-*Digital-to-Analog Converters* (DAC) hebben net als ADC’s een beperking met betrekking tot de resolutie van het signaal. Afhankelijk van hoeveel bits ze als input hebben kunnen ze een hoeveelheid verschillende analoge signalen maken. Er zijn verschillende types van *Digital-to-Analog Converters*  (DAC). We gaan hier in op *Pulse Width Modulation*  (PWM), omdat dit een techniek is die je als Technische Informaticus nog wel eens zal implementeren. Naast PWM zijn er ook andere type DAC’s.
+*Digital-to-Analog Converters* (DAC) hebben net als ADC’s een beperking met betrekking tot de resolutie van het signaal.
+Afhankelijk van hoeveel bits ze als input hebben kunnen ze een hoeveelheid verschillende analoge signalen maken. 
+
+Er zijn verschillende types van *Digital-to-Analog Converters*  (DAC). We gaan hier in op *Pulse Width Modulation*  (PWM), omdat dit een techniek is die je als Technische Informaticus nog wel eens zal implementeren.
+Naast PWM zijn er ook andere type DAC’s.
 
 ## PWM
 
-Bij PWM is de output niet direct een analoog signaal. Iets wat andere DAC wel produceren In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad.
+Bij PWM is de output niet direct een analoog signaal. (Sommige andere DACs kunnen dit direct produceren.) In plaats daarvan stuurt PWM pulsen van digitale signalen. Door deze in lengte te variëren staat er “gemiddeld” een bepaalde analoge waarde op een draad.
 
-## PWM frequency
+## Kenmerken van een Puls-Width-Modulation (PWM) signaal generator
 
-Dit geeft aan hoeveel PWM pulse per seconde worden verstuurd/ontvangen.
+Als je PWM wil gebruiken en een microcontroller een PWM unit ingebouwd heeft is het belangrijk op te letten op deze eigenschappen:
 
-## Duty cycle
+- `Pin Output Voltage`: dit geeft aan welke spanning je aan de PWM pin minimaal en maximaal kan verwachten.
+   (Deze waardes staan in het datasheet van de microcontroller.)
 
-De PWM *duty cycle* beschrijft hoe de verhouding is van hoe lang het signaal hoog is en hoe lang het signaal laag is.
+- `PWM frequency`: Dit geeft aan hoeveel pulses per seconde een PWM signaal heeftde PWM-generator kan maken.
 
-De *duty cycle* kan worden aangegeven als een percentage tussen 0% en 100%.  
-Soms is in het datasheet van het ontvangende toestel ook een minimaal en maximaal tijd aangegeven.
+- `Duty cycle` :  Dit beschrijft hoe de verhouding is van hoe lang het signaal hoog is en hoe lang het signaal laag is.
 
-![Duty cycle](../DAC/img/Duty_Cycle_Examples.png)
+   De *duty cycle* kan worden aangegeven als een percentage tussen 0% en 100%.  
+   Soms is in het datasheet ook een minimaal en maximaal tijd aangegeven.
 
-In bovenstaand figuur zien we drie voorbeelden van duty cycle. PWM is makkelijk zelf te implementeren door snel, in de juiste verhouding, een pin een hoog signaal en daarna weer een laag signaal te laten sturen. Het nadeel hiervan is dat microcontroller dan ondertussen geen andere taken kan uitvoeren. Gelukkig is hier ook specifieke hardware (zoals de TL5002) voor. Op de meeste Arduino’s zijn enkele pins uitgerust met PWM. Voor de meeste Arduino’s zijn dat pin 3, 5, 6, 9, 10 en 11. PWM is erg handig als je bijvoorbeeld een elektromotor of servo wil aansturen.
+   ![Duty cycle](../DAC/img/Duty_Cycle_Examples.png)
 
-> PWM wordt al heel lang gebruikt voor het aansturen van computer ventilatoren die nodig zijn om te koelen. Omdat het voltage niet hoeft worden aangepast maar omdat een PWM signaal wordt gestuurd kunnen moederborden goedkoper gemaakt worden (geen extra voltage regulators nodig).
+   In bovenstaand figuur zien we drie voorbeelden van duty cycle. PWM is makkelijk zelf te implementeren door snel, in de juiste verhouding, een pin een hoog signaal en daarna weer een laag signaal te laten sturen. Het nadeel hiervan is dat microcontroller dan ondertussen geen andere taken kan uitvoeren. Gelukkig is hier ook specifieke hardware (zoals de TL5002) voor. Op de meeste Arduino’s zijn enkele pins uitgerust met PWM. Voor de meeste Arduino’s zijn dat pin 3, 5, 6, 9, 10 en 11. PWM is erg handig als je bijvoorbeeld een elektromotor of servo wil aansturen.
+
+## Voorbeelden van PWM-gebruik
+
+ - **Eenvoudige Digital-to-Analog Converter (DAC)**: met een weerstand en een condensator kan je het PWM-signaal omzetten in een spanningswaarde. (Er zijn methodes om dit beter en nauwkeuriger te doen, maar deze zijn ook iets duurder.)
+
+ - **LED verlichting**: als je de helderheid van een LED wil instellen, dan kan je dit door de stroom in te stellen die door de LED vloeit. Makkelijker is de LED met een weerstand op een maximale felheid in te stellen en met een PWM-generator de LED met een duty-cycle van 0% to 100% aan- en uit te schakelen. Als dit voldoende snel gebeurt zien mensen geen flitsende LED maar een LED met minder grote of meer grote felheid.
+
+ - **Data transfer**: analoge waardes met spanning/stroom goed door een lang kabel te sturen is niet makkelijk. Een draad heeft ook een weerstand, en vangt ook signalen op vanuit de omgeving (EMI = Electromagnetic Interference). Makkelijker is het analoge signaal over te zetten naar een PWM-signaal. Dit is digitaal, en kan makkelijk worden versterkt. Bij de ontvanger kan dit signaal dan weer worden omgezet naar een spanningswaarde.
+
+- **Fan control**: PWM wordt al heel lang gebruikt voor het aansturen van computer ventilatoren die nodig zijn om te koelen. Omdat het voltage niet hoeft worden aangepast maar omdat een PWM signaal wordt gestuurd kunnen moederborden goedkoper gemaakt worden (geen extra analoge regulators voor spanning of stroom nodig).
+
+- **Servo aansturing**: Servo's zijn specialistische motoren (vaak met een soort mini-transmissie) om een digitaal signaal om te zetten in de positie van een motor-as. Servo's vind je of klein in modellbouw-toepassingen of groot in industriele uitvoeringen.
 
 ## Titan Silent Fan TFD-8015HH12ZP/W1
 
