@@ -8,37 +8,29 @@ Beschrijf de context: wat is het thema en hoe sluit dit aan op eerdere lessen?
 - Leerdoel 3: [specifieke kennis of vaardigheid].
 - Na de les kun je [concreet resultaat of gedrag].
 
-## Voorbereiding
+## Voor de les
+
+### Voorbereiding
 - Lees de theorie over [onderwerp 1](link_naar_lesstof_in_git).
 - Lees de theorie over [onderwerp 2](link_naar_lesstof_in_git).
 - Bekijk deze [extra bron](URL_externe_bron).
 
+### Neem mee
+- Lijst van eventuele benodigde materialen
+
 ## Tijdens de les
+
+### Lesopbouw
 1. De docent licht [kernconcept 1] toe.
 2. De docent behandelt [kernconcept 2] met voorbeeldcode of demonstratie.
-3. Studenten gaan zelfstandig of in duo's aan de slag.
+3. Studenten gaan zelfstandig of in groepen/duo's aan de slag.
 
-## Oefenen
-1. Maak de oefening [oefening 1](link_naar_opdracht/opdr_1.md).
-2. Maak de oefening [oefening 2](link_naar_opdracht/opdr_2.md).
-3. Maak de oefening [oefening 3](link_naar_opdracht/opdr_3.md).
+### Oefenen
+- Maak de oefening [oefening 1](link_naar_opdracht/opdr_1.md).
+- Maak de opdracht [opdracht 1](link_naar_opdracht/opdr_2.md).
 
-# Na de les
+## Na de les
 - De [slides vind je hier terug](../../slides/[bestandsnaam].pptx).
 - Verdiepende theorie: [bronnaam](https://example.com).
 - Extra oefening of inspiratie: [link](https://example.com).
-
-## Canvas
-1. Lever [oefening(en)/opdracht(en)] in op Canvas.
-2. Lever de hoofdopdracht **[naam opdracht]** in.
-3. Vraag een studentassistent of docent om feedback op je werk.
-
-## Portfolio-Tip
-Beschrijf kort welk bewijs studenten kunnen opnemen in hun portfolio.
-Noem concreet: code, feedback en reflectie op het leerdoel.
-
-## Notities docent (optioneel)
-- Benodigde materialen: [materiaal 1], [materiaal 2].
-- Tijdsplanning (indicatie): [bijv. 15 min uitleg, 45 min oefenen].
-- Veelgemaakte fouten: [punt 1], [punt 2].
-- Differentiatie: [extra uitdaging of ondersteuning].
+- Vergeet de bijbehorende opdrachten niet te maken en in te leveren op Canvas! 
