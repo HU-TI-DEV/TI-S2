@@ -5,12 +5,12 @@
 ## Omschrijving
 Plaats hier de opdrachtomschrijving. Inclusief of het om een **opdracht** of **oefening** gaat.
 
-### Gebruik van AI
+<!--- ### Gebruik van AI
 Voor deze opdracht mag je _wel/geen_ generatieve AI gebruiken.
 
 Indien wel; geef hier verdere details over wat wel of niet is toegestaan. Voorbeeld:
 
-_Voor deze opdracht is het toegestaan om AI te gebruiken voor het prepareren van de data en voor het genereren van grafieken, maar de implementatie van het algoritme dien je zelf te schrijven._
+_Voor deze opdracht is het toegestaan om AI te gebruiken voor het prepareren van de data en voor het genereren van grafieken, maar de implementatie van het algoritme dien je zelf te schrijven._ -->
 
 ## Opleveren
 
@@ -26,7 +26,7 @@ Voor deze opdracht heb je ongeveer _periode_. Zie Canvas voor de exacte deadline
 
 <!-- Écht controleren of de deadline goed staat is helaas onmogelijk (tenzij we dit ieder half jaar willen hardcoden). Wat we wel kunnen doen is kijken of de deadline ná de datum staat waarop de opdracht is uitgegeven (via het rooster, datum van bijbehorende les controleren t.o.v. deadline op Canvas) en of de deadline binnen een gegeven range na die les valt. Alternatief zouden we natuurlijk de deadline uit Canvas kunnen uitlezen en hier automatisch laten invullen, maar het originele probleem is natuurlijk dat dat steeds niet goed ging -->
 
-### Criteria
+<!-- ### Criteria
 
 Naar welke dingen wordt gekeken. Zijn er bepaalde zwaartepunten? Wat, waar en hoe moet er precies ingeleverd worden?Voorbeeld:
 
@@ -40,4 +40,4 @@ Voorbeeldopties:
 
 ## Leeruitkomsten
 
-Korte toelichting bij welke leeruitkomst(en) deze opdracht bijdraagt
+Korte toelichting bij welke leeruitkomst(en) deze opdracht bijdraagt -->
