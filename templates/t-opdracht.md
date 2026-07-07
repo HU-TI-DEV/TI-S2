@@ -14,6 +14,12 @@ _Voor deze opdracht is het toegestaan om AI te gebruiken voor het prepareren van
 
 ## Opleveren
 
+### Inleverbox
+
+_Link naar Canvas inleverbox_
+
+<!-- Deze kan door het script dat de deadlines controleert hier automatisch geplaatst worden-->
+
 ### Deadline
 
 Voor deze opdracht heb je ongeveer _periode_. Zie Canvas voor de exacte deadline.
