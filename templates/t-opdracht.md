@@ -3,7 +3,7 @@
 <!-- Zorg dat de opdrachtnaam overeenkomt met de naam van de opdracht in Canvas. Dit is om de tooling voor het controleren van de deadline makkelijker te maken, maar het maakt het voor studenten ook overzichtelijker. -->
 
 ## Omschrijving
-Plaats hier de opdrachtomschrijving
+Plaats hier de opdrachtomschrijving. Inclusief of het om een **opdracht** of **oefening** gaat.
 
 ### Gebruik van AI
 Voor deze opdracht mag je _wel/geen_ generatieve AI gebruiken.
