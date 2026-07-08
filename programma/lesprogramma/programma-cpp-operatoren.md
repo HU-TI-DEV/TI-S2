@@ -1,5 +1,5 @@
 # Operatoren
-Vanuit de wiskunde zijn we bekend met operatoren: optellen, aftrekken, vermenigvuldigen, etc. Ook bij het programmeren maken we hier veelvuldig gebruik van en je kunt ze vaak ook zelf schrijven. Zo ook in C++. In deze les behandelen we waarom je dit wilt kunnen en uiteraard ook hoe je dit dan daadwerkelijk implementeert in C++.
+Vanuit de wiskunde zijn we bekend met operatoren: optellen, aftrekken, vermenigvuldigen, etc. Ook bij het programmeren maken we hier veelvuldig gebruik van en - je kunt ze vaak ook zelf schrijven. Zo ook in C++. In deze les behandelen we waarom je dit wilt kunnen en uiteraard ook hoe je dit dan daadwerkelijk implementeert in C++.
 
 ## Wat leer je vandaag?
 - Leerdoel 1: Het verdiepen van de kennisbasis Classes en OO.
