@@ -19,19 +19,19 @@
   - [Onderwijsweek A8 (19-10-2026)](#onderwijsweek-a8-19-10-2026)
   - [Onderwijsweek A9 (26-10-2026)](#onderwijsweek-a9-26-10-2026)
   - [Onderwijsweek A10 (02-11-2026)](#onderwijsweek-a10-02-11-2026)
-  - [Onderwijsweek D1 (13-04-2026)](#onderwijsweek-d1-13-04-2026)
-  - [Onderwijsweek D2 (20-04-2026)](#onderwijsweek-d2-20-04-2026)
-  - [Onderwijsweek D3 (27-04-2026)](#onderwijsweek-d3-27-04-2026)
-  - [Onderwijsweek D4 (4-05-2026)](#onderwijsweek-d4-4-05-2026)
-  - [Onderwijsweek D5 (11-05-2026)](#onderwijsweek-d5-11-05-2026)
-  - [Onderwijsweek D6 (18-05-2026)](#onderwijsweek-d6-18-05-2026)
-  - [Onderwijsweek D7 (25-05-2026)](#onderwijsweek-d7-25-05-2026)
-  - [Onderwijsweek D8 (1-06-2026)](#onderwijsweek-d8-1-06-2026)
-  - [Onderwijsweek D9 (8-06-2026)](#onderwijsweek-d9-8-06-2026)
-  - [Onderwijsweek D10 (15-06-2026)](#onderwijsweek-d10-15-06-2026)
-  - [Afrondingsweek D11 (22-06-2026)](#afrondingsweek-d11-22-06-2026)
-  - [Verbeterweek E1 (29-06-2026)](#verbeterweek-e1-29-06-2026)
-  - [Verbeterweek E2 (6-07-2026)](#verbeterweek-e2-6-07-2026)
+  - [Onderwijsweek B1 (09-11-2026)](#onderwijsweek-b1-09-11-2026)
+  - [Onderwijsweek B2 (16-11-2026)](#onderwijsweek-b2-16-11-2026)
+  - [Onderwijsweek B3 (23-11-2026)](#onderwijsweek-b3-23-11-2026)
+  - [Onderwijsweek B4 (30-11-2026)](#onderwijsweek-b4-30-11-2026)
+  - [Onderwijsweek B5 (07-12-2026)](#onderwijsweek-b5-07-12-2026)
+  - [Onderwijsweek B6 (14-12-2026)](#onderwijsweek-b6-14-12-2026)
+  - [Onderwijsweek B7 (21-12-2026)](#onderwijsweek-b7-21-12-2026)
+  - [Onderwijsweek B8 (28-12-2026)](#onderwijsweek-b8-28-12-2026)
+  - [Onderwijsweek B9 (04-01-2027)](#onderwijsweek-b9-04-01-2027)
+  - [Afrondingsweek B10 (11-01-2027)](#afrondingsweek-b10-11-01-2027)
+  - [Verbeterweek B11 (18-01-2027)](#verbeterweek-b11-18-01-2027)
+  - [Verbeterweek B12 (25-01-2027)](#verbeterweek-b12-25-01-2027)
+  - [Onderwijsvoorbereiding C1 (01-02-2027)](#onderwijsvoorbereiding-c1-01-02-2027)
 
 ---
 
@@ -152,56 +152,71 @@ Herfstvakantie
 | do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) & **Einde sprint 2** |
 
 
-### Onderwijsweek D1 (13-04-2026)
+### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) & **Start Sprint 3** |
-| di  | Geen Les! |
+| ma  | Ovbh - gastles SDG samen met S4 (**TM & GP**) & **Start Sprint 3**|
+| di  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
 
-### Onderwijsweek D2 (20-04-2026)
+### Onderwijsweek B2 (16-11-2026)
+
+> Code::Dive donderdag 19 november
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  |  Werken aan project (**TM**) |
-| di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
+| di  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) |
 | wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
-| do  | [Operatoren](./lesprogramma/programma-cpp-operatoren.md) en C++ Feedback (**GP**) & **Einde Sprint 3**|
+| do  | C++ Feedback (**GP**) & **Einde Sprint 3**|
 
-### Onderwijsweek D3 (27-04-2026)
-
-Meivakantie
-
-### Onderwijsweek D4 (4-05-2026)
+### Onderwijsweek B3 (23-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
 | ma  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**)  **Start sprint 4**|
-| di  | Bevrijdingsdag |
-| wo  | Korte uitleg Plan van Aanpak - Canvas (**GP**), [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
+| di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
+| wo  | [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**) |
+| do  | [Operatoren](./lesprogramma/programma-cpp-operatoren.md) en C++ Feedback (**GP**) & **Einde Sprint 3**|
+
+### Onderwijsweek B4 (30-11-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Project Pitch (**TP**) &(**TM**)  |
+| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HP en GP**)  |
+| wo  | Korte uitleg Plan van Aanpak - Canvas (**GP**),  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
 | do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
 
-### Onderwijsweek D5 (11-05-2026)
+### Onderwijsweek B5 (07-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | Project Pitch (**TP**) & [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HS**)  |
-| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HS**) |
-| wo  | C++ Feedback (**GP**) & [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
-| do  | Hemelvaart **Einde Sprint 4**|
+| ma  | Teamcoaching (**TM**) |
+| di  | Project werk & Voorbereiden lesstof van di, wo. en do. (**zelfstandig werken** - scholingsdag docenten) |
+| wo  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HP en GP**) |
+| do  | C++ Feedback (**GP**) & [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
 
-### Onderwijsweek D6 (18-05-2026)
+### Onderwijsweek B6 (14-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
-| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en presenteer je team-oplossing (**HS**) **Start Sprint 5**|
-| di  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) & Werken aan project (**TM**) |
-| wo  | C++ Feedback (**GP**) & C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md),  [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
-| do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
+| ma  | Teamcoaching (**TM**) |
+| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en presenteer je team-oplossing (**HP en GP**) **Start Sprint 5**|
+| wo  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
+| do  | C++ Feedback (**GP**) & C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md),  [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 
-### Onderwijsweek D7 (25-05-2026)
+### Onderwijsweek B7 (21-12-2026)
+
+> Kerstvakantie (week 1)
+
+### Onderwijsweek B8 (28-12-2026)
+
+> Kerstvakantie (week 2)
+
+### Onderwijsweek B9 (04-01-2027)
 
 | Dag | Project & Kennissessie |
 | --- |  --- |
@@ -209,42 +224,33 @@ Meivakantie
 | di |  [Afronding I2C (ADC YL-40/PCF8591), I/O expander (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**), Werken aan project (**TM**) |
 | wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) & C++ [Les Overerving](../programma/lesprogramma/programma-cpp-inheritance.md) (**NG & GP**)|
 | do  | **3de Peilmoment**,  [Les Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) - [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md) (**GP**), C++ Feedback (**GP**), **Einde Sprint 5**|
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 6**|
 
-### Onderwijsweek D8 (1-06-2026)
-
-| Dag | Project & Kennissessie |
-| --- |  --- |
 | ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 6**|
 | di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**)|
 | wo  | Werken aan eigen library (**GP**)|
 | do  | Werken aan eigen library (**NG**)|
 
-### Onderwijsweek D9 (8-06-2026)
-
-| Dag | Project & Kennissessie |
-| --- |  --- |
 | ma  | Werken aan eigen library (**TM**) & Inlevering eigen library |
 | di  | Werken aan project (**HS & TM**) |
 | wo  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
 | do  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
 
-### Onderwijsweek D10 (15-06-2026)
-
-| Dag | Project & Kennissessie |
-| --- |  --- |
 | ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**HS**) & Werken aan project (**HS & TM**) |
-| di  | Werken aan project (**HS & TM**) |
-| wo  | Werken aan project (**HS & TM**) |
 | do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 6**|
 
-### Afrondingsweek D11 (22-06-2026)
+### Afrondingsweek B10 (11-01-2027)
 
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
-### Verbeterweek E1 (29-06-2026)
+### Verbeterweek B11 (18-01-2027)
 
 De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
 
-### Verbeterweek E2 (6-07-2026)
+### Verbeterweek B12 (25-01-2027)
 
 De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
+### Onderwijsvoorbereiding C1 (01-02-2027)
+
+
