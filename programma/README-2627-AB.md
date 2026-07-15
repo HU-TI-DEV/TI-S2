@@ -104,7 +104,7 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 |     | **Start sprint 1** |
-| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <!-- TM in ontwikkelweek --> |
+| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**HS**) <!-- TM in ontwikkelweek --> |
 | di | `C++` [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | `HWI` [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
