@@ -181,7 +181,7 @@ Markeringen voor de onderwerpen:
 | ma  | ${\color{green}\text{Project}}$  Werken aan project (**TM**) |
 | di  | ${\color{blue}\text{HWI}}$ [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
 | wo  | ${\color{blue}\text{HWI}}$ Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
-| do  | ${\color{orange}\text{C++}}$ [Operatoren](./lesprogramma/programma-cpp-operatoren.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md) (**GP**) <br> **Einde Sprint 4**|
+| do  | ${\color{orange}\text{C++}}$ [Operatoren](./lesprogramma/programma-cpp-operatoren.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) (**GP**) <br> **Einde Sprint 4**|
 
 ### Onderwijsweek B4 (30-11-2026)
 
@@ -207,7 +207,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Teamcoaching (**TM**) |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 3/3 en presenteer je team-oplossing (**HP en GP**) **Start Sprint 5**|
-| wo  | Werken aan eigen library (**TM**) & Inlevering eigen library |
+| wo  | Werken aan eigen library (**TM**) & **Inlevering eigen library** |
 | do  | ${\color{orange}\text{C++}}$ Feedback (**GP**) & [Objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [Units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md), [Decorator](../software/c++/patronen/README.md) & [Adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 
 ### Onderwijsweek B7 (21-12-2026)
@@ -222,8 +222,6 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| xx  | ${\color{orange}\text{C++}}$ [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
-| xx  | Werken aan eigen library (**TM**) & Inlevering eigen library |
 | ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> Library assessments (**GP & HP**) |
 | di  | Werken aan project (**HS & TM**) <br> Library assessments (**GP & HP**) |
 | wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
