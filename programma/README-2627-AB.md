@@ -39,14 +39,12 @@
 
 ---
 
-## Een introductie
-
-### Organisatie
+## Organisatie
 
 De contacturen zijn:
 
-|dag |van    |tot    | lokaal     |
-|--- |---    |---    | ---        |
+|dag | van   | tot   | lokaal     |
+|--- | ----  | ----  | ----       |
 | ma | 13.00 | 16.00 | HL15-1.092 |
 | di | 09.00 | 12.00 | HL15-1.092 |
 | wo | 09.00 | 12.00 | HL15-1.092 |
@@ -61,65 +59,65 @@ De docenten zijn:
 - (**HP**) Hagen Patzke (di, wo, do)
 - (**HS**) Harm Snippe (semestercoördinatie)
 
-Markeringen:
+Markeringen voor de onderwerpen:
 
-- ${\color{orange}\text{C++}}$ C++ ('cee plus plus')
+- ${\color{orange}\text{C++}}$ Software design, realisatie en test in C++ ('Cee plus plus')
 - ${\color{blue}\text{HWI}}$ Hardware-Interfacing, Elektronica
-- ${\color{green}\text{Project}}$ Projectwerk en alles wat er bijbehoord
-- ${\color{magenta}\text{INFRA}}$ Infrastructuur
+- ${\color{green}\text{Project}}$ Projectwerk en alles wat erbij hoord (Plannen, Scrum, Git, Werkwijze)
+- ${\color{magenta}\text{INFRA}}$ Infrastructuur (Opzetten toolchain(s), Docker, etc.)
 
 ## Programma
 
 ### Onderwijsweek A1 (31-08-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | 13.00 uur Startbijeenkomst (**HS & TM**) om 14.00 uur koffie & thee. <br> ${\color{blue}\text{HWI}}$ Lees de samenvattingen [Digital-I/O](./lesprogramma/programma-digital-io.md) en [ADC](./lesprogramma/programma-ADC.md). <br> **Start Sprint 0** |
-| di  | ${\color{orange}\text{C++}}$ [Introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**GP & TP**) |
-| wo  | ${\color{blue}\text{HWI}}$ [Digital-I/O](./lesprogramma/programma-digital-io.md), [ADC](./lesprogramma/programma-ADC.md) en maak voor *Analoge Pin uitlezen* [een portfolio-item](./lesprogramma/programma-portfolio-item.md) (**HP**) |
-| do  | ${\color{orange}\text{C++}}$ [Data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) |
+| --- | :--- |
+| ma  | 13.00 uur Startbijeenkomst (**HS & TM**) om 14.00 uur koffie & thee. <br> **Start Sprint 0** |
+| di  | ${\color{orange}\text{C++}}$ [Introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**GP & HP**) |
+| wo  | ${\color{blue}\text{HWI}}$ [Elektronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| do  | ${\color{orange}\text{C++}}$ [Data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) <br> Aftekenen opdracht "Werkende Ontwikkelomgeving" (**GP**) |
 
 ### Onderwijsweek A2 (07-09-2025)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM**) |
 | di  | ${\color{orange}\text{C++}}$ [Loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**GP**) |
-| wo  | ${\color{blue}\text{HWI}}$ [Elektronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
+| wo  | ${\color{blue}\text{HWI}}$ [Digital-I/O](./lesprogramma/programma-digital-io.md), [ADC](./lesprogramma/programma-ADC.md) en maak voor *Analoge Pin uitlezen* [een portfolio-item](./lesprogramma/programma-portfolio-item.md) (**HP**) |
 | do  | ${\color{orange}\text{C++}}$ [Inlezen van gegevens: cin & getline](../programma/lesprogramma/programma-cpp-inlezen-gegevens.md) (**GP**) |
 
 ### Onderwijsweek A3 (14-09-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) <br> Projectteams samenstellen en Presentatie van de opdrachtgever (**TM**) <br> Voorbereiden lesstof van wo. en do. |
 | di  | ${\color{orange}\text{C++}}$ [Functies](../programma/lesprogramma/programma-cpp-functions.md) (**GP**) |
-| wo  | ${\color{blue}\text{HWI}}$ [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) <br> [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) |
+| wo  | ${\color{blue}\text{HWI}}$ [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) |
 | do  | ${\color{orange}\text{C++}}$ [File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**GP**) <br> **Einde Sprint 0**|
 
 ### Onderwijsweek A4 (21-09-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
-| ma  | ${\color{green}\text{Project}}$ [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**) <br> [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**)| <br> **Start Sprint 1** |
+| --- | :--- |
+| ma  | ${\color{green}\text{Project}}$ [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**)| <br> **Start Sprint 1** |
 | di | ${\color{orange}\text{C++}}$ [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | ${\color{blue}\text{HWI}}$ [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
-| do | Beursbezoek [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
+| do | **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
 | vr | ${\color{green}\text{Project}}$ 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) |
 
 ### Onderwijsweek A5 (28-09-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | di  | ${\color{orange}\text{C++}}$ [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
 | wo  | ${\color{blue}\text{HWI}}$ [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| do  | C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) **1e Peilmoment**  |
+| do  | C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **1e Peilmoment**  |
 
 ### Onderwijsweek A6 (05-10-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Project werk & Voorbereiden lesstof van di, wo. en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
 | di  | ${\color{orange}\text{C++}}$ Werken met [meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP**)  |
 | wo  | ${\color{blue}\text{HWI}}$ [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) |
@@ -128,7 +126,7 @@ Markeringen:
 ### Onderwijsweek A7 (12-10-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). (**TM**) <br> **Start Sprint 2** |
 | di  |  |
 | wo  | ${\color{blue}\text{HWI}}$ [Kirchhoff, LED](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
@@ -141,7 +139,7 @@ Markeringen:
 ### Onderwijsweek A9 (26-10-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
 | di  | ${\color{orange}\text{C++}}$ [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md) (**GP**) |
 | wo  | Temperatuur meten met [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
@@ -150,7 +148,7 @@ Markeringen:
 ### Onderwijsweek A10 (02-11-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) <br> **Start Sprint 3** |
 | di  | ${\color{blue}\text{HWI}}$ [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
 | wo  | ${\color{magenta}\text{INFRA}}$ [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> ${\color{magenta}\text{INFRA}}$ [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
@@ -159,10 +157,10 @@ Markeringen:
 ### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | *Onder voorbehoud* - Gastles SDG samen met S4 (**TM & GP**) |
 | di  | ${\color{blue}\text{HWI}}$ [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
-| wo  | ${\color{blue}\text{HWI}}$ [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
+| wo  | ${\color{blue}\text{HWI}}$ [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | ${\color{orange}\text{C++}}$ [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** <br> **2de Peilmoment** |
 
 ### Onderwijsweek B2 (16-11-2026)
@@ -170,7 +168,7 @@ Markeringen:
 > code::dive donderdag 19 november
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) <br> **Start Sprint 4** |
 | di  | ${\color{orange}\text{C++}}$ [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) |
 | wo  | ${\color{blue}\text{HWI}}$ [UART](./lesprogramma/programma-uart.md), gebruik van Logic Analyzer (**HP**) |
@@ -179,7 +177,7 @@ Markeringen:
 ### Onderwijsweek B3 (23-11-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$  Werken aan project (**TM**) |
 | di  | ${\color{blue}\text{HWI}}$ [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
 | wo  | ${\color{blue}\text{HWI}}$ Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
@@ -188,16 +186,16 @@ Markeringen:
 ### Onderwijsweek B4 (30-11-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Project Pitch (**TM**) |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HP en GP**)  |
 | wo  | Eigen Library en Applicatie - Korte uitleg Plan van Aanpak - Canvas (**GP**) <br> ${\color{blue}\text{HWI}}$ [Servo Controller 2 - LTspice](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
-| do  | ${\color{blue}\text{HWI}}$ [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**) |
+| do  | ${\color{blue}\text{HWI}}$ [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**), [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
 
 ### Onderwijsweek B5 (07-12-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Teamcoaching (**TM**) |
 | di  | ${\color{green}\text{Project}}$ Project werk & Voorbereiden lesstof van di, wo. en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
 | wo  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HP en GP**) |
@@ -206,10 +204,10 @@ Markeringen:
 ### Onderwijsweek B6 (14-12-2026)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Teamcoaching (**TM**) |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 3/3 en presenteer je team-oplossing (**HP en GP**) **Start Sprint 5**|
-| wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
+| wo  | Werken aan eigen library (**TM**) & Inlevering eigen library |
 | do  | ${\color{orange}\text{C++}}$ Feedback (**GP**) & [Objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [Units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md), [Decorator](../software/c++/patronen/README.md) & [Adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 
 ### Onderwijsweek B7 (21-12-2026)
@@ -223,12 +221,12 @@ Markeringen:
 ### Onderwijsweek B9 (04-01-2027)
 
 | Dag | Project & Kennissessie |
-| --- |  --- |
+| --- | :--- |
 | xx  | ${\color{orange}\text{C++}}$ [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
 | xx  | Werken aan eigen library (**TM**) & Inlevering eigen library |
-| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> Library assesments (**GP & HP**) |
-| di  | Werken aan project (**HS & TM**) <br> Library assesments (**GP & HP**) |
-| wo  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) <br> Werken aan project (**HP**) |
+| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> Library assessments (**GP & HP**) |
+| di  | Werken aan project (**HS & TM**) <br> Library assessments (**GP & HP**) |
+| wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
 | do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) **Einde sprint 6**|
 
 ### Afrondingsweek B10 (11-01-2027)
@@ -236,6 +234,8 @@ Markeringen:
 De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
 
 ### Verbeterweek B11 (18-01-2027)
+
+> `[Check]` Start NSE - Nationale Studenten Enqête 2027
 
 > Verbeterweek 1
 
@@ -246,5 +246,7 @@ De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het 
 > Verbeterweek 2
 
 ### Onderwijsvoorbereiding C1 (01-02-2027)
+
+> Lesvrij - jouw docenten zijn bezig met het klaarzetten van het volgende semester
 
 <!-- eof -->
