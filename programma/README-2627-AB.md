@@ -114,7 +114,7 @@ Markeringen voor de onderwerpen:
 | ma  | `ALG` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
 | di  | `C++` [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
 | wo  | `HWI` [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| do  | `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **1e Peilmoment**  |
+| do  | `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
 
 ### Onderwijsweek A6 (05-10-2026)
 
@@ -154,7 +154,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) <br> **Start Sprint 3** |
 | di  | `HWI` [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
 | wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
-| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**)  |
+| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) <br> **Peilmoment 2** |
 
 ### Onderwijsweek B1 (09-11-2026)
 
@@ -163,7 +163,7 @@ Markeringen voor de onderwerpen:
 | ma  | `ALG` *Onder voorbehoud* - Gastles SDG samen met S4 (**TM & GP**) |
 | di  | `HWI` [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | `HWI` [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
-| do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** <br> **2de Peilmoment** |
+| do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** |
 
 ### Onderwijsweek B2 (16-11-2026)
 
@@ -192,7 +192,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Project Pitch (**TM**) <br> **Start Sprint 5** |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HP en GP**)  |
 | wo  | `ALG` Eigen Library en Applicatie - Korte uitleg Plan van Aanpak - Canvas (**GP**) <br> `HWI` [Servo Controller 2 - LTspice](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
-| do  | `HWI` [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**), [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) |
+| do  | `HWI` [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**), [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) <br> **Peilmoment 3** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
@@ -227,7 +227,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> `ALG` Library assessments (**TM & HP**) |
 | di  | `ALG` Werken aan project (**HS & TM**) <br> `ALG` Library assessments (**GP & HP**) |
 | wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
-| do  | `PRO` [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> **Eindbeslissing (4e Peilmoment)** <br> **Einde sprint 6**|
+| do  | `PRO` [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> **Eindbeslissing** <br> **Einde sprint 6**|
 
 ### Afrondingsweek B10 (11-01-2027)
 
