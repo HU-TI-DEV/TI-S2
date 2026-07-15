@@ -2,7 +2,7 @@
 
 # Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
 
-1<sup>e</sup> Halfjaar - september t/m januari
+Halfjaar 1 - september 2026 t/m januari 2027
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
@@ -65,7 +65,7 @@ Markeringen voor de onderwerpen:
 - `ALG` Algemene onderwerpen in Technische Informatica
 - `C++` Software design, realisatie en test in C++ ('cee plus plus')
 - `HWI` Hardware-Interfacing, Elektronica
-- `PRO` Projectwerk en alles wat erbij hoord (Plannen, Scrum, Git, Werkwijze)
+- `PRO` Projectwerk en alles wat erbij hoord (Plannen, Scrum, Git, Werkwijze, Ontwerp)
 - `INF` Infrastructuur (Opzetten toolchain(s), Docker, etc.)
 
 ## Programma
@@ -74,7 +74,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `ALG` 13.00 uur Startbijeenkomst (**HS & TM**) om 14.00 uur koffie & thee. <br> **Start Sprint 0** |
+|     | **Start sprint 0** |
+| ma  | `ALG` 13.00 uur Startbijeenkomst (**HS & TM**) om 14.00 uur koffie & thee |
 | di  | `C++` [Introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**GP & HP**) |
 | wo  | `HWI` [Elektronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**) |
 | do  | `C++` [Data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP**) <br> Aftekenen opdracht "Werkende Ontwikkelomgeving" (**GP**) |
@@ -95,13 +96,15 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) <br> Projectteams samenstellen en Presentatie van de opdrachtgever (**TM**) <br> Voorbereiden lesstof van wo. en do. |
 | di  | `C++` [Functies](../programma/lesprogramma/programma-cpp-functions.md) (**GP**) |
 | wo  | `HWI` [Electronica (basis) deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**), [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) |
-| do  | `C++` [File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**GP**) <br> **Einde Sprint 0**|
+| do  | `C++` [File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**GP**) |
+|     | **Einde sprint 0** |
 
 ### Onderwijsweek A4 (21-09-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <br> **Start Sprint 1** <!-- TM in ontwikkelweek --> |
+|     | **Start sprint 1** |
+| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <!-- TM in ontwikkelweek --> |
 | di | `C++` [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | `HWI` [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
@@ -111,10 +114,11 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo en do. (**zelfstandig werken**) <!-- TM in ontwikkelweek --> |
+| ma  | `HWI` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <!-- TM in ontwikkelweek --> |
 | di  | `C++` [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
 | wo  | `HWI` [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| do  | `HWI` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <br> `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
+| do  | `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) |
+|     | **Peilmoment 1** |
 
 ### Onderwijsweek A6 (05-10-2026)
 
@@ -123,13 +127,15 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
 | di  | `C++` Werken met [meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP**)  |
 | wo  | `HWI` [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) |
-| do  | `C++` [Recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**GP**) <br>  **Einde Sprint 1** |
+| do  | `C++` [Recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**GP**) |
+|     | **Einde sprint 1** |
 
 ### Onderwijsweek A7 (12-10-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). (**TM**) <br> **Start Sprint 2** |
+|     | **Start sprint 2** |
+| ma  | `PRO` Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). , Planning voorbereiden Sprint 2 (**TM**) |
 | di  | `C++` [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md), [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md) (**GP**) |
 | wo  | `HWI` [Kirchhoff, LED](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
 | do  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
@@ -142,19 +148,22 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
+| ma  | `PRO`  (**TM**) |
 | di  | `C++` [Operatoren](./lesprogramma/programma-cpp-operatoren.md) (**GP**) |
 | wo  | `HWI` Temperatuur meten met [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
-| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) <br> **Einde sprint 2** |
+| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) |
+|     | **Einde sprint 2** |
 
 ### Onderwijsweek A10 (02-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) <br> **Start Sprint 3** |
+|     | **Start sprint 3** |
+| ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
 | di  | `HWI` [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
 | wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
-| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) <br> **Peilmoment 2** |
+| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) |
+|     | **Peilmoment 2** |
 
 ### Onderwijsweek B1 (09-11-2026)
 
@@ -163,7 +172,8 @@ Markeringen voor de onderwerpen:
 | ma  | `ALG` *Onder voorbehoud* - Gastles SDG samen met S4 (**TM & GP**) |
 | di  | `HWI` [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | `HWI` [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
-| do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** |
+| do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+|     | **Einde sprint 3** |
 
 ### Onderwijsweek B2 (16-11-2026)
 
@@ -171,7 +181,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) <br> **Start Sprint 4** |
+|     | **Start sprint 4** |
+| ma  | `PRO` [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**) |
 | di  | `C++` [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**GP**) |
 | wo  | `HWI` [UART](./lesprogramma/programma-uart.md), gebruik van Logic Analyzer (**HP**) |
 | do  | `C++` [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md)  (**GP**)|
@@ -180,19 +191,22 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO`  Werken aan project (**TM**) |
+| ma  | `PRO` [Finite state machine](./lesprogramma/programma-fsm.md) (**TM**) |
 | di  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
 | wo  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
-| do  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) <br> **Einde Sprint 4**|
+| do  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
+|     | **Einde sprint 4** |
 
 ### Onderwijsweek B4 (30-11-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Project Pitch (**TM**) <br> **Start Sprint 5** |
+|     | **Start sprint 5** |
+| ma  | `PRO` Project Pitch (**TM**) |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HP en GP**)  |
 | wo  | `ALG` Eigen Library en Applicatie - Korte uitleg Plan van Aanpak - Canvas (**GP**) <br> `HWI` [Servo Controller 2 - LTspice](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
-| do  | `HWI` [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**), [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) <br> **Peilmoment 3** |
+| do  | `HWI` [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**) |
+|     | **Peilmoment 3** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
@@ -201,13 +215,15 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Teamcoaching (**TM**) |
 | di  | `PRO` Project werk & Voorbereiden lesstof van di, wo. en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
 | wo  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HP en GP**) |
-| do  | `C++` Feedback (**GP**) & [SFML](./lesprogramma/programma-sfml.md) (**GP**) <br> **Einde Sprint 5** |
+| do  | `C++` Feedback & [SFML](./lesprogramma/programma-sfml.md) (**GP**) |
+|     | **Einde sprint 5** |
 
 ### Onderwijsweek B6 (14-12-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Teamcoaching (**TM**) <br> **Start Sprint 6** |
+|     | **Start sprint 6** |
+| ma  | `PRO` Teamcoaching (**TM**) |
 | di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 3/3 en presenteer je team-oplossing (**HP en GP**)|
 | wo  | `ALG` Werken aan eigen library (**TM**) & **Inlevering eigen library** |
 | do  | `C++` Feedback (**GP**) & [Objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [Units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md), [Decorator](../software/c++/patronen/README.md) & [Adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
@@ -227,7 +243,9 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> `ALG` Library assessments (**TM & HP**) |
 | di  | `ALG` Werken aan project (**HS & TM**) <br> `ALG` Library assessments (**GP & HP**) |
 | wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
-| do  | `PRO` [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> **Eindbeslissing** <br> **Einde sprint 6**|
+| do  | `PRO` [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) |
+|     | **Eindbeslissing** |
+|     | **Einde sprint 6** |
 
 ### Afrondingsweek B10 (11-01-2027)
 
