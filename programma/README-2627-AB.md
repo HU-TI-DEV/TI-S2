@@ -101,7 +101,7 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <br> **Start Sprint 1** |
+| ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <br> **Start Sprint 1** <!-- TM in ontwikkelweek --> |
 | di | `C++` [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | `HWI` [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
@@ -111,16 +111,16 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `ALG` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
+| ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo en do. (**zelfstandig werken**) <!-- TM in ontwikkelweek --> |
 | di  | `C++` [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
 | wo  | `HWI` [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| do  | `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
+| do  | `ALG` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <br> `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
 
 ### Onderwijsweek A6 (05-10-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo. en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
+| ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo en do. (**zelfstandig werken**) <!-- scholingsdag docenten --> |
 | di  | `C++` Werken met [meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP**)  |
 | wo  | `HWI` [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) |
 | do  | `C++` [Recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**GP**) <br>  **Einde Sprint 1** |
