@@ -145,7 +145,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
 | di  | `C++` [Operatoren](./lesprogramma/programma-cpp-operatoren.md) (**GP**) |
 | wo  | `HWI` Temperatuur meten met [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
-| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) <br> **Einde sprint 2** |
+| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) <br> **Einde sprint 2** |
 
 ### Onderwijsweek A10 (02-11-2026)
 
@@ -154,7 +154,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) <br> **Start Sprint 3** |
 | di  | `HWI` [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
 | wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
-| do  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) <br> **Peilmoment 2** |
+| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) <br> **Peilmoment 2** |
 
 ### Onderwijsweek B1 (09-11-2026)
 
@@ -181,7 +181,7 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | `PRO`  Werken aan project (**TM**) |
-| di  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
+| di  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
 | wo  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
 | do  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) <br> **Einde Sprint 4**|
 
