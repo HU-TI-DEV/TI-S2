@@ -21,13 +21,13 @@ Heb je moeite met rekenen? Bekijk de volgende drie bronnen:
 ## Na de les
 
 Oefen met de volgende site:   
-[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)  
+[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)\
 Elke keer als je op Generate Links drukt komen er nieuwe oefensommen!   
 Met de QR code kun je de uitwerkingen bekijken.
 
 ## Canvas
 
-[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)  
+[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)\
 Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, de site maakt 6 sommen aan die je op papier moet uitwerrken en uploaden op canvas!
 
 # Electronica (basis) deel II
@@ -46,8 +46,14 @@ Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, 
 
 ## Na de les
 
-Maak de volgende toets op canvas (je kan hem zo vaak doen als je wilt):
-[De opdracht](https://canvas.hu.nl/courses/44719/quizzes/47789)
+Maak de volgende toets op canvas:
 
+Canvas $\rightarrow$ Internet of Things $\rightarrow$ Opdrachten $\rightarrow$ Elektronica (basis) deel II
 
+[DIRECT_LINK - werkt alleen voor TI-S2 2026/27 H1](https://canvas.hu.nl/courses/53743/quizzes/55927)
+
+- Je kan deze toets zo vaak doen als je wilt.
+- De bedoeling daarvan is dat je gaten in jouw eigen begrip kan zien en opvullen.
+- Als je bij een poging niet alles juist hebt is dit **geen probbleem**.
+- Maar kom later terug en maak de toets opnieuw tot je alle vragen begrijpt en de antwoorden juist hebt!
 
