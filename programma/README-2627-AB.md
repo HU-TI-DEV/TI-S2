@@ -114,7 +114,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Project werk & Voorbereiden lesstof van di, wo en do. (**zelfstandig werken**) <!-- TM in ontwikkelweek --> |
 | di  | `C++` [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
 | wo  | `HWI` [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
-| do  | `ALG` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <br> `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
+| do  | `HWI` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <br> `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**) <br> **Peilmoment 1**  |
 
 ### Onderwijsweek A6 (05-10-2026)
 
