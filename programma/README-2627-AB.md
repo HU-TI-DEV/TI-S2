@@ -50,8 +50,6 @@ De contacturen zijn:
 | wo | 09.00 | 12.00 | HL15-1.092 |
 | do | 09.00 | 12.00 | HL15-1.092 |
 
-Breakout rooms: n.v.t.
-
 De docenten zijn:
 
 - (**TM**) Teun Pieter Modderman (ma)
@@ -92,14 +90,14 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**) <br> Projectteams samenstellen en Presentatie van de opdrachtgever (**TM**) <br> Voorbereiden lesstof van wo. en do. |
 | di  | ${\color{orange}\text{C++}}$ [Functies](../programma/lesprogramma/programma-cpp-functions.md) (**GP**) |
-| wo  | ${\color{blue}\text{HWI}}$ [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) |
+| wo  | ${\color{blue}\text{HWI}}$ [Electronica (basis) deel II](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**), [Schuifregister](./lesprogramma/programma-schuifregister.md) (**HP**) |
 | do  | ${\color{orange}\text{C++}}$ [File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**GP**) <br> **Einde Sprint 0**|
 
 ### Onderwijsweek A4 (21-09-2026)
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | ${\color{green}\text{Project}}$ [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**)| <br> **Start Sprint 1** |
+| ma  | ${\color{green}\text{Project}}$ [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**??**), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**??**) <br> **Start Sprint 1** |
 | di | ${\color{orange}\text{C++}}$ [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | ${\color{blue}\text{HWI}}$ [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
 | do | **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
@@ -128,7 +126,7 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). (**TM**) <br> **Start Sprint 2** |
-| di  |  |
+| di  | ${\color{orange}\text{C++}}$ [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md), [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md) (**GP**) |
 | wo  | ${\color{blue}\text{HWI}}$ [Kirchhoff, LED](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
 | do  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 
@@ -141,8 +139,8 @@ Markeringen voor de onderwerpen:
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | ${\color{green}\text{Project}}$ Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
-| di  | ${\color{orange}\text{C++}}$ [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md) (**GP**) |
-| wo  | Temperatuur meten met [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
+| di  | ${\color{orange}\text{C++}}$ [Operatoren](./lesprogramma/programma-cpp-operatoren.md) (**GP**) |
+| wo  | ${\color{blue}\text{HWI}}$ Temperatuur meten met [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
 | do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) <br> **Einde sprint 2** |
 
 ### Onderwijsweek A10 (02-11-2026)
@@ -161,7 +159,7 @@ Markeringen voor de onderwerpen:
 | ma  | *Onder voorbehoud* - Gastles SDG samen met S4 (**TM & GP**) |
 | di  | ${\color{blue}\text{HWI}}$ [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | ${\color{blue}\text{HWI}}$ [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
-| do  | ${\color{orange}\text{C++}}$ [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** <br> **2de Peilmoment** |
+| do  | ${\color{orange}\text{C++}}$ [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**)  <br> **Einde Sprint 3** <br> **2de Peilmoment** |
 
 ### Onderwijsweek B2 (16-11-2026)
 
@@ -181,7 +179,7 @@ Markeringen voor de onderwerpen:
 | ma  | ${\color{green}\text{Project}}$  Werken aan project (**TM**) |
 | di  | ${\color{blue}\text{HWI}}$ [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
 | wo  | ${\color{blue}\text{HWI}}$ Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
-| do  | ${\color{orange}\text{C++}}$ [Operatoren](./lesprogramma/programma-cpp-operatoren.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) (**GP**) <br> **Einde Sprint 4**|
+| do  | ${\color{orange}\text{C++}}$ [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) <br> **Einde Sprint 4**|
 
 ### Onderwijsweek B4 (30-11-2026)
 
@@ -205,8 +203,8 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | ${\color{green}\text{Project}}$ Teamcoaching (**TM**) |
-| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 3/3 en presenteer je team-oplossing (**HP en GP**) **Start Sprint 5**|
+| ma  | ${\color{green}\text{Project}}$ Teamcoaching (**TM**) <br> **Start Sprint 5** |
+| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 3/3 en presenteer je team-oplossing (**HP en GP**)|
 | wo  | Werken aan eigen library (**TM**) & **Inlevering eigen library** |
 | do  | ${\color{orange}\text{C++}}$ Feedback (**GP**) & [Objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [Units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md), [Decorator](../software/c++/patronen/README.md) & [Adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
 
@@ -222,10 +220,10 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> Library assessments (**GP & HP**) |
+| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> Library assessments (**TM & HP**) |
 | di  | Werken aan project (**HS & TM**) <br> Library assessments (**GP & HP**) |
 | wo  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**) |
-| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) **Einde sprint 6**|
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**TM**) <br> **Einde sprint 5**|
 
 ### Afrondingsweek B10 (11-01-2027)
 
