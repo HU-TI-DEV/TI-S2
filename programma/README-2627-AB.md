@@ -53,7 +53,7 @@ De contacturen zijn:
 De docenten zijn:
 
 - (**TM**) Teun Pieter Modderman (ma)
-- (**GP**) Gera Pronk (di, wo, do)
+- (**GP**) Gera Pronk (di, do)
 - (**HP**) Hagen Patzke (di, wo, do)
 - (**HS**) Harm Snippe (semestercoördinatie)
 
