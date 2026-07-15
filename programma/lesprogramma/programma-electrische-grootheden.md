@@ -11,24 +11,30 @@ Bekijk de volgende filmpjes:
 
 ## Tijdens de les
 
-- [powerpoint van de les](./files/Intro%20spanning%20&%20stroom%20college.pptx)
+- [Powerpoint van de les](./files/Intro%20spanning%20&%20stroom%20college.pptx)
 
 Heb je moeite met rekenen? Bekijk de volgende drie bronnen:  
 - [Hoe ga ik met formules om?](https://www.youtube.com/watch?v=PVVELRqSGco)  
 - [Wat nu als ik meerdere formules heb?](https://www.youtube.com/watch?v=xXiLl0BDu7I)
-- [basis regels rekenen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
+- [Basis regels rekenen](../../hardware-interfacing/basis-elektronica/iets-uitrekenen/iets-uitrekenen.md)
 
 ## Na de les
 
 Oefen met de volgende site:   
-[oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)\
-Elke keer als je op Generate Links drukt komen er nieuwe oefensommen!   
-Met de QR code kun je de uitwerkingen bekijken.
+
+[Oefen sommen](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/practice.html)
+
+- Elke keer als je op `Generate Links` drukt komen er nieuwe oefensommen!   
+- Met de QR code kun je de uitwerkingen bekijken.
 
 ## Canvas
 
-[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)\
-Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, de site maakt 6 sommen aan die je op papier moet uitwerrken en uploaden op canvas!
+[De opdracht](https://hu-ti-dev.github.io/TI-S2/hardware-interfacing/netwerk-sommen/assignment.html)
+
+- Vul de laatste drie cijfers van je studenten nummer in.
+- Druk op `Generate Links`, de site maakt 6 sommen aan die je op papier moet uitwerken en een foto ervan uploaden op Canvas!
+
+Canvas $\rightarrow$ Internet of Things $\rightarrow$ Opdrachten $\rightarrow$ Elektronica (basis) deel I
 
 # Electronica (basis) deel II
 
@@ -41,7 +47,7 @@ Vul de laatste drie cijfers van je studenten nummer in. Druk op generate links, 
  
 ## Tijdens de les
 
-[powerpoint van de les](./files/Vermogen-energie-lading.pptx)
+[Powerpoint van de les](./files/Vermogen-energie-lading.pptx)
 
 
 ## Na de les
