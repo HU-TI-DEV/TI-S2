@@ -209,7 +209,6 @@ Markeringen voor de onderwerpen:
 | wo  | `ALG` Eigen Library en Applicatie - Korte uitleg Plan van Aanpak - Canvas (**GP**) <br> `HWI` [Servo Controller 2 - LTspice](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
 | do  | `HWI` [Servo Controller 3 - afronding](./lesprogramma/programma-servocontroller-3.md) (**HP**) |
 |     | **Peilmoment 3** |
-|     | **Einde sprint 5** |
 
 ### Onderwijsweek B5 (07-12-2026)
 
