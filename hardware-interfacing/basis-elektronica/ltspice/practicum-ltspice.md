@@ -4,7 +4,8 @@
 
 ## Voorbereiding
 
-- Zorg dat je **ruim te voren** LTspice hebt **geinstalleerd** (het kan uren duren (misschien, althans een update zeker)):\
+- Zorg dat je **ruim te voren** LTspice hebt **geinstalleerd**
+  (download en installatie kunnen iets duren):\
     <https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html><!-- markdown-link-check-disable-line -->
 
 - Zorg dat je een of meerdere **tutorials ervan hebt doorgenomen**\
@@ -12,23 +13,22 @@
 
 **Belangrijke LTspice Tips:**
 
-- In "het echt" zet je vaak een condensator parallel aan een voeding, om diens spanning (extra) te ontstoren/vlak te maken.
+- In "het echt" zet je vaak een condensator parallel aan een voeding, om diens spanning (extra)
+  te ontstoren/vlak te maken. In (LTspice-) simulaties kun je die condensators parallel
+  aan voedingen (voorlopig) beter weglaten, dit condensator zorgt ervoor dat de simulatie
+  trager wordt en moeilijker (of zelfs helemaal niet) convergeert.
 
-- In (LTspice-) simulaties kun je die condensators parallel aan voedingen (voorlopig) beter weglaten. Dat zorgt ervoor dat de simulatie trager wordt en moeilijker (of zelfs helemaal niet) convergeert.
-
-- In plaats van een opamp van de chip LM324 kun je in LTspice
-    kiezen:  
-    "UniversalOpamp2" (te selecteren met rechtermuisknop
-    op de geplaatste opamp).
+- In plaats van een opamp van de chip LM324 kun je in LTspice kiezen:  
+  `UniversalOpamp2` (te selecteren met rechtermuisknop op de geplaatste opamp).
 
 - Je mag ervan uitgaan dat een LED goed zichtbaar brandt als er 1mA of meer doorheen gaat.
 
-- Een potmeter / potentiometer kun je in LTspice modelleren met twee serieweerstanden.
-  Je kunt de waarden van die twee serieweerstanden aanpassen, maar moet er dan wel voor zorgen 
-  dat de som van die weerstanden gelijk blijft
-  (dus bijvoorbeeld 10k$\Omega$ bij een 10k$\Omega$ potentiometer).
+- Een potentiometer (potmeter) kun je in LTspice modelleren met twee serieweerstanden.
+  Je kunt de waarden van die twee serieweerstanden aanpassen, maar moet er dan wel
+  voor zorgen dat de som van die weerstanden gelijk blijft
+  (dus bijvoorbeeld 10kOhm bij een 10kOhm potentiometer).
 
-  Alternatief kun je er een (custom-) model voor gebruiken of maken, waarbij de stand met een parameter in te stellen is. Dat zou je dan even met hulp van het Internet kunnen uitvogelen.
+  Alternatief kun je er een (custom-) model voor gebruiken of maken, waarbij de stand met een parameter in te stellen is. (Dat zou je dan even met hulp van het Internet kunnen uitvogelen.)
 
 ## De Opdracht
 
@@ -42,13 +42,14 @@ Bij deze opdracht ga je dezelfde schakeling bouwen in de simulator en daar "beme
 
 Voor de servo-controller werd een `NE555` gebruikt. Het interne schema van de `NE555`, afkomstig uit diens datasheet is ook te vinden in [practicum-servocontroller](../servo-controller/practicum-servo-controller.md).
 
-Bouw in LTspice als volgt dat model uit de datasheet van de `NE555` na:\
+Bouw in LTspice als volgt dat model uit de datasheet van de `NE555` na:
+
 <img src="./media/media/zelfgemaakte_ne555.png" width="790px"/>
 
 Gebruik daarbij:
 
 - het model `UniversalOpamp2` (zie tips) voor de comparators.
-- een N-MOSFET met geschikte $V_gsth$ voor T1 is de `AO6408` (alfa-oscar-six-four-zero-eight))
+- een N-MOSFET met geschikte $V_{gsth}$ voor T1 is de `AO6408` (alfa-oscar-six-four-zero-eight))
 - de standaard Set-Reset-FlipFlop `SRFLOP`
   - NB: deze standaard (te eenvoudige) flipflop heeft altijd uitgangsspanningsniveaus tussen de 0 en 1V
   - dat is niet realistisch. normaalgesproken hoort het tussen 0V en de voedingsspanning, in dit geval 5V, te zijn
@@ -66,21 +67,25 @@ Controleer voor je verder gaat of na het bouwen de Transient simulatie van de sp
 #### Vraag a
 
 Verklaar de uitkomsten van bovenstaande simulatie aan de hand van een nieuwe screenshot van relevante
-spanningen en stromen die je uitleg ondersteunen. Gebruik in je uitleg op zijn minst VTest, Va, Vb, Vgate en Id1 (de drainstroom van M1).
+spanningen en stromen die je uitleg ondersteunen. Gebruik in je uitleg op zijn minst `VTest`, `Va`, `Vb`, `Vgate` en `Id1` (de drainstroom van M1).
 
 #### Vraag b
 
-Controleer in de datasheet of de Vgs threshold van de gebruikte MOSFET laag genoeg is. Hoe groot is die?
+- Controleer in de datasheet of de $V_{gs}$ threshold van de gebruikte MOSFET laag genoeg is.
+- Hoe groot is die?
 
 ### Opdracht 2
 
-Bouw nu gebruikmakende van dit model van de NE555 de servocontrollerschakeling uit [practicum-servocontroller](../servo-controller/practicum-servo-controller.md) na in ltspice (vergeet niet de afvlakcondensator van de voeding weg te laten).
+- Bouw nu de servocontrollerschakeling uit [practicum-servocontroller](../servo-controller/practicum-servo-controller.md) na in LTspice.
+- Gebruik daarvoor een kopie van het model van de `NE555` die je in Opdracht 1 hebt gemaakt.
 
 #### Vraag a
 
-Stel P2 in op op 0 Ohm en P1 op 33%.
-Laat met een screenshot van de uitgangsspanning zien dat de servo/pwm-controller goed werkt.
+- Stel `P2` in op op 0 Ohm en `P1` op 33%.
+- Laat met een screenshot van de uitgangsspanningen `Vout` en `VThres` (de spanning aan de 47nF condensator) zien dat de servo/pwm-controller goed werkt.
 
 #### Vraag b
 
-Leg de werking van de pwm-controller uit door screenshot(s) van de simulatie. Betrek daarbij in ieder geval alle knooppuntsspanningen (behalve de interne knooppuntsspanningen van de NE555).
+- Leg de werking van de servocontroller (PWM-controller) uit door screenshot(s) van de simulatie.
+- Betrek daarbij in ieder geval alle knooppuntsspanningen
+  (behalve de interne knooppuntsspanningen van de NE555).
