@@ -1,8 +1,6 @@
 # Practicum meten aan diode, condensator en transistor
 
-# 
-
-# Introductie
+## Introductie
 
 Bij het voorgaande practicum met de multimeter heb je kennisgemaakt met
 de meter zelf en een meting gedaan met een veelgebruikte component in de
@@ -12,7 +10,7 @@ belangrijke componenten, de condensator en de diode.
 Het tweede deel van dit practicum bouw je een versterkerschakeling op en
 ga je daar ook aan meten.
 
-**Doel van dit practicum**
+### Doel van dit practicum
 
 - Een condensator laden
 - Een diode verkennen en er aan meten
@@ -21,12 +19,12 @@ ga je daar ook aan meten.
   schema
 - Kennismaken met een versterkerschakeling
 
-**Opzet van het practicum**
+### Opzet van het practicum
 
 Dit practicum wordt uitgevoerd door twee studenten die samen de proef
 uitvoeren en ook samen dit meetrapport invullen en inleveren.
 
-**Benodigdheden voor dit practicum**
+### Benodigdheden voor dit practicum
 
 - Een multimeter
 - Een voedingsadapter met aansluitconnector
@@ -37,10 +35,10 @@ uitvoeren en ook samen dit meetrapport invullen en inleveren.
 - Een 220k weerstand
 - Een diode
 - Een LED
-- Een bc547 transistor (bc550 mag ook)
+- Een BC550 transistor (BC547 mag ook)
 - Een 470uF capaciteit
 
-# De diode
+## De diode
 
 Een diode is een halfgeleider die een bijzondere eigenschap heeft, hij
 laat stroom in **één richting** door. Daar kun je mooi gebruik van maken
@@ -61,7 +59,7 @@ belangrijk om de diode in de goede richting aan te sluiten.
 ![](./media/media/image1.png) Dit is het symbool van de diode. De + is
 de anode, de – is de kathode
 
-**Ezelsbruggetjes bij de diode:**
+### Ezelsbruggetjes bij de diode
 
 ![](./media/media/image2.png)
 
@@ -75,17 +73,22 @@ op met Google) in de onderstaande vrije ruimte. Teken de doorlaatkarakteristiek 
 de stroom. Links-onder is het nulpunt. Bespreek met je
 practicumpartner wat de twee grafieken van diode en weerstand eigenlijk
 laten zien en probeer de verschillen onder woorden te brengen.
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
+```text
+                       I
+                       |
+                       |
+                       |
+                       |
+                       |
+-----------------------+------------------------ U
+                       |
+                       |
+                       |
+                       |
+                       |
+```
+
 **Meting aan een diode**
 
 Als je de diode-doorlaatkarakteristiek goed getekend hebt zie je dat een
@@ -102,21 +105,20 @@ op plus (rode lijn), de diode op de min of massa (blauwe lijn).
 
 ![](./media/media/image3.png)
 
-Meet de spanning **over** de diode (U diode), dus van massa naar het
+Meet de spanning **over** de diode ($U_{diode}$), dus van massa naar het
 knooppunt van de weerstand en de diode. Let op, de aansluiting waar de
-zwarte ring op de diode zit moet op de min/massa. (als je 5 volt over de
+zwarte ring op de diode zit moet op de min/massa. (als je 5 Volt over de
 diode meet staat deze niet in doorlaat- maar in sperrichting). Doe ook
-een meting met een 10 K weerstand.
-- Spanning Udiode(bij 1k voorschakelweerstand)=  [V]
-- Spanning Udiode(bijn 10k voorschakelweerstand)= [V]
+een meting met een 10 kOhm weerstand.
+
+- Spanning $U_{diode}$ (bij 1k voorschakelweerstand)= ___ [V]
+- Spanning $U_{diode}$ (bij 10k voorschakelweerstand)= ___ [V]
 
 Merk op dat volgens de wet van Ohm er bij de 10 K weerstand een 10 keer
 kleinere stroom door de diode stroomt. Toch is de spanning niet veel
 lager. Een diode wordt ook wel voor spanningreferentie gebruikt.
 
-# 
-
-# De condensator
+## De condensator
 
 Een condensator is opgebouwd uit twee geleiders met een relatief grote
 oppervlakte, die zich dicht bij elkaar bevinden en gescheiden zijn door
@@ -128,13 +130,13 @@ afgeleid van het latijn condensare: samenpersen, dus condensator =
 samenperser, wat betrekking heeft op de ladingen die samengeperst worden
 bij de polen (platen) van de condensator. (bron: Wikipedia)
 
-**Opslag van energie**
+### Opslag van energie
 
 De condensator is een veelgebruikte component in de elektronica. **Een
 heel belangrijke functie is (tijdelijke) opslag van energie.** Daarin
 kun je de condensator zien als een (kleine) oplaadbare batterij.
 
-![](./media/media/image4.png)   
+![](./media/media/image4.png)\
 Hierboven zie je het symbool van een condensator.  Zoals je ziet is er geen directe “doorgang”
 
 De condensator voor opslag van energie is heel belangrijke component om
@@ -145,7 +147,7 @@ van de voeding tot de schakeling is hierin belangrijk. De lengte van de
 voedingsdraden vormen een weerstand die (populair gezegd) een snelle
 toestroom van de stroom in de in de weg staat.
 
-**Variabele weerstand**
+### Variabele weerstand
 
 De condensator wordt ook veel gebruikt als frequentie-afhankelijke
 weerstand. Hiermee worden voor wisselspanningen filters gemaakt die
@@ -153,13 +155,13 @@ bepaalde frequentie wel of juist niet doorlaten. Bij de
 oscilloscoopproef heb je daar al kennis mee gemaakt of ga je daar nog
 mee aan het werk.
 
-**Capaciteit van een condensator**
+### Capaciteit van een condensator
 
 De capaciteit van condensatoren wordt uitgedrukt in de eenheid
 **Farad.** Condensatoren die voor sigaalverwerking worden toegepast zijn
 vaak er klein (in waarde). Voor een oscillatorschakeling wordt
-bijvoorbeeld een condensator van 20 pF gebruikt (een pico is
-10<sup>-12</sup> Farad). Een condensator die als batterijvervanger wordt
+bijvoorbeeld een condensator van 20 pF gebruikt (een pico Farad is
+$10^{-12}$ Farad). Een condensator die als batterijvervanger wordt
 gebruikt heeft een heel hoge capaciteit van 1 Farad.
 
 Om een idee te krijgen van de verschillen in grootte maak je een
@@ -174,7 +176,7 @@ hebben wel veel energie in een klein volume maar zijn polariteit
 gevoelig. <u>**Dat betekent dat ze een plus- en een min aansluiting
 hebben**.</u>
 
-**Meten van het laden van een condensator**
+### Meten van het laden van een condensator
 
 Het laden en ontladen van een condensator is geen lineair verloop maar
 een **e-macht**. Als de condensator leeg is laadt hij heel snel op, hoe
@@ -185,10 +187,11 @@ min-aanluiting is (grijze baan met -)!
 
 ![](./media/media/image5.png)
 
-Start de meting met het **ONTLADEN** van de condensator door het
-<u>kortsluiten</u> van de twee aansluitingen. Dan weet je zeker dat hij
-leeg is. Start vervolgens het **laden** van de condensator door een
-weerstand van **47 Kohm** in serie met de condensator en de voeding te
+Voor de meting **ontladen** we de condensator door het <u>kortsluiten</u>
+van de twee aansluitingen. Dan weet je zeker dat hij leeg is.
+
+Start vervolgens de meting van het **OPLADEN** van de condensator door een
+weerstand van **47 kOhm** in serie met de condensator en de voeding te
 plaatsen. START op dat moment een tijdmeting en noteer de **tijd** in
 het onderstaande tekstblok met een **U-condensator** op 0 volt; 0,5 volt
 tot 4,5 volt (totaal 9 metingen).
@@ -201,9 +204,9 @@ je helemaal rechts.
 
 ![](./media/media/image9.png)
 
-**Een versterkerschakeling**
+## Een versterkerschakeling
 
-**inleiding**
+### Inleiding
 
 Het tweede deel van het practicum is het maken van een versterker met
 een transistor. Dat is de “Hello World” van de Electro-technici. Leuk om
@@ -220,7 +223,7 @@ kan een veel grotere belasting worden aangestuurd.
 
 Symbool van de transistor![](./media/media/image6.png)
 
-**Opbouwen versterker**
+### Opbouwen versterker
 
 De basisstroom (stuurstroom) kan heel klein zijn. Voldoende om door je
 lichaam de LED te laten branden. De meeste studenten voelen daar naar
@@ -232,40 +235,44 @@ schakelaar in de verbinding van de LED naar de massa**. Met de
 transistor schakel je de stroom door de LED. De basis (B) is de
 stuuringang om de hoofdstoom van C naar E te sturen.
 
-Op Sharepoint staat een afbeelding hoe de componenten op het protobordje
-opgebouwd moeten worden (**voorbeeldtransistorversterker.jpg**) .
-
 ![](./media/media/image7.png)
 
-Pak met je hand het metaal van de weerstand-draad (220K) die los is. De
-versterker werkt als de LED dan een beetje oplicht (je lichaam is een
+- Pak met je hand het metaal van de weerstand-draad (220kOhm) die los is.
+- De versterker werkt als de LED dan een beetje oplicht (je lichaam is een
 ontvanger voor elektromagnetische golven en geeft een beetje spanning
-af). Als je met je ene hand de aansluiting van de weerstand beetpakt en
+af).
+- Als je met je ene hand de aansluiting van de weerstand beetpakt en
 met de andere hand het metaal van het plus-draadje moet de LED feller
-oplichten. Als je harder knijpt (of je vingers een beetje vochtig maakt)
-moet de LED nog beter oplichten. Als de LED niet brandt heb je wellicht
-de LED of/en de transistor verkeerd-om aangesloten (let op de platte
-kant).
+oplichten.
+- Als je harder knijpt (of je vingers een beetje vochtig maakt)
+moet de LED nog beter oplichten.
+- Als de LED niet brandt heb je wellicht de LED of/en de transistor
+  verkeerd-om aangesloten (let op de platte kant).
 
 Bespreek met elkaar hoe het komt dat de LED feller brandt als je harder
 knijpt:
 
+```text
+
+
+
+```
+
 Je gaat nu meten hoe groot de stroom is die door je lichaam loopt en wat
 de versterkingsfactor is.
 
-**De transistor**
+## De transistor
 
-De transistor is van het type BC547B. Een belangrijk gegeven van een
-transistor is de stroom die door de belasting kan gaan. Op Sharepoint
-staat een datasheet (**Transistor-BC547B.pdf**) met technische
-informatie. Open de datasheet. Hoe groot is de maximale
+De transistor is van het type BC550 (of BC547B). Een belangrijk gegeven van een
+transistor is de stroom die door de belasting kan gaan.
+Zoek het datasheet van de transistor op. Hoe groot is de maximale
 (collector)stroom die je met deze transistor door de belasting kunt
 sturen?
 
-**Meten van de stroomversterking**
+### Meten van de stroomversterking
 
-Sluit nu de basis via een **220 Kohm** weerstand direct aan op de
-**plus** van de voeding. (de LED moet dan helder oplichten)
+Sluit nu de basis via een **220 kOhm** weerstand direct aan op de
+**plus** van de voeding (de LED moet dan helder oplichten).
 
 ![](./media/media/image8.png)
 
@@ -277,13 +284,21 @@ de stroom uitrekenen:
 
 Berekende stroomversterking:
 
+```text
+
+
+
+
+
+```
+
 Wellicht interessant om te weten is hoe groot de stroom door je lichaam
 was, die voldoende was om de LED goed te laten oplichten. Je lichaam
-staat in serie met de weerstand Rbbasis (220K Ohm). Meet je
+staat in serie met de weerstand Rbbasis (220 kOhm). Meet je
 lichaamsweerstand met de multimeter en kies daarbij de juiste stand
-(1M).
+(MOhm).
 
-**Afsluiten van het practicum**
+## Afsluiten van het practicum
 
 Vóórdat je afsluit meld je aan de docent dat je klaar bent en geef je
 een demo van de versterkerschakeling. Deze kijkt dan of alles goed
