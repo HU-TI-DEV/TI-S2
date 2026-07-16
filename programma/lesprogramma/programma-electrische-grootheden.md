@@ -56,6 +56,7 @@ Maak de volgende toets op canvas:
 
 Canvas $\rightarrow$ Internet of Things $\rightarrow$ Opdrachten $\rightarrow$ Elektronica (basis) deel II
 
+<!-- markdown-link-check-disable-next-line -->
 [DIRECT_LINK - werkt alleen voor TI-S2 2026/27 H1](https://canvas.hu.nl/courses/53743/quizzes/55927)
 
 - Je kan deze toets zo vaak doen als je wilt.
