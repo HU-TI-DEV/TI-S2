@@ -14,7 +14,7 @@ Deze oefening betreft een **opdracht**, dit betekent dat wij dit een belangrijke
 
 NB: `v` is in deze tabel gelijk aan een instance van `vector`
 
-![alt text](vector_functionaliteiten.png)
+![alt text](../../../software/c++/oop-concepten/ADTs/vector_functionaliteiten.png)
 *Figuur: Functionaliteiten voor een vector of coördinatenpaar*
 
 ### Gebruik van AI
