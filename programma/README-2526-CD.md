@@ -1,0 +1,238 @@
+![logo](https://www.hu.nl/-/media/hu/afbeeldingen/algemeen/hu-logo.ashx) [](logo-id)
+
+# Semester 2 van Technische Informatica[](title-id) <!-- omit in toc -->
+
+2<sup>e</sup> Halfjaar - februari t/m juli
+
+### Inhoud[](toc-id) <!-- omit in toc -->
+
+- [Een introductie](#een-introductie)
+  - [Organisatie](#organisatie)
+- [Programma](#programma)
+  - [Onderwijsweek C2 (09-02-2026)](#onderwijsweek-c2-09-02-2026)
+  - [Onderwijsweek C3 (16-02-2026)](#onderwijsweek-c3-16-02-2026)
+  - [Onderwijsweek C4 (23-02-2026)](#onderwijsweek-c4-23-02-2026)
+  - [Onderwijsweek C5 (2-03-2026)](#onderwijsweek-c5-2-03-2026)
+  - [Onderwijsweek C6 (9-03-2026)](#onderwijsweek-c6-9-03-2026)
+  - [Onderwijsweek C7 (16-03-2026)](#onderwijsweek-c7-16-03-2026)
+  - [Onderwijsweek C8 (23-03-2026)](#onderwijsweek-c8-23-03-2026)
+  - [Onderwijsweek C9 (30-03-2026)](#onderwijsweek-c9-30-03-2026)
+  - [Onderwijsweek C10 (06-04-2026)](#onderwijsweek-c10-06-04-2026)
+  - [Onderwijsweek D1 (13-04-2026)](#onderwijsweek-d1-13-04-2026)
+  - [Onderwijsweek D2 (20-04-2026)](#onderwijsweek-d2-20-04-2026)
+  - [Onderwijsweek D3 (27-04-2026)](#onderwijsweek-d3-27-04-2026)
+  - [Onderwijsweek D4 (4-05-2026)](#onderwijsweek-d4-4-05-2026)
+  - [Onderwijsweek D5 (11-05-2026)](#onderwijsweek-d5-11-05-2026)
+  - [Onderwijsweek D6 (18-05-2026)](#onderwijsweek-d6-18-05-2026)
+  - [Onderwijsweek D7 (25-05-2026)](#onderwijsweek-d7-25-05-2026)
+  - [Onderwijsweek D8 (1-06-2026)](#onderwijsweek-d8-1-06-2026)
+  - [Onderwijsweek D9 (8-06-2026)](#onderwijsweek-d9-8-06-2026)
+  - [Onderwijsweek D10 (15-06-2026)](#onderwijsweek-d10-15-06-2026)
+  - [Afrondingsweek D11 (22-06-2026)](#afrondingsweek-d11-22-06-2026)
+  - [Verbeterweek E1 (29-06-2026)](#verbeterweek-e1-29-06-2026)
+  - [Verbeterweek E2 (6-07-2026)](#verbeterweek-e2-6-07-2026)
+
+---
+
+**v2.2 [](version-id)** Semester 2 TI programma door HU IICT[](author-id).
+
+---
+
+## Een introductie
+
+### Organisatie
+
+De contacturen zijn:
+
+|dag |van    |tot    | lokaal     |
+|--- |---    |---    | ---        |
+| ma | 13.00 | 16.00 | HL15-1.096 |
+| di | 09.00 | 12.00 | HL15-1.096 |
+| wo | 09.00 | 12.00 | HL15-1.096 |
+| do | 09.00 | 12.00 | HL15-1.096 |
+
+Breakout rooms: HL15-1.093, HL15-1.094, HL15-1.095 en HL15-1.098
+
+De docenten zijn:
+
+- (**TM**) Teun Pieter Modderman
+- (**GP**) Gera Pronk
+- (**NG**) Nick Goris
+- (**HP**) Hagen Patzke
+- (**HS**) Harm Snippe
+
+## Programma
+
+### Onderwijsweek C2 (09-02-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | 13.00 uur Startbijeenkomst (HS & TM) om 14.00 uur koffie & thee **Start Sprint 0**|
+| di  | [Nationale Studente Enquête](./lesprogramma/programma-NSE.md) (**HS**) & [Les introductie C++, VScode & basisconcepten](../programma/lesprogramma/programma-cpp-basis.md) (**HP** en **HS**) |
+| wo  | [Les data-types: int, bool, char, float](../programma/lesprogramma/programma-cpp-datatypes.md) (**GP** en **NG**) |
+| do  | [Les loops en vector](../programma/lesprogramma/programma-cpp-loops-vector.md) (**NG** en **GP**) |
+
+### Onderwijsweek C3 (16-02-2026)
+
+Krokusvakantie
+
+### Onderwijsweek C4 (23-02-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Project [Git, je persoonlijke repo](./lesprogramma/programma-git.md) (**TM & HS**) |
+| di  | [Digitale Pin](../hardware-interfacing/communicatie/analoog-en-digitaal/Digital-IO/README.md) & [Analoge pin uitlezen](../hardware-interfacing/communicatie/analoog-en-digitaal/ADC/README.md) (**HP & HS**). Lees graag de [samenvatting Digital-I/O](./lesprogramma/programma-digital-io.md) en [samenvatting ADC](./lesprogramma/programma-ADC.md) en maak [een portfolio-item](./lesprogramma/programma-portfolio-item.md). |
+| wo  | [Les - Inlezen van gegevens: cin & getline](../programma/lesprogramma/programma-cpp-inlezen-gegevens.md) (**GP** en **NG**) |
+| do  | [Les - Functies](../programma/lesprogramma/programma-cpp-functions.md) (**NG** en **GP**)  |
+
+### Onderwijsweek C5 (2-03-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Uitleg project](./lesprogramma/programma-uitleg-project.md) (**HS**) Projectteams samenstellen en [Git werken met een team-repo](./lesprogramma/programma-git-2.md) (**TM**) & [Functionele Requirements](./lesprogramma/programma-functionele-requirements.md) (**TM**)|
+| di  | [Schuifregister](./lesprogramma/programma-schuifregister.md) & [SPI](./lesprogramma/programma-SPI.md), optioneel: [I2C](./lesprogramma/programma-i2c-1.md) (**HP**) |
+| wo  | [Electronica (basis) deel I](./lesprogramma/programma-electrische-grootheden.md) (**HP**). |
+| do  | [Les - File I/O](../programma/lesprogramma/programma-cpp-fileio.md) (**NG en GP**) |
+| vr | 9.00 - 16.00 uur [bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md)  **Einde Sprint 0**|
+
+### Onderwijsweek C6 (9-03-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) **Start Sprint 1**|
+| di  | [Electronica (basis) deel II)](./lesprogramma/programma-electrische-grootheden.md#electronica-basis-deel-ii) (**HP**) & [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) |
+| wo  | Werken aan project - requirements (**TM**) |
+| do  | [Les - Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP en NG**) |
+
+### Onderwijsweek C7 (16-03-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Opzetten .md to .pdf & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). |
+| di  |  [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md), [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) & Peilmoment check (**TM & HS**) |
+| wo  | [Les - datatype struct](../programma/lesprogramma/programma-cpp-structs.md) (**GP en NG**) & C++ Feedback (**GP & NG**) |
+| do  | **1e Peilmoment** & [Les - recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**NG en GP**) |
+
+### Onderwijsweek C8 (23-03-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
+| di  | [Kirchhoff, Led](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
+| wo  | [Les - C++ meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP en NG**) |
+| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) **Einde Sprint 1**|
+
+### Onderwijsweek C9 (30-03-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Planning voorbereiden Sprint 2 (**TM**) **Start Sprint 2**|
+| di  | LoRa. [Data verzenden en ontvangen. Uplink & Downlink.](./lesprogramma/programma-LoRa-Uplink_Downlink.md) (**HS**) |
+| wo  | Temperatuurmeten: [1-wire](./lesprogramma/programma-1-wire.md) (**HP**)|
+| do  | [Les - C++ classes](../programma/lesprogramma/programma-cpp-classes.md) en [herhaling C++ structs](../software/c++/data-types/struct/README.md) (**GP**) |
+
+### Onderwijsweek C10 (06-04-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | 2e Paasdag |
+| di  | [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
+| wo  | [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
+| do  | [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) & [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) & **Einde sprint 2** |
+
+### Onderwijsweek D1 (13-04-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Oscilloscoop & Picoscope](./lesprogramma/programma-oscilloscope-1.md) (**HS**) & **Start Sprint 3** |
+| di  | Geen Les! |
+| wo  | [PWM](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
+| do  | **2de Peilmoment** & [Compositie, UML](../software/c++/oop-concepten/klassen/compositie.md) en [associatie](../software/c++/oop-concepten/klassen/associatie.md) (**NG en GP**) |
+
+### Onderwijsweek D2 (20-04-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  |  Werken aan project (**TM**) |
+| di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
+| wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
+| do  | [Operatoren](./lesprogramma/programma-cpp-operatoren.md) en C++ Feedback (**GP & NG**) & **Einde Sprint 3**|
+
+### Onderwijsweek D3 (27-04-2026)
+
+Meivakantie
+
+### Onderwijsweek D4 (4-05-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Niet-Functionele Requirements](./lesprogramma/programma-niet-functionele-requirements.md) & [Activity Diagrammen](./lesprogramma/programma-activity-diagrammen.md) (**TM**)  **Start sprint 4**|
+| di  | Bevrijdingsdag |
+| wo  | Korte uitleg Plan van Aanpak - Canvas (**GP**), [Workshop Datasheet lezen, I2C, Sensorboard, Logic Analyzer](./lesprogramma/programma-i2c-1.md) (**HP**)  [Oscilloscoop deel 2 (photodiode, seriele verbinding)](./lesprogramma/programma-oscilloscope-2.md) (**HP**)|
+| do  | [Servo Controller 1 (meten)](./lesprogramma/programma-servocontroller-1.md) (**HP**)  |
+
+### Onderwijsweek D5 (11-05-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Project Pitch (**TP**) & [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 1/3 (**HS**)  |
+| di  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask en Node-RED 2/3 (**HS**) |
+| wo  | C++ Feedback (**GP**) & [SFML](./lesprogramma/programma-sfml.md) (**GP**)|
+| do  | Hemelvaart **Einde Sprint 4**|
+
+### Onderwijsweek D6 (18-05-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Data visualiseren](./lesprogramma/programma-infrastructuur-2.md) Flask, Node-RED en presenteer je team-oplossing (**HS**) **Start Sprint 5**|
+| di  | [Voorbeelden van (hardware) libraries in C++](../software/c%2B%2B/opdrachten/library-voorbeelden.md) (**NG**) & Werken aan project (**TM**) |
+| wo  | C++ Feedback (**GP & NG**) & C++ [objecten en waarden](../software/c++/oop-concepten/objecten-en-waarden/README.md), [units en waarden](../software/c++/oop-concepten/units-en-waarden/README.md),  [decorator](../software/c++/patronen/README.md) & [adapter](../software/c++/patronen/adapter/README.md) patterns (**GP**) |
+| do  | [Servo Controller 2 (meten, simuleren)](./lesprogramma/programma-servocontroller-2.md) (**HP**) |
+
+### Onderwijsweek D7 (25-05-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Vrij - Pinksteren |
+| di |  [Afronding I2C (ADC YL-40/PCF8591), I/O expander (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**), Werken aan project (**TM**) |
+| wo  | [Servo Controller 3 (simuleren)](./lesprogramma/programma-servocontroller-3.md) (**HP**) & C++ [Les Overerving](../programma/lesprogramma/programma-cpp-inheritance.md) (**NG & GP**)|
+| do  | **3de Peilmoment**,  [Les Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) - [Unit Tests](../software/c++/oop-concepten/unit-tests/README.md), [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md) (**GP**), C++ Feedback (**GP & NG**), **Einde Sprint 5**|
+
+### Onderwijsweek D8 (1-06-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Finite state machine](./lesprogramma/programma-fsm.md) (**HP**) **Start sprint 6**|
+| di  | [RFID](./lesprogramma/programma-rfid.md) Lezen en schrijven van data met RFID (**HS**)|
+| wo  | Werken aan eigen library (**GP & NG**)|
+| do  | Werken aan eigen library (**NG & HS**)|
+
+### Onderwijsweek D9 (8-06-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | Werken aan eigen library (**TM**) & Inlevering eigen library |
+| di  | Werken aan project (**HS & TM**) |
+| wo  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
+| do  | Werken aan project (**HS & TM**) & Library assesments (**GP & HP**) |
+
+### Onderwijsweek D10 (15-06-2026)
+
+| Dag | Project & Kennissessie |
+| --- |  --- |
+| ma  | [Toelichting eindpresentatie en het maken van een poster](./lesprogramma/programma-eindpresentatie.md) (**HS**) & Werken aan project (**HS & TM**) |
+| di  | Werken aan project (**HS & TM**) |
+| wo  | Werken aan project (**HS & TM**) |
+| do  | **Eindbeslissing (4e Peilmoment)** & [Eindpresentatie](./lesprogramma/programma-eindpresentatie.md) (**HS & TM**) **Einde sprint 6**|
+
+### Afrondingsweek D11 (22-06-2026)
+
+De docenten bekijken deze week al het ingeleverde werk. Aan het eind van de week ontvang je individuele feedback en een eindbeoordeling.
+
+### Verbeterweek E1 (29-06-2026)
+
+De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
+
+### Verbeterweek E2 (6-07-2026)
+
+De eerste en tweede verbeterweek zijn er voor (mogelijke) verbeteringen van het ingeleverde werk of om binnen het semester verder de excelleren. Als niet alle leeruitkomsten Op Niveau of Boven Niveau zijn dan kan in samenspraak met de docent een (realistisch) plan worden gemaakt en voer je deze werkzaamheden in deze periode uit. Verder excelleren kan bijvoorbeeld door een leeruitkomst met verbeteringen van Op Niveau naar Boven Niveau te brengen.
