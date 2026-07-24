@@ -17,13 +17,9 @@ NB: `v` is in deze tabel gelijk aan een instance van `vector`
 ![alt text](../../../software/c++/oop-concepten/ADTs/vector_functionaliteiten.png)
 *Figuur: Functionaliteiten voor een vector of coördinatenpaar*
 
-### Gebruik van AI
-Voor deze opdracht mag je **geen** generatieve AI gebruiken. 
-
 ## Opleveren
 
 ### Inleverbox
-
 
 <!-- Deze kan door het script dat de deadlines controleert hier automatisch geplaatst worden-->
 
@@ -32,6 +28,9 @@ Voor deze opdracht mag je **geen** generatieve AI gebruiken.
 Voor deze opdracht heb je ongeveer een week. Zie de inleverbox op Canvas voor de exacte deadline.
 
 <!-- Écht controleren of de deadline goed staat is helaas onmogelijk (tenzij we dit ieder half jaar willen hardcoden). Wat we wel kunnen doen is kijken of de deadline ná de datum staat waarop de opdracht is uitgegeven (via het rooster, datum van bijbehorende les controleren t.o.v. deadline op Canvas) en of de deadline binnen een gegeven range na die les valt. Alternatief zouden we natuurlijk de deadline uit Canvas kunnen uitlezen en hier automatisch laten invullen, maar het originele probleem is natuurlijk dat dat steeds niet goed ging -->
+
+### Gebruik van AI
+Voor deze opdracht mag je **geen** generatieve AI gebruiken. 
 
 ### Criteria
 
