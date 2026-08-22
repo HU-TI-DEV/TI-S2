@@ -2,7 +2,7 @@
     {
         "baseURL": "https://www.canvas.hu.nl/",
         "courseID": 50260,
-        "githubRepoURL": "https://github.com/HU-TI-DEV/TI-S2/",
-        "exerciseListURL": "https://raw.githubusercontent.com/your-org/your-repo/main/exercises.json"
+        "githubRepoURL": "https://github.com/HU-TI-DEV/TI-S2",
+        "githubBranch": "main"
     }
 ]
