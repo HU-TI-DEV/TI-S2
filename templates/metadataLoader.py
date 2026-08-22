@@ -6,6 +6,7 @@ from typing import Any, Dict
 
 METADATA_PATH = Path(__file__).with_name("metadata.json")
 
+# This function, including all the validation checks, was written by AI
 def loadMetadata(path: Path = METADATA_PATH) -> Dict[str, Any]:
 	"""Load the first metadata entry with validation.
 

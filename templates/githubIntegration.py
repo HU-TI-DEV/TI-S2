@@ -94,6 +94,10 @@ def getExaminationInfo(opdrachtnaam: str) -> dict:
     return {"description": html_info}
 
 if __name__ == "__main__":
+    """
+    NOTE: This file should not be run as a standalone script, it is intended to be imported and used as a module. 
+    The following code is just for quick testing purposes.
+    """
     # Example usage
     opdrachtnaam = "OO - Classes & operatoren"  # Replace with an actual opdrachtnaam
     try:
