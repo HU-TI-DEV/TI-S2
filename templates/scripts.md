@@ -32,7 +32,7 @@ Uitvoeren:
 5. Het script zal nu het Canvas Assignment object updaten met de vertaalde HTML beschrijving
 
 <details>
-<summary>## Uitleg scripts </summary>
+<summary><h3> Uitleg scripts </h3></summary>
 
 ### metadataLoader\.py
 Dit script (grotendeels door AI gegenereerd) biedt een interface om de metadata.json uit te lezen om te achterhalen vanuit welke git repo scripts worden gerund en bij welke Canvas cursus de repo hoort.
@@ -45,7 +45,8 @@ Dit script biedt een wrapper om de Python implementatie van de Canvas API aan vo
 Om gebruik te kunnen maken van de functies in dit script dient de gebruiker een Canvas API token in de environment variables geplaatst te hebben. 
 <details> 
 <summary> Informatie over het genereren van een Canvas API token 
-</summary> 
+</summary>
+
 Informatie over het genereren van een API token vind je [hier](https://community.instructure.com/en/kb/articles/662901-how-do-i-manage-api-access-tokens-in-my-user-account). 
 **Let op**: een Canvas API token is persoonlijk, maar kan wel door iedereen gebruikt worden. Een API token biedt alle mogelijkheden (en meer) van een gebruikersaccount. Bewaar deze dus veilig, en gebruik altijd een environment loader om de API key op te halen. Plaats deze niet in plaintext in code.
 </details>
