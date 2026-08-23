@@ -28,14 +28,15 @@ Doxygen is een *command-line tool* die je moet runnen
 
 #### Doxyfile
 De Doxyfile is een lange text file met heel veel configuratie instellingen. In de meeste gevallen zijn de defaults die er in het standaard Doxygen template staan prima.
-Enkele onderdelen moet je altijd aanpassen: je moet in het Doxyfile de projektnaam instellen.
-Er zijn ook nuttige opties om bv de hele broncode mee te nemen ende verbindingen tussen onderdelen te tonen.
+Enkele onderdelen moet je altijd aanpassen: 
+- je moet in het Doxyfile de *projektnaam* instellen.
+Er zijn ook nuttige opties om bv de hele broncode mee te nemen en de verbindingen tussen onderdelen te tonen.
 
 #### Runnen en uitvoer
 Als je doxygen runt (met de Doxyfile die bij de voorbeelden zit) wordt een subdirectory html aangemaakt met daarin de documentatie. Het startpunt van de documentatie is de `index.html` file in die subdirectory.
 
 - In de header files - waarvoor documentatie gegenereerd moet worden - moet commentaar staan die doxygen kan verwerken. Een mogelijkheid is deze te beginnen met `///`, [maar er zijn ook veel andere manieren](https://www.doxygen.nl/manual/docblocks.html). 
-- Als je bovenin de file een commentaarregel met `@file` staat dan kan je daaronder omschrijving plaatsen die over het hele bestand gaat. 
+- Als je bovenin de file een commentaarregel met `@file` zet, dan kun je daaronder een omschrijving plaatsen die over het hele bestand gaat. 
 - Bij alle te documenteren onderdelen (namespaces, klassen, niet-privé attributen en functies, losse functies, losse variabelen) zet je
   - `/// @brief`, 
   - gevolgd door een regel die in telegramstijl (geen grammaticaal volledige zin) aangeeft *wat het onderdeel doet*. Deze regel komt terecht in een overzicht van alle onderdelen, dus een lezer moet er snel uit kunnen opmaken of hij het onderdeel wil gaan gebruiken.
@@ -49,14 +50,14 @@ Helaas zie je, vooral in een-persoons open-source projecten, nogal eens ‘excuu
 
 #### Tips
 - De header files kunnen ook ergens anders staan, maar dan moet je de Doxyfile aanpassen (doxygen moet uiteraard 'weten' waar de broncode te vinden is).
-- De mogelijke Doxygen kommando's vind je [in het Doxygen manual](https://www.doxygen.nl/manual/commands.html).
-- De Doxygen commands staan altijd in een C/C++ commentaar. Zij mogen beginnen met '@' of '\'.
+- De mogelijke Doxygen commando's vind je [in het Doxygen manual](https://www.doxygen.nl/manual/commands.html).
+- De Doxygen commando's staan altijd in een C/C++ commentaar. Zij mogen beginnen met '@' of '\'.
 
 ```cpp
 /** @file
  *  @brief 2D integer vector ADT
  *  @details
- *  This is 2D vector ADT that stores its two components as (signed) integers.
+ *  This is a 2D vector ADT that stores its two components as (signed) integers.
  *  The x and y components are public attributes.
  *  The appropriate constructors and operators are provided.
  */
