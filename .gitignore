@@ -5,6 +5,7 @@ package-lock.json
 *.code-workspace
 *.exe
 .json
+.env
 
 _slidev
 **/tripleminus.py

@@ -4,6 +4,9 @@ import os
 from typing import Any, Dict
 
 from canvasapi import Canvas
+from canvasapi.assignment import Assignment
+from canvasapi.course import Course
+from canvasapi.paginated_list import PaginatedList
 
 from metadataLoader import loadMetadata
 
@@ -14,16 +17,16 @@ def createCanvasClient(metadata: Dict[str, Any]) -> Canvas:
 		raise ValueError("Set CANVAS_API_TOKEN in your environment")
 	return Canvas(metadata["baseURL"].rstrip("/"), token)
 
-def getCanvasExercises(courseObj: Canvas.Course) -> list:
+def getCanvasExercises(courseObj: Course) -> PaginatedList[Assignment]:
     return courseObj.get_assignments()
 
-def updateAssignmentDescription(assignmentObj: Canvas.Assignment, newData: dict) -> Canvas.Assignment:
+def updateAssignmentDescription(assignmentObj: Assignment, newData: dict) -> Assignment:
     if not isinstance(newData, dict) or "description" not in newData or len(newData) != 1:
         raise ValueError("newData must be a dictionary containing only the 'description' field")
-    assignmentObj.edit(newData)
+    assignmentObj.edit(assignment=newData)
     return assignmentObj
 
-def getDueDate(assignmentObj: Canvas.Assignment) -> str:
+def getDueDate(assignmentObj: Assignment) -> str:
 	return assignmentObj.due_at
 
 if __name__ == "__main__":
