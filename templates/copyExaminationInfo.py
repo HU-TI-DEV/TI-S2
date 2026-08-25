@@ -1,6 +1,5 @@
 import canvasIntegration
 import githubIntegration
-
 from metadataLoader import loadMetadata
 
 if __name__ == "__main__":

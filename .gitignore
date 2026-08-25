@@ -18,3 +18,6 @@ software/c++/oop-concepten/klassen/04-07-rectangle/rectangle.hpp
 software/c++/oop-concepten/overerving/virtual-abstract.md
 *.workspace
 *.DS_Store
+
+.venv
+__pycache__/

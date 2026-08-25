@@ -62,7 +62,7 @@ def preprocessMarkdown(content: str) -> str:
     return content.strip()
 
 # Given an opdrachtnaam, extract the examination info from the corresponding markdown file
-def extractExaminationInfo(opdrachtnaam: str) -> dict:
+def extractExaminationInfo(opdrachtnaam: str) -> str:
     md_file_path = findMarkdownFile(opdrachtnaam)
     with md_file_path.open("r", encoding="utf-8") as f:
         content = f.read()

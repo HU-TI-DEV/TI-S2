@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import os
-from typing import Any, Dict
+from typing import Any
 
 from canvasapi import Canvas
 from canvasapi.assignment import Assignment
@@ -11,7 +11,7 @@ from canvasapi.paginated_list import PaginatedList
 from metadataLoader import loadMetadata
 
 
-def createCanvasClient(metadata: Dict[str, Any]) -> Canvas:
+def createCanvasClient(metadata: dict[str, Any]) -> Canvas:
 	token = os.getenv("CANVAS_API_TOKEN")
 	if not token:
 		raise ValueError("Set CANVAS_API_TOKEN in your environment")
