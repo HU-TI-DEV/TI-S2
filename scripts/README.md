@@ -15,7 +15,8 @@ Opzet:
 <details>
 <summary> Genereren en opslaan van een Canvas API key </summary>
 
-Genereren Canvas API key:
+<br>
+**Genereren Canvas API key:**
 1. Ga naar canvas.hu.nl en log in
 2. Klik links bovenin op je account
 3. Ga naar instellingen
