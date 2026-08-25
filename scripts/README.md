@@ -33,6 +33,8 @@ Token opslaan:
 
 N.B. .env staat in de .gitignore en zal dus niet getracked worden door git
 
+------------------------------------------------------------
+
 </details>
 
 
