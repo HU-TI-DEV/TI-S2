@@ -1,0 +1,9 @@
+[project]
+name = "templates"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "canvasapi>=3.6.0",
+    "markdown-it-py>=4.2.0",
+    "python-dotenv>=1.2.3",
+]

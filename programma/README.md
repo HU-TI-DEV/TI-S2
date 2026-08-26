@@ -171,11 +171,19 @@ Markeringen voor de onderwerpen:
 ### Onderwijsweek B1 (09-11-2026)
 
 | Dag | Project & Kennissessie |
+<<<<<<< HEAD
+| --- |  --- |
+| ma  |  Werken aan project (**TM**) |
+| di  | [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md) (**HP**) Darlington, ULN2003 |
+| wo  | [UART, gebruik van Logic Analyzer en optioneel: I2C](./lesprogramma/programma-uart.md) (**HP**) |
+| do  | [Les - Operatoren](./lesprogramma/programma-cpp-operatoren.md) en C++ Feedback (**GP & NG**) & **Einde Sprint 3**|
+=======
 | --- | :--- |
 | ma  | `ALG` *Onder voorbehoud* - Gastles SDG samen met S4 (**TM & GP**) |
 | di  | `HWI` [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | `HWI` [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
+>>>>>>> main
 
 ### Onderwijsweek B2 (16-11-2026)
 
