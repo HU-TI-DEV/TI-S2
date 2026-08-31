@@ -51,8 +51,8 @@ Heb je een werkende ontwikkelomgeving opgezet en je eerste C++ programma draaien
 Gefeliciteerd: neem een pauze.
 
 > **Tip** -
-> Tussen 1 maart en 1 december:\
-> -> Ga naar de [Vlinderkas](https://www.uu.nl/botanischetuinen/de-tuinen/tuindelen/vlinderkas) in de  [Hortus Botanicus Utrecht](https://www.uu.nl/botanischetuinen).\
+> Van maart tot oktober:\
+> -> Ga de [Hortus Botanicus Utrecht](https://www.uu.nl/botanischetuinen).\
 > -> Je hebt gratis toegang met je HU studentenpas.
 
 ## Portfolio-Tip
