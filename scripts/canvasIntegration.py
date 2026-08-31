@@ -14,8 +14,8 @@ from metadataLoader import loadMetadata
 
 
 def createCanvasClient(metadata: dict[str, Any]) -> Canvas:
-	dotenv_path = join(dirname(__file__), '.env')
-	load_dotenv(dotenv_path)
+	dotenv_path = join(dirname(__file__), '..', '.env')
+	load_dotenv(dotenv_path, override=True)
 	token = os.environ.get("CANVAS_API_TOKEN")
 	if not token:
 		raise ValueError("Set CANVAS_API_TOKEN in your environment")
@@ -25,10 +25,9 @@ def getCanvasExercises(courseObj: Course) -> PaginatedList[Assignment]:
     return courseObj.get_assignments()
 
 def updateAssignmentDescription(assignmentObj: Assignment, newData: dict) -> Assignment:
-    if not isinstance(newData, dict) or "description" not in newData or len(newData) != 1:
-        raise ValueError("newData must be a dictionary containing only the 'description' field")
-    assignmentObj.edit(assignment=newData)
-    return assignmentObj
+	if not isinstance(newData, dict) or "description" not in newData or len(newData) != 1:
+		raise ValueError("newData must be a dictionary containing only the 'description' field")
+	return assignmentObj.edit(assignment=newData)
 
 def getDueDate(assignmentObj: Assignment) -> str:
 	return assignmentObj.due_at

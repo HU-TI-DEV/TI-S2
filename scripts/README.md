@@ -27,7 +27,7 @@ Opzet:
 6. Genereer je token. **LET OP** Dit is het enige moment dat je je token te zien gaat krijgen, dus kopiëer deze!
 
 Token opslaan:
-1. Maak een kopie van het .env_EXAMPLE bestand uit de folder /scripts/ en hernoem naar .env
+1. Maak een kopie van het .env_EXAMPLE bestand in de hoofdmap van de repository en hernoem naar .env
 2. Overschrijf in de .env file de waarde van de variabele CANVAS_API_TOKEN met je gegenereerde token
 3. Sla op
 
@@ -56,6 +56,10 @@ Uitvoeren:
    6. Het combineren van de link en de toetsingsinformatie
    7. Het vertalen van de markdown text naar HTML
 6. Het script zal nu het Canvas Assignment object updaten met de vertaalde HTML beschrijving
+
+## Links in een Canvas-beschrijving vervangen
+
+Gebruik `uv run updateAssignmentLinks.py` om de `Opdracht link` in een bestaande Canvas-opdrachtbeschrijving te herstellen. Kies een opdracht en bevestig de wijziging. Het script reconstrueert de GitHub-link aan de hand van de naam van de opdracht en vervangt alleen de link in de `Opdracht link`-paragraaf van de huidige beschrijving.
 
 <details>
 <summary><h3> Uitleg scripts </h3></summary>
