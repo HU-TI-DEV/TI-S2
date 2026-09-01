@@ -59,7 +59,7 @@ Uitvoeren:
 
 ## Links in een Canvas-beschrijving vervangen
 
-Gebruik `uv run updateAssignmentLinks.py` om de `Opdracht link` in een bestaande Canvas-opdrachtbeschrijving te herstellen. Kies een opdracht en bevestig de wijziging. Het script reconstrueert de GitHub-link aan de hand van de naam van de opdracht en vervangt alleen de link in de `Opdracht link`-paragraaf van de huidige beschrijving.
+Gebruik `uv run updateAssignmentLinks.py` om alle verouderde `Opdracht link`-links in Canvas te herstellen. Het script zoekt naar opdrachten met een `Opdracht link`-paragraaf en een Markdown-bestand met dezelfde naam in de lokale git repository. Daarna toont het de wijzigingen en vraagt het eenmaal om bevestiging. Opdrachten zonder passende link of Markdown-bestand, en opdrachten waarvan de link al correct is, worden overgeslagen.
 
 <details>
 <summary><h3> Uitleg scripts </h3></summary>
