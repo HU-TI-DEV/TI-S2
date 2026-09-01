@@ -5,21 +5,6 @@ import githubIntegration
 from metadataLoader import loadMetadata
 
 
-def chooseAssignment(assignments: list):
-    print("Assignments in the course:")
-    for index, assignment in enumerate(assignments, start=1):
-        print(f"{index}. {assignment.name} (ID: {assignment.id})")
-
-    while True:
-        try:
-            assignment_number = int(input("Enter the number of the assignment to update: "))
-            if 1 <= assignment_number <= len(assignments):
-                return assignments[assignment_number - 1]
-            print(f"Please enter a number between 1 and {len(assignments)}.")
-        except ValueError:
-            print("Invalid input. Please enter a valid number.")
-
-
 ASSIGNMENT_LINK_PATTERN = r"(<p>\s*Opdracht link:\s*<a\b[^>]*\bhref=[\"'])([^\"']*)([\"'])"
 
 
@@ -44,6 +29,24 @@ def getAssignmentLink(description: str) -> str:
     return match.group(2)
 
 
+def findAssignmentsToUpdate(course, assignments: list) -> list[tuple]:
+    assignments_to_update = []
+    for assignment_summary in assignments:
+        assignment = course.get_assignment(assignment_summary.id)
+        description = assignment.description or ""
+        try:
+            github_url = githubIntegration.getGithubURL(assignment.name)
+            current_url = getAssignmentLink(description)
+        except (FileNotFoundError, ValueError):
+            continue
+
+        if current_url != github_url:
+            assignments_to_update.append(
+                (assignment, replaceAssignmentLink(description, github_url), github_url)
+            )
+    return assignments_to_update
+
+
 if __name__ == "__main__":
     metadata = loadMetadata()
     canvas_client = canvasIntegration.createCanvasClient(metadata)
@@ -53,28 +56,27 @@ if __name__ == "__main__":
     if not assignment_list:
         raise RuntimeError("No assignments found in the course.")
 
-    selected_assignment = chooseAssignment(assignment_list)
-    assignment = course.get_assignment(selected_assignment.id)
-    current_description = assignment.description or ""
+    assignments_to_update = findAssignmentsToUpdate(course, assignment_list)
+    if not assignments_to_update:
+        print("No assignment links need updating.")
+        raise SystemExit(0)
 
-    github_url = githubIntegration.getGithubURL(assignment.name)
-    updated_description = replaceAssignmentLink(current_description, github_url)
-    print(f"Will update the 'Opdracht link' link in '{assignment.name}' to:")
-    print(github_url)
+    print("Assignments with an outdated 'Opdracht link':")
+    for assignment, _, github_url in assignments_to_update:
+        print(f"- {assignment.name} (ID: {assignment.id}): {github_url}")
+
     if input("Apply this update? [y/N]: ").strip().lower() != "y":
         print("No changes were made.")
     else:
-        updated_assignment = canvasIntegration.updateAssignmentDescription(
-            assignment, {"description": updated_description}
-        )
-        verified_assignment = course.get_assignment(updated_assignment.id)
-        verified_url = getAssignmentLink(verified_assignment.description or "")
-        if verified_url != github_url:
-            raise RuntimeError(
-                "Canvas did not store the expected 'Opdracht link' link. "
-                f"Stored link: {verified_url}"
+        for assignment, updated_description, github_url in assignments_to_update:
+            updated_assignment = canvasIntegration.updateAssignmentDescription(
+                assignment, {"description": updated_description}
             )
-        print(
-            f"Successfully verified assignment '{verified_assignment.name}' "
-            f"(ID: {verified_assignment.id})."
-        )
+            verified_assignment = course.get_assignment(updated_assignment.id)
+            verified_url = getAssignmentLink(verified_assignment.description or "")
+            if verified_url != github_url:
+                raise RuntimeError(
+                    "Canvas did not store the expected 'Opdracht link' link for "
+                    f"'{assignment.name}'. Stored link: {verified_url}"
+                )
+            print(f"Successfully verified '{verified_assignment.name}' (ID: {verified_assignment.id}).")
