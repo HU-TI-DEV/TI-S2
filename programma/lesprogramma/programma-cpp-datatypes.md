@@ -4,8 +4,8 @@ Vandaag werken we zónder AI tools. En zelfs even zonder code te kloppen.
 ## Wat leer je vandaag?
 - Je leert meer over [datatypes](../../software/c++/data-types/README.md):
 [int](../../software/c++/data-types/int/README.md), [float](../../software/c++/data-types/float/README.md) en [bool](../../software/c++/data-types/bool/README.md).
-- Je oefent met [int, float, char en bool](../../software/c++/data-types/opdr_data-types.md).
-- Je maakt de [oefening over char](../../software/c++/data-types/char/opdr_char.md).
+- Je oefent met [int, float, char en bool](../../opdrachten/software/oefeningen/Datatypes.md).
+- Je maakt de [oefening over char](../../opdrachten/software/oefeningen/Char.md).
 
 ## Voorbereiding
 - Lees de algemene informatie over [datatypes](../../software/c++/data-types/README.md).
@@ -17,8 +17,8 @@ Heb je de smaak van datatypes te pakken? Kijk dan alvast naar [string](../../sof
 ## Tijdens de les
 1. De docent licht de code van int, float, char en bool toe.
 2. Daarna gaan we code lézen (=lézen, dus niet uitvoeren of runnen) 
-   Maak de [oefening datatypes](../../software/c++/data-types/opdr_data-types.md).
-3. Maak de [oefening char](../../software/c++/data-types/char/opdr_char.md).
+   Maak de [oefening datatypes](../../opdrachten/software/oefeningen/Datatypes.md).
+3. Maak de [oefening char](../../opdrachten/software/oefeningen/Char.md).
 
 ### Canvas
 1. Lever de oefening "Datatypes" in.
