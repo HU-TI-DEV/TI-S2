@@ -34,7 +34,7 @@ bool isPalindroom(const string& word){
 *Zie hiervoor de sectie “Waarden omwisselen” in de reader.
 **De omgedraaide versies van deze woorden zijn: *soodrekkets, neewollaH, lepel, ejself, en gnidlemmob*.
 
-#### 2.12 B:n
+#### 2.12 B:
 De bovenstaande gegeven functie `isPalindroom()` is eigenlijk niet zo heel mooi. Het
 is namelijk helemaal niet nodig om de reverse functie te gebruiken. 
 Schrijf je eigen `isPalindroom()` functie die zonder het woord om te draaien of te kopieren controleert of het woord een palindroom is. 

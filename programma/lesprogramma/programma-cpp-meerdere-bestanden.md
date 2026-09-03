@@ -8,7 +8,7 @@ Je leert meer over:
 - [meerdere header-files](../../software/c++/meerdere-bronbestanden/README.md##dubbele-invoeging-header-files)
 - hoe je een (extra) [VS code workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces) aanmaakt
 - hoe je meerdere files kunt compileren als VS code niet (meer) werkt.
-- [Configuratietips voor VScode gebruikers](../../software/c++/meerdere-bronbestanden/opdr_TV_sensatie.md#tips-voor-vs-code-gebruikers)
+- [Configuratietips voor VScode gebruikers](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md#tips-voor-vs-code-gebruikers)
 - Je maakt de [oefening TV sensatie](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md).
 
 ## Voorbereiding

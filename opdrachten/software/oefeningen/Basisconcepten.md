@@ -26,7 +26,7 @@ int main(){
 *Codevoorbeeld 2.1 hello, world*
 
 ## Opdracht 1.1 Hello world commentaar
-Bestudeer *Codevoorbeeld 2.2 Programma met commentaar in de code, in [basisconcepten](README.md)*
+Bestudeer *Codevoorbeeld 2.2 Programma met commentaar in de code, in [basisconcepten](../../../software/c++/basisconcepten/README.md)*
 - 1.1.a Voeg een regel commentaar toe aan het main programma en run het programma.
 
 ## Opdracht 1.2 Naam en studentnummer
