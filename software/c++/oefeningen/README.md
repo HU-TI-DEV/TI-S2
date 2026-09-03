@@ -25,80 +25,80 @@ Dit bestand bevat links naar C++ oefeningen. Deze oefeningen zijn een goede voor
 
 ### Basisconcepten
 
-- [Oefeningen basisconcepten](../basisconcepten/opdr_basisconcepten.md)
+- [Oefeningen basisconcepten](../../../opdrachten/software/oefeningen/Basisconcepten.md)
   - 1.0A Hello, greenhouse
   - 1.0B Greenhouse commentaar
 
 ### Datatypes
 
-- [Oefeningen data-types](../data-types/opdr_data-types.md)
+- [Oefeningen data-types](../../../opdrachten/software/oefeningen/Datatypes.md)
   - 1.3A, 1.3B Int, Float, Char, Bool
   - 1.3C, 1.3D Int, Float, Char, Bool
-- [Oefeningen char](../data-types/char/opdr_char.md)
+- [Oefeningen char](../../../opdrachten/software/oefeningen/Char.md)
   - 1.6 char + int
   - 1.7 1337
 
 ### Condities
 
-- [Oefening while](../condities/while/opdr_while_lezen.md)
+- [Oefening while](../../../opdrachten/software/oefeningen/Condities%20(while).md)
   - 1.4 while-loop, code lezen
 - [Oefeningen condities](../condities/opdr_condities.md)
-- [Oefeningen for](../condities/for/opdr_piramide.md)
+- [Oefeningen for](../../../opdrachten/software/oefeningen/For.md)
   - 1.12 piramide met opvulling
 
 ### Vector
 
-- [Opdrachten vector (1)](../data-types/vector/opdr_vector.md)
+- [Opdrachten vector (1)](../../../opdrachten/software/oefeningen/Vector.md)
   - 2.3 Positief
-- [Opdrachten vector (2)](../data-types/vector/opdr_v_sorteren.md)
+- [Opdrachten vector (2)](../../../opdrachten/software/opdrachten/Vector%20sorteren.md)
   - 2.13 Gesorteerde vector
   - 2.14 Vector input
 
 ### Functies
 
-- [Opdrachten functies, basis](../functies/basis/opdr_tellen.md)
+- [Opdrachten functies, basis](../../../opdrachten/software/oefeningen/Functies,%20basis.md)
   - 2.5 Tellen
   - 2.10 Vector controle
-- [Opdrachten functies, basis](../functies/basis/opdr_palindroom.md)
+- [Opdrachten functies, basis](../../../opdrachten/software/oefeningen/Functies,%20palindroom.md)
   - 2.12 Palindroom
 
 ### Bits
 
-- [Opdrachten bits](../bits/opdr_bits_bytes.md)
+- [Opdrachten bits](../../../opdrachten/software/oefeningen/Bits.md)
   - 3.1 Bytewaarde
   - 3.2 Hoger en lager
-- [Opdracht 4.6 Verschuif cyclisch](../bits/opdr_bits_cyclisch.md)
+- [Opdracht 4.6 Verschuif cyclisch](../../../opdrachten/software/opdrachten/Bits%20-%20verschuif%20cyclisch.md)
 
 ### Patronen - reductie
 
-- [Opdrachten Reductie - rijen C++](../patronen/reductie/opdr_rijen.md)
+- [Opdrachten Reductie - rijen C++](../../../opdrachten/software/oefeningen/Reductie%20-%20rijen.md)
 
-  - [3.3 Print doolhof](../patronen/reductie/opdr_rijen.md#opdracht-33-print-doolhof)
-  - [3.5 Gemiddelde 1](../patronen/reductie/opdr_rijen.md#opdracht-35-gemiddelde-1)
-  - [3.6 Gemiddelde 2](../patronen/reductie/opdr_rijen.md#opdracht-36-gemiddelde-2)
-  - [3.12 — Voetbalteam](../patronen/reductie/opdr_rijen.md#opdracht-312--voetbalteam)
+  - [3.3 Print doolhof](../../../opdrachten/software/oefeningen/Reductie%20-%20rijen.md#opdracht-33-print-doolhof)
+  - [3.5 Gemiddelde 1](../../../opdrachten/software/oefeningen/Reductie%20-%20rijen.md#opdracht-35-gemiddelde-1)
+  - [3.6 Gemiddelde 2](../../../opdrachten/software/oefeningen/Reductie%20-%20rijen.md#opdracht-36-gemiddelde-2)
+  - [3.12 — Voetbalteam](../../../opdrachten/software/oefeningen/Reductie%20-%20rijen.md#opdracht-312--voetbalteam)
 
 ### Meerdere bronbestanden
 
-- [Opdrachten Meerdere bronbestanden](../meerdere-bronbestanden/opdr_TV_sensatie.md)
+- [Opdrachten Meerdere bronbestanden](../../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md)
   - Opdracht 4.2 TV sensatie
   
 ### Files input
 
-- [Opdrachten Files input/output](../files-input/opdr_compression.md)
+- [Opdrachten Files input/output](../../../opdrachten/software/oefeningen/Bestanden%20-%20Compression.md)
   - Opdracht 4.5 Compression
 
 ### Patronen - recursie
 
-- [Opdrachten Recursie](../patronen/recursie/opdr_recursie.md)
-  - [Opdracht 5.1 — Konijnen](../patronen/recursie/opdr_recursie.md#opdracht-51--konijnen)
-  - [Opdracht 5.3 — Groot en gemeen](../patronen/recursie/opdr_recursie.md#opdracht-53--groot-en-gemeen)
-  - [Opdracht 5.4 — Rij van Fibonacci](../patronen/recursie/opdr_recursie.md#opdracht-54--rij-van-fibonacci)
-  - [Opdracht 5.6 - Gemiddelde](../patronen/recursie/opdr_recursie.md#opdracht-56---gemiddelde)
-  - [Opdracht 5.8 — Robotpiraat](../patronen/recursie/opdr_recursie.md#opdracht-58--robotpiraat)
+- [Opdrachten Recursie](../../../opdrachten/software/oefeningen/Recursie.md)
+  - [Opdracht 5.1 — Konijnen](../../../opdrachten/software/oefeningen/Recursie.md#opdracht-51--konijnen)
+  - [Opdracht 5.3 — Groot en gemeen](../../../opdrachten/software/oefeningen/Recursie.md#opdracht-53--groot-en-gemeen)
+  - [Opdracht 5.4 — Rij van Fibonacci](../../../opdrachten/software/oefeningen/Recursie.md#opdracht-54--rij-van-fibonacci)
+  - [Opdracht 5.6 - Gemiddelde](../../../opdrachten/software/oefeningen/Recursie.md#opdracht-56---gemiddelde)
+  - [Opdracht 5.8 — Robotpiraat](../../../opdrachten/software/oefeningen/Recursie.md#opdracht-58--robotpiraat)
 
 ### Structs
-- [Opdracht 4.3 - Voorwerpen](../oop-concepten/structs/opdr_structs.md)
+- [Opdracht 4.3 - Voorwerpen](../../../opdrachten/software/oefeningen/Structs%20(1).md)
 
 ### Classes
 - [Opdracht OO1.2 - Boeken](../oop-concepten/klassen/opdr_boeken.md#opdracht-oo12-boeken)
@@ -110,19 +110,20 @@ Dit bestand bevat links naar C++ oefeningen. Deze oefeningen zijn een goede voor
 - [Opdracht OO2.1 - Katten](../oop-concepten/operatoren/opdr_katten.md)
 
 ### Const
-- [Opdracht OO3.1 - Auto](../oop-concepten/const/opdr_const.md)
+- [Opdracht OO3.1 - Auto](../../../opdrachten/software/oefeningen/OO%20-%20Const.md)
 - [Opdracht OO3.2 - Refs](../oop-concepten/const/opdr_refs.md)
 
 ### Doxygen
-- [Opdracht OO2.2 - Doxygen](../oop-concepten/doxygen/opdr_doxygen.md)
+- [Opdracht OO2.2 - Doxygen](../../../opdrachten/software/oefeningen/OO%20-%20Doxygen.md)
 
 ### Compositie
-- [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
+- [Opdracht OO1.6 - Samengesteld object](../../../opdrachten/software/opdrachten/OO%20-%20Compositie.md)
 
 ### Unit tests & Catch2
 - [Opdracht OO2.4AB - Catch2](../oop-concepten/unit-tests/opdr_catch2.md)
 
+
 ### Decorator en adapter
-- [Opdracht OO5.3 - AND Decorator](../patronen/decorator/opdr_decorator.md#opdracht-oo53--and-decorator)
-- [Opdracht OO5.4 - kitt()](../patronen/decorator/opdr_decorator.md#opdracht-oo54-links-rechts-knipperen-met-kitt)
-- [Opdracht OO5.4 - blink()](../patronen/decorator/opdr_decorator.md#opdracht-oo55-idem-met-blink)
+- [Opdracht OO5.3 - AND Decorator](../../../opdrachten/software/oefeningen/OO%20-%20Decorator%20en%20adapter.md#opdracht-oo53--and-decorator)
+- [Opdracht OO5.4 - kitt()](../../../opdrachten/software/oefeningen/OO%20-%20Decorator%20en%20adapter.md#opdracht-oo54-links-rechts-knipperen-met-kitt)
+- [Opdracht OO5.4 - blink()](../../../opdrachten/software/oefeningen/OO%20-%20Decorator%20en%20adapter.md#opdracht-oo55-idem-met-blink)

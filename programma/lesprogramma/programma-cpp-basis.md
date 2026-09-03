@@ -37,7 +37,7 @@ Na succesvolle installatie van VScode.
 
 ### Codeer
 
-- Maak expres fouten in de oefening [Basisconcepten](../../opdrachten\software\oefeningen\Basisconcepten.md).
+- Maak expres fouten in de oefening [Basisconcepten](../../opdrachten/software/oefeningen/Basisconcepten.md).
 
 ### Canvas
 

@@ -26,7 +26,7 @@ Vanaf schooljaar 2025-2026 maken we onderscheid naar opdrachten en oefeningen.
 
 Todo: Verschuif cyclisch opdracht uitbreiden of terugzetten naar oefeningen.
 
-- [Opdracht 4.6 Verschuif cyclisch](../bits/opdr_bits_cyclisch.md)
+- [Opdracht 4.6 Verschuif cyclisch](../../../opdrachten/software/oefeningen/OO%20-%20Decorator%20en%20adapter.md/opdrachten/Bits%20-%20verschuif%20cyclisch.md)
 
 ## Classes en operatoren
 
@@ -36,7 +36,7 @@ Todo: ADT: vector opdracht uitbreiden of terugzetten naar oefeningen.
 
 ## Classes en Compositie
 
-- [Opdracht OO1.6 - Samengesteld object](../oop-concepten/klassen/opdr_samengesteld.md)
+- [Opdracht OO1.6 - Samengesteld object](../../../opdrachten/software/opdrachten/OO%20-%20Compositie.md)
 
 ## Unit tests & Catch2
 
@@ -44,5 +44,5 @@ Todo: ADT: vector opdracht uitbreiden of terugzetten naar oefeningen.
 
 ## Je eigen library
 
-- [Je eigen library en applicatie](./library-opdracht.md).
+- [Je eigen library en applicatie](../../../opdrachten/software/opdrachten/Je%20eigen%20library%20en%20applicatie.md).
 - [Lijst met library repositories](library-voorbeelden.md)

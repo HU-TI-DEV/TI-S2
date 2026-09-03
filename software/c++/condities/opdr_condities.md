@@ -6,7 +6,7 @@
 - [Opdracht 1.11 - Piramide (for, while)](#opdracht-111---piramide-for-while)
 
 Maak na deze opdrachten:
-- [Opdracht 1.12 piramide met opvulling](../condities/for/opdr_piramide.md)
+- [Opdracht 1.12 piramide met opvulling](../../../opdrachten/software/oefeningen/For.md)
 
 ## Opdracht 1.8a — Vierkant
 Schrijf een programma dat een vierkant van variabele lengte afdrukt, zoals in het
