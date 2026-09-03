@@ -16,6 +16,7 @@ Heb je de smaak van datatypes te pakken? Kijk dan alvast naar [string](../../sof
 
 ## Tijdens de les
 1. De docent licht de code van int, float, char en bool toe.
+[Presentatie](../../slides/S2_cpp_datatypes.pptx)
 2. Daarna gaan we code lézen (=lézen, dus niet uitvoeren of runnen) 
    Maak de [oefening datatypes](../../opdrachten/software/oefeningen/Datatypes.md).
 3. Maak de [oefening char](../../opdrachten/software/oefeningen/Char.md).
@@ -24,6 +25,7 @@ Heb je de smaak van datatypes te pakken? Kijk dan alvast naar [string](../../sof
 1. Lever de oefening "Datatypes" in.
 2. Lever de oefening Char in.
 3. Vraag *feedback* op je code tijdens de les.
+
 
 ## Na de les
 Je kunt nu spelen met verschillende datatypes. Er zijn er nog veel meer. 
