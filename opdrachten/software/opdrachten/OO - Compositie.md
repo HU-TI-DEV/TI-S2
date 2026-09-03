@@ -5,9 +5,9 @@
 
 
 ### Opdracht OO1.6 Samengesteld object
-*Maak eerst opdracht [OO1.5, Gevulde rechthoek](../../../software/c++/oop-concepten/klassen/opdr_rechthoek.md/)*.
+*Maak eerst opdracht [OO1.5, Gevulde rechthoek](../../../software/c++/oop-concepten/klassen/opdr_rechthoek.md)*.
 
-- Gebruik de code van opgave [OO1.5 Gevulde rechthoek](./opdr_rechthoek.md) als uitgangspunt. 
+- Gebruik de code van opgave [OO1.5 Gevulde rechthoek](../../../software/c++/oop-concepten/klassen/opdr_rechthoek.md) als uitgangspunt. 
 - Maak een samengestelde klasse voor een grafisch object (cpp en hpp files) dat (ten minste) het volgende moet bevatten:
   - 1 **rechthoek** (de bestaande of de in de vorige opgave gemaakte gevulde rechthoek),
   - 1 **lijn**

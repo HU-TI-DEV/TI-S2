@@ -26,7 +26,7 @@ Vanaf schooljaar 2025-2026 maken we onderscheid naar opdrachten en oefeningen.
 
 Todo: Verschuif cyclisch opdracht uitbreiden of terugzetten naar oefeningen.
 
-- [Opdracht 4.6 Verschuif cyclisch](../../../opdrachten/software/oefeningen/OO%20-%20Decorator%20en%20adapter.md/opdrachten/Bits%20-%20verschuif%20cyclisch.md)
+- [Opdracht 4.6 Verschuif cyclisch](../../../opdrachten/software/opdrachten/Bits%20-%20verschuif%20cyclisch.md)
 
 ## Classes en operatoren
 
