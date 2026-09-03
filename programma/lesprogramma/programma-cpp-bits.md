@@ -19,8 +19,8 @@ Zie ook: [Binair talstelsel](https://nl.wikipedia.org/wiki/Binair_talstelsel)
 1. De docent licht bits, bit-operaties en bit shifting toe.
 
 ### Canvas 
-1. Lever de oefening Bits in.
-2. Lever de opdracht "Bits verschuif cyclisch" in.
+1. Lever de oefening [Bits](../../opdrachten\software\oefeningen\Bits.md) in.
+2. Lever de opdracht [Bits verschuif cyclisch](../../opdrachten/software/opdrachten/Bits%20-%20verschuif%20cyclisch.md) in.
 3. Vraag *feedback* op je code tijdens de les.
 
 ## Na de les

@@ -22,10 +22,10 @@ Verveel je je? Kijk dan eens of je een [matrix](https://nl.wikipedia.org/wiki/Ma
 2. De docent licht het datatype [vector](../../software/c++/data-types/README.md) toe.
 
 ## Codeer!
-3. Maak de oefening [while lezen](../../software/c++/condities/while/opdr_while_lezen.md).<br>
-4. Maak de oefening [piramide](../../software/c++/condities/for/opdr_piramide.md).<br>
-5. Maak de oefening [vector](../../software/c++/data-types/vector/opdr_vector.md).<br>
-6. Maak de oefening [vector sorteren](../../software/c++/data-types/vector/opdr_v_sorteren.md).
+1. Maak de oefening [while lezen](../../opdrachten/software/oefeningen/Condities%20(while).md).<br>
+2. Maak de oefening [piramide](../../opdrachten/software/oefeningen/For.md).<br>
+3. Maak de oefening [vector](../../opdrachten/software/oefeningen/Vector.md).<br>
+4. Maak de opdracht [vector sorteren](../../opdrachten/software/opdrachten/Vector%20sorteren.md).
 
 ### Canvas
 1. Lever de oefeningen "For", "Condities (while)" en "Vector" in.

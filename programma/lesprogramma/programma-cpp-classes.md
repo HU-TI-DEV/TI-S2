@@ -15,7 +15,7 @@ We herhalen structs.
 - Lees de algemene informatie over [structs](../../software/c++/data-types/struct/README.md).
   
 ### Sneak peak
-- Kijk alvast naar de opdracht **OO - Compositie** op Canvas.
+- Kijk alvast naar de opdracht [OO - Compositie](../../opdrachten\software\opdrachten\OO - Compositie.md) op Canvas.
 - Voor de Pasen: [flappy bird](https://terminalroot.com/how-to-make-flappy-bird-with-cpp/).
   
 ## Tip van Wouter
@@ -32,8 +32,8 @@ Begin bovenaan met de 'simple modding tutorial'.
 - - [boeken](../../software/c++/oop-concepten/klassen/opdr_boeken.md),
 - - [meubels](../../software/c++/oop-concepten/klassen/opdr_meubels.md),
 - - [rechthoek](../../software/c++/oop-concepten/klassen/opdr_rechthoek.md),
-- - [samengesteld object](../../software/c++/oop-concepten/klassen/opdr_samengesteld.md),
-2. Je maakt de opdracht **OO Classes & operatoren** op Canvas.
+- - [Compositie](../../opdrachten/software/opdrachten/OO%20-%20Compositie.md),
+1. Je maakt de opdracht [OO Classes & operatoren](../../opdrachten/software/opdrachten/OO%20-%20Classes%20&%20operatoren.md).
 
 ## Na de les
 - Geen slides dit keer.

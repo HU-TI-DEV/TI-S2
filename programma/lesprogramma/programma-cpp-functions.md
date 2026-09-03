@@ -16,8 +16,8 @@
 3. De docent licht het concept [functies](../../software/c++/functies/README.md) toe.
 
 ## Codeer!
-1. Maak de [tellen](../../software/c++/functies/basis/opdr_tellen.md) oefening.
-2. Maak de [palindroom](../../software/c++/functies/basis/opdr_palindroom.md) oefening.
+1. Maak de [Functies, basis](../../opdrachten/software/oefeningen/Functies,%20basis.md) oefening.
+2. Maak de [palindroom](../../opdrachten/software/oefeningen/Functies,%20palindroom.md) oefening.
 
 
 ### Canvas

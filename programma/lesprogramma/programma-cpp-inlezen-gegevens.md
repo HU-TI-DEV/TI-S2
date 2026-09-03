@@ -18,9 +18,9 @@ We lopen door de lesstof aan de hand van slides:
 [S2 inlezen gegevens](../../slides/S2_inlezen_gegevens.md).
 
 ## Codeer!
-1. Maak oefening [Char, 1.6 char plus int](../../software/c++/data-types/char/opdr_char.md#opdracht-16--char-plus-int)
-2. Maak oefening [Char 1.7 1337 (Char)](../../software/c++/data-types/char/opdr_char.md#opdracht-17-1337)
-3. Maak de oefeningen 2.12A en 2.12B van [Functies: palindroom](../../software/c%2B%2B/functies/basis/opdr_palindroom.md)
+1. Maak oefening [Char, 1.6 char plus int](../../opdrachten/software/oefeningen/Char.md)
+2. Maak oefening [Char 1.7 1337 (Char)](../../opdrachten/software/oefeningen/Char.md)
+3. Maak de oefeningen 2.12A en 2.12B van [Functies: palindroom](../../opdrachten/software/oefeningen/Functies,%20palindroom.md)
 
 ### Canvas
 1. Lever de Char oefeningen 1.6 en 1.7 in. 

@@ -27,7 +27,7 @@ Vanuit de wiskunde zijn we bekend met operatoren: optellen, aftrekken, vermenigv
 5. Studenten gaan zelfstandig aan de slag met de opdrachten. De docent is aanwezig voor ondersteuning, maar ook voor het ophalen van feedback.
 
 ### Oefenen
-1. Maak de opdracht: [Classes en Operatoren](../../software/c++/oop-concepten/ADTs/opdr_adt_vector.md).
+1. Maak de opdracht: [Classes en Operatoren](../../opdrachten/software/opdrachten/OO%20-%20Classes%20&%20operatoren.md).
 <!-- N.B.: dit is nu dus een link naar een opdracht op Github. Afhankelijk van wat we met de opdrachten gaan doen kan dit een link worden naar Canvas, of wat er dan ook beslist wordt -->
 
 ## Na de les

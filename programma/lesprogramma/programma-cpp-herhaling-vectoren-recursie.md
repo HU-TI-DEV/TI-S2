@@ -19,11 +19,11 @@ Verveel je je? Kijk dan eens of je alle vorige opdrachten met loops op een recur
 3. De docent licht het concept [recursie](../../software/c++/patronen/recursie/README.md) toe.
 
 ## Codeer!
-1. Maak de verschillende [recursie](../../software/c++/patronen/recursie/opdr_recursie.md) oefeningen.
+1. Maak de verschillende [recursie](../../opdrachten/software/oefeningen/Recursie.md) oefeningen.
 
 
 ### Canvas
-1. Lever de oefeningen "Recursie" opdrachten in.
+1. Lever de [recursie](../../opdrachten/software/oefeningen/Recursie.md) opdrachten in.
 2. Vraag de studentassistent of docent om feedback op je code.
 
 ## Na de les
