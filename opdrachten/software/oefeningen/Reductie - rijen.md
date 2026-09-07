@@ -83,7 +83,7 @@ Dan is de output van het programma:
 Eisen:
 
 - Je mag in de functie geen nieuwe matrix aanmaken. - Je mag wel gebruik maken van een tijdelijke variabele.
-- De aanpak is vergelijkbaar met de functie van [**opdracht 2.12 Palindroom**](../../functies/basis/opdr_palindroom.md).
+- De aanpak is vergelijkbaar met de functie van [**opdracht 2.12 Palindroom**](./Functies,%20palindroom.md).
 - Je mag geen gebruik maken van de `std::swap` functie.
 - De handtekening van de functie is:
 

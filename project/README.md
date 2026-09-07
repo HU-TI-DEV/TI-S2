@@ -1,216 +1,465 @@
-# Agri Monitor (LoRa) <!-- omit in toc -->
+# Sensorbol voor een blusrobot
 
-### Inhoud <!-- omit in toc -->
+![Sensorbol](image.png)
 
-- [De Toekomst van Monitoring in Agro \& Food](#de-toekomst-van-monitoring-in-agro--food)
-  - [Een Modulaire en Slimme Meetoplossing](#een-modulaire-en-slimme-meetoplossing)
-    - [1. Brede toepasbaarheid](#1-brede-toepasbaarheid)
-    - [2. Modulaire opbouw](#2-modulaire-opbouw)
-    - [3. Eenvoudige communicatie (LoRa)](#3-eenvoudige-communicatie-lora)
-    - [4. Beheer op afstand](#4-beheer-op-afstand)
-    - [5. Meten en opslaan van omgevings- en gewasparameters](#5-meten-en-opslaan-van-omgevings--en-gewasparameters)
-  - [6. Unique Selling Point (USP)](#6-unique-selling-point-usp)
+<!-- omit in toc -->
+
+### Inhoud
+<!-- omit in toc -->
+
+- [Sensorbol voor een blusrobot](#sensorbol-voor-een-blusrobot)
+    - [Inhoud](#inhoud)
+- [De toekomst van brandbestrijding](#de-toekomst-van-brandbestrijding)
+- [Futurised](#futurised)
+- [Waarom een sensorbol?](#waarom-een-sensorbol)
 - [Projectopdracht](#projectopdracht)
   - [Doel](#doel)
-  - [Randvoorwaarden](#randvoorwaarden)
-  - [Deliverables](#deliverables)
-  - [Testen op locatie](#testen-op-locatie)
+- [De sensorbol](#de-sensorbol)
+- [Wat moet de sensorbol kunnen?](#wat-moet-de-sensorbol-kunnen)
+  - [1. Meten](#1-meten)
+  - [2. Verwerken](#2-verwerken)
+- [Deliverables](#deliverables)
+  - [1. Conceptdocument](#1-conceptdocument)
+  - [2. Requirements](#2-requirements)
+  - [3. Proof of Concept](#3-proof-of-concept)
+  - [4. Testplan](#4-testplan)
+  - [5. Demonstratie](#5-demonstratie)
+- [Technische uitdagingen](#technische-uitdagingen)
+  - [Sensoren](#sensoren)
 - [Inspiratie](#inspiratie)
-  - [Systeem A — Canopy Microclimate Node](#systeem-a--canopy-microclimate-node)
-  - [Systeem B — Weerstation / Microklimaat Referentie](#systeem-b--weerstation--microklimaat-referentie)
-  - [Systeem C — Wortelmilieu / Substraat Monitoring](#systeem-c--wortelmilieu--substraat-monitoring)
-  - [Systeem D — Plantstress \& Bladtemperatuur](#systeem-d--plantstress--bladtemperatuur)
-  - [Systeem E — Watergift \& Drain (indicatief)](#systeem-e--watergift--drain-indicatief)
+  - [Concept A — Temperatuur en luchtvochtigheid](#concept-a--temperatuur-en-luchtvochtigheid)
+    - [Doel](#doel-1)
+    - [Sensoren](#sensoren-1)
+    - [Mogelijke toepassing](#mogelijke-toepassing)
+    - [Uitbreiding](#uitbreiding)
+  - [concept B — Rook en luchtkwaliteit](#concept-b--rook-en-luchtkwaliteit)
+    - [Doel](#doel-2)
+    - [Sensoren](#sensoren-2)
+    - [Belangrijk](#belangrijk)
+  - [Concept C — Omgevingslicht](#concept-c--omgevingslicht)
+    - [Doel](#doel-3)
+    - [Sensoren](#sensoren-3)
+  - [Concept D — Gecombineerde sensorbol](#concept-d--gecombineerde-sensorbol)
+    - [Doel](#doel-4)
+- [Testen](#testen)
+  - [Test 1 — Sensor](#test-1--sensor)
+  - [Test 2 — Communicatie](#test-2--communicatie)
+  - [Test 3 — Bereik](#test-3--bereik)
+  - [Test 4 — Herhaalbaarheid](#test-4--herhaalbaarheid)
 
 ---
 
-**v0.2.0** Startdocument voor agri monitor (POC) in opdracht van HAS Green Academy.
+# De toekomst van brandbestrijding
+
+Brandweermensen werken regelmatig in situaties waarin de omgeving gevaarlijk, onvoorspelbaar of moeilijk toegankelijk is. Technologie kan helpen om eerst informatie over een omgeving te verzamelen voordat een brandweerman of -vrouw deze omgeving binnengaat.
+
+Een voorbeeld hiervan is een **blusrobot**.
+
+Een blusrobot kan een gebouw of ander gebied binnengaan terwijl de brandweer op afstand blijft. De robot kan bijvoorbeeld beelden maken, door een gebouw rijden en helpen bij het bestrijden van een brand.
+
+Maar een camera vertelt niet alles.
+
+- Hoe warm is het precies?
+- Is er veel rook aanwezig?
+- Is de luchtkwaliteit veranderd?
+- Waar bevindt zich een gevaarlijke plek?
+- Verandert de omgeving terwijl de robot door het gebouw rijdt?
+
+Daarom krijgt de blusrobot in dit project een extra hulpmiddel:
+
+> **Een kleine sensorbol die informatie over de omgeving verzamelt en deze informatie doorgeeft aan de blusrobot.**
 
 ---
 
-# De Toekomst van Monitoring in Agro & Food
+# Futurised
 
-## Een Modulaire en Slimme Meetoplossing
+Het project wordt uitgevoerd in samenwerking met **Futurised**.
 
-In de agro- en food-sector is inzicht in **groei en bloei** sterk afhankelijk van betrouwbare metingen in en rond het gewas en het wortelmilieu. In het project ontwikkelen studentgroepen **verschillende monitoring-systemen** die op locatie bij HAS Green Academy getest kunnen worden.
+Futurised richt zich op het versterken van first responders door gebruik te maken van expertise en technologie. Binnen het bedrijf komen onder andere robotics, innovatie en voertuigsystemen samen.
 
-De oplossingen worden **hoog over** beschreven: er is bewust ruimte voor teams om eigen requirements op te stellen, keuzes te onderbouwen en iteratief te verbeteren.
+Voor dit project is de centrale vraag:
 
-### 1. Brede toepasbaarheid
+> **Hoe kunnen sensoren en embedded technologie een blusrobot helpen om een gevaarlijke omgeving beter te begrijpen?**
 
-De systemen zijn ontworpen met brede toepasbaarheid in gedachten: verschillende gewassen, teeltwijzen, proefopstellingen en seizoenen. Elk team definieert een eigen meetdoel (bijv. stress-indicatie, groeicondities, wortelmilieu, microklimaat) en vertaalt dat naar:
-- meetpunten (waar/hoe vaak)
-- sensorkeuze
-- dataformaten en interpretatie
-- testplan op locatie
+Jullie gaan deze vraag beantwoorden door zelf een werkend prototype te ontwerpen en te bouwen.
 
-### 2. Modulaire opbouw
+Het doel is niet om direct een product te maken dat door de brandweer gebruikt kan worden.
 
-Elk systeem bestaat uit losse, vervangbare bouwblokken. Denk aan:
-- **Sensor-node** (microcontroller + 2–4 sensoren)
-- **Communicatiemodule** (LoRaWAN)
-- **Voedingsmodule** (externe voeding; accu/solar als uitbreiding)
-- **Back-end** (MQTT server, database)
-- **Dashboard / data-analyse** (minimaal: uitlezen + trend; uitbreiding: alerts)
+Het doel is om te onderzoeken:
 
-Deze modulaire aanpak maakt het mogelijk om later sensoren te wisselen, nodes toe te voegen of een andere datastroom te kiezen zonder de hele oplossing opnieuw te bouwen.
+- welke informatie nuttig is;
+- welke sensoren daarvoor geschikt zijn;
+- hoe je sensordata verwerkt;
+- hoe je informatie naar een robot kunt sturen;
+- en hoe je kunt aantonen dat jullie oplossing werkt.
 
-### 3. Eenvoudige communicatie (LoRa)
+---
 
-Elk systeem moet data verzenden via **LoRa** (EU868). De implementatie is **LoRaWAN** via een gateway.
+# Waarom een sensorbol?
 
-Belangrijk is dat teams rekening houden met:
-- payload-grootte en verzendinterval (duty-cycle)
-- foutafhandeling (missed packets, CRC, retries)
-- identificatie van nodes (node-id) en meetkanalen
-- energieverbruik versus meetfrequentie
+Een robot kan tijdens het rijden niet altijd overal komen.
 
-### 4. Beheer op afstand
+Een sensorbol kan bijvoorbeeld:
 
-De oplossing ondersteunt (minimaal conceptueel, bij voorkeur ook technisch):
-- status van het systeem (online/offline, batterij/voeding, meetfouten)
-- logging en diagnose (zodat testen op locatie reproduceerbaar zijn)
-- optioneel: eenvoudige herconfiguratie (bijvoorbeeld meetinterval) óf een plan daarvoor
+- door de robot worden meegenomen;
+- op een andere plek worden neergelegd;
+- naar een bepaalde locatie worden gebracht;
+- of zelfstandig informatie uit de omgeving verzamelen.
 
-### 5. Meten en opslaan van omgevings- en gewasparameters
+De bol hoeft in eerste instantie **niet zelf rond te rijden**.
 
-De kern is het verzamelen en bruikbaar maken van data. Elk team beschrijft:
-- welke parameters worden gemeten en waarom (link met groei/bloei)
-- meetfrequentie (bijvoorbeeld elke 5 minuten is vaak geschikt, maar motiveer dit)
-- opslag (time-series database, of eenvoudige cloud/local opslag)
-- visualisatie (grafiek, trends, grenzen/alerts)
+De uitdaging zit vooral in het verzamelen en doorgeven van betrouwbare informatie.
 
-## 6. Unique Selling Point (USP)
+De vorm van een bol is daarbij interessant omdat een bol:
 
-De oplossingen onderscheiden zich door:
-- focus op **praktijk-testbaarheid** op locatie
-- **modulair** en uitbreidbaar (sensoren/nodes)
-- **LoRa** als robuuste communicatie voor buiten/veldopstellingen
-- duidelijke koppeling tussen metingen en **teeltinzicht** (groei/bloei)
+- geen duidelijke boven- of onderkant heeft;
+- tegen een stootje kan;
+- compact kan worden gebouwd;
+- op afstand betrouwbaar kan communiceren;
+- verschillende sensoren rondom het object kan bevatten;
+- en mogelijk kan rollen zonder dat de elektronica direct op de grond terechtkomt.
 
 ---
 
 # Projectopdracht
 
 ## Doel
+Ontwerp en realiseer in een projectgroep een **sensorbol voor een blusrobot**.
 
-Ontwikkel in groepsverband een monitoring-oplossingen die op locatie bij HAS Green Academy getest kunnen worden. Elke oplossing meet een relevante set parameters die inzicht geeft in groei- en bloeicondities van planten.
+De sensorbol moet minimaal twee relevante eigenschappen van de omgeving kunnen meten en deze informatie op een begrijpelijke manier beschikbaar maken voor de gebruiker of blusrobot.
 
-## Randvoorwaarden
+Voor de communicatie wordt gebruikgemaakt van het **LoRa-netwerk**.
 
-Per systeem:
-- **2 tot 4 sensoren** integreren (en onderbouwen)
-- **LoRa-communicatie** toepassen (EU868)
-- **Externe voeding** (bijv. adapter/powerbank);  
-  **Nice-to-have:** accu + solar voor buiten meetstations
-- Een **hoog-over ontwerp** (architectuur + keuzes), met ruimte voor eigen requirements
-- Realistisch testbaar op locatie (montage, behuizing, bereik, data-uitleesbaarheid)
+Jullie bepalen zelf welke informatie jullie gaan meten.
 
-Niet verplicht (wel waardevol als uitbreiding):
-- OTA/remote configuratie
-- lokale buffering bij verbindingsverlies
-- kalibratie-aanpak en foutmarges
-- eenvoudige alerts (drempelwaarden)
+Daarbij moeten jullie kunnen uitleggen:
 
-## Deliverables
-
-1. **Conceptdocument (README + diagrammen)**
-   - meetdoel en context
-   - architectuur (node → LoRa → gateway/back-end → dashboard)
-   - sensorkeuze + meetbereik/accuratesse + motivatie
-   - datamodel/payload (voorbeeld payloads)
-2. **Requirements (team-eigen)**
-   - functioneel (wat moet het kunnen)
-   - niet-functioneel (energie, robuustheid, onderhoud, kosten)
-   - testbare acceptatiecriteria
-3. **Proof of Concept**
-   - werkende meetketen of aantoonbaar deel daarvan
-   - demo met minimaal één realistische meetcyclus
-4. **Testplan**
-   - wat ga je op locatie testen, hoe, en welke succes-criteria
-5. **Reflectie**
-   - beperkingen, verbeterpunten, volgende iteratie
-
-## Testen op locatie
-
-Bij het testen op locatie is belangrijk:
-- montage/plaatsing van sensoren (hoogte, oriëntatie, afscherming)
-- invloed van weer/zon/regen op metingen
-- LoRa-bereik en betrouwbaarheid
-- interpretatie: wat zegt de data over groei/bloei, en wat niet?
+> **Waarom is deze informatie nuttig voor een blusrobot?**
 
 ---
 
+# De sensorbol
+
+De sensorbol bestaat minimaal uit:
+
+**Sensoren → Microcontroller → Dataverwerking → Communicatie → Informatie voor de gebruiker/robot**
+
+# Wat moet de sensorbol kunnen?
+
+## 1. Meten
+
+De sensorbol moet minimaal **twee verschillende soorten sensordata** kunnen verzamelen.
+
+Denk bijvoorbeeld aan:
+
+- temperatuur;
+- luchtvochtigheid;
+- lichtintensiteit;
+- rook/luchtkwaliteit;
+- afstand;
+- beweging;
+- versnelling;
+- oriëntatie;
+- geluid.
+
+Niet iedere sensor is geschikt voor iedere situatie.
+
+Een belangrijk onderdeel van het project is daarom:
+
+> **Onderzoeken welke sensor geschikt is voor jullie toepassing.**
+
+Jullie moeten kunnen uitleggen waarom jullie voor een bepaalde sensor hebben gekozen.
+
+---
+
+## 2. Verwerken
+
+Een sensor geeft niet automatisch informatie die direct bruikbaar is.
+
+De microcontroller moet de meetwaarden bijvoorbeeld:
+
+- uitlezen;
+- omzetten;
+- controleren;
+- combineren;
+- opslaan;
+- of interpreteren.
+
+Jullie kunnen bijvoorbeeld een eenvoudige classificatie maken:
+
+```text
+Temperatuur < 40 °C
+        ↓
+     Normaal
+
+40 °C – 80 °C
+        ↓
+  Verhoogde temperatuur
+
+Temperatuur > 80 °C
+        ↓
+  Gevaarlijke temperatuur
+```
+# Deliverables
+
+## 1. Conceptdocument
+
+Maak een document waarin jullie ontwerp wordt uitgelegd.
+
+Beschrijf minimaal:
+
+- het probleem;
+- de doelgroep/gebruiker;
+- jullie oplossing;
+- de belangrijkste use case;
+- systeemarchitectuur;
+- gekozen sensoren;
+- gekozen microcontroller;
+- LoRa-communicatie;
+- voeding;
+- behuizing;
+- belangrijkste ontwerpkeuzes.
+
+---
+
+## 2. Requirements
+
+Maak een overzicht van:
+
+- functionele requirements;
+- niet-functionele requirements;
+- technische requirements;
+- testbare acceptatiecriteria.
+
+Leg per belangrijke requirement uit:
+
+> **Waarom hebben we deze requirement?**
+
+---
+
+## 3. Proof of Concept
+
+Maak een werkend prototype.
+
+Het prototype moet minimaal:
+
+- twee sensoren uitlezen;
+- de meetwaarden verwerken;
+- de meetwaarden via LoRa versturen;
+- en de ontvangen informatie zichtbaar maken voor de gebruiker.
+
+Het prototype hoeft nog niet perfect te zijn.
+
+Het moet vooral aantonen dat jullie technische oplossing werkt.
+
+---
+
+## 4. Testplan
+
+Maak vooraf een testplan.
+
+Beschrijf:
+
+- wat jullie testen;
+- waarom jullie dit testen;
+- hoe jullie dit testen;
+- welke meetwaarden jullie verwachten;
+- wanneer een test geslaagd is.
+
+Bijvoorbeeld:
+
+| Test | Verwachting | Resultaat |
+|---|---|---|
+| Temperatuur meten | Waarde verandert bij verwarmen sensor | |
+| Communicatie | Data komt aan bij ontvanger | |
+| LoRa-bereik | Data komt binnen op minimaal 50 meter | |
+| Opstarten | Sensor begint automatisch te meten | |
+| Meetfrequentie | Sensor verstuurt iedere 10 seconden data | |
+
+---
+
+## 5. Demonstratie
+
+Tijdens de demonstratie laten jullie zien:
+
+1. De sensorbol.
+2. De verschillende sensoren.
+3. De werking van de microcontroller.
+4. De LoRa-communicatie.
+5. De ontvangen informatie.
+6. Een realistische test.
+7. Wat jullie zouden verbeteren in een volgende versie.
+
+---
+
+# Technische uitdagingen
+
+Tijdens het project komen jullie verschillende technische problemen tegen.
+
+Dat is onderdeel van de opdracht.
+
+## Sensoren
+
+Een sensor heeft eigenschappen zoals:
+
+- meetbereik;
+- nauwkeurigheid;
+- resolutie;
+- meetfrequentie;
+- interface;
+- energiegebruik.
+
+Een sensor kiezen omdat deze "goedkoop" is, is dus niet voldoende.
+
+Jullie moeten kunnen uitleggen:
+
+> **Waarom past deze sensor bij onze toepassing?**
+
+---
 # Inspiratie
 
-Onderstaande systemen zijn ter *inspiratie*. Teams mogen varianten maken, combineren of eigen concepten voorstellen, zolang randvoorwaarden gehaald worden.
+Onderstaande ideeën zijn bedoeld als inspiratie.
 
-## Systeem A — Canopy Microclimate Node
+Jullie mogen één van deze concepten gebruiken, combineren of een volledig eigen oplossing bedenken.
 
-**Doel:** microklimaat net boven/naast het gewas volgen (relevant voor groei/bloei en stress).
+---
 
-**Sensoren (kies 2–4):**
-- luchttemperatuur
-- luchtvochtigheid
-- CO2 (optioneel, afhankelijk van context)
-- PAR/licht (indicatie van fotosynthese-condities)
+## Concept A — Temperatuur en luchtvochtigheid
 
-**LoRa:** periodiek (bijvoorbeeld 5 min) microklimaatpayload.
+### Doel
 
-**Nice-to-have:** stralingsschild + ventilatie voor betere luchtmeting.
+De sensorbol geeft informatie over het klimaat rondom de robot.
 
-## Systeem B — Weerstation / Microklimaat Referentie
+### Sensoren
 
-**Doel:** referentiemetingen buiten/veld voor correlatie met gewascondities.
+Bijvoorbeeld:
 
-**Sensoren (kies 2–4):**
-- buitentemperatuur + luchtvochtigheid (combi-sensor)
-- windsnelheid (evtueel windrichting als extra)
-- regen (ja/nee of tipping bucket)
-- straling / zoninstraling (indien beschikbaar)
+- temperatuur;
+- luchtvochtigheid.
 
-**LoRa:** meetinterval bijvoorbeeld 5 min; extra event bij regen-start.
+### Mogelijke toepassing
 
-**Nice-to-have:** autonoom (solar + accu).
+De robot kan bijvoorbeeld ontdekken dat hij een ruimte binnenrijdt waar de temperatuur sterk toeneemt.
 
-## Systeem C — Wortelmilieu / Substraat Monitoring
+### Uitbreiding
 
-**Doel:** inzicht in wortelcondities (sterk bepalend voor groei en opname). Let op! Dit is een moeilijke opdracht omdat geschikte sensoren niet eenvoudig te krijgen zijn.
+Bereken bijvoorbeeld:
 
-**Sensoren (kies 2–4):**
-- vochtgehalte (substraat/grond)
-- EC (geleidbaarheid; indicatie nutriënten/zouten)
-- bodem-/substraattemperatuur
-- (optioneel) pH, afhankelijk van sensortechniek en haalbaarheid
+```text
+Normaal
+Verhoogd
+Gevaar
+```
+## concept B — Rook en luchtkwaliteit
+### Doel
 
-**LoRa:** trenddata; eventueel extra bericht bij overschrijding drempels.
+Onderzoeken of de luchtkwaliteit verandert wanneer de sensorbol een ruimte binnengaat.
 
-**Nice-to-have:** lokale filtering (moving average) om ruis te beperken.
+### Sensoren
 
-## Systeem D — Plantstress & Bladtemperatuur
+Bijvoorbeeld:
 
-**Doel:** stress-indicatie en energiebalans via plant-/bladoppervlak.
+gas-/luchtkwaliteitssensor;
+temperatuur;
+luchtvochtigheid.
+Mogelijke toepassing
 
-**Sensoren (kies 2–4):**
-- plant-/bladtemperatuur (IR-thermometer)
-- luchttemperatuur (referentie voor delta T blad-lucht)
-- luchtvochtigheid (voor verdamping/comfort)
-- (optioneel) licht/PAR
+De sensorbol geeft aan dat de luchtkwaliteit verandert.
 
-**LoRa:** interval bijvoorbeeld 5 min; dashboard toont delta T en trend.
+### Belangrijk
 
-**Nice-to-have:** eenvoudige stress-index (team definieert en motiveert).
+Een goedkope luchtkwaliteitssensor is geen professionele rookdetector.
 
-## Systeem E — Watergift & Drain (indicatief)
+Onderzoek daarom goed wat jullie sensor daadwerkelijk kan meten en welke conclusies je wel en niet mag trekken.
 
-**Doel:** indicatie van waterbalans, zonder volledige installatie-integratie. Let op! Dit is een moeilijke opdracht omdat geschikte sensoren niet eenvoudig te krijgen zijn.
+Een sensor kan bijvoorbeeld een verandering in luchtkwaliteit detecteren, maar daarmee weet je niet automatisch:
 
-**Sensoren (kies 2–4):**
-- substraatvocht
-- EC of temperatuur in wortelzone
-- (optioneel) gewichtmeting (load cell) van pot/tray als proxy voor wateropname
-- (optioneel) flow-schakelaar/volume-schatting indien haalbaar
+of er brand is;
+welk gas aanwezig is;
+hoe gevaarlijk de situatie is.
 
-**LoRa:** combineer langzame trends (gewicht/vocht) met status-events.
+Jullie moeten dus zorgvuldig omgaan met de interpretatie van meetgegevens.
 
-**Nice-to-have:** edge-detectie van watergiftmoment op basis van trendbreuk.
+## Concept C — Omgevingslicht
+### Doel
+
+De sensorbol bepaalt hoeveel licht er aanwezig is.
+
+### Sensoren
+
+Bijvoorbeeld:
+
+LDR;
+fotodiode;
+digitale lichtsensor.
+Mogelijke toepassing
+
+De robot kan informatie krijgen over:
+
+donkere ruimtes;
+fel licht;
+plotselinge veranderingen in licht.
+
+## Concept D — Gecombineerde sensorbol
+### Doel
+
+Maak een sensorbol die meerdere eigenschappen van de omgeving combineert.
+
+Bijvoorbeeld:
+
+temperatuur;
+luchtvochtigheid;
+licht;
+luchtkwaliteit;
+beweging.
+
+# Testen
+
+Een goed prototype is niet alleen een apparaat dat werkt.
+
+Jullie moeten ook kunnen **aantonen dat het werkt**.
+
+Denk daarom na over verschillende soorten tests.
+
+---
+
+## Test 1 — Sensor
+
+Verandert de meetwaarde wanneer de omgeving verandert? Komen de waarden overeen met wat te verwachten is volgens de datasheet?
+
+---
+
+## Test 2 — Communicatie
+
+Komt de informatie daadwerkelijk bij de ontvanger aan? 
+
+---
+
+## Test 3 — Bereik
+
+Hoe ver kan de sensorbol via LoRa communiceren?
+
+Test bijvoorbeeld verschillende afstanden:
+
+| Afstand | Bericht ontvangen? | Signaalsterkte | Opmerking |
+|---:|:---:|:---:|---|
+| 5 m | | | |
+| 10 m | | | |
+| 25 m | | | |
+| 50 m | | | |
+| 100 m | | | |
+
+---
+
+## Test 4 — Herhaalbaarheid
+
+Krijg je bij dezelfde situatie ongeveer dezelfde meetwaarden?
+
+Voer bijvoorbeeld meerdere keren dezelfde test uit.
+
+```text
+Test 1 → 74 °C
+Test 2 → 75 °C
+Test 3 → 74 °C
+Test 4 → 76 °C
+```

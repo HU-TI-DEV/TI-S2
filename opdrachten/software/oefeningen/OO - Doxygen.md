@@ -7,14 +7,14 @@
 
 ### Achtergrondinformatie
 Links naar meer informatie:
-- [Lesmateriaal](README.md).
+- [Lesmateriaal](../../../software/c++/oop-concepten/unit-tests/README.md).
 - [Codevoorbeelden van Doxygen zelf](https://www.doxygen.nl/manual/docblocks.html#docexamples)
 - [Installeer Doxygen](https://www.doxygen.nl/manual/install.html), indien nodig. Zie: [Doxygen downloads](https://www.doxygen.nl/download.html)
 - Na installatie/uitpakken: voeg de map waarin het bestand doxygen.exe staat aan je (Windows) path toe. Herstart VS Code.
 - Check in een Terminal (CMD) of doxygen herkend wordt: `doxygen -v`.
 
 ### Opdracht OO2.2 Doxygen
-- Kopieer de inhoud van de [rational.hpp](./rational.hpp) file naar je eigen ontwikkelomgeving (maak een nieuwe directory).
+- Kopieer de inhoud van de [rational.hpp](../../../software/c++/oop-concepten/unit-tests/rational.hpp) file naar je eigen ontwikkelomgeving (maak een nieuwe directory).
 - Open een terminal (CMD) en ga naar de nieuwe directory.
 - Run vervolgens Doxygen in de net aangemaakte directory met optie '-g': `doxygen -g`
   Als doxygen niet herkend wordt, check dan je installatie en het pad (zie boven).

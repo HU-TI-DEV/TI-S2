@@ -16,7 +16,7 @@
 3. De docent licht het concept [recursie](../../software/c++/patronen/recursie/README.md) toe.
 
 ## Codeer!
-1. Maak de [recursie](../../software/c++/patronen/recursie/opdr_recursie.md) oefeningen.
+1. Maak de [recursie](../../opdrachten/software/oefeningen/Recursie.md) oefeningen.
 
 
 ### Canvas

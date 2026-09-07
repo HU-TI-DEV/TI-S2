@@ -8,8 +8,8 @@ Je leert meer over:
 - [meerdere header-files](../../software/c++/meerdere-bronbestanden/README.md##dubbele-invoeging-header-files)
 - hoe je een (extra) [VS code workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces) aanmaakt
 - hoe je meerdere files kunt compileren als VS code niet (meer) werkt.
-- [Configuratietips voor VScode gebruikers](../../software/c++/meerdere-bronbestanden/opdr_TV_sensatie.md#tips-voor-vs-code-gebruikers)
-- Je maakt de [oefening TV sensatie](../../software/c++/meerdere-bronbestanden/opdr_tv_sensatie.md/#opdracht-42-tv-sensatie).
+- [Configuratietips voor VScode gebruikers](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md#tips-voor-vs-code-gebruikers)
+- Je maakt de [oefening TV sensatie](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md).
 
 ## Voorbereiding
 - Het is verstandig om een **[nieuwe workspace](https://code.visualstudio.com/docs/editing/workspaces/workspaces)** aan te maken binnen VS code. 
@@ -34,7 +34,7 @@ Als niets meer werkt, gebruik dan *tijdelijk* een online omgeving:
 - [online compiler](https://www.programiz.com/cpp-programming/online-compiler/).
 
 ### Canvas en ontwikkelomgeving
-1. Lever de oefening **Bestanden TV sensatie** in.
+1. Lever de oefening [Bestanden - TV sensatie](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md) in.
 2. Zorg dat je ontwikkelomgeving op orde is: zorg voor een goede code en folder structuur.
 3. Vraag *feedback* op je code tijdens de les.
 

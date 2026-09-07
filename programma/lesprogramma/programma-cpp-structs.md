@@ -6,7 +6,7 @@ We gaan werken met datatypes die we zelf kunnen vormgeven: structs. Structs zijn
 - - [de basis van het datatype struct](../../software/c++/data-types/struct/README.md#basis)
 - - [structs en vectoren](../../software/c++/data-types/struct/README.md#structs-en-vector)
 - - [structs en functies](../../software/c++/data-types/struct/README.md#structs-en-functies)
-- Je maakt de [oefening structs](../../software/c++/oop-concepten/structs/opdr_structs.md#opdracht-43-voorwerpen).
+- Je maakt de [oefening structs](../../opdrachten/software/oefeningen/Structs%20(1).md).
 - Je maakt de oefening **Struct Klimaatmonitor** op Canvas.
 
 ## Voorbereiding

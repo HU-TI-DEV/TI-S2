@@ -16,7 +16,7 @@
 3. De docent licht het concept [File I/O](../../software/c++/files-input/README.md) toe.
 
 ## Codeer!
-1. Maak de [compressie](../../software/c++/files-input/opdr_compression.md) oefening.
+1. Maak de [compressie](../../opdrachten/software/oefeningen/Bestanden%20-%20Compression.md) oefening.
 
 
 ### Canvas
