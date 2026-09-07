@@ -5,7 +5,6 @@
   * [bits/](../software/c++/bits/README.md)
   * [condities/](../software/c++/condities/README.md)
     * [break/](../software/c++/condities/break/README.md)
-    * [do-while/](../software/c++/condities/do-while/README.md)
     * [for/](../software/c++/condities/for/README.md)
       * [dubbele-for-loop/](../software/c++/condities/for/dubbele-for-loop/README.md)
     * [if-else/](../software/c++/condities/if-else/README.md)

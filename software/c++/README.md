@@ -100,7 +100,6 @@ Tijdens de cursus gebruiken we de **C++ versie uit 2014**. Dit wordt meestal aan
 * [basisconcepten/](../c++/basisconcepten/README.md)
 - [bits/](../c++/bits/README.md)
 - [condities/](../c++/condities/README.md)
-  - [do-while/](../c++/condities/do-while/README.md)
   - [for/](../c++/condities/for/README.md)
   - [if-else/](../c++/condities/if-else/README.md)
   - [while/](../c++/condities/while/README.md)

@@ -20,7 +20,7 @@ herhaalt zich, totdat de conditie niet waar is (false).
 
 ### do-while
 
-C++ kent ook een [do-while-loop](#do-while). Deze behandelen we niet in de les, maar kan soms wel handig zijn.
+C++ kent ook een [do-while-loop](https://en.cppreference.com/cpp/language/do). Deze behandelen we niet in de les, maar kan soms wel handig zijn.
 
 ### While - codevoorbeelden
 

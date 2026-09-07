@@ -12,7 +12,7 @@ We onderscheiden de volgende condities en loops:
 
 - [if-else](if-else/README.md)
 - [while](while/README.md)
-- [do-while](do-while/README.md)
+- do-while: deze behandelen we niet in de les. Zie eventueel [do-while at cppreference](https://en.cppreference.com/cpp/language/do).
 - [for](for/README.md)
 
 Verder hebben we nog iets nodig om soms tussendoor zo'n loop te kunnen verlaten:
