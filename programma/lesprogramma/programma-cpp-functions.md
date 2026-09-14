@@ -2,9 +2,9 @@
 
 
 ## Wat leer je vandaag?
-- We herhalen wat je in de vorige lessen geleerd hebt; loops en vectoren
-- Je leert de basis van wat functies in C++ zijn en hoe je ze goed gebruikt
-- 
+- We herhalen wat je in de vorige lessen geleerd hebt; loops en vectoren.
+- Je leert de basis van wat functies in C++ zijn en hoe je ze goed gebruikt.
+  
 ## Voorbereiding
 - Herhaal de theorie over de [for loop](../../software/c++/condities/for/README.md), [while loop](../../software/c++/condities/while/README.md). en [vectoren](../../software/c++/data-types/vector/README.md)
 - Lees de theorie over [functies](../../software/c++/functies/README.md).
