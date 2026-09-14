@@ -10,7 +10,7 @@
 - [Sensorbol voor een blusrobot](#sensorbol-voor-een-blusrobot)
     - [Inhoud](#inhoud)
 - [De toekomst van brandbestrijding](#de-toekomst-van-brandbestrijding)
-- [Futurised](#futurised)
+- [Futurised Smart Ball](#futurised-smart-ball)
 - [Waarom een sensorbol?](#waarom-een-sensorbol)
 - [Projectopdracht](#projectopdracht)
   - [Doel](#doel)
@@ -69,9 +69,10 @@ Daarom krijgt de blusrobot in dit project een extra hulpmiddel:
 
 > **Een kleine sensorbol die informatie over de omgeving verzamelt en deze informatie doorgeeft aan de blusrobot.**
 
+
 ---
 
-# Futurised
+# Futurised Smart Ball
 
 Het project wordt uitgevoerd in samenwerking met **Futurised**.
 
@@ -79,7 +80,7 @@ Futurised richt zich op het versterken van first responders door gebruik te make
 
 Voor dit project is de centrale vraag:
 
-> **Hoe kunnen sensoren en embedded technologie een blusrobot helpen om een gevaarlijke omgeving beter te begrijpen?**
+> **Hoe kunnen sensoren en embedded technologie een blusrobot helpen om een gevaarlijke omgeving beter te begrijpen zonder dat mensen in gevaar komen?**
 
 Jullie gaan deze vraag beantwoorden door zelf een werkend prototype te ontwerpen en te bouwen.
 
@@ -88,6 +89,7 @@ Het doel is niet om direct een product te maken dat door de brandweer gebruikt k
 Het doel is om te onderzoeken:
 
 - welke informatie nuttig is;
+- Hoe de werking kan worden gegarandeerd in extreme situaties.
 - welke sensoren daarvoor geschikt zijn;
 - hoe je sensordata verwerkt;
 - hoe je informatie naar een robot kunt sturen;
@@ -118,6 +120,10 @@ De vorm van een bol is daarbij interessant omdat een bol:
 - op afstand betrouwbaar kan communiceren;
 - verschillende sensoren rondom het object kan bevatten;
 - en mogelijk kan rollen zonder dat de elektronica direct op de grond terechtkomt.
+
+Meer informatie kunnen jullie vinden op:
+
+[SmartBalls.nl](https://www.smartballs.nl/)
 
 ---
 
