@@ -106,7 +106,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**HS**) <!-- TM in ontwikkelweek --> |
 | di | `C++` [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | `HWI` [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
-| do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots) (**HS, MV, GP of HP**) |
+| do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots), WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (HP) of 9:30 uur receptie HL15, met tram (GP) (**HS, MV, GP of HP**) |
 | vr | `PRO` 9.00 - 16.00 uur [Bedrijfsbezoek](./lesprogramma/programma-bedrijfsbezoek.md) |
 
 ### Onderwijsweek A5 (28-09-2026)
