@@ -127,7 +127,7 @@ Markeringen voor de onderwerpen:
 | di  | `C++` Werken met [meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP**)  |
 | wo  | `HWI` [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) |
 | do  | `C++` [Recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**GP**) |
-
+| vr | `PRO` Bedrijfsbezoek. Reserveer vast in je agenda 9.00 uur tot 14.00 uur (**HS & TM**) |
 
 ### Onderwijsweek A7 (12-10-2026)
 
