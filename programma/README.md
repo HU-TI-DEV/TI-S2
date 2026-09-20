@@ -106,7 +106,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` [Uitleg project](./lesprogramma/programma-uitleg-project.md), [Git- werken met een team-repo](./lesprogramma/programma-git-2.md) (**HS**) <!-- TM in ontwikkelweek --> |
 | di | `C++` [Bits en bitoperatoren](../programma/lesprogramma/programma-cpp-bits.md) (**GP**) |
 | wo | `HWI` [SPI](./lesprogramma/programma-SPI.md), [I2C - deel I (PCF8591)](./lesprogramma/programma-i2c-1.md) (**HP**) |
-| do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots), WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (HP) of 9:30 uur receptie HL15, met tram (GP) (**HS, MV, GP of HP**) |
+| do | `ALG` **Beursbezoek** [WOTS - World Of Technology and Science](https://fhi.nl/en/wots), WOTS in Utrecht, verzamelen: 10 uur inschrijfbalie Jaarbeurs (**HS**) of 9:30 uur receptie HL15, met tram (**GP**) |
 
 ### Onderwijsweek A5 (28-09-2026)
 
@@ -127,7 +127,7 @@ Markeringen voor de onderwerpen:
 | di  | `C++` Werken met [meerdere bronbestanden](../programma/lesprogramma/programma-cpp-meerdere-bestanden.md) (**GP**)  |
 | wo  | `HWI` [Weerstandsnetwerkjes](./lesprogramma/programma-weerstandsnetwerkjes.md) (**HP**) |
 | do  | `C++` [Recursie](../programma/lesprogramma/programma-cpp-recursion.md) (**GP**) |
-| vr | `PRO` Bedrijfsbezoek. Reserveer vast in je agenda 9.00 uur tot 14.00 uur (**HS & TM**) |
+| vr  | `PRO` Bedrijfsbezoek. Reserveer vast in je agenda 9.00 uur tot 14.00 uur (**HS & TM**) |
 
 ### Onderwijsweek A7 (12-10-2026)
 
