@@ -88,7 +88,7 @@ int main(){
 
   cout << "value in bits: \t\t" << bitset<8>(value) << endl;
   cout << "mask in bits: \t\t" << bitset<8>(mask) << endl;
-  cout << "and-result in bits: \t" << bitset<8>(result) << endl;
+  cout << "or-result in bits: \t" << bitset<8>(result) << endl;
 
   //output:
   // value in bits: 01101011
