@@ -171,7 +171,7 @@ Markeringen voor de onderwerpen:
 
 | Dag | Project & Kennissessie |
 | --- | :--- |
-| ma  | `ALG` Gastles door [Jeroen van Loon](https://jeroenvanloon.com/life-needs-internet-2010-2025/), samen met S4 (**TM & GP**) |
+| ma  | `ALG` Gastles door [Jeroen van Loon](https://jeroenvanloon.com/life-needs-internet-2010-2025/), samen met S4. <br> Neem een pen mee! (**Jeroen & GP**) |
 | di  | `HWI` [Oscilloscoop 1 (PicoScope)](./lesprogramma/programma-oscilloscope-1.md) (**HP**) |
 | wo  | `HWI` [Pulse Width Modulation (PWM)](../hardware-interfacing/basis-elektronica/PWM-RC-filter/practicum-PWM-RC.md) (**HP**). |
 | do  | `C++` [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md), [Associatie](../software/c++/oop-concepten/klassen/associatie.md) (**GP**) |
