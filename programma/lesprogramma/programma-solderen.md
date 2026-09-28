@@ -15,7 +15,7 @@ Solderen van een header: https://www.youtube.com/watch?v=R1qPdOBAkgU
 Ruim je spullen netjes op voor de volgend student. Maak alles spanningsloos. Pas je kennis toe in het project. 
 
 ## Portfolio Tip
-Als je wat voor het klimaat-project hebt gesoldeerd, maak dan een foto van beide kanten van de resulterende print. Voorzie het van commentaar over je soldeer-ervaring. Ging het direct makkelijk, of heb je ontdekt hoe iets beter kon? Was het resultaat optimaal? Vraag er feedback op van een docent of medestudent.
+Als je wat voor het project hebt gesoldeerd, maak dan een foto van beide kanten van de resulterende print. Voorzie het van commentaar over je soldeer-ervaring. Ging het direct makkelijk, of heb je ontdekt hoe iets beter kon? Was het resultaat optimaal? Vraag er feedback op van een docent of medestudent.
 
 ## Referenties
 - Do this before you solder anything [https://www.youtube.com/watch?v=jz67KgHzXVw](https://www.youtube.com/watch?v=jz67KgHzXVw)
