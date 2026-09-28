@@ -114,7 +114,7 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 |     |  **Einde sprint 1** -- **Start sprint 2** |
 | ma  | `HWI` [Soldeerpracticum](./lesprogramma/programma-solderen.md) (**HS**) <!-- TM in ontwikkelweek --> |
-| di  | `C++` [Classes](../programma/lesprogramma/programma-cpp-classes.md) en [Structs](../software/c++/data-types/struct/README.md) (**GP**) |
+| di  | `C++` [Structs](../software/c++/data-types/struct/README.md) en [Classes](../programma/lesprogramma/programma-cpp-classes.md) (**GP**) |
 | wo  | `HWI` [Electrisch circuit, Multimeter en Weerstand](./lesprogramma/programma-circuit-multimeter-weerstand.md) (**HP**) [I2C - deel II (PCF8574)](./lesprogramma/programma-i2c-2-3.md) (**HP**) |
 | do  | `ALG` C++ en Elektronica Feedback (**GP & HP**) en vanaf 11.00 uur Peilmoment check (**GP & HP**)  |
 |     | **Peilmoment 1** |

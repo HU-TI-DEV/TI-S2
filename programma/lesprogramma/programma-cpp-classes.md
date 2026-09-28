@@ -16,7 +16,7 @@ We herhalen structs.
   
 ### Sneak peak
 - Kijk alvast naar de opdracht [OO - Compositie](../../opdrachten\software\opdrachten\OO - Compositie.md) op Canvas.
-- Voor de Pasen: [flappy bird](https://terminalroot.com/how-to-make-flappy-bird-with-cpp/).
+- Voor de vakantie: [flappy bird](https://terminalroot.com/how-to-make-flappy-bird-with-cpp/).
   
 ## Tip van Wouter
 Als je het leuk vindt om de game 'Factorio' van binnen te zien, kijk dan naar:
