@@ -136,7 +136,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). , Planning voorbereiden Sprint 2 (**TM**) |
 | di  | `C++` [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md), [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md) (**GP**) |
 | wo  | `HWI` [Kirchhoff, LED](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
-| do  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
+| do  | LoRa. **vanaf 10.00 uur!** [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 
 
 ### Onderwijsweek A8 (19-10-2026)
