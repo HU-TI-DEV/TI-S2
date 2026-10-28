@@ -1,6 +1,6 @@
 # LoRaWAN Uplink en Downlink
 
-We kunnen data versturen en met MQTT verder verwerken. Kan je ook een bericht terugsturen? En hoe zou zo'n bericht eruitzien. We gaan in in dit prakticum een downlink bericht versturen naar onze end node. De data wordt ontvangen en daar moet een actie uit volgen.
+We kunnen data versturen met LoRa maar Kan je ook een bericht terugsturen? En hoe zou zo'n bericht eruitzien. We gaan in in dit prakticum een downlink bericht versturen naar onze end node. De data wordt ontvangen en daar moet een actie uit volgen.
 
 Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN_downlink/README.md) zelfstandig en deels samen met je team uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN en een vorm van data integratie is een eis van de opdrachtgever. 
 
