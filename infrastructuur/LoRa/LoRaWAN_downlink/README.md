@@ -78,14 +78,12 @@ Waarom zou in de praktijk een Class A end node geen verstandige keus zijn voor e
 De volgende opdrachten mag je samen met je team maken:
 - Stel met een nieuw commando de duur (tijd in seconden) in dat een led aan gaat
 - Stuur de huidige toestand van het stoplicht met een uplink bericht
-- Verstuur een downlink bericht via de MQTT integratie
   
 Optioneel:
 - Maak een automatische verkeerslichtcyclus. Bijvoorbeeld: rood, rood + geel, groen, geel, rood. Het downlink bericht moet dit automatisch programma kunnen starten, stoppen, pauzeren en hervatten.
 
 # Referenties
 
-- MQTT (<https://en.wikipedia.org/wiki/MQTT>)
 - LoRa (<https://en.wikipedia.org/wiki/LoRa>)
 - The Things Network (<https://www.thethingsnetwork.org>)
 - Hexadecimal in 60 seconds (<https://www.youtube.com/shorts/ZYIdA0gUNss>)
