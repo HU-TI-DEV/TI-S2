@@ -159,8 +159,8 @@ Markeringen voor de onderwerpen:
 |     |  **Einde sprint 3** -- **Start sprint 4** |
 | ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
 | di  | `HWI` [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
-| wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
-| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) |
+| wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> LoRa [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md).  |
+| do  | `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
 |     | **Peilmoment 2** |
 |     | **Einde sprint 3** |
 
