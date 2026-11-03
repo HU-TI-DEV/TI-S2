@@ -124,7 +124,7 @@ op.
 
    Houdt rekening met de richtlijnen voor het bouwen en testen van
    schakelingen (zie de bijlagen “testen van een schakeling” en
-   “bedraden van een schakeling” van de reader bsasis-electronika).
+   “bedraden van een schakeling” van de reader basis-electronika).
 
    **Welke stroom geeft de multimeter aan (in 3 decimalen
    nauwkeurig)?**
