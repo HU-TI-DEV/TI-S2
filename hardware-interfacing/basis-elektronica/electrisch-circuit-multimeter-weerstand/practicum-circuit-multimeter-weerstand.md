@@ -113,23 +113,25 @@ op.
 
 2. Bekijk de onderstaande schakeling met de weerstand, voedingsspanning
    en multimeter:  
-   
+
    <img title="" src="./media/media/image2.png" alt="" width="576">
 
 3. **Geef een berekening van de stroomgrootte die de multimeter naar
    verwachting in die situatie weergeeft. Welke wet heb je daarbij
    gebruikt?**  
-   
-   Bouw en test de schakeling.  
+
+   Bouw en test de schakeling.
+
    Houdt rekening met de richtlijnen voor het bouwen en testen van
    schakelingen (zie de bijlagen “testen van een schakeling” en
-   “bedraden van een schakeling” in de reader).  
+   “bedraden van een schakeling” van de reader bsasis-electronika).
+
    **Welke stroom geeft de multimeter aan (in 3 decimalen
    nauwkeurig)?**
 
 ### Lading
 
-1. **Hoeveel lading (in Coulomb) aan elektronen stroomt er per seconden
+1. **Hoeveel lading (in Coulomb) aan elektronen stroomt er per seconde
    door de weerstand?**
 
 2. **Hoeveel lading (in Coulomb) aan elektronen stroomt er gedurende 1
@@ -190,11 +192,11 @@ op.
     vaak kortweg 1k geschreven)?**
 
 11. Stel dat je over een 3,7V LiPo (Lithium Polymer) batterij beschikt
-    met een (ladings-) capaciteit van 100mAh.  
+    met een (ladings-) capaciteit van 100mAh.\
     **Hoeveel energie (in Joules) bevat de volledig opgeladen
     batterij?**
-    (Hint: P = I * V en E = P * t)
+    (Hint: P = I *V en E = P* t)
 
 12. Stel dat je een 1k weerstand tussen de plus en min van de batterij
-    zet. 
+    zet.\
     **Hoeveel uur duurt het dan voordat de batterij leeg is?**
