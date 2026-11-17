@@ -1,5 +1,13 @@
 # Programma UART
 
+## Versie I
+
+Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry **Pico**.
+
+De Logic Analyzer heb je al, zie graag de opdracht [UART met Pico en Arduino](../../hardware-interfacing/communicatie/UART/pico-arduino/).
+
+## Versie II
+
 Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry Pi('s). De configuratie van de Raspberry Pi en alle opdrachten rondom UART communicatie kosten best veel tijd. Er is dan ook een vervolg [UART deel 2](programma-uart-2.md) waar je een Logic Analyzer ontvangt.
 
 ## Voorbereiding
