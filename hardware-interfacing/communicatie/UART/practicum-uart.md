@@ -8,7 +8,7 @@
   - je elektronica spullen (breadboard, weerstanden etc.)
   - je logic analyser (als je deze hebt)
 - Lees alvast de lesstof door: [UART](./README.md)
-- Kijk de volgende video: [Salae Logic Analyser Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
+- Kijk de volgende video: [Saleae Logic Analyser Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 - Een indruk voor de plaats van deze opdracht in het geheel vind je [in dit overzicht](./img/overzicht1.png) en [in dit overzicht](./img/overzicht2.png).
 
 ## Opdracht 1

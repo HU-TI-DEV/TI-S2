@@ -10,7 +10,7 @@ Tijdens deze les oefenen we met seriele communicatie met Arduino's en Raspberry 
   - je elektronica spullen (breadboard, weerstanden etc.)
   - je Logic Analyzer (deze ontvang je in [practicum UART deel 2](programma-uart-2.md))
 - Lees alvast de lesstof door: [UART](../../hardware-interfacing/communicatie/UART/README.md)
-- Kijk de volgende video: [Salae Logic Analyzer Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
+- Kijk de volgende video: [Saleae Logic Analyzer Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 
 ## Tijdens de les
 

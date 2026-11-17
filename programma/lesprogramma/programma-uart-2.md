@@ -11,7 +11,7 @@ Optioneel gebruiken we een Arduino met een I2C OLED display om een andere manier
 - Neem je elektronica spullen (breadboard, weerstanden etc) mee.
 - Neem je Logic Analyzer mee (als je die al hebt)
 - Lees alvast de UART lesstof door: [UART](../../hardware-interfacing/communicatie/UART/README.md)
-- Kijk de volgende video [Salae Logic Analyzer Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
+- Kijk de volgende video [Saleae Logic Analyzer Tutorial](https://www.youtube.com/watch?v=rR5cEFRO9_s)
 
 Optioneel:
 
