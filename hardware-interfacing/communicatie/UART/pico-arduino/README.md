@@ -14,7 +14,7 @@
 
 - Zet de [Arduino code](./arduino_uart_test/) op de Arduino
 - Kijk wat je op de "Serial Monitor" kan zien.
-- Verbind twee channels van de Logic Analyzer met D0 (RX) en D1 (TX), en GND met GND
+- Verbind twee channels van de Logic Analyzer met D0 (`RX<-0`) en D1 (`TX->1`), en GND met GND
 - Zet de Logic Analyzer op 1MHz en start de analyzer (met de "play" button)
 - Stop ne een minuut de opname en kijk wat op welke channel zichtbaar is
 - Voeg een Analyzer toe voor "Async Serial" met een Bit rate van 115200
@@ -24,7 +24,7 @@
 
 - Zet de [Pico code](./pico_uart_test/) op de Pico.
 - Zet de "Run configuration" op MicroPython, schakel aan dat de REPL wordt getoond na het opstarten van de app
-- Verbind twee channels van de Logic Analyzer met GPIO4 (TX) en GPIO5 (RX), en GND met GND
+- Verbind twee channels van de Logic Analyzer met GPIO4 (`UART1 TX`) en GPIO5 (`UART1 RX`), en GND met GND (laat je niet verwarren door de SPI0-functies)
 - Zet de Logic Analyzer op 1MHz en start de analyzer (met de "play" button)
 - Stop ne een minuut de opname en kijk wat op welke channel zichtbaar is
 - Voeg een Analyzer toe voor "Async Serial" met een Bit rate van 115200
@@ -50,16 +50,16 @@ Maak met de weerstanden een spanningsdeler
 
 Maak deze verbindingen voor het zenden van Arduino Uno naar Pico:
 
-- Arduino TX lijn (D1)
+- Arduino `TX->1` lijn (D1)
 - 1 kOhm-weerstand
-- Pico RX lijn (GPIO5, Module pin 7)
+- Pico `UART1 RX` lijn (GPIO5, Module pin 7)
 - 2,2 kOhm weerstand
 - GND (Arduino en Pico)
 
 Maak deze verbindingen voor het zenden van Pico naar Arduino Uno:
 
-- Pico TX lijn (GPIO4, Module pin 6)
-- Arduino RX lijn (D0)
+- Pico `UART1 TX` lijn (GPIO4, Module pin 6)
+- Arduino `RX<-0` lijn (D0)
 - GND (Arduino en Pico)
 
 **Check alle verbindingen voordat je Arduino en Pico met USB verbindt!**
