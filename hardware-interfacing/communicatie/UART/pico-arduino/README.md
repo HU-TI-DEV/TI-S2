@@ -24,7 +24,7 @@
 
 - Zet de [Pico code](./pico_uart_test/) op de Pico.
 - Zet de "Run configuration" op MicroPython, schakel aan dat de REPL wordt getoond na het opstarten van de app
-- Verbind twee channels van de Logic Analyzer met GPIO4 (TX) en GPIO5 (TX), en GND met GND
+- Verbind twee channels van de Logic Analyzer met GPIO4 (TX) en GPIO5 (RX), en GND met GND
 - Zet de Logic Analyzer op 1MHz en start de analyzer (met de "play" button)
 - Stop ne een minuut de opname en kijk wat op welke channel zichtbaar is
 - Voeg een Analyzer toe voor "Async Serial" met een Bit rate van 115200
