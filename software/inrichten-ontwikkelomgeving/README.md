@@ -52,4 +52,4 @@ Doxygen is een tool die helpt bij het genereren van commentaar of documentatie.
 
 ### Online C++ editor/compiler
 
-Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor/compiler (bijvoorbeeld <https://onecompiler.com/cpp>).
+Mocht het helemaal niet lukken met de ontwikkelomgeving, gebruik dan *tijdelijk* een online C++ editor/compiler (bijvoorbeeld <https://onecompiler.com/cpp> of <https://onlinecompiler.io/cpp-online-compiler>).
