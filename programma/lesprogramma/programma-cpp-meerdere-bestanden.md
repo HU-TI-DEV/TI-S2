@@ -26,12 +26,14 @@ Zoals al eerder vermeld: het is handig om hier *een aparte workspace binnen VS c
 1. De docent licht het het gebruik van meerdere bestanden binnen C++ toe.
 2. Daarna kijken we naar de configuratie van de VS code ontwikkelomgeving.
 3. We compileren en runnen meerdere files.
-4. Bij tijd over: we kijken *kort* naar [godbolt.org](https://godbolt.org/)
+4. Bij tijd over: we kijken *kort* naar [pythontutor](https://pythontutor.com/visualize.html#mode=edit) en [godbolt.org](https://godbolt.org/).
 
 ## Help!
 Als niets meer werkt, gebruik dan *tijdelijk* een online omgeving: 
 - [cpp.sh](https://cpp.sh/) of 
 - [online compiler](https://www.programiz.com/cpp-programming/online-compiler/).
+Als je recursie of programma flows niet via je 'eigen' debugger kunt draaien:
+- [pythontutor](https://pythontutor.com/visualize.html#mode=edit).
 
 ### Canvas en ontwikkelomgeving
 1. Lever de oefening [Bestanden - TV sensatie](../../opdrachten/software/oefeningen/Bestanden%20-%20TV%20sensatie.md) in.
