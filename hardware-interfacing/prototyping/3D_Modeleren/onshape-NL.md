@@ -2,13 +2,13 @@
 
 # 3D Modelleren[](title-id) <!-- omit in toc -->
 
+
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
 - [Een introductie](#een-introductie)
-- [De basis van Fusion 360](#de-basis-van-fusion-360)
+- [De basis van On shape](#de-basis-van-on-shape)
 - [Gebruik van bestaande modellen](#gebruik-van-bestaande-modellen)
   - [Bekende dimensies](#bekende-dimensies)
-  - [Onbekende dimensies](#onbekende-dimensies)
 - [bronnen](#bronnen)
 
 ---
@@ -105,5 +105,4 @@ Een tweede optie is om een volledig 3d model te importeren. Hiervoor kan je een 
 
 
 ## bronnen
-
 

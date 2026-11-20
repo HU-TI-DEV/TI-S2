@@ -1,15 +1,14 @@
-![picture1](../3D_Modeleren/img/onshape/logo.png) [](logo-id)
+![logo](../3D_Modeleren/img/onshape/logo.png)[](logo-id)
 
-# 3D Modelleren[](title-id) <!-- omit in toc -->
+# 3D Modelling[](title-id) <!-- omit in toc -->
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Een introductie](#een-introductie)
-- [De basis van Fusion 360](#de-basis-van-fusion-360)
-- [Gebruik van bestaande modellen](#gebruik-van-bestaande-modellen)
-  - [Bekende dimensies](#bekende-dimensies)
-  - [Onbekende dimensies](#onbekende-dimensies)
-- [bronnen](#bronnen)
+- [An introduction](#an-introduction)
+- [The basics of On shape](#the-basics-of-on-shape)
+- [Use of existing models](#use-of-existing-models)
+  - [Known dimensions](#known-dimensions)
+- [Sources](#sources)
 
 ---
 
@@ -22,6 +21,7 @@
 There are many 3D modeling programs you can use to create objects for 3D printing or laser cutting. For this instruction we use On Shape. This software has capabilities for both flat materials and 3D object modeling. We will mainly focus on 3D models, but with this instruction you can just as easily create flat drawings to serve as a basis for a vector file that can be interpreted by a laser program. The difference with many other software tools is that On Shape runs entirely in the browser. 
 
 ## The basics of On shape
+
 When you open On Shape you will first see an empty screen with a number of buttons.
 
 ![picture1](../3D_Modeleren/img/onshape/startscherm.png)
@@ -87,9 +87,11 @@ Each side of the box can also be selected to create sketches. Keep in mind that 
 There are of course many more possibilities. In the sources you will find links to videos that explain examples of usage in more detail. This is only a selection; there is much more available, and if you have specific challenges there is definitely something out there for it. Also take a look at the different options available when creating the 2D sketch and the 3D object. 
 
 ## Use of existing models
+
 You usually make a box for an object you want to put inside it, for example a housing for a microcontroller or a sensor. Sometimes you know the dimensions of the object and sometimes you do not. Below are three possible ways to handle this in Fusion.
 
 ### Known dimensions
+
 For many objects you use, drawings are already available. As an example, you could create a housing for the Arduino Uno. If we search for Arduino Uno dimensions, we might find a drawing like this:
 
 ![picture26](../3D_Modeleren/img/fusion/Picture26.png)
@@ -101,4 +103,4 @@ A second option is to import a complete 3D model. For this you can create an acc
 
 ## Sources
 
-
+<!-- eof -->

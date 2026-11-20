@@ -4,12 +4,10 @@
 
 ### Inhoud[](toc-id) <!-- omit in toc -->
 
-- [Een introductie](#een-introductie)
-- [De basis van Fusion 360](#de-basis-van-fusion-360)
-- [Gebruik van bestaande modellen](#gebruik-van-bestaande-modellen)
-  - [Bekende dimensies](#bekende-dimensies)
-  - [Onbekende dimensies](#onbekende-dimensies)
-- [bronnen](#bronnen)
+- [An introduction](#an-introduction)
+- [Exporting your model](#exporting-your-model)
+- [Prusa slicer](#prusa-slicer)
+- [Sources](#sources)
 
 ---
 
