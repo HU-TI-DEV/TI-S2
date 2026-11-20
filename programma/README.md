@@ -136,7 +136,7 @@ Markeringen voor de onderwerpen:
 | ma  | `PRO` Opzetten `.md` to `.pdf` & Maak [portfolio-items](./lesprogramma/programma-portfolio-item.md). , Planning voorbereiden Sprint 2 (**TM**) |
 | di  | `C++` [Overerving](../programma/lesprogramma/programma-cpp-inheritance.md), [Compositie en UML](../software/c++/oop-concepten/klassen/compositie.md) (**GP**) |
 | wo  | `HWI` [Kirchhoff, LED](./lesprogramma/programma-kirchhoff-led.md) (**HP**)  |
-| do  | LoRa. [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
+| do  | LoRa. **vanaf 10.00 uur!** [Arduino IDE en de Raspberry Pi Pico W](./lesprogramma/programma-LoRaWAN.md). (**HS**) |
 
 
 ### Onderwijsweek A8 (19-10-2026)
@@ -159,8 +159,8 @@ Markeringen voor de onderwerpen:
 |     |  **Einde sprint 3** -- **Start sprint 4** |
 | ma  | `PRO` [Use Cases](./lesprogramma/programma-use-case.md) (**TM**) |
 | di  | `HWI` [Comparator en Mosfet](./lesprogramma/programma-comparator-mosfet.md), Schakelen, H-brug, flyback (**HP**) |
-| wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
-| do  | LoRa. [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md). (**HS**) |
+| wo  | `INF` [Installeren van een besturingssysteem](./lesprogramma/programma-Besturingssysteem.md) (**HS**) <br> LoRa [MQTT en TTN integratie](./lesprogramma/programma-LoRa-MQTT.md).  |
+| do  | `INF` [Docker & MQTT](./lesprogramma/programma-infrastructuur.md) MQTT bridge met TTN (**HS**) |
 |     | **Peilmoment 2** |
 |     | **Einde sprint 3** |
 
@@ -189,13 +189,14 @@ Markeringen voor de onderwerpen:
 
 ### Onderwijsweek B3 (23-11-2026)
 
+> Let op! **Programma gewijzigd ivm OV-staking ma/di 23/24 november 2026**
+
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | `PRO` [Finite state machine](./lesprogramma/programma-fsm.md) (**TM**) |
-| di  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
-| wo  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
-| do  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
-
+| di  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
+| wo  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
+| do  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
 
 ### Onderwijsweek B4 (30-11-2026)
 

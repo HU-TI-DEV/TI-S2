@@ -27,7 +27,7 @@ Bij SPI delen de slaves drie lijnen en zijn er daarnaast selectielijnen die aang
 
 ![De interne aansluiting van de draden in de slaves bij I<sup>2</sup>](../I2C/img/I2C_intern.png)
 
-I<sup>2</sup>C gebruikt dus twee lijnen: SDA (Serial DAta) en SCL (Serial CLock). Beide lijnen hebben een ‘pull-up’ weerstand. De slaves kunnen deze een lijnen laag trekken (met de ground verbinden), maar niet hoog trekken (dat doen de weerstanden al). Deze opzet wordt opencollector (of open-drain) genoemd. Deze interne aansluiting is zichtbaar in bovenstaand figuur. SDA kan worden gebruikt door zowel de master als de slaves. De SCL wordt aangestuurd door de master.
+I<sup>2</sup>C gebruikt dus twee lijnen: SDA (Serial DAta) en SCL (Serial CLock). Beide lijnen hebben een ‘pull-up’ weerstand. De slaves kunnen deze lijnen laag trekken (met de ground verbinden), maar niet hoog trekken (dat doen de weerstanden al). Deze opzet wordt opencollector (of open-drain) genoemd. Deze interne aansluiting is zichtbaar in bovenstaand figuur. SDA kan worden gebruikt door zowel de master als de slaves. De SCL wordt aangestuurd door de master.
 
 > De I<sup>2</sup>C standaard staat ‘clock stretching’ toe: een slave verlengt een klokpuls door de SCL-lijn laag te houden totdat de slave het bitje klaar heeft. Deze mogelijkheid wordt in de praktijk niet vaak gebruikt.
 

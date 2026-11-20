@@ -4,11 +4,11 @@ Om data te versturen zijn er verschillend mogelijkheden. Je hebt al kennis gemaa
 
 Je voert dit [prakticum/stappenplan](../../infrastructuur/LoRa/LoRaWAN/README.md) zelfstandig uit. De kennis die je opdoet gebruik je in het groepsproject. Een enkele implementatie met meerdere sensoren is voor het groepsproject voldoende. Draadloze communicatie via LoRaWAN is een eis van de opdrachtgever.
 
-Veel van wat we in deze serie doen kan je gebruiken voor de verantwoording voro leeruitkomst 7, 8 en 9.
+Veel van wat we in deze serie over draaloze communicatie doen kan je gebruiken voor de verantwoording van leeruitkomst 7, 8 en 9.
 
 ## Voorbereiding
 
-Zorg dat je de Raspberry Pi Pico uit Semester 1 weer van zolder meeneemt. Je hebt ook een USB kabel nodig. Al de overige materialen krijg je tijdens de les.
+Zorg dat je de Raspberry Pi Pico uit Semester 1 weer van zolder meeneemt. Je hebt ook een USB kabel nodig.
 
 ## Na de les
 

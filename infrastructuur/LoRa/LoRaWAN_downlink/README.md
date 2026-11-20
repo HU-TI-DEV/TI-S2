@@ -33,7 +33,7 @@ In LoRaWAN bestaan drie type devices [Class A, Class B en Class C](https://www.t
 
 ## Stoplicht aansluiten
 
-We gaan op de Raspberry Pi Pico W een stoplicht aansluiten. Het stoplicht wat jullie krijgen heeft al 'current limiting' resistors. Je kunt deze dus veilig aansluiten. De Wavshare module zorgt er wel voor dat we niet alle pinnen goed kunnen gebruiken. GPIO 16, 17 en 18 lijken veilig. Sluit ook Ground aan anders is er geen stroomkring.
+We gaan op de Raspberry Pi Pico W een stoplicht aansluiten. Het stoplicht wat jullie krijgen heeft al 'current limiting' resistors. Je kunt deze dus veilig aansluiten. De Waveshare module zorgt er wel voor dat we niet alle pinnen goed kunnen gebruiken. GPIO 16, 17 en 18 lijken veilig. Sluit ook Ground aan anders is er geen stroomkring.
 
 ## Stoplicht demo
 
@@ -78,14 +78,12 @@ Waarom zou in de praktijk een Class A end node geen verstandige keus zijn voor e
 De volgende opdrachten mag je samen met je team maken:
 - Stel met een nieuw commando de duur (tijd in seconden) in dat een led aan gaat
 - Stuur de huidige toestand van het stoplicht met een uplink bericht
-- Verstuur een downlink bericht via de MQTT integratie
   
 Optioneel:
 - Maak een automatische verkeerslichtcyclus. Bijvoorbeeld: rood, rood + geel, groen, geel, rood. Het downlink bericht moet dit automatisch programma kunnen starten, stoppen, pauzeren en hervatten.
 
 # Referenties
 
-- MQTT (<https://en.wikipedia.org/wiki/MQTT>)
 - LoRa (<https://en.wikipedia.org/wiki/LoRa>)
 - The Things Network (<https://www.thethingsnetwork.org>)
 - Hexadecimal in 60 seconds (<https://www.youtube.com/shorts/ZYIdA0gUNss>)

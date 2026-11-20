@@ -17,7 +17,7 @@
 
 ---
 
-**v0.1.0 [](version-id)** Start document voor LoRaWAN en installatie instructies door HU IICT[](author-id).
+**v0.1.1 [](version-id)** Start document voor LoRaWAN en installatie instructies door HU IICT[](author-id).
 
 ---
 
@@ -40,29 +40,29 @@ Je hebt nodig:
 
 - **Bevestig eerst de antenne aan de Waveshare HAT** (dit is een SMA naar I-PEX MHF I antennekabel, de kleine SMA-connector moet je voorzichtig in de kleine SMA-bus drukken).
 - Installeer dan pas de Waveshare HAT op de Raspberry Pi Pico W.
-  **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangegeven**, zo weet je hoe je deze module moet orienteren.
+  **Op de PCB van de Waveshare HAT staat de richting van de USB aansluiting aangegeven**, zo weet je hoe je deze module moet oriënteren.
 
 ## Arduino IDE geschikt maken
 
-We gaan nu de Arduino IDE geschikt maken om softare op de Raspberry Pi Pico te flashen.
+We gaan nu de Arduino IDE geschikt maken om software op de Raspberry Pi Pico te flashen.
 
 1) Installeer als je dit nog niet hebt gedaan de Arduino IDE.\
-   Ik heb gebruik gemaakt van Arduino IDE versie 2.3.8.
+   Ik heb gebruik gemaakt van Arduino IDE versie 2.3.10.
 2) Open de Arduino IDE.
 3) Ga naar `File` -> `Preferences` (op een Mac `Arduino IDE` -> `Preferences`)\
    Voeg bij “Additional Boards Manager URLs” de volgende URL toe: <https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json> en klik op `[OK]`
 4) Ga naar `Tools` -> `Boards` -> `Board Manager`.\
    Type “pico”.\
-   Installeer “Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III” (mijn versie is 5.5.1).
+   Installeer “Raspberry Pi Pico/RP2040/RP2350 by Earle F. Philhower, III” (mijn versie is 6.3.0).
 
 ## RadioLib installeren
 
 RadioLib geeft ons de SX1262 radio driver. (De SX1262 is de chip waarmee we data draadloos kunnen versturen.)
 
 1) Ga naar `Tools` -> `Manage Libraries` en zoek op “RadioLib”
-2) Installeer “RadioLib by Jan Gromes” (mijn versie is 7.6.0)
+2) Installeer “RadioLib by Jan Gromes” (mijn versie is 7.8.1)
 
-Je ben nu klaar met de voorbereidingen.
+Je ben nu klaar met de voorbereidingen. Wellicht is het opnieuw opstarten van de Arduino IDE nu een goed idee.
 
 # End Node aanmaken in The Things Network (TTN)
 

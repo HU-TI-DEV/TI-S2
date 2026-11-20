@@ -6,30 +6,34 @@ In een vorige les hebben we al wat kennis opgedaan over electrische grootheden, 
 
 - Neem je electronica spullen (breadboard, weerstanden etc) mee.
 
-Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
+- Lees [Reader Basis Electronica](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica.pdf) door van bladzijde 5 tot en met bladzijde 13 en bladzijde 28 tm 30.
 
-Lees van
-[TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
+- In de [Reader Basis Electronica Bijlagen](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/pdfs/reader-basis-electronica-bijlagen.pdf) vind je tips en regels voor het bouwen van schakelingen en voor het meten.
 
-de delen:
+- Lees van
+  [TI-S2/hardware-interfacing/basis-elektronica/README.md at main · HU-TI-DEV/TI-S2 (github.com)](https://github.com/HU-TI-DEV/TI-S2/blob/main/hardware-interfacing/basis-elektronica/README.md#basis-elektronica)
 
-- Resistance
-- Circuit Diagrams
-- Some circuits, components and concepts - Basic circuit
+  de delen:
 
-Een deel daarvan is ook in video-vorm te beschikbaar:
+  - Resistance
+  - Circuit Diagrams
+  - Some circuits, components and concepts - Basic circuit
 
-- [Electrisch Schema](https://www.youtube.com/watch?v=YDCEUy-kM9w)
-- [Weerstand](https://www.youtube.com/watch?v=tUazer9WJPY)
-- [De stroomwet van Kirchhoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
+  Een deel daarvan is ook in video-vorm te beschikbaar:
+
+  - [Electrisch Schema](https://www.youtube.com/watch?v=YDCEUy-kM9w)
+  - [Weerstand](https://www.youtube.com/watch?v=tUazer9WJPY)
+  - [De stroomwet van Kirchhoff](https://www.youtube.com/watch?v=ildeUrwVQEI)
 
 ## Tijdens de les
 
 Tijdens de les breng je de kennis die je hebt opgedaan tijdens je voorbereiding in praktijk:
 
 - [Practicum Circuit Multimeter Weerstand](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand.md)
-  Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
-- [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md)
+
+- Met een deel van de antwoorden (zonder uitwerking en tussenstappen) kun je jezelf alvast nakijken:
+
+  [Practicum Circuit Multimeter Weerstand - Deel van de antwoorden](../../hardware-interfacing/basis-elektronica/electrisch-circuit-multimeter-weerstand/practicum-circuit-multimeter-weerstand-deel-van-antwoorden.md)
 
 Overleggen met anderen wordt aangemoedigd, maar zorg dat je de opstelling zelf bouwt en de metingen zelf verricht.
 
@@ -49,4 +53,4 @@ Dit practicum is relatief klein - je houdt vermoedelijk tijd over. Voor het volg
 
 ## Portfolio Tip
 
-Ga na hoeveel stroom (een deel van-) je project gebruikt met behulp van een een meting via een kleine meetweerstand. Beschrijf je meting en leid er uit af hoeveel watt energie er wordt verbruikt. Vergelijk dat met het maximale vermogen dat je spanningsbron kan leveren en vraag er feedback op.
+Ga na hoeveel stroom (een deel van) je project gebruikt met behulp van een een meting via een kleine meetweerstand. Beschrijf je meting en leid er uit af hoeveel watt energie er wordt verbruikt. Vergelijk dat met het maximale vermogen dat je spanningsbron kan leveren en vraag er feedback op.
