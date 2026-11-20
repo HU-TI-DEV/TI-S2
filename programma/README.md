@@ -189,6 +189,8 @@ Markeringen voor de onderwerpen:
 
 ### Onderwijsweek B3 (23-11-2026)
 
+> Let op! **Programma gewijzigd ivm OV-staking ma/di 23/24 november 2026**
+
 | Dag | Project & Kennissessie |
 | --- | :--- |
 | ma  | `PRO` [Finite state machine](./lesprogramma/programma-fsm.md) (**TM**) |
