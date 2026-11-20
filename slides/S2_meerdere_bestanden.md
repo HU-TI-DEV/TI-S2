@@ -4,7 +4,7 @@ course: "TI-S2 • Software (C++)"
 author: Gera Pronk
 sources:
   - text: "meerdere bestanden"
-    url: "https://github.com/HU-TI-DEV/TI-S2/slides/S2_meerdere_bestanden.md"
+    url: "[S2_meerdere_bestanden.md](https://github.com/HU-TI-DEV/TI-S2/blob/main/slides/S2_meerdere_bestanden.md)"
   - "Content laten mixen tot ruwe slides: CoPilot"
 ---
 # C++ – Programmeren met meerdere bestanden
