@@ -193,9 +193,8 @@ Markeringen voor de onderwerpen:
 | --- | :--- |
 | ma  | `PRO` [Finite state machine](./lesprogramma/programma-fsm.md) (**TM**) |
 | di  | `C++` [Catch2](../software/c++/oop-concepten/unit-tests/README.md#catch2) en [Doxygen](../software/c++/oop-concepten/doxygen/README.md), [Library testen en documenteren](../programma/lesprogramma/programma-cpp-doxygen-unittesting.md) (**GP**) |
-| wo  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
-| do  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
-
+| wo  | `HWI` [Transistor en Condensator](./lesprogramma/programma-transistor-condensator.md), Darlington, ULN2003 (**HP**) <br> [Oscilloscoop 2 (meten aan hardware)](./lesprogramma/programma-oscilloscope-2.md) (**HP**) |
+| do  | `HWI` Workshop Datasheet lezen, [Servo Controller 1 - NE555](./lesprogramma/programma-servocontroller-1.md) (**HP**) |
 
 ### Onderwijsweek B4 (30-11-2026)
 
